@@ -1,0 +1,64 @@
+# Dependencies
+
+node_modules/
+
+# Build Output
+
+dist/
+coverage/
+tmp/
+out-tsc/
+*.tsbuildinfo
+
+# Environment Files
+
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE / Editors
+
+.vscode/
+.idea/
+.project
+.classpath
+.settings/
+.c9/
+*.launch
+*.sublime-workspace
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+testem.log
+
+# Cache / Temporary
+
+.sass-cache/
+.next/
+.expo/
+.expo-shared/
+tmp/
+
+# Python
+
+venv/
+
+# Misc
+
+/connect.lock
+/libpeerconnection.log
+typings/
+
+# Cursor / AI
+
+.cursor/
+.github/instructions/

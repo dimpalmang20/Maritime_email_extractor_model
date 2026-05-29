@@ -1,0 +1,17 @@
+{
+  "name": "maritime-mail-extractor",
+  "version": "1.0.0",
+  "description": "Lightweight maritime email extraction API.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/server.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "~5.9.3"
+  }
+}
