@@ -1,213 +1,199 @@
-# Maritime-email-extractor
-# Maritime Email Extraction Platform
+# Maritime Mail Extractor
 
-## Overview
+Lightweight standalone Node.js API for extracting structured maritime chartering data from raw broker emails.
 
-The Maritime Email Extraction Platform is an AI-assisted maritime intelligence system designed to extract structured shipping and chartering information from unstructured maritime broker emails.
+The project uses a rule-based maritime extraction engine designed for:
 
-The system processes complex maritime chartering emails and converts them into structured JSON records for analytics, search, and operational usage.
+* TC / VC / Tonnage classification
+* Laycan extraction
+* Cargo extraction
+* Commission extraction
+* Route parsing
+* Region mapping
+* Vessel requirement parsing
+* Multiline broker email segmentation
+
+The extractor processes complex maritime broker emails and returns structured enterprise JSON output.
 
 ---
 
 # Features
 
-- Voyage Charter (VC) extraction
-- Time Charter (TC) extraction
-- Tonnage position extraction
-- Cargo extraction
-- Port extraction
-- Laycan extraction
-- DWT extraction
-- Vessel type classification
-- Commission extraction
-- Confidence scoring
-- Structured JSON generation
-- Maritime analytics dashboard
-- Bulk email parsing support
-
----
-
-# Supported Maritime Data
-
-The platform can extract:
-
-- Cargo names
-- Cargo quantities
-- Load ports
-- Discharge ports
-- Delivery locations
-- Redelivery locations
-- Vessel type
-- DWT ranges
-- Laycan dates
-- Commission percentages
-- Open vessel positions
-- Maritime chartering terms
-
----
-
-# Run Backend & Frontend
-
-## 1. Start PostgreSQL
-
-Make sure PostgreSQL service is running and database exists.
-
-Database name:
-
-```env
-projectdb
-```
-
----
-
-# 2. Create `.env` File
-
-Create `.env` file in project root:
-
-```txt
-C:\Projects\Maritimemailextractor\.env
-```
-
-Add this inside `.env`:
-
-```env
-DATABASE_URL=postgresql://postgres:1234@localhost:5432/projectdb
-PORT=5000
-BASE_PATH=/
-```
-
----
-
-# Backend Setup
-
-## 3. Install Dependencies
-
-```bash
-pnpm install
-```
-
----
-
-## 4. Push Database Schema
-
-```bash
-pnpm --filter @workspace/db run push
-```
-
-This command:
-
-- Connects PostgreSQL
-- Creates database tables
-- Applies Drizzle schema changes
-
----
-
-## 5. Run Backend Server
-
-Open terminal:
-
-```powershell
-$env:DATABASE_URL="postgresql://postgres:1234@localhost:5432/projectdb"
-```
-
-```powershell
-$env:PORT="5000"
-```
-
-Run backend:
-
-```bash
-pnpm --filter @workspace/api-server run dev
-```
-
-Backend runs on:
-
-```txt
-http://localhost:5000
-```
-
----
-
-# Frontend Setup
-
-## 6. Open Second Terminal
-
-Go to project root:
-
-```bash
-cd C:\Projects\Maritimemailextractor
-```
-
----
-
-## 7. Set Frontend Environment Variables
-
-```powershell
-$env:PORT="5173"
-```
-
-```powershell
-$env:BASE_PATH="/"
-```
-
----
-
-## 8. Run Frontend
-
-```bash
-pnpm --filter @workspace/maritime-extractor run dev
-```
-
-Frontend runs on:
-
-```txt
-http://localhost:5173
-```
-
----
-
-# Final Running Structure
-
-| Service | Port |
-|---|---|
-| Backend API | 5000 |
-| Frontend | 5173 |
-
----
-
-# Important Notes
-
-- Keep backend terminal running while using frontend.
-- PostgreSQL must remain active.
-- Run backend before frontend.
-- If frontend fails, ensure `PORT` and `BASE_PATH` are set.
-- If backend fails, ensure `DATABASE_URL` is correct.
-
----
-
-# Tech Stack
-
-- Node.js
-- TypeScript
-- Express.js
-- PostgreSQL
-- Drizzle ORM
-- React
-- Vite
-- Tailwind CSS
-- PNPM Workspaces
-
-## Database
-- PostgreSQL
+* Standalone lightweight API
+* No frontend
+* No PostgreSQL
+* No environment variables
+* No authentication required
+* Handles long and multiline broker emails
+* Supports TC / VC / Tonnage style messages
+* JSON-based extraction API
+* Fast rule-based extraction engine
 
 ---
 
 # Project Structure
 
-```bash
-artifacts/
-lib/
-scripts/
+```text id="l2m1kq"
+src/
+  maritime-extractor.ts
+  server.ts
+  sample-email.txt
+
 package.json
-pnpm-workspace.yaml
+package-lock.json
+tsconfig.json
 README.md
+sample-output.json
+.gitignore
+```
+
+---
+
+# Installation
+
+Install dependencies:
+
+```bash id="r6d0ac"
+npm install
+```
+
+---
+
+# Run the Project
+
+Start the API server:
+
+```bash id="l3f8gk"
+npm start
+```
+
+The API runs on:
+
+```text id="e2k9tz"
+http://localhost:3000
+```
+
+---
+
+# Health Check
+
+Open in browser:
+
+```text id="v7o4qa"
+http://localhost:3000/health
+```
+
+Expected response:
+
+```json id="i4p2dy"
+{
+  "status": "ok"
+}
+```
+
+---
+
+# API Endpoint
+
+## POST `/extract`
+
+Extract structured maritime data from raw broker emails.
+
+### Request Body
+
+```json id="z5j8cw"
+{
+  "emailBody": "raw maritime broker email"
+}
+```
+
+---
+
+# PowerShell Testing (Recommended)
+
+## Step 1 — Create Request Body
+
+```powershell id="k9n1fw"
+$body = @{
+  emailBody = [string](Get-Content .\src\sample-email.txt -Raw)
+} | ConvertTo-Json -Depth 10
+```
+
+## Step 2 — Send Request
+
+```powershell id="f1s4mr"
+$response = Invoke-RestMethod `
+-Uri http://localhost:3000/extract `
+-Method Post `
+-ContentType "application/json" `
+-Body $body
+```
+
+## Step 3 — Print JSON Output
+
+```powershell id="u8d6yx"
+$response | ConvertTo-Json -Depth 20
+```
+
+---
+
+# Example JSON Response
+
+```json id="o3v7nb"
+[
+  {
+    "email_type": "TC",
+    "dwt": "58000",
+    "cargo": "Bulk Harmless Cargo",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "confidence_score": 0.98
+  }
+]
+```
+
+---
+
+# Development
+
+Build TypeScript:
+
+```bash id="q2a5ph"
+npm run build
+```
+
+Run development mode:
+
+```bash id="n6x8lu"
+npm run dev
+```
+
+---
+
+# Extraction Capabilities
+
+The extraction engine supports:
+
+* Maritime broker emails
+* TC / VC charter formats
+* DWT extraction
+* Laycan parsing
+* Cargo parsing
+* Commission extraction
+* Regional abbreviations
+* Route extraction
+* Restrictions parsing
+* Multiline chartering emails
+* Segmented broker circulars
+
+---
+
+# Notes
+
+* The project is intentionally lightweight and standalone.
+* No database or frontend setup is required.
+* The extraction engine is rule-based and optimized for maritime chartering workflows.
+* Accuracy depends on broker email formatting and supported maritime patterns.
+* Designed for simple local setup and API-based integration.
+
+---
