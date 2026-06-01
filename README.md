@@ -2,18 +2,7 @@
 
 Lightweight standalone Node.js API for extracting structured maritime chartering data from raw broker emails.
 
-The project uses a rule-based maritime extraction engine designed for:
-
-* TC / VC / Tonnage classification
-* Laycan extraction
-* Cargo extraction
-* Commission extraction
-* Route parsing
-* Region mapping
-* Vessel requirement parsing
-* Multiline broker email segmentation
-
-The extractor processes complex maritime broker emails and returns structured enterprise JSON output.
+The project uses an enterprise-style rule-based maritime extraction engine optimized for real-world broker circulars, TC/VC cargo emails, and tonnage requirements.
 
 ---
 
@@ -24,16 +13,24 @@ The extractor processes complex maritime broker emails and returns structured en
 * No PostgreSQL
 * No environment variables
 * No authentication required
-* Handles long and multiline broker emails
-* Supports TC / VC / Tonnage style messages
-* JSON-based extraction API
+* Handles multiline broker circular emails
+* Supports TC / VC / Tonnage classification
+* Dynamic JSON extraction response
+* Multi-block segmentation support
+* Maritime abbreviation normalization
+* Laycan parsing
+* Cargo extraction
+* Commission extraction
+* Route parsing
+* Vessel requirement parsing
+* Confidence scoring
 * Fast rule-based extraction engine
 
 ---
 
 # Project Structure
 
-```text id="l2m1kq"
+```text
 src/
   maritime-extractor.ts
   server.ts
@@ -53,7 +50,7 @@ sample-output.json
 
 Install dependencies:
 
-```bash id="r6d0ac"
+```bash
 npm install
 ```
 
@@ -63,13 +60,13 @@ npm install
 
 Start the API server:
 
-```bash id="l3f8gk"
+```bash
 npm start
 ```
 
 The API runs on:
 
-```text id="e2k9tz"
+```text
 http://localhost:3000
 ```
 
@@ -79,13 +76,13 @@ http://localhost:3000
 
 Open in browser:
 
-```text id="v7o4qa"
+```text
 http://localhost:3000/health
 ```
 
 Expected response:
 
-```json id="i4p2dy"
+```json
 {
   "status": "ok"
 }
@@ -99,9 +96,11 @@ Expected response:
 
 Extract structured maritime data from raw broker emails.
 
-### Request Body
+---
 
-```json id="z5j8cw"
+# Request Body
+
+```json
 {
   "emailBody": "raw maritime broker email"
 }
@@ -113,7 +112,7 @@ Extract structured maritime data from raw broker emails.
 
 ## Step 1 — Create Request Body
 
-```powershell id="k9n1fw"
+```powershell
 $body = @{
   emailBody = [string](Get-Content .\src\sample-email.txt -Raw)
 } | ConvertTo-Json -Depth 10
@@ -121,7 +120,7 @@ $body = @{
 
 ## Step 2 — Send Request
 
-```powershell id="f1s4mr"
+```powershell
 $response = Invoke-RestMethod `
 -Uri http://localhost:3000/extract `
 -Method Post `
@@ -131,7 +130,7 @@ $response = Invoke-RestMethod `
 
 ## Step 3 — Print JSON Output
 
-```powershell id="u8d6yx"
+```powershell
 $response | ConvertTo-Json -Depth 20
 ```
 
@@ -139,14 +138,18 @@ $response | ConvertTo-Json -Depth 20
 
 # Example JSON Response
 
-```json id="o3v7nb"
+```json
 [
   {
-    "email_type": "TC",
-    "dwt": "58000",
-    "cargo": "Bulk Harmless Cargo",
-    "commission": "3.75%",
-    "matching_region": "West Africa",
+    "email_type": "VC",
+    "cargo": "Urea",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "Bandar Imam Khomeini, Iran",
+    "discharge_port": "Durban, South Africa",
+    "laycan_start": "2026-07-16",
+    "laycan_end": "2026-07-20",
+    "commission": "1.25%",
     "confidence_score": 0.98
   }
 ]
@@ -158,13 +161,13 @@ $response | ConvertTo-Json -Depth 20
 
 Build TypeScript:
 
-```bash id="q2a5ph"
+```bash
 npm run build
 ```
 
 Run development mode:
 
-```bash id="n6x8lu"
+```bash
 npm run dev
 ```
 
@@ -174,17 +177,20 @@ npm run dev
 
 The extraction engine supports:
 
-* Maritime broker emails
+* Maritime broker circular emails
 * TC / VC charter formats
+* Tonnage requirements
 * DWT extraction
 * Laycan parsing
-* Cargo parsing
+* Cargo extraction
 * Commission extraction
-* Regional abbreviations
-* Route extraction
+* Maritime route parsing
+* Regional abbreviation normalization
+* Multi-order broker emails
+* Segmented cargo blocks
+* Vessel requirement parsing
 * Restrictions parsing
-* Multiline chartering emails
-* Segmented broker circulars
+* Compact broker shorthand formats
 
 ---
 
@@ -192,8 +198,9 @@ The extraction engine supports:
 
 * The project is intentionally lightweight and standalone.
 * No database or frontend setup is required.
-* The extraction engine is rule-based and optimized for maritime chartering workflows.
+* The extraction engine is fully rule-based.
+* Optimized for maritime chartering workflows.
+* Designed for local API integration and broker email processing.
 * Accuracy depends on broker email formatting and supported maritime patterns.
-* Designed for simple local setup and API-based integration.
 
 ---
