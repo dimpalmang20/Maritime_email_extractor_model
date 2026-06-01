@@ -1,7 +1,7 @@
 import { createServer, type IncomingMessage, type ServerResponse } from "node:http";
 import { extractToEnterpriseJSON } from "./maritime-extractor.js";
 
-const port = 3000;
+const port = parseInt(process.env.PORT ?? "3000", 10);
 
 function sendJson(
   res: ServerResponse,
