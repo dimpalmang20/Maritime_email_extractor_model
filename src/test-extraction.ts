@@ -778,6 +778,235 @@ Alpha Beta Shipping Brokers
       (r) => ({ pass: r.every(e => e.confidence_score >= 0.55), msg: `all confidence>=0.55` }),
     ],
   },
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // NEW — Improvement validation cases (N01-N10)
+  // ═══════════════════════════════════════════════════════════════════════
+
+  {
+    id: "N01",
+    label: "EU apostrophe-thousands format — 15-18'000 MT UREA classified as VC",
+    level: "MEDIUM",
+    emailBody: `
+15-18'000 MT UREA
+LP: VIZAG, INDIA
+DP: ENNORE, INDIA
+LAYCAN: 01-05 AUG 2025
+ADCOM: 2.5%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "VC", msg: `email_type=VC (apostrophe normalized) got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "cargo" in r[0] && /urea/i.test((r[0] as any).cargo ?? ""), msg: `cargo has Urea got=${(r[0] as any)?.cargo}` }),
+      (r) => ({ pass: !!r[0] && "load_port" in r[0] && /vizag|visakhapatnam/i.test((r[0] as any).load_port ?? ""), msg: `load_port has Vizag got=${(r[0] as any)?.load_port}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.55, msg: `confidence>=0.55 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
+  {
+    id: "N02",
+    label: "Compact rate parsing — 8000X/5000X load/discharge rate shorthand",
+    level: "MEDIUM",
+    emailBody: `
+CARGO: COAL
+QUANTITY: 50,000 MT
+LP: COLOMBO
+DP: ROTTERDAM
+LAYCAN: 10-15 NOV 2025
+LR/DR: 8000X/5000X
+ADCOM: 3.75%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "VC", msg: `email_type=VC got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "load_rate" in r[0] && !!(r[0] as any).load_rate, msg: `load_rate set (compact 8000X) got=${(r[0] as any)?.load_rate}` }),
+      (r) => ({ pass: !!r[0] && "discharge_rate" in r[0] && !!(r[0] as any).discharge_rate, msg: `discharge_rate set (compact 5000X) got=${(r[0] as any)?.discharge_rate}` }),
+      (r) => ({ pass: !!r[0] && "cargo" in r[0] && /coal/i.test((r[0] as any).cargo ?? ""), msg: `cargo has Coal got=${(r[0] as any)?.cargo}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.60, msg: `confidence>=0.60 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
+  {
+    id: "N03",
+    label: "Multi-port discharge — OR notation (Iskenderun or Durban)",
+    level: "MEDIUM",
+    emailBody: `
+CARGO: BAUXITE
+QUANTITY: 45,000 MT
+LP: DAKAR, SENEGAL
+DP: ISKENDERUN OR DURBAN
+LAYCAN: 20-25 SEP 2025
+ADCOM: 3.75%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "VC", msg: `email_type=VC got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "discharge_port" in r[0] && /iskenderun|durban/i.test((r[0] as any).discharge_port ?? ""), msg: `discharge_port has Iskenderun/Durban got=${(r[0] as any)?.discharge_port}` }),
+      (r) => ({ pass: !!r[0] && "cargo" in r[0] && /bauxite/i.test((r[0] as any).cargo ?? ""), msg: `cargo has Bauxite got=${(r[0] as any)?.cargo}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.55, msg: `confidence>=0.55 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
+  {
+    id: "N04",
+    label: "Combined cargo — SLAG + CLINKER normalized with slash",
+    level: "MEDIUM",
+    emailBody: `
+CARGO: SLAG + CLINKER
+QUANTITY: 35,000 MT
+LP: AQABA, JORDAN
+DP: ROTTERDAM
+LAYCAN: 05-10 OCT 2025
+ADCOM: 3.75%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "VC", msg: `email_type=VC got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "cargo" in r[0] && /slag|clinker/i.test((r[0] as any).cargo ?? ""), msg: `cargo has Slag/Clinker got=${(r[0] as any)?.cargo}` }),
+      (r) => ({ pass: !!r[0] && "quantity" in r[0] && (r[0] as any).quantity === "35000", msg: `quantity=35000 got=${(r[0] as any)?.quantity}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.60, msg: `confidence>=0.60 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
+  {
+    id: "N05",
+    label: "PROMPT laycan — today date auto-filled",
+    level: "EASY",
+    emailBody: `
+CARGO: WHEAT
+QUANTITY: 30,000 MT
+LP: NOVOROSSIYSK
+DP: DAMIETTA
+LAYCAN: PROMPT
+ADCOM: 2.5%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "VC", msg: `email_type=VC got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "laycan_start" in r[0] && !!(r[0] as any).laycan_start, msg: `laycan_start set (PROMPT → today) got=${(r[0] as any)?.laycan_start}` }),
+      (r) => ({ pass: !!r[0] && "cargo" in r[0] && /wheat/i.test((r[0] as any).cargo ?? ""), msg: `cargo has Wheat got=${(r[0] as any)?.cargo}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.60, msg: `confidence>=0.60 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
+  {
+    id: "N06",
+    label: "Q1 2026 laycan format — quarter date parsing",
+    level: "MEDIUM",
+    emailBody: `
+ACCT: GRAIN HOUSE TRADING LTD
+CARGO: GRAIN OR SOYA
+DWT: 55,000 - 65,000
+DEL: SINGAPORE
+REDEL: WORLDWIDE
+LAYCAN: Q1 2026
+DURATION: 3-6 MONTHS
+HIRE: USD 14,500/DAY
+ADCOM: 5%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "TC", msg: `email_type=TC got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "laycan_start" in r[0] && (r[0] as any).laycan_start === "2026-01-01", msg: `laycan_start=2026-01-01 got=${(r[0] as any)?.laycan_start}` }),
+      (r) => ({ pass: !!r[0] && "laycan_end" in r[0] && (r[0] as any).laycan_end === "2026-03-31", msg: `laycan_end=2026-03-31 got=${(r[0] as any)?.laycan_end}` }),
+      (r) => ({ pass: !!r[0] && "hire_rate" in r[0] && /14500/i.test((r[0] as any).hire_rate ?? ""), msg: `hire_rate has 14500 got=${(r[0] as any)?.hire_rate}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.60, msg: `confidence>=0.60 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
+  {
+    id: "N07",
+    label: "H2 2025 laycan format — half-year date parsing",
+    level: "MEDIUM",
+    emailBody: `
+ACCT: PACIFIC GRAIN CORP
+CARGO: BARLEY
+DWT: 50,000 - 60,000
+DEL: KANDLA
+REDEL: WORLDWIDE
+LAYCAN: H2 2025
+DURATION: 4-6 MONTHS
+ADCOM: 5%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "TC", msg: `email_type=TC got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "laycan_start" in r[0] && (r[0] as any).laycan_start === "2025-07-01", msg: `laycan_start=2025-07-01 got=${(r[0] as any)?.laycan_start}` }),
+      (r) => ({ pass: !!r[0] && "laycan_end" in r[0] && (r[0] as any).laycan_end === "2025-12-31", msg: `laycan_end=2025-12-31 got=${(r[0] as any)?.laycan_end}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.55, msg: `confidence>=0.55 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
+  {
+    id: "N08",
+    label: "Cargo canonical normalization — FERTS → Fertilizers",
+    level: "EASY",
+    emailBody: `
+CARGO: FERTS
+QUANTITY: 25,000 MT
+LP: AQABA
+DP: KARACHI
+LAYCAN: 10-15 SEP 2025
+ADCOM: 3.75%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "VC", msg: `email_type=VC got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "cargo" in r[0] && (r[0] as any).cargo === "Fertilizers", msg: `cargo=Fertilizers (from FERTS alias) got=${(r[0] as any)?.cargo}` }),
+      (r) => ({ pass: !!r[0] && "cargo_type" in r[0] && (r[0] as any).cargo_type === "Dry Bulk", msg: `cargo_type=Dry Bulk got=${(r[0] as any)?.cargo_type}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.60, msg: `confidence>=0.60 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
+  {
+    id: "N09",
+    label: "TC with USD hire rate — rate parsing accuracy",
+    level: "EASY",
+    emailBody: `
+ACCT: PACIFIC ENERGY CORP
+CARGO: BULK HARMLESS CARGO
+DWT: 50,000 - 60,000
+DEL: CHITTAGONG
+REDEL: AGULF
+LAYCAN: 15-25 SEP 2025
+DURATION: 4-6 MONTHS
+HIRE: USD 16,500/DAY
+ADCOM: 5%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "TC", msg: `email_type=TC got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "hire_rate" in r[0] && /16500/.test((r[0] as any).hire_rate ?? ""), msg: `hire_rate has 16500 got=${(r[0] as any)?.hire_rate}` }),
+      (r) => ({ pass: !!r[0] && "commission" in r[0] && (r[0] as any).commission === "5%", msg: `commission=5% got=${(r[0] as any)?.commission}` }),
+      (r) => ({ pass: !!r[0] && "duration" in r[0] && !!(r[0] as any).duration, msg: `duration set got=${(r[0] as any)?.duration}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.65, msg: `confidence>=0.65 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
+  {
+    id: "N10",
+    label: "SPSB port notation — safe-port count stripped from port name",
+    level: "MEDIUM",
+    emailBody: `
+CARGO: COAL
+QUANTITY: 55,000 MT
+LP: 1 SPSB VIZAG
+DP: 1 SPSB ROTTERDAM
+LAYCAN: 20-25 AUG 2025
+LOAD RATE: 12,000 MT/DAY
+DISCH RATE: 8,000 MT/DAY
+ADCOM: 3.75%
+    `.trim(),
+    expectedCount: 1,
+    checks: [
+      (r) => ({ pass: r[0]?.email_type === "VC", msg: `email_type=VC got=${r[0]?.email_type}` }),
+      (r) => ({ pass: !!r[0] && "load_port" in r[0] && /vizag|visakhapatnam/i.test((r[0] as any).load_port ?? ""), msg: `load_port has Vizag (SPSB stripped) got=${(r[0] as any)?.load_port}` }),
+      (r) => ({ pass: !!r[0] && "discharge_port" in r[0] && /rotterdam/i.test((r[0] as any).discharge_port ?? ""), msg: `discharge_port has Rotterdam (SPSB stripped) got=${(r[0] as any)?.discharge_port}` }),
+      (r) => ({ pass: !!r[0] && "load_rate" in r[0] && !!(r[0] as any).load_rate, msg: `load_rate set got=${(r[0] as any)?.load_rate}` }),
+      (r) => ({ pass: r[0]?.confidence_score >= 0.65, msg: `confidence>=0.65 got=${r[0]?.confidence_score}` }),
+    ],
+  },
+
 ];
 
 // ─── Test Runner ──────────────────────────────────────────────────────────────

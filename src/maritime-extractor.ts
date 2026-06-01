@@ -137,19 +137,23 @@ const REGION_MAP: Record<string, string> = {
   WCIND: "West Coast India", ECIND: "East Coast India",
   // SE Asia
   "S.E.ASIA": "South East Asia", SEASIA: "South East Asia", SEA: "South East Asia",
+  "TM SEA": "South East Asia", TMSEA: "South East Asia",
   FEASTASIA: "Far East Asia",
   // Middle East / Gulf
   AG: "Arabian Gulf", PG: "Persian Gulf", ARAG: "Arabian Gulf",
   "A.GULF": "Arabian Gulf", AGULF: "Arabian Gulf", "P.GULF": "Persian Gulf",
+  MEG: "Middle East Gulf", GULF: "Arabian Gulf",
   // Mediterranean / Europe
   MED: "Mediterranean", BSEA: "Black Sea", "B.SEA": "Black Sea",
   BLSEA: "Black Sea", BALTIC: "Baltic Sea", NEUROPEAN: "North European",
   NEUROP: "North European", "N.EUROP": "North European",
-  ARA: "ARA Range", NTHR: "North European",
+  ARA: "ARA Range", NTHR: "North European", CONT: "Continent (ARA)",
+  EMED: "East Mediterranean", WMED: "West Mediterranean",
   // Americas
   USEC: "US East Coast", USGC: "US Gulf Coast", USG: "US Gulf Coast",
   USWC: "US West Coast", WCCA: "West Coast Central America",
   WCSA: "West Coast South America", ECSA: "East Coast South America",
+  "UP RIVER": "Upriver, Argentina", UPRIVER: "Upriver, Argentina",
   // Routing / Other
   GOA: "Gulf of Aden", HRA: "High Risk Area", COGH: "Cape of Good Hope",
   WWW: "World Wide", WW: "World Wide", "W.W.": "World Wide",
@@ -163,16 +167,21 @@ const REGION_MAP: Record<string, string> = {
   VIETNAM: "Vietnam", THAILAND: "Thailand",
   PAKISTAN: "Pakistan", BANGLADESH: "Bangladesh",
   CHINA: "China", INDIA: "India", TAIWAN: "Taiwan",
+  TURKEY: "Turkey", UKRAINE: "Ukraine", RUSSIA: "Russia",
+  BRAZIL: "Brazil", ARGENTINA: "Argentina",
 };
 
 const PORT_ABBREVS: Record<string, string> = {
   // India
   BIK: "Bandar Imam Khomeini, Iran", KANDLA: "Kandla, India",
   KAKINADA: "Kakinada, India", VIZAG: "Visakhapatnam, India",
+  MORMUGAO: "Mormugao, India", KRISHNAPATNAM: "Krishnapatnam, India",
+  GANGAVARAM: "Gangavaram, India", ENNORE: "Ennore, India",
   MUMBAI: "Mumbai, India", HAZIRA: "Hazira, India", NHAVA: "Nhava Sheva, India",
   HALDIA: "Haldia, India", PARADIP: "Paradip, India",
   MANGALORE: "Mangalore, India", COCHIN: "Cochin, India", TUTICORIN: "Tuticorin, India",
   PORBANDAR: "Porbandar, India", MUNDRA: "Mundra, India",
+  SIKKA: "Sikka, India", OKHA: "Okha, India", PIPAVAV: "Pipavav, India",
   // SE Asia
   LUMUT: "Lumut, Malaysia", SURABAYA: "Surabaya, Indonesia",
   BAHODOPI: "Bahodopi, Indonesia", CIGADING: "Cigading, Indonesia",
@@ -249,41 +258,73 @@ const VESSEL_SIZE_MAP: Record<string, { min: number; max: number; type: string }
 };
 
 const CARGO_ALIASES: Record<string, string> = {
-  "IRON ORE": "Iron Ore", "IRON FINES": "Iron Ore Fines",
-  "PCI COAL": "PCI Coal", "MET COAL": "Metallurgical Coal",
-  "THER COAL": "Thermal Coal", "STEAM COAL": "Steam Coal",
-  "RAW SUGAR": "Raw Sugar", "GRAIN/SOYA": "Grain/Soybean",
-  "SOYA BEANS": "Soybeans", "SOYABEANS": "Soybeans",
-  "WHEAT": "Wheat", "BARLEY": "Barley", "RICE": "Rice",
-  "DAP": "DAP Fertilizer", "MOP": "MOP Fertilizer",
-  "NPK": "NPK Fertilizer", "UREA": "Urea", "AN": "Ammonium Nitrate",
-  "PETCOKE": "Petroleum Coke", "PET COKE": "Petroleum Coke",
-  "CLINKER": "Clinker", "LIMESTONE": "Limestone",
+  // Coal
+  "COAL": "Coal", "STEAM COAL": "Steam Coal", "THERMAL COAL": "Thermal Coal",
+  "THER COAL": "Thermal Coal", "PCI COAL": "PCI Coal", "MET COAL": "Metallurgical Coal",
+  "COKING COAL": "Coking Coal",
+  // Iron / Steel
+  "IRON ORE": "Iron Ore", "IRON FINES": "Iron Ore Fines", "IRON PELLETS": "Iron Ore Pellets",
+  "IRON SLAG": "Iron Slag", "SLAG": "Slag", "STEEL SCRAP": "Steel Scrap",
+  "STEEL COILS": "Steel Coils", "STEEL BILLETS": "Steel Billets",
+  // Fertilizers
+  "UREA": "Urea", "DAP": "DAP Fertilizer", "MOP": "MOP Fertilizer",
+  "NPK": "NPK Fertilizer", "AN": "Ammonium Nitrate", "UAN": "Urea Ammonium Nitrate",
+  "FERTS": "Fertilizers", "FERT": "Fertilizers",
+  "FERTILIZER": "Fertilizers", "FERTILIZERS": "Fertilizers",
+  "FERTILISERS": "Fertilizers", "FERTILISER": "Fertilizers",
+  "SUPERPHOSPHATE": "Superphosphate", "TSP": "Triple Superphosphate",
+  "POTASH": "Potash", "SOP": "Sulphate of Potash",
+  // Grains
+  "GRAIN": "Grain", "GRAINS": "Grain", "WHEAT": "Wheat", "BARLEY": "Barley",
+  "MAIZE": "Maize", "CORN": "Corn", "RICE": "Rice", "MILLET": "Millet",
+  "SORGHUM": "Sorghum", "OATS": "Oats", "RYE": "Rye",
+  "SOYA BEANS": "Soybeans", "SOYABEANS": "Soybeans", "SOYBEANS": "Soybeans",
+  "SOYBEAN": "Soybeans", "GRAIN/SOYA": "Grain/Soybean",
+  "SOYBEAN MEAL": "Soybean Meal", "SOYA MEAL": "Soybean Meal",
+  "SUNFLOWER MEAL": "Sunflower Meal",
+  // Minerals
+  "LIMESTONE": "Limestone", "CALCIUM CARBONATE": "Calcium Carbonate",
   "CHROME ORE": "Chrome Ore", "BAUXITE": "Bauxite",
   "MANGANESE": "Manganese Ore", "NICKEL ORE": "Nickel Ore",
-  "COPPER CONC": "Copper Concentrate",
-  "BULK HARMLESS": "Bulk Harmless Cargo",
-  "BULK HARMLESS CARGO": "Bulk Harmless Cargo",
-  "LAWFUL BULK": "Lawful Bulk Cargo",
+  "COPPER CONC": "Copper Concentrate", "COPPER CONCENTRATE": "Copper Concentrate",
+  "CLINKER": "Clinker", "GYPSUM": "Gypsum", "BENTONITE": "Bentonite",
+  "SALT": "Salt", "SULPHUR": "Sulphur", "SULFUR": "Sulphur",
+  "PHOSPHATE": "Phosphate Rock", "ROCK PHOSPHATE": "Phosphate Rock",
+  "SAND": "Sand", "SILICA SAND": "Silica Sand",
+  // Oil / Petrochemicals
+  "PETCOKE": "Petroleum Coke", "PET COKE": "Petroleum Coke", "PETROLEUM COKE": "Petroleum Coke",
+  "RAW SUGAR": "Raw Sugar", "SUGAR": "Sugar",
+  // Harmless / General
+  "BULK HARMLESS": "Bulk Harmless Cargo", "BULK HARMLESS CARGO": "Bulk Harmless Cargo",
+  "LAWFUL BULK": "Lawful Bulk Cargo", "HARMLESS BULK": "Bulk Harmless Cargo",
+  "GENERAL CARGO": "General Cargo",
 };
 
 const CARGO_TYPE_MAP: Record<string, string> = {
+  // Dry Bulk
   BULK: "Dry Bulk", GRAIN: "Dry Bulk", COAL: "Dry Bulk",
-  FERTILIZER: "Dry Bulk", FERTS: "Dry Bulk", UREA: "Dry Bulk",
+  FERTILIZER: "Dry Bulk", FERTILIZERS: "Dry Bulk", FERTILISER: "Dry Bulk",
+  FERTS: "Dry Bulk", FERT: "Dry Bulk", UREA: "Dry Bulk",
   IRON: "Dry Bulk", SLAG: "Dry Bulk", CLINKER: "Dry Bulk",
   PETCOKE: "Dry Bulk", LIMESTONE: "Dry Bulk", MAIZE: "Dry Bulk",
-  CORN: "Dry Bulk", SOYBEAN: "Dry Bulk", SOYA: "Dry Bulk",
-  POTASH: "Dry Bulk", SULPHUR: "Dry Bulk", SALT: "Dry Bulk",
+  CORN: "Dry Bulk", SOYBEAN: "Dry Bulk", SOYA: "Dry Bulk", SOYBEANS: "Dry Bulk",
+  POTASH: "Dry Bulk", SULPHUR: "Dry Bulk", SULFUR: "Dry Bulk", SALT: "Dry Bulk",
   BAUXITE: "Dry Bulk", MANGANESE: "Dry Bulk", WHEAT: "Dry Bulk",
   BARLEY: "Dry Bulk", RICE: "Dry Bulk", DAP: "Dry Bulk",
   MOP: "Dry Bulk", NPK: "Dry Bulk", CHROME: "Dry Bulk",
   NICKEL: "Dry Bulk", COPPER: "Dry Bulk", SUGAR: "Dry Bulk",
+  GYPSUM: "Dry Bulk", BENTONITE: "Dry Bulk", PHOSPHATE: "Dry Bulk",
+  SAND: "Dry Bulk", MILLET: "Dry Bulk", SORGHUM: "Dry Bulk",
+  CALCIUM: "Dry Bulk", SUPERPHOSPHATE: "Dry Bulk",
+  HARMLESS: "Dry Bulk", LAWFUL: "Dry Bulk",
+  // General Cargo
   COILS: "General Cargo", STEEL: "General Cargo", STEELS: "General Cargo",
+  BILLETS: "General Cargo", SCRAP: "General Cargo",
   GENS: "General Cargo", LOGS: "General Cargo", LOG: "General Cargo",
   PIPES: "General Cargo", EQUIPMENT: "General Cargo",
+  // Liquid / Tanker
   CRUDE: "Crude Oil", CHEMICAL: "Chemical", CHEMICALS: "Chemical",
   GAS: "Gas", LPG: "Gas", LNG: "Gas",
-  HARMLESS: "Dry Bulk", LAWFUL: "Dry Bulk",
 };
 
 // Terms that are NEVER cargo — broker/operational/structural terms
@@ -424,12 +465,21 @@ const PATTERNS = {
 const SIGNATURE_TRIGGERS = [
   /^(?:Best\s+Regards?|Kind\s+Regards?|Regards?|Thanks?\s+&?\s+Regards?|Warm\s+Regards?)\s*[,.]?\s*$/i,
   /^(?:Yours?\s+(?:faithfully|sincerely|truly))\s*[,.]?\s*$/i,
+  /^(?:With\s+(?:best\s+)?regards?)\s*[,.]?\s*$/i,
+  /^(?:Cheers?|Thanks?)\s*[,.]?\s*$/i,
   /^(?:Sent\s+from\s+my\s+(?:iPhone|Android|Samsung|BlackBerry))/i,
-  /^(?:This\s+message\s+contains\s+confidential)/i,
-  /^(?:DISCLAIMER|CONFIDENTIALITY\s+NOTICE)/i,
+  /^(?:This\s+message\s+(?:contains|is)\s+(?:confidential|intended))/i,
+  /^(?:DISCLAIMER|CONFIDENTIALITY\s+NOTICE|LEGAL\s+NOTICE)\b/i,
   /^(?:---+\s*Original\s+Message\s*---+)/i,
   /^(?:From:|Sent:|To:|Subject:)\s+.{3,}/i,
   /^(?:>{1,3}\s*From:|>{1,3}\s*Sent:)/i,
+  // BIMCO / standard legal boilerplate
+  /^(?:BIMCO\s+STANDARD)/i,
+  /^(?:This\s+e-?mail\s+and\s+any\s+attachment)/i,
+  /^(?:The\s+information\s+(?:contained|transmitted)\s+in\s+this)/i,
+  // Social / IM footers
+  /^(?:Connect\s+with\s+(?:me|us)\s+on|Follow\s+us\s+on)/i,
+  /^(?:Microsoft\s+Teams?|Skype\s+for\s+Business)\s*:/i,
 ];
 
 function stripSignatureBlocks(text: string): string {
@@ -487,6 +537,8 @@ function normalizeEmailText(text: string): string {
     .replace(/\r\n?/g, "\n")
     .replace(/[\u2010-\u2015\u2212]/g, "-")
     .replace(/\u00a0/g, " ")
+    // Apostrophe as thousands separator: 18'000 → 18,000 (common in French/EU broker formats)
+    .replace(/(\d)'(\d{3})\b/g, "$1,$2")
     .replace(/[ \t]+/g, " ")
     .replace(/\n{3,}/g, "\n\n");
 
@@ -539,6 +591,30 @@ function parseLaycan(text: string): { start: string | null; end: string | null }
     const fmt = (d: Date) => d.toISOString().split("T")[0];
     const end = new Date(today); end.setDate(end.getDate() + 5);
     return { start: fmt(today), end: fmt(end) };
+  }
+
+  // Q1/Q2/Q3/Q4 2025 format
+  const quarterMatch = upper.match(/\bQ([1-4])\s*[,.\s]*(\d{4})\b/);
+  if (quarterMatch) {
+    const q = parseInt(quarterMatch[1]);
+    const yr = quarterMatch[2];
+    const startMonth = ((q - 1) * 3 + 1).toString().padStart(2, "0");
+    const endMonthNum = q * 3;
+    const lastDay = new Date(parseInt(yr), endMonthNum, 0).getDate();
+    const endMonth = endMonthNum.toString().padStart(2, "0");
+    return { start: `${yr}-${startMonth}-01`, end: `${yr}-${endMonth}-${lastDay}` };
+  }
+
+  // H1/H2 2025 format (first half / second half)
+  const halfMatch = upper.match(/\bH([12])\s*[,.\s]*(\d{4})\b/);
+  if (halfMatch) {
+    const h = parseInt(halfMatch[1]);
+    const yr = halfMatch[2];
+    const startMonth = h === 1 ? "01" : "07";
+    const endMonthNum = h === 1 ? 6 : 12;
+    const lastDay = new Date(parseInt(yr), endMonthNum, 0).getDate();
+    const endMonth = endMonthNum.toString().padStart(2, "0");
+    return { start: `${yr}-${startMonth}-01`, end: `${yr}-${endMonth}-${lastDay}` };
   }
 
   // "18th - 20th JULY, 2025" or "16-21 OCT 2025"
@@ -867,17 +943,29 @@ function normalizeCargo(raw: string): string {
 function cleanCargoName(raw: string | null): string | null {
   if (!raw) return null;
   const cleaned = raw
+    // Combined commodities: SLAG+CLINKER → SLAG/CLINKER
+    .replace(/\s*\+\s*/g, "/")
+    // Strip quantity prefix if present: "55,000 MT COAL" → "COAL"
+    .replace(/^\d[\d,.\s]*\s*(?:MT|MTS|METRIC\s*TONS?)\s*/i, "")
+    // Strip known noise suffixes
     .replace(/\b(?:IN\s+)?BULK\b.*$/i, "")
     .replace(/\bSF\s*\d+(?:\.\d+)?\b.*$/i, "")
     .replace(/\b\d{1,2}\s*%.*$/i, "")
     .replace(/\b\d{1,2}\s*PCT.*$/i, "")
-    .replace(/\b(?:TOTAL|MOLOO|CHOPT|LOAD|DISCH|LINER|TERMS)\b.*$/i, "")
+    .replace(/\b(?:TOTAL|MOLOO|MOLCO|CHOPT|LOAD|DISCH|LINER|TERMS|TTL)\b.*$/i, "")
+    // Strip noise prefixes/words
+    .replace(/^(?:OF|IN|WITH|FOR)\s+/i, "")
+    .replace(/\bUPRIVER\b/gi, "")
+    .replace(/\bTRIP\s+WITH\b/gi, "")
+    .replace(/\bARGENTINA\b/gi, "")
+    .replace(/\bMTS?\b/gi, "")
+    // Normalize OR to slash
     .replace(/\s+OR\s+/gi, "/")
     .replace(/\s+/g, " ")
     .trim();
 
   if (/^\d/.test(cleaned) || /\b\d+\s*(?:SP|P)\b/i.test(cleaned)) return null;
-  if (!cleaned || !isValidCargo(cleaned)) return null;
+  if (!cleaned || cleaned.length < 3 || !isValidCargo(cleaned)) return null;
   return normalizeCargo(cleaned);
 }
 
@@ -885,9 +973,9 @@ function extractCargoName(segment: string): string | null {
   // Explicit CARGO / COMMODITY label — COLON REQUIRED to avoid "cargo inquiry" / "cargo position" false matches
   const explicit =
     segment.match(/(?:CARGO|COMMODITY|COMMODIT)\s*:\s*([^\n\-–*]+)/i) ||
-    segment.match(/\d\s+TCT\s+(?:WITH\s+)?([A-Z][A-Z\s\/OR]+?)\s+IN\s+BLK/i) ||
-    segment.match(/TCT\s+(?:WITH\s+)?([A-Z][A-Z\s\/OR]+?)\s+IN\s+BLK/i) ||
-    segment.match(/(?:CARRYING|LADEN\s+WITH|LOAD(?:ING)?)\s*:\s*([A-Z][A-Z\s\/]+?)(?:\s+IN|\s+AT|\s+FROM|\s+TO|[,\n])/i);
+    segment.match(/\d\s+TCT\s+(?:WITH\s+)?([A-Z][A-Z\s\/OR+]+?)\s+IN\s+BLK/i) ||
+    segment.match(/TCT\s+(?:WITH\s+)?([A-Z][A-Z\s\/OR+]+?)\s+IN\s+BLK/i) ||
+    segment.match(/(?:CARRYING|LADEN\s+WITH|LOAD(?:ING)?)\s*:\s*([A-Z][A-Z\s\/+]+?)(?:\s+IN|\s+AT|\s+FROM|\s+TO|[,\n])/i);
 
   if (explicit) {
     const cargo = cleanCargoName(explicit[1].trim().split("\n")[0]);
@@ -906,11 +994,28 @@ function extractCargoName(segment: string): string | null {
   // Inline: "55,000 MT COAL IN BULK" or "55,000 MT COAL LAYCAN..." pattern
   const compact = compactForFallback(segment);
   const inlineCargo =
-    compact.match(/\b\d{1,3}[,\s]\d{3}\s*(?:MT|MTS)\s+(?:\d{1,2}\s*%|MOLOO|MOLCO|CHOPT|TTL|TOTAL)?\s*([A-Z][A-Z]{2,20})\s+(?:IN\s+BULK|LAYCAN|LC\b|CARGO|LOAD|DISCH)/i) ||
-    compact.match(/\b\d{4,6}\s*(?:MT|MTS|METRIC\s+TONS?)\s+(?:\d{1,2}\s*%|MOLOO|MOLCO|CHOPT|TTL|TOTAL)?[\s\/]*([A-Z][A-Z /-]{2,30}?)\s+(?:IN\s+)?BULK\b/i) ||
-    compact.match(/\b([A-Z][A-Z /-]{2,30}?)\s+(?:IN\s+)?BULK\b/i);
+    compact.match(/\b\d{1,3}[,\s]\d{3}\s*(?:MT|MTS)\s+(?:\d{1,2}\s*%|MOLOO|MOLCO|CHOPT|TTL|TOTAL)?\s*([A-Z][A-Z+]{2,30})\s+(?:IN\s+BULK|LAYCAN|LC\b|CARGO|LOAD|DISCH)/i) ||
+    compact.match(/\b\d{4,6}\s*(?:MT|MTS|METRIC\s+TONS?)\s+(?:\d{1,2}\s*%|MOLOO|MOLCO|CHOPT|TTL|TOTAL)?[\s\/]*([A-Z][A-Z +/-]{2,40}?)\s+(?:IN\s+)?BULK\b/i) ||
+    compact.match(/\b([A-Z][A-Z +/-]{2,40}?)\s+(?:IN\s+)?BULK\b/i);
 
-  return inlineCargo ? cleanCargoName(inlineCargo[1]) : null;
+  if (inlineCargo) {
+    const cargo = cleanCargoName(inlineCargo[1]);
+    if (cargo) return cargo;
+  }
+
+  // Compact broker shorthand: "15-18,000 mt urea" or "30,000 mt coal lp vizag"
+  // Detect commodity following a quantity+MT pattern
+  const KNOWN_COMMODITIES = /^(UREA|COAL|FERTS?|CLINKER|SLAG|MAIZE|CORN|WHEAT|BARLEY|RICE|PETCOKE|LIMESTONE|BAUXITE|SOYA|SOYBEANS?|GRAIN|SUGAR|SULPHUR|POTASH|PHOSPHATE|GYPSUM|DAP|MOP|NPK|SALT|FERTILIZ\w*|IRON\s*ORE|IRON\s*PELLETS?|COPPER\s*CONC\w*|MANGANESE|NICKEL\s*ORE|CHROME\s*ORE|STEEL\s*\w+|SALT|SAND)(\s*[+/]\s*\w+)?$/i;
+  const compactCommodity = compact.match(/\b(\d{1,3}[-–]\d{1,3}[,]\d{3}|\d{1,3}[,]\d{3}|\d{4,6})\s*(?:MT|MTS|MTONS?)\s+([A-Z][A-Z+ /]{2,30}?)(?:\s+(?:LP|DP|LOAD|DISCH|LAYCAN|LC|FROM|TO)|,|\s{2,}|$)/i);
+  if (compactCommodity) {
+    const rawCargo = compactCommodity[2].trim();
+    if (KNOWN_COMMODITIES.test(rawCargo)) {
+      const cargo = cleanCargoName(rawCargo);
+      if (cargo) return cargo;
+    }
+  }
+
+  return null;
 }
 
 function parseDuration(text: string): string | null {
@@ -931,6 +1036,62 @@ function parseDuration(text: string): string | null {
     return `${val} ${unitStr}`;
   }
   return null;
+}
+
+// ─── Compact Rate Parser ──────────────────────────────────────────────────────
+// Handles broker shorthand: "4000x/2000x", "10000shex/6000shinc", "15000/12000"
+
+function parseCompactRates(text: string): { loadRate: string | null; dischargeRate: string | null } {
+  const compact = compactForFallback(text).toUpperCase();
+
+  // Pattern: <load_rate><term?>/<discharge_rate><term?> — rates 500-100000 MT/DAY
+  // e.g. "4000X/2000X", "10000SHEX/6000SHINC", "8000/6000", "15000FHEX/12000SHINC"
+  const ratePattern = /\b(\d{3,6})\s*(X|SHINC|SHEX|FHEX|FIOST|FILO|FIOS|CQD|PWWD|PMD|PDPR)?\s*\/\s*(\d{3,6})\s*(X|SHINC|SHEX|FHEX|FIOST|FILO|FIOS|CQD|PWWD|PMD|PDPR)?(?=\s|,|$|\s+MT)/i;
+  const match = compact.match(ratePattern);
+  if (match) {
+    const loadVal = parseInt(match[1]);
+    const loadTerm = match[2] && match[2] !== "X" ? ` ${match[2]}` : "";
+    const dischVal = parseInt(match[3]);
+    const dischTerm = match[4] && match[4] !== "X" ? ` ${match[4]}` : "";
+    // Guard: plausible cargo rates 500–100,000 MT/DAY, and not a date or quantity
+    if (loadVal >= 500 && loadVal <= 100000 && dischVal >= 500 && dischVal <= 100000) {
+      return {
+        loadRate: `${loadVal}${loadTerm} MT/DAY`,
+        dischargeRate: `${dischVal}${dischTerm} MT/DAY`,
+      };
+    }
+  }
+
+  return { loadRate: null, dischargeRate: null };
+}
+
+// ─── Multi-Port Resolver ──────────────────────────────────────────────────────
+// Handles "Iskenderun or Durban", "HAZIRA & MUMBAI", "1/2 SPSB MUMBAI"
+
+function resolveMultiPort(raw: string | null): string | null {
+  if (!raw) return null;
+  // Strip SP/SPSB notation (safe port/safe berth counts)
+  const noSpsb = raw
+    .replace(/\b\d+\s*(?:SPSB|SB|SP)\b/gi, "")
+    .replace(/\s+/g, " ").trim();
+
+  // Split on OR / AND / &
+  const parts = noSpsb.split(/\s+(?:OR|AND|&)\s+/i).map(p => p.trim()).filter(Boolean);
+
+  if (parts.length > 1) {
+    const resolved = parts
+      .map(p => {
+        const clean = cleanBrokerLocation(p);
+        return clean && isValidPort(clean) ? resolvePort(clean) : null;
+      })
+      .filter(Boolean) as string[];
+    if (resolved.length > 0) return resolved.join(" / ");
+  }
+
+  // Single port — use standard cleanup
+  const clean = cleanBrokerLocation(noSpsb);
+  if (!clean || !isValidPort(clean)) return null;
+  return resolvePort(clean);
 }
 
 function extractCommonTechnicalFields(segment: string): Partial<ExtractedFields> {
@@ -1007,6 +1168,14 @@ function extractCommonTechnicalFields(segment: string): Partial<ExtractedFields>
   // Flag
   const flagMatch = segment.match(PATTERNS.flag);
   if (flagMatch) fields.flag = flagMatch[1].trim();
+
+  // Compact rate format fallback: "4000x/2000x", "10000shex/6000shinc"
+  // Only apply when explicit rate patterns didn't fire
+  if (!fields.load_rate || !fields.discharge_rate) {
+    const { loadRate, dischargeRate } = parseCompactRates(segment);
+    if (!fields.load_rate && loadRate) fields.load_rate = loadRate;
+    if (!fields.discharge_rate && dischargeRate) fields.discharge_rate = dischargeRate;
+  }
 
   return fields;
 }
@@ -1148,10 +1317,14 @@ function detectSegmentType(segment: string): EntryType | null {
     /(?:DELY?|DEL|DELIVERY)\s*[:\s*]+|(?:REDELY?|REDEL|RE-DELY?)\s*[:\s*]+|TCT\b|TIME\s*CHARTER|1\s*TCT|\bTRIP\b|\bPERIOD\b|\bDURATION\b|\bHIRE\b/.test(upper);
 
   // hasVCSignals: detect comma-formatted MT numbers too e.g. "55,000 MT"
+  // Also detect commodity+quantity patterns (broker shorthand: "15,000 mt urea")
+  const BULK_COMMODITY_PATTERN = /\b(?:UREA|FERTS?|FERTILIZ|FERTILISERS?|COAL|CLINKER|SLAG|MAIZE|CORN|WHEAT|BARLEY|RICE|PETCOKE|LIMESTONE|BAUXITE|SOYA|SOYBEAN|GRAIN|SUGAR|SULPHUR|POTASH|PHOSPHATE|GYPSUM|DAP|MOP|NPK|SALT)\b/i;
   const hasVCSignals =
     /(?:LP|LOADING\s*PORT?|POL|POD|DISCHARGE\s*PORT)\s*[:\s]+|VOYAGE\s*CHARTER|LOAD\s*RATE|DISRATE|DISCHARGING\s*RATE|\b\d{4,6}\s*MT\b|\bMTS\b|\bIN\s+BULK\b|\bSF\s*\d/.test(upper) ||
     /\b\d{1,3}[,]\d{3}\s*MT\b/.test(upper) ||
-    /\b\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+?\s*\/\s*\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+/.test(compact);
+    /\b\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+?\s*\/\s*\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+/.test(compact) ||
+    // Commodity + quantity pattern: recognized bulk commodity with MT quantity → VC
+    (BULK_COMMODITY_PATTERN.test(upper) && /\b\d{4,6}\s*(?:MT|MTS|MTONS)\b|\b\d{1,3}[,.-]\d{3}\s*(?:MT|MTS)\b/.test(upper));
 
   const hasTonnageSignals =
     /\bM[TV]\/?\s*[A-Z][A-Z0-9\s.'-]+/.test(upper) && /\b(?:OPEN|DWT|IMO|BUILT|BLT|BULK\s*CARRIER|WILL\s*OPEN)\b/.test(upper) ||
@@ -1187,8 +1360,9 @@ function extractVCEntry(segment: string, signature: ReturnType<typeof extractSig
   const route = extractRoutePorts(segment);
   const rawLoadPort = lpMatch ? lpMatch[1].trim().split("\n")[0] : route.load;
   const rawDischPort = dpMatch ? dpMatch[1].trim().split("\n")[0] : route.discharge;
-  const loadPort = rawLoadPort && isValidPort(rawLoadPort) ? resolvePort(rawLoadPort) : null;
-  const dischPort = rawDischPort && isValidPort(rawDischPort) ? resolvePort(rawDischPort) : null;
+  // resolveMultiPort handles "OR", "&", SPSB notation, and single ports
+  const loadPort = resolveMultiPort(rawLoadPort);
+  const dischPort = resolveMultiPort(rawDischPort);
 
   const restrictions: string[] = [];
   const restrMatches = segment.match(PATTERNS.restriction);

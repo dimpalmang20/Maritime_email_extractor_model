@@ -1,1 +1,2 @@
 - [Maritime extractor pitfalls](maritime-extractor-pitfalls.md) — critical non-obvious bugs fixed during extraction accuracy work
+- [Maritime extractor architecture](maritime-extractor-architecture.md) — key function call chain, new helpers added, and durable design rules

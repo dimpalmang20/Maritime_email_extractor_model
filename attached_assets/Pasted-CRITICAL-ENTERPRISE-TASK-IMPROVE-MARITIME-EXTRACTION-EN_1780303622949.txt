@@ -1,0 +1,349 @@
+CRITICAL ENTERPRISE TASK — IMPROVE MARITIME EXTRACTION ENGINE TO 95–99% ACCURACY WITHOUT BREAKING CURRENT WORKING LOGIC
+
+IMPORTANT:
+The current extraction engine is already significantly improved and MUST NOT lose its existing accuracy.
+
+Current strengths that MUST remain preserved:
+
+* multi-block segmentation now works
+* multiple JSON entries are returned
+* laycan parsing is strong
+* DWT parsing is strong
+* maritime port normalization works well
+* TC/VC/Tonnage classification mostly works
+* commission extraction works
+* confidence scoring works
+* region mapping partially works
+* broker circular handling improved greatly
+
+DO NOT rewrite the architecture.
+DO NOT replace the current rule-based parser.
+DO NOT simplify the engine.
+DO NOT remove working regex patterns unless replacing them with stronger versions.
+
+The current architecture must remain EXACTLY the same:
+
+* standalone Node.js API
+* TypeScript
+* same folder structure
+* same API endpoint
+* same project layout
+* no frontend
+* no React
+* no Vite
+* no database
+* no environment variables
+* pure extraction model only
+* lightweight setup
+
+Preserve all current files and structure.
+
+Current performance estimate:
+
+* simple emails: ~95%
+* medium emails: ~90%
+* large broker circulars: ~82–88%
+
+Goal:
+Achieve near enterprise-grade accuracy (~95–99%) for large real-world maritime broker emails while preserving current successful behavior.
+
+MOST IMPORTANT:
+Do NOT reduce current successful extraction quality while improving weak areas.
+
+====================================================
+MAIN PROBLEMS STILL REMAINING
+=============================
+
+1. SEGMENT TYPE MISCLASSIFICATION
+
+Current issue:
+Some VC cargo emails are incorrectly classified as Tonnage.
+
+Example:
+
+* "15-18'000 mt ferts"
+  was incorrectly parsed as:
+  {
+  "email_type": "Tonnage",
+  "vessel_name": "ferts"
+  }
+
+This is wrong.
+
+Need:
+
+* stronger VC vs Tonnage classification
+* quantity-first cargo pattern detection
+* commodity-first cargo detection
+* shorthand broker format handling
+* cargo signal weighting
+* vessel signal weighting
+* contextual classification scoring
+
+====================================================
+
+2. CARGO EXTRACTION CLEANUP
+
+Current issue:
+Cargo fields still contain noisy words.
+
+Examples:
+
+* "mts of Urea"
+* "mts iron slag"
+* "Upriver"
+* "Coastal trip with harmless"
+
+Need:
+
+* aggressive cargo cleanup normalization
+* remove:
+
+  * mts
+  * mt
+  * of
+  * in bulk
+  * trip with
+  * cargo
+  * loading
+  * discharge
+  * upriver
+  * quantity labels
+  * account names
+  * broker names
+  * signatures
+
+Need:
+
+* canonical maritime commodity normalization:
+
+  * Urea
+  * Iron Slag
+  * Soybean Meal
+  * Maize
+  * Corn
+  * Limestone
+  * Calcium Carbonate
+  * Steel Coils
+  * Fertilizers
+  * Clinker
+  * Slag
+  * Rice
+  * Coal
+  * Petcoke
+
+Need:
+
+* multi-line commodity reconstruction
+* combined commodity support:
+
+  * "SLAG+CLINKER"
+  * "Maize + Soybean Meal"
+
+====================================================
+
+3. COMPACT RATE PARSING
+
+Current issue:
+Compact maritime rates are not extracted.
+
+Examples currently failing:
+
+* 4000x/2000x
+* 10000/12000
+* 10000shex/6000shinc
+* 5000x/5000x
+
+Need:
+
+* strong regex support for compact maritime loading/discharge formats
+* normalize:
+
+  * SHINC
+  * SHEX
+  * FHEX
+  * FIOST
+  * CQD
+  * FILO
+  * FIOS
+
+Need:
+
+* split load/discharge correctly
+* support missing separators
+* support inline shorthand formatting
+
+====================================================
+
+4. MULTI-PORT EXTRACTION
+
+Current issue:
+Complex discharge ports are partially lost.
+
+Examples:
+
+* "1/1 HAZIRA & 1/2 SPSB MUMBAI"
+* "POD: Iskenderun or Durban"
+
+Need:
+
+* support multi-discharge ports
+* support OR ports
+* support AND ports
+* support routing chains
+* preserve semantic order
+
+====================================================
+
+5. BLOCK ISOLATION
+
+Current issue:
+Fields still leak across nearby blocks.
+
+Examples:
+
+* cargo polluted by account names
+* wrong matching_region inheritance
+* wrong delivery region assignment
+
+Need:
+
+* strict block-scoped parsing
+* field isolation per segment
+* no cross-segment state leakage
+
+====================================================
+
+6. BROKER SIGNATURE REMOVAL
+
+Current issue:
+Contact blocks still interfere with parsing.
+
+Need:
+
+* intelligent broker signature removal
+* remove:
+
+  * phone numbers
+  * whatsapp
+  * teams
+  * skype
+  * emails
+  * BIMCO sections
+  * addresses
+  * website URLs
+  * footer branding
+
+BUT:
+Do NOT remove legitimate cargo blocks accidentally.
+
+====================================================
+
+7. DATE PARSING IMPROVEMENT
+
+Current issue:
+Semantic dates still weak.
+
+Examples:
+
+* Prompt onwards
+* Spot dates
+* End July onward
+* Early July
+* Mid July
+* Prompt
+
+Need:
+
+* semantic laycan inference
+* dynamic year inference
+* rolling current-date logic
+* better prompt-window estimation
+
+====================================================
+
+8. CONFIDENCE SCORING
+
+Need smarter confidence calculation based on:
+
+* field completeness
+* segmentation confidence
+* extraction certainty
+* maritime vocabulary confidence
+* validation score
+* port recognition score
+* cargo recognition score
+
+Low-quality segments should reduce confidence.
+
+====================================================
+
+9. STRONGER MARITIME DICTIONARIES
+
+Expand:
+
+* port abbreviations
+* cargo aliases
+* maritime acronyms
+* vessel class aliases
+* regional aliases
+* chartering abbreviations
+
+Need support for:
+
+* WAFR
+* ECSA
+* BIK
+* ARAG
+* GOA
+* WCCA
+* PG
+* ECI
+* WCI
+* SPSB
+* TM SEA
+* UPRIVER
+* HRA
+* APS
+* 1SP
+* SMX
+* UMX
+* HMAX
+* PMAX
+* BC
+
+====================================================
+
+10. ENTERPRISE TEST SUITE
+
+Create extensive test coverage for:
+
+* short emails
+* medium broker emails
+* giant broker circulars
+* malformed formatting
+* compact shorthand
+* multiline commodities
+* mixed TC/VC/Tonnage emails
+* noisy signatures
+* multiple cargo orders
+* multiple tonnage positions
+* fragmented layouts
+
+====================================================
+
+VERY IMPORTANT FINAL REQUIREMENTS
+
+1. Preserve current working extraction quality.
+2. Preserve current project structure.
+3. Preserve same API endpoint behavior.
+4. Preserve lightweight standalone model architecture.
+5. Do NOT introduce frontend or database.
+6. Do NOT weaken current successful parsing logic.
+7. Improve only weak extraction areas.
+8. Ensure giant broker circular emails return multiple clean isolated JSON entries.
+9. Ensure all improvements are backward compatible.
+10. Run extensive real-email testing before completion.
+
+FINAL GOAL:
+Achieve stable enterprise-grade maritime extraction accuracy (~95–99%) on real-world broker circular emails while preserving the current architecture and current successful behavior.
