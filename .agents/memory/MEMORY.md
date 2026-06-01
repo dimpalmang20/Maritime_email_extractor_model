@@ -1,0 +1,1 @@
+- [Maritime extractor pitfalls](maritime-extractor-pitfalls.md) — critical non-obvious bugs fixed during extraction accuracy work

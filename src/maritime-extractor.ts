@@ -1,4 +1,5 @@
-// Maritime Email Extraction Engine — Rule-Based + Template Parser
+// Maritime Email Extraction Engine — Enterprise Grade v2.0
+// Rule-Based + Heuristic NLP | Dynamic Schema | Multi-Order | High Accuracy
 
 export type EmailType = "VC" | "TC" | "Tonnage" | "Mixed" | "Unknown";
 export type Pipeline = "rule-based" | "template" | "llm-fallback";
@@ -40,6 +41,9 @@ export interface ExtractedFields {
   phone_number?: string | null;
   restriction?: string | null;
   reason?: string | null;
+  built_year?: string | null;
+  flag?: string | null;
+  hire_rate?: string | null;
 }
 
 export interface ExtractedEntry {
@@ -59,107 +63,258 @@ export interface ExtractionResult {
   estimatedCostUsd: number;
 }
 
-// ─── Enterprise JSON Schema ───────────────────────────────────────────────────
+// ─── Dynamic Enterprise JSON Schemas ──────────────────────────────────────────
 
-export interface EnterpriseEntry {
-  email_type: string;
+export interface TonnageEntry {
+  email_type: "Tonnage";
   vessel_name: string;
   vessel_type: string;
   dwt: string;
-  cargo: string;
-  cargo_type: string;
-  load_port: string;
-  discharge_port: string;
-  open_port: string;
-  open_date: string;
-  close_date: string;
-  laycan_start: string;
-  laycan_end: string;
-  quantity: string;
-  quantity_unit: "MT";
-  load_rate: string;
-  discharge_rate: string;
-  commission: string;
+  built_year: string;
+  flag: string;
   imo: string;
   grt: string;
   nrt: string;
   loa: string;
   beam: string;
   grain_capacity: string;
-  restrictions: string[];
+  open_port: string;
+  open_date: string;
+  close_date: string;
   matching_region: string;
+  restrictions: string[];
   confidence_score: number;
 }
 
-// ─── Maritime Knowledge Base ──────────────────────────────────────────────────
+export interface TCEntry {
+  email_type: "TC";
+  account_name: string;
+  cargo: string;
+  cargo_type: string;
+  dwt: string;
+  del_port: string;
+  redel_port: string;
+  laycan_start: string;
+  laycan_end: string;
+  duration: string;
+  hire_rate: string;
+  commission: string;
+  matching_region: string;
+  restrictions: string[];
+  confidence_score: number;
+}
+
+export interface VCEntry {
+  email_type: "VC";
+  cargo: string;
+  cargo_type: string;
+  quantity: string;
+  quantity_unit: "MT";
+  load_port: string;
+  discharge_port: string;
+  laycan_start: string;
+  laycan_end: string;
+  load_rate: string;
+  discharge_rate: string;
+  commission: string;
+  matching_region: string;
+  restrictions: string[];
+  confidence_score: number;
+}
+
+export type EnterpriseEntry = TonnageEntry | TCEntry | VCEntry;
+
+// ─── Maritime Knowledge Base — Expanded ───────────────────────────────────────
 
 const REGION_MAP: Record<string, string> = {
-  WAFR: "West Africa", WAFR1: "West Africa", SAFR: "South Africa", EAFR: "East Africa",
+  // Africa
+  WAFR: "West Africa", WAFR1: "West Africa", SAFR: "South Africa",
+  EAFR: "East Africa", NWAFRICA: "West Africa", "W.AFRICA": "West Africa",
+  WCOAST: "West Africa",
+  // India
   ECI: "East Coast India", WCI: "West Coast India", WCI1: "West Coast India",
+  "E.C.INDIA": "East Coast India", "W.C.INDIA": "West Coast India",
+  WCIND: "West Coast India", ECIND: "East Coast India",
+  // SE Asia
   "S.E.ASIA": "South East Asia", SEASIA: "South East Asia", SEA: "South East Asia",
-  AG: "Arabian Gulf", PG: "Persian Gulf", MED: "Mediterranean",
-  BSEA: "Black Sea", BALTIC: "Baltic Sea", USEC: "US East Coast",
-  USGC: "US Gulf Coast", USG: "US Gulf Coast", USWC: "US West Coast",
-  WCCA: "West Coast Central America", WCSA: "West Coast South America",
-  ECSA: "East Coast South America", GOA: "Gulf of Aden", ARAG: "Arabian Gulf",
-  HRA: "High Risk Area", COGH: "Cape of Good Hope", WWW: "World Wide",
-  WW: "World Wide", "W.W.": "World Wide", SPORE: "Singapore",
-  SSPORE: "Singapore", SCHINA: "South China", NCHINA: "North China",
-  JAPAN: "Japan", "S.KOREA": "South Korea", SKOREA: "South Korea",
+  FEASTASIA: "Far East Asia",
+  // Middle East / Gulf
+  AG: "Arabian Gulf", PG: "Persian Gulf", ARAG: "Arabian Gulf",
+  "A.GULF": "Arabian Gulf", AGULF: "Arabian Gulf", "P.GULF": "Persian Gulf",
+  // Mediterranean / Europe
+  MED: "Mediterranean", BSEA: "Black Sea", "B.SEA": "Black Sea",
+  BLSEA: "Black Sea", BALTIC: "Baltic Sea", NEUROPEAN: "North European",
+  NEUROP: "North European", "N.EUROP": "North European",
+  ARA: "ARA Range", NTHR: "North European",
+  // Americas
+  USEC: "US East Coast", USGC: "US Gulf Coast", USG: "US Gulf Coast",
+  USWC: "US West Coast", WCCA: "West Coast Central America",
+  WCSA: "West Coast South America", ECSA: "East Coast South America",
+  // Routing / Other
+  GOA: "Gulf of Aden", HRA: "High Risk Area", COGH: "Cape of Good Hope",
+  WWW: "World Wide", WW: "World Wide", "W.W.": "World Wide",
+  SPORE: "Singapore", SSPORE: "Singapore",
+  SCHINA: "South China", NCHINA: "North China", JAPAN: "Japan",
+  "S.KOREA": "South Korea", SKOREA: "South Korea",
   RECALADA: "East Coast South America", SANTOS: "East Coast South America",
   HOUSTON: "US Gulf Coast", TAMPA: "US Gulf Coast",
+  FAREAST: "Far East", "F.EAST": "Far East",
+  INDONESIA: "Indonesia", PHILIPPINES: "Philippines",
+  VIETNAM: "Vietnam", THAILAND: "Thailand",
+  PAKISTAN: "Pakistan", BANGLADESH: "Bangladesh",
+  CHINA: "China", INDIA: "India", TAIWAN: "Taiwan",
 };
 
 const PORT_ABBREVS: Record<string, string> = {
-  BIK: "Bandar Imam Khomeini, Iran", KANDLA: "Kandla, India", KAKINADA: "Kakinada, India",
-  VIZAG: "Visakhapatnam, India", MUMBAI: "Mumbai, India", HAZIRA: "Hazira, India",
-  LUMUT: "Lumut, Malaysia", SURABAYA: "Surabaya, Indonesia", BAHODOPI: "Bahodopi, Indonesia",
-  SANTOS: "Santos, Brazil", PARANAGUA: "Paranaguá, Brazil", UPRIVER: "Upriver, Argentina",
-  "SAN LORENZO": "San Lorenzo, Argentina", AQABA: "Aqaba, Jordan",
+  // India
+  BIK: "Bandar Imam Khomeini, Iran", KANDLA: "Kandla, India",
+  KAKINADA: "Kakinada, India", VIZAG: "Visakhapatnam, India",
+  MUMBAI: "Mumbai, India", HAZIRA: "Hazira, India", NHAVA: "Nhava Sheva, India",
+  HALDIA: "Haldia, India", PARADIP: "Paradip, India",
+  MANGALORE: "Mangalore, India", COCHIN: "Cochin, India", TUTICORIN: "Tuticorin, India",
+  PORBANDAR: "Porbandar, India", MUNDRA: "Mundra, India",
+  // SE Asia
+  LUMUT: "Lumut, Malaysia", SURABAYA: "Surabaya, Indonesia",
+  BAHODOPI: "Bahodopi, Indonesia", CIGADING: "Cigading, Indonesia",
+  PAITON: "Paiton, Indonesia", TELUKBAYUR: "Teluk Bayur, Indonesia",
+  BONTANG: "Bontang, Indonesia",
+  SINGAPORE: "Singapore", PORTKLANG: "Port Klang, Malaysia",
+  COLOMBO: "Colombo, Sri Lanka",
+  // South America
+  SANTOS: "Santos, Brazil", PARANAGUA: "Paranaguá, Brazil",
+  UPRIVER: "Upriver, Argentina", "SAN LORENZO": "San Lorenzo, Argentina",
+  ROSARIO: "Rosario, Argentina", BAHIABLANCA: "Bahia Blanca, Argentina",
+  ITAQUI: "Itaqui, Brazil", PONTA: "Ponta da Madeira, Brazil",
+  // Middle East
+  AQABA: "Aqaba, Jordan", BUSHEHR: "Bushehr, Iran", DOHA: "Doha, Qatar",
+  HODEIDAH: "Hodeidah, Yemen", JEDDAH: "Jeddah, Saudi Arabia",
+  DAMMAM: "Dammam, Saudi Arabia", SHUAIBA: "Shuaiba, Kuwait",
+  MINA: "Mina Al Ahmadi, Kuwait", KHOR: "Khor Fakkan, UAE",
+  // Black Sea / Med
   PIVDENNIY: "Pivdenniy, Ukraine", ISKENDERUN: "Iskenderun, Turkey",
-  DURBAN: "Durban, South Africa", BUSHEHR: "Bushehr, Iran", DOHA: "Doha, Qatar",
-  HODEIDAH: "Hodeidah, Yemen", BUKPYUNG: "Bukpyung, South Korea",
-  GUANGZHOU: "Guangzhou, China", TAIPEI: "Taipei, Taiwan",
-  PORBANDAR: "Porbandar, India", LANSHAN: "Lanshan, China",
-  SINGAPORE: "Singapore", SINGAPORE1: "Singapore", COLOMBO: "Colombo, Sri Lanka",
+  SKAW: "Skaw, Denmark", ALGIERS: "Algiers, Algeria",
+  TRIPOLI: "Tripoli, Libya", TUNISIE: "Tunis, Tunisia",
+  ODESSA: "Odessa, Ukraine", CONSTANTA: "Constanta, Romania",
+  NOVOROSSIYSK: "Novorossiysk, Russia",
+  // Africa
+  DURBAN: "Durban, South Africa", WALVIS: "Walvis Bay, Namibia",
+  DAKAR: "Dakar, Senegal", ABIDJAN: "Abidjan, Ivory Coast",
+  LAGOS: "Lagos, Nigeria", POINTE: "Pointe Noire, Congo",
+  // East Asia
+  BUKPYUNG: "Bukpyung, South Korea", GUANGZHOU: "Guangzhou, China",
+  TAIPEI: "Taipei, Taiwan", LANSHAN: "Lanshan, China",
+  QINGDAO: "Qingdao, China", TIANJIN: "Tianjin, China",
+  NINGBO: "Ningbo, China", ZHOUSHAN: "Zhoushan, China",
+  SHANGHAI: "Shanghai, China", LIANYUNGANG: "Lianyungang, China",
+  BUSAN: "Busan, South Korea", POHANG: "Pohang, South Korea",
+  NAGOYA: "Nagoya, Japan", OSAKA: "Osaka, Japan", TOKYO: "Tokyo, Japan",
+  // Europe / N America
   CHITTAGONG: "Chittagong, Bangladesh", KARACHI: "Karachi, Pakistan",
   VANCOUVER: "Vancouver, Canada", BALTIMORE: "Baltimore, USA",
   HOUSTON: "Houston, USA", ROTTERDAM: "Rotterdam, Netherlands",
   ANTWERP: "Antwerp, Belgium", HAMBURG: "Hamburg, Germany",
+  DUNKIRK: "Dunkirk, France", GDANSK: "Gdansk, Poland",
+  PHILADELPHIA: "Philadelphia, USA", NORFOLK: "Norfolk, USA",
+  MOBILE: "Mobile, USA", NEWORLEANS: "New Orleans, USA",
 };
 
-const VESSEL_SIZE_MAP: Record<string, { min: number; max: number }> = {
-  HANDYMAX: { min: 10000, max: 49999 }, HMAX: { min: 10000, max: 49999 },
-  SUPRAMAX: { min: 50000, max: 59999 }, SMAX: { min: 50000, max: 59999 },
-  SMX: { min: 50000, max: 59999 }, SUPRA: { min: 50000, max: 59999 },
-  ULTRAMAX: { min: 60000, max: 69999 }, UMAX: { min: 60000, max: 69999 },
-  UMX: { min: 60000, max: 69999 }, ULTRA: { min: 60000, max: 69999 },
-  PANAMAX: { min: 70000, max: 79999 }, PMX: { min: 70000, max: 79999 },
-  KAMSARMAX: { min: 80000, max: 89999 }, KMAX: { min: 80000, max: 89999 },
-  "BABY CAPE": { min: 90000, max: 199999 }, CAPESIZE: { min: 200000, max: 999999 },
-  HANDYSIZE: { min: 10000, max: 39999 }, HANDY: { min: 10000, max: 39999 },
-  CAPE: { min: 200000, max: 999999 }, POST: { min: 80000, max: 99999 },
-  SDBC: { min: 50000, max: 79999 },
+const VESSEL_SIZE_MAP: Record<string, { min: number; max: number; type: string }> = {
+  HANDYSIZE: { min: 10000, max: 39999, type: "Handysize Bulk Carrier" },
+  HANDY: { min: 10000, max: 39999, type: "Handysize Bulk Carrier" },
+  HANDYMAX: { min: 35000, max: 49999, type: "Handymax Bulk Carrier" },
+  HMAX: { min: 35000, max: 49999, type: "Handymax Bulk Carrier" },
+  SUPRAMAX: { min: 50000, max: 59999, type: "Supramax Bulk Carrier" },
+  SMAX: { min: 50000, max: 59999, type: "Supramax Bulk Carrier" },
+  SMX: { min: 50000, max: 59999, type: "Supramax Bulk Carrier" },
+  SUPRA: { min: 50000, max: 59999, type: "Supramax Bulk Carrier" },
+  ULTRAMAX: { min: 60000, max: 69999, type: "Ultramax Bulk Carrier" },
+  UMAX: { min: 60000, max: 69999, type: "Ultramax Bulk Carrier" },
+  UMX: { min: 60000, max: 69999, type: "Ultramax Bulk Carrier" },
+  ULTRA: { min: 60000, max: 69999, type: "Ultramax Bulk Carrier" },
+  PANAMAX: { min: 70000, max: 79999, type: "Panamax Bulk Carrier" },
+  PMX: { min: 70000, max: 79999, type: "Panamax Bulk Carrier" },
+  KAMSARMAX: { min: 80000, max: 89999, type: "Kamsarmax Bulk Carrier" },
+  KMAX: { min: 80000, max: 89999, type: "Kamsarmax Bulk Carrier" },
+  "BABY CAPE": { min: 90000, max: 199999, type: "Post-Panamax Bulk Carrier" },
+  CAPESIZE: { min: 150000, max: 999999, type: "Capesize Bulk Carrier" },
+  CAPE: { min: 150000, max: 999999, type: "Capesize Bulk Carrier" },
+  POST: { min: 80000, max: 99999, type: "Post-Panamax Bulk Carrier" },
+  SDBC: { min: 50000, max: 79999, type: "Standard Dry Bulk Carrier" },
+  MR: { min: 25000, max: 54999, type: "MR Tanker" },
+  LR1: { min: 55000, max: 79999, type: "LR1 Tanker" },
+  LR2: { min: 80000, max: 159999, type: "LR2 Tanker" },
+  VLCC: { min: 200000, max: 320000, type: "VLCC Tanker" },
+  AFRAMAX: { min: 80000, max: 119999, type: "Aframax Tanker" },
+  SUEZMAX: { min: 120000, max: 199999, type: "Suezmax Tanker" },
+};
+
+const CARGO_ALIASES: Record<string, string> = {
+  "IRON ORE": "Iron Ore", "IRON FINES": "Iron Ore Fines",
+  "PCI COAL": "PCI Coal", "MET COAL": "Metallurgical Coal",
+  "THER COAL": "Thermal Coal", "STEAM COAL": "Steam Coal",
+  "RAW SUGAR": "Raw Sugar", "GRAIN/SOYA": "Grain/Soybean",
+  "SOYA BEANS": "Soybeans", "SOYABEANS": "Soybeans",
+  "WHEAT": "Wheat", "BARLEY": "Barley", "RICE": "Rice",
+  "DAP": "DAP Fertilizer", "MOP": "MOP Fertilizer",
+  "NPK": "NPK Fertilizer", "UREA": "Urea", "AN": "Ammonium Nitrate",
+  "PETCOKE": "Petroleum Coke", "PET COKE": "Petroleum Coke",
+  "CLINKER": "Clinker", "LIMESTONE": "Limestone",
+  "CHROME ORE": "Chrome Ore", "BAUXITE": "Bauxite",
+  "MANGANESE": "Manganese Ore", "NICKEL ORE": "Nickel Ore",
+  "COPPER CONC": "Copper Concentrate",
+  "BULK HARMLESS": "Bulk Harmless Cargo",
+  "BULK HARMLESS CARGO": "Bulk Harmless Cargo",
+  "LAWFUL BULK": "Lawful Bulk Cargo",
 };
 
 const CARGO_TYPE_MAP: Record<string, string> = {
-  BULK: "Dry Bulk", GRAIN: "Dry Bulk", COAL: "Dry Bulk", FERTILIZER: "Dry Bulk",
-  FERTS: "Dry Bulk", UREA: "Dry Bulk", IRON: "Dry Bulk", SLAG: "Dry Bulk",
-  CLINKER: "Dry Bulk", PETCOKE: "Dry Bulk", LIMESTONE: "Dry Bulk",
-  MAIZE: "Dry Bulk", CORN: "Dry Bulk", SOYBEAN: "Dry Bulk", POTASH: "Dry Bulk",
-  SULPHUR: "Dry Bulk", SALT: "Dry Bulk", BAUXITE: "Dry Bulk", MANGANESE: "Dry Bulk",
+  BULK: "Dry Bulk", GRAIN: "Dry Bulk", COAL: "Dry Bulk",
+  FERTILIZER: "Dry Bulk", FERTS: "Dry Bulk", UREA: "Dry Bulk",
+  IRON: "Dry Bulk", SLAG: "Dry Bulk", CLINKER: "Dry Bulk",
+  PETCOKE: "Dry Bulk", LIMESTONE: "Dry Bulk", MAIZE: "Dry Bulk",
+  CORN: "Dry Bulk", SOYBEAN: "Dry Bulk", SOYA: "Dry Bulk",
+  POTASH: "Dry Bulk", SULPHUR: "Dry Bulk", SALT: "Dry Bulk",
+  BAUXITE: "Dry Bulk", MANGANESE: "Dry Bulk", WHEAT: "Dry Bulk",
+  BARLEY: "Dry Bulk", RICE: "Dry Bulk", DAP: "Dry Bulk",
+  MOP: "Dry Bulk", NPK: "Dry Bulk", CHROME: "Dry Bulk",
+  NICKEL: "Dry Bulk", COPPER: "Dry Bulk", SUGAR: "Dry Bulk",
   COILS: "General Cargo", STEEL: "General Cargo", STEELS: "General Cargo",
   GENS: "General Cargo", LOGS: "General Cargo", LOG: "General Cargo",
-  CRUDE: "Crude Oil", CHEMICAL: "Chemical", GAS: "Gas",
+  PIPES: "General Cargo", EQUIPMENT: "General Cargo",
+  CRUDE: "Crude Oil", CHEMICAL: "Chemical", CHEMICALS: "Chemical",
+  GAS: "Gas", LPG: "Gas", LNG: "Gas",
+  HARMLESS: "Dry Bulk", LAWFUL: "Dry Bulk",
 };
 
-// Structural ship parts that must never be treated as cargo
+// Terms that are NEVER cargo — broker/operational/structural terms
 const CARGO_BLACKLIST = new Set([
   "HOLD", "HOLDS", "ENGINE", "BRIDGE", "AFT", "ACCOMMODATION",
   "BUNKERS", "FUEL", "BALLAST", "BOW", "STERN", "DECK",
   "HATCH", "HATCHES", "WINCH", "CRANE", "GEAR", "MAIN ENGINE",
   "AFT PEAK", "FORE PEAK", "VOID SPACE", "PAINT", "BULK HARMLESS",
   "ENGINE/BRIDGE AFT", "BRIDGE AFT",
+  // Broker / charterparty operational terms
+  "ADCOM", "ADDCOM", "COMMISSION", "COMM", "CHARTERER", "OWNER",
+  "BROKERS", "BROKER", "ACCOUNT", "ACCT", "DIRECT", "PRINCIPAL",
+  "VOYAGE ORDERS", "TCT", "TTL", "TOTAL", "MOLOO", "MOLCO",
+  "DLOSP", "FIOST", "FIOS", "LINER", "TERMS",
+  "APS", "AFS", "TIP", "POL", "POD",
+]);
+
+// Regex patterns for terms that indicate lines are NOT cargo
+const CARGO_BLACKLIST_PATTERNS = [
+  /ENGINE\s*\/?\s*BRIDGE/i, /BRIDGE\s*AFT/i, /MAIN\s*ENGINE/i, /VOID\s*SPACE/i,
+  /^\s*(?:A\/C|ACCT?|Account)\s*:/i, /^\s*ADCOM\s/i, /^\s*ADDCOM\s/i,
+  /^\s*COMM(?:ISSION)?\s*:/i,
+  // NOTE: do NOT add a generic person-name pattern here — it would block
+  // normalized cargo names like "Steam Coal", "Iron Ore", "Petroleum Coke"
+  /\bPHONE\b|\bMOBILE\b|\bWHATSAPP\b/i,
+  /^(HOLD|HATCH|DECK|WINCH|CRANE)\b/i,
+];
+
+const SHIP_PART_WORDS = new Set([
+  "HOLD", "HOLDS", "HATCH", "HATCHES", "DECK", "CRANE", "WINCH", "GEAR",
+  "ENGINE", "BRIDGE", "BOW", "STERN", "AFT", "FORE",
 ]);
 
 // ─── Validators ───────────────────────────────────────────────────────────────
@@ -167,18 +322,14 @@ const CARGO_BLACKLIST = new Set([
 function isValidPort(text: string): boolean {
   if (!text) return false;
   const t = text.trim().toUpperCase();
-  // Reject single letters and 2-char strings (A, U, AG, etc.)
   if (t.length <= 2) return false;
-  // Reject strings that are purely region codes (WAFR, AG, etc.)
   if (REGION_MAP[t] !== undefined) return false;
-  // Reject very short strings unless in our known port dictionary
   if (t.length <= 3 && !PORT_ABBREVS[t]) return false;
-  // Reject strings starting with a digit (e.g. "1SP WAFR", "2-3 PORTS")
   if (/^\d/.test(t)) return false;
-  // Reject strings with only digits
   if (/^\d+$/.test(t)) return false;
-  // Reject charterparty terms like "1SP", "2SP", "AAAA", "DLOSP"
   if (/^\d+SP\b/i.test(t)) return false;
+  // Reject charterparty terms
+  if (/^(?:MOLOO|MOLCO|FIOST|FIOS|LINER|DLOSP|CHOPT|APS|AFS|TIP|DIRECT)$/i.test(t)) return false;
   return true;
 }
 
@@ -187,24 +338,22 @@ function isValidCargo(name: string): boolean {
   const t = name.trim().toUpperCase();
   if (t.length < 3) return false;
   if (CARGO_BLACKLIST.has(t)) return false;
-  // Partial matches for compound blacklisted terms
-  if (/ENGINE\s*\/?\s*BRIDGE|BRIDGE\s*AFT|MAIN\s*ENGINE|VOID\s*SPACE/i.test(t)) return false;
-  // Reject obvious ship structure words
-  if (/^(HOLD|HATCH|DECK|WINCH|CRANE)\b/i.test(t)) return false;
+  for (const pat of CARGO_BLACKLIST_PATTERNS) {
+    if (pat.test(name)) return false;
+  }
+  // Reject if any word is a ship part
+  const words = t.split(/\s+/);
+  if (words.every(w => SHIP_PART_WORDS.has(w))) return false;
   return true;
 }
 
 function isValidPhone(phone: string): boolean {
   if (!phone) return false;
   const cleaned = phone.trim();
-  // Must have at least 8 digits
   const digits = cleaned.replace(/\D/g, "");
   if (digits.length < 8) return false;
-  // Reject patterns like "3)" or "1)" or bullet-style
   if (/^\d\)/.test(cleaned)) return false;
-  // Must consist only of valid phone characters
   if (!/^[\+\d\s\-()\[\]\.#,]+$/.test(cleaned)) return false;
-  // Reject if it looks like a rate or percentage (e.g. "3.75%")
   if (/%/.test(cleaned)) return false;
   return true;
 }
@@ -227,7 +376,6 @@ function fixDates(open: string | null, close: string | null): { open: string; cl
   const openTs = new Date(open).getTime();
   const closeTs = new Date(close).getTime();
   if (!isNaN(openTs) && !isNaN(closeTs) && closeTs < openTs) {
-    // close is before open — add 5 days to open to get a valid close
     const newClose = new Date(openTs + 5 * 86400000).toISOString().split("T")[0];
     return { open, close: newClose };
   }
@@ -237,55 +385,125 @@ function fixDates(open: string | null, close: string | null): { open: string; cl
 // ─── Patterns ─────────────────────────────────────────────────────────────────
 
 const PATTERNS = {
-  account: /(?:A\/C|ACCT?|Account)[:\s*]+([^\n*]+)/i,
+  account: /(?:A\/C|ACCT?|Account|Charterer)[:\s*]+([^\n*\/]+)/i,
   email: /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/g,
-  phone: /(?:Mobile|Phone|WhatsApp|Contact)\s*[/\s:]*(\+?[\d][\d\s\-().+]{7,24})/gi,
-  // DWT: explicit range or single with K notation support
+  phone: /(?:Mobile|Phone|WhatsApp|Contact|Tel|Mob)\s*[/\s:]*(\+?[\d][\d\s\-().+]{7,24})/gi,
   dwtRange: /(\d{1,3}(?:[.,]\d{3})?)(K?)\s*[-–]\s*(\d{1,3}(?:[.,]\d{3})?)(K?)\s*(?:DWT|DEADWEIGHT)/i,
   dwtSingle: /(\d{1,3}(?:[.,]\d{3})?)(K?)\s*(?:DWT|DEADWEIGHT)/i,
   laycan: /LAYCAN[:\s]+([^\n]+)/i,
-  duration: /DURATION[:\s*]+(?:ABT\s+)?(\d+)\s*(?:TO|[-–])\s*(\d+)\s*DAYS?/i,
-  durationSingle: /DURATION[:\s*]+(?:ABT\s+)?(\d+)\s*DAYS?/i,
+  duration: /DURATION[:\s*]+(?:ABT\s+)?(\d+)\s*(?:TO|[-–])\s*(\d+)\s*(?:DAYS?|MONTHS?|YRS?)/i,
+  durationSingle: /DURATION[:\s*]+(?:ABT\s+)?(\d+)\s*(?:DAYS?|MONTHS?|YRS?)/i,
   delivery: /(?:DELY?|DEL|DELIVERY)[:\s*]+([^\n*]+)/i,
   redelivery: /(?:REDELY?|REDEL|RE-DELY?|REDELIVERY)[:\s*]+([^\n*]+)/i,
-  loadPort: /(?:LP|LOADING\s*PORT?|POL)[:\s]+([^\n]+)/i,
-  dischargePort: /(?:DP|DISCHARGE\s*PORT?|POD)[:\s]+([^\n]+)/i,
+  loadPort: /(?:LP|LOADING\s*PORT?|POL|LOAD\s*PORT)[:\s]+([^\n]+)/i,
+  dischargePort: /(?:DP|DISCHARGE\s*PORT?|POD|DISCH\s*PORT)[:\s]+([^\n]+)/i,
   cargo: /(?:CARGO|COMMODITY|COMMODIT)[:\s*]+([^\n*]+)/i,
   tonnage: /(?:TONNAGE|VESSEL)[:\s*]+([^\n*]+)/i,
-  imo: /IMO\s*(?:NO?\.?\s*)?[:\-]?\s*(\d{7})/i,
+  imo: /IMO\s*(?:NO?\.?\s*|NUMBER\s*)?[:\-]?\s*(\d{7})/i,
   grt: /(?:GRT|GT|GROSS\s*(?:REG(?:ISTERED)?\s*)?TON(?:NAGE)?)\s*[:\-\/]*\s*([\d,.\s]{4,12})/i,
   nrt: /(?:NRT|NT|NET\s*(?:REG(?:ISTERED)?\s*)?TON(?:NAGE)?)\s*[:\-\/]*\s*([\d,.\s]{4,12})/i,
   loa: /(?:LOA|LENGTH\s*(?:OVERALL)?)\s*[:\-\/]*\s*(\d+(?:[.,]\d+)?)\s*(?:M|MTS?)?/i,
   beam: /(?:BEAM|BREADTH|MOULDED\s*BREADTH)\s*[:\-\/]*\s*(\d+(?:[.,]\d+)?)\s*(?:M|MTS?)?/i,
   grainCap: /GRAIN\s*(?:CAPACITY|CAP(?:ACITY)?)\s*[:\-\/]*\s*([\d,.\s]{4,12})/i,
-  loadRate: /(?:LOAD(?:ING)?\s*RATE|L\/?R|LDRATE)\s*[:\-]*\s*([\d,]{3,10})\s*(?:MT\s*\/?\s*D(?:AY)?|PDPR?|PMD|MTONS)/i,
-  dischargeRate: /(?:DISCH(?:ARGE)?\s*RATE|D\/?R|DISRATE)\s*[:\-]*\s*([\d,]{3,10})\s*(?:MT\s*\/?\s*D(?:AY)?|PDPR?|PMD|MTONS)/i,
-  commission: /(?:ADCOM|ADD(?:RESS)?\s*COMM(?:ISSION)?|COMM(?:ISSION)?)\s*[:\s]*(\d+(?:\.\d+)?)\s*(?:%|PCT)?/i,
+  loadRate: /(?:LOAD(?:ING)?\s*RATE|L\/?R|LDRATE|LDNG\s*RATE)\s*[:\-]*\s*([\d,]{3,10})\s*(?:MT\s*\/?\s*D(?:AY)?|PDPR?|PMD|MTONS)/i,
+  dischargeRate: /(?:DISCH(?:ARGE)?\s*RATE|D\/?R|DISRATE|DSCRG\s*RATE)\s*[:\-]*\s*([\d,]{3,10})\s*(?:MT\s*\/?\s*D(?:AY)?|PDPR?|PMD|MTONS)/i,
+  commission: /(?:ADCOM|ADD(?:RESS)?\s*COMM(?:ISSION)?|COMM(?:ISSION)?|BROKERAGE)\s*[:\s]*(\d+(?:\.\d+)?)\s*(?:%|PCT)?/i,
+  commissionReverse: /(\d+(?:\.\d+)?)\s*(?:PCT|%)\s*(?:TTL|TOTAL|COMM|ADCOM|ADD)/i,
   quantity: /(?:M\/M\s*)?(\d{1,3}(?:[,.\s]\d{3})*)\s*(?:MTS?|METRIC\s*TONS?)/i,
   quantityRange: /(\d{1,3}(?:[,.\s]\d{3})*)\s*[-–]\s*(\d{1,3}(?:[,.\s]\d{3})*)\s*(?:MTS?|METRIC\s*TONS?)/i,
-  restriction: /(?:NO\s+(?:CHINESE|PAKISTANI|RED SEA|HRA|GOA|IRANIAN|ISRAELI|SANCTIONED)[^\n]*)/gi,
-  mvName: /\bM[TV]\/?\s+([A-Z][A-Z0-9\s]+?)(?:\s*[\(\/'"]|\s+\d{4}BLT|\s+\d{2,3}K\s)/i,
+  restriction: /(?:NO\s+(?:CHINESE|PAKISTANI|IRANIAN|ISRAELI|SANCTIONED|HRA|GOA|RED\s*SEA|NORTH\s*KOREA|RUSSIA)[^\n]*|EXCL\s+(?:HRA|GOA|RED\s*SEA|IRANIAN)[^\n]*)/gi,
+  mvName: /\bM[TV]\/?\s+([A-Z][A-Z0-9\s.'-]+?)(?:\s*[\(\/'"]|\s+\d{4}BLT|\s+\d{2,3}K\s|\n|\s+IMO|\s+BUILT)/i,
+  hireRate: /(?:HIRE(?:\s*RATE)?|TCH?)\s*[:\-]*\s*(?:USD?\.?\s*)?(\d{1,3}(?:,\d{3})+|\d{4,6})\s*(?:\/?\s*(?:PER\s+DAY|DAY|PDPR?|PMD|PDPW|DPP?))?/i,
+  builtYear: /(?:(?:BUILT|BLT)[:\s\/.]*(\d{4})|(\d{4})\s*(?:BLT|BUILT)\b)/i,
+  flag: /\bFLAG[:\s]+([A-Z][A-Z ]{1,20}?)(?:\s*[\/\n,]|$)/im,
 };
 
-function normalizeEmailText(text: string): string {
+// ─── Preprocessing ────────────────────────────────────────────────────────────
+
+// Lines that indicate start of email footer / signature block
+const SIGNATURE_TRIGGERS = [
+  /^(?:Best\s+Regards?|Kind\s+Regards?|Regards?|Thanks?\s+&?\s+Regards?|Warm\s+Regards?)\s*[,.]?\s*$/i,
+  /^(?:Yours?\s+(?:faithfully|sincerely|truly))\s*[,.]?\s*$/i,
+  /^(?:Sent\s+from\s+my\s+(?:iPhone|Android|Samsung|BlackBerry))/i,
+  /^(?:This\s+message\s+contains\s+confidential)/i,
+  /^(?:DISCLAIMER|CONFIDENTIALITY\s+NOTICE)/i,
+  /^(?:---+\s*Original\s+Message\s*---+)/i,
+  /^(?:From:|Sent:|To:|Subject:)\s+.{3,}/i,
+  /^(?:>{1,3}\s*From:|>{1,3}\s*Sent:)/i,
+];
+
+function stripSignatureBlocks(text: string): string {
+  const lines = text.split("\n");
+  let cutLine = lines.length;
+  let sigLineCount = 0;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (SIGNATURE_TRIGGERS.some(p => p.test(line))) {
+      sigLineCount++;
+      if (sigLineCount === 1) cutLine = i;
+    }
+  }
+  return lines.slice(0, cutLine).join("\n");
+}
+
+function removeMobileFooters(text: string): string {
   return text
-    .normalize("NFKC")
-    .replace(/\r\n?/g, "\n")
-    .replace(/[\u2010-\u2015\u2212]/g, "-")
-    .replace(/\u00a0/g, " ")
-    .replace(/[ \t]+/g, " ")
-    .replace(/\bPCT\b/gi, "%")
-    .replace(/\bTTL\b/gi, "TOTAL")
+    .replace(/Sent\s+from\s+my\s+(?:iPhone|Android|Samsung|BlackBerry|mobile)[^\n]*/gi, "")
+    .replace(/Get\s+Outlook\s+for\s+(?:iOS|Android)[^\n]*/gi, "")
+    .replace(/(?:www\.|http)[^\s]+/gi, "")
+    .replace(/\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi, "");
+}
+
+function normalizeAbbreviations(text: string): string {
+  return text
     .replace(/\bB\.?\s*SEA\b/gi, "BSEA")
     .replace(/\bM\.?\s*E\.?\s*D\.?\b/gi, "MED")
     .replace(/\bW\.?\s*AFR\b/gi, "WAFR")
     .replace(/\bE\.?\s*AFR\b/gi, "EAFR")
     .replace(/\bS\.?\s*CHINA\b/gi, "SCHINA")
-    .replace(/\n{3,}/g, "\n\n")
+    .replace(/\bN\.?\s*CHINA\b/gi, "NCHINA")
+    .replace(/\bE\.?\s*C\.?\s*INDIA\b/gi, "ECI")
+    .replace(/\bW\.?\s*C\.?\s*INDIA\b/gi, "WCI")
+    .replace(/\bPCT\b/gi, "%")
+    .replace(/\bTTL\b/gi, "TOTAL")
+    .replace(/\bABT\b/gi, "ABT")
+    .replace(/\bAPPROX\b/gi, "ABT")
+    .replace(/\bMETRIC\s+TON(?:S)?\b/gi, "MT")
+    .replace(/\bMETRIC\s+TONNES?\b/gi, "MT")
+    .replace(/\bDEADWEIGHT\s+TON(?:S|NAGE)?\b/gi, "DWT")
+    .replace(/\bTIME\s*CHARTER\b/gi, "TC")
+    .replace(/\bVOYAGE\s*CHARTER\b/gi, "VC")
+    .replace(/\bSUPRAMAX\b/gi, "SUPRAMAX")
+    .replace(/\bULTRAMAX\b/gi, "ULTRAMAX")
+    .replace(/\bPANAMAX\b/gi, "PANAMAX")
+    .replace(/\bKAMSARMAX\b/gi, "KAMSARMAX")
+    .replace(/\bCAPESIZE\b/gi, "CAPESIZE");
+}
+
+function normalizeEmailText(text: string): string {
+  const cleaned = text
+    .normalize("NFKC")
+    .replace(/\r\n?/g, "\n")
+    .replace(/[\u2010-\u2015\u2212]/g, "-")
+    .replace(/\u00a0/g, " ")
+    .replace(/[ \t]+/g, " ")
+    .replace(/\n{3,}/g, "\n\n");
+
+  const abbrevNorm = normalizeAbbreviations(cleaned);
+
+  return abbrevNorm
     .split("\n")
     .map(line => line.trim())
     .join("\n")
     .trim();
+}
+
+function preprocessEmail(text: string): string {
+  let processed = normalizeEmailText(text);
+  processed = removeMobileFooters(processed);
+  // Do NOT strip signatures here — we still extract contact info from them
+  return processed;
 }
 
 function compactForFallback(text: string): string {
@@ -298,91 +516,127 @@ const MONTH_MAP: Record<string, string> = {
   JAN: "01", JANUARY: "01", FEB: "02", FEBRUARY: "02", MAR: "03", MARCH: "03",
   APR: "04", APRIL: "04", MAY: "05", JUN: "06", JUNE: "06",
   JUL: "07", JULY: "07", AUG: "08", AUGUST: "08", SEP: "09", SEPTEMBER: "09",
-  OCT: "10", OCTOBER: "10", NOV: "11", NOVEMBER: "11", DEC: "12", DECEMBER: "12",
+  SEPT: "09", OCT: "10", OCTOBER: "10", NOV: "11", NOVEMBER: "11",
+  DEC: "12", DECEMBER: "12",
 };
+
+function inferYear(monthNum: string): string {
+  const now = new Date();
+  const curYear = now.getFullYear();
+  const curMonth = now.getMonth() + 1;
+  const targetMonth = parseInt(monthNum, 10);
+  // If target month is already past this year, use next year
+  if (targetMonth < curMonth - 1) return (curYear + 1).toString();
+  return curYear.toString();
+}
 
 function parseLaycan(text: string): { start: string | null; end: string | null } {
   const upper = text.toUpperCase().trim();
 
-  // Pattern: "18th - 20th JULY, 2025" or "16-21 OCT 2025"
-  const rangeMatch = upper.match(/(\d{1,2})(?:ST|ND|RD|TH)?\s*[-–]\s*(\d{1,2})(?:ST|ND|RD|TH)?\s+([A-Z]+)[,.\s]+(\d{4})/);
+  // SPOT / PROMPT / ASAP
+  if (/\b(?:SPOT|PROMPT|ASAP|IMMEDIATELY)\b/.test(upper)) {
+    const today = new Date();
+    const fmt = (d: Date) => d.toISOString().split("T")[0];
+    const end = new Date(today); end.setDate(end.getDate() + 5);
+    return { start: fmt(today), end: fmt(end) };
+  }
+
+  // "18th - 20th JULY, 2025" or "16-21 OCT 2025"
+  const rangeMatch = upper.match(/(\d{1,2})(?:ST|ND|RD|TH)?\s*[-–\/]\s*(\d{1,2})(?:ST|ND|RD|TH)?\s+([A-Z]+)[,.\s]+(\d{4})/);
   if (rangeMatch) {
     const [, d1, d2, mon, yr] = rangeMatch;
     const m = MONTH_MAP[mon];
     if (m) {
       const start = `${yr}-${m}-${d1.padStart(2, "0")}`;
       const end = `${yr}-${m}-${d2.padStart(2, "0")}`;
-      const fixed = fixDates(start, end);
-      return { start: fixed.open, end: fixed.close };
+      return fixDatesAsLaycan(start, end);
     }
   }
 
-  // Pattern: "END JULY, 2025" or "LATE JULY 2025"
-  const endMonthMatch = upper.match(/(?:END|LATE)\s+([A-Z]+)[,.\s]+(\d{4})/);
-  if (endMonthMatch) {
-    const [, mon, yr] = endMonthMatch;
+  // "16-21 OCT" — no year
+  const rangeNoYear = upper.match(/(\d{1,2})(?:ST|ND|RD|TH)?\s*[-–]\s*(\d{1,2})(?:ST|ND|RD|TH)?\s+([A-Z]+)\s*$/);
+  if (rangeNoYear) {
+    const [, d1, d2, mon] = rangeNoYear;
     const m = MONTH_MAP[mon];
     if (m) {
-      const lastDay = new Date(parseInt(yr), parseInt(m), 0).getDate();
-      const start = `${yr}-${m}-${(lastDay - 5).toString().padStart(2, "0")}`;
-      const end = `${yr}-${m}-${lastDay.toString().padStart(2, "0")}`;
+      const yr = inferYear(m);
+      const start = `${yr}-${m}-${d1.padStart(2, "0")}`;
+      const end = `${yr}-${m}-${d2.padStart(2, "0")}`;
+      return fixDatesAsLaycan(start, end);
+    }
+  }
+
+  // "END OF JULY ONWARDS" / "END JULY 2025"
+  const endMonthOnwardsMatch = upper.match(/(?:END\s+OF|END|LATE)\s+([A-Z]+)(?:[,.\s]+(\d{4}))?\s*(?:ONWARDS|ONWARD)?/);
+  if (endMonthOnwardsMatch) {
+    const [, mon, yr] = endMonthOnwardsMatch;
+    const m = MONTH_MAP[mon];
+    if (m) {
+      const year = yr ?? inferYear(m);
+      const lastDay = new Date(parseInt(year), parseInt(m), 0).getDate();
+      const start = `${year}-${m}-${(lastDay - 5).toString().padStart(2, "0")}`;
+      const end = `${year}-${m}-${lastDay.toString().padStart(2, "0")}`;
       return { start, end };
     }
   }
 
-  // Pattern: "EARLY JULY 2025" or "MID AUGUST 2025"
-  const midEarlyMatch = upper.match(/(?:EARLY|MID|BEGINNING\s+OF)\s+([A-Z]+)[,.\s]+(\d{4})/);
+  // "EARLY JULY 2025" / "MID AUGUST" / "BEGINNING OF JULY"
+  const midEarlyMatch = upper.match(/(?:EARLY|MID(?:DLE)?|BEGINNING\s+OF|FIRST\s+HALF\s+OF|SECOND\s+HALF\s+OF)\s+([A-Z]+)(?:[,.\s]+(\d{4}))?/);
   if (midEarlyMatch) {
-    const [, mon, yr] = midEarlyMatch;
+    const [fullMatch, mon, yr] = midEarlyMatch;
     const m = MONTH_MAP[mon];
     if (m) {
-      const isEarly = upper.includes("EARLY");
-      const prefix = isEarly ? "01" : "15";
-      const endDay = isEarly ? "10" : "20";
-      return { start: `${yr}-${m}-${prefix}`, end: `${yr}-${m}-${endDay}` };
+      const year = yr ?? inferYear(m);
+      const isEarly = /EARLY|BEGINNING|FIRST/.test(fullMatch);
+      const isMid = /MID/.test(fullMatch);
+      const prefix = isEarly ? "01" : isMid ? "10" : "20";
+      const endDay = isEarly ? "10" : isMid ? "20" : "28";
+      return { start: `${year}-${m}-${prefix}`, end: `${year}-${m}-${endDay}` };
     }
   }
 
-  // Pattern: "16-21 OCT" (no year) — use captured year or current
-  const simpleRange = upper.match(/(\d{1,2})\s*[-–]\s*(\d{1,2})\s+([A-Z]+)[,\s]*(\d{4})?/);
-  if (simpleRange) {
-    const [, d1, d2, mon, capturedYr] = simpleRange;
-    const m = MONTH_MAP[mon];
-    const yr = capturedYr ?? new Date().getFullYear().toString();
-    if (m) {
-      const start = `${yr}-${m}-${d1.padStart(2, "0")}`;
-      const end = `${yr}-${m}-${d2.padStart(2, "0")}`;
-      const fixed = fixDates(start, end);
-      return { start: fixed.open, end: fixed.close };
-    }
-  }
-
-  // Pattern: "20 JULY ONWARDS" or "20 JULY 2025 ONWARDS" — open-ended start
-  const onwardsMatch = upper.match(/(\d{1,2})(?:ST|ND|RD|TH)?\s+([A-Z]+)(?:[,.\s]+(\d{4}))?\s+ONWARDS/);
+  // "20 JULY ONWARDS" / "20 JULY 2025 ONWARDS"
+  const onwardsMatch = upper.match(/(\d{1,2})(?:ST|ND|RD|TH)?\s+([A-Z]+)(?:[,.\s]+(\d{4}))?\s+(?:ONWARDS|ONWARD)/);
   if (onwardsMatch) {
     const [, d, mon, yr] = onwardsMatch;
     const m = MONTH_MAP[mon];
-    const year = yr ?? new Date().getFullYear().toString();
     if (m) {
+      const year = yr ?? inferYear(m);
       const start = `${year}-${m}-${d.padStart(2, "0")}`;
-      return { start, end: null };
+      const endTs = new Date(start).getTime() + 5 * 86400000;
+      const end = new Date(endTs).toISOString().split("T")[0];
+      return { start, end };
     }
   }
 
-  // Pattern: "22ND JULY 2025" single date → range +5 days
+  // "22ND JULY 2025" — single date with year
   const singleDate = upper.match(/(\d{1,2})(?:ST|ND|RD|TH)?\s+([A-Z]+)[,.\s]+(\d{4})/);
   if (singleDate) {
     const [, d, mon, yr] = singleDate;
     const m = MONTH_MAP[mon];
     if (m) {
       const start = `${yr}-${m}-${d.padStart(2, "0")}`;
-      const startTs = new Date(start).getTime();
-      const end = new Date(startTs + 5 * 86400000).toISOString().split("T")[0];
+      const endTs = new Date(start).getTime() + 5 * 86400000;
+      const end = new Date(endTs).toISOString().split("T")[0];
       return { start, end };
     }
   }
 
-  // Pattern: "JULY 2025" single month
+  // "22 JULY" — single date without year
+  const singleDateNoYear = upper.match(/(\d{1,2})(?:ST|ND|RD|TH)?\s+([A-Z]+)\s*$/);
+  if (singleDateNoYear) {
+    const [, d, mon] = singleDateNoYear;
+    const m = MONTH_MAP[mon];
+    if (m) {
+      const yr = inferYear(m);
+      const start = `${yr}-${m}-${d.padStart(2, "0")}`;
+      const endTs = new Date(start).getTime() + 5 * 86400000;
+      const end = new Date(endTs).toISOString().split("T")[0];
+      return { start, end };
+    }
+  }
+
+  // "JULY 2025" — whole month
   const monthOnly = upper.match(/\b([A-Z]+)[,\s]+(\d{4})\b/);
   if (monthOnly) {
     const [, mon, yr] = monthOnly;
@@ -393,21 +647,47 @@ function parseLaycan(text: string): { start: string | null; end: string | null }
     }
   }
 
-  // Pattern: "PROMPT" or "SPOT"
-  if (upper.includes("PROMPT") || upper.includes("SPOT")) {
-    const today = new Date();
-    const fmt = (d: Date) => d.toISOString().split("T")[0];
-    const end = new Date(today); end.setDate(end.getDate() + 5);
-    return { start: fmt(today), end: fmt(end) };
+  // "JULY" alone — infer year
+  const monthOnlyNoYear = upper.match(/^([A-Z]{3,9})\s*$/);
+  if (monthOnlyNoYear) {
+    const m = MONTH_MAP[monthOnlyNoYear[1]];
+    if (m) {
+      const yr = inferYear(m);
+      const lastDay = new Date(parseInt(yr), parseInt(m), 0).getDate();
+      return { start: `${yr}-${m}-01`, end: `${yr}-${m}-${lastDay}` };
+    }
   }
 
   return { start: null, end: null };
 }
 
-function parseDwt(text: string): { min: number | null; max: number | null } {
+function fixDatesAsLaycan(start: string, end: string): { start: string; end: string | null } {
+  const r = fixDates(start, end);
+  return { start: r.open, end: r.close || null };
+}
+
+function parseDwt(text: string): { min: number | null; max: number | null; vesselType: string | null } {
   const upper = text.toUpperCase();
 
-  // PRIORITY 1: Explicit DWT range "58K - 60K DWT" or "58,000-60,000 DWT"
+  // DWT as label prefix: "DWT: 52,000 - 58,000" or "DWT: 52,000"
+  const labelPrefixRange = upper.match(/(?:DWT|DEADWEIGHT)\s*[:\s]+(\d{1,3}(?:[.,]\d{3})?)(K?)\s*[-–TO]+\s*(\d{1,3}(?:[.,]\d{3})?)(K?)/);
+  if (labelPrefixRange) {
+    const [, v1, k1, v2, k2] = labelPrefixRange;
+    const f1 = k1 ? 1000 : 1;
+    const f2 = k2 ? 1000 : 1;
+    const minVal = parseFloat(v1.replace(/[,.]/g, "")) * f1;
+    const maxVal = parseFloat(v2.replace(/[,.]/g, "")) * f2;
+    if (minVal >= 1000 && maxVal >= 1000) return { min: minVal, max: maxVal, vesselType: null };
+  }
+  const labelPrefixSingle = upper.match(/(?:DWT|DEADWEIGHT)\s*[:\s]+(\d{1,3}(?:[.,]\d{3})?)(K?)\s*(?:DWT|MT|$)/);
+  if (labelPrefixSingle) {
+    const [, v, k] = labelPrefixSingle;
+    const f = k ? 1000 : 1;
+    const val = parseFloat(v.replace(/[,.]/g, "")) * f;
+    if (val >= 1000) return { min: val, max: val, vesselType: null };
+  }
+
+  // Explicit DWT range (value before keyword)
   const rangeMatch = upper.match(/(\d{1,3}(?:[.,]\d{3})?)(K?)\s*[-–]\s*(\d{1,3}(?:[.,]\d{3})?)(K?)\s*(?:DWT|DEADWEIGHT)/);
   if (rangeMatch) {
     const [, v1, k1, v2, k2] = rangeMatch;
@@ -415,58 +695,79 @@ function parseDwt(text: string): { min: number | null; max: number | null } {
     const f2 = k2 ? 1000 : 1;
     const minVal = parseFloat(v1.replace(/[,.]/g, "")) * f1;
     const maxVal = parseFloat(v2.replace(/[,.]/g, "")) * f2;
-    if (minVal >= 1000 && maxVal >= 1000) return { min: minVal, max: maxVal };
+    if (minVal >= 1000 && maxVal >= 1000) return { min: minVal, max: maxVal, vesselType: null };
   }
 
-  // PRIORITY 2: Explicit single DWT "58K DWT" or "58,000 DWT"
+  // Explicit single DWT (value before keyword)
   const singleMatch = upper.match(/(\d{1,3}(?:[.,]\d{3})?)(K?)\s*(?:DWT|DEADWEIGHT)/);
   if (singleMatch) {
     const [, v, k] = singleMatch;
     const f = k ? 1000 : 1;
     const val = parseFloat(v.replace(/[,.]/g, "")) * f;
-    if (val >= 1000) return { min: val, max: val };
+    if (val >= 1000) return { min: val, max: val, vesselType: null };
   }
 
-  // PRIORITY 3: Vessel size class names (SUPRA, ULTRAMAX, etc.)
-  for (const [name, range] of Object.entries(VESSEL_SIZE_MAP)) {
+  // SIZE: / VESSEL SIZE: range without DWT keyword — e.g. "SIZE: 52,000 - 58,000"
+  const sizeRangeMatch = upper.match(/(?:SIZE|VESSEL\s*SIZE|VESSEL\s*REQUIREMENT|TONNAGE)\s*[:\s]+.*?(\d{2,3}(?:[.,]\d{3})?)(K?)\s*[-–]\s*(\d{2,3}(?:[.,]\d{3})?)(K?)\b/);
+  if (sizeRangeMatch) {
+    const [, v1, k1, v2, k2] = sizeRangeMatch;
+    const f1 = k1 ? 1000 : 1;
+    const f2 = k2 ? 1000 : 1;
+    const minVal = parseFloat(v1.replace(/[,.]/g, "")) * f1;
+    const maxVal = parseFloat(v2.replace(/[,.]/g, "")) * f2;
+    if (minVal >= 10000 && maxVal >= 10000) return { min: minVal, max: maxVal, vesselType: null };
+  }
+
+  // Vessel class names — longest match first
+  const sortedSizes = Object.entries(VESSEL_SIZE_MAP).sort((a, b) => b[0].length - a[0].length);
+  const foundClasses: Array<{ min: number; max: number; type: string }> = [];
+
+  for (const [name, range] of sortedSizes) {
     if (new RegExp(`\\b${name}\\b`, "i").test(upper)) {
-      const parts = upper.split(/[\/,]+/);
-      let min = Infinity, max = -Infinity;
-      let found = false;
-      for (const part of parts) {
-        const clean = part.trim().replace(/[^A-Z]/g, "");
-        if (VESSEL_SIZE_MAP[clean]) {
-          min = Math.min(min, VESSEL_SIZE_MAP[clean].min);
-          max = Math.max(max, VESSEL_SIZE_MAP[clean].max);
-          found = true;
-        }
-      }
-      if (found && min !== Infinity) return { min, max };
-      return { min: range.min, max: range.max };
+      foundClasses.push(range);
     }
   }
 
-  return { min: null, max: null };
+  if (foundClasses.length > 0) {
+    const minVal = Math.min(...foundClasses.map(c => c.min));
+    const maxVal = Math.max(...foundClasses.map(c => c.max));
+    const vesselType = foundClasses[0].type;
+    return { min: minVal, max: maxVal, vesselType };
+  }
+
+  return { min: null, max: null, vesselType: null };
 }
 
 function parseQuantity(text: string): { min: number | null; max: number | null } {
   const upper = text.toUpperCase();
-  const rangeMatch = upper.match(/(\d{1,3}(?:[,.\s]\d{3})*)\s*[-–]\s*(\d{1,3}(?:[,.\s]\d{3})*)\s*(?:MTS?|METRIC\s*TONS?)/);
+  // Remove rate lines like "15,000 MT/DAY" or "20,000 PDPR" to avoid false matches
+  const noRates = upper
+    .replace(/\d[\d,.\s]*\s*(?:MTS?|METRIC\s*TONS?)\s*\/?\s*(?:DAY|PDPR?|PMD|PDPW|SHINC|SHEX|PWWD)[^\n]*/g, "")
+    .replace(/\d[\d,.\s]*\s*(?:MT\/D|MT\/DAY)[^\n]*/g, "");
+
+  // Range like "50,000 - 55,000 MT"
+  const rangeMatch = noRates.match(/(\d{1,3}(?:[,.\s]\d{3})*)\s*[-–]\s*(\d{1,3}(?:[,.\s]\d{3})*)\s*(?:MTS?|METRIC\s*TONS?)/);
   if (rangeMatch) {
     return {
       min: parseInt(rangeMatch[1].replace(/[,.\s]/g, "")),
       max: parseInt(rangeMatch[2].replace(/[,.\s]/g, "")),
     };
   }
-  const plainSingle = upper.match(/\b(\d{4,6})\s*(?:MTS?|METRIC\s*TONS?)\b/);
+  // M/M pattern like "55,000 MT MOLOO"
+  const mmMatch = noRates.match(/\b(\d{1,3}(?:[,.\s]\d{3})*)\s*(?:MTS?|METRIC\s*TONS?)\s*(?:MOLOO|MOLCO|CHOPT|[\+\/])/);
+  if (mmMatch) {
+    const val = parseInt(mmMatch[1].replace(/[,.\s]/g, ""));
+    if (val >= 1000) return { min: val, max: val };
+  }
+  const plainSingle = noRates.match(/\b(\d{4,6})\s*(?:MTS?|METRIC\s*TONS?)\b/);
   if (plainSingle) {
     const val = parseInt(plainSingle[1], 10);
     return { min: val, max: val };
   }
-  const singleMatch = upper.match(/\b(\d{1,3}(?:[,.\s]\d{3})*)\s*(?:MTS?|METRIC\s*TONS?)/);
+  const singleMatch = noRates.match(/\b(\d{1,3}(?:[,.\s]\d{3})*)\s*(?:MTS?|METRIC\s*TONS?)/);
   if (singleMatch) {
     const val = parseInt(singleMatch[1].replace(/[,.\s]/g, ""));
-    return { min: val, max: val };
+    if (val >= 1000) return { min: val, max: val };
   }
   return { min: null, max: null };
 }
@@ -476,14 +777,11 @@ function extractSignature(text: string): { pic: string | null; email: string | n
   const email = emails ? emails[0] : null;
 
   let phone: string | null = null;
-  const phoneRegex = /(?:Mobile|Phone|WhatsApp|Contact)\s*[/\s:]*(\+?[\d][\d\s\-().+]{7,24})/gi;
+  const phoneRegex = /(?:Mobile|Phone|WhatsApp|Contact|Tel|Mob)\s*[/\s:]*(\+?[\d][\d\s\-().+]{7,24})/gi;
   let phoneMatch;
   while ((phoneMatch = phoneRegex.exec(text)) !== null) {
     const candidate = phoneMatch[1].trim();
-    if (isValidPhone(candidate)) {
-      phone = candidate;
-      break;
-    }
+    if (isValidPhone(candidate)) { phone = candidate; break; }
   }
 
   const lines = text.split("\n");
@@ -523,7 +821,6 @@ function cleanBrokerLocation(text: string | null): string | null {
     .replace(/[()*]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
-
   if (!cleaned || cleaned.length <= 2) return null;
   return cleaned;
 }
@@ -541,6 +838,16 @@ function extractRoutePorts(text: string): { load: string | null; discharge: stri
     };
   }
 
+  // Try "PORT A / PORT B" without SP notation
+  const simplePorts = normalized.match(/\b([A-Z]{3,})\s*\/\s*([A-Z]{3,})\b(?!\s*(?:DWT|MT|KT))/);
+  if (simplePorts) {
+    const load = simplePorts[1];
+    const discharge = simplePorts[2];
+    if (isValidPort(load) && isValidPort(discharge) && !REGION_MAP[load] && !REGION_MAP[discharge]) {
+      return { load: resolvePort(load), discharge: resolvePort(discharge) };
+    }
+  }
+
   return { load: null, discharge: null };
 }
 
@@ -552,6 +859,11 @@ function detectCargoType(text: string): string {
   return "Dry Bulk";
 }
 
+function normalizeCargo(raw: string): string {
+  const upper = raw.toUpperCase().trim();
+  return CARGO_ALIASES[upper] ?? raw.trim();
+}
+
 function cleanCargoName(raw: string | null): string | null {
   if (!raw) return null;
   const cleaned = raw
@@ -559,26 +871,30 @@ function cleanCargoName(raw: string | null): string | null {
     .replace(/\bSF\s*\d+(?:\.\d+)?\b.*$/i, "")
     .replace(/\b\d{1,2}\s*%.*$/i, "")
     .replace(/\b\d{1,2}\s*PCT.*$/i, "")
-    .replace(/\b(?:TTL|TOTAL|MOLOO|CHOPT|LOAD|DISCH)\b.*$/i, "")
+    .replace(/\b(?:TOTAL|MOLOO|CHOPT|LOAD|DISCH|LINER|TERMS)\b.*$/i, "")
     .replace(/\s+OR\s+/gi, "/")
     .replace(/\s+/g, " ")
     .trim();
 
   if (/^\d/.test(cleaned) || /\b\d+\s*(?:SP|P)\b/i.test(cleaned)) return null;
-  return cleaned && isValidCargo(cleaned) ? cleaned : null;
+  if (!cleaned || !isValidCargo(cleaned)) return null;
+  return normalizeCargo(cleaned);
 }
 
 function extractCargoName(segment: string): string | null {
+  // Explicit CARGO / COMMODITY label — COLON REQUIRED to avoid "cargo inquiry" / "cargo position" false matches
   const explicit =
-    segment.match(/(?:CARGO|COMMODITY|COMMODIT)[: \t]+([^\n*]+)/i) ||
+    segment.match(/(?:CARGO|COMMODITY|COMMODIT)\s*:\s*([^\n\-–*]+)/i) ||
     segment.match(/\d\s+TCT\s+(?:WITH\s+)?([A-Z][A-Z\s\/OR]+?)\s+IN\s+BLK/i) ||
-    segment.match(/TCT\s+(?:WITH\s+)?([A-Z][A-Z\s\/OR]+?)\s+IN\s+BLK/i);
+    segment.match(/TCT\s+(?:WITH\s+)?([A-Z][A-Z\s\/OR]+?)\s+IN\s+BLK/i) ||
+    segment.match(/(?:CARRYING|LADEN\s+WITH|LOAD(?:ING)?)\s*:\s*([A-Z][A-Z\s\/]+?)(?:\s+IN|\s+AT|\s+FROM|\s+TO|[,\n])/i);
 
   if (explicit) {
     const cargo = cleanCargoName(explicit[1].trim().split("\n")[0]);
     if (cargo) return cargo;
   }
 
+  // Label on next line
   const lines = segment.split("\n").map(line => line.trim()).filter(Boolean);
   for (let i = 0; i < lines.length - 1; i++) {
     if (/^(?:CARGO|COMMODITY|COMMODIT)\s*:?\s*$/i.test(lines[i])) {
@@ -587,27 +903,31 @@ function extractCargoName(segment: string): string | null {
     }
   }
 
+  // Inline: "55,000 MT COAL IN BULK" or "55,000 MT COAL LAYCAN..." pattern
   const compact = compactForFallback(segment);
-  const quantityCargo =
-    compact.match(/\b\d{4,6}\s*(?:MT|MTS|METRIC\s+TONS?)\s*(?:\d{1,2}\s*%|MOLOO|MOLCO|CHOPT|TTL|TOTAL|[-+/ A-Z])*?\s+([A-Z][A-Z /-]+?)\s+(?:IN\s+)?BULK\b/i) ||
-    compact.match(/\b(?:CARGO\s*)?([A-Z][A-Z /-]+?)\s+(?:IN\s+)?BULK\b/i);
+  const inlineCargo =
+    compact.match(/\b\d{1,3}[,\s]\d{3}\s*(?:MT|MTS)\s+(?:\d{1,2}\s*%|MOLOO|MOLCO|CHOPT|TTL|TOTAL)?\s*([A-Z][A-Z]{2,20})\s+(?:IN\s+BULK|LAYCAN|LC\b|CARGO|LOAD|DISCH)/i) ||
+    compact.match(/\b\d{4,6}\s*(?:MT|MTS|METRIC\s+TONS?)\s+(?:\d{1,2}\s*%|MOLOO|MOLCO|CHOPT|TTL|TOTAL)?[\s\/]*([A-Z][A-Z /-]{2,30}?)\s+(?:IN\s+)?BULK\b/i) ||
+    compact.match(/\b([A-Z][A-Z /-]{2,30}?)\s+(?:IN\s+)?BULK\b/i);
 
-  return quantityCargo ? cleanCargoName(quantityCargo[1]) : null;
+  return inlineCargo ? cleanCargoName(inlineCargo[1]) : null;
 }
 
 function parseDuration(text: string): string | null {
   const rangeMatch = text.match(/(?:ABT\s+)?(\d+)\s*(?:TO|[-–])\s*(\d+)\s*(DAYS?|MONTHS?|YEARS?|YRS?|MOS?)?/i);
   if (rangeMatch) {
-    const [, , max, unit = "DAYS"] = rangeMatch;
+    const [, min, max, unit = "DAYS"] = rangeMatch;
     const u = unit.toUpperCase();
-    const unitStr = u.startsWith("MONTH") ? "months" : u.startsWith("YEAR") || u.startsWith("YR") ? "years" : "days";
-    return `${max} ${unitStr}`;
+    const unitStr = u.startsWith("MONTH") || u.startsWith("MO") ? "months" :
+      u.startsWith("YEAR") || u.startsWith("YR") ? "years" : "days";
+    return `${min}-${max} ${unitStr}`;
   }
   const singleMatch = text.match(/(?:ABT\s+)?(\d+)\s*(DAYS?|MONTHS?|YEARS?|YRS?|MOS?)/i);
   if (singleMatch) {
     const [, val, unit] = singleMatch;
     const u = unit.toUpperCase();
-    const unitStr = u.startsWith("MONTH") ? "months" : u.startsWith("YEAR") || u.startsWith("YR") ? "years" : "days";
+    const unitStr = u.startsWith("MONTH") || u.startsWith("MO") ? "months" :
+      u.startsWith("YEAR") || u.startsWith("YR") ? "years" : "days";
     return `${val} ${unitStr}`;
   }
   return null;
@@ -649,82 +969,162 @@ function extractCommonTechnicalFields(segment: string): Partial<ExtractedFields>
     if (!isNaN(v) && v > 1000) fields.grain_capacity = v.toString();
   }
 
-  // Commission: "ADCOM: 3.75%" OR "3.75 ADDCOM PLUS" (number before keyword)
+  // Commission
   const commMatch = segment.match(PATTERNS.commission) ||
-    segment.match(/(\d+(?:\.\d+)?)\s+(?:ADDCOM|ADCOM|%)(?:\s+(?:TTL|TOTAL))?/i) ||
-    segment.match(/(\d+(?:\.\d+)?)\s*(?:PCT|%)\s*(?:TTL|TOTAL|COMM|ADCOM)?/i);
+    segment.match(PATTERNS.commissionReverse) ||
+    segment.match(/(\d+(?:\.\d+)?)\s+(?:ADDCOM|ADCOM)(?:\s+(?:TTL|TOTAL))?/i);
   if (commMatch) fields.commission = `${commMatch[1]}%`;
 
+  // Load rate
   const loadRateMatch = segment.match(PATTERNS.loadRate);
   if (loadRateMatch) {
     const v = parseInt(loadRateMatch[1].replace(/,/g, ""));
     if (!isNaN(v) && v > 100) fields.load_rate = `${v} MT/DAY`;
   }
 
+  // Discharge rate
   const dischargeRateMatch = segment.match(PATTERNS.dischargeRate);
   if (dischargeRateMatch) {
     const v = parseInt(dischargeRateMatch[1].replace(/,/g, ""));
     if (!isNaN(v) && v > 100) fields.discharge_rate = `${v} MT/DAY`;
   }
 
+  // Hire rate (TC)
+  const hireMatch = segment.match(PATTERNS.hireRate);
+  if (hireMatch) {
+    const v = parseInt(hireMatch[1].replace(/,/g, ""));
+    if (!isNaN(v) && v >= 1000 && v <= 200000) fields.hire_rate = `USD ${v}/DAY`;
+  }
+
+  // Built year — handles both "BUILT: 2012" and "2015 BLT"
+  const builtMatch = segment.match(PATTERNS.builtYear);
+  if (builtMatch) {
+    const rawYr = builtMatch[1] ?? builtMatch[2];
+    const yr = parseInt(rawYr, 10);
+    if (yr >= 1970 && yr <= new Date().getFullYear() + 1) fields.built_year = rawYr;
+  }
+
+  // Flag
+  const flagMatch = segment.match(PATTERNS.flag);
+  if (flagMatch) fields.flag = flagMatch[1].trim();
+
   return fields;
 }
 
-// ─── Email Segmentation ───────────────────────────────────────────────────────
+// ─── Email Segmentation v2 ────────────────────────────────────────────────────
 
-function splitMultipleRequirements(text: string): string[] {
-  // TC circular emails repeat ACCT/DEL/LC/REDEL patterns for multiple requirements.
-  // Split at each line that starts with ACCT (2nd occurrence onwards).
+// Separator patterns: explicit dividers in broker circulars
+const HARD_SEPARATORS = /\n[-─—*=]{4,}\n/g;
+
+// Patterns that strongly indicate start of a new cargo/tonnage block
+function startsNewBlock(line: string): boolean {
+  const t = line.trim().toUpperCase();
+  if (t.length < 5) return false;
+
+  // Numbered bullets: "1." "1)" "A." "A)"
+  if (/^(?:\d+|[A-Z])[).\-]\s+/.test(t)) {
+    return /(?:MV|M\/V|OPEN|DWT|TCT|VC|TC|CARGO|LAYCAN|LC\b|ACCT|ACCOUNT|\d{2,3}\s*K\b|\d{4,6}\s*MT|VOYAGE|CHARTER)/.test(t);
+  }
+
+  // ACCT line (TC circular)
+  if (/^ACCT\s+/.test(t)) return true;
+
+  // A/C line
+  if (/^A\/C\s+/.test(t)) return true;
+
+  // MV / M/V vessel name
+  if (/^M[TV]\/?\s+[A-Z]/.test(t)) return true;
+
+  // VESSEL: or TONNAGE: — but NOT VESSEL TYPE:, VESSEL POSITION:, etc. (those are field labels not entry headers)
+  if (/^VESSEL\s*(?:NAME|DETAILS|OFFER|DESCRIPTION)?\s*:/.test(t)) return true;
+  if (/^TONNAGE\s*(?:POSITION|DETAILS|OFFER)?[:\s]/.test(t)) return true;
+
+  // Forwarded email separator
+  if (/^[-]{3,}\s*(?:Forwarded|Original)\s+(?:message|Message|Msg)/i.test(line)) return true;
+
+  return false;
+}
+
+function splitByAcCt(text: string): string[] {
   const lines = text.split("\n");
   const blocks: string[] = [];
   let current: string[] = [];
-  let acctCount = 0;
+  let blockCount = 0;
 
   for (const line of lines) {
-    const trimmed = line.trim().toUpperCase();
-    const isAcctLine = /^ACCT\s+/.test(trimmed);
-    if (isAcctLine) {
-      acctCount++;
-      if (acctCount > 1 && current.join("").trim().length > 20) {
-        blocks.push(current.join("\n").trim());
-        current = [];
-      }
+    const t = line.trim().toUpperCase();
+    const isBlockStart = /^(?:ACCT|A\/C)\s+/.test(t);
+
+    if (isBlockStart && blockCount > 0 && current.join("").trim().length > 20) {
+      blocks.push(current.join("\n").trim());
+      current = [];
     }
+    if (isBlockStart) blockCount++;
     current.push(line);
   }
   if (current.join("").trim().length > 20) blocks.push(current.join("\n").trim());
-  return blocks.length > 0 ? blocks : [text];
+  return blocks.length > 1 ? blocks : [text];
+}
+
+function splitByBullets(text: string): string[] {
+  const lines = text.split("\n");
+  const blocks: string[] = [];
+  let current: string[] = [];
+  let blockCount = 0;
+
+  for (const line of lines) {
+    if (startsNewBlock(line) && blockCount > 0 && current.join("").trim().length > 30) {
+      blocks.push(current.join("\n").trim());
+      current = [];
+    }
+    if (startsNewBlock(line)) blockCount++;
+    current.push(line);
+  }
+  if (current.join("").trim().length > 30) blocks.push(current.join("\n").trim());
+  return blocks.length > 1 ? blocks : [];
+}
+
+function splitForwardedChains(text: string): string[] {
+  // Split at "--- Forwarded message ---" or "--- Original Message ---"
+  const parts = text.split(/\n[-]{3,}\s*(?:Forwarded|Original)\s+(?:message|Message|Msg).*?\n/i);
+  return parts.map(p => p.trim()).filter(p => p.length > 50);
 }
 
 function segmentEmail(emailText: string): string[] {
   const normalizedText = normalizeEmailText(emailText);
-  // Primary split: explicit dash/line separator
-  const rawSegments = normalizedText.split(/\n[-─—]{4,}\n/);
   const result: string[] = [];
 
-  for (const seg of rawSegments) {
-    const trimmed = seg.trim();
-    if (trimmed.length < 20) continue;
+  // Step 1: Split forwarded email chains
+  const forwardedParts = splitForwardedChains(normalizedText);
+  const workingParts = forwardedParts.length > 1 ? forwardedParts : [normalizedText];
 
-    // Check if this segment contains multiple ACCT blocks (TC circular format)
-    const acctCount = (trimmed.match(/^ACCT\s+/gim) ?? []).length;
-    if (acctCount >= 2) {
-      result.push(...splitMultipleRequirements(trimmed));
-    } else {
+  for (const part of workingParts) {
+    // Step 2: Split on hard dash separators
+    const hardSplit = part.split(HARD_SEPARATORS);
+
+    for (const seg of hardSplit) {
+      const trimmed = seg.trim();
+      if (trimmed.length < 20) continue;
+
+      // Step 3: Check for ACCT/A/C multi-block pattern
+      const acctCount = (trimmed.match(/^(?:ACCT|A\/C)\s+/gim) ?? []).length;
+      if (acctCount >= 2) {
+        result.push(...splitByAcCt(trimmed));
+        continue;
+      }
+
+      // Step 4: Check for bullet / numbered block pattern
+      const bulletBlocks = splitByBullets(trimmed);
+      if (bulletBlocks.length > 1) {
+        result.push(...bulletBlocks);
+        continue;
+      }
+
       result.push(trimmed);
     }
   }
 
-  const lineBlocks = splitLineStartedBlocks(normalizedText);
-  if (lineBlocks.length > 0 && result.length === 1 && result[0] === normalizedText) {
-    result.length = 0;
-  }
-  result.push(...lineBlocks);
-
-  if (result.length === 0 && normalizedText.length > 20) {
-    result.push(normalizedText);
-  }
-
+  // Deduplicate
   const deduped: string[] = [];
   const seen = new Set<string>();
   for (const segment of result.filter(s => s.length > 20)) {
@@ -735,65 +1135,54 @@ function segmentEmail(emailText: string): string[] {
     }
   }
 
-  return deduped;
+  return deduped.length > 0 ? deduped : [normalizedText];
 }
 
-function splitLineStartedBlocks(text: string): string[] {
-  const lines = text.split("\n");
-  const blocks: string[] = [];
-  let current: string[] = [];
-
-  const startsBlock = (line: string) => {
-    const t = line.trim().toUpperCase();
-    return /^(?:\d+[\).\-]|[A-Z]{1,3}[\).\-])\s+/.test(t) &&
-      /(?:MV|M\/V|OPEN|DWT|TCT|CARGO|LAYCAN|LC\b|ACCT|ACCOUNT|\d{2,3}\s*K|\d{4,6}\s*MT)/.test(t);
-  };
-
-  for (const line of lines) {
-    if (startsBlock(line) && current.join("").trim().length > 20) {
-      blocks.push(current.join("\n").trim());
-      current = [];
-    }
-    current.push(line);
-  }
-
-  if (current.join("").trim().length > 20) blocks.push(current.join("\n").trim());
-  return blocks.length > 1 ? blocks : [];
-}
+// ─── Type Detection ───────────────────────────────────────────────────────────
 
 function detectSegmentType(segment: string): EntryType | null {
   const upper = segment.toUpperCase();
   const compact = compactForFallback(segment).toUpperCase();
-  const hasTCSignals = /(?:DELY?|DEL|DELIVERY)[:\s*]+|(?:REDELY?|REDEL|RE-DELY?)[:\s*]+|TCT|TIME\s*CHARTER|1\s*TCT|\bTRIP\b|\bPERIOD\b|\bDURATION\b/.test(upper);
-  const hasVCSignals = /(?:LP|LOADING\s*PORT?|POL)[:\s]+|(?:DP|DISCHARGE\s*PORT?|POD)[:\s]+|VOYAGE\s*CHARTER|LOAD\s*RATE|DISRATE|DISCHARGING\s*RATE|\b\d{4,6}\s*MT\b|\bMTS\b|\bIN\s+BULK\b|\bSF\s*\d/.test(upper) ||
+
+  const hasTCSignals =
+    /(?:DELY?|DEL|DELIVERY)\s*[:\s*]+|(?:REDELY?|REDEL|RE-DELY?)\s*[:\s*]+|TCT\b|TIME\s*CHARTER|1\s*TCT|\bTRIP\b|\bPERIOD\b|\bDURATION\b|\bHIRE\b/.test(upper);
+
+  // hasVCSignals: detect comma-formatted MT numbers too e.g. "55,000 MT"
+  const hasVCSignals =
+    /(?:LP|LOADING\s*PORT?|POL|POD|DISCHARGE\s*PORT)\s*[:\s]+|VOYAGE\s*CHARTER|LOAD\s*RATE|DISRATE|DISCHARGING\s*RATE|\b\d{4,6}\s*MT\b|\bMTS\b|\bIN\s+BULK\b|\bSF\s*\d/.test(upper) ||
+    /\b\d{1,3}[,]\d{3}\s*MT\b/.test(upper) ||
     /\b\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+?\s*\/\s*\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+/.test(compact);
-  const hasTonnageSignals = /\bM[TV]\/?[\s\w]+(?:OPEN|WILL OPEN|'[0-9]{2}|IMO|DWT\/DRAFT|BULK CARRIER|FLAG[:\s]|BUILT:)/i.test(segment) ||
-    /\b(?:MV|M\/V|MT)\s+[A-Z][A-Z0-9\s.'-]+/.test(upper) && /\b(?:OPEN|DWT|IMO|BUILT|BLT|BULK\s*CARRIER)\b/.test(upper) ||
+
+  const hasTonnageSignals =
+    /\bM[TV]\/?\s*[A-Z][A-Z0-9\s.'-]+/.test(upper) && /\b(?:OPEN|DWT|IMO|BUILT|BLT|BULK\s*CARRIER|WILL\s*OPEN)\b/.test(upper) ||
+    /\bM[TV]\/?[\s\w]+(?:OPEN|WILL OPEN|'[0-9]{2}|IMO|DWT\/DRAFT|BULK CARRIER|FLAG[:\s]|BUILT:)/i.test(segment) ||
     /OPEN\s+[A-Z]+/.test(upper) && !hasTCSignals && !hasVCSignals;
 
   if (hasTonnageSignals) return "Tonnage";
-  if (hasTCSignals) return "TC";
+  if (hasTCSignals && !hasVCSignals) return "TC";
+  if (hasTCSignals && hasVCSignals) return "TC"; // prefer TC when both, route ports handle the rest
   if (hasVCSignals) return "VC";
-  if (/CARGO[:\s]/i.test(segment) && /QUANTITY[:\s]/i.test(segment)) return "VC";
-  if (/CARGO[:\s]/i.test(segment) && /DELY?[:\s*]+/i.test(segment)) return "TC";
+
+  // Fallback heuristics
+  if (/CARGO\s*[:\s]/i.test(segment) && /QUANTITY\s*[:\s]/i.test(segment)) return "VC";
+  if (/CARGO\s*[:\s]/i.test(segment) && /DELY?\s*[:\s*]+/i.test(segment)) return "TC";
   if (parseQuantity(segment).min && resolveRegion(segment)) return "VC";
+
   return null;
 }
 
 // ─── Entry Extractors ─────────────────────────────────────────────────────────
 
 function extractVCEntry(segment: string, signature: ReturnType<typeof extractSignature>): ExtractedEntry {
-  const lpMatch = segment.match(/(?:LP|LOADING\s*PORT?|POL)[:\s]+([^\n\-–]+)/i);
-  const dpMatch = segment.match(/(?:DP|DISCHARGE\s*PORT?|POD)[:\s]+([^\n\-–]+)/i);
-  const cargoMatch = segment.match(/(?:CARGO|COMMODITY|COMMODIT)[:\s]+([^\n\-–]+)/i);
-  const laycanMatch = segment.match(/LAYCAN[:\s]+([^\n]+)/i) || segment.match(/\bLC\s+([^\n]+)/i);
+  const lpMatch = segment.match(PATTERNS.loadPort);
+  const dpMatch = segment.match(PATTERNS.dischargePort);
+  const laycanMatch = segment.match(/LAYCAN[:\s:*]+([^\n]+)/i) || segment.match(/\bLC\s+([^\n]+)/i);
 
   const qty = parseQuantity(segment);
   const laycanText = laycanMatch ? laycanMatch[1] : segment;
   const { start, end } = parseLaycan(laycanText);
 
-  const rawCargo = cargoMatch ? cargoMatch[1].trim().split("\n")[0].trim() : null;
-  const cargo = extractCargoName(segment) ?? (rawCargo && isValidCargo(rawCargo) ? rawCargo : null);
+  const cargo = extractCargoName(segment);
 
   const route = extractRoutePorts(segment);
   const rawLoadPort = lpMatch ? lpMatch[1].trim().split("\n")[0] : route.load;
@@ -807,11 +1196,22 @@ function extractVCEntry(segment: string, signature: ReturnType<typeof extractSig
 
   const technical = extractCommonTechnicalFields(segment);
 
+  // Confidence scoring
+  let conf = 0.40;
+  if (cargo) conf += 0.15;
+  if (loadPort) conf += 0.10;
+  if (dischPort) conf += 0.10;
+  if (qty.min) conf += 0.10;
+  if (start) conf += 0.08;
+  if (end) conf += 0.04;
+  if (technical.commission) conf += 0.03;
+  if (technical.load_rate) conf += 0.03;
+  if (resolveRegion(segment)) conf += 0.03;
+
   const fields: ExtractedFields = {
     email_type: "VC",
     cargo_name: cargo,
     cargo_type: cargo ? detectCargoType(segment) : null,
-    account_name: null,
     min_size: qty.min,
     max_size: qty.max,
     load_port: loadPort,
@@ -827,29 +1227,22 @@ function extractVCEntry(segment: string, signature: ReturnType<typeof extractSig
     ...technical,
   };
 
-  const fieldsFilled = Object.values(fields).filter(v => v !== null && v !== undefined).length;
-  const confidence = Math.min(0.95, 0.3 + fieldsFilled * 0.065);
-  return { entryType: "VC", confidence, extractionMethod: "rule-based", fields };
+  return { entryType: "VC", confidence: Math.min(0.98, conf), extractionMethod: "rule-based", fields };
 }
 
 function extractTCEntry(segment: string, signature: ReturnType<typeof extractSignature>): ExtractedEntry {
-  const accountMatch = segment.match(/(?:A\/C|ACCT?|Account)[:\s*]+([^\n*]+)/i);
-
-  // Cargo: explicit CARGO: field, OR "1 TCT GRAIN OR SUGAR IN BLK", OR "1 TCT WITH PETCOKE IN BLK"
+  const accountMatch = segment.match(PATTERNS.account);
   const cargoMatch =
-    segment.match(/(?:CARGO|COMMODITY|COMMODIT)[:\s]+([^\n*]+)/i) ||
+    segment.match(/(?:CARGO|COMMODITY)\s*:\s*([^\n*]+)/i) ||
     segment.match(/\d\s+TCT\s+(?:WITH\s+)?([A-Z][A-Z\s\/OR]+?)\s+IN\s+BLK/i) ||
     segment.match(/TCT\s+(?:WITH\s+)?([A-Z][A-Z\s\/OR]+?)\s+IN\s+BLK/i);
 
   const dwtInfo = parseDwt(segment);
-
-  // Laycan: "LAYCAN:" OR "LC " (short form used in TC circulars)
   const laycanMatch =
     segment.match(/LAYCAN[:\s:*]+([^\n]+)/i) ||
     segment.match(/\bLC\s+([^\n]+)/i);
-
-  const delMatch = segment.match(/(?:DELY?|DEL(?:IVERY)?)[:\s*]+([^\n*]+)/i);
-  const redelMatch = segment.match(/(?:REDELY?|REDEL|RE-DELY?)[:\s*]+([^\n*]+)/i);
+  const delMatch = segment.match(PATTERNS.delivery);
+  const redelMatch = segment.match(PATTERNS.redelivery);
   const durationMatch = segment.match(/DURATION[:\s*]+([^\n*]+)/i);
 
   const laycanText = laycanMatch ? laycanMatch[1] : segment;
@@ -857,7 +1250,7 @@ function extractTCEntry(segment: string, signature: ReturnType<typeof extractSig
   const duration = durationMatch ? parseDuration(durationMatch[1]) : null;
 
   const rawCargo = cargoMatch ? cargoMatch[1].trim().split("\n")[0].trim() : null;
-  const cargo = extractCargoName(segment) ?? (rawCargo && isValidCargo(rawCargo) ? rawCargo : null);
+  const cargo = extractCargoName(segment) ?? (rawCargo && isValidCargo(rawCargo) ? normalizeCargo(rawCargo) : null);
 
   const route = extractRoutePorts(segment);
   const rawDel = delMatch ? delMatch[1].trim().split("\n")[0] : route.load;
@@ -871,9 +1264,23 @@ function extractTCEntry(segment: string, signature: ReturnType<typeof extractSig
 
   const technical = extractCommonTechnicalFields(segment);
 
+  // Confidence scoring
+  let conf = 0.40;
+  if (accountMatch) conf += 0.08;
+  if (cargo) conf += 0.12;
+  if (dwtInfo.min) conf += 0.10;
+  if (delPort) conf += 0.10;
+  if (redelPort) conf += 0.08;
+  if (start) conf += 0.07;
+  if (end) conf += 0.03;
+  if (duration) conf += 0.04;
+  if (technical.commission) conf += 0.04;
+  if (technical.hire_rate) conf += 0.05;
+  if (resolveRegion(segment)) conf += 0.02;
+
   const fields: ExtractedFields = {
     email_type: "TC",
-    account_name: accountMatch ? accountMatch[1].trim().split("\n")[0].trim() : null,
+    account_name: accountMatch ? accountMatch[1].trim().split("\n")[0].trim().replace(/\*+/g, "").trim() : null,
     cargo_name: cargo,
     cargo_type: cargo ? detectCargoType(segment) : null,
     min_size: dwtInfo.min,
@@ -892,26 +1299,28 @@ function extractTCEntry(segment: string, signature: ReturnType<typeof extractSig
     ...technical,
   };
 
-  const fieldsFilled = Object.values(fields).filter(v => v !== null && v !== undefined).length;
-  const confidence = Math.min(0.95, 0.3 + fieldsFilled * 0.065);
-  return { entryType: "TC", confidence, extractionMethod: "rule-based", fields };
+  return { entryType: "TC", confidence: Math.min(0.98, conf), extractionMethod: "rule-based", fields };
 }
 
 function extractTonnageEntry(segment: string, signature: ReturnType<typeof extractSignature>): ExtractedEntry {
   const mvMatch =
-    segment.match(/\bM[TV]\/?\s+([A-Z][A-Z\s]+?)(?:\s+[\/'"]|\s*\(|\s+\d{2,4}BLT|\s+\d{2,3}K\s|\n)/i) ||
-    segment.match(/^(?:AA\)|BB\)|CC\)|[A-Z]+\))\s*(?:MV\s+)?([A-Z][A-Z\s]+?)(?:\s+\(|\/)/im);
+    segment.match(PATTERNS.mvName) ||
+    segment.match(/^(?:AA\)|BB\)|CC\)|[A-Z]+\))\s*(?:MV\s+)?([A-Z][A-Z\s]+?)(?:\s+\(|\/)/im) ||
+    segment.match(/\bNAME\s*:\s*(?:M[TV]\/?\s+)?([A-Z][A-Z\s.'-]+?)(?:\s*\(|\n|,|\s+IMO)/i) ||
+    segment.match(/\bVESSEL\s*:\s*(?:M[TV]\/?\s+)?([A-Z][A-Z\s.'-]+?)(?:\s*,|\s+\d{2,4}|\n)/i);
 
-  // DWT extraction for tonnage entries
+  // DWT extraction
   let dwtStr: string | null = null;
-  const dwtExplicit = segment.match(/(?:DEADWEIGHT|DWT)\s*[/:–\s]+(?:SUMMER\s+)?(?:SALT\s+WATER[:\s]+)?(\d{2,3}[,.]?\d{3})/i) ||
-    segment.match(/(\d{2,3}[,.]?\d{3})\s*(?:MT|MTS)\s+@/i);
+  const dwtExplicit =
+    segment.match(/(?:DEADWEIGHT|DWT)\s*[/:–\s]+(?:SUMMER\s+)?(?:SALT\s+WATER[:\s]+)?(\d{2,3}[,.]?\d{3})/i) ||
+    segment.match(/(\d{2,3}[,.]?\d{3})\s*(?:MT|MTS)\s+@/i) ||
+    segment.match(/\b(\d{2,3}[,.]?\d{3})\s*DWT\b/i);
+
   if (dwtExplicit) {
     const raw = dwtExplicit[1].replace(/[,.]/g, "");
     const num = parseInt(raw, 10);
     if (num >= 1000) dwtStr = num.toString();
   } else {
-    // Shorthand: "57K" or "63.5K" — require at least 10K
     const shortDwt = segment.match(/\b(\d{2,3}(?:\.\d)?)\s*[Kk]\s*(?:DWT|[-'"\s\/]|$)/m);
     if (shortDwt) {
       const val = Math.round(parseFloat(shortDwt[1]) * 1000);
@@ -919,29 +1328,40 @@ function extractTonnageEntry(segment: string, signature: ReturnType<typeof extra
     }
   }
 
-  // Open port + date detection
+  // Vessel type
+  const vesselType =
+    /TANKER/i.test(segment) ? "Crude Oil Tanker" :
+    /GAS\s*CARRIER/i.test(segment) ? "Gas Carrier" :
+    /CONTAINER/i.test(segment) ? "Container Ship" :
+    /BULK\s*CARRIER/i.test(segment) ? "Bulk Carrier" :
+    // DWT-based vessel size class detection
+    (() => {
+      const dwtInfo = parseDwt(segment);
+      return dwtInfo.vesselType ?? "Bulk Carrier";
+    })();
+
+  // Open port + date detection — also handles "OPEN: PORT\nDATE: date" split format
+  const splitOpenMatch = segment.match(/OPEN\s*:\s*([^\n]+)\nDATE\s*:\s*([^\n]+)/i);
+
   const openMatch =
+    splitOpenMatch ||
     segment.match(/OPEN\s+(?:AT\s+)?([A-Z][A-Z\s,]+?)\s+(?:O\/A\s+|ON\s+)?([^\n]+)/i) ||
-    segment.match(/(?:WILL\s+)?OPEN\s+([A-Z]+(?:[,\s]+[A-Z]+)?)[,.]?\s*(\d{1,2}(?:TH|ST|ND|RD)?\s+[A-Z]+[,.\s]+\d{4})/i);
+    segment.match(/(?:WILL\s+)?OPEN\s+([A-Z]+(?:[,\s]+[A-Z]+)?)[,.]?\s*(\d{1,2}(?:TH|ST|ND|RD)?\s+[A-Z]+[,.\s]+\d{4})/i) ||
+    segment.match(/OPEN\s+([A-Z]+)\s+(\d{1,2}[-\/]\d{1,2}\s+[A-Z]+)/i);
 
   let openDate: string | null = null;
   let closeDate: string | null = null;
+  let openPort: string | null = null;
+
   if (openMatch) {
     const dateStr = openMatch[2] ?? openMatch[1];
     const { start, end } = parseLaycan(dateStr);
-    openDate = start;
-    closeDate = end;
-    const fixed = fixDates(openDate, closeDate);
+    const fixed = fixDates(start, end);
     openDate = fixed.open || null;
     closeDate = fixed.close || null;
+    const rawPort = openMatch[1].trim();
+    openPort = rawPort && isValidPort(rawPort) ? resolvePort(rawPort) : null;
   }
-
-  const rawOpenPort = openMatch ? openMatch[1].trim() : null;
-  const openPort = rawOpenPort && isValidPort(rawOpenPort) ? resolvePort(rawOpenPort) : null;
-
-  const vesselType = /BULK\s*CARRIER/i.test(segment) ? "Bulk Carrier" :
-    /TANKER/i.test(segment) ? "Crude Oil Tanker" :
-    /GAS\s*CARRIER/i.test(segment) ? "Gas Carrier" : "Bulk Carrier";
 
   const restrictions: string[] = [];
   const restrMatches = segment.match(/(?:NO\s+[A-Z\s]+|EXCL\s+[A-Z\s]+)/gi);
@@ -949,9 +1369,22 @@ function extractTonnageEntry(segment: string, signature: ReturnType<typeof extra
 
   const technical = extractCommonTechnicalFields(segment);
 
+  // Confidence scoring
+  let conf = 0.40;
+  const vesselName = mvMatch ? mvMatch[1].trim() : null;
+  if (vesselName) conf += 0.15;
+  if (dwtStr) conf += 0.12;
+  if (openPort) conf += 0.10;
+  if (openDate) conf += 0.08;
+  if (technical.imo) conf += 0.12;
+  if (technical.built_year) conf += 0.05;
+  if (technical.grt) conf += 0.04;
+  if (technical.loa) conf += 0.03;
+  if (resolveRegion(segment)) conf += 0.02;
+
   const fields: ExtractedFields = {
     email_type: "Tonnage",
-    tonnage_name: mvMatch ? mvMatch[1].trim() : null,
+    tonnage_name: vesselName,
     tonnage_type: vesselType,
     dwt: dwtStr,
     port: openPort,
@@ -966,9 +1399,7 @@ function extractTonnageEntry(segment: string, signature: ReturnType<typeof extra
     ...technical,
   };
 
-  const fieldsFilled = Object.values(fields).filter(v => v !== null && v !== undefined).length;
-  const confidence = Math.min(0.95, 0.3 + fieldsFilled * 0.065);
-  return { entryType: "Tonnage", confidence, extractionMethod: "rule-based", fields };
+  return { entryType: "Tonnage", confidence: Math.min(0.98, conf), extractionMethod: "rule-based", fields };
 }
 
 // ─── Template Detection ───────────────────────────────────────────────────────
@@ -976,12 +1407,14 @@ function extractTonnageEntry(segment: string, signature: ReturnType<typeof extra
 interface Template { name: string; detect: (text: string) => boolean; boost: number; }
 
 const TEMPLATES: Template[] = [
-  { name: "YB Global Shipping", detect: (t) => /YB\s*Global\s*Shipping/i.test(t), boost: 0.1 },
-  { name: "SeaSchiffe", detect: (t) => /Sea\s*Schiffe/i.test(t), boost: 0.1 },
-  { name: "Centurion Bulk", detect: (t) => /CENTURION\s*BULK/i.test(t), boost: 0.08 },
-  { name: "Standard TC Format", detect: (t) => /DELY?[:\s*]+.*\nREDELY?[:\s*]+/i.test(t), boost: 0.05 },
-  { name: "Standard VC Format", detect: (t) => /LP[:\s]+.*\nDP[:\s]+/i.test(t), boost: 0.05 },
-  { name: "MV Description Format", detect: (t) => /IMO\s+NO?[:\s]+\d{7}/i.test(t), boost: 0.12 },
+  { name: "YB Global Shipping", detect: (t) => /YB\s*Global\s*Shipping/i.test(t), boost: 0.05 },
+  { name: "SeaSchiffe", detect: (t) => /Sea\s*Schiffe/i.test(t), boost: 0.05 },
+  { name: "Centurion Bulk", detect: (t) => /CENTURION\s*BULK/i.test(t), boost: 0.05 },
+  { name: "Standard TC Format", detect: (t) => /DELY?\s*[:\s*]+.*\nREDELY?\s*[:\s*]+/i.test(t), boost: 0.05 },
+  { name: "Standard VC Format", detect: (t) => /LP\s*[:\s]+.*\nDP\s*[:\s]+/i.test(t), boost: 0.05 },
+  { name: "MV Description Format", detect: (t) => /IMO\s+NO?\s*[:\s]+\d{7}/i.test(t), boost: 0.08 },
+  { name: "TC Circular ACCT", detect: (t) => /^ACCT\s+/im.test(t), boost: 0.05 },
+  { name: "Broker Bullet Format", detect: (t) => /^\d+\)\s+/m.test(t) && /CARGO|LAYCAN|DWT|TCT/.test(t), boost: 0.05 },
 ];
 
 function detectTemplate(text: string): { name: string | null; boost: number } {
@@ -991,121 +1424,163 @@ function detectTemplate(text: string): { name: string | null; boost: number } {
   return { name: null, boost: 0 };
 }
 
-// ─── Enterprise JSON Transformer ─────────────────────────────────────────────
+// ─── Dynamic Enterprise JSON Transformer ──────────────────────────────────────
 
-export function toEnterpriseEntry(entry: ExtractedEntry): EnterpriseEntry {
+function buildRestrictions(field: string | null | undefined): string[] {
+  if (!field) return [];
+  return field.split(/;\s*/).filter(p => p.trim().length > 3).map(p => p.trim());
+}
+
+function toTonnageEntry(entry: ExtractedEntry): TonnageEntry {
   const f = entry.fields;
+  const openPort = f.port && isValidPort(f.port) ? f.port :
+    f.del_port && isValidPort(f.del_port) ? f.del_port : "";
 
-  // DWT: use stored dwt string or derive from min_size (for TC/VC)
-  let dwt = "";
-  if (f.dwt) {
-    dwt = normalizeDwtNumber(f.dwt);
-  } else if (f.min_size !== null && f.min_size !== undefined && entry.entryType !== "VC") {
-    dwt = f.min_size >= 1000 ? Math.round(f.min_size).toString() : "";
-  }
-
-  // Ports — validated
-  const loadPort = f.load_port && isValidPort(f.load_port) ? f.load_port : "";
-  const dischargePort = f.discharge_port && isValidPort(f.discharge_port) ? f.discharge_port : "";
-  const openPort = f.port && isValidPort(f.port)
-    ? f.port
-    : f.del_port && isValidPort(f.del_port)
-    ? f.del_port
-    : "";
-
-  // Cargo — validated
-  const cargo = f.cargo_name && isValidCargo(f.cargo_name) ? f.cargo_name : "";
-
-  // Dates
-  const rawOpen = f.open_date || f.laycan_start_date || "";
-  const rawClose = f.close_date || f.laycan_end_date || "";
+  const rawOpen = f.open_date || "";
+  const rawClose = f.close_date || "";
   const { open: openDate, close: closeDate } = fixDates(rawOpen || null, rawClose || null);
-  const { open: laycanStart, close: laycanEnd } = fixDates(f.laycan_start_date || null, f.laycan_end_date || null);
 
-  // Quantity: only meaningful for VC entries (cargo quantity in MT)
-  // TC and Tonnage entries use DWT for vessel size, not cargo quantity
-  let quantity = "";
-  if (entry.entryType === "VC" && f.min_size !== null && f.min_size !== undefined) {
-    quantity = Math.round(f.min_size).toString();
-    if (f.max_size && f.max_size !== f.min_size) {
-      quantity = `${Math.round(f.min_size)}-${Math.round(f.max_size)}`;
-    }
-  }
-
-  // Restrictions array
-  const restrictions: string[] = [];
-  if (f.restriction) {
-    const parts = f.restriction.split(/;\s*/);
-    restrictions.push(...parts.filter(p => p.trim().length > 3).map(p => p.trim()));
-  }
+  let dwt = "";
+  if (f.dwt) dwt = normalizeDwtNumber(f.dwt);
+  else if (f.min_size && f.min_size >= 1000) dwt = Math.round(f.min_size).toString();
 
   return {
-    email_type: entry.entryType,
+    email_type: "Tonnage",
     vessel_name: f.tonnage_name ?? "",
-    vessel_type: f.tonnage_type ?? "",
+    vessel_type: f.tonnage_type ?? "Bulk Carrier",
     dwt,
-    cargo,
-    cargo_type: cargo ? (f.cargo_type ?? "") : "",
-    load_port: loadPort,
-    discharge_port: dischargePort,
-    open_port: openPort,
-    open_date: openDate,
-    close_date: closeDate,
-    laycan_start: laycanStart,
-    laycan_end: laycanEnd,
-    quantity,
-    quantity_unit: "MT",
-    load_rate: f.load_rate ?? "",
-    discharge_rate: f.discharge_rate ?? "",
-    commission: f.commission ?? "",
+    built_year: f.built_year ?? "",
+    flag: f.flag ?? "",
     imo: f.imo ?? "",
     grt: f.grt ?? "",
     nrt: f.nrt ?? "",
     loa: f.loa ?? "",
     beam: f.beam ?? "",
     grain_capacity: f.grain_capacity ?? "",
-    restrictions,
+    open_port: openPort,
+    open_date: openDate,
+    close_date: closeDate,
     matching_region: f.matching_region ?? "",
+    restrictions: buildRestrictions(f.restriction),
     confidence_score: Math.round(entry.confidence * 1000) / 1000,
   };
 }
 
-// ─── Strict Validator ─────────────────────────────────────────────────────────
+function toTCEntry(entry: ExtractedEntry): TCEntry {
+  const f = entry.fields;
+
+  const delPort = f.del_port && isValidPort(f.del_port) ? f.del_port : "";
+  const redelPort = f.redel_port && isValidPort(f.redel_port) ? f.redel_port : "";
+  const { open: laycanStart, close: laycanEnd } = fixDates(f.laycan_start_date || null, f.laycan_end_date || null);
+
+  let dwt = "";
+  if (f.min_size && f.min_size >= 1000) {
+    dwt = f.max_size && f.max_size !== f.min_size
+      ? `${Math.round(f.min_size)}-${Math.round(f.max_size)}`
+      : Math.round(f.min_size).toString();
+  }
+
+  const cargo = f.cargo_name && isValidCargo(f.cargo_name) ? f.cargo_name : "";
+
+  return {
+    email_type: "TC",
+    account_name: f.account_name ?? "",
+    cargo,
+    cargo_type: cargo ? (f.cargo_type ?? "") : "",
+    dwt,
+    del_port: delPort,
+    redel_port: redelPort,
+    laycan_start: laycanStart,
+    laycan_end: laycanEnd,
+    duration: f.duration ?? "",
+    hire_rate: f.hire_rate ?? "",
+    commission: f.commission ?? "",
+    matching_region: f.matching_region ?? "",
+    restrictions: buildRestrictions(f.restriction),
+    confidence_score: Math.round(entry.confidence * 1000) / 1000,
+  };
+}
+
+function toVCEntry(entry: ExtractedEntry): VCEntry {
+  const f = entry.fields;
+
+  const loadPort = f.load_port && isValidPort(f.load_port) ? f.load_port : "";
+  const dischargePort = f.discharge_port && isValidPort(f.discharge_port) ? f.discharge_port : "";
+  const { open: laycanStart, close: laycanEnd } = fixDates(f.laycan_start_date || null, f.laycan_end_date || null);
+
+  let quantity = "";
+  if (f.min_size !== null && f.min_size !== undefined) {
+    quantity = Math.round(f.min_size).toString();
+    if (f.max_size && f.max_size !== f.min_size) {
+      quantity = `${Math.round(f.min_size)}-${Math.round(f.max_size)}`;
+    }
+  }
+
+  const cargo = f.cargo_name && isValidCargo(f.cargo_name) ? f.cargo_name : "";
+
+  return {
+    email_type: "VC",
+    cargo,
+    cargo_type: cargo ? (f.cargo_type ?? "Dry Bulk") : "",
+    quantity,
+    quantity_unit: "MT",
+    load_port: loadPort,
+    discharge_port: dischargePort,
+    laycan_start: laycanStart,
+    laycan_end: laycanEnd,
+    load_rate: f.load_rate ?? "",
+    discharge_rate: f.discharge_rate ?? "",
+    commission: f.commission ?? "",
+    matching_region: f.matching_region ?? "",
+    restrictions: buildRestrictions(f.restriction),
+    confidence_score: Math.round(entry.confidence * 1000) / 1000,
+  };
+}
+
+export function toEnterpriseEntry(entry: ExtractedEntry): EnterpriseEntry {
+  if (entry.entryType === "Tonnage") return toTonnageEntry(entry);
+  if (entry.entryType === "TC") return toTCEntry(entry);
+  return toVCEntry(entry);
+}
+
+// ─── Validation ───────────────────────────────────────────────────────────────
 
 export function validateEnterpriseEntry(entry: EnterpriseEntry): EnterpriseEntry {
-  const out = { ...entry };
+  const out = { ...entry } as EnterpriseEntry;
 
-  // Port validation
-  if (!isValidPort(out.load_port)) out.load_port = "";
-  if (!isValidPort(out.discharge_port)) out.discharge_port = "";
-  if (!isValidPort(out.open_port)) out.open_port = "";
-
-  // Cargo validation
-  if (!isValidCargo(out.cargo)) { out.cargo = ""; out.cargo_type = ""; }
-
-  // DWT validation: must be numeric >= 1000 if set
-  if (out.dwt) {
-    const n = parseInt(out.dwt, 10);
-    if (isNaN(n) || n < 1000) out.dwt = "";
+  if (out.email_type === "Tonnage") {
+    const t = out as TonnageEntry;
+    if (!isValidPort(t.open_port)) t.open_port = "";
+    if (t.dwt) { const n = parseInt(t.dwt, 10); if (isNaN(n) || n < 1000) t.dwt = ""; }
+    if (t.open_date && t.close_date) {
+      const { open, close } = fixDates(t.open_date, t.close_date);
+      t.open_date = open; t.close_date = close;
+    }
+    t.restrictions = t.restrictions.filter(r => r.trim().length > 3);
+    t.confidence_score = Math.max(0, Math.min(1, t.confidence_score));
+  } else if (out.email_type === "TC") {
+    const t = out as TCEntry;
+    if (!isValidPort(t.del_port)) t.del_port = "";
+    if (!isValidPort(t.redel_port)) t.redel_port = "";
+    if (!isValidCargo(t.cargo)) { t.cargo = ""; t.cargo_type = ""; }
+    if (t.laycan_start && t.laycan_end) {
+      const { open, close } = fixDates(t.laycan_start, t.laycan_end);
+      t.laycan_start = open; t.laycan_end = close;
+    }
+    t.restrictions = t.restrictions.filter(r => r.trim().length > 3);
+    t.confidence_score = Math.max(0, Math.min(1, t.confidence_score));
+  } else if (out.email_type === "VC") {
+    const t = out as VCEntry;
+    if (!isValidPort(t.load_port)) t.load_port = "";
+    if (!isValidPort(t.discharge_port)) t.discharge_port = "";
+    if (!isValidCargo(t.cargo)) { t.cargo = ""; t.cargo_type = ""; }
+    if (t.laycan_start && t.laycan_end) {
+      const { open, close } = fixDates(t.laycan_start, t.laycan_end);
+      t.laycan_start = open; t.laycan_end = close;
+    }
+    t.restrictions = t.restrictions.filter(r => r.trim().length > 3);
+    t.confidence_score = Math.max(0, Math.min(1, t.confidence_score));
   }
-
-  // Date validation: close can't be before open
-  if (out.open_date && out.close_date) {
-    const { open, close } = fixDates(out.open_date, out.close_date);
-    out.open_date = open;
-    out.close_date = close;
-  }
-  if (out.laycan_start && out.laycan_end) {
-    const { open, close } = fixDates(out.laycan_start, out.laycan_end);
-    out.laycan_start = open;
-    out.laycan_end = close;
-  }
-
-  // Confidence: 0-1 range
-  out.confidence_score = Math.max(0, Math.min(1, out.confidence_score));
-
-  // Restrictions: filter empty strings
-  out.restrictions = out.restrictions.filter(r => r.trim().length > 3);
 
   return out;
 }
@@ -1114,12 +1589,12 @@ export function validateEnterpriseEntry(entry: EnterpriseEntry): EnterpriseEntry
 
 export function extractMaritimeEmail(emailText: string): ExtractionResult {
   const start = Date.now();
-  const normalizedText = normalizeEmailText(emailText);
-  const signature = extractSignature(normalizedText);
-  const segments = segmentEmail(normalizedText);
+  const preprocessed = preprocessEmail(emailText);
+  const signature = extractSignature(preprocessed);
+  const segments = segmentEmail(preprocessed);
   const entries: ExtractedEntry[] = [];
   const typesFound = new Set<EntryType>();
-  const template = detectTemplate(normalizedText);
+  const template = detectTemplate(preprocessed);
   const pipeline: Pipeline = template.name ? "template" : "rule-based";
 
   for (const segment of segments) {
@@ -1138,13 +1613,14 @@ export function extractMaritimeEmail(emailText: string): ExtractionResult {
     typesFound.add(segType);
   }
 
+  // Fallback: treat entire email as one block
   if (entries.length === 0) {
-    const fallbackType = detectSegmentType(normalizedText);
+    const fallbackType = detectSegmentType(preprocessed);
     if (fallbackType) {
       let entry: ExtractedEntry;
-      if (fallbackType === "VC") entry = extractVCEntry(normalizedText, signature);
-      else if (fallbackType === "TC") entry = extractTCEntry(normalizedText, signature);
-      else entry = extractTonnageEntry(normalizedText, signature);
+      if (fallbackType === "VC") entry = extractVCEntry(preprocessed, signature);
+      else if (fallbackType === "TC") entry = extractTCEntry(preprocessed, signature);
+      else entry = extractTonnageEntry(preprocessed, signature);
       entries.push(entry);
       typesFound.add(fallbackType);
     }
@@ -1159,8 +1635,12 @@ export function extractMaritimeEmail(emailText: string): ExtractionResult {
     : 0.3;
 
   return {
-    emailType, pipeline, confidence: avgConfidence, extractedEntries: entries,
-    processingMs: Date.now() - start, llmUsed: false, estimatedCostUsd: 0.0001,
+    emailType, pipeline,
+    confidence: avgConfidence,
+    extractedEntries: entries,
+    processingMs: Date.now() - start,
+    llmUsed: false,
+    estimatedCostUsd: 0.0001,
   };
 }
 
