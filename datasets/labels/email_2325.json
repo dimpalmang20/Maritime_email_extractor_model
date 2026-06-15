@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "Petroleum Coke",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-79999",
+    "del_port": "USG INT SW PASS",
+    "redel_port": "PMO-JPN RGE",
+    "laycan_start": "2026-01-05",
+    "laycan_end": "2026-01-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "ORE/BAUXITE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-79999",
+    "del_port": "WAFR INT ABIDJAN-KAMSAR",
+    "redel_port": "SGP-JPN RGE",
+    "laycan_start": "2025-12-28",
+    "laycan_end": "2026-01-02",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

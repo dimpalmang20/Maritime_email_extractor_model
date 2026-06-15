@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "China Resources (CRC) - Smx",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-69999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-01-11",
+    "laycan_end": "2026-01-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

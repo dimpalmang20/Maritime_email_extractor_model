@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "43000",
+    "del_port": "TO MAKE SINGAPORE ATDNSHINC",
+    "redel_port": "GIB-RIGA INC UK",
+    "laycan_start": "2026-05-10",
+    "laycan_end": "2026-05-11",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Cape of Good Hope",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

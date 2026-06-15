@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DWT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "30200",
+    "built_year": "2011",
+    "flag": "Panama",
+    "imo": "",
+    "grt": "10708",
+    "nrt": "",
+    "loa": "",
+    "beam": "170.7m",
+    "grain_capacity": "",
+    "open_port": "DUNG",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

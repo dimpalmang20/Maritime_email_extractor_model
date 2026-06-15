@@ -1,0 +1,43 @@
+{
+  "email_id": 273,
+  "email_type": "vessel_position",
+  "company": "Prime Maritime Inc.",
+  "contact_person": "George Rachiotis",
+  "vessels": [
+    {
+      "vessel_name": "NEFELI",
+      "vessel_type": "Ultramax Bulk Carrier",
+      "built_year": 2016,
+      "flag": "Malta",
+      "class": "BV",
+      "dwt": 63466,
+      "draft_m": 13.30,
+      "loa_m": 199.90,
+      "beam_m": 32.26,
+      "grain_capacity_cbm": 78702,
+      "holds_hatches": "5/5",
+      "cranes": "4 x 35 MT",
+      "grabs": "Fitted",
+      "open_position": "Haldia",
+      "open_date": "2025-11-23 to 2025-11-27",
+      "speed_consumption": {
+        "ballast": {
+          "speed_knots": 12.0,
+          "vlsfo_mt_day": 19.5,
+          "lsmgo_mt_day": 0.1
+        },
+        "laden": {
+          "speed_knots": 11.0,
+          "vlsfo_mt_day": 19.5,
+          "lsmgo_mt_day": 0.1
+        },
+        "port_idle": {
+          "vlsfo_mt_day": 3.5
+        },
+        "port_working": {
+          "vlsfo_mt_day": 7.0
+        }
+      }
+    }
+  ]
+}

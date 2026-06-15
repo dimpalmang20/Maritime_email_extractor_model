@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "51000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.52
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MDO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "51000",
+    "built_year": "",
+    "flag": "",
+    "imo": "9233428",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-15",
+    "close_date": "2026-12-20",
+    "matching_region": "Far East",
+    "restrictions": [
+      "NO PERIOD\n\nGOA TRANSIT OK",
+      "no against current"
+    ],
+    "confidence_score": 0.89
+  }
+]

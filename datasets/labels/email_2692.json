@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "56890",
+    "built_year": "2011",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "33001",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "2026-01-10",
+    "close_date": "2026-01-15",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.95
+  }
+]

@@ -1,0 +1,20 @@
+{
+   "text" : "",
+   "entities" : {
+      "CARGO" : null,
+      "VESSEL" : null,
+      "DWT" : null,
+      "LOAD_PORT" : null,
+      "VESSEL_TYPE" : null,
+      "DISCHARGE_PORT" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : null,
+      "PORT" : null,
+      "CHARTERER" : null,
+      "FREIGHT_RATE" : null,
+      "IMO" : null,
+      "OPEN_DATE" : null,
+      "LAYCAN" : null,
+      "CONTACT" : null
+   }
+}

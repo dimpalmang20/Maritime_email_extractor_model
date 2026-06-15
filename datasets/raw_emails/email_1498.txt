@@ -1,0 +1,416 @@
+ 
+ 
+ 
+ 
+ 
+Best Regards:
+ 
+
+ 
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+ 
+From: postmaster@DSV.COM <postmaster@DSV.COM> 
+Sent: 03 December 2025 11:12
+To: chartering@varitasnavigation.com
+Subject: Undeliverable: ACC VARITAS NAVIGATION
+ 
+Delivery has failed to these recipients or groups:
+ <mailto:Raed.Zuaiter@jo.dsv.com> Raed.Zuaiter@jo.dsv.com
+The email address you entered couldn't be found. Please check the
+recipient's email address and try to resend the message. If the problem
+continues, please contact your email admin.
+
+
+
+
+
+
+Diagnostic information for administrators:
+Generating server: i28807.DSV.COM
+Raed.Zuaiter@jo.dsv.com
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient
+not found by SMTP address lookup'
+Original message headers:
+Received: from i28807.DSV.COM (145.218.177.39) by i28807.DSV.COM
+ (145.218.177.39) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.2562.29; Wed, 3 Dec
+ 2025 06:42:12 +0100
+Received: from mail.dsv.com (145.218.236.202) by i28807.DSV.COM
+ (145.218.177.39) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.2562.29 via Frontend
+ Transport; Wed, 3 Dec 2025 06:42:12 +0100
+Received: from DUZPR08CU001.outbound.protection.outlook.com (145.218.236.81)
+ by exo.dmz.dsv.com (145.218.236.202) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.2562.29; Wed, 3 Dec 2025 06:42:11 +0100
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ 
+b=TINSiFiPTK9TmafAdFSaAfa3ge0jXlMMf6TqFzgbRcexsFmLl+FmzsQdkXVPjDGUFVIN6An/8t
+wr4aKAB4LVs+podqOakxONPEsjBbFTXKoWFstmwLW5EuMROdMUUx+Kh8NlnH/ekhKsMIlpEcnDP4
+WAzEPwAhQxJcbH4W8NH7j6Ui/EG4B3WZK4QoRZgx56Oa6APa/FU6DJYuS6951Tgvi8rNNs9Wqt4K
+vRVeTveNRn9Lja3PdlfYzCUmtuWevWql6jODf/9qRnmAJ7Rka38sIiTQsC9oBAZ7WC4t4c186WwT
+EzMWKp+hxoYq4+1LoW31Z9iuZafVYpKjGE0dE58g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+d=microsoft.com;
+ s=arcselector10001;
+ 
+h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiS
+pam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchang
+e-AntiSpam-MessageData-1;
+ bh=qoyF1SPD6Jinp4QKugMIJ4cRTcx50gCwZeK3Z5liT3k=;
+ 
+b=gw5hNi0SviEiNguuRU9ZT6eVd4aeMHXmONazv20YnVzZ5ViTSVouVPJGHRJdfsBRm/6NN8TOe4
+hANfuT0TrN57q2x0PerE6qQYOHNCkN7HJvCxarJLLWfttam/kmaM0mJcDUcv0cd58YwYzYTCKKBQ
+jPZawaJoHXfGvrCeldNblItwV2o9NMuP0m2HjX6Fz0RFic48aqLV5gxgK1tBQuOZAArIT+A79Aa4
+qeIRZh9DTf2NmfQYsq6sldwiOBFfFQ/Zycf7gfBcKu6c5eySXVePVxvdT/Lp7670uitmLxEtTIKh
+lwNq8gcygnnTFdlQwzMWyiFQXB/pARrB550gTUcg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=fail (sender ip is
+ 216.71.156.251) smtp.rcpttodomain=jo.dsv.com
+ smtp.mailfrom=varitasnavigation.com; dmarc=none action=none
+ header.from=varitasnavigation.com; dkim=fail (no key for signature)
+ header.d=varitasnavigation.com; arc=none (0)
+Received: from AM9P195CA0022.EURP195.PROD.OUTLOOK.COM
+(2603:10a6:20b:21f::27)
+ by AM0PR10MB3652.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:20b:15c::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9366.17; Wed, 3 Dec
+ 2025 05:42:09 +0000
+Received: from AM2PEPF0001C715.eurprd05.prod.outlook.com
+ (2603:10a6:20b:21f:cafe::a) by AM9P195CA0022.outlook.office365.com
+ (2603:10a6:20b:21f::27) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9388.9 via Frontend Transport; Wed,
+3
+ Dec 2025 05:42:08 +0000
+Authentication-Results: spf=fail (sender IP is 216.71.156.251)
+ smtp.mailfrom=varitasnavigation.com; dkim=fail (no key for signature)
+ header.d=varitasnavigation.com;dmarc=none action=none
+ header.from=varitasnavigation.com;compauth=none reason=405
+Received-SPF: Fail (protection.outlook.com: domain of varitasnavigation.com
+ does not designate 216.71.156.251 as permitted sender)
+ receiver=protection.outlook.com; client-ip=216.71.156.251;
+ helo=esa.dsv.c3s2.iphmx.com;
+Received: from esa.dsv.c3s2.iphmx.com (216.71.156.251) by
+ AM2PEPF0001C715.mail.protection.outlook.com (10.167.16.185) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)
+id
+ 15.20.9388.8 via Frontend Transport; Wed, 3 Dec 2025 05:42:08 +0000
+X-CSE-ConnectionGUID: H7rkSmAGR/i+MS4gebtkaQ==
+X-CSE-MsgGUID: 9KEisLtFTfiSPBzxw0O2Aw==
+Received-SPF: Pass (esa.dsv.c3s2.iphmx.com: domain of
+  chartering@varitasnavigation.com designates 94.136.184.46 as
+  permitted sender) identity=mailfrom; client-ip=94.136.184.46;
+  receiver=esa.dsv.c3s2.iphmx.com;
+  envelope-from="chartering@varitasnavigation.com";
+  x-sender="chartering@varitasnavigation.com";
+  x-conformance=spf_only; x-record-type="v=spf1";
+  x-record-text="v=spf1 +a +mx +a:vmi2441136.contaboserver.net
+  -all"
+Received-SPF: None (esa.dsv.c3s2.iphmx.com: no sender
+  authenticity information available from domain of
+  postmaster@vmi2441136.contaboserver.net) identity=helo;
+  client-ip=94.136.184.46; receiver=esa.dsv.c3s2.iphmx.com;
+  envelope-from="chartering@varitasnavigation.com";
+  x-sender="postmaster@vmi2441136.contaboserver.net";
+  x-conformance=spf_only
+Authentication-Results-Original: esa.dsv.c3s2.iphmx.com; spf=Pass
+ smtp.mailfrom=chartering@varitasnavigation.com; spf=None
+ smtp.helo=postmaster@vmi2441136.contaboserver.net; dkim=permerror (no key
+for
+ signature) header.i=@varitasnavigation.com
+X-Ironport-Dmarc-Check-Result: validskip
+IronPort-SDR: 692fcdb0_8dEi9gbYRtL2AXZ0pfrf/9aZOoVy4EFHB/1hGya3zoYXZZP
+ Lmlcn95ir5EBqVRGU2urvQwMpe6UUDdVK81Hriw==
+X-IronPort-SPF: PASS
+X-ThreatScanner-Verdict: Negative
+X-IPAS-Result: =?us-ascii?q?A0FrCgCazC9pcC64iF5aHgEBCxIMQIMNgQNAAUFfMwcIH?=
+ =?us-ascii?q?iuIJJBLW4YBgmUBAoZngTAIiiiBawgHAQECAQEBAQUBBDcWAgIEAQEDAQOFA?=
+ =?us-ascii?q?AIijEUCHgcBOBMBAgEDAQEBAQMCAwEBAQEBAQEBAQEBCwEBAQQBAQECAQECB?=
+ =?us-ascii?q?AMBAQEBAhABQ0mGMB8NgkVRghYsCGMBFgoBAQgBAgIIEwgBEgEBBzABDAUmA?=
+ =?us-ascii?q?QEBChUJBQ8BAQsCIBIBDwcBBgUFEjmCKIIdBQIBAxIDNgIFAaNxAYEsPwIoA?=
+ =?us-ascii?q?UABDIELig2BNIEBggwBAQaBCIFg2xwHCYFLgw+FOAwBKhGBIQJpggGGHicbg?=
+ =?us-ascii?q?g2DC4QRgWoFARIBV4M7glOBEoEUehSGIoF5WC6JfYcLgR4DgSNLDQoSgWgDN?=
+ =?us-ascii?q?QwLKhVtMx2BeXOBFINJHmeBJoNViiuFAw2ESgsYDRQvBQ4CASw3c1MbBw0WB?=
+ =?us-ascii?q?BYJBQQDCQYCAgUgFBMFBwOPdBAhDYFTMilPg1yVUjSRPw9Zi3qLA4kjcYx3g?=
+ =?us-ascii?q?UGCbYsEMYMognGDV5E0mTeXE4Qlj1+SR4J7gW2BfyNscHCBbgmBQAk3DwMZD?=
+ =?us-ascii?q?44hhAC8Zjs1PAIHCwEBAwmFaRZJi1aBSwE?=
+IronPort-PHdr: A9a23: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
+ d72ZpV+NbTJ
+IronPort-Data: A9a23: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
+ JusPx4BFE5Lk89BM80IXDvUX1S/k4o8Jw==
+IronPort-HdrOrdr: A9a23:9HgY3a1fJog4ZWrX/Qn9kwqjBLEkLtp133Aq2lEZdPU0SKGlfg
+ 6V8sjzpiWE7gr5OUtQ/OxoXZPrfZqyz/5ICOUqUotKPzOW2ldATrsSjrcKqgeIc0bDG/ZmuZ
+ uIGJIeNDSENykcsS+D2njdL+od
+X-Talos-CUID: 9a23:c1C3m2x0tV7E+ottsl4dBgU0RdomSXj0402XIgydMjpmRbeJSlaprfY=
+X-Talos-MUID: 9a23:r5X/8AkwACXvBVTlBPV7dnozF+pp+ICyJnwDkK4+kduUKnRXYR6C2WE=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=McAfee;i="6800,10657,11631"; a="403072748"
+X-IronPort-AV: E=Sophos;i="6.20,245,1758578400"; 
+   d="jpg'145?scan'145,208,217,145";a="403072748"
+X-Amp-Result: UNKNOWN
+X-Amp-Original-Verdict: FILE UNKNOWN
+X-Amp-File-Uploaded: False
+X-DSV-RVMX-OP-OtherInt: 1
+Received: from vmi2441136.contaboserver.net ([94.136.184.46])
+  by esa7.dsv.c3s2.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES128-GCM-SHA256; 03
+Dec 2025 06:42:06 +0100
+Received: from LAPTOPP6RKI9ML (unknown [49.36.80.147])
+        by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id
+AE4C96A1087;
+        Wed,  3 Dec 2025 06:41:38 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=varitasnavigation.com; s=default; t=1764740524;
+        bh=1IAfbQ0TS4l8pYIhObykeTLZ+ZlhiE7+7ytk3b/rIZM=; h=From:Subject;
+  b=XjeZ1CvlgtOoANC8+HSsBlvxzqaNMuvPhfe30KJpnzwKoIB/PeEQeuC3VoodAt8jQ
+         p9KppX9GC8oFzaXVyH2zqpD/dERbppmZTWR9JWS040Nnwl85SrzoUwSW7X8+UN6F88
+         BAJsbtFjvguQKmTGp2XBbiZLEo8A+IEyJT8wPozK0un8Jj0MUVWzFen6cT7WxufMDA
+         GlASJ2ILwKe0L8P0GnHah9DDcFQgMNKBAfURyipwDxe8MwJucl+BLjuAXn55xO/5aI
+         NjX+fvD806HJTI9xciMq3ZAiyVYKKjqF82acg/oaB8PAUuP1+S0uQi1QgYfJuOO5DQ
+         K/W5uKIylPQHg==
+From: <chartering@varitasnavigation.com>
+CC: 'Varitas Navigation' <chartering@varitasnavigation.com>
+Subject: ACC VARITAS NAVIGATION
+Date: Wed, 3 Dec 2025 11:11:35 +0530
+Message-ID: <044701dc6417$8abe3960$a03aac20$@varitasnavigation.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+        boundary="----=_NextPart_000_0448_01DC6445.A4790D70"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdxkF2SpzUWSn9vZRVO2iDztFoa8TA==
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 4a90c23a-3ece-4ef2-b857-522f23b8204c:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AM2PEPF0001C715:EE_|AM0PR10MB3652:EE_
+X-MS-Office365-Filtering-Correlation-Id:
+8b6951a6-e6d4-4d8e-89b2-08de322eb33a
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-Microsoft-Antispam:
+BCL:0;ARA:13230040|5073199012|2092899012|4073199012|12012899012|82310400026|
+13003099007|4053099003|8096899003|4076899003;
+X-Microsoft-Antispam-Message-Info:
+=?us-ascii?Q?eAK+K2ysJX2ykbBOX/WOMtMf6K3wSWiScBPgJ6CUvBqU71o4KRs/y0Nv7/kW?=
+ =?us-ascii?Q?ID2pm9PF8zQTvIkVO5Z1rYe6a1PZyHOck65v/e0vOf1qAGL6Uq+pTr5VM4yK?=
+ =?us-ascii?Q?Z3fgfOo94MWAqpXIdUcjvlTp7zLaTwfviE71W9JU11R2Ru5xxpr0IRwSwCJr?=
+ =?us-ascii?Q?7HyjWhjBQ4vl/dmzl9cYn5ZeTJI4xbXl2qjG6EdvleDVC2drAkeleP3cP+os?=
+ =?us-ascii?Q?SyP8GxAdVhNoTBufHX6xrMStGOVN9GsVuPaL16G+pjeI4e0frRzWjwNGzWuC?=
+ =?us-ascii?Q?rqv2IdpW0VebRMi82N+bRFnlx7rqM0QSKPWyIBEaOttpwc0SF6W1miS6Jls2?=
+ =?us-ascii?Q?Iw0lLHLwI/QevSblqR8txEKoi0dXK9f+4KEhBgc20Mx63vZ4NrNld9mlQyqU?=
+ =?us-ascii?Q?FQLbWVdwcCl7wUcboTJdqff3oAS4ALoxvxxcS+L5FK41ZGuWOwS0U0cJCpup?=
+ =?us-ascii?Q?Ta5OLRXcY689gEd4PtqDUqwMOyb/0dhaEY++F7fv66G4XMCPv5eUUSLf80pm?=
+ =?us-ascii?Q?TBdHIrVObremtFwBc16SIQoytcf0m83ZipIyD7Vo8B0ckcR/EXdvdRHRzGC5?=
+ =?us-ascii?Q?TL/xBDJ7pOYB4CQh38vTcUvhgsRI1Xo0+DUeHRWADnriaADtkijSF8L+tbbb?=
+ =?us-ascii?Q?7i6G83avqwehiXokAF72iwfmOavtxk4p1QkxJ3qpI4NCrBN3F72/YCAnKFVA?=
+ =?us-ascii?Q?+05sZY40xw+ROUkOBC4zjsbk+dwj54Q7gHo2GMk0rC1fxWJH9kuDwg3jYg4c?=
+ =?us-ascii?Q?C0aL8qTWI7Hy56GvtgRRVSLbPtxtYev/0XeIn7wJFLwZX4Z2GxXikkQqGT5e?=
+ =?us-ascii?Q?48fDG6NbAv0qmC0qRW/1og9UTort2vB1jeheihUPR6CLG0h4QpYiZHnYCzEM?=
+ =?us-ascii?Q?eCE6RZ68DSGH+hkxv8kwj5DDC/j/KNmftYs3l7T9vw/KKxwnlJVOcZL3vgae?=
+ =?us-ascii?Q?Fd56l6Djiv/Cc2/40PCfeu6PQJs3hR+SJKOLTqfuUCbEFINnaOtIfBsTN7tS?=
+ =?us-ascii?Q?QqhAkIOSPGgzALKkL6aysEcU7b2f677sUvLt0mlBfTbT8BFRtDDyxhLwc9+W?=
+ =?us-ascii?Q?nJqUZkWAv7KzrPd0polo4BEbHin5f3lF944nCsJBadPF1CK6tBArrHc/RPhf?=
+ =?us-ascii?Q?m43kdejl5DhJ5u32yUEDI52OBd3UlySL8ttpdNLxlXNUqKIczRpywShP8jBY?=
+ =?us-ascii?Q?Agqbt8TacAPENWe5v1cVkUsOr70cTDmp08sYrWsVBCwDtquUX7nifCzqDmrJ?=
+ =?us-ascii?Q?YKJchU1IeDGidBydw9POUVsTlj9AoHAzs6LnSqbo371PFQ2oAepV21cX23hB?=
+ =?us-ascii?Q?HnBiquFo2tO2Xyzrb/TKqUNfxPdG3BML0R++4r4xkqstaQeDfi81Y+AszYSL?=
+ =?us-ascii?Q?tUUkCk0nB8NbfCxIaYW4TWdlJIGJOot0QHx5akcCk2FPz75k1avvWA8m6prQ?=
+ =?us-ascii?Q?iEq+9kti5tWGpU9ISYquTigC8pyhGYZOSO8AAp8lZ6viJI+kvYrlm+TYFOt/?=
+ =?us-ascii?Q?+yl2vGOPfrkFtqRM8GQhk4oXd8MVauWzqKrUh9Zlaj4HYaJ53uozibJEC4/+?=
+ =?us-ascii?Q?4aUNAiC+D1v2vGwfvjAqXpQBa0UsEUl/dVTB1AGsjlR32xKKo+sKVjLIklwf?=
+ =?us-ascii?Q?UkaUk6EDpor6bep4P7tO7RyR1P5A0gMlnZ43SVvjJfKzYNSnfMdaLGVoR2AW?=
+ =?us-ascii?Q?7yXkFSuVhFQhtMxSn5ATknrAwEbnjI7FSCHgDhK6OR2BhfVI5/ZPGkNkMypm?=
+ =?us-ascii?Q?JSJdpRh8nhAmOxfZ1V+2Vd13NaUgnwnR2z6y73/811W8+4aAnJTfZn8k+mEN?=
+ =?us-ascii?Q?4TrZ8W2boBp9i4BjmOHinQAQB/4XcWl4/RmyGCslZf1MnrIE0nyCW76IX86m?=
+ =?us-ascii?Q?k82ToC06Dyb2CLdetKxfW2rcaFzcN3OvM6RwVw4ENzkyCgKVwFS5PGunmgAX?=
+ =?us-ascii?Q?uiF6MkcmzPr3pIb9FrEiXWSpJAwWporaL8f6L1Jl/I7m/6pw4wSsi0H+nxw9?=
+ =?us-ascii?Q?lvKPhkv5LsEGD6crCCJ5XEQ/5jJKGRv1aBKd8oHbmyf97uvBVvg7nIAlOQ4A?=
+ =?us-ascii?Q?pUSiIYxfvCbKWmnwYXpprwCaX+TVXfcZJ/DTLRwOzIPD4D9hGVjsNAOGBwSO?=
+ =?us-ascii?Q?9YhbMTuLPS+6tFPHCVC2J0OjiXhVAf4vLSr3krt+Fp8jqqY6Te2vy1i+DNYz?=
+ =?us-ascii?Q?6bK0+mIL0vkU+ovV3eQCPx0ZqwTcRV8Iqc6SIkyEMfnyisJCBKh4PCxuwH0U?=
+ =?us-ascii?Q?siRUrT3ZXD8QLorP0tBkVzCsEVWGLmXYFHdanNg5xrGCMeLZ2RCuaytXAMT2?=
+ =?us-ascii?Q?xShdQSDULrUJudxDJVwewE1b95T/6T+gdg08PPP8Y82yMRzjr0lN82MCNoju?=
+ =?us-ascii?Q?U4NYjIFa3CqjvXm7picsX2SmgbtCjTdDoaWLTSZtcvwedXDzb2+99yyY/2GY?=
+ =?us-ascii?Q?HjGbJQB1siONHHSU2aQr52JZv4i7JxvHQxlJG0OK3t/Eln1gLz6WptWMTsDd?=
+ =?us-ascii?Q?25wcEjQdq5NwYan9qxTHFlZJj8aUaheTA7hCms/2gKvnm5u/Is23fSoU3fRF?=
+ =?us-ascii?Q?aO+sXBSepTrbADhtrNS8PnY7nt9J/ZGfC+H8gecZG5pxPjApSiYUjhrF//2o?=
+ =?us-ascii?Q?ZIcGapMXKw+cVcL/FEVlGa6UuRRmC7zZeTucYg+aaSpRgU4vkd2l+0XnrX7P?=
+ =?us-ascii?Q?qo4QWdnQdwJbKFizT7pyQmXjf/uga19lUusouNUso+XhLYUq?=
+X-Forefront-Antispam-Report:
+CIP:216.71.156.251;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:esa.dsv.c3s
+2.iphmx.com;PTR:esa.dsv.c3s2.iphmx.com;CAT:NONE;SFS:(13230040)(5073199012)(2
+092899012)(4073199012)(12012899012)(82310400026)(13003099007)(4053099003)(80
+96899003)(4076899003);DIR:INB;
+X-MS-Exchange-ATPSafeLinks-Stat: 0
+X-MS-Exchange-ATPSafeLinks-BitVector: 0:0x0|0x0|0x0|0x0|0x0|0x0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Dec 2025 05:42:08.9062
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+8b6951a6-e6d4-4d8e-89b2-08de322eb33a
+X-MS-Exchange-CrossTenant-Id: 4a90c23a-3ece-4ef2-b857-522f23b8204c
+X-MS-Exchange-CrossTenant-AuthSource:
+AM2PEPF0001C715.eurprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM0PR10MB3652
+X-OrganizationHeadersPreserved: AM0PR10MB3652.EURPRD10.PROD.OUTLOOK.COM
+X-CrossPremisesHeadersPromoted: i91343.dmz.dsv.com
+X-CrossPremisesHeadersFiltered: i91343.dmz.dsv.com
+X-OriginatorOrg: DSVCorp.onmicrosoft.com
+External email:Be careful with links and attachments
+
+
+Dear All,
+
+ 
+
+Good day.
+
+ 
+
+// FULLY FIRM // 
+
+ 
+
+ACC VARITAS NAVIGATION
+
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. 
+
+Load port: Tianjin, China
+
+Discharge port: Shuaiba, Kuwait.
+
+Load rate: CQD 
+
+Discharge: Liner out.
+
+Laycan 15-20th December 2025.
+
+As part cargo.
+
+2.5% Addcom
+
+ 
+
+ 
+
+Best Regards:
+
+ 
+
+
+
+ 
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+
+Website:- www.varitasnavigation.com
+
+ 
+

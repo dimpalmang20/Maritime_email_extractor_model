@@ -1,0 +1,33 @@
+{
+  "email_id": 246,
+  "email_type": "tonnage",
+  "source": "Rieck + Petersen",
+  "vessels": [
+    {
+      "vessel_name": "CETUS ORCA",
+      "open_position": "Floro",
+      "open_date": "2025-12-01/2025-12-05",
+      "built_year": 2015,
+      "shipyard": "Qingshan Shipyard, Wuhan",
+      "flag": "Marshall Islands",
+      "class": "LR",
+      "dwt_mt": 43494.3,
+      "draft_m": 10.7,
+      "tpc": 54.7,
+      "loa_m": 189.99,
+      "lbp_m": 186.65,
+      "beam_m": 30.0,
+      "depth_m": 15.0,
+      "gt": 26411,
+      "nt": 14770,
+      "holds": 5,
+      "hatches": 5,
+      "grain_cbm": 55299.8,
+      "bale_cbm": 53247.4,
+      "bunkers_on_board": {
+        "vlsfo_mt": 500,
+        "lsmgo_mt": 100
+      }
+    }
+  ]
+}

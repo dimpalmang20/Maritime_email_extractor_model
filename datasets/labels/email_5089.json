@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SAROCHA NAREE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "49999",
+    "built_year": "2017",
+    "flag": "SINGAPORE",
+    "imo": "",
+    "grt": "",
+    "nrt": "36416",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-06-13",
+    "close_date": "2026-06-18",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.85
+  }
+]

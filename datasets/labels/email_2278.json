@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28760",
+    "built_year": "1995",
+    "flag": "",
+    "imo": "",
+    "grt": "17879",
+    "nrt": "",
+    "loa": "171.93m",
+    "beam": "27m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Pakistan",
+    "restrictions": [],
+    "confidence_score": 0.66
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSIFO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "31887",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "GRESIK,",
+    "open_date": "2026-12-12",
+    "close_date": "2026-12-17",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSIFO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32618",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-18",
+    "close_date": "2026-12-23",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO HATCH"
+    ],
+    "confidence_score": 0.82
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSIFO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55709",
+    "built_year": "2006",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "2026-12-29",
+    "close_date": "2027-01-03",
+    "matching_region": "",
+    "restrictions": [
+      "NO HATCH"
+    ],
+    "confidence_score": 0.9
+  }
+]

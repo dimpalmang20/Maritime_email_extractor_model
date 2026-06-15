@@ -1,0 +1,57 @@
+{
+  "email_type": "Cargo",
+  "text": "email_id: 235\nemail_type: cargo_order\nsource_company: INTERBULK SHIPBROKERS\naccount: DAIFU SGP\nrequirements:\n- vessel_type: SMX/UMX\n  cargo_type: SLAG\n  load_port: N.CHINA\n  discharge_port: BANGLADESH\n  laycan: '2025-11-20/30'\n  duration: ABT 30 DAYS WOG\n  charter_type: TCT\n  commission: 3.75% ADDCOM PLUS 1.25% TO INTERBULK\n- vessel_type: SMX UMX OR GEARD PMX\n  cargo_type: SLAG\n  load_port: N.CHINA\n  discharge_port: PG\n  laycan: '2025-11-20 ONWWARDS'\n  duration: ABT 35 DAYS WOG\n  charter_type: TCT\n  commission: 3.75% ADDCOM PLUS 1.25% TO INTERBULK",
+  "entities": {
+    "VESSEL": null,
+    "VESSEL_TYPE": [
+      "SMX",
+      "UMX",
+      "GEARD PMX"
+    ],
+    "DWT": null,
+    "IMO": null,
+    "CARGO": [
+      "SLAG"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "N.CHINA",
+      "BANGLADESH",
+      "PG"
+    ],
+    "LOAD_PORT": [
+      "N.CHINA"
+    ],
+    "DISCHARGE_PORT": [
+      "BANGLADESH",
+      "PG"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "DAIFU SGP"
+    ],
+    "BROKER": [
+      "INTERBULK SHIPBROKERS",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "20-30 NOV",
+      "20TH ONWWARDS"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "TCT"
+    ],
+    "TONNAGE": null,
+    "CONTACT": [
+      "deepeshmajigamkar@hotmail.com",
+      "chartering@varitasnavigation.com",
+      "chartering@interbulkshipping.in"
+    ],
+    "RESTRICTIONS": [
+      "DURATION ABT 30 DAYS WOG",
+      "DURATION ABT 35 DAYS WOG"
+    ]
+  }
+}

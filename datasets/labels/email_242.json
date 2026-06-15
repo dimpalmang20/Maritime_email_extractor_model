@@ -1,0 +1,32 @@
+{
+  "email_id": 242,
+  "email_type": "tonnage",
+  "source": "Prime Maritime",
+  "vessels": [
+    {
+      "vessel_name": "NEFELI",
+      "open_position": "Haldia, India",
+      "open_date": "2025-11-23/2025-11-27",
+      "built_year": 2016,
+      "flag": "Malta",
+      "class": "BV",
+      "dwt_mt": 63466,
+      "draft_m": 13.3,
+      "loa_m": 199.9,
+      "beam_m": 32.26,
+      "grain_cbm": 78702,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x35 MT",
+      "grabs": true,
+      "co2_fitted": true,
+      "a60_bulkhead": true,
+      "speed_consumption": {
+        "ballast": "12.0 kn on 19.5 mt VLSIFO + 0.1 mt LSMGO",
+        "laden": "11.0 kn on 19.5 mt VLSIFO + 0.1 mt LSMGO",
+        "idle": "3.5 mt/day",
+        "working": "7.0 mt/day"
+      }
+    }
+  ]
+}

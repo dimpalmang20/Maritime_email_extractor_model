@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PANDA -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "34960",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-16",
+    "close_date": "2027-01-20",
+    "matching_region": "Japan",
+    "restrictions": [
+      "No\n\nPlsd to hear\n\nKind regards"
+    ],
+    "confidence_score": 0.82
+  }
+]

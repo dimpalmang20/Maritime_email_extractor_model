@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TRUE FRIEND",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.55
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HOLDS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "51241",
+    "built_year": "2009",
+    "flag": "BARBADOS",
+    "imo": "",
+    "grt": "30655",
+    "nrt": "15707",
+    "loa": "182.98m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HATC",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.89
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "NO",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "ARA Range",
+    "restrictions": [
+      "NO\n\nX"
+    ],
+    "confidence_score": 0.42
+  }
+]

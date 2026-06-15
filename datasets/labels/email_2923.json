@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "T CLEVER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37084",
+    "built_year": "2014",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-01-06",
+    "close_date": "2026-01-11",
+    "matching_region": "India",
+    "restrictions": [
+      "NO VENEZ"
+    ],
+    "confidence_score": 0.82
+  }
+]

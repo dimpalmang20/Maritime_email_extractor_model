@@ -1,0 +1,23 @@
+{
+  "email_id": 275,
+  "email_type": "cargo_enquiry",
+  "company": "LEMA Chartering",
+  "contact_person": "Sergey Slepchenko",
+  "cargo": "Acid Fluorspar",
+  "quantity_mt": 10800,
+  "quantity_tolerance": "+/-100 MT",
+  "stowage_factor": "0.45-0.60",
+  "hazardous": false,
+  "load_port": "Humen, China",
+  "discharge_port": "Mina Khalifa",
+  "laycan": "2025-11-15 to 2025-11-22",
+  "loading_terms": "CQD",
+  "discharge_rate": "3000 SSHEX EIU HD",
+  "vessel_requirements": {
+    "max_age_years": 25,
+    "geared": true,
+    "cranes": "3 x 30 MT",
+    "grabs_required": true
+  },
+  "commission": "2.50% total"
+}

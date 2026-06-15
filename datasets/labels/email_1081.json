@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OCEAN PERA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.67
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OCEAN PERA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "31848",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO SIMULTANEOUS CRANE WORK IN THE SAME HATCH",
+      "NO\n\nA",
+      "NO\n\nAUSTRALIAN APPROVED HOLD LADDERS"
+    ],
+    "confidence_score": 0.57
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OMISHIMA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Maptaphut",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OMISHIMA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2024",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "36278",
+    "loa": "",
+    "beam": "199.98m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "EXCL BUNKER GRADES\n\nALL DETAILS ABOUT\n\nPLSD TO HEAR"
+    ],
+    "confidence_score": 0.62
+  }
+]

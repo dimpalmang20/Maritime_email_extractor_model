@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "TM S.JAPAN",
+    "redel_port": "",
+    "laycan_start": "2025-12-01",
+    "laycan_end": "2025-12-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Pakistan",
+    "restrictions": [
+      "NO NEED DECK/HATCH",
+      "no deck/hatchcover"
+    ],
+    "confidence_score": 0.72
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "1200",
+    "quantity_unit": "MT",
+    "load_port": "Tianjin, China",
+    "discharge_port": "SOHAR",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.73
+  }
+]

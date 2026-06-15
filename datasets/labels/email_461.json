@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PRINCESS SHAHD 33.3K DWT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "33300",
+    "built_year": "1986",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "LEBANON",
+    "open_date": "2026-11-25",
+    "close_date": "2026-11-30",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

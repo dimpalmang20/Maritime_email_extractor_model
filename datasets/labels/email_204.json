@@ -1,0 +1,21 @@
+{
+  "email_id": 204,
+  "type": "tonnage",
+  "source_email": 204,
+  "vessels": [
+    {
+      "name": "MV PROFOUND STAR",
+      "dwt": 24262,
+      "built": 2011,
+      "flag": "Hong Kong",
+      "class": "RINA",
+      "open_position": "Klang, Malaysia",
+      "open_date": "2025-11-25/30",
+      "holds_hatches": "4/4",
+      "gear": "3 x 25 MT Cranes",
+      "grain_capacity_cbm": 29039,
+      "gross_tonnage": 15599,
+      "net_tonnage": 8183
+    }
+  ]
+}

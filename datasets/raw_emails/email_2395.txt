@@ -1,0 +1,17 @@
+
+________________________________
+From: Microsoft account team <account-security-noreply@accountprotection.microsoft.com>
+Sent: Monday, 22 December 2025 15:38:02 (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+To: kriti.kriti.gupta@outlook.com <kriti.kriti.gupta@outlook.com>
+Subject: New app(s) connected to your Microsoft account
+
+Microsoft account
+New app(s) have access to your data
+tonnex_oauth connected to the Microsoft account kr**a@outlook.com<mailto:kr**a@outlook.com>.
+If you didn't grant this access, please remove the app(s) from your account.
+Manage your apps<https://account.live.com/consent/Manage?fn=email>
+You can also opt out<https://account.live.com/SecurityNotifications/Update> or change where you receive security notifications.
+Thanks,
+The Microsoft account team
+Privacy Statement<https://go.microsoft.com/fwlink/?LinkId=521839>
+Microsoft Corporation, One Microsoft Way, Redmond, WA 98052

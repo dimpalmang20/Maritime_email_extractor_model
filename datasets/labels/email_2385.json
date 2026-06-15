@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "AGRICORE OR NOMIN",
+    "cargo": "DWT / TCT WITH",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-66000",
+    "del_port": "TO MAKE REDSEA",
+    "redel_port": "ONE PORT IN PG-JAPAN RANGE INTN INDIA",
+    "laycan_start": "2025-12-22",
+    "laycan_end": "2025-12-27",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NBS HONOR 54K",
+    "vessel_type": "MR Tanker",
+    "dwt": "53600",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "CAOFEDIAN",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.79
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NBR HONOR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "53605",
+    "built_year": "",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "",
+    "nrt": "31144",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "no adverse currents and",
+      "no negative influence from swell and"
+    ],
+    "confidence_score": 0.72
+  }
+]

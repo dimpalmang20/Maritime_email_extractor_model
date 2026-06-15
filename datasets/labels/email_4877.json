@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Jana Al-Kalha Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "26000",
+    "quantity_unit": "MT",
+    "load_port": "XIAMEN 15,000 MT + QINZHOU 11,000 MT",
+    "discharge_port": "VIZAG, ECI",
+    "laycan_start": "2026-05-25",
+    "laycan_end": "2026-05-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

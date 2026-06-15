@@ -1,0 +1,49 @@
+{
+  "email_id": 132,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV ULTRA ALPHA",
+      "dwt": 63203,
+      "built": 2015,
+      "open_position": "Jingtang",
+      "open_dates": "2025-11-13 to 2025-11-17"
+    },
+    {
+      "name": "MV PACIFIC LOTUS",
+      "dwt": 63206,
+      "built": 2019,
+      "open_position": "Chittagong",
+      "open_dates": "2025-11-16 to 2025-11-20"
+    },
+    {
+      "name": "MV EBURY TRADER",
+      "dwt": 56603,
+      "built": 2011,
+      "open_position": "Mongla",
+      "open_dates": "2025-11-20 to 2025-11-22"
+    },
+    {
+      "name": "MV XIN HAI TONG 29",
+      "dwt": 57297,
+      "built": 2011,
+      "open_position": "Mombasa",
+      "open_dates": "2025-11-17 to 2025-11-21"
+    },
+    {
+      "name": "MV XIN HAI TONG 66",
+      "dwt": 57306,
+      "built": 2011,
+      "open_position": "Xiamen",
+      "open_dates": "2025-11-18 to 2025-11-25"
+    },
+    {
+      "name": "MV XIN HAI TONG 809",
+      "dwt": 76089,
+      "built": 2014,
+      "open_position": "Haldia",
+      "open_dates": "2025-11-12 to 2025-11-14"
+    }
+  ]
+  
+}

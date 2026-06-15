@@ -1,0 +1,32 @@
+{
+   "text" : " \n \n \n \n \nBest Regards:\n \n\n \nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com>\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n \nFrom: rieck-petersen@shipnet.de <rieck-petersen@shipnet.de> \nSent: 24 November 2025 16:50\nTo: chartering@varitasnavigation.com\nSubject: DIRECT POSITIONS\n \nDoc-No. 9560786   24/NOV/2025 (MON)  12:19  (+0100)  LP\nRieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers  \nPhone: +49 (0)40 35 00 426 E-Mail:  <mailto:rieck-petersen@shipnet.de>\nrieck-petersen@shipnet.de\n \nGD AFT\n \nPLS PPSE FOR OUR DIRECT POSITIONS\n \n++++\n \nM/V HAI PHUONG STAR\n32,139 MTS DWT ON 9.62M DRFT - BULKER /SINGLE DECK  PANAMA FLAG\nJAPAN BUILT 2008. CLASS NK - GRT 19822, NRT 10953. TPC 45.42\nLOA 175.5M, BEAM 29.4M, DEPTH 13.7M - 5 HO/HA - HATCH COVER: FOLDING TYPE\nGRAIN 42620, BALE 41095 - CRANES: 4 UNITS. GRAB: N.A - BWTS, CO2: YES\n(ADA WOG)\n \nOPEN KAKINADA 10 DEC\n             -----------------------------\n++++\n \nM/V HPC SUNRISE\n35,152 MTS DWT ON 10.8 M DRFT - SD/BC - (H2/3/4 SEMI-BOXY)  PANAMA FLAG\nDONGZE BUILT 2011. CLASS NK - GRT 22358, NRT 12081. TPC 46.5\nLOA 179.9M, BEAM 28.4M, DEPTH 15M - 5 HO/HA - HATCH COVER: FOLDING TYPE\nGRAIN 44294, BALE 42522 - CRANES: 4 UNITS. GRAB: N.A - BWTS, CO2: YES\n(ADA WOG)\n \nOPEN TIANJIN 12 DEC\n             ------------------------\n++++\n \nPLSD TO HEAR\nBRGDS\nLP\n\nLars Petersen Mobile: +49 (0)172 410 48 72\n \nFirma/Company: Rieck + Petersen GmbH, Hamburg\nHandelsregistersitz + Nr./Commercial Registry Domicile + No.: \nHamburg / HBR 25945 Gerichtsstand/Jurisdiction: Hamburg\nUSt.Id.Nr./Value added tax identification number: DE 117585945\nGeschftsfhrer/Managing Director: Lars Petersen\n \n \n \n \n",
+   "entities" : {
+      "FREIGHT_RATE" : null,
+      "PORT" : [
+         "KAKINADA",
+         "TIANJIN"
+      ],
+      "CHARTERER" : null,
+      "ETA" : null,
+      "CHARTER_TYPE" : null,
+      "DISCHARGE_PORT" : null,
+      "CONTACT" : null,
+      "LAYCAN" : null,
+      "OPEN_DATE" : [
+         "10 DEC",
+         "12 DEC"
+      ],
+      "IMO" : null,
+      "CARGO" : null,
+      "VESSEL_TYPE" : null,
+      "LOAD_PORT" : null,
+      "VESSEL" : [
+         "MV HAI PHUONG STAR",
+         "MV HPC SUNRISE"
+      ],
+      "DWT" : [
+         "32,139 MTS DWT",
+         "35,152 MTS DWT"
+      ]
+   }
+}

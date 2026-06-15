@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DELOS II",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35898",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ISKENDERUN,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.79
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MacGregor Cranes",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35898",
+    "built_year": "2013",
+    "flag": "Liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "22648",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Baltic Sea",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

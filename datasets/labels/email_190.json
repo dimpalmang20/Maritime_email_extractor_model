@@ -1,0 +1,10 @@
+{
+  "email_id": 190,
+  "type": "non_shipping",
+  "source_email": 190,
+  "category": "banking_notification",
+  "bank": "HDFC Bank",
+  "subject": "OTP for Login to HDFC Bank Prepaid Card Net Banking",
+  "event": "OTP Generated",
+  "otp_present": true
+}

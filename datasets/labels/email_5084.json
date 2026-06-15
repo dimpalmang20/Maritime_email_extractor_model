@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ZY HI SHENG OPEN AQABA 05 - 08 JUNE 2026",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "27000",
+    "built_year": "",
+    "flag": "HONG KONG",
+    "imo": "9593622",
+    "grt": "",
+    "nrt": "18084",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Aqaba, Jordan",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-08",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE BY SWELL AND\n\nNO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.98
+  }
+]

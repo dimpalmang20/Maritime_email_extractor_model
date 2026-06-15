@@ -1,0 +1,26 @@
+{
+  "email_id": 72,
+  "email_type": "open_vessel",
+  "vessel_name": "DUBAI SUN",
+  "dwt": 61344,
+  "flag": "Marshall Islands",
+  "built_year": 2010,
+  "open_port": "Aden",
+  "open_country": "Yemen",
+  "open_date": "2025-11-19",
+  "draft_m": 12.845,
+  "tpc": 60,
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 76913,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+  "grabs": {
+    "count": 4,
+    "capacity_cbm": 12
+  },
+  "last_cargo": "Coal",
+  "status": "Open"
+}

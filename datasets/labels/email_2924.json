@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ROME TRADER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56838",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "7163409",
+    "open_port": "",
+    "open_date": "2026-01-10",
+    "close_date": "2026-01-15",
+    "matching_region": "India",
+    "restrictions": [
+      "NO CRANE DRIVERS FROM SHIPS CREW"
+    ],
+    "confidence_score": 0.85
+  }
+]

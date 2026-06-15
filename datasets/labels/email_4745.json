@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ST-CERGUE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "60696",
+    "built_year": "2017",
+    "flag": "SWITZERLAND",
+    "imo": "9775373",
+    "grt": "",
+    "nrt": "34314",
+    "loa": "198m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-04-29",
+    "close_date": "2026-05-04",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no adverse currents",
+      "no fouling due to vessel staying for",
+      "No extrapolations to be made for weather"
+    ],
+    "confidence_score": 0.97
+  }
+]

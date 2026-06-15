@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "quantity": "2000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

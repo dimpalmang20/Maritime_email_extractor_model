@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Jana Al-Kalha Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "60000",
+    "quantity_unit": "MT",
+    "load_port": "PIVDENNYI , UKRAINE 12.8 M",
+    "discharge_port": "BANDAR IMAM KHOMIENI , IRAN",
+    "laycan_start": "2026-02-18",
+    "laycan_end": "2026-02-22",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Ukraine",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

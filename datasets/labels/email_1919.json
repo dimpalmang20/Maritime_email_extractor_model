@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "&",
+    "cargo": "UN Cargo Equipment, Container & Vehicles",
+    "cargo_type": "General Cargo",
+    "dwt": "30000",
+    "del_port": "CJK / TCT TO MED & BLACKSEA",
+    "redel_port": "DELY",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "75%",
+    "matching_region": "Mediterranean",
+    "restrictions": [],
+    "confidence_score": 0.94
+  }
+]

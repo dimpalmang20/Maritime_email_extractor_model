@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "56880",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2025-02-01",
+    "laycan_end": "2025-02-06",
+    "load_rate": "33042 MT/DAY",
+    "discharge_rate": "19132 MT/DAY",
+    "commission": "",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.68
+  }
+]

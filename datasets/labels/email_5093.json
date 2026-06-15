@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ASTRO POLARIS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "",
+    "flag": "Portuguese",
+    "imo": "9623051",
+    "grt": "",
+    "nrt": "22856",
+    "loa": "177.85m",
+    "beam": "28.6m",
+    "grain_capacity": "",
+    "open_port": "PORT",
+    "open_date": "2026-06-14",
+    "close_date": "2026-06-17",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "80000-99999",
+    "del_port": "of the vessel. Prior",
+    "redel_port": "of the vessel. Prior",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no adverse",
+      "no other outstanding's for the vessel"
+    ],
+    "confidence_score": 0.7
+  }
+]

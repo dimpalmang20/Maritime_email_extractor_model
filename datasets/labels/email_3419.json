@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TROPICAL STAR",
+    "vessel_type": "Handysize Bulk Carrier",
+    "dwt": "28400",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "TONNAGE",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.79
+  }
+]

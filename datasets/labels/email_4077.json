@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "50000",
+    "quantity_unit": "MT",
+    "load_port": "TAMAN , RUSSIA",
+    "discharge_port": "ISKENDERUN , TURKEY",
+    "laycan_start": "2026-02-05",
+    "laycan_end": "2026-02-15",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

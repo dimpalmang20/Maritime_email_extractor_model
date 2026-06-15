@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN",
+    "cargo": "Coal",
+    "cargo_type": "Dry Bulk",
+    "dwt": "80000-99999",
+    "del_port": "E.AUS (INT. NEWCASTLE)",
+    "redel_port": "SGP/JPN (INT, CHINA)",
+    "laycan_start": "2026-05-17",
+    "laycan_end": "2026-05-26",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ABT.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58479",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "9577434",
+    "grt": "",
+    "nrt": "34374",
+    "loa": "",
+    "beam": "196m",
+    "grain_capacity": "",
+    "open_port": "Bahodopi, Indonesia",
+    "open_date": "2026-12-01",
+    "close_date": "2026-12-04",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no adverse current",
+      "No extrapolations to be made for weather",
+      "no bottom fouling due to cumulative immobilization for extended period"
+    ],
+    "confidence_score": 0.98
+  }
+]

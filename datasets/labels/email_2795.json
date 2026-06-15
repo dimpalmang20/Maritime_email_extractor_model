@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Grt",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2016",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KUCHING",
+    "open_date": "2025-01-05",
+    "close_date": "2025-01-08",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.8
+  }
+]

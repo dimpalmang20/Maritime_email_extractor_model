@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "C EXPRESS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "69000",
+    "built_year": "2021",
+    "flag": "",
+    "imo": "",
+    "grt": "57934",
+    "nrt": "",
+    "loa": "215.4m",
+    "beam": "37m",
+    "grain_capacity": "",
+    "open_port": "RIZHAO",
+    "open_date": "2026-01-20",
+    "close_date": "2026-01-25",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

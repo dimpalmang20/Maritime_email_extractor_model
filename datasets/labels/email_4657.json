@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "HANARO SHIPPING",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "S.E ASIA",
+    "laycan_start": "2026-04-20",
+    "laycan_end": "2026-04-24",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.7
+  }
+]

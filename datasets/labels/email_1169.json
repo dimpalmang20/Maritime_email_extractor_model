@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "MUR - Smx",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-69999",
+    "del_port": "SEASIA, INT PHILIPPINES",
+    "redel_port": "SEASIA, INT PHILIPPINES",
+    "laycan_start": "2025-11-26",
+    "laycan_end": "2025-12-01",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

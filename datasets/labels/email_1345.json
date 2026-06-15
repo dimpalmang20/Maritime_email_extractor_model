@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "31855",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-12-01",
+    "laycan_end": "2025-12-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.6
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DWT ON SUMMER DRAFT 10.00M SSW TPC 45.1 MTS",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "19993",
+    "loa": "177.5m",
+    "beam": "28.2m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

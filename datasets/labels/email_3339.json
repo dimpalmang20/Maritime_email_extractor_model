@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HG PERTH",
+    "vessel_type": "MR Tanker",
+    "dwt": "29966",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "176.2m",
+    "grain_capacity": "",
+    "open_port": "SANDAKAN,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

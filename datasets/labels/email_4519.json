@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OPEN ANNABA O",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38862",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ANNABA",
+    "open_date": "2026-03-30",
+    "close_date": "2026-04-04",
+    "matching_region": "Mediterranean",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LAN BAO HAI",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2015",
+    "flag": "SDBC",
+    "imo": "",
+    "grt": "",
+    "nrt": "24748",
+    "loa": "",
+    "beam": "179.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO CIRCUMSTANCES ALLOWED",
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.62
+  }
+]

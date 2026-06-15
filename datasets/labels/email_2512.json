@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "you deliver better customer experience / drive business growth",
+    "discharge_port": "",
+    "laycan_start": "2025-12-24",
+    "laycan_end": "2025-12-29",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  }
+]

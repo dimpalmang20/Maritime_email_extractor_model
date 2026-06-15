@@ -1,0 +1,29 @@
+{
+  "email_id": 115,
+  "email_type": "open_vessels",
+  "source_company": "Marcons Group",
+  "vessels": [
+    {
+      "vessel_name": "WONDERFUL WORLD",
+      "vessel_type": "Bulk Carrier",
+      "flag": "Marshall Islands",
+      "built_year": 2019,
+      "open_port": "Mundra",
+      "open_date": "2025-11-12/20",
+      "preferred_direction": "WCI/ECI",
+      "restricted_area": "No Red Sea / Goa",
+      "dwt": 37367,
+      "draft_m": 10.524,
+      "grt": 23765,
+      "nrt": 11966,
+      "holds": 5,
+      "hatches": 5,
+      "loa_m": 179.9,
+      "beam_m": 30.0,
+      "grain_capacity_cbm": 47342.2,
+      "cranes": "4x30MT",
+      "rob_vlsfo_mt": 730,
+      "rob_lsmgo_mt": 145
+    }
+  ]
+}

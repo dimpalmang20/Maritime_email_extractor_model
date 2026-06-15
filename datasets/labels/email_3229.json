@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MOONBEAM",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58000",
+    "built_year": "",
+    "flag": "LIBERIA",
+    "imo": "9493987",
+    "grt": "32297",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-10",
+    "close_date": "2027-01-15",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

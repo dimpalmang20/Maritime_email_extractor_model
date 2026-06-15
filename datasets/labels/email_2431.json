@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "STORM RIDER",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Surabaya, Indonesia",
+    "open_date": "2027-01-07",
+    "close_date": "2027-01-12",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "STORM RIDER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "CYPRUS",
+    "imo": "2020102",
+    "grt": "",
+    "nrt": "22413",
+    "loa": "180.4m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO MORE THAN ONE CRANE\n\nTO BE WORKED AT EACH HATCH"
+    ],
+    "confidence_score": 0.72
+  }
+]

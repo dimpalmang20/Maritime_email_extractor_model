@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MGO",
+    "vessel_type": "Container Ship",
+    "dwt": "63500",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "35715",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "Dafeng,",
+    "open_date": "2026-12-01",
+    "close_date": "2026-12-07",
+    "matching_region": "Russia",
+    "restrictions": [
+      "No containers",
+      "No deck cargo",
+      "No hatch cargo"
+    ],
+    "confidence_score": 0.9
+  }
+]

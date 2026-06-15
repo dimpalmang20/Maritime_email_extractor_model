@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "PASSING",
+    "open_date": "2026-06-06",
+    "close_date": "2026-06-09",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.58
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VLSFO",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "50000",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "18462",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no adverse currents",
+      "no\n\nnegative influence of swell",
+      "No favorable weather and current factor to be applied when evaluating\n\nvessel"
+    ],
+    "confidence_score": 0.74
+  }
+]

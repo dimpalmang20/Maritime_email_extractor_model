@@ -1,0 +1,48 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN RUBY",
+    "vessel_type": "Container Ship",
+    "dwt": "40000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "25171",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "CAOFEIDIAN,",
+    "open_date": "2026-03-02",
+    "close_date": "2026-03-06",
+    "matching_region": "China",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.9
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN AMBER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2012",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "35835",
+    "nrt": "24504",
+    "loa": "199.98m",
+    "beam": "189m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT\n\nAND NO NEGATIVE INFLUENCE OF SWELL WHICH IS GIVEN IN GOOD FAITH",
+      "NO ADVERSE CURRENTS AND NO NEGATIVE\n\nINFLUENCE OF SWELL",
+      "NO WARRANTY APPLIES FOR PERIODS EXCEEDING GOOD\n\nWEATHER CONDITIONS AND IN CASES WHEN SEA BUOY TO SEA BUOY ON VOYAGES ARE\n\nLESS THAN"
+    ],
+    "confidence_score": 0.69
+  }
+]

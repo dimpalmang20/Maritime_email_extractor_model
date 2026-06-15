@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SUN PROFIT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55691",
+    "built_year": "",
+    "flag": "HONGKONG",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ADRIATIC",
+    "open_date": "2026-01-05",
+    "close_date": "2026-01-10",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

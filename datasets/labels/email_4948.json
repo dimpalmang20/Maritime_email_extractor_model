@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WINDS",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "32000-40000",
+    "del_port": "RSEA",
+    "redel_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "35 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "East Africa",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW HANDY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "42756",
+    "built_year": "2022",
+    "flag": "KOREA",
+    "imo": "9908255",
+    "grt": "24504",
+    "nrt": "12325",
+    "loa": "189m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "CHIBA",
+    "open_date": "2026-01-07",
+    "close_date": "2026-01-10",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO GRAB ON BOARD\n\nSPEED",
+      "NO NEGATIVE INFLUENCE BY SWELL",
+      "NO ADVERSE\n\nCURRENT AND NO NEGATIVE INFLUENCE OF SWELL AND IN DEEP WATERS WITH CLEAN\n\nBOTTOM"
+    ],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "80000-99999",
+    "del_port": "DEPARTURE",
+    "redel_port": "ARRIVAL",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "5%",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

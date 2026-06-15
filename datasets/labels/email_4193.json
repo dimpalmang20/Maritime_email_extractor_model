@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "MAR ONWARDS CARGO INT GRAIN",
+    "cargo_type": "Dry Bulk",
+    "dwt": "58000-64000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2027-02-11",
+    "laycan_end": "2027-02-16",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South China",
+    "restrictions": [
+      "NO DECK CARGO"
+    ],
+    "confidence_score": 0.78
+  }
+]

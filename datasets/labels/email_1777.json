@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TTS-LMG Marine Cranes Gmbh.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56729",
+    "built_year": "",
+    "flag": "",
+    "imo": "9491226",
+    "grt": "33044",
+    "nrt": "19231",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

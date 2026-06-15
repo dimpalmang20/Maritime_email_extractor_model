@@ -1,0 +1,288 @@
+
+
+
+
+
+Best Regards:
+
+
+
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email: chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+
+-----Original Message-----
+From: Mail Delivery System <MAILER-DAEMON@vmi2441136.contaboserver.net> 
+Sent: 03 December 2025 11:13
+To: chartering@varitasnavigation.com
+Subject: Undelivered Mail Returned to Sender
+
+This is the mail system at host vmi2441136.contaboserver.net.
+
+I'm sorry to have to inform you that your message could not be delivered to
+one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can delete your own
+text from the attached returned message.
+
+                   The mail system
+
+<howard@alambulk.com>: Host or domain name not found. Name service error for
+    name=alambulk.com type=A: Host not found
+
+<chartering@aug-bolten.hk>: Host or domain name not found. Name service
+error
+    for name=aug-bolten.hk type=A: Host not found
+
+<fix@avkships.com>: Host or domain name not found. Name service error for
+    name=avkships.com type=A: Host not found
+
+<comm@bbgsg.com>: Host or domain name not found. Name service error for
+    name=bbgsg.com type=A: Host not found
+
+<Singapore@copenship.com>: Host or domain name not found. Name service error
+    for name=copenship.com type=A: Host not found
+
+<chartering@devonmarine.uk>: Host or domain name not found. Name service
+error
+    for name=devonmarine.uk type=A: Host not found
+
+<hasco@hangseungshipping.co.kr>: Host or domain name not found. Name service
+    error for name=hangseungshipping.co.kr type=A: Host not found
+
+<enoch@kalyanshipping.com>: Host or domain name not found. Name service
+error
+    for name=kalyanshipping.com type=A: Host not found
+
+<arppit.g@aegiscarriers.com>: host aspmx.l.google.com[172.253.118.26] said:
+    550-5.2.1 The email account that you tried to reach is inactive. For
+more
+    550-5.2.1 information, go to 550 5.2.1
+    https://support.google.com/mail/?p=DisabledUser
+    41be03b00d2f7-be4fb248435si8212094a12.31 - gsmtp (in reply to RCPT TO
+    command)
+
+<projects@allianzbulk.com>: host
+    allianzbulk-com.mail.protection.outlook.com[52.101.73.24] said: 550
+5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [AM2PEPF0001C714.eurprd05.prod.outlook.com
+    2025-12-03T05:42:06.105Z 08DE2E82613AB00B] (in reply to RCPT TO command)
+
+<zbarcelona@ampship.com>: host
+    ampship-com.mail.protection.outlook.com[52.101.124.117] said: 550 5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [TY2PEPF0000AB84.apcprd03.prod.outlook.com
+    2025-12-03T05:42:06.473Z 08DE2EF0D88B27FA] (in reply to RCPT TO command)
+
+<circulate@daiduongship.vn>: host ASPMX.L.GOOGLE.COM[172.253.118.26] said:
+    550-5.1.1 The email account that you tried to reach does not exist.
+Please
+    try 550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. For more information, go to 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser
+    d9443c01a7336-29bce440706si88946875ad.5 - gsmtp (in reply to RCPT TO
+    command)
+
+<chartering@cerrahgil.com.tr>: host
+    cerrahgil-com-tr.mail.protection.outlook.com[52.101.73.4] said: 550
+5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [AM4PEPF00025F98.EURPRD83.prod.outlook.com
+    2025-12-03T05:42:06.626Z 08DE2EA969163FF6] (in reply to RCPT TO command)
+
+<cpcchart@gmail.com>: host gmail-smtp-in.l.google.com[142.250.4.26] said:
+    552-5.2.2 The recipient's inbox is out of storage space and inactive.
+    Please 552-5.2.2 direct the recipient to 552 5.2.2
+    https://support.google.com/mail/?p=OverQuotaPerm
+    41be03b00d2f7-be509f4d2b1si8723716a12.1551 - gsmtp (in reply to RCPT TO
+    command)
+
+<mdf.drychart.aus@maestroshipping.com>: host
+    maestroshipping-ch.mail.protection.outlook.com[52.101.73.30] said: 550
+    5.4.1 Recipient address rejected: Access denied. For more information
+see
+    https://aka.ms/EXOSmtpErrors [AMS0EPF000001AC.eurprd05.prod.outlook.com
+    2025-12-03T05:42:07.150Z 08DE2E8598C0A6A8] (in reply to RCPT TO command)
+
+<biz2@kharis.co.kr>: host mailapp.hiworks.CO.KR[211.47.76.59] said: 505 this
+    account is unknown user (#5.5.1) (in reply to RCPT TO command)
+
+<chartering@integritybulk.com>: host
+mx2-dk.centerasecurity.dk[128.76.60.168]
+    said: 554 5.7.1 5.4.1 Recipient address rejected: Access denied. For
+more
+    information see https://aka.ms/EXOSmtpErrors
+    [AMS1EPF0000003F.eurprd04.prod.outlook.com 2025-12-03T05:42:07.353Z
+    08DE2EA5D26D3915] (in reply to RCPT TO command)
+
+<capt.slong@goshpg.com>: host hzmx01.mxmail.netease.com[103.126.92.246]
+said:
+    551 5.1.1 recipient is not exist (in reply to RCPT TO command)
+
+<mabel.zhangli@dhl.com>: host dhl-com.fortimailcloud.com[154.52.2.252] said:
+    550 5.1.1 <mabel.zhangli@dhl.com>... User unknown (in reply to RCPT TO
+    command)
+
+<wangjian@scsco.com.cn>: Host or domain name not found. Name service error
+for
+    name=scsco.com.cn type=A: Host found but no data record of requested
+type
+
+<tonglishai@tongliship.com>: Host or domain name not found. Name service
+error
+    for name=tongliship.com type=A: Host not found
+
+<charles@samjoomaritime.com>: host mail.samjoomaritime.com[61.100.182.213]
+    said: 551 5.1.1 User not local (in reply to RCPT TO command)
+
+<chartering@seacoastsms.com>: host aspmx.l.google.com[172.253.118.26] said:
+    550-5.1.1 The email account that you tried to reach does not exist.
+Please
+    try 550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. For more information, go to 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser
+    d2e1a72fcca58-7d1604b49desi10511895b3a.321 - gsmtp (in reply to RCPT TO
+    command)
+
+<pravin@naveengroup.com>: host mx.zoho.com[136.143.183.44] said: 550 5.1.1
+User
+    does not exist - <pravin@naveengroup.com> (in reply to RCPT TO command)
+
+<smx@sdtr-marine.com>: host
+    sdtrmarine-com01b.mail.protection.outlook.com[52.101.157.80] said: 550
+    5.4.1 Recipient address rejected: Access denied. For more information
+see
+    https://aka.ms/EXOSmtpErrors [OSA0EPF000000C9.apcprd02.prod.outlook.com
+    2025-12-03T05:42:08.605Z 08DE2EBE68842D75] (in reply to RCPT TO command)
+
+<trungbl@vimc-shipping.com>: host mail.vimc-shipping.com[103.23.144.246]
+said:
+    550 <trungbl@vimc-shipping.com>, Recipient unknown (in reply to RCPT TO
+    command)
+
+<krisyu@5bo.com.tw>: host mailfilter.5bo.com.tw[210.71.187.212] said: 550
+    #5.1.0 Address rejected. (in reply to RCPT TO command)
+
+<lcfreight@langchuan.com.cn>: host mxn.mxhichina.com[47.246.137.47] said:
+554
+    RCPT (lcfreight@langchuan.com.cn) dosn't exist (in reply to RCPT TO
+    command)
+
+<heshunhua@fortuneocean.sg>: host mxn.mxhichina.com[47.246.137.47] said: 554
+    RCPT (heshunhua@fortuneocean.sg) dosn't exist (in reply to RCPT TO
+command)
+
+<chartering@sinoseagroup.com>: host mxbiz1.qq.com[103.86.78.2] said: 550
+    Mailbox unavailable or access denied
+    [N/u+XgB1UQZ7LnNUpbwZKRs+qg3cNViN1ZqgArLh4ea7SP/D7wJik3c=  IP:
+    94.136.184.46]. https://open.work.weixin.qq.com/help2/pc/20057. (in
+reply
+    to end of DATA command)
+
+<bellawang@umcship.com.tw>: host ASPMX.L.GOOGLE.COM[172.253.118.26] said:
+    550-5.1.1 The email account that you tried to reach does not exist.
+Please
+    try 550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. For more information, go to 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser
+    41be03b00d2f7-be509793b05si8804454a12.1323 - gsmtp (in reply to RCPT TO
+    command)
+
+<dujiahua@umcship.com.tw>: host ASPMX.L.GOOGLE.COM[172.253.118.26] said:
+    550-5.1.1 The email account that you tried to reach does not exist.
+Please
+    try 550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. For more information, go to 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser
+    41be03b00d2f7-be509793b05si8804454a12.1323 - gsmtp (in reply to RCPT TO
+    command)
+
+<DRYCHART@WEHRTRANSPORT.DE>: host
+    mx-01-eu-central-1.prod.hydra.sophos.com[3.122.50.44] said: 550 5.7.1
+    XGEMAIL_0011 Command rejected (in reply to RCPT TO command)
+
+<thanglx@viconshipsg.com.vn>: host aspmx.l.google.com[172.253.118.26] said:
+    550-5.1.1 The email account that you tried to reach does not exist.
+Please
+    try 550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. For more information, go to 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser
+    41be03b00d2f7-be4fb1509b3si8341507a12.193 - gsmtp (in reply to RCPT TO
+    command)
+
+<anish@kansamaritime.com>: host smtp.secureserver.net[92.204.80.0] said: 550
+    5.1.1 <anish@kansamaritime.com> Recipient not found.
+ 
+<https://www.secureserver.net/help/fix-rejected-email-with-a-bounce-error-40
+685?pl_id=3153&prog_id=3153#irb>
+    (in reply to RCPT TO command)
+
+<jenny@pegasus-shipping.com>: host pro203.emailserver.vn[103.110.129.203]
+said:
+    550 5.1.1 <jenny@pegasus-shipping.com>: Recipient address rejected: User
+    unknown (in reply to RCPT TO command)
+
+<smilingbi@sparkshipping.cn>: host mxw.263.net[107.150.117.76] said: 550
+    smilingbi@sparkshipping.cn:user not exist (in reply to RCPT TO command)
+Dear All,
+
+ 
+
+Good day.
+
+ 
+
+// FULLY FIRM // 
+
+ 
+
+ACC VARITAS NAVIGATION
+
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. 
+
+Load port: Tianjin, China
+
+Discharge port: Shuaiba, Kuwait.
+
+Load rate: CQD 
+
+Discharge: Liner out.
+
+Laycan 15-20th December 2025.
+
+As part cargo.
+
+2.5% Addcom
+
+ 
+
+ 
+
+Best Regards:
+
+ 
+
+
+
+ 
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+
+Website:- www.varitasnavigation.com
+
+ 
+

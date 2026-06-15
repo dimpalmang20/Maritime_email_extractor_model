@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HOPE 1",
+    "vessel_type": "MR Tanker",
+    "dwt": "56174",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Singapore",
+    "restrictions": [],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LOA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "31753",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO AFFECT OF SEA",
+      "NO ADVERSE CURRENT",
+      "NO\n\nNEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.57
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FLAG",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "9486594",
+    "grt": "",
+    "nrt": "24168",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "NO\n\nAHL FITTED",
+      "NO\n\nVSL",
+      "NO ADVERSE CURRENTS AND WITH WATER DEPTH EXCEEDING"
+    ],
+    "confidence_score": 0.74
+  }
+]

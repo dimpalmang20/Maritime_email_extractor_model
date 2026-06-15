@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLUE STAR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "22704",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SIHANOUVILLE,",
+    "open_date": "2026-12-28",
+    "close_date": "2026-12-31",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO ADVERSE CURRENTS AND NONEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.92
+  }
+]

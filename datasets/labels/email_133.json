@@ -1,0 +1,17 @@
+{
+  "email_id": 133,
+  "type": "cargo",
+  "account": "PALISO METALIKS DMCC / ORISSA METALIKS PVT LTD / Nominee",
+  "cargo": "LAM COKE + NUT COKE",
+  "quantity_mt": "35000 +/-10% MOLOO",
+  "load_port": "Bahodopi, Indonesia",
+  "discharge_port": "Haldia, India",
+  "laycan": {
+    "from": "2025-11-21",
+    "to": "2025-11-30"
+  },
+  "load_rate": "10000 MTPWWD SHINC",
+  "discharge_rate": "10000 MTPWWD SHINC",
+  "brokerage": "1.25% brokerage to Ocean Reaper Maritime",
+  "source_email": 133
+}

@@ -1,0 +1,24 @@
+{
+  "email_id": 178,
+  "type": "tonnage",
+  "source_email": 178,
+  "vessels": [
+    {
+      "name": "MV APOLLON",
+      "dwt": 82082.8,
+      "built": 2018,
+      "flag": "Marshall Islands",
+      "class": "LR",
+      "open_position": "Huanghua, North China",
+      "open_date": "2025-11-16/17",
+      "vessel_type": "Kamsarmax Bulk Carrier",
+      "gear": "Gearless",
+      "grain_capacity_cbm": 97250,
+      "bunkers_on_board": {
+        "vlsfo_mt": "1600-1750",
+        "lsmgo_mt": "170-210"
+      },
+      "last_cargo": "Grains"
+    }
+  ]
+}

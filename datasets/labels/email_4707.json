@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KAOHSIUNG",
+    "open_date": "2026-05-01",
+    "close_date": "2026-05-03",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.6
+  },
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "LSMDO",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.53
+  }
+]

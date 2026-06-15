@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "24823",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "PORT",
+    "open_date": "2027-01-06",
+    "close_date": "2027-01-10",
+    "matching_region": "Persian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "VC",
+    "cargo": "ADA Best Regards Maisam Raza Indus",
+    "cargo_type": "Dry Bulk",
+    "quantity": "8472",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

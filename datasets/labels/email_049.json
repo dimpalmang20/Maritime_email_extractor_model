@@ -1,0 +1,59 @@
+[
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "BAO XING LING",
+    "dwt": 47753,
+    "built_year": 2014,
+    "flag": "CHINA",
+    "open_port": "CJK CHINA",
+    "open_date": "2025-11-19",
+    "cranes": "4 X 36T",
+    "grabs": "4 X 12CBM",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "KANG CHENG",
+    "dwt": 55541,
+    "built_year": 2004,
+    "flag": "HONG KONG",
+    "imo": "9285017",
+    "open_port": "ZHUHAI",
+    "open_date": "2025-11-16",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "BAO HE LING",
+    "dwt": 47442,
+    "built_year": 2015,
+    "flag": "CHINA",
+    "imo": "9604275",
+    "open_port": "MANILA",
+    "open_date": "2025-11-16",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "KANG SHUN",
+    "dwt": 55566,
+    "built_year": 2004,
+    "flag": "CHINA",
+    "open_port": "RAS AL KHAIR",
+    "open_date": "2025-11-17",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "KANG YU",
+    "dwt": 52988,
+    "built_year": 2004,
+    "flag": "CHINA",
+    "imo": "9278765",
+    "open_port": "SINGAPORE",
+    "open_date": "2025-11-17",
+    "bod_vlsfo": 690,
+    "bod_lsmgo": 70,
+    "confidence_score": 0.99
+  }
+]

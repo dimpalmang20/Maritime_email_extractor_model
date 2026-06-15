@@ -1,0 +1,50 @@
+{
+  "text": "Best Regards:\n\nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail: chartering@varitasnavigation.com\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n\nFrom: BBSS Chartering <bbsschartering@e.bbss.com.tr>\nSent: 11 November 2025 16:38\nTo: chartering@varitasnavigation.com\nSubject: NMB POSITION LIST - Dated 11 NOVEMBER 2025\n\nFROM: BALKAN AND BLACK SEA SHIPPING / ISTANBUL\n\nPLS FIND BELOW NAVIBULGAR POSITION LIST FOR 11 NOVEMBER, 2025.\nFOR DIRECT CARGOES, PLS DO NOT RECIRCULATE!\n\nMV KOM - OPEN SANTOS - 13 NOVEMBER 2025 (Great Lakes Fitted)\nFlag - MALTA;\nICE CLASS 1C LR\nSD, ST, SF, BC, GEARED 3 X 35 t SWL, BLT 2021\nSWL OF VESSEL'S CRANES REDUCED BY 20% WHEN GRAB OPERATIONAL\n6 HO / 6 HA MC GREGOR HYDRAULIC FOLDING TYPE\nLOA/BM/LBP/DEPTH MOULDED - 189.98 / 23.70 / 186.4 / 14.6 M\nDWT 32'161.90 T AT 10.50 M SWD\nINTL GT/NT: 20'848 / 11'046\n40'936.147 CUB.M GRAIN MHO TRIMMED ENDS\n\n//\n\nMV SLAVYANKA - OPEN PSACHNA - 11 NOVEMBER 2025 (Great Lakes Fitted)\nFlag MALTA;\nVSL HAS ICE CLASS 1C LR\nSD, ST, SF, BC, GEARED 3 X 35 t SWL, BLT AUG 2023\nSWL of vessel's cranes reduced by 20% when grab operational\n6 HO / 6 HA MC GREGOR HYDRAULIC FOLDING TYPE\nLOA/BM/LBP/DEPTH MOULDED - 189.98 / 23.70 / 186.4 / 14.6 M\nDWT 32'209 T AT 10.50 M SWD\nINTL GT/NT: 20'848 / 11'046\n40'941.55 CUB.M GRAIN MHO TRIMMED ENDS",
+  "entities": {
+    "VESSEL": [
+      "MV KOM",
+      "MV SLAVYANKA"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "SANTOS",
+      "PSACHNA"
+    ],
+    "LOAD_PORT": [
+      "SANTOS",
+      "PSACHNA"
+    ],
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "BALKAN AND BLACK SEA SHIPPING",
+      "BBSS Chartering"
+    ],
+    "IMO": null,
+    "DWT": [
+      "DWT 32'161.90 T",
+      "DWT 32'209 T"
+    ],
+    "LAYCAN": [
+      "13 NOVEMBER 2025",
+      "11 NOVEMBER 2025"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "BC"
+    ],
+    "CHARTER_TYPE": [
+      "DIRECT CARGOES"
+    ],
+    "TONNAGE": [
+      "32'161.90 T",
+      "32'209 T"
+    ],
+    "CONTACT": [
+      "bbsschartering@e.bbss.com.tr"
+    ]
+  }
+}

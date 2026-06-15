@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CRANES",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "2019",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "36400",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "PORT",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO MIXING OF BUNKERS ALLOWED",
+      "NO ADVERSE CURRENTS\n\nGRABS ARE ALWAYS FOR CHRTS USE AT ANYTIME WITHOUT ASKING PERMISSION"
+    ],
+    "confidence_score": 0.84
+  }
+]

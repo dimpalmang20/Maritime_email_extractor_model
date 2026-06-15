@@ -1,0 +1,68 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Paiwan Ace",
+    "vessel_type": "Container Ship",
+    "dwt": "40200",
+    "built_year": "",
+    "flag": "Liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "31m",
+    "grain_capacity": "",
+    "open_port": "Ningde,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Russia",
+    "restrictions": [
+      "No Russia",
+      "NO GOA\n\nMV Paiwan Ace\n\nBuilt",
+      "No containers\n\nNo Russia\n\nNo Venezuela\n\nNo Cuba"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EVA RICHMOND",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63500",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "35715",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "Qingdao, China",
+    "open_date": "2026-12-18",
+    "close_date": "2026-12-21",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SSI PRIVILEGE II",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "1018121",
+    "grt": "35846",
+    "nrt": "21203",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "LOOP",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND"
+    ],
+    "confidence_score": 0.94
+  }
+]

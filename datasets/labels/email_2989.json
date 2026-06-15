@@ -1,0 +1,23 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "EC South America 8/10 Jan trip redel SE",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "East Coast South America",
+    "restrictions": [
+      "no fixtures",
+      "no more details came to light",
+      "no more details surfaced"
+    ],
+    "confidence_score": 0.74
+  }
+]

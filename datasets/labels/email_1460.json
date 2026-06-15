@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLT 2011 OPEN YANGPU 12 DEC 2025.",
+    "vessel_type": "Ultramax Bulk Carrier",
+    "dwt": "56770",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "9456238",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "YANGPU",
+    "open_date": "2025-12-12",
+    "close_date": "2025-12-17",
+    "matching_region": "North China",
+    "restrictions": [
+      "no adverse\n\ncurrent",
+      "No extrapolations to be made for weather",
+      "no bottom fouling due to cumulative\n\nimmobilization for extended period"
+    ],
+    "confidence_score": 0.98
+  }
+]

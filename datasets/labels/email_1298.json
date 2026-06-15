@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "45000",
+    "del_port": "INDONEISA ITN TABONEO",
+    "redel_port": "SE ASIA ITN PHILIPPINES",
+    "laycan_start": "2025-12-02",
+    "laycan_end": "2025-12-07",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Philippines",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

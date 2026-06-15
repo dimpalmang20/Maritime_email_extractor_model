@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SHI DA 11 -",
+    "vessel_type": "MR Tanker",
+    "dwt": "28000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-14",
+    "close_date": "2026-12-19",
+    "matching_region": "India",
+    "restrictions": [
+      "NO INDIA\n\nNO AUSTRALIA\n\nFor CIS coal",
+      "NO DECK",
+      "NO HATCH\n\nTank Top Strength"
+    ],
+    "confidence_score": 0.77
+  }
+]

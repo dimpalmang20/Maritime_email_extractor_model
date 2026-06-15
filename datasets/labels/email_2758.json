@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AFRICAN PETREL",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "39000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ZHENJIANG",
+    "open_date": "2027-01-05",
+    "close_date": "2027-01-06",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AFRICAN PETREL",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "13500",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "25330",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.75
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "email_id": 298,
+  "email_type": "mixed_position_list",
+  "company": "Wellerman",
+  "vessel_name": "MV BAO YANG 3",
+  "vessel_type": "Gearless Bulk Carrier",
+  "dwt": "27694 MT",
+  "open_port": "Ningde, China",
+  "open_dates": "24-26 Nov 2025",
+  "charter_options": [
+    "Time Charter",
+    "Voyage Charter"
+  ],
+  "additional_orders": 8,
+  "status": "open_tonnage_and_orders"
+}

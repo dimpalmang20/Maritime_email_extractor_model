@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "WANG DA -",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "38225",
+    "built_year": "2016",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "179.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-01-18",
+    "close_date": "2026-01-23",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO IRAN",
+      "NO AFFECT OF\n\nSEA AND CURRENT AND NO INFLUENCE OF SWELL AND ADVERSE CURRENT",
+      "NO EXTRAPOLATIONS CAN BE MADE FOR OTHER WEATHER"
+    ],
+    "confidence_score": 0.82
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "11000-15000",
+    "del_port": "INTER PG",
+    "redel_port": "INTER PG",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [
+      "NO IRAN"
+    ],
+    "confidence_score": 0.96
+  }
+]

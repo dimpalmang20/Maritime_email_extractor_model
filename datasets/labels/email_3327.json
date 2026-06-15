@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PROFOUND STAR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "24262",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "15599",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ZHOUSHAN,",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

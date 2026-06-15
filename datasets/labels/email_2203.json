@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LADY ZEHMA",
+    "vessel_type": "Handysize Bulk Carrier",
+    "dwt": "",
+    "built_year": "2005",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "172.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LADY MONICA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "35068",
+    "loa": "",
+    "beam": "179.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.62
+  }
+]

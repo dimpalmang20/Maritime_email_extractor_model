@@ -1,0 +1,54 @@
+{
+  "text": "Best Regards:\n \n\n \nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com> chartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n \nFrom: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in> \nSent: 13 November 2025 10:17\nTo: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSubject: // A/C VIETSEA REQUIREMENTS //\n \n \nDATE   :13TH NOV 2025\nREF    :IBC/RS/005\n\n=========\n \nHAVE FLWG TO FIX:\n \u200b\n++++++++++++ \n \n \nA/C VIETSEA\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b          \u200b \u200b  \n25,000/38,000MT DWT(MAX 18YEARS)\nDELY WEST AUSTRALIA(INT. GERALDTON)\nLAYCAN NOV 28/DEC 4, 2025\nINTENDED CARGO (BULK CONCENTRATES/MINERAL SANDS)\nTCT TO S.E.ASIA/JAPAN\n\u200b\u200b3.75% ADD COM PUS\u200b\n \n+++++\n \nA/C VIETSEA                \n30,000/43,000MT DWT(MAX 18YEARS)\nDELY KWINANA(INT), AUSTRALIA\nLAYCAN NOV 22/NOV 28, 2025\nBULK ALUMINA\nTCT TO BAHRAIN\n3.75% ADD COM PUS \n \n \n\u200b+++++++++++ \n\u200b \n \nBEST REGARDS\n \nRIYA SEHGAL           MOB.  : +91 9958349993  \n \nANKIT VASHIST         MOB.  : +91-9650405353\n \n \nINTERBULK SHIPBROKERS\nNEW DELHI, INDIA\n \nTEL : 0124- 4649000\n \nEMAIL   : CHARTERING@INTERBULKSHIPPING.IN\nWEBSITE : WWW.INTERBULKSHIPPING.IN",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": [
+      "BULK CONCENTRATES",
+      "MINERAL SANDS",
+      "BULK ALUMINA"
+    ],
+    "PORT": [
+      "GERALDTON",
+      "KWINANA",
+      "BAHRAIN"
+    ],
+    "LOAD_PORT": [
+      "GERALDTON",
+      "KWINANA"
+    ],
+    "DISCHARGE_PORT": [
+      "BAHRAIN"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "25,000/38,000MT",
+      "30,000/43,000MT"
+    ],
+    "CHARTERER": [
+      "VIETSEA"
+    ],
+    "BROKER": [
+      "INTERBULK SHIPBROKERS"
+    ],
+    "IMO": null,
+    "DWT": [
+      "25000/38000",
+      "30000/43000"
+    ],
+    "LAYCAN": [
+      "NOV 28/DEC 4, 2025",
+      "NOV 22/NOV 28, 2025"
+    ],
+    "FREIGHT_RATE": [
+      "3.75% ADD COM"
+    ],
+    "VESSEL_TYPE": null,
+    "CHARTER_TYPE": "TCT",
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@varitasnavigation.com",
+      "chartering@interbulkshipping.in"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SN SERENITY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "36227",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "22426",
+    "loa": "179.8m",
+    "beam": "30.4m",
+    "grain_capacity": "",
+    "open_port": "ZHOUSHAN,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

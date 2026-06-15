@@ -1,0 +1,32 @@
+
+{
+  "text": "From: Kriti Gupta <kriti.kriti.gupta@gmail.com>\nSent: 31 January 2026 16:41\nTo: kriti.kriti.gupta@outlook.com <kriti.kriti.gupta@outlook.com>\nSubject: MV WAN MING HE XIE\n\n*** SEMI EXCLUSIVE – PERIOD CP VIA HERE ***\n\n- OPEN TAIPEI / 22ND JULY 2025\n\nMV WAN MING HE XIE\n\nIMO: 9955337 FLAG: BISSAU CLASS: UMB\n\nYARD: Wanlong ship heavy industry co., ltd, Taizhou, China Built: AUG 8, 2022\n\nTYPE OF VESSEL: SINGLE DECK, SELF TRIMMING BULK CARRIER\n\nTYPE OF HATCH COVERS: Hydraulic Folding Type\n\nP&I CLUB: SKULD / H&M: PICC\n\nSUMMER DWT, DRAFT: 50918.9 MT ON 11.5M\n\nLIGHTSHIP WEIGHT: 8469.6MT SUMMER DISPLACEMENT: 59356.4MT\n\nLOA: 189.9 M BEAM: 31.0 M DEPTH:16.0M\n\nTPC: 56.3\n\nINTERNATIONAL GRT/NRT: 28194MT/15788MT\n\nHATCH SIZE:NO.1)20.8X18M NO.2-3)28.8X18M NO.4)26.0 X18M\n\nHO/HA: 4/4\n\nHOLD NO1.)13848.0 2)17971.0 3)17581.0 4)14838.0CBM\n\nGrain Capacity: 64240.34CBM\n\nFUEL TANK CAPACITY:LSFO 610CBM LSMGO 80CBM,NO BALLAST CARGO HOLD.\n\nCranes: No\n\nGrabs: No\n\nSPEED/ CONSUMPTION DAILY AT SEA:\n\nLADEN: ABT 10.30 KTS ON ABT 15.50MT LSFO180+ MD/GO 1.4MT AT SEA\n\nBALLAST: ABT 11.0 KTS ON ABT 15.00MT LSFO180 + MD/GO 1.4 MT AT SEA",
+  "entities": {
+    "VESSEL": "MV WAN MING HE XIE",
+    "CARGO": "GRAIN",
+    "PORT": [
+      "TAIPEI"
+    ],
+    "LOAD_PORT": "TAIPEI",
+    "DISCHARGE_PORT": null,
+    "ETA": "22ND JULY 2025",
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": null,
+    "IMO": "9955337",
+    "DWT": "50918.9 MT",
+    "LAYCAN": "22ND JULY 2025",
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "SINGLE DECK",
+      "SELF TRIMMING BULK CARRIER"
+    ],
+    "CHARTER_TYPE": "PERIOD CP",
+    "TONNAGE": [
+      "50K",
+      "50918.9 MT"
+    ],
+    "CONTACT": "kriti.kriti.gupta@gmail.com"
+  }
+}

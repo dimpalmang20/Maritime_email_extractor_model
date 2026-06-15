@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ALESSANDRA M",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52980",
+    "built_year": "",
+    "flag": "MALTA",
+    "imo": "",
+    "grt": "",
+    "nrt": "29372",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "DONGFANG",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.79
+  }
+]

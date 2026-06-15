@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GEOSAND 55K",
+    "vessel_type": "MR Tanker",
+    "dwt": "55000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.67
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GEOSAND - 55K",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55000",
+    "built_year": "2010",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South Africa",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

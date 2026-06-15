@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WINDS",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "",
+    "del_port": "THAILAND / SINGAPORE RANGE",
+    "redel_port": "",
+    "laycan_start": "2027-03-26",
+    "laycan_end": "2027-03-31",
+    "duration": "3 months",
+    "hire_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.95
+  }
+]

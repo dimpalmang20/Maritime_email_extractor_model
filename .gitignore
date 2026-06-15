@@ -2,6 +2,9 @@
 
 node_modules/
 
+# Trained Models
+models/
+
 # Build Output
 
 dist/
@@ -9,6 +12,14 @@ coverage/
 tmp/
 out-tsc/
 *.tsbuildinfo
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python Cache
+__pycache__/
+*.pyc
 
 # Environment Files
 
@@ -35,6 +46,7 @@ Thumbs.db
 
 # Logs
 
+
 npm-debug.log*
 yarn-error.log*
 pnpm-debug.log*
@@ -58,7 +70,11 @@ venv/
 /libpeerconnection.log
 typings/
 
-# Cursor / AI
+
 
 .cursor/
 .github/instructions/
+
+
+# Logs
+*.log

@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SPAR GEMINI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "53000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "East Coast South America",
+    "restrictions": [
+      "NO NIGERIA"
+    ],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GRABS 4X13CBM",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "32474",
+    "loa": "",
+    "beam": "190m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE\n\nCURRENT AND NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.62
+  }
+]

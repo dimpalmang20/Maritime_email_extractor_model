@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Corn",
+    "cargo_type": "Dry Bulk",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "8000-12-01",
+    "laycan_end": "8000-12-10",
+    "load_rate": "8000 MT/DAY",
+    "discharge_rate": "5000 MT/DAY",
+    "commission": "2.5%",
+    "matching_region": "Mediterranean",
+    "restrictions": [],
+    "confidence_score": 0.86
+  }
+]

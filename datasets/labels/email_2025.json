@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SHI YUAN QI HANG",
+    "vessel_type": "MR Tanker",
+    "dwt": "33000",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SONGXIA",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "No russian bunker allowed\n\nPLSD TO HEAR"
+    ],
+    "confidence_score": 0.82
+  }
+]

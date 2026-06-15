@@ -1,0 +1,100 @@
+
+{
+  "text": "From: CAPTLU <captlu@188.com>\nSent: Tuesday, July 1, 2025 6:42 PM\nSubject: FERILIZER AND OTHER CARGO\n\n1) mid July need 8k vsl in cjk to my\n\n2) need around 20k vsl open n.china to philippine fertilizer end of july\n\n3) NEED 8-10K VSL WITH GEAR , TIANJIN TO PHILIPPINE END OF JULY\n\n4) NEED 10-13K VSL OPEN CJK TO PHILIPPINE PPT\n\n5) need 22.5- 30k vsl chian to indo end of july\n\n6) NEED 10K VSL ZJG TO PHILIPPINE PPT\n\n7) NEED 50-55K VSL GLESS OK NANTONG TO S.KR END OF JULY\n\n1. 4400MT STL COILS 5% MOLCO\nFILO\nCQD BENDS\n22-25/JUL,\nBAHODOPI TO SURABAYA\nCARGO READY 23RD/JUL\n\n2. 1700MT STL COILS TTL 12100MT 5% MOLCO\nFIO 4+CQD 13-16/JUL,\nBAHODOPI TO YANGJIANG 10400MT STL COILS & JIANGYIN\nCARGO READY ON 16TH/JUL\n\n3.TTL 21900MT 5% MOLCO FILO+FIO 4.5+CQD 13-16/JUL,\nBAHODOPI TO CUALO 7500MT STL COILS & HAIPHONG 12900MT STL COILS & QINZHOU 1500MT MSP IN TON BAG\nCARGO READY ON 16TH/JUL",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": [
+      "FERTILIZER",
+      "STL COILS",
+      "MSP IN TON BAG"
+    ],
+    "PORT": [
+      "CJK",
+      "MY",
+      "N.CHINA",
+      "PHILIPPINE",
+      "TIANJIN",
+      "INDO",
+      "ZJG",
+      "NANTONG",
+      "S.KR",
+      "BAHODOPI",
+      "SURABAYA",
+      "YANGJIANG",
+      "JIANGYIN",
+      "CUALO",
+      "HAIPHONG",
+      "QINZHOU"
+    ],
+    "LOAD_PORT": [
+      "CJK",
+      "N.CHINA",
+      "TIANJIN",
+      "CHINA",
+      "ZJG",
+      "NANTONG",
+      "BAHODOPI"
+    ],
+    "DISCHARGE_PORT": [
+      "MY",
+      "PHILIPPINE",
+      "INDO",
+      "S.KR",
+      "SURABAYA",
+      "YANGJIANG",
+      "JIANGYIN",
+      "CUALO",
+      "HAIPHONG",
+      "QINZHOU"
+    ],
+    "ETA": [
+      "mid July",
+      "end of july",
+      "22-25/JUL",
+      "13-16/JUL",
+      "23RD/JUL",
+      "16TH/JUL"
+    ],
+    "ETD": null,
+    "QUANTITY": [
+      "8K",
+      "20K",
+      "8-10K",
+      "10-13K",
+      "22.5-30K",
+      "10K",
+      "50-55K",
+      "4400MT",
+      "1700MT",
+      "12100MT",
+      "21900MT",
+      "7500MT",
+      "12900MT",
+      "1500MT"
+    ],
+    "CHARTERER": null,
+    "BROKER": "LONGFINE MARINE LTD",
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": [
+      "22-25/JUL",
+      "13-16/JUL"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "VSL WITH GEAR",
+      "GLESS"
+    ],
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "8K",
+      "20K",
+      "8-10K",
+      "10-13K",
+      "22.5-30K",
+      "10K",
+      "50-55K"
+    ],
+    "CONTACT": "captlu@188.com"
+  }
+}

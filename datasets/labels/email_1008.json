@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "29000",
+    "quantity_unit": "MT",
+    "load_port": "NOVO / TAMAN / TAUPSE, RUSSIA",
+    "discharge_port": "DIJBOUTI, DIJBOUTI",
+    "laycan_start": "2025-12-05",
+    "laycan_end": "2025-12-15",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "1.25%",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

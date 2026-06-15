@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SEAWIND_",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "",
+    "redel_port": "UMAX",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "50-55 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Persian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.86
+  }
+]

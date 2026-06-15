@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "SALEF",
+    "discharge_port": "Hodeidah, Yemen",
+    "laycan_start": "2025-11-26",
+    "laycan_end": "2025-12-01",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "5%",
+    "matching_region": "Upriver, Argentina",
+    "restrictions": [],
+    "confidence_score": 0.93
+  },
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "40000",
+    "quantity_unit": "MT",
+    "load_port": "SALEF",
+    "discharge_port": "Hodeidah, Yemen",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "5%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "email_id": 248,
+  "email_type": "tonnage",
+  "source": "Capital Shiptrade",
+  "vessels": [
+    {
+      "vessel_name": "SIROCO",
+      "former_names": [
+        "Calm Bay",
+        "Calm Way"
+      ],
+      "imo": "9317705",
+      "open_position": "Lagos",
+      "open_date": "2025-11-22/2025-11-24",
+      "built_year": 2006,
+      "builder": "Saiki Heavy Industries, Japan",
+      "flag": "Panama",
+      "class": "NKK",
+      "dwt_mt": 37534,
+      "draft_m": 10.869,
+      "tpc": 45.9,
+      "loa_m": 177.85,
+      "lbp_m": 169.8,
+      "beam_m": 28.6,
+      "depth_m": 15.0,
+      "gt": 22698,
+      "nt": 12674
+    }
+  ]
+}

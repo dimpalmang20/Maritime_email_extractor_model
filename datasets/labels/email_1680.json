@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "POLYWORLD",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "57000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MDO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "9626584",
+    "grt": "33032",
+    "nrt": "19231",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL EXISTING AS FLWG",
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.81
+  }
+]

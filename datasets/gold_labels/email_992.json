@@ -1,0 +1,30 @@
+{
+   "text" : " \n \nThanks and Regards,\n \nMs. Eleanor Rodriguez\nOperations Executive\n \n\nSobha Sapphire Bldg. Office No. 906 Business Bay, P.O. Box 123175, Dubai United Arab Emirates\nTel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mobile/Whatsapp: (+97150) 456 9584\nTeams: ⁠ <https://teams.live.com/l/invite/FEA24fuDdrtycUAJAg?v=g1> Transbulk5 \nWeChat: TransbulkOps_Eleanor\nEmail:  <mailto:operations@transbulk.ae> operations@transbulk.ae |  <mailto:transblk@eim.ae> transblk@eim.ae \nWebsite:  <http://www.transbulk.ae/> http://www.transbulk.ae\n \nFrom: Chrigr <christoship@chri.gr> \nSent: Wednesday, 26 November 2025 11:20 AM\nTo: Chrigr <christoship@chri.gr>\nSubject: MV OBE QUEEN (DWT 52,256 / BLT 2013) OPEN ABIDJAN, WAFR 10 / 18 DEC (REF:25A5EE4)\n \n26/11/25 09:20 +02:00\nCHRISTOSHIP\nShipbroking S.A. - Since 1974\nMembers of the Hellenic Shipbrokers Association - BIMCO Reg. Nr. 100812\n1974-2024 50 years\n130, Vouliagmenis Avenue, Elliniko 167 77, Greece\nPhone: +30 210-428 2910   Fax: +30 210-428 2362\nEmail: christoship@chri.gr\n \n- / Vassilis\n \nPLS PPOSE SUITABLE CARGO FOR BELOW LADY\n \n//FROM CLOSE OWNERS\\\\\n \nMV OBE QUEEN (DWT 52,256 / BLT 2013) OPEN ABIDJAN, WAFR 10 / 18 DEC\n \nNO PERIOD OR LEGS\nNO GOA/RSEA\nNO I/I/ISRAEL\nNO BALTIC\n \nBAGGED SUGAR OK (ONLY VOYAGE)\nMANGANESE OR IRON ORE OK\nPREFER TO GO FEAST\n \nCAN TRY ANY\n \n===========================\n \nM/V OBE QUEEN\n----------------------------            \nType BULK CARRIER\nDate built/Place: 05 Dec 2013? SHIN KURUSHIMA DOCKYARD CO.,\nLTD. - Japan\nFlag / Call Sign BARBADOS / 8PAZ4\nRegister Port BRIDGETOWN\nIMO Nr./ MMSI Nr. 9667746 / 314 539 000\nOfficial Nr. 733810\n\nP&I CLUB SKULD Mutual Protection and Indemnity Association\n(Bermuda) Ltd.\nH & M CAMBIASO RISSO MARINE & AVIATION (CR MAG)\n\nSummer DWT 52256 MT\nLOA (m) 182.930 m\nLBB (m) 178.500 m\nBeam (m) 32.260 m\nMoulded Depth (m) 17.600 m\nHatch Cover Type MacGregor\nDistance from Keel to HC 19.62 m\nHighest Point 46.21 m\nFree Board (at S.Draft) 5,223 m\nStrengths(mt/m2) 21.93 T/ m2 , 215 kn t/m2\n\nTonnages\nGross Tonnage (t) 30,221 MT\nNet Tonnage (t) 17,485 MT\nPanama Tonnage - Gross (t) -----\nPanama Tonnage ? Cu. M ) 100703.49\nSuez Tonnage - Gross (t) 31092\nSuez Tonnage - Net (t) 28344\nDisplacement (t) SD 61624 mt\nLight Ship (t) 9368 MT\nMax Constants (t) 260 mt\nF.W.A (mm) 258 MM\n\nTonnages - Seasonal\nPeriod       DWT (t)        Draft (m)      TPC\nSummer      52256 mt         12.424       54.39\nWinter      50854 mt         12.166\nTropical    53660 mt         12.682\n\nCapacities\nHolds 5 Hatches 5\n\nGrain Capacity (m3) 66749.99\nBale Capacity (m3) 64090.21\nCargo Gear 4 SETS , SWL 30.7 AT 26 M (Midship center) Electro\nHydraulic\nMaker of Crane MANABE ZOKI\n\nHold Dimensions\nHold No   Grain(m3)  Bale(m3) Hatch      Hatch       Hold       \n\n1             11668.83   11171.18  14.40     19.20       32.20       26.40\n2             14055.48   13461.09  20.00     19.20       32.26       28.80\n3             13466.08   12895.18  20.00     19.20       32.26       28.80\n4             14474.08   13878.66  20.00     19.20       32.26       28.80\n5             13085.52   12684.10  20.00     19.20       32.26       28.80\nTOTAL     66749.99   64090.21\n\n<ADA WOG>\nBest Regards, \nVassilis Katsiklis | CHRISTOSHIP Shipbroking SA\n \nDir: +30 211 016 2050 | Mob/Whatsapp : +30 694 587 6304\nWechat: VassilisKatsiklis | Teams: vasiliskatsiklis@gmail.com\n \n",
+   "entities" : {
+      "VESSEL" : [
+         "MV OBE QUEEN"
+      ],
+      "DWT" : [
+         "DWT 52,256"
+      ],
+      "LOAD_PORT" : null,
+      "VESSEL_TYPE" : [
+         "BULK CARRIER"
+      ],
+      "CARGO" : [
+         "IRON ORE"
+      ],
+      "IMO" : null,
+      "OPEN_DATE" : [
+         "10 / 18 DEC"
+      ],
+      "LAYCAN" : null,
+      "CONTACT" : null,
+      "DISCHARGE_PORT" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : null,
+      "PORT" : null,
+      "CHARTERER" : null,
+      "FREIGHT_RATE" : null
+   }
+}

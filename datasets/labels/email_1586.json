@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Chiba 7/10 Dec trip via NoPac redel",
+    "redel_port": "Singapore-Japan $22,000 - cnr",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "no more details surfaced"
+    ],
+    "confidence_score": 0.92
+  }
+]

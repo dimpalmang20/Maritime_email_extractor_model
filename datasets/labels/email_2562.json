@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "trawind glory dwt 12005mt BEIRA EAR JAN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32379",
+    "built_year": "2003",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "World Wide",
+    "restrictions": [],
+    "confidence_score": 0.74
+  },
+  {
+    "email_type": "VC",
+    "cargo": "SINGLE DECK",
+    "cargo_type": "Dry Bulk",
+    "quantity": "29229",
+    "quantity_unit": "MT",
+    "load_port": "PANAMA",
+    "discharge_port": "FLAG",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

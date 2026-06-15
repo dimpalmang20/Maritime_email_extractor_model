@@ -1,0 +1,55 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 132\nemail_type: open_vessels\nsource_company: Marcons Shipmanagement Pvt. Ltd.\nvessels:\n- vessel_name: PROFOUND STAR\n  dwt: 24262\n  open_port: Klang\n  open_country: Malaysia\n  open_date: '2025-11-25/30'\n  vessel_type: Bulk Carrier, Single Decker\n  holds: 4\n  hatches: 4\n  built_year: 2011\n  built_country: China\n  class: RINA\n  flag: Hongkong\n  draft_m: 10.4\n  loa_m: 159.9\n  beam_m: 24.4\n  depth_m: 14.20\n  gross_tonnage: 15599\n  net_tonnage: 8183\n  grain_capacity_cbm: 29039\n  hatch_covers: Folding Type\n  hatch_size: No.1-4 19x16M\n  cranes: 3x25MT\n  trading_restrictions: Red Sea/East African/PG/Far East range only, Class 9",
+  "entities": {
+    "VESSEL": [
+      "PROFOUND STAR"
+    ],
+    "VESSEL_TYPE": [
+      "BULK CARRIER",
+      "SINGLE DECKER"
+    ],
+    "DWT": [
+      "24262",
+      "24262MT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "KLANG",
+      "MALAYSIA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "MARCONS GROUP"
+    ],
+    "BROKER": [
+      "Marcons Shipmanagement Pvt. Ltd.",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "25 -30 NOV",
+      "END NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com",
+      "bulk@marconsgroup.com",
+      "momin2905@rediffmail.com",
+      "harshhjjaiwal45@outlook.com",
+      "shipbroker1999@gmail.com",
+      "kd412830@gmail.com"
+    ],
+    "RESTRICTIONS": [
+      "TRADE W/I RED SEA/EAST AFRICAN/PG/FAR EAST RANGE",
+      "CLASS 9"
+    ]
+  }
+}

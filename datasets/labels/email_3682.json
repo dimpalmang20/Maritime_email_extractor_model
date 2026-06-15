@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "KARISMA",
+    "vessel_type": "MR Tanker",
+    "dwt": "39800",
+    "built_year": "2026",
+    "flag": "",
+    "imo": "",
+    "grt": "240002",
+    "nrt": "",
+    "loa": "179.9m",
+    "beam": "32.2m",
+    "grain_capacity": "",
+    "open_port": "Busan, South Korea",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.91
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DELAVITA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2026",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "36900",
+    "loa": "199.99m",
+    "beam": "32.25m",
+    "grain_capacity": "81500",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

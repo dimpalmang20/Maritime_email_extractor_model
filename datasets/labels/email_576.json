@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "MR Tanker",
+    "dwt": "28000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Far East",
+    "restrictions": [
+      "NO DECK\n\nAFRICAN ROADRUNNER",
+      "NO GOA\n\nLILIAN TRADER",
+      "NO DECK\n\nZY KUNSHAN"
+    ],
+    "confidence_score": 0.54
+  }
+]

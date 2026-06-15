@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "TAICHI SHIPPING",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "32000-45000",
+    "del_port": "TO MAKE 1SP NORTH CHINA RANGE",
+    "redel_port": "DLOSP 1SP SOUTH AFRICA",
+    "laycan_start": "2027-01-26",
+    "laycan_end": "2027-01-31",
+    "duration": "40 days",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

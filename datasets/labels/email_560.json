@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Lila Mundra",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "57268",
+    "built_year": "2009",
+    "flag": "liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "190m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "Aliaga,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

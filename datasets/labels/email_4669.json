@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WINDS",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "35000-49999",
+    "del_port": "PG ( DAMMAM KSA )",
+    "redel_port": "KUWAIT",
+    "laycan_start": "2026-04-15",
+    "laycan_end": "2026-04-18",
+    "duration": "15-18 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [
+      "NO I/I"
+    ],
+    "confidence_score": 0.98
+  }
+]

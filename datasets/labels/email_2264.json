@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "QUEEN OCEAN TD",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "11000",
+    "built_year": "2004",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "110.67m",
+    "beam": "19.2m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO\n\nCOMBINALE",
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.77
+  }
+]

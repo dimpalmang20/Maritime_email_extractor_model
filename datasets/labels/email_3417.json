@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "37153",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2026-01-13",
+    "laycan_end": "2026-01-18",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO GOA PASSING"
+    ],
+    "confidence_score": 0.65
+  }
+]

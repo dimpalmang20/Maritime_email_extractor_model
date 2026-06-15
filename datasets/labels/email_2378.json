@@ -1,0 +1,49 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JIN HAI WO",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "64000",
+    "built_year": "2025",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SPLIT,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO COMINGLING OF DIFFERENT FUEL BATCHES IN TANKS ALLOWED"
+    ],
+    "confidence_score": 0.84
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "19231",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Baltic Sea",
+    "restrictions": [
+      "NO\n\nADVERSE CURRENT",
+      "NO FOULING\n\nDUE THE VESSELS STAYING FOR",
+      "NO EXTRAPOLATION OF\n\nSPEED AND CONSUMPTION IN GOOD WEATHER PERIODS TO THE ENTIRE VOYAGE AND"
+    ],
+    "confidence_score": 0.49
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-54999",
+    "del_port": "an unattended mail box. Please do not reply",
+    "redel_port": "this mail. If you have concerns this mail please contact .",
+    "laycan_start": "2025-11-19",
+    "laycan_end": "2025-11-24",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [
+      "no charges"
+    ],
+    "confidence_score": 0.8
+  }
+]

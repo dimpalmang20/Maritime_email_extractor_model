@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "14000",
+    "quantity_unit": "MT",
+    "load_port": "QUANG NINH , VIETNAM",
+    "discharge_port": "FUJAIRAH , UAE",
+    "laycan_start": "2026-04-01",
+    "laycan_end": "2026-04-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

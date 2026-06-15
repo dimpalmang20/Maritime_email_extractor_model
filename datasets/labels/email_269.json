@@ -1,0 +1,49 @@
+{
+  "email_id": 269,
+  "email_type": "vessel_position",
+  "company": "Indus Bulk Shipping",
+  "contact_person": "Farhan Ali",
+  "vessels": [
+    {
+      "vessel_name": "BAO SUCCESS",
+      "vessel_type": "Supramax Bulk Carrier",
+      "built_year": 2009,
+      "flag": "Hong Kong",
+      "class": "BV",
+      "dwt": 56918.89,
+      "draft_m": 12.80,
+      "tpc": 58.81,
+      "loa_m": 189.99,
+      "beam_m": 32.26,
+      "depth_m": 18.00,
+      "gross_tonnage": 32945,
+      "net_tonnage": 19231,
+      "holds_hatches": "5/5",
+      "grain_capacity_cbm": 71634.09,
+      "cranes": "4 x 36 MT",
+      "grabs": "4 x Hydraulic-Electric",
+      "open_position": "El Dekheila, Egypt",
+      "open_date": "2025-11-26 to 2025-12-02",
+      "speed_consumption": {
+        "ballast": {
+          "speed_knots": 12.5,
+          "ifo380_mt_day": 25.0,
+          "mgo_mt_day": 0.05
+        },
+        "laden": {
+          "speed_knots": 11.5,
+          "ifo380_mt_day": 25.0,
+          "mgo_mt_day": 0.05
+        },
+        "port_idle": {
+          "ifo380_mt_day": 3.0,
+          "mgo_mt_day": 0.05
+        },
+        "port_working": {
+          "ifo380_mt_day": 4.5,
+          "mgo_mt_day": 0.05
+        }
+      }
+    }
+  ]
+}

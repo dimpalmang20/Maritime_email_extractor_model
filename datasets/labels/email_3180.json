@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ALANYA-M",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HOCHIMIN",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ALANYA-M",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "11500",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "186.45m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO GRABS ON BOARD",
+      "NO NEGATIVE\n\nINFLUENCE OF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.7
+  }
+]

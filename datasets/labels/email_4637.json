@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CRANE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38046",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "23268",
+    "loa": "179.97m",
+    "beam": "29.8m",
+    "grain_capacity": "",
+    "open_port": "INCHEON",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF\n\nSWELL"
+    ],
+    "confidence_score": 0.92
+  }
+]

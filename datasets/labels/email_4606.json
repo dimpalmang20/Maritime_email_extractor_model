@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "M/V AGIOS PORFYRIOS",
+    "cargo_type": "Dry Bulk",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "LIBERIA",
+    "discharge_port": "CLASS",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "12578 MT/DAY",
+    "discharge_rate": "6861 MT/DAY",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

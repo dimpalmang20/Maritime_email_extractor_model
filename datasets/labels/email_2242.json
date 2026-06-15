@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MARYAM",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.95m",
+    "grain_capacity": "",
+    "open_port": "Xiamen,",
+    "open_date": "2026-12-22",
+    "close_date": "2026-12-23",
+    "matching_region": "China",
+    "restrictions": [
+      "No GOA",
+      "no deck"
+    ],
+    "confidence_score": 0.8
+  }
+]

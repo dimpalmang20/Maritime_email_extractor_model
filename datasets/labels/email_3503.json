@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GUO DIAN 7",
+    "vessel_type": "MR Tanker",
+    "dwt": "33000",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ADABIYA",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.84
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HE SHENG DONG FANG",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32951",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "19983",
+    "nrt": "11340",
+    "loa": "178m",
+    "beam": "27.6m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-02-01",
+    "close_date": "2027-02-02",
+    "matching_region": "West Africa",
+    "restrictions": [
+      "no bulk cement",
+      "NO MIXING OF BUNKERS ALLOWED UNDER ANY CIRCUMSTANCES",
+      "NO ADVERSE CURRENTS AS ALL OF THEM RECORDED IN THE LOG BOOK"
+    ],
+    "confidence_score": 0.89
+  }
+]

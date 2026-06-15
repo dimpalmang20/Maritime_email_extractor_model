@@ -1,0 +1,47 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OCEAN STAR 57K",
+    "vessel_type": "MR Tanker",
+    "dwt": "57000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KOSICHANG",
+    "open_date": "2026-01-20",
+    "close_date": "2026-01-26",
+    "matching_region": "India",
+    "restrictions": [
+      "NO INDIA"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OCEAN STAR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56822",
+    "built_year": "2011",
+    "flag": "Sao Tome",
+    "imo": "9588500",
+    "grt": "",
+    "nrt": "32983",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELLS AND NOT EXCEEDING BEAUFORT SCALE FORCE"
+    ],
+    "confidence_score": 0.86
+  }
+]

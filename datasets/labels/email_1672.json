@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OPEN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "18978",
+    "built_year": "2011",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "126.8m",
+    "beam": "21.5m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South Korea",
+    "restrictions": [
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.77
+  }
+]

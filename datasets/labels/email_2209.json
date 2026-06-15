@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Chennai / Ennore, India",
+    "discharge_port": "Manfredonia, Itally",
+    "laycan_start": "2026-01-01",
+    "laycan_end": "2026-01-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "5%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.75
+  }
+]

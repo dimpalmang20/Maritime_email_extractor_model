@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "SHINC",
+    "cargo_type": "Dry Bulk",
+    "quantity": "50000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2026-02-05",
+    "laycan_end": "2026-02-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.83
+  },
+  {
+    "email_type": "VC",
+    "cargo": "SHINC",
+    "cargo_type": "Dry Bulk",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2026-02-05",
+    "laycan_end": "2026-02-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.83
+  }
+]

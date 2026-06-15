@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "10024",
+    "built_year": "2009",
+    "flag": "GRT",
+    "imo": "",
+    "grt": "",
+    "nrt": "6736",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Cualo,",
+    "open_date": "2027-01-14",
+    "close_date": "2027-01-19",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

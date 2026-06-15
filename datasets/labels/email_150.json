@@ -1,0 +1,19 @@
+{
+  "email_id": 150,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV ZY KUNSHAN",
+      "dwt": 63748,
+      "built": 2025,
+      "flag": "Liberia",
+      "open_position": "Huanghua, China",
+      "open_dates": "2025-11-22 to 2025-11-23",
+      "cargo_cranes": "4 x 30T",
+      "grain_capacity_cbm": 78324.2,
+      "bale_capacity_cbm": 72767.6,
+      "remarks": "2x25 deck/hatch loading OK, grain clean"
+    }
+  ],
+  "source_email": 150
+}

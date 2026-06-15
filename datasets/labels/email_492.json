@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEA RUBY",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "blacksea",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.67
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEA RUBY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2000",
+    "flag": "TWEEN DECKER",
+    "imo": "",
+    "grt": "",
+    "nrt": "7382",
+    "loa": "108m",
+    "beam": "20m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

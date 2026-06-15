@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW LEGACY OPEN ECI 10",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-12",
+    "close_date": "2026-12-17",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.65
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW LEGACY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "BELIZE",
+    "imo": "",
+    "grt": "",
+    "nrt": "17429",
+    "loa": "170m",
+    "beam": "27.036m",
+    "grain_capacity": "",
+    "open_port": "Paradip, India",
+    "open_date": "2026-12-12",
+    "close_date": "2026-12-17",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

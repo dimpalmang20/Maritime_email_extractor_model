@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "PWWD",
+    "cargo_type": "Dry Bulk",
+    "quantity": "25000",
+    "quantity_unit": "MT",
+    "load_port": "POC , UKRAINE",
+    "discharge_port": "KANDLA / MUNDRA , INDIA",
+    "laycan_start": "2026-02-01",
+    "laycan_end": "2026-02-28",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Ukraine",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

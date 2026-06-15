@@ -1,0 +1,55 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: I N D O S I N O - SINCE 2000 - Professional Shipbroking Company <chartering@indosinogroup.com>\nSent: 14 November 2025 10:18\nSubject: 3 (SMALL TONNAGE) TONNAGE OPEN FAR EAST AND SEASIA\n\nM/V GALAXY GLORY (DWCC 12500/TWEEN/CRANES /RINA) OPEN IN PANJANG,IN ON 1-2nd DEC.\nM/V GALAXY SKY (DWCC 8500/TWEEN/CRANES/RINA ) OPEN IN CEBU, PHILPPINE, 2ND-3RD DEC.",
+  "entities": {
+    "VESSEL": [
+      "GALAXY GLORY",
+      "GALAXY SKY"
+    ],
+    "VESSEL_TYPE": [
+      "TWEEN",
+      "BOX TYPE LOWER HOLD"
+    ],
+    "DWT": [
+      "12926",
+      "9000"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "PANJANG",
+      "CEBU"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "INDO SINO",
+      "Indo Sino Chartering Agency Services"
+    ],
+    "LAYCAN": [
+      "1-2nd DEC",
+      "2ND-3RD DEC"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "SMALL TONNAGE"
+    ],
+    "CONTACT": [
+      "chartering@indosinogroup.com",
+      "rawatindosinogroup@gmail.com",
+      "00-91-11-49990590",
+      "00-91-9810827498",
+      "8447121555",
+      "chartering@rawatindosinogroup.co.in",
+      "indosinogroup@gmail.com"
+    ],
+    "RESTRICTIONS": [
+      "DANGEROUS CARGO FITTED"
+    ]
+  }
+}

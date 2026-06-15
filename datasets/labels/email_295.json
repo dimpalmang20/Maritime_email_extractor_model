@@ -1,0 +1,15 @@
+{
+  "email_id": 295,
+  "email_type": "cargo_enquiry",
+  "charterer": "Sky Fusion",
+  "vessel_size": "35000-40000 DWT",
+  "cargo": "Grains",
+  "delivery_port": "Recalada",
+  "redelivery_port": "Durban",
+  "laycan": "End Dec 2025 - First Half Jan 2026",
+  "charter_type": "1 TCT",
+  "duration": "55-60 days",
+  "commission": "3.75% Addcomm + 1.25% Brokerage",
+  "broker": "Guanabara Shipping",
+  "status": "open_enquiry"
+}

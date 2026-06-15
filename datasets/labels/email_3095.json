@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MYKONOS DAWN",
+    "vessel_type": "MR Tanker",
+    "dwt": "37000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-12",
+    "close_date": "2027-01-18",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MYKONOS DAWN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37880",
+    "built_year": "",
+    "flag": "",
+    "imo": "9762481",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-12",
+    "close_date": "2027-01-18",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.89
+  }
+]

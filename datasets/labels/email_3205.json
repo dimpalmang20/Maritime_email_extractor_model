@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "42000",
+    "built_year": "2024",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "26272",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "RICHARDS",
+    "open_date": "2026-01-14",
+    "close_date": "2026-01-19",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO RUS",
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.77
+  }
+]

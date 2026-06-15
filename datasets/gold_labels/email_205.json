@@ -1,0 +1,54 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 133\nemail_type: open_vessels\nsource_company: Marcons Shipmanagement Pvt. Ltd.\nvessels:\n- vessel_name: JIN YUAN MEN\n  dwt: 63758.40\n  open_port: Chittagong\n  open_date: '2025-11-21'\n  flag: Liberia\n  class: LR\n  built_year: 2025\n  draft_m: 13.50\n  tpc: 61.70\n  gross_tonnage: 35748\n  net_tonnage: 21192\n  loa_m: 199.92\n  beam_m: 32.27\n  cranes: 4x36MT\n  grabs: 4x6-12CBM\n  grain_capacity_cbm: 71634.12\n  bale_capacity_cbm: 68162.25\n  holds: 5\n  hatches: 5\n  vessel_type: SD, Bulk Carrier",
+  "entities": {
+    "VESSEL": [
+      "JIN YUAN MEN"
+    ],
+    "VESSEL_TYPE": [
+      "SD",
+      "BULK CARRIER"
+    ],
+    "DWT": [
+      "63758 DWT",
+      "64K",
+      "63758.40MT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "CHITTAGONG"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "MARCONS GROUP"
+    ],
+    "BROKER": [
+      "Marcons Shipmanagement Pvt. Ltd.",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "21NOV",
+      "21 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "64K"
+    ],
+    "CONTACT": [
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com",
+      "bulk@marconsgroup.com",
+      "momin2905@rediffmail.com",
+      "harshhjjaiwal45@outlook.com",
+      "shipbroker1999@gmail.com",
+      "kd412830@gmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

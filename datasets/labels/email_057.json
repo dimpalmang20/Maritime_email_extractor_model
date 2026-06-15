@@ -1,0 +1,26 @@
+{
+  "email_id": 57,
+  "email_type": "open_vessel",
+  "vessel_name": "GLOBAL CROWN",
+  "dwt": 38145,
+  "flag": "Liberia",
+  "built_year": 2012,
+  "builder": "STX Korea",
+  "vessel_type": "SDBC Semi Box",
+  "open_port": "Ho Chi Minh",
+  "open_country": "Vietnam",
+  "open_date": "2025-11-20",
+  "business_type": "Spot/TCT",
+  "draft_m": 10.35,
+  "loa_m": 189,
+  "beam_m": 30,
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 49213.3,
+  "bale_capacity_cbm": 47629.8,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+  "status": "Open"
+}

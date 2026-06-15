@@ -1,0 +1,51 @@
+{
+  "email_id": 250,
+  "email_type": "tonnage",
+  "source": "Rieck + Petersen",
+  "vessels": [
+    {
+      "vessel_name": "DEVBULK DEMET",
+      "imo": "9625592",
+      "open_position": "Maracaibo Bay",
+      "open_date": "2025-11-18",
+      "alternate_position": "US Gulf 2025-11-24",
+      "built_year": 2012,
+      "builder": "Tsuji Heavy Industries",
+      "flag": "Marshall Islands",
+      "class": "ABS",
+      "pni": "UK Club",
+      "dwt_mt": 31018,
+      "draft_m": 10.02,
+      "tpc": 43.7,
+      "loa_m": 178.7,
+      "beam_m": 28.0,
+      "depth_m": 14.0,
+      "lbp_m": 170.0,
+      "gt": 19999,
+      "nt": 10792,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30 MT",
+      "grabs": "2x12 CBM",
+      "features": [
+        "BWTS",
+        "A60",
+        "CO2",
+        "AHL Fitted",
+        "ITF Fitted"
+      ],
+      "last_cargoes": [
+        "Grains",
+        "Ammonium Nitrate",
+        "Urea",
+        "Wood Pellets",
+        "NPK",
+        "Alumina"
+      ],
+      "bunkers_on_board": {
+        "vlsfo_mt": 350,
+        "lsmgo_mt": 160
+      }
+    }
+  ]
+}

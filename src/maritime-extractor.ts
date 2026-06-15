@@ -1,6 +1,7 @@
 // Maritime Email Extraction Engine — Enterprise Grade v2.0
 // Rule-Based + Heuristic NLP | Dynamic Schema | Multi-Order | High Accuracy
-
+import { runMLModel }
+from "./ml/mlConnector.js";
 export type EmailType = "VC" | "TC" | "Tonnage" | "Mixed" | "Unknown";
 export type Pipeline = "rule-based" | "template" | "llm-fallback";
 export type EntryType = "VC" | "TC" | "Tonnage";
@@ -44,6 +45,8 @@ export interface ExtractedFields {
   built_year?: string | null;
   flag?: string | null;
   hire_rate?: string | null;
+  latitude?: string | null;
+  longitude?: string | null;
 }
 
 export interface ExtractedEntry {
@@ -1019,22 +1022,73 @@ function extractCargoName(segment: string): string | null {
 }
 
 function parseDuration(text: string): string | null {
-  const rangeMatch = text.match(/(?:ABT\s+)?(\d+)\s*(?:TO|[-–])\s*(\d+)\s*(DAYS?|MONTHS?|YEARS?|YRS?|MOS?)?/i);
+  const wogMatch =
+    text.match(
+        /ABT\s+(\d+)\s+(?:DAYS?|DYS?)\s+WOG/i
+    );
+
+if (wogMatch) {
+    return `${wogMatch[1]} days`;
+}
+
+const mosMatch =
+    text.match(
+        /UPTO\s+(\d+)\s*\/\s*(\d+)\s+MOS?/i
+    );
+
+if (mosMatch) {
+    return `${mosMatch[1]}/${mosMatch[2]} months`;
+}
+  const uptoMatch =
+    text.match(
+      /UPTO\s+(\d+)\s*\/\s*(\d+)\s*(MOS?|MONTHS?)/i
+    );
+
+  if (uptoMatch) {
+    return `${uptoMatch[1]}/${uptoMatch[2]} MOS`;
+  }
+
+  const rangeMatch = text.match(
+    /(?:ABT\s+)?(\d+)\s*(?:TO|[-–])\s*(\d+)\s*(DAYS?|MONTHS?|YEARS?|YRS?|MOS?)?/i
+  );
+
   if (rangeMatch) {
+
     const [, min, max, unit = "DAYS"] = rangeMatch;
+
     const u = unit.toUpperCase();
-    const unitStr = u.startsWith("MONTH") || u.startsWith("MO") ? "months" :
-      u.startsWith("YEAR") || u.startsWith("YR") ? "years" : "days";
+
+    const unitStr =
+      u.startsWith("MONTH") || u.startsWith("MO")
+      ? "months"
+      : u.startsWith("YEAR") || u.startsWith("YR")
+      ? "years"
+      : "days";
+
     return `${min}-${max} ${unitStr}`;
   }
-  const singleMatch = text.match(/(?:ABT\s+)?(\d+)\s*(DAYS?|MONTHS?|YEARS?|YRS?|MOS?)/i);
+
+  const singleMatch =
+    text.match(
+      /(?:ABT\s+)?(\d+)\s*(DAYS?|MONTHS?|YEARS?|YRS?|MOS?)/i
+    );
+
   if (singleMatch) {
+
     const [, val, unit] = singleMatch;
+
     const u = unit.toUpperCase();
-    const unitStr = u.startsWith("MONTH") || u.startsWith("MO") ? "months" :
-      u.startsWith("YEAR") || u.startsWith("YR") ? "years" : "days";
+
+    const unitStr =
+      u.startsWith("MONTH") || u.startsWith("MO")
+      ? "months"
+      : u.startsWith("YEAR") || u.startsWith("YR")
+      ? "years"
+      : "days";
+
     return `${val} ${unitStr}`;
   }
+
   return null;
 }
 
@@ -1191,9 +1245,21 @@ function startsNewBlock(line: string): boolean {
   if (t.length < 5) return false;
 
   // Numbered bullets: "1." "1)" "A." "A)"
-  if (/^(?:\d+|[A-Z])[).\-]\s+/.test(t)) {
-    return /(?:MV|M\/V|OPEN|DWT|TCT|VC|TC|CARGO|LAYCAN|LC\b|ACCT|ACCOUNT|\d{2,3}\s*K\b|\d{4,6}\s*MT|VOYAGE|CHARTER)/.test(t);
-  }
+  if (/^\d+\.\s+/.test(t)) {
+    return true;
+}
+
+if (/^\d+\)\s+/.test(t)) {
+    return true;
+}
+
+if (/^[A-Z]\.\s+/.test(t)) {
+    return true;
+}
+
+if (/^[A-Z]\)\s+/.test(t)) {
+    return true;
+}
 
   // ACCT line (TC circular)
   if (/^ACCT\s+/.test(t)) return true;
@@ -1320,11 +1386,25 @@ function detectSegmentType(segment: string): EntryType | null {
   // Also detect commodity+quantity patterns (broker shorthand: "15,000 mt urea")
   const BULK_COMMODITY_PATTERN = /\b(?:UREA|FERTS?|FERTILIZ|FERTILISERS?|COAL|CLINKER|SLAG|MAIZE|CORN|WHEAT|BARLEY|RICE|PETCOKE|LIMESTONE|BAUXITE|SOYA|SOYBEAN|GRAIN|SUGAR|SULPHUR|POTASH|PHOSPHATE|GYPSUM|DAP|MOP|NPK|SALT)\b/i;
   const hasVCSignals =
-    /(?:LP|LOADING\s*PORT?|POL|POD|DISCHARGE\s*PORT)\s*[:\s]+|VOYAGE\s*CHARTER|LOAD\s*RATE|DISRATE|DISCHARGING\s*RATE|\b\d{4,6}\s*MT\b|\bMTS\b|\bIN\s+BULK\b|\bSF\s*\d/.test(upper) ||
-    /\b\d{1,3}[,]\d{3}\s*MT\b/.test(upper) ||
-    /\b\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+?\s*\/\s*\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+/.test(compact) ||
-    // Commodity + quantity pattern: recognized bulk commodity with MT quantity → VC
-    (BULK_COMMODITY_PATTERN.test(upper) && /\b\d{4,6}\s*(?:MT|MTS|MTONS)\b|\b\d{1,3}[,.-]\d{3}\s*(?:MT|MTS)\b/.test(upper));
+  /(?:LP|LOADING\s*PORT?|POL|POD|DISCHARGE\s*PORT)\s*[:\s]+|VOYAGE\s*CHARTER|LOAD\s*RATE|DISRATE|DISCHARGING\s*RATE|\b\d{4,6}\s*MT\b|\bMTS\b|\bIN\s+BULK\b|\b\d+(?:\.\d+)?K\b|\b\d+(?:\.\d+)?\s*-\s*\d+(?:\.\d+)?K\b|\bSF\s*\d/i.test(upper)
+  ||
+  /\b\d{1,3}[,]\d{3}\s*MT\b/.test(upper)
+  ||
+  /\b\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+?\s*\/\s*\d+\s*(?:SP|P)?\s+[A-Z][A-Z0-9 .'-]+/.test(compact)
+  ||
+  (
+    BULK_COMMODITY_PATTERN.test(upper)
+    &&
+    (
+      /\b\d{4,6}\s*(?:MT|MTS|MTONS)\b/i.test(upper)
+      ||
+      /\b\d{1,3}[,.-]\d{3}\s*(?:MT|MTS)\b/i.test(upper)
+      ||
+      /\b\d+(?:\.\d+)?K\b/i.test(upper)
+      ||
+      /\b\d+(?:\.\d+)?\s*-\s*\d+(?:\.\d+)?K\b/i.test(upper)
+    )
+  );
 
   const hasTonnageSignals =
     /\bM[TV]\/?\s*[A-Z][A-Z0-9\s.'-]+/.test(upper) && /\b(?:OPEN|DWT|IMO|BUILT|BLT|BULK\s*CARRIER|WILL\s*OPEN)\b/.test(upper) ||
@@ -1339,8 +1419,13 @@ function detectSegmentType(segment: string): EntryType | null {
   // Fallback heuristics
   if (/CARGO\s*[:\s]/i.test(segment) && /QUANTITY\s*[:\s]/i.test(segment)) return "VC";
   if (/CARGO\s*[:\s]/i.test(segment) && /DELY?\s*[:\s*]+/i.test(segment)) return "TC";
-  if (parseQuantity(segment).min && resolveRegion(segment)) return "VC";
-
+  if (
+  parseQuantity(segment).min ||
+  /\b\d+(?:\.\d+)?K\b/i.test(segment) ||
+  /\b\d+(?:\.\d+)?\s*-\s*\d+(?:\.\d+)?K\b/i.test(segment)
+) {
+  return "VC";
+}
   return null;
 }
 
@@ -1417,11 +1502,15 @@ function extractTCEntry(segment: string, signature: ReturnType<typeof extractSig
     segment.match(/\bLC\s+([^\n]+)/i);
   const delMatch = segment.match(PATTERNS.delivery);
   const redelMatch = segment.match(PATTERNS.redelivery);
-  const durationMatch = segment.match(/DURATION[:\s*]+([^\n*]+)/i);
-
+  const durationMatch =
+    segment.match(/DURATION[:\s*]+([^\n*]+)/i)
+    ||
+    segment.match(/ABT\s+\d+\s+(?:DAYS?|DYS?)\s+WOG/i)
+    ||
+    segment.match(/UPTO\s+\d+\s*\/\s*\d+\s+MOS?/i);
   const laycanText = laycanMatch ? laycanMatch[1] : segment;
   const { start, end } = parseLaycan(laycanText);
-  const duration = durationMatch ? parseDuration(durationMatch[1]) : null;
+  const duration = durationMatch ? parseDuration(durationMatch[0]) : null;
 
   const rawCargo = cargoMatch ? cargoMatch[1].trim().split("\n")[0].trim() : null;
   const cargo = extractCargoName(segment) ?? (rawCargo && isValidCargo(rawCargo) ? normalizeCargo(rawCargo) : null);
@@ -1760,31 +1849,226 @@ export function validateEnterpriseEntry(entry: EnterpriseEntry): EnterpriseEntry
 }
 
 // ─── Main Extraction Functions ────────────────────────────────────────────────
+function mergeML(
+    fields: any,
+    ml: any
+) {
+
+    if (!ml) {
+        return fields;
+    }
+
+    if (!fields.cargo_name && ml.CARGO)
+        fields.cargo_name = ml.CARGO;
+
+    if (!fields.account_name && ml.CHARTERER)
+        fields.account_name = ml.CHARTERER;
+
+    if (
+    !fields.laycan_start_date &&
+    ml.LAYCAN &&
+    /\d/.test(ml.LAYCAN)
+) {
+    fields.laycan_start_date = ml.LAYCAN;
+}
+
+if (
+    !fields.laycan_end_date &&
+    ml.LAYCAN &&
+    /\d/.test(ml.LAYCAN)
+) {
+    fields.laycan_end_date = ml.LAYCAN;
+}
+
+   if (
+    fields.email_type === "VC" &&
+    !fields.load_port &&
+    ml.LOAD_PORT &&
+    ml.LOAD_PORT !== "/"
+) {
+    fields.load_port = ml.LOAD_PORT;
+}
+
+    if (
+    !fields.port &&
+    ml.PORT &&
+    fields.email_type === "Tonnage"
+) {
+    fields.port = ml.PORT;
+}
+
+    if (
+    fields.email_type === "VC" &&
+    !fields.discharge_port &&
+    ml.DISCHARGE_PORT &&
+    ml.DISCHARGE_PORT !== "/"
+) {
+    fields.discharge_port = ml.DISCHARGE_PORT;
+}
+    if (
+    !fields.del_port &&
+    ml.LOAD_PORT &&
+    fields.email_type === "VC"
+) {
+    fields.del_port = ml.LOAD_PORT;
+}
+
+    if (
+        !fields.redel_port &&
+        fields.email_type === "VC" &&
+        ml.DISCHARGE_PORT
+    ) {
+        fields.redel_port = ml.DISCHARGE_PORT;
+}
+
+    if (!fields.email_id && ml.CONTACT)
+        fields.email_id = ml.CONTACT;
+
+    if (!fields.pic && ml.CONTACT)
+        fields.pic = ml.CONTACT;
+
+    if (!fields.tonnage_name && ml.VESSEL)
+        fields.tonnage_name = ml.VESSEL;
+
+    if (!fields.tonnage_type && ml.VESSEL_TYPE)
+        fields.tonnage_type = ml.VESSEL_TYPE;
+
+    if (!fields.vessel_type && ml.VESSEL_TYPE)
+        fields.vessel_type = ml.VESSEL_TYPE;
+
+    if (!fields.open_date && ml.ETA)
+        fields.open_date = ml.ETA;
+
+   
+
+    if (!fields.dwt && ml.DWT)
+        fields.dwt = ml.DWT;
+
+    if (!fields.imo && ml.IMO)
+        fields.imo = ml.IMO;
+
+    return fields;
+}
+
+
+function sanitizeEmail(text: string): string {
+
+    return text
+        .replace(/\uFFFD/g, " ")
+        .replace(/[“”]/g, "\"")
+        .replace(/[‘’]/g, "'")
+        .replace(/[–—]/g, "-")
+        .replace(/\u0000/g, " ")
+        .trim();
+}
 
 export function extractMaritimeEmail(emailText: string): ExtractionResult {
+  
   const start = Date.now();
-  const preprocessed = preprocessEmail(emailText);
+  console.log("INSIDE EXTRACT MARITIME EMAIL");
+  
+  const preprocessed =
+      sanitizeEmail(
+          preprocessEmail(emailText)
+      );
+  console.log("STEP 1");
+
+console.log("ABOUT TO CALL ML");
+
+let mlResult: any = {};
+
+try {
+
+    mlResult =
+    runMLModel(preprocessed);
+
+    console.log("ML CALL FINISHED");
+
+    console.log("RAW ML RESULT:");
+    console.log(mlResult);
+
+    if (
+        mlResult &&
+        mlResult.PURE_ML_OUTPUT
+    ) {
+        mlResult =
+        mlResult.PURE_ML_OUTPUT;
+    }
+
+    console.log("EXTRACTED ML ENTITIES:");
+    console.log(mlResult);
+
+}
+
+  catch (err) {
+    console.error(
+        "ML failed:",
+        err
+    );
+
+    mlResult = {};
+  }
   const signature = extractSignature(preprocessed);
   const segments = segmentEmail(preprocessed);
+  console.log("STEP 2");
+  console.log("SEGMENT COUNT:", segments.length);
+
+segments.forEach((s, i) => {
+    console.log("\nSEGMENT", i + 1);
+    console.log(s.substring(0, 250));
+});
   const entries: ExtractedEntry[] = [];
   const typesFound = new Set<EntryType>();
   const template = detectTemplate(preprocessed);
+  console.log("STEP 3");
   const pipeline: Pipeline = template.name ? "template" : "rule-based";
 
   for (const segment of segments) {
+    console.log("PROCESSING SEGMENT");
     const segType = detectSegmentType(segment);
     if (!segType) continue;
 
     let entry: ExtractedEntry;
     if (segType === "VC") entry = extractVCEntry(segment, signature);
     else if (segType === "TC") entry = extractTCEntry(segment, signature);
+    
     else entry = extractTonnageEntry(segment, signature);
+    console.log(
+    "\n========== PURE REGEX =========="
+    );
+
+    console.log(
+   JSON.stringify(
+      entry.fields,
+      null,
+      2
+   )
+);
+    entry.fields =
+    mergeML(
+        entry.fields,
+        mlResult
+    );
+
+     console.log(
+    "\n========== AFTER MERGE =========="
+);
+
+console.log(
+    JSON.stringify(
+        entry.fields,
+        null,
+        2
+    )
+);
 
     if (template.boost > 0) {
       entry = { ...entry, confidence: Math.min(0.98, entry.confidence + template.boost), extractionMethod: pipeline };
     }
     entries.push(entry);
-    typesFound.add(segType);
+    if (segType) {
+   typesFound.add(segType);
+    }
   }
 
   // Fallback: treat entire email as one block
@@ -1795,8 +2079,40 @@ export function extractMaritimeEmail(emailText: string): ExtractionResult {
       if (fallbackType === "VC") entry = extractVCEntry(preprocessed, signature);
       else if (fallbackType === "TC") entry = extractTCEntry(preprocessed, signature);
       else entry = extractTonnageEntry(preprocessed, signature);
+      console.log(
+   "\n========== FALLBACK PURE REGEX =========="
+);
+
+console.log(
+   JSON.stringify(
+      entry.fields,
+      null,
+      2
+   )
+);
+
+entry.fields =
+mergeML(
+   entry.fields,
+   mlResult
+);
+
+console.log(
+   "\n========== FALLBACK AFTER MERGE =========="
+);
+
+console.log(
+   JSON.stringify(
+      entry.fields,
+      null,
+      2
+   )
+);
+
       entries.push(entry);
-      typesFound.add(fallbackType);
+     if (fallbackType) {
+   typesFound.add(fallbackType);
+    }
     }
   }
 
@@ -1824,3 +2140,6 @@ export function extractToEnterpriseJSON(emailText: string): EnterpriseEntry[] {
     .map(toEnterpriseEntry)
     .map(validateEnterpriseEntry);
 }
+
+
+

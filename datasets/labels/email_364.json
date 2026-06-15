@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "52113",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2025-11-26",
+    "laycan_end": "2025-11-29",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.65
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ABT 35 MT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52113",
+    "built_year": "2010",
+    "flag": "MALTA",
+    "imo": "",
+    "grt": "",
+    "nrt": "30092",
+    "loa": "189.9m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

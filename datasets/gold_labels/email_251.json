@@ -1,0 +1,55 @@
+{
+  "email_type": "Market Report",
+  "text": "From: Nautical Supply International (NSI) DMCC <carolina@nauticalsupply.co.uk>\nSent: 14 November 2025 17:19\nTo: Deepesh Majigamkar <chartering@varitasnavigation.com>\nSubject: NSI Daily Market Report 14/11/2025\nOil prices had experienced a sharp 4% slide on Tuesday...\nRussian flagship crude Urals was priced $19.40 per barrel below Brent on a free-on-board (FOB) basis at the Russian Baltic Sea port of Primorsk and at the port of Novorossiysk on the Black Sea",
+  "entities": {
+    "VESSEL": null,
+    "VESSEL_TYPE": null,
+    "DWT": null,
+    "IMO": null,
+    "CARGO": [
+      "Crude Oil",
+      "Urals",
+      "Diesel",
+      "Jet Fuel"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "Novorossiysk",
+      "Primorsk"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Nautical Supply International (NSI) DMCC"
+    ],
+    "LAYCAN": null,
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "carolina@nauticalsupply.co.uk"
+    ],
+    "RESTRICTIONS": [
+      "Sanctions restricting Russia oil flows"
+    ],
+    "tonnage_type": null,
+    "region": [
+      "Black Sea",
+      "Baltic Sea"
+    ],
+    "matching_region": null,
+    "open_date": null,
+    "close_date": null,
+    "tonnage_name": null,
+    "pic": null,
+    "email_id": [
+      "carolina@nauticalsupply.co.uk"
+    ],
+    "phone_number": null,
+    "latitude": null,
+    "longitude": null
+  }
+}

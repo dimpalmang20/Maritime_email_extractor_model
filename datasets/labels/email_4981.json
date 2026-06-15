@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ALJABRIYA OPEN SPOT ODESSA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "16732",
+    "built_year": "",
+    "flag": "",
+    "imo": "9255256",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SPOT",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

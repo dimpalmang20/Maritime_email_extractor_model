@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLT 2006 FLAG PANAMA CLASS NK",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "17300",
+    "built_year": "2006",
+    "flag": "PANAMA CLASS NK",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "VUNG",
+    "open_date": "2026-02-23",
+    "close_date": "2026-02-28",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO CHARTERING AGENCY SERVICES"
+    ],
+    "confidence_score": 0.92
+  }
+]

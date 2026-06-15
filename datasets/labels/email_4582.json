@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56800",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "TARRAGONA",
+    "open_date": "2027-04-08",
+    "close_date": "2027-04-13",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [
+      "excl Supra\n\nMv Helena K",
+      "NO UKR",
+      "NO GOA\n\nMV HELENA K"
+    ],
+    "confidence_score": 0.72
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TTS-IHI CRANES.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56829",
+    "built_year": "",
+    "flag": "",
+    "imo": "9497854",
+    "grt": "33044",
+    "nrt": "19231",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

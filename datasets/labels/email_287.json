@@ -1,0 +1,17 @@
+{
+  "email_id": 287,
+  "email_type": "market_report",
+  "report_name": "Dry Bulk Fixture Report and Baltic Dry Indices",
+  "report_date": "14 Nov 2025",
+  "sections": [
+    "Time Charter",
+    "Period",
+    "Voyages",
+    "Capesize",
+    "Panamax",
+    "Supramax",
+    "Handysize"
+  ],
+  "broker": "Reshamwala Shipbrokers",
+  "status": "market_information"
+}

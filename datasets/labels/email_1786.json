@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "10800",
+    "quantity_unit": "MT",
+    "load_port": "Durban, South Africa",
+    "discharge_port": "KHALIFA",
+    "laycan_start": "2025-12-05",
+    "laycan_end": "2025-12-15",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.50%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

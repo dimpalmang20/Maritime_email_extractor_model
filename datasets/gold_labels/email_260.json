@@ -1,0 +1,84 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: Indus Bulk <farhan@indus-bulk.com> \nSent: 14 November 2025 15:30\nTo: Indus Bulk <chartering@indus-bulk.com>\nSubject: MV F-LINE OPEN DAKAR, IVORY COAST - 20-30 DECEMBER 2025\n \n-/Farhan\n \nPLEASE PROPOSE FOR FOLLOWING TONNAGE\n\nMV F-LINE - OPEN DAKAR, IVORY COAST - 20-30 DECEMBER 2025 \n \nETA CASABLANCA / JORF LASFAR RNG 25 DEC /5TH JANUARY 2026\nETA BALTICS RNG 5/15TH JANUARY 2026\nETA ITAGUAI / MACEIO / REFICE RNG 27 DEC /7TH JANUARY 2026\nETA PARANAGUA/ SANTOS RNG 2ND /12TH JANUARY 2026\nETA UPRIVER - RECALADA RNG 5TH /15TH JANUARY 2026\n \nVOYAGE SEEKER\nPREFER DIRECTION ECSA / BALTIC SEA - RUSSIA OK\n \nMV F LINE\nDWAT: 32,106 MTS ON DRAFT 10.14 M\nBLT: 2007 / SDBC / DOUBLE SKIN - BOX\nFLAG: BARBADOS / CLASS: DNV (IACS)\nL.O.A.: 178.70 M , L.B.P.: 170.87 M\nBEAM: 28.06 M, MOULDED DEPTH 14.00 M,\nGRAIN / BALE: 1.446.987 CBFT / 1.398.042 CBFT\n \n5HO/5HA GRAIN / BALE\nHOLD NO 1: 6.064,4 CBM / 5.768,9 CBM\nHOLD NO 2: 8.665,9 CBM / 8.401,8 CBM\nHOLD NO 3: 9.189,7 CBM / 8.878,9 CBM\nHOLD NO 4: 8.944,1 CBM / 8.654,9 CBM\nHOLD NO 5: 8.110,8 CBM / 7.884,4 CBM\nTOTAL: 40.974,9 CBM / 39.588,9 CBM\n \nCAPACITY OF CRANES: 4 X 30.0 MTS SWL\nGRAIN FITTED: YES\nCO2 FITTED: YES\nAUSTRALIAN HOLD LADDERS FITTED: YES\nCONTAINER FITTED: NO\nHATCH COVERS FITTED WITH CEMENT HOLES: YES HATCH COVERS: HYDRAULICALLY\nOPERATED, TANKTOP STRENGTH: 20 MT/M2\nT.P.C.: 43.5 MTS\nADA WOG\n \nL3C:  WHEAT -  WHEAT -  WHEAT\nBest Regards \nFarhan Ali \nIndus Bulk Shipping\nEmail    :  chartering@indus-bulk.com\nTeams   :  drybulkchartering@hotmail.com\nMobile   : +923312861296\nWeb:  www.indusbulk.com",
+  "entities": {
+    "VESSEL": [
+      "F-LINE",
+      "F LINE"
+    ],
+    "VESSEL_TYPE": [
+      "SDBC",
+      "DOUBLE SKIN - BOX"
+    ],
+    "DWT": [
+      "32,106 MTS"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "WHEAT"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "DAKAR",
+      "IVORY COAST",
+      "CASABLANCA",
+      "JORF LASFAR",
+      "BALTICS",
+      "ITAGUAI",
+      "MACEIO",
+      "REFICE",
+      "PARANAGUA",
+      "SANTOS",
+      "UPRIVER",
+      "RECALADA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": [
+      "25 DEC /5TH JANUARY 2026",
+      "5/15TH JANUARY 2026",
+      "27 DEC /7TH JANUARY 2026",
+      "2ND /12TH JANUARY 2026",
+      "5TH /15TH JANUARY 2026"
+    ],
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Indus Bulk Shipping"
+    ],
+    "LAYCAN": [
+      "20-30 DECEMBER 2025"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "32,106 MTS"
+    ],
+    "CONTACT": [
+      "chartering@indus-bulk.com",
+      "drybulkchartering@hotmail.com",
+      "+923312861296"
+    ],
+    "RESTRICTIONS": [
+      "CRANES 4 X 30.0 MTS",
+      "GRAIN FITTED",
+      "CO2 FITTED",
+      "AUSTRALIAN HOLD LADDERS FITTED",
+      "CONTAINER FITTED: NO",
+      "PREFER DIRECTION ECSA / BALTIC SEA"
+    ],
+    "tonnage_type": "SDBC",
+    "port": "DAKAR",
+    "region": "IVORY COAST",
+    "matching_region": "WAF",
+    "open_date": "2025-12-20",
+    "close_date": "2025-12-30",
+    "dwt": "32,106 MTS",
+    "tonnage_name": "F-LINE",
+    "pic": "Farhan Ali",
+    "email_id": "chartering@indus-bulk.com",
+    "phone_number": "+923312861296",
+    "latitude": null,
+    "longitude": null
+  }
+}

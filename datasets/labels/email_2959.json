@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SN OPAL",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "31000",
+    "built_year": "2008",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "19808",
+    "loa": "171.6m",
+    "beam": "27m",
+    "grain_capacity": "",
+    "open_port": "MACKAY,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

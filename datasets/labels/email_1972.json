@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CALOBRA",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Iskenderun, Turkey",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.65
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 9.955M SW - GT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "34427",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "23857",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "SEAS",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.8
+  }
+]

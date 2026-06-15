@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AFRICAN CRATE - HDY - OPEN PORT HARCOURT - 06TH DEC 2025",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "PORT",
+    "open_date": "2025-12-06",
+    "close_date": "2025-12-11",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AFRICAN CRATE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2014",
+    "flag": "",
+    "imo": "",
+    "grt": "12538",
+    "nrt": "",
+    "loa": "",
+    "beam": "179.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.66
+  }
+]

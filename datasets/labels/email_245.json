@@ -1,0 +1,19 @@
+{
+  "email_id": 245,
+  "email_type": "cargo_requirement",
+  "source": "Interbulk",
+  "account": "Mohar Shipping Corp Pte Ltd",
+  "contract_type": "TCT",
+  "cargo": "Clinker in Bulk",
+  "vessel_requirements": {
+    "dwt_range": "50000-57000",
+    "cranes": "4x30 MT",
+    "max_loa_m": 190
+  },
+  "delivery_area": "ECI / Singapore / SE Asia Range",
+  "load_port": "Tuban, Indonesia",
+  "redelivery_port": "Trincomalee, Sri Lanka",
+  "laycan": "2025-11-29/2025-12-04",
+  "duration_days": "20-25",
+  "commission": "3.75% Addcom + 1.25% Interbulk"
+}

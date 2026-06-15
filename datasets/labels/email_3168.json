@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "X 24 M",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "29000",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "170.7m",
+    "grain_capacity": "",
+    "open_port": "KUCHING",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Ukraine",
+    "restrictions": [
+      "NO RUSSIA"
+    ],
+    "confidence_score": 0.79
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SWIRE BULK",
+    "cargo": "SWIRE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "64000",
+    "del_port": "CAMPHA, VIETNAM",
+    "redel_port": "PERIOD",
+    "laycan_start": "2026-01-27",
+    "laycan_end": "2026-01-31",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO BULK SUGAR IN THE LAST THREE (3) CARGOES"
+    ],
+    "confidence_score": 0.98
+  }
+]

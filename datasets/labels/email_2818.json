@@ -1,0 +1,56 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "CHINALAND TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "TO MAKE CJK, CHINA",
+    "redel_port": "US GULF",
+    "laycan_start": "2027-01-08",
+    "laycan_end": "2027-01-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [
+      "NO NEED 225",
+      "NO NEED GOA"
+    ],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "CHINALAND",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "TO MAKE SOUTH KALI",
+    "redel_port": "SEA INTN S.VIETNAM",
+    "laycan_start": "2027-01-10",
+    "laycan_end": "2027-01-15",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.97
+  },
+  {
+    "email_type": "TC",
+    "account_name": "CHINALAND",
+    "cargo": "MAKE SUMATRA INTN MEULABOH ONE TCT WITH",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "TO MAKE SUMATRA INTN MEULABOH",
+    "redel_port": "",
+    "laycan_start": "2027-01-11",
+    "laycan_end": "2027-01-16",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

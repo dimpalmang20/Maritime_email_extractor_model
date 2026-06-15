@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "© 2026 LinkedIn Corporation, 1‌000 West Maude Avenue, Sunnyvale, CA 94085. LinkedIn / the LinkedIn logo are registered trademarks of LinkedIn.",
+    "discharge_port": "",
+    "laycan_start": "2026-01-03",
+    "laycan_end": "2026-01-08",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  }
+]

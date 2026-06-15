@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "HANARO",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "N.PRC",
+    "redel_port": "",
+    "laycan_start": "2026-05-09",
+    "laycan_end": "2026-05-14",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

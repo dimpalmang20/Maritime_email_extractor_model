@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "15000",
+    "quantity_unit": "MT",
+    "load_port": "YAMBU",
+    "discharge_port": "Jeddah, Saudi Arabia",
+    "laycan_start": "2027-04-26",
+    "laycan_end": "2027-05-01",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "5%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

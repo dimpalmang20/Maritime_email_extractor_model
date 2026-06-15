@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DAVA - 14",
+    "cargo": "DAYS WITH HARMLESS",
+    "cargo_type": "Dry Bulk",
+    "dwt": "30000",
+    "del_port": "TO MAKE DURBAN",
+    "redel_port": "PG (EXCL I/I)",
+    "laycan_start": "2026-12-22",
+    "laycan_end": "2026-12-27",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [
+      "EXCL I/I)"
+    ],
+    "confidence_score": 0.98
+  }
+]

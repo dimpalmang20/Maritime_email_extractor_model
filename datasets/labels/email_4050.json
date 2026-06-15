@@ -1,0 +1,53 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "SW PASS-HOUSTON RGE",
+    "redel_port": "",
+    "laycan_start": "2026-02-08",
+    "laycan_end": "2026-02-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "US Gulf Coast",
+    "restrictions": [],
+    "confidence_score": 0.89
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "ORE/BAUXITE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-79999",
+    "del_port": "WAFR INT ABIDJAN-SAN PEDRO RGE",
+    "redel_port": "SGP-JPN RGE",
+    "laycan_start": "2026-02-07",
+    "laycan_end": "2026-02-12",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LIMITED",
+    "cargo": "INT IRON ORE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-79999",
+    "del_port": "MOROCCO INT NADOR",
+    "redel_port": "SGP-JPN RGE",
+    "laycan_start": "2026-02-10",
+    "laycan_end": "2026-02-15",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

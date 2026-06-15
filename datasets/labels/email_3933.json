@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "PWWD",
+    "cargo_type": "Dry Bulk",
+    "quantity": "6665",
+    "quantity_unit": "MT",
+    "load_port": "MESAIEED , QATAR",
+    "discharge_port": "POLI , TURKEY",
+    "laycan_start": "2026-01-26",
+    "laycan_end": "2026-01-28",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "1.25%",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Amadora",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Damietta",
+    "open_date": "2026-12-04",
+    "close_date": "2026-12-09",
+    "matching_region": "",
+    "restrictions": [
+      "no Shipbrokers Co",
+      "NO SHIPBROKERS CO"
+    ],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 13.50 M 61.05 MT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2025",
+    "flag": "LIBERIAN",
+    "imo": "1041441",
+    "grt": "",
+    "nrt": "3617200",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Russia",
+    "restrictions": [
+      "NO SWELL NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.77
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "PWWD",
+    "cargo_type": "Dry Bulk",
+    "quantity": "40000-60000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "BANDAR IMAM KHOMEINI , IRAN AIS ON",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Ukraine",
+    "restrictions": [],
+    "confidence_score": 0.81
+  }
+]

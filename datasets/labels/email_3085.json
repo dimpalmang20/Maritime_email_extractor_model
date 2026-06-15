@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ZOITSA SIGALA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "2014",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Bahodopi, Indonesia",
+    "open_date": "2026-01-11",
+    "close_date": "2026-01-18",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.9
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ZOITSA SIGALA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2014",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "21224",
+    "nrt": "29651",
+    "loa": "",
+    "beam": "199.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO GRAIN BALE\n\nTOTAL"
+    ],
+    "confidence_score": 0.64
+  }
+]

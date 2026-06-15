@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PANOCEAN REQUIREMENT",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "PG - WCI",
+    "redel_port": "",
+    "laycan_start": "2026-12-01",
+    "laycan_end": "2026-12-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [
+      "NO DETENTION 3 YEARS, RS 3, MAX 15 YEARS)"
+    ],
+    "confidence_score": 0.84
+  }
+]

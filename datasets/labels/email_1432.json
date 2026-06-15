@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Voyage",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52491",
+    "built_year": "2004",
+    "flag": "Bangladesh",
+    "imo": "",
+    "grt": "18207",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "677563",
+    "open_port": "CHITTAGONG,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "No loading on Hatch Cover"
+    ],
+    "confidence_score": 0.91
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "Korea Shipping Corporation",
+    "cargo": "Coal",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "PHILIPPINES(INTENTION NAGA PORT)",
+    "redel_port": "PHILIPPINES(INTENTION NAGA PORT)",
+    "laycan_start": "2027-04-05",
+    "laycan_end": "2027-04-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Philippines",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "EX. DD (LAST)",
+    "cargo_type": "Dry Bulk",
+    "quantity": "800-850",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.68
+  }
+]

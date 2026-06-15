@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Container Ship",
+    "dwt": "12510",
+    "built_year": "2011",
+    "flag": "PANAMA",
+    "imo": "9377353",
+    "grt": "6778",
+    "nrt": "",
+    "loa": "126m",
+    "beam": "18.2m",
+    "grain_capacity": "",
+    "open_port": "EAST",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "No Bow thruster\n\nCARGOHOLD\n\nCAPACITY",
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.88
+  }
+]

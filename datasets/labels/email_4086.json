@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "OF CLINKER",
+    "cargo_type": "Dry Bulk",
+    "quantity": "25000-29000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2026-01-25",
+    "laycan_end": "2026-01-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.83
+  }
+]

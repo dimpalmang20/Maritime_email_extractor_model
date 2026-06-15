@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OCEAN GLORY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "48437",
+    "built_year": "2001",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [
+      "NO INDIA",
+      "NO INDIA",
+      "NO GRABS"
+    ],
+    "confidence_score": 0.84
+  }
+]

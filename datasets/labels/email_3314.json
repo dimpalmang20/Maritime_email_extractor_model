@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ELIZABETH M II OPEN KAKINADA SPOT",
+    "vessel_type": "Ultramax Bulk Carrier",
+    "dwt": "",
+    "built_year": "2020",
+    "flag": "Marshall Islands",
+    "imo": "",
+    "grt": "21700",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "Kakinada, India",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CARPE DIEM - NAMURA 40",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "TAWAU,",
+    "open_date": "2027-01-04",
+    "close_date": "2027-01-08",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CARPE DIEM",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2024",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "182.9m",
+    "beam": "31.6m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

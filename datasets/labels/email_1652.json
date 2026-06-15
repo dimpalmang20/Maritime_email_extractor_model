@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ST MICHAEL -",
+    "vessel_type": "Container Ship",
+    "dwt": "40000",
+    "built_year": "",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "PORT",
+    "open_date": "2025-12-12",
+    "close_date": "2025-12-17",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.9
+  }
+]

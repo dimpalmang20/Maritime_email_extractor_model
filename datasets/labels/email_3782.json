@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HEILAN JOURNEY",
+    "vessel_type": "MR Tanker",
+    "dwt": "56900",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "JEBEL",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO IRAN"
+    ],
+    "confidence_score": 0.84
+  }
+]

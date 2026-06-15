@@ -1,0 +1,22 @@
+{
+  "email_id": 161,
+  "type": "tonnage",
+  "source_email": 161,
+  "vessels": [
+    {
+      "name": "MV APJ PRITI 2",
+      "ex_name": "MV STAR DANAI",
+      "dwt": 82574,
+      "built": 2006,
+      "flag": "Proposed Indian Flag",
+      "class": "BV",
+      "open_position": "Yangjiang, China",
+      "open_date": "2025-11-26/30",
+      "cargo_preference": "Grains",
+      "gear": "Gearless",
+      "scrubber": "Open Loop Scrubber",
+      "holds_hatches": "7/7",
+      "grain_capacity_cbm": 97186.1
+    }
+  ]
+}

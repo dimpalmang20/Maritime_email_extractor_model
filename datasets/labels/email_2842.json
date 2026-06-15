@@ -1,0 +1,67 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DWT ON 10.95M SSW",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "40500",
+    "built_year": "2020",
+    "flag": "HONGKONG",
+    "imo": "",
+    "grt": "25171",
+    "nrt": "",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "SAGANOSEKI,JAPAN",
+    "open_date": "2026-01-11",
+    "close_date": "2026-01-16",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ECONOMIC SPEED",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "34573",
+    "nrt": "20170",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "EXCL FRESH WATER"
+    ],
+    "confidence_score": 0.59
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FW FIRMAMENT",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "39330",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "25175",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no adverse\n\ncurrents"
+    ],
+    "confidence_score": 0.72
+  }
+]

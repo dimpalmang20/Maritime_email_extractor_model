@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "33248",
+    "quantity_unit": "MT",
+    "load_port": "Singapore",
+    "discharge_port": "LSFO",
+    "laycan_start": "2025-12-29",
+    "laycan_end": "2026-01-03",
+    "load_rate": "21192 MT/DAY",
+    "discharge_rate": "11444 MT/DAY",
+    "commission": "",
+    "matching_region": "Singapore",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

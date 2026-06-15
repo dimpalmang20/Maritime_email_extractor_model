@@ -1,0 +1,69 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: Aryacorp Chartering <fix@aryacorp.com> \nSent: 14 November 2025 15:48\nTo: Aryacorp Chartering <fix@aryacorp.com>\nSubject: MV BAM PROTEUS - HDY - OPEN IMMINGHAM, UK 21/25 NOV\n \nFROM: ARYACORP PVT. LTD.\nDATE & TIME: 14-11-2025 15:47:31   (GMT +5:30)\nREFERNCE NO: 20559006 \n \n \nATTN CHARTERING DESK\nDEAR SIR\nGOOD DAY\nDIRECT OWNERS VESSEL\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\n \n/// DO NOT RE-CIRCULATE /// \n \nMV BAM PROTEUS - HDY - OPEN IMMINGHAM, UK 21/25 NOV\n-TRY ANY\n-OPEN HATCH/BOX TYPE\n-AHL / CO2 / ITF FITTED\n-SUPER ECO, GRAIN CLEAN\n \nMV BAM PROTEUS\nOPEN HATCH BOX SHAPED, SINGLE DECKER BULK CARRIER, FUEL EFFICIENT\nIMO NO: 9343625, RINA CLASS\nFLAG: MARSHALL ISLANDS\nBUILT: 2007, KANDA JAPAN\nSDWT ABT 33,471 MTS ON 10.354M TPC 44.28\nWDWT ABT 32,516 MTS ON 10.138M TPC 44.10\nTDWT ABT 34,429 MTS ON 10.570M TPC 44.44     \nLOA/LBP: 177.13/168.50 M\nBEAM : 28.40M\nMOULDED DEPTH: 14.25M\nGRT / NRT : 20,236 / 10,947 \nGRAIN / BALE: 42,576 CBM / 41,103 CBM\n5 HOLDS/HATCHES\nHATCH SIZES: #1 13.6M X 15.8M, #2,3,4 20.8M X 24.0M #5 19.2M X 24.0M\nCARGO GEAR: 4 HYDRAULIC CRANES X 30 TONNES SWL (MAXIMUM OUTREACH, 22 M\nRADIUS)",
+  "entities": {
+    "VESSEL": [
+      "BAM PROTEUS"
+    ],
+    "VESSEL_TYPE": [
+      "OPEN HATCH/BOX TYPE",
+      "SINGLE DECKER BULK CARRIER"
+    ],
+    "DWT": [
+      "33,471 MTS",
+      "32,516 MTS",
+      "34,429 MTS"
+    ],
+    "IMO": [
+      "9343625"
+    ],
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "IMMINGHAM"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "ARYACORP PVT. LTD."
+    ],
+    "LAYCAN": [
+      "21/25 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "33,471 MTS"
+    ],
+    "CONTACT": [
+      "fix@aryacorp.com",
+      "ops@aryacorp.com",
+      "+91 124 469 4875",
+      "+91 98212 30309",
+      "prarya@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "AHL FITTED",
+      "CO2 FITTED",
+      "ITF FITTED",
+      "GRAIN CLEAN",
+      "4 HYDRAULIC CRANES X 30 TONNES SWL"
+    ]
+  },
+  "tonnage_type": "OPEN HATCH BOX SHAPED BULK CARRIER",
+  "port": "IMMINGHAM",
+  "region": "UK",
+  "matching_region": "UK-CONT",
+  "open_date": "2025-11-21",
+  "close_date": "2025-11-25",
+  "dwt": "33,471 MTS",
+  "tonnage_name": "BAM PROTEUS",
+  "pic": "Raj Arya",
+  "email_id": "fix@aryacorp.com",
+  "phone_number": "+911244694875",
+  "latitude": null,
+  "longitude": null
+}

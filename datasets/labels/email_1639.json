@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ALICIA",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Skaw, Denmark",
+    "open_date": "2026-12-06",
+    "close_date": "2026-12-11",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AND MORE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "9663623",
+    "grt": "",
+    "nrt": "3581200",
+    "loa": "199.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "EXCL RUS",
+      "NO SWELL NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.77
+  }
+]

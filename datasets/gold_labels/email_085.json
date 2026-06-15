@@ -1,0 +1,44 @@
+{
+  "text": "Best Regards:\n\nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail: chartering@varitasnavigation.com\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n\nFrom: chart@tns-shipping.com <chart@tns-shipping.com>\nSent: 11 November 2025 16:12\nTo: chartering@varitasnavigation.com\nSubject: ROYAL CHIBA (56K DWT) CAMPHA 20-21 NOV\n\nDoc-No. 5167347 11/NOV/2025 (TUE) 12:41 (+0200) TG\n\nTNS Shipbrokers and Agents Ltd (Since 1991)\nphone:+359 56 841005/6, fax:+359 56 840299\nhome page:www.tns-shipping.com\nemail: chart@tns-shipping.com\n\nROYAL CHIBA (56K DWT) CAMPHA 20-21 NOV\n\nPLS OFFER FOR:\n\nMV ROYAL CHIBA (MES 56)\nSDBC - PANAMA FLAG / BLT 2014 MES\n55,899 MT DWT ON 12.724M SSW\nLOA 189.99M / BEAM 32.25M\nGRT/NRT 31,764/18,502\n5 HO/HA - 4X30MT CRANES + 4X12CBM GRABS\nCO2 FITTED\nGRAIN/BALE 71,039.5/68,013 CBM",
+  "entities": {
+    "VESSEL": [
+      "ROYAL CHIBA",
+      "MV ROYAL CHIBA"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "CAMPHA"
+    ],
+    "LOAD_PORT": [
+      "CAMPHA"
+    ],
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "TNS Shipbrokers and Agents Ltd"
+    ],
+    "IMO": null,
+    "DWT": [
+      "56K DWT",
+      "55,899 MT DWT"
+    ],
+    "LAYCAN": [
+      "20-21 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "SDBC"
+    ],
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "55,899 MT"
+    ],
+    "CONTACT": [
+      "chart@tns-shipping.com",
+      "chartering@varitasnavigation.com"
+    ]
+  }
+}

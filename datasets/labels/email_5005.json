@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "POLARIS SHIPPING",
+    "cargo": "INT. GRAIN (WHEAT)",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "APS OR TO MAKE NOPAC",
+    "redel_port": "",
+    "laycan_start": "2026-06-20",
+    "laycan_end": "2026-06-25",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Baltic Sea",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

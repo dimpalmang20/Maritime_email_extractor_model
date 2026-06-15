@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AKIJ NOBLE -",
+    "vessel_type": "MR Tanker",
+    "dwt": "58710",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

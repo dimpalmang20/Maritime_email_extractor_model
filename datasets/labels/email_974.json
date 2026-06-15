@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EVRIKA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "11777",
+    "built_year": "1997",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "185.73m",
+    "grain_capacity": "",
+    "open_port": "Colombo, Sri Lanka",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

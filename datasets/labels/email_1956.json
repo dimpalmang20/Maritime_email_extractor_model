@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "XO",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "RUWAIS - 16/18 DEC",
+    "redel_port": "WEDA BAY, INDONESIA - TRY PERIOD",
+    "laycan_start": "2025-12-09",
+    "laycan_end": "2025-12-14",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "75%",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "TC",
+    "account_name": "BBN",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "35000-59999",
+    "del_port": "WCI (INT MUM) - 20-24 DEC",
+    "redel_port": "CONT RANGE (INTN ANTWERP)",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Continent (ARA)",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

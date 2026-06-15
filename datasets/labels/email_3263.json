@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HSFO PLUS ABT 100 MT VLSFO PLUS ABT 190 MT LSMGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "2027-01-17",
+    "close_date": "2027-01-18",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO CLEAN CARGO\n\nTRY ANY"
+    ],
+    "confidence_score": 0.87
+  }
+]

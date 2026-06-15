@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "PWWD",
+    "cargo_type": "Dry Bulk",
+    "quantity": "20000",
+    "quantity_unit": "MT",
+    "load_port": "ISKENDERUN , TURKEY",
+    "discharge_port": "DJIBOUTI",
+    "laycan_start": "2026-01-20",
+    "laycan_end": "2026-01-25",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

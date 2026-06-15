@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BRAVE SWALLOW",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "40000",
+    "built_year": "",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "179.9m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "YOSU",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.87
+  }
+]

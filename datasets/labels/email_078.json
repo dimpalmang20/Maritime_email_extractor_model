@@ -1,0 +1,25 @@
+{
+  "email_id": 78,
+  "email_type": "open_vessel",
+  "vessel_name": "HEILAN EQUILIBRIUM",
+  "dwt": 56815,
+  "flag": "Panama",
+  "class": "CCS",
+  "built_year": 2011,
+  "open_port": "Dammam",
+  "open_date_from": "2025-11-27",
+  "open_date_to": "2025-11-30",
+  "draft_m": 12.8,
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 71634.09,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 35
+  },
+  "grabs": {
+    "count": 4,
+    "capacity_cbm": "6-12"
+  },
+  "status": "Open"
+}

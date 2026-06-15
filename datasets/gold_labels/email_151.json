@@ -1,0 +1,71 @@
+{
+  "text": "Best Regards:\n \n\n \nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com> chartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n \nFrom: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in> \nSent: 13 November 2025 10:28\nTo: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSubject: // MV SPARK TBN / MV FUDA / MV HJ SHANGHAI / MV AC VICTORY / MV XINGHAI - VESSELS TO FIX // \n \nDATE : 13TH NOVEMBER, 2025\u200b\nREF  : IBC/KG/025\n \n \nWE HAVE FOLLOWING VESSELS FROM OUR CLOSE OWNER\u200b\u200b:\u200b\n\u200b\u200b\n \nMV SPARK TBN 53KMT SDBC OPEN CAOFEIDIAN 14-16/NOV (RUSSIA OK) \n \n \nMV FUDA 56039MT/2007 4X30MT GEAR/4X12CBM GRABS SDBC OPEN GRESIK, INDO 21-25/NOV (RUSSIA/UKR/GOA OK)  \n \n \nMV HJ SHANGHAI 63500 DWT NEW BUILDING EX YARD NANTONG, CHINA END OF NOV, 2025 (DECK CARGO OK/GOA OK/2*25 OK/NOPAC OK/ AUSSIE OK, CO2 FITTED / A60 FITTED) \n \n \nMV AC VICTORY 75804MT/2005/13.994MT GEARLESS SDBC OPEN HALDIA, INDIA 20-24/NOV OR PASSING SGP 25-29/NOV  \n \n \nMV XINGHAI 92071/2010/14.23M GEARLESS SDBC OPEN WEDA 20-24/NOV PRFER CARGO TO ZHOUSHAN -CJK RANGE \n \n \nBEST REGARDS\nKRITIKA GOEL          MOB.: +91-9560504611\u200b\nANKIT VASHIST         MOB.: +91-9650405353\u200b\n\u200b\n \nINTERBULK SHIPBROKERS\nNEW DELHI, INDIA\n \nTEL : 0124- 4649000\n \nEMAIL   : CHARTERING@INTERBULKSHIPPING.IN\nWEBSITE : WWW.INTERBULKSHIPPING.IN",
+  "entities": {
+    "VESSEL": [
+      "SPARK TBN",
+      "FUDA",
+      "HJ SHANGHAI",
+      "AC VICTORY",
+      "XINGHAI"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "CAOFEIDIAN",
+      "GRESIK",
+      "NANTONG",
+      "HALDIA",
+      "SGP",
+      "WEDA",
+      "ZHOUSHAN",
+      "CJK"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "53KMT",
+      "56039MT",
+      "63500 DWT",
+      "75804MT",
+      "92071"
+    ],
+    "CHARTERER": null,
+    "BROKER": [
+      "INTERBULK SHIPBROKERS"
+    ],
+    "IMO": null,
+    "DWT": [
+      "53000",
+      "56039",
+      "63500",
+      "75804",
+      "92071"
+    ],
+    "LAYCAN": [
+      "14-16/NOV",
+      "21-25/NOV",
+      "END OF NOV, 2025",
+      "20-24/NOV",
+      "25-29/NOV",
+      "20-24/NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "SDBC",
+      "GEARLESS SDBC"
+    ],
+    "CHARTER_TYPE": "TONNAGE POSITION",
+    "TONNAGE": [
+      "53KMT",
+      "56039MT",
+      "63500 DWT",
+      "75804MT",
+      "92071"
+    ],
+    "CONTACT": [
+      "chartering@varitasnavigation.com",
+      "chartering@interbulkshipping.in"
+    ]
+  }
+}

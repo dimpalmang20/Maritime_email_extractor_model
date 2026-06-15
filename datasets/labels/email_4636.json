@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SCL SHIPPING SERVICES LLC",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-04-26",
+    "laycan_end": "2026-04-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "1.25%",
+    "matching_region": "Russia",
+    "restrictions": [
+      "NO INTEREST IN LINER OUT DISCHARGE RATE KINDLY CONSIDER 5000 MTS PWD FHINC"
+    ],
+    "confidence_score": 0.69
+  }
+]

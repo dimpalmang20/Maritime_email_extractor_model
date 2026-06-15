@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CS CRYSTAL - HDY - OPEN COTONOU 23 - 28TH DEC 2025",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "COTONOU",
+    "open_date": "2025-12-23",
+    "close_date": "2025-12-28",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CS CRYSTAL",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2010",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "",
+    "nrt": "19972",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.6
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "NOVO , RUSSIA",
+    "discharge_port": "BEIRA , MOZAMBIQUE",
+    "laycan_start": "2026-03-01",
+    "laycan_end": "2026-03-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

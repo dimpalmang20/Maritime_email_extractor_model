@@ -1,0 +1,31 @@
+{
+  "email_id": 261,
+  "email_type": "vessel_position",
+  "company": "Rieck + Petersen GmbH",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "CS SARAFINA",
+      "vessel_type": "Bulk Carrier",
+      "dwt": 37693,
+      "built_year": 2014,
+      "flag": "Bahamas",
+      "class": "ABS",
+      "open_position": "Cotonou",
+      "open_date": "2025-12-01 to 2025-12-05",
+      "holds_hatches": "5/5",
+      "grain_capacity_cbm": 46431.5,
+      "bale_capacity_cbm": 44574.2,
+      "cranes": "4 x 30 MT",
+      "speed_ballast_knots": 12.7,
+      "speed_laden_knots": 12.7,
+      "cons_ballast_mt_day": 17.1,
+      "cons_laden_mt_day": 19.5,
+      "bunkers_on_board": {
+        "vlsfo_mt": 700,
+        "lsmgo_mt": 150
+      }
+    }
+  ]
+}

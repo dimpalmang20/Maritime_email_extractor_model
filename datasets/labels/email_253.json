@@ -1,0 +1,37 @@
+{
+  "email_id": 253,
+  "email_type": "tonnage",
+  "source": "Rieck + Petersen",
+  "vessels": [
+    {
+      "vessel_name": "SAFESEA SHAKTI",
+      "imo": "9460277",
+      "call_sign": "V7UJ4",
+      "open_position": "Besiktas, Turkey",
+      "open_date": "2025-12-04/2025-12-10",
+      "built_year": 2010,
+      "builder": "Samjin Heavy Industries",
+      "flag": "Marshall Islands",
+      "port_registry": "Majuro",
+      "dwt_mt": 35956,
+      "draft_m": 10.27,
+      "tpc": 48.84,
+      "loa_m": 180.0,
+      "beam_m": 30.0,
+      "lbp_m": 172.0,
+      "grain_cbm": 46285,
+      "bale_cbm": 45569,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x35 MT",
+      "logger_fitted": true,
+      "grabs": false,
+      "speed_consumption": {
+        "laden": "12 knots on 22 mt VLSFO + 0.1 mt MGO",
+        "ballast": "12 knots on 20 mt VLSFO + 0.1 mt MGO",
+        "idle": "2.8 mt VLSFO + 0.1 mt MGO",
+        "working": "5.0 mt VLSFO + 0.1 mt MGO"
+      }
+    }
+  ]
+}

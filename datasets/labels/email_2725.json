@@ -1,0 +1,62 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61081",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.52
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "YASA MARS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61081",
+    "built_year": "",
+    "flag": "INT GRT",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "32.24m",
+    "beam": "197m",
+    "grain_capacity": "",
+    "open_port": "NAVLAKHI",
+    "open_date": "2026-12-31",
+    "close_date": "2027-01-05",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.9
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL, EFFECTIVE FOR VOYAGES EXCEEDING 48 HOURS FROM BEGINNING SEA PASSAGE TO END SEA PASSAGE, EXCLUDING PASSAGE WITH RESTRICTED VISIBILITY AND CONGESTED WATERS, STRAITS, NARROWED WATERS AND WHILE FOLLOWING SLOW STEAM INSTRUCTIONS, MANOEURVING, ENTERING OR LEAVING PORTS ABD 12HRS AFTER COSP/PRIOR EOSP AND EXCLUDING PERIODS DURING WHICH REDUCTIONS OF SPEED FOR SAFETY, ETC",
+      "NO EXTRAPOLATION TO BE MADE"
+    ],
+    "confidence_score": 0.42
+  }
+]

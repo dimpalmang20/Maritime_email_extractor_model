@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "CVG / Orinoco River, Venezuela",
+    "discharge_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "4%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.66
+  }
+]

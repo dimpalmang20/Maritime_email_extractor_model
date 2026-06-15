@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HAI DUONG 09 DWT",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "2006",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SOUTH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Taiwan",
+    "restrictions": [
+      "NO Since"
+    ],
+    "confidence_score": 0.72
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "QBE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "16822",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "9989",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "VIET",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [
+      "no Chartering Agency Services New Delhi India Since"
+    ],
+    "confidence_score": 0.84
+  }
+]

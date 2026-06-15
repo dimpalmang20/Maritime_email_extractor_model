@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MV. PAN TALISMAN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38046",
+    "built_year": "2021",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "35835",
+    "nrt": "20839",
+    "loa": "199.98m",
+    "beam": "32.292m",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "2026-03-07",
+    "close_date": "2026-03-08",
+    "matching_region": "US West Coast",
+    "restrictions": [
+      "NO ADVERSE CURRENT\n\nAND NO NEGATIVE INFLUENCE OF SWELL WHICH IS GIVEN IN GOOD FAITH",
+      "NO ADVERSE CURRENTS AND NO NEGATIVE\n\nINFLUENCE OF SWELL",
+      "NO WARRANTY APPLIES FOR PERIODS EXCEEDING GOOD\n\nWEATHER CONDITIONS AND IN CASES WHEN SEA BUOY TO SEA BUOY ON VOYAGES ARE\n\nLESS THAN"
+    ],
+    "confidence_score": 0.98
+  }
+]

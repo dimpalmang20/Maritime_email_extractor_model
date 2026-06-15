@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "IFO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2014",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "22871",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SANTO",
+    "open_date": "2026-03-25",
+    "close_date": "2026-03-27",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.8
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "email_id": 254,
+  "email_type": "tonnage",
+  "source": "Indus Bulk",
+  "vessels": [
+    {
+      "vessel_name": "MINOAN COURAGE",
+      "open_position": "RBCT ETA 2025-11-21/2025-11-22",
+      "next_position": "ECSA ETA 2025-12-05/2025-12-08",
+      "last_port": "Fujairah",
+      "last_port_date": "2025-11-07",
+      "built_year": 2004,
+      "flag": "Liberia",
+      "dwt_mt": 76801,
+      "draft_m": 14.221,
+      "loa_m": 225.0,
+      "beam_m": 32.2,
+      "holds": 7,
+      "hatches": 7,
+      "grain_cbft": 3210976,
+      "bwts_fitted": true,
+      "speed_consumption": {
+        "ballast": "12 knots on 26.5 mt VLSFO + 0.2 mt LSMGO",
+        "laden": "12 knots on 27.5 mt VLSFO + 0.2 mt LSMGO",
+        "eco_ballast": "11 knots on 25 mt VLSFO + 0.2 mt LSMGO",
+        "eco_laden": "11 knots on 26 mt VLSFO + 0.2 mt LSMGO",
+        "idle": "3.5 mt VLSFO",
+        "working": "4.5 mt VLSFO"
+      }
+    }
+  ]
+}

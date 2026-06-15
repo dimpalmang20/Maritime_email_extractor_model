@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "QUARTZ SAND IN BULK 5PCT MORE IN OWNERS OPTION",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "22250",
+    "built_year": "2021",
+    "flag": "Panama",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Cigading, Indonesia",
+    "open_date": "2026-06-01",
+    "close_date": "2026-06-30",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2026-06-20",
+    "laycan_end": "2026-06-25",
+    "load_rate": "13218 MT/DAY",
+    "discharge_rate": "7437 MT/DAY",
+    "commission": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.58
+  }
+]

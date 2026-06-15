@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "15000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2027-04-25",
+    "laycan_end": "2027-04-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "TC",
+    "account_name": "WINDS",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "20000-25000",
+    "del_port": "",
+    "redel_port": "RSEA",
+    "laycan_start": "2026-04-25",
+    "laycan_end": "2026-04-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

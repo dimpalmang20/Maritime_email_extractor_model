@@ -1,0 +1,16 @@
+{
+  "email_type": "CARGO_ORDER",
+  "account": "EVO BULK",
+  "vessel_type_required": "HMX / SMX",
+  "requirements": [
+    "CEMENT HOLES FITTED"
+  ],
+  "charter_type": "1 TCT",
+  "cargo": "HARMLESS / LAWFUL CARGO",
+  "delivery": "1SP NORTH VIETNAM",
+  "redelivery": "1SP SINGAPORE",
+  "laycan": "2025-11-20 to 2025-11-24",
+  "duration_days": 20,
+  "commission": "3.75%",
+  "confidence_score": 0.99
+}

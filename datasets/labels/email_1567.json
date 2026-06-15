@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DEL TO MAKE ECI RANGE",
+    "vessel_type": "Supramax Bulk Carrier",
+    "dwt": "45000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "EXCL GOA OK",
+      "no deck\n\nDELY"
+    ],
+    "confidence_score": 0.69
+  }
+]

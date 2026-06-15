@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SWIRE BULK",
+    "cargo": "SWIRE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "42000",
+    "del_port": "KAOHSIUNG, TAIWAN",
+    "redel_port": "",
+    "laycan_start": "2026-05-05",
+    "laycan_end": "2026-05-08",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

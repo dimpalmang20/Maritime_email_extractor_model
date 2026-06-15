@@ -1,0 +1,49 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "RUBAIYAT HANIF",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58713",
+    "built_year": "2008",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "JINGTANG",
+    "open_date": "2026-11-27",
+    "close_date": "2026-11-29",
+    "matching_region": "Singapore",
+    "restrictions": [
+      "NO COASTAL",
+      "NO GOA\n\nPREFER"
+    ],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "RUBAIYAT HANIF",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "32379",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL",
+      "NO BOTTOM FOULING DUE TO IDLE PERIODS OF",
+      "NO NEGATIVE INFLUENCE OF SWELL UP TO BEAUFORT SCALE FORCE"
+    ],
+    "confidence_score": 0.57
+  }
+]

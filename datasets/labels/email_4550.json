@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "24072",
+    "quantity_unit": "MT",
+    "load_port": "FLAG",
+    "discharge_port": "CALL",
+    "laycan_start": "1998-05-01",
+    "laycan_end": "1998-05-31",
+    "load_rate": "14706 MT/DAY",
+    "discharge_rate": "8385 MT/DAY",
+    "commission": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37900",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "CHENNAI,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Russia",
+    "restrictions": [
+      "No Iran",
+      "No RICE\n\nSteel cargo to be complied with loading manual\n\nEstimated BOD"
+    ],
+    "confidence_score": 0.79
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Darya Kavri",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37981",
+    "built_year": "2017",
+    "flag": "Marshall Islands",
+    "imo": "",
+    "grt": "",
+    "nrt": "23234",
+    "loa": "",
+    "beam": "179.97m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

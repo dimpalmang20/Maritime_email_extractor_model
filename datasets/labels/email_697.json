@@ -1,0 +1,67 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "RUBAIYAT HANIF",
+    "vessel_type": "MR Tanker",
+    "dwt": "58000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "JINGTANG,",
+    "open_date": "2026-11-27",
+    "close_date": "2026-11-29",
+    "matching_region": "Far East",
+    "restrictions": [
+      "NO GOA\n\nMV"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "RUN FU 8 28.4K",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "66637",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.99m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "NO IRAN",
+      "NO IRAN"
+    ],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BILLION STAR 33.5K",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56070",
+    "built_year": "2006",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Argentina",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

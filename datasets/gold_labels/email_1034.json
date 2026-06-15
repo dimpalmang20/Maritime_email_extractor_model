@@ -1,0 +1,33 @@
+{
+   "text" : " \n \nThanks and Regards,\n \nMs. Eleanor Rodriguez\nOperations Executive\n \n\nSobha Sapphire Bldg. Office No. 906 Business Bay, P.O. Box 123175, Dubai United Arab Emirates\nTel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mobile/Whatsapp: (+97150) 456 9584\nTeams: ⁠ <https://teams.live.com/l/invite/FEA24fuDdrtycUAJAg?v=g1> Transbulk5 \nWeChat: TransbulkOps_Eleanor\nEmail:  <mailto:operations@transbulk.ae> operations@transbulk.ae |  <mailto:transblk@eim.ae> transblk@eim.ae \nWebsite:  <http://www.transbulk.ae/> http://www.transbulk.ae\n \nFrom: Aryacorp Chartering <fix@aryacorp.com> \nSent: Wednesday, 26 November 2025 11:32 AM\nTo: Aryacorp Chartering <fix@aryacorp.com>\nSubject: ACCT MERA - CARGO MENU\n \nFROM: ARYACORP PVT. LTD.\nDATE & TIME: 26-11-2025 13:01:26   (GMT +5:30)\nREFERΕNCE NO: 20621875 \n \n \nATTN CHARTERING DESK\nGOOD DAY\nDIRECT CHARTERERS ORDER\nPLEASE ADVISE SUITABLE VESSEL FOR FOLLOWING FIRM ORDER\n\nACCT MERA\n30000MT 10% MOLOO BLK CORN\nLOAD UPRIVER INT SAN LORENZO\nDISCH SALEF / HODEIDAH\nLYCN FULL DEC\nLOAD 7000 MT FRI 1700HRS TILL MON 0800HRS NTC EIU\nDISCH 3000MT THURS 17000HRS TILL SUN 0800HRS NTC EIU\n5% TTL\n\n++\n\nACCT MERA\n40000MT 10% MOLOO BLK CORN\nLOAD SANTAREM\nDISCH SALEF / HODEIDAH\nLYCN FULL JAN\nLOAD 7000 MT FRI 1700HRS TILL MON 0800HRS NTC EIU\nDISCH 5000MT THURS 17000HRS TILL SUN 0800HRS NTC EIU\n5% TTL\n\n\nBEST REGARDS,\n\nSiddharth Arya | Voyage Desk\nDirect: +91 22 4044 9001\nMobile: +91 9821230311\nSKYPE ID: asbpl.siddharth@outlook.com\n\nAS BROKERS ONLY\nAs Agents for Core Shipping Ltd.\nEmail: fix@aryacorp.com (Chartering) | ops@aryacorp.com (Post Fixture)\nFollow us on LinkedIn: https://www.linkedin.com/company/arya-corp-private-limited\nWebsite: www.aryacorp.com\nSHIPBROKING | BUNKERING | AGENCY & REPRESENTATION\n \n----------------------------------------------------------------------------------\nThis email including its attachments (if any) is confidential and intended for the\nabove mentioned recipients only. If you have received this email in error, please\ndelete the email and notify the sender immediately. Unauthorised use of the contents\nof this email may be unlawful and is prohibited.\n\nWe have taken reasonable care to ensure this email and its attachments are free of\nviruses, however, please use up to date virus scan software to carry out your own\nchecks. We accept no liability for any viruses contained in this email or its attachments.\n---------------------------------------------------------------------------------- \n",
+   "entities" : {
+      "VESSEL_TYPE" : null,
+      "DWT" : null,
+      "VESSEL" : null,
+      "LOAD_PORT" : [
+         "UPRIVER INT SAN LORENZO",
+         "SANTAREM"
+      ],
+      "CARGO" : [
+         "BLK CORN",
+         "CORN"
+      ],
+      "LAYCAN" : [
+         "FULL DEC",
+         "FULL JAN"
+      ],
+      "CONTACT" : null,
+      "IMO" : null,
+      "OPEN_DATE" : null,
+      "CHARTERER" : [
+         "MERA"
+      ],
+      "PORT" : null,
+      "FREIGHT_RATE" : null,
+      "DISCHARGE_PORT" : [
+         "SALEF / HODEIDAH"
+      ],
+      "ETA" : null,
+      "CHARTER_TYPE" : null
+   }
+}

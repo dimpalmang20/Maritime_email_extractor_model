@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "GTFE",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-54999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-01-23",
+    "laycan_end": "2026-01-27",
+    "duration": "15 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

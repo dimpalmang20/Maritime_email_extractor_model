@@ -1,0 +1,20 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "APJ SHIRIN",
+  "vessel_type": "BULK CARRIER",
+  "dwt": 56556,
+  "built_year": 2012,
+  "flag": "PANAMA",
+  "loa": 189.99,
+  "beam": 32.26,
+  "grt": 32987,
+  "nrt": 19221,
+  "grain_capacity": 71634.09,
+  "bale_capacity": 68200,
+  "open_port": "KARAIKAL, INDIA",
+  "open_date": "2025-11-13",
+  "close_date": "2025-11-16",
+  "cranes": "4 X 30MT",
+  "grabs": "4 X 12CBM",
+  "confidence_score": 0.99
+}

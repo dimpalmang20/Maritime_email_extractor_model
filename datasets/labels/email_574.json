@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 12.8 M SSW",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56869",
+    "built_year": "2010",
+    "flag": "HONGKONG",
+    "imo": "9600839",
+    "grt": "33919",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "OTRANTO,",
+    "open_date": "2025-12-04",
+    "close_date": "2025-12-09",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

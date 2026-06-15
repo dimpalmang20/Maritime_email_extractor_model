@@ -1,0 +1,58 @@
+{
+   "text" : " \n \n \n \n \nBest Regards:\n \n\n \nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com>\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n \nFrom: IC Shipbrokers <bulkers@icshipbrokers.com> \nSent: 17 November 2025 12:34\nSubject: Close Owns Positions\n \n171125-REF142834   11/17/2025 7:23 AM \n \n-/ Saad\n \nOur Direct & Close Owners\nPlease Propose\n \n \n \nFar East\n \n1. ZY KUNSHAN63k dwt 2025 built Open Huanghua 22-23 Nov\nBUNKER: LSO abt 540-560 mt, LSG abt 100-105mt\n2x25, deck/hatch loading OK\nLast cargoes: Bauxite / Steels / ExYard\nGrain clean\n \n \n2.\nXIN HAI TONG801 81k dwt OPEN TAEAN S. KOREA  30TH, NOV 2025\nBOD LSFO ABT 1650 MT/ LSMGO 150MT\n \n \nMed \n \n3. XIN HAI TONG 8  Eco Speed Shallow draft 49k dwt 2014 built Open\nIskenderun 22 Nov\nBunker: abt 860 mt LSO + 160 mt LSG \n2x25, deck/hatch loading ok, WAF HRA / Venezuela / Black sea / Baltic Russia\n/ GOA ok \nLast 5 cargoes: Steels (current) / Phosphate rock / Steels / Iron Ore /\nPetcoke / General cargo + steels / Coal / Wheat / Steel product / Salt \nSilicone painted\n \n \n4.MV XIN HAI TONG 61 2010 56869 DWT 4X30MT CRANE WL OPEN OTRANTO, ITALY,\n28TH NOV-4TH DEC 2025 IAGW WP.  \nBOD: LSFO ABT 200 - 300 MT . MGO ABT 130-190 MT.\nLAST 4 CGO : GENERAL CARGO/GRAIN/GENERAL CARGO/NICK ORE\nTRY ANY\n \n \n \n \nWest Africa   \n5. MV CL YING NA HE 63k dwt 2021 built Open Tema 29 Nov - 1 Dec\nBunker: LSO abt 500mt, LSG abt 250mt\n2x25, deck/hatch loading ok, Aus grain clean\nLast cargoes: Trucks + Clinker (current) / Soyabean / fertilizers / coal /\nsteels / manganese ore\n \n \nBAY OF BENGAL\n6.MV XIN HAI TONG 31 2013 56450DWT 4 X 30MT CRANE WILL OPEN CHITTAGONG O/A\n21ST-26TH NOV 2025 IAGW WP.\nBOD: LSFO ABT 430-530MT MGO ABT 40-100MT\nLAST 3 CGOS: WHEAT(CURRENT)/STEEL CARGO/UREA\n \n \n \nBest regards\nSaad Zubair\nChartering Manager \n \nInternational Cooperation of Shipbrokers Aps\nNordkajen 2\nDK - 6000 Kolding.\nVAT no. 39181746\n \nMobile phone/WhatsApp: +92-3218200636\nSkype: icshipbrokers@gmail.com\nWeb:  <http://www.icshipbrokers.com> www.icshipbrokers.com\nEmail: \n <mailto:bulkers@icshipbrokers.com> bulkers@icshipbrokers.com (dry cargo\nchartering 15001-64000 dwat)\n <mailto:pmaxcapes@icshipbrokers.com> pmaxcapes@icshipbrokers.com (dry cargo\nchartering 64001-200000 Dwat)\n <mailto:postfixing@icshipbrokers.com> postfixing@icshipbrokers.com\n(postfixing & invoicing)\n \nAll our activities are subject to our  <http://icshipbrokers.com/our-terms/>\nTerms and Conditions of Business.\n",
+   "entities" : {
+      "FREIGHT_RATE" : null,
+      "CHARTERER" : null,
+      "PORT" : [
+         "Huanghua",
+         "TAEAN S. KOREA",
+         "OTRANTO, ITALY",
+         "Tema",
+         "CHITTAGONG"
+      ],
+      "CHARTER_TYPE" : null,
+      "ETA" : null,
+      "DISCHARGE_PORT" : null,
+      "CONTACT" : [
+         "Saad Zubair"
+      ],
+      "LAYCAN" : null,
+      "OPEN_DATE" : [
+         "22-23 Nov",
+         "29 Nov",
+         "1 Dec"
+      ],
+      "IMO" : null,
+      "CARGO" : [
+         "PETCOKE",
+         "COAL",
+         "IRON ORE",
+         "MANGANESE ORE",
+         "STEEL",
+         "BAUXITE",
+         "CLINKER",
+         "PHOSPHATE",
+         "SOYABEAN",
+         "WHEAT",
+         "SALT"
+      ],
+      "VESSEL_TYPE" : [
+         "GENERAL CARGO"
+      ],
+      "LOAD_PORT" : null,
+      "VESSEL" : [
+         "MT LSO",
+         "MT LSG",
+         "MV CL YING NA HE"
+      ],
+      "DWT" : [
+         "56869 DWT",
+         "56450DWT",
+         "64000 dwat",
+         "200000 Dwat",
+         "81K dwt",
+         "49K dwt",
+         "63K dwt"
+      ]
+   }
+}

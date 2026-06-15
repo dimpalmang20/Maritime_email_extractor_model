@@ -1,0 +1,48 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SF DARIKA",
+    "vessel_type": "MR Tanker",
+    "dwt": "35237",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BRISTOL,",
+    "open_date": "2026-12-10",
+    "close_date": "2026-12-16",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO RED SEA"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SF DARIKA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "THAI",
+    "imo": "9502752",
+    "grt": "22402",
+    "nrt": "12019",
+    "loa": "",
+    "beam": "28.44m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO WARRANTY APPLIES WHILST\n\nSAILING IN RESTRICTED AREAS A",
+      "NO ADVERSE\n\nCURRENT AND",
+      "NO NEGATIVE INFLUENCE OF SWELL WITH A MINIMUM STEAMING OF\n\nATLEAST"
+    ],
+    "confidence_score": 0.73
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "BAGGED",
+    "cargo_type": "Dry Bulk",
+    "quantity": "10000-20000",
+    "quantity_unit": "MT",
+    "load_port": "KANDLA / MUMBAI , INDIA",
+    "discharge_port": "ABU DHABI / DUBAI",
+    "laycan_start": "2026-04-05",
+    "laycan_end": "2026-04-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

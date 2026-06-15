@@ -1,0 +1,53 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "HARMLESS UREA",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-39999",
+    "del_port": "POHANG , S.KOREA",
+    "redel_port": "GIB - RIGA INC UK",
+    "laycan_start": "2026-01-30",
+    "laycan_end": "2026-02-04",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "TO MAKE 1 SP S.KOREA ATDNSHINC",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "35-40 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "60000-99999",
+    "del_port": "TO MAKE 1 SP JAPAN(INT. OITA) ATDNSHINC",
+    "redel_port": "",
+    "laycan_start": "2026-02-08",
+    "laycan_end": "2026-02-10",
+    "duration": "40-45 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

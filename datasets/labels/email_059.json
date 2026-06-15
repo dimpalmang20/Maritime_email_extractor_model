@@ -1,0 +1,98 @@
+[
+{
+  "email_id": 59,
+  "email_type": "open_vessel",
+  "vessel_name": "AFRICAN STORK",
+  "dwt": 40481,
+  "flag": "Bahamas",
+  "built_year": 2015,
+  "vessel_type": "Logger Grabber",
+  "open_port": "Danang",
+  "open_country": "Vietnam",
+  "open_date": "2025-11-20",
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 51288.3,
+  "bale_capacity_cbm": 49545,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+  "grabs": {
+    "count": 4,
+    "capacity_cbm": 12
+  },
+  "status": "Open"
+},
+{
+  "email_id": 59,
+  "email_type": "open_vessel",
+  "vessel_name": "AFRICAN HARRIER",
+  "dwt": 37707,
+  "flag": "Bahamas",
+  "class": "ABS",
+  "built_year": 2014,
+  "builder": "Imabari",
+  "open_port": "Penglai",
+  "open_country": "China",
+  "open_date": "2025-11-20",
+  "holds": 5,
+  "hatches": 5,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30.5
+  },
+  "status": "Open"
+},
+{
+  "email_id": 59,
+  "email_type": "open_vessel",
+  "vessel_name": "AFRICAN ORIOLE",
+  "dwt": 40481,
+  "flag": "Malta",
+  "class": "BV",
+  "built_year": 2015,
+  "vessel_type": "Logger",
+  "open_port": "Singapore",
+  "open_country": "Singapore",
+  "open_date": "2025-11-20",
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 51289,
+  "bale_capacity_cbm": 49545,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+  "grabs": {
+    "count": 4,
+    "capacity_cbm": 12
+  },
+  "status": "Open"
+},
+{
+  "email_id": 59,
+  "email_type": "open_vessel",
+  "vessel_name": "AFRICAN ROADRUNNER",
+  "dwt": 40650,
+  "flag": "Bahamas",
+  "class": "BV",
+  "built_year": 2015,
+  "vessel_type": "Grabber",
+  "open_port": "Ube",
+  "open_country": "Japan",
+  "open_date": "2025-11-21",
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 51180,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+  "grabs": {
+    "count": 4,
+    "capacity_cbm": "5-12"
+  },
+  "status": "Open"
+}
+]

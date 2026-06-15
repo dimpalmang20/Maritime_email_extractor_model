@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TOMINI ENTITY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "",
+    "flag": "",
+    "imo": "9831775",
+    "grt": "3641500",
+    "nrt": "",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "GRESIK",
+    "open_date": "2027-01-19",
+    "close_date": "2027-01-21",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL",
+      "NO EXTRAPOLATION TO BE MADE"
+    ],
+    "confidence_score": 0.98
+  }
+]

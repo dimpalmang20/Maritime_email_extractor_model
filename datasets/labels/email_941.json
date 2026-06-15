@@ -1,0 +1,48 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MDS SOFIA -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "West Coast India",
+    "restrictions": [
+      "no Shipbrokers Co",
+      "NO SHIPBROKERS CO",
+      "NO goa"
+    ],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VLSFO",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "22668",
+    "loa": "186.96m",
+    "beam": "28.6m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO SHIPBROKERS\n\nAthens"
+    ],
+    "confidence_score": 0.63
+  }
+]

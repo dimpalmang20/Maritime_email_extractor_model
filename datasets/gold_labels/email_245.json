@@ -1,0 +1,55 @@
+{
+  "email_type": "Cargo Tc",
+  "text": "From: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSent: 14 November 2025 17:43\nTo: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSubject: // ACC MOHAR SHIPPING CORP / 50K-57K DWT / TCT WITH CLINKER IN BULK EX INDO TO SRILANKA // \n \nDATE : 14TH NOVEMBER, 2025​\nREF  : IBC/KG/025\n \nWE HAVE FOLLOWING TO FIX:​​​\n \n-A/C MOHAR SHIPPING CORP PTE LTD\n-50K-57K\n-4X30MT MAX 190M\n-DELIVERY: ECI- SPORE_SEASIA RANGE\n-LOAD PORT: TUBAN INDONESIA\n-CLINKER IN BULK\n-REDELIVERY: SRI LANKA TRINCOMALEE\n-LAYCAN: 29TH NOV-4TH DEC\n-DUR: ABT 20-25 DAYS WOG\n-3.75% ADDCOM PLUS 1.25% TO INTERBULK​",
+  "entities": {
+    "VESSEL": null,
+    "VESSEL_TYPE": null,
+    "DWT": [
+      "50K-57K"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "CLINKER IN BULK"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "TUBAN INDONESIA",
+      "SRI LANKA TRINCOMALEE"
+    ],
+    "LOAD_PORT": [
+      "TUBAN INDONESIA"
+    ],
+    "DISCHARGE_PORT": [
+      "SRI LANKA TRINCOMALEE"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "MOHAR SHIPPING CORP PTE LTD"
+    ],
+    "BROKER": [
+      "INTERBULK SHIPBROKERS"
+    ],
+    "LAYCAN": [
+      "29TH NOV-4TH DEC"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": "TCT",
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@interbulkshipping.in",
+      "+91-9560504611",
+      "+91-9650405353",
+      "0124- 4649000",
+      "chartering@varitasnavigation.com",
+      "+ 91 9730358718",
+      "+91 9156366155",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "4X30MT",
+      "MAX 190M",
+      "DUR: ABT 20-25 DAYS WOG"
+    ]
+  }
+}

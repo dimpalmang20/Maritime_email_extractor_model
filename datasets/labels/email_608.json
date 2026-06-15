@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DOLPHIN 82",
+    "vessel_type": "MR Tanker",
+    "dwt": "74195",
+    "built_year": "2004",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "224.93m",
+    "beam": "32.2m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South China",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

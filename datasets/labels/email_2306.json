@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "STELLINA -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "26051",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2025-12-28",
+    "close_date": "2025-12-29",
+    "matching_region": "",
+    "restrictions": [
+      "NO COMBINATION"
+    ],
+    "confidence_score": 0.75
+  }
+]

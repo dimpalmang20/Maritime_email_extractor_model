@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BINTAN,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.57
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TO BE PREAPROVED BY OWRS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "24099",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL",
+      "NO\n\nEXTRAPOLATIONS TO BE MADE FOR WEATHER"
+    ],
+    "confidence_score": 0.62
+  }
+]

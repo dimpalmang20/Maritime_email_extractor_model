@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "on 12.800 m 58.8",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2011",
+    "flag": "liberian",
+    "imo": "9592745",
+    "grt": "",
+    "nrt": "3304400",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "south",
+    "open_date": "2026-11-25",
+    "close_date": "2026-11-30",
+    "matching_region": "China",
+    "restrictions": [
+      "no Shipbrokers Co",
+      "NO SHIPBROKERS CO",
+      "no swell nor adverse current ifo\n\ngrade"
+    ],
+    "confidence_score": 0.95
+  }
+]

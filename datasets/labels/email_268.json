@@ -1,0 +1,47 @@
+{
+  "email_id": 268,
+  "email_type": "vessel_position",
+  "company": "Rieck + Petersen GmbH",
+  "contact_person": "Lars Petersen",
+  "vessels": [
+    {
+      "vessel_name": "CATHERINE",
+      "vessel_type": "Bulk Carrier",
+      "built_year": 2024,
+      "flag": "Marshall Islands",
+      "dwt": 40355,
+      "draft_m": 10.392,
+      "loa_m": 182.94,
+      "beam_m": 31.60,
+      "grain_capacity_cbm": 50517.50,
+      "bale_capacity_cbm": 49153.38,
+      "holds_hatches": "5/5",
+      "cranes": "4 x 30.5 MT",
+      "open_position": "Skikda",
+      "open_date": "2025-11-26",
+      "last_cargoes": ["Corn", "Sulphur", "Salt"],
+      "bunkers_remaining": {
+        "vlsfo_mt": 525,
+        "mgo_mt": 225
+      },
+      "speed_consumption": {
+        "ballast": {
+          "speed_knots": 14.0,
+          "fuel_mt_day": 22.0
+        },
+        "laden": {
+          "speed_knots": 13.5,
+          "fuel_mt_day": 22.0
+        },
+        "eco_ballast": {
+          "speed_knots": 12.5,
+          "fuel_mt_day": 16.1
+        },
+        "eco_laden": {
+          "speed_knots": 12.0,
+          "fuel_mt_day": 16.1
+        }
+      }
+    }
+  ]
+}

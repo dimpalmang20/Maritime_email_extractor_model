@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "HANSON TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "TM PG",
+    "redel_port": "CONTI INT UK",
+    "laycan_start": "2027-01-25",
+    "laycan_end": "2027-01-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

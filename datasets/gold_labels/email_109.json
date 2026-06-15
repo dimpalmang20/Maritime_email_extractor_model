@@ -1,0 +1,88 @@
+{
+  "text": "ULTRA/SUPRA/HANDYMAX VESSELS OPENING AT ZHOUSHAN, BEIHAI, CHITTAGONG, RAVENNA, CAMPHA, MONGLA, PARADIP & NAVLAKHI ... MV Jahan Moni ... MV Jawad ... MV Shahriar Jahan ... MV Khadeejah Jahan II ... MV Shahriar Jahan I ... MV Jahan Sisters ... MV Fatema Jahan II ... MV Ameena Jahan ...",
+  "entities": {
+    "VESSEL": [
+      "Jahan Moni",
+      "Jawad",
+      "Shahriar Jahan",
+      "Khadeejah Jahan II",
+      "Shahriar Jahan I",
+      "Jahan Sisters",
+      "Fatema Jahan II",
+      "Ameena Jahan"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "Zhoushan",
+      "Beihai",
+      "Chittagong",
+      "Ravenna",
+      "Campha",
+      "Mongla",
+      "Paradip",
+      "Navlakhi"
+    ],
+    "LOAD_PORT": [
+      "Zhoushan",
+      "Beihai",
+      "Chittagong",
+      "Ravenna",
+      "Campha",
+      "Mongla",
+      "Paradip",
+      "Navlakhi"
+    ],
+    "DISCHARGE_PORT": null,
+    "ETA": [
+      "15th November 2025",
+      "18th November 2025",
+      "19th November 2025",
+      "20th November 2025",
+      "21st November 2025",
+      "25th November 2025"
+    ],
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "DBC Oceanic"
+    ],
+    "IMO": null,
+    "DWT": [
+      "55496",
+      "53505",
+      "46232",
+      "55486",
+      "60195",
+      "47639",
+      "58096",
+      "53477"
+    ],
+    "LAYCAN": null,
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "ULTRA",
+      "SUPRA",
+      "HANDYMAX"
+    ],
+    "CHARTER_TYPE": [
+      "Open Vessel"
+    ],
+    "TONNAGE": [
+      "55496 DWT",
+      "53505 DWT",
+      "46232 DWT",
+      "55486 DWT",
+      "60195 DWT",
+      "47639 DWT",
+      "58096 DWT",
+      "53477 DWT"
+    ],
+    "CONTACT": [
+      "shippingdbc@gmail.com",
+      "chartering@dbcoceanic.com",
+      "operations@dbcoceanic.com",
+      "freights@dbcoceanic.com"
+    ]
+  }
+}

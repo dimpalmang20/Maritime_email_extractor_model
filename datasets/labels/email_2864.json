@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-54999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-01-05",
+    "laycan_end": "2026-01-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "West Africa",
+    "restrictions": [
+      "NO DECK, NO GOA"
+    ],
+    "confidence_score": 0.62
+  }
+]

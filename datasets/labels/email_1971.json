@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "NAVISION REQUIREMENTS",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-54999",
+    "del_port": "USG INT PORT ARTHUR",
+    "redel_port": "BRAZIL INT SALVADOR",
+    "laycan_start": "2025-12-09",
+    "laycan_end": "2025-12-14",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "75%",
+    "matching_region": "Brazil",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "TC",
+    "account_name": "NAVISION",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-59999",
+    "del_port": "",
+    "redel_port": "CARIBS",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

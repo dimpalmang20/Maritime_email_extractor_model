@@ -1,0 +1,124 @@
+[
+{
+  "email_id": 92,
+  "vessel_name": "HELI",
+  "email_type": "open_vessel",
+
+  "source_company": "Aryacorp Pvt Ltd",
+  "owner_type": "Direct Owner",
+
+  "imo": "9609677",
+  "vessel_type": "Bulk Carrier",
+  "sub_type": "Handysize Non-Boxy Single Deck",
+
+  "flag": "Panama",
+  "class": "DNV",
+  "built_year": 2012,
+
+  "open_port": "Tokyo Bay",
+  "open_country": "Japan",
+  "open_date": "PPT/PPT",
+
+  "dwt": 37452,
+  "draft_m": 10.417,
+
+  "loa_m": 186.96,
+  "beam_m": 28.60,
+  "depth_m": 15.60,
+
+  "grt": 22668,
+  "nrt": 11856,
+
+  "tpc": 48.25,
+
+  "grain_capacity_cbm": 49685,
+
+  "holds": null,
+  "hatches": null,
+
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+
+  "trade_preference": [
+    "Japan",
+    "Persian Gulf"
+  ],
+
+  "business_type": [
+    "Voyage",
+    "TCT"
+  ],
+
+  "status": "Hot To Fix"
+},
+{
+  "email_id": 92,
+  "vessel_name": "WOOHYUN DREAM",
+
+  "email_type": "open_vessel",
+
+  "source_company": "Aryacorp Pvt Ltd",
+  "owner_type": "Direct Owner",
+
+  "vessel_type": "General Cargo Ship",
+
+  "built_year": 2025,
+  "builder": "Naikai Zosen Japan",
+
+  "flag": "Korea",
+  "class": "KR",
+
+  "open_port": "Geraldton-Esperance Range",
+  "open_country": "Australia",
+
+  "open_date_from": "2025-12-05",
+  "open_date_to": "2025-12-10",
+
+  "dwt": 40077,
+  "draft_m": 10.021,
+
+  "loa_m": 183.00,
+  "beam_m": 32.20,
+  "depth_m": 14.50,
+
+  "grt": 25269,
+  "nrt": 12611,
+
+  "grain_capacity_cbm": 50463.60,
+  "bale_capacity_cbm": 49343.90,
+
+  "holds": 5,
+  "hatches": 5,
+
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+
+  "speed_consumption": {
+    "ballast_speed_knots": 12.0,
+    "ballast_vlsfo_mt_day": 12.8,
+    "ballast_lsmgo_mt_day": 0.1,
+
+    "laden_speed_knots": 12.0,
+    "laden_vlsfo_mt_day": 15.0,
+    "laden_lsmgo_mt_day": 0.1
+  },
+
+  "trading_area": "Worldwide",
+
+  "cargo_preferences": [
+    "Australian Grain"
+  ],
+
+  "business_type": [
+    "Voyage",
+    "TCT",
+    "Spot",
+    "Period Charter"
+  ],
+
+  "period_charter_limit": "Up to 1 Year"
+}]

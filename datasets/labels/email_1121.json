@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HG MELBOURNE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "53000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Dammam, Saudi Arabia",
+    "open_date": "2026-12-05",
+    "close_date": "2026-12-10",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

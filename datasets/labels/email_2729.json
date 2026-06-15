@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SCRUBBER OPEN WCI HAZIRA 6 JAN 2026.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "60405",
+    "built_year": "2016",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.99m",
+    "grain_capacity": "77067",
+    "open_port": "",
+    "open_date": "2026-01-06",
+    "close_date": "2026-01-11",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO PERIOD\n\nMV"
+    ],
+    "confidence_score": 0.82
+  }
+]

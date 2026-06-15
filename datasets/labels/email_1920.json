@@ -1,0 +1,38 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "CHINALAND TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-69999",
+    "del_port": "TO MAKE SKALI",
+    "redel_port": "",
+    "laycan_start": "2026-12-20",
+    "laycan_end": "2026-12-25",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "CHINALAND",
+    "cargo": "Pohyi - Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "TO MAKE CJK-S.KOREA RANGE",
+    "redel_port": "US GULF",
+    "laycan_start": "2026-12-20",
+    "laycan_end": "2026-12-25",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [
+      "NO NEED 225 FOR STEEL COILS"
+    ],
+    "confidence_score": 0.98
+  }
+]

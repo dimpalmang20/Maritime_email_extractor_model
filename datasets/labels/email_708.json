@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SPEED",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2015",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "786627",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "NO DECK CARGO\n\nAND GOOD WEATHER CONDITIONS",
+      "NO TO EXCEED",
+      "NO ADVERSE INFLUENCE OF CURRENTS"
+    ],
+    "confidence_score": 0.62
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ATP FORTUNE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55596",
+    "built_year": "2011",
+    "flag": "PANAMA",
+    "imo": "9456551",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Thailand",
+    "restrictions": [
+      "NO HRA"
+    ],
+    "confidence_score": 0.86
+  }
+]

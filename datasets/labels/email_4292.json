@@ -1,0 +1,38 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-39999",
+    "del_port": "KWANGYANG, S.KOREA",
+    "redel_port": "GIB - SKAW INC UK",
+    "laycan_start": "2026-03-04",
+    "laycan_end": "2026-03-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.97
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-99999",
+    "del_port": "YAWATA, JAPAN",
+    "redel_port": "VANCOUVER BC - VALPARAISO RGE (INT. PUERTO QUETZAL)",
+    "laycan_start": "2026-03-11",
+    "laycan_end": "2026-03-15",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [
+      "NO NEED 25MT X 2 TIER)"
+    ],
+    "confidence_score": 0.97
+  }
+]

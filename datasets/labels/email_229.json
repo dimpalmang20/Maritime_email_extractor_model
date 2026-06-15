@@ -1,0 +1,23 @@
+{
+  "email_id": 229,
+  "email_type": "tonnage",
+  "source": "Marcons",
+  "vessels": [
+    {
+      "vessel_name": "AM PROGRESS",
+      "open_position": "Mongla, Bangladesh",
+      "open_date": "2025-11-18/2025-11-22",
+      "built_year": 2012,
+      "dwt_mt": 31966,
+      "draft_m": 10.0,
+      "tpc": 45.3,
+      "grain_cbm": 40448,
+      "bale_cbm": 39882,
+      "loa_m": 176.54,
+      "beam_m": 26.97,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30 MT"
+    }
+  ]
+}

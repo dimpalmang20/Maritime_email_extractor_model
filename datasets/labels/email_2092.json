@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 12.8 M SSW GRT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56780",
+    "built_year": "",
+    "flag": "HONG KONG",
+    "imo": "9453250",
+    "grt": "3391319",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "LAGOS,",
+    "open_date": "2026-01-25",
+    "close_date": "2026-01-30",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "STEEL PRODUCT INCL. COIL",
+    "cargo_type": "General Cargo",
+    "dwt": "10000-69999",
+    "del_port": "BUSAN , S.KOREA",
+    "redel_port": "GIB - RIGA INC UK",
+    "laycan_start": "2026-01-25",
+    "laycan_end": "2026-01-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "60000-99999",
+    "del_port": "JAPAN(INT OITA)",
+    "redel_port": "",
+    "laycan_start": "2026-02-02",
+    "laycan_end": "2026-02-04",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

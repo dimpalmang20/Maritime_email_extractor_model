@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JIA DE CHANG HE",
+    "vessel_type": "MR Tanker",
+    "dwt": "57000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ZHOUSHAN,",
+    "open_date": "2025-12-26",
+    "close_date": "2025-12-28",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

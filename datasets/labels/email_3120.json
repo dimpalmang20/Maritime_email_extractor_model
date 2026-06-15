@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "9403097",
+    "grt": "32379",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "DJIBOUTI,",
+    "open_date": "2026-01-18",
+    "close_date": "2026-01-25",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "NO MIXING OF BUNKERS ALLOWED UNLESS CONFIRMED ACCEPTABLE BY THE MASTER",
+      "NO NEGATIVE INFLUENCE OF SWELL UP TO BEAUFORT SCALE FORCE"
+    ],
+    "confidence_score": 0.94
+  }
+]

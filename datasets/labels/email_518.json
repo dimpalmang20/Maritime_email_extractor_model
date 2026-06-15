@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VALIANT GANGAVARAM O",
+    "vessel_type": "Supramax Bulk Carrier",
+    "dwt": "",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "187.88m",
+    "beam": "32.26m",
+    "grain_capacity": "70733",
+    "open_port": "",
+    "open_date": "2026-11-25",
+    "close_date": "2026-11-30",
+    "matching_region": "Singapore",
+    "restrictions": [
+      "NO V"
+    ],
+    "confidence_score": 0.73
+  }
+]

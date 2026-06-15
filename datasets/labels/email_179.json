@@ -1,0 +1,23 @@
+{
+  "email_id": 179,
+  "type": "tonnage",
+  "source_email": 179,
+  "vessels": [
+    {
+      "name": "MV MOKSHA",
+      "dwt": 56880,
+      "built": 2011,
+      "flag": "Liberia",
+      "class": "CCS",
+      "open_position": "Chittagong",
+      "open_date": "2025-11-15/20",
+      "trading_restrictions": "Excluding Iran",
+      "cargo_flexibility": "Can consider any cargo, deck cargo okay, 2 x 25T coils",
+      "holds_hatches": "5/5",
+      "gear": "4 x 36 MT Cranes",
+      "grabs": "4 x 12 CBM",
+      "grain_capacity_cbm": 71634,
+      "bale_capacity_cbm": 68270
+    }
+  ]
+}

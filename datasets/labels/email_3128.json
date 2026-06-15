@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "37300",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.65
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "IZUMO HERMES",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37300",
+    "built_year": "2020",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "23765",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

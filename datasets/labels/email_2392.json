@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "DANGJIN, S.KOREA",
+    "redel_port": "GIB - RIGA INC UK",
+    "laycan_start": "2025-12-28",
+    "laycan_end": "2025-12-29",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.97
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "57000-64000",
+    "del_port": "",
+    "redel_port": "INDONESIA OR MALAYSIA",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

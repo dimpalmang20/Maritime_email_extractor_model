@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "PWWD",
+    "cargo_type": "Dry Bulk",
+    "quantity": "55000-65000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "Bandar Imam Khomeini, Iran",
+    "laycan_start": "2026-03-01",
+    "laycan_end": "2026-03-31",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Ukraine",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

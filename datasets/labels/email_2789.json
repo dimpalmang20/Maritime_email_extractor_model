@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "TAICHI SHIPPING",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-12-31",
+    "laycan_end": "2026-01-05",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "TC",
+    "account_name": "TAICHI SHIPPING",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "",
+    "redel_port": "DLOSP 1SP TURKEY (BLACK SEA)",
+    "laycan_start": "2026-01-22",
+    "laycan_end": "2026-01-27",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

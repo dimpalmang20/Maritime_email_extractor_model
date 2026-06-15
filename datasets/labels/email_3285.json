@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ORION",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63472",
+    "built_year": "2015",
+    "flag": "MARSHALL ISLAND",
+    "imo": "",
+    "grt": "25069",
+    "nrt": "",
+    "loa": "179.99m",
+    "beam": "199.99m",
+    "grain_capacity": "",
+    "open_port": "PORT",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Brazil",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

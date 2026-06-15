@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BAM PROTEUS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2007",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "9343625",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "28.4m",
+    "grain_capacity": "",
+    "open_port": "Malaga,",
+    "open_date": "2026-12-31",
+    "close_date": "2027-01-05",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO EXTRAPOLATIONS CAN BE\n\nMADE FOR OTHER WEATHER"
+    ],
+    "confidence_score": 0.98
+  }
+]

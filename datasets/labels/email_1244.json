@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OPEN MONGLA 18-30 DEC 2025",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38894",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "179.923m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MONGLA",
+    "open_date": "2025-12-18",
+    "close_date": "2025-12-30",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.9
+  }
+]

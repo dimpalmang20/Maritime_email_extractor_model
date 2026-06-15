@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JINLING CONFIDENCE",
+    "vessel_type": "Container Ship",
+    "dwt": "40320",
+    "built_year": "2017",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "179.95m",
+    "grain_capacity": "",
+    "open_port": "Honduras",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [
+      "No Goa"
+    ],
+    "confidence_score": 0.84
+  }
+]

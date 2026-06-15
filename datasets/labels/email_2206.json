@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Vizag, ECI / Venice, Italy",
+    "cargo_type": "Dry Bulk",
+    "quantity": "6000",
+    "quantity_unit": "MT",
+    "load_port": "Chennai / Ennore, India",
+    "discharge_port": "arrival mast be before 15-16th Feb no later",
+    "laycan_start": "2025-01-04",
+    "laycan_end": "2025-01-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "75%",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

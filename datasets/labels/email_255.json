@@ -1,0 +1,27 @@
+{
+  "email_id": 255,
+  "email_type": "tonnage_list",
+  "source": "Indo Sino",
+  "vessels": [
+    {
+      "vessel_name": "WOOHYUN GREEN",
+      "open_position": "Singapore / Batam",
+      "open_date": "2025-12-05/2025-12-10",
+      "built_year": 2011,
+      "flag": "Korea",
+      "dwt_mt": 17528.86,
+      "loa_m": 131.9,
+      "beam_m": 22.0,
+      "depth_m": 14.5,
+      "gt": 11481,
+      "nt": 5850,
+      "grain_cbm": 23110.6,
+      "bale_cbm": 21346.4,
+      "holds": 3,
+      "hatches": 3,
+      "vessel_type": "Tween Decker",
+      "cranes": "3x30 MT",
+      "cargo_preference": "Backhaul to Far East"
+    }
+  ]
+}

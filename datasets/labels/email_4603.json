@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "28000-70000",
+    "quantity_unit": "MT",
+    "load_port": "UPRIVER INT SAN LORENZO",
+    "discharge_port": "DAMIETTA / EL DEKHEILA",
+    "laycan_start": "2026-04-06",
+    "laycan_end": "2026-04-11",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Upriver, Argentina",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

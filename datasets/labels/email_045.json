@@ -1,0 +1,23 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "UNIVERSE WEALTHY",
+  "vessel_type": "BULK/LOG SHIP",
+  "dwt": 28287,
+  "built_year": 2001,
+  "flag": "PANAMA",
+  "imo": "",
+  "grt": 17859,
+  "nrt": 9828,
+  "loa": 171.93,
+  "beam": 27.00,
+  "grain_capacity": 38232,
+  "bale_capacity": 36736,
+  "open_port": "BANGKOK PORT",
+  "open_date": "2025-11-17",
+  "close_date": "2025-11-20",
+  "cranes": "4 X 30 MT",
+  "class": "NK",
+  "call_sign": "3EWW4",
+  "broker": "ARYACORP",
+  "confidence_score": 0.99
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "40000",
+    "quantity_unit": "MT",
+    "load_port": "KARACHI / BIN QASIM",
+    "discharge_port": "MOGADISHU",
+    "laycan_start": "2026-04-10",
+    "laycan_end": "2026-04-15",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

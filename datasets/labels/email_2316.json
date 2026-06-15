@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "PWWD",
+    "cargo_type": "Dry Bulk",
+    "quantity": "20000-25000",
+    "quantity_unit": "MT",
+    "load_port": "NOVO/TAMAN/TAUPSE , RUSSIA",
+    "discharge_port": "HODEIDAH , YEMEN",
+    "laycan_start": "2026-01-01",
+    "laycan_end": "2026-01-31",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

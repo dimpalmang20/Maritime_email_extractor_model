@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OMISHIMA",
+    "vessel_type": "MR Tanker",
+    "dwt": "63526",
+    "built_year": "2024",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.98m",
+    "grain_capacity": "",
+    "open_port": "MESAIEED",
+    "open_date": "2026-01-20",
+    "close_date": "2026-01-25",
+    "matching_region": "India",
+    "restrictions": [
+      "NO RED SEA\n\nPRESENT CARGO"
+    ],
+    "confidence_score": 0.92
+  }
+]

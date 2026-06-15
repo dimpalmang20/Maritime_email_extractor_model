@@ -1,0 +1,296 @@
+ 
+ 
+ 
+ 
+ 
+Best Regards:
+ 
+
+ 
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+ 
+From: postmaster@hyundai.com <postmaster@hyundai.com> 
+Sent: 03 December 2025 11:12
+To: chartering@varitasnavigation.com
+Subject: Undeliverable: ACC VARITAS NAVIGATION
+ 
+Delivery has failed to these recipients or groups:
+ <mailto:glovis1@hyundai.com> glovis1@hyundai.com
+The email address you entered couldn't be found. Please check the
+recipient's email address and try to resend the message. If the problem
+continues, please contact your email admin.
+
+
+
+
+
+
+Diagnostic information for administrators:
+Generating server: HKATWYMAILP010.autos.hmgc.net
+glovis1@hyundai.com
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient
+not found by SMTP address lookup'
+Original message headers:
+Received: from HKATWYMAILP034.autos.hmgc.net (10.7.20.134) by
+ HKATWYMAILP010.autos.hmgc.net (10.7.20.110) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.57; Wed, 3 Dec 2025 14:42:12 +0900
+Received: from FireEye-EX9.hyundai-autoever.com (10.10.220.47) by
+ HKATWYMAILP034.autos.hmgc.net (10.7.20.48) with Microsoft SMTP Server id
+ 15.1.2507.57 via Frontend Transport; Wed, 3 Dec 2025 14:42:12 +0900
+Received: from localhost.localdomain (localhost [127.0.0.1])
+        by FireEye-EX9.hyundai-autoever.com (Postfix) with SMTP id
+4dLmjw4YYLzRNbgG
+        for <glovis1@hyundai.com>; Wed,  3 Dec 2025 14:42:12 +0900 (KST)
+Received: from agent10.hyundai.com (unknown [10.14.18.125])
+        by FireEye-EX9.hyundai-autoever.com (Postfix) with ESMTP id
+4dLmjv1QZXzRNbgB
+        for <glovis1@hyundai.com>; Wed,  3 Dec 2025 14:42:11 +0900 (KST)
+Received: from pps.filterd (agent10.hyundai.com [127.0.0.1])
+        by agent10.hyundai.com (8.18.1.2/8.18.1.2) with ESMTP id
+5B2LgADD004706
+        for <glovis1@hyundai.com>; Wed, 3 Dec 2025 14:42:11 +0900
+Authentication-Results: hyundai.com;
+        dkim=permerror header.d=varitasnavigation.com header.s=default;
+        spf=fail smtp.mailfrom=chartering@varitasnavigation.com
+Received: from hd-esa3.service ([58.87.40.53])
+        by agent10.hyundai.com (PPS) with ESMTP id 4ar4e7cy89-2
+        for <glovis1@hyundai.com>; Wed, 03 Dec 2025 14:42:10 +0900 (JST)
+X-CSE-ConnectionGUID: X6UdZbwXQACuLDyJhoKflA==
+X-CSE-MsgGUID: 3KZyxic5SbyZ37A/0YbY/Q==
+Received-SPF: Pass (hd-esa3.service: domain of
+  chartering@varitasnavigation.com designates 94.136.184.46 as
+  permitted sender) identity=mailfrom; client-ip=94.136.184.46;
+  receiver=hd-esa3.service;
+  envelope-from="chartering@varitasnavigation.com";
+  x-sender="chartering@varitasnavigation.com";
+  x-conformance=spf_only; x-record-type="v=spf1";
+  x-record-text="v=spf1 +a +mx +a:vmi2441136.contaboserver.net
+  -all"
+Received-SPF: None (hd-esa3.service: no sender authenticity
+  information available from domain of
+  postmaster@vmi2441136.contaboserver.net) identity=helo;
+  client-ip=94.136.184.46; receiver=hd-esa3.service;
+  envelope-from="chartering@varitasnavigation.com";
+  x-sender="postmaster@vmi2441136.contaboserver.net";
+  x-conformance=spf_only
+Authentication-Results: hd-esa3.service; spf=Pass
+smtp.mailfrom=chartering@varitasnavigation.com; spf=None
+smtp.helo=postmaster@vmi2441136.contaboserver.net; dkim=permerror (no key
+for signature) header.i=@varitasnavigation.com
+IronPort-SDR: 692fcdb1_2CfT3KGDmxAzS7V9pKDd+JcigPtnl8SzDlfMzmJwmyb2ZS8
+ XercH3EWBjB0TESXne5BdivcoFPLL9mHoaF/qUw==
+X-IPAS-Result: =?us-ascii?q?A0FOCgCazC9pcC64iF5aHgEBCxIMQIMNgQNAAUFfMwcIH?=
+ =?us-ascii?q?iuIJJBLW4YBgmUBAoZngTAIiiiBawgUAQQ3FgICBAEBAQIBA4UAAiKMRQIeB?=
+ =?us-ascii?q?wE4EwECAQMBAQEBAwIDAQEBAQEBAQEBDQEBAQQBAQECAQECBAQBAgIQAUNJh?=
+ =?us-ascii?q?jAfDYMWghYsCGMBFgoBAQgBAgIbCAESAQEHMAEMBSYBAQEKFQkFDwEBCwIgE?=
+ =?us-ascii?q?gEPBwEGBQVLgiiCHQUCAQMSAzYCBQGxbYE0gQGCDAEBBoEIgWDbHAcJgUuDD?=
+ =?us-ascii?q?4U4DAEqEYEhAmmCAYYeJxuCDYMLhBGBagUBEgFXgzuCU4ESgRR6FIYigXlYL?=
+ =?us-ascii?q?ol9hwuBHgOBI0sNChKBaAM1DAsqFW0zHYF5c4EUg0keZ4Emg1WKK4UDDYRKC?=
+ =?us-ascii?q?xgNFC8FDgIBLDdzUxsHDRYEFgkFBAMJBgICBSAUEwUHA490ECENgVMyKU+DX?=
+ =?us-ascii?q?JVSNJE/D1mLeosDiSNxjHeBQYJtiwQxgyiCcYNXkTSZN5cThCWPX5JHgnuBb?=
+ =?us-ascii?q?YF/I2xwcIFuCYFACTcPAxkPjiGEALxmOzU8AgcLAQEDCYVpFkmNIQE?=
+IronPort-PHdr: A9a23:49y3CRNqKRW7y3vPb9gl6nY+CBdPi9zP1nM99M9+2PpHJ7649tH5P
+ EWFuKs+xFScR4jf4uJJh63MvqTpSWEMsvPj0XxXbpVWVgMMksMfgQ0vCdKEDku9J/nvPGQhS
+ chPWlZ4+23oeVQAQZmgOwKO+iDosW13eHT1NV8sB837ELeKs//r07CqyrzTRA9ZhzeBRYExH
+ hG2rCiO9ZYHnYg5IOEr6yns9ygAe7F432Rtd2mOlRTx7dvjmfwC+XFguf8TruVeVarmWKMRa
+ 5cITxQdKEox+t35rBDlaBaR3nsSXz5OsThQBRrazxbbdNDJvwbDu/dWgxedOsHfUeA2YFHAj
+ u9zGTzwkBdWGBVp90/Fg/xOnYIBsgu5i1tz7rTeeJmQBsZBRPL/QuhCGTJnWNlVB3F6GJG7U
+ pQ0MLUxbaVlidfT9wtrz3r2LyCOH+nz5D1WiWLP/qgG/Px7ISvM3T4EMtVemTf1gcTXCPcNa
+ een7/HVy2Xhbatz5AnC+qbFdE4qna6zTa9+VOb4rCtOXyzBp26y863BIBCYjsBdizC06cppV
+ bODp2UJkg5UhBuF78kRsJjInp052l2U0Dpb3Y0xZvecSlNSUdj5TYt38HyTFu4UI4sEQVErt
+ jgWmuVYmbyHXXkaw5UC3kXtQv2WTbmrwRD6erbLKDx3w3VsUuKHriuvyRHj8bXhb8jt6Vl7o
+ AhYtf6RmklotX2byY+4F+Ze31al4Q+v2FWGualUZEEukqzDLIQ9h6Q9jYcXrRHbEzXzlV/si
+ 7XFPlVh+/Kv7fzgeKmjq4WGMJUhjAa2Mak/0sK4G6wjMwcIVnSG4+nvvFWC1U31BbhRh6Zwi
+ aTDrpHRKJdTvba3VjdcyZ1r8BOjF3Gj2dUck2MAKQdOeBudk4XzOlfBCO7xF/ajik+qmSlqy
+ PnaP7rnRJ7KKyuLi6/vKJB67UMU0w8v1ZZf6pZTX6kGO+72U1TtucbwEBo4aVDomr+8VpN20
+ YUCUGiIGaKDLq7I91mF+rFnL+qNYdoNtSz4JuI/4OSmzXk+0VwQbOGn2oFfc3G3GP16Pl+UI
+ DLsj94NHH1Mv18WUuXwiUGLSjhaeXe9Vr494Td9A4WjZWvabrikm6fJnCe3W5BNbzsAEV2WD
+ 3bjetfMV/AJYSOUashv915MHbOhQpU92AuvsgDS1bN9L/bd4SsRq5Ps3cR04OuVnhY3vTB5F
+ MWS1WiRQno8zz9OHmRomvkv/QohlB+Kys0ay7RAGMZW5u9VXwtyLpPaw+FgSpjzVg/HYtaVW
+ QOjS9SiDys2S4F5yNsPbkBhXtS620GfmXPxXflMx+DNWMJnl8CUl2L8LMt81XvcgaktylQ9S
+ 5AJLmC8mK90+lu2ZcaBnkOHmqKtbalZ0jTK8TLJxmqHpl1VSg92Xo3bVGoeekLNq93n50zLU
+ 76pD/IsNQ4LmqvgYuNaL8bki1lLXqKpM9TXeX68gWa2Cj6Wz6mNcIPxfWwD3SrUFEkDlUYY+
+ nPMZm1cTm+x5mnZCjJpD1fmZUjhpPJmpkS8SEslnEmaKlds3L2v9lsJlOSRHrkNi6kctn5r+
+ FAWVB6tmsjbAN2aq099cbVANJkjtUxf2zuR9AU1fZmwZ+Nr1EAbcl4r4xq3jEsxAYJGjcEgq
+ 2gn1hR/M+Se3U8kFXvQmJn0Pve/xnDa2hepZuaW2l2b3c2foeEU5e4mql7u7kmvEQI5/nNr3
+ sMd2maA5pjMEAsZUI7gNyR/vxl8qbbAZyAh5oTSnXRyOKiwuzXG1ponHuwgghqnet5eNuuDG
+ mqQW4UCANOyLeUxh1WzRgwBPboOqPdtZJ3gfPyAxKehO/1thiyrlyJB7Zw8mkOA+ixgS/LZi
+ pYIx/bLu2nPHzz4jVqnroX2gdUVOXdLRTT5kHi4QtIPNeVocI0GCHmjOZi3ypBznJe2HWVV7
+ kCiDF5Vva3hMReUcVH52hVdkEoNpnny0yC4xiZonisoqKW3wiXUwvjrbxwOJG9ETXVjilGqK
+ o+xxYN/PgDgf00ymR2p6FyvjbBcv7h6JnLPTF1gYS33dT0+C/Lr6PyJZMhT4ZkvqihNTummJ
+ 1aXVvSuxnlSmzOmFGxYyjchcjissZishAR0v2WbKGcbRJvxZ8Rxn0uDvYWHG7ha2TwaTSN/k
+ jTNGFWmed+k4YfM/38smv63TWO9X4ZVeDfqwoqctSy9o2ZtBE/m980=
+IronPort-Data: A9a23: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
+ T6pi5T7LFrQM1hfgdV61i1Qk69MvqowMgz0
+IronPort-HdrOrdr: A9a23:5vjQwKD3Lz1uFezlHemv55DYdb4zR+YMi2TDt3oddfWaSKKlfr
+ OV7ZImPH7P+VMssRQb8+xoV5PhfZqxz/FICOoqTNWftWvdyQiVxehZhOOI/9D5IUHDH4VmtJ
+ uIBpIOb+EYdWIK6frH3A==
+X-Talos-CUID: =?us-ascii?q?9a23=3Ax7+4e2top9Bo+qgBW2CRs8PW6IsVLEDR/n3PE3a?=
+ =?us-ascii?q?RIntNZKy3SViz9qdNxp8=3D?=
+X-Talos-MUID: 9a23:Bb6/MgR4whNxSyJlRXS3pwNzJMZjvp+kGXJWzrxB4/iOBGtJbmI=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.20,245,1758553200"; 
+   d="jpg'145?scan'145,208,217,145";a="52899616"
+Received: from vmi2441136.contaboserver.net ([94.136.184.46])
+  by hd-esa3.service with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 03 Dec 2025
+14:42:07 +0900
+Received: from LAPTOPP6RKI9ML (unknown [49.36.80.147])
+        by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id
+AE4C96A1087;
+        Wed,  3 Dec 2025 06:41:38 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=varitasnavigation.com; s=default; t=1764740524;
+        bh=1IAfbQ0TS4l8pYIhObykeTLZ+ZlhiE7+7ytk3b/rIZM=; h=From:Subject;
+  b=XjeZ1CvlgtOoANC8+HSsBlvxzqaNMuvPhfe30KJpnzwKoIB/PeEQeuC3VoodAt8jQ
+         p9KppX9GC8oFzaXVyH2zqpD/dERbppmZTWR9JWS040Nnwl85SrzoUwSW7X8+UN6F88
+         BAJsbtFjvguQKmTGp2XBbiZLEo8A+IEyJT8wPozK0un8Jj0MUVWzFen6cT7WxufMDA
+         GlASJ2ILwKe0L8P0GnHah9DDcFQgMNKBAfURyipwDxe8MwJucl+BLjuAXn55xO/5aI
+         NjX+fvD806HJTI9xciMq3ZAiyVYKKjqF82acg/oaB8PAUuP1+S0uQi1QgYfJuOO5DQ
+         K/W5uKIylPQHg==
+X-EX: Clean
+From: <chartering@varitasnavigation.com>
+CC: 'Varitas Navigation' <chartering@varitasnavigation.com>
+Subject: ACC VARITAS NAVIGATION
+Date: Wed, 3 Dec 2025 11:11:35 +0530
+Message-ID: <044701dc6417$8abe3960$a03aac20$@varitasnavigation.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+        boundary="----=_NextPart_000_0448_01DC6445.A4790D70"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdxkF2SpzUWSn9vZRVO2iDztFoa8TA==
+Content-Language: en-in
+X-CLX-Shades: MLX
+X-Proofpoint-GUID: RXKzvrPrTgIIMwoP9KLVX1zX6e3VIl0h
+X-Proofpoint-Spam-Details-Enc: AW1haW4tMjUxMjAzMDA0MSBTYWx0ZWRfX4no2ray+yzEV
+WZ4JqBvCx348+ZZ3NeoUUd4ynMo9k/PeD+2qWTTQyKvXJABR65BWEqZx3nsY+gxWl7fyHwjkPJg
+0yySBY+jyC3//owJoSUzCQ7XpW22NvCCFhtrkiRMBHyHoD8d6oCGGn/O8vjJpo5JrmKJUGw7mZd
+ Uv/DlKKP24QnvXtflAukSawmWPRDaKjWLNC6IVpLMcm/pLTQ5VuOZ7sFl8kKWOVsgQS48Imda0Z
+AXYZyNEPEcwi/EBdw9U052Dn2XVhvOrVTiefJOJwoOBNU9a7G5YMt4UW5IaTzFr76VWso3KPuCx
+9LuqohqvFT5keXosSrw915OWM0bUC7gZ5uC01ch0y8LygAsTqTvjVpzQC3pVbSIdVIIu4whEXdb
+ 55JMZpts+AhUSlCcLqeRKJ/HBLZBUqINf/x5CD99Y69MvWT3ATS0ZkSZB4sfVOYJxPuuNRzd
+X-CLX-Response: 1TFkXGxIcEQpMehcaEQpZRBdmWV9+GxxZfHBjYREKWFgXY0RlHlt/Hm0dU30
+RCnhOF2N8fn1rTRt7GXIZEQp5TBdle21SbGYSSBxbfxEKQ0gXBx4YEQpDWRcHGxgfEQpDSRcaBB
+oaGhEKWU0XZ2ZyEQpZSRcacRoQGncGGxwccR4fEBp3BhgaBhoRClleF2hjeREKSUYXQlNfRE5LQ
+ 0tfXkVPXE9YdVpYRU5fSV5DRUQHXEcRCklHF3hPTREKQ04XeHJhUFxYelh+TWNjZ11FehNhZnxy
+G1ByHE8ZfGNGGkIRClhcFx8EGgQeGxoFGxoEGxoaBBsZHgQZHxAbHhofGhEKXlkXTXByYGQRCk1
+cFxseGREKTFoXaXtDQk1NEQpFWRdpEQpMXxd6BQUFBQUFBQUFRBEKTEYXb2tpbhEKQk8XelBFRx
+ 9MQGd7Rx8RCkNaFxMeBBsZHAQbEh4EHhwRCkJeFxsRCkReFxoRCkRJFxsRCkJFF2EfGxlfWVpcR
+WBSEQpCThdjfH59a00bexlyGREKQkwXY0RlHlt/Hm0dU30RCkJsF2NEZR5bfx5tHVN9EQpCQBdl
+QB1fXUtjZEJJbhEKQlgXb0AcbxhwG0VAS38RCk1eFxsRClpYFxsRCnlDF2FgSUhtH1BTc2ZCEQp
+ ZSxcZGhsRCnBnF25uU2cfXUNIBXt+EBkaEQpwaBdrY39wQhJNAQEYZBAZGhEKcGgXZlptWGJ5Zk
+V4HxMQGRoRCnBoF2t4H2ATQRJ8WG1kEBoRCnBoF2tSTmtpbEJnQ0JIEBkaEQpwaBdkUmBkcBx/W
+V5rYBAZGhEKcGgXYRN+GmRYek5nH3kQGRoRCnBoF2ljGx1yeWxbQmtTEBkaEQpwaBdtY3sYW0kZ
+ X2wFWRAZGhEKcGcXY0RnaW5uYH1FXh0QGxsYEQpwYxdrZ1xjYkZZfUccUBAZGhEKcEMXYGR7YG5
+iHF1/f18QGRoRCm1+FxsRClhNF0sRIA==
+X-Proofpoint-ORIG-GUID: RXKzvrPrTgIIMwoP9KLVX1zX6e3VIl0h
+X-Proofpoint-Virus-Version: vendor=baseguard
+ engine=ICAP:2.0.293,Aquarius:18.0.1121,Hydra:6.1.9,FMLib:17.12.100.49
+ definitions=2025-12-01_01,2025-11-27_02,2025-10-01_01
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=1
+suspectscore=0 priorityscore=0
+ mlxscore=1 mlxlogscore=227 unknownsenderscore=20 adultscore=0
+ malwarescore=0 lowpriorityscore=0 bulkscore=0 impostorscore=0 spamscore=1
+ clxscore=186 phishscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.19.0-2510240000 definitions=main-2512030041 domainage_hfrom=301
+Return-Path: chartering@varitasnavigation.com
+X-HKMC-COVI-TEMPVALUE: |glovis1@hyundai.com|
+Dear All,
+
+ 
+
+Good day.
+
+ 
+
+// FULLY FIRM // 
+
+ 
+
+ACC VARITAS NAVIGATION
+
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. 
+
+Load port: Tianjin, China
+
+Discharge port: Shuaiba, Kuwait.
+
+Load rate: CQD 
+
+Discharge: Liner out.
+
+Laycan 15-20th December 2025.
+
+As part cargo.
+
+2.5% Addcom
+
+ 
+
+ 
+
+Best Regards:
+
+ 
+
+
+
+ 
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+
+Website:- www.varitasnavigation.com
+
+ 
+

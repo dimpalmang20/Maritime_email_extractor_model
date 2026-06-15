@@ -1,0 +1,38 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "NEW LEGEND",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-63000",
+    "del_port": "BOHAI BAY",
+    "redel_port": "CARIB OR NCSA.",
+    "laycan_start": "2026-05-20",
+    "laycan_end": "2026-05-25",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [
+      "NO cgo on deck"
+    ],
+    "confidence_score": 0.9
+  },
+  {
+    "email_type": "TC",
+    "account_name": "SAT",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-64000",
+    "del_port": "",
+    "redel_port": "WAF INT NIGERIA",
+    "laycan_start": "2026-06-01",
+    "laycan_end": "2026-06-03",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.8
+  }
+]

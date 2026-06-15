@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VANTAGE EUPHORIA 32.071",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "PECEM",
+    "open_date": "2027-01-09",
+    "close_date": "2027-01-14",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VANTAGE EUPHORIA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32071",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "20928",
+    "nrt": "11786",
+    "loa": "",
+    "beam": "179.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO\n\nADVERSE\n\nCURRENTS",
+      "NO RESTRICTED AREAS",
+      "NO MIXING OF VLSFO\n\nALLOWED"
+    ],
+    "confidence_score": 0.78
+  }
+]

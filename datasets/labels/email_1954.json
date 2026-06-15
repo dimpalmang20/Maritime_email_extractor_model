@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AKMI 64",
+    "vessel_type": "Ultramax Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-24",
+    "close_date": "2026-12-29",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.63
+  }
+]

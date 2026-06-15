@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MV. PAN SALUS",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.98m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "DHARAMTAR",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "North China",
+    "restrictions": [
+      "No extrapolation whatsoever\n\nof",
+      "no\n\ncircumstances whatsoever are Charterers entitled to deduct any alleged\n\nperformance claim from hire"
+    ],
+    "confidence_score": 0.82
+  }
+]

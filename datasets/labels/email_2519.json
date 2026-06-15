@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "31000",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Positions",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "US Gulf Coast",
+    "restrictions": [
+      "no bulk at this time",
+      "no bulk at this time"
+    ],
+    "confidence_score": 0.69
+  }
+]

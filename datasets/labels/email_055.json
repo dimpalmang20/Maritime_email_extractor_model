@@ -1,0 +1,20 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "DEVBULK SALIHA",
+  "vessel_type": "SINGLE DECK DOUBLE HULL WIDE HATCH",
+  "imo": "9449871",
+  "dwt": 31018,
+  "built_year": 2011,
+  "flag": "MARSHALL ISLANDS",
+  "class": "ABS",
+  "grt": 19999,
+  "nrt": 10792,
+  "loa": 178.7,
+  "beam": 28.0,
+  "open_port": "QINGDAO, CHINA",
+  "open_date": "2025-11-23",
+  "close_date": "2025-11-25",
+  "cranes": "4 X 30MT",
+  "grabs": "2 X 12CBM",
+  "confidence_score": 0.99
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ic progress - open salvador",
+    "vessel_type": "MR Tanker",
+    "dwt": "32500",
+    "built_year": "2011",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "20218",
+    "nrt": "",
+    "loa": "177.5m",
+    "beam": "28.2m",
+    "grain_capacity": "",
+    "open_port": "salvador",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "Brazil",
+    "restrictions": [
+      "NO GRABS FITTED\n\nTANK TOP STRENGTH",
+      "NO NEGATIVE INFLUENCE BY SWELL",
+      "NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.98
+  }
+]

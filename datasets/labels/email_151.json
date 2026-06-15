@@ -1,0 +1,36 @@
+{
+  "email_id": 151,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV SPARK TBN",
+      "dwt": 53000,
+      "open_position": "Caofeidian, China",
+      "open_dates": "2025-11-14 to 2025-11-16",
+      "remarks": "Russia OK"
+    },
+    {
+      "name": "MV FUDA",
+      "dwt": 56039,
+      "built": 2007,
+      "open_position": "Gresik, Indonesia",
+      "open_dates": "2025-11-21 to 2025-11-25",
+      "remarks": "Russia/Ukraine/Goa OK"
+    },
+    {
+      "name": "MV HJ SHANGHAI",
+      "dwt": 63500,
+      "built": 2025,
+      "open_position": "Nantong, China",
+      "open_dates": "End November 2025"
+    },
+    {
+      "name": "MV AC VICTORY",
+      "dwt": 75804,
+      "built": 2005,
+      "open_position": "Haldia, India",
+      "open_dates": "2025-11-20 to 2025-11-24"
+    }
+  ],
+  "source_email": 151
+}

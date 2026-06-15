@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "Prima",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "35000-50000",
+    "del_port": "Cont / Baltic",
+    "redel_port": "Feast",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Baltic Sea",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

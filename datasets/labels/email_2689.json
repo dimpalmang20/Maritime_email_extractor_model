@@ -1,0 +1,41 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2025-12-29",
+    "laycan_end": "2026-01-03",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DONGMAN CRANES",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "9542829",
+    "grt": "22697",
+    "nrt": "12324",
+    "loa": "181.1m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO\n\nLADEN ABT"
+    ],
+    "confidence_score": 0.74
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "email_id": 121,
+  "email_type": "open_vessels",
+  "source_company": "Marcons Group",
+  "vessels": [
+    {
+      "vessel_name": "BRICKFIELDER",
+      "vessel_type": "Gearless Bulk Carrier",
+      "flag": "Panama",
+      "class": "LR +100A1",
+      "imo": "9487885",
+      "built_year": 2011,
+      "open_port": "Abbot Point",
+      "open_country": "Australia",
+      "open_date": "2025-11-24",
+      "dwt": 93018,
+      "draft_m": 14.9,
+      "grt": 51209,
+      "nrt": 31195,
+      "holds": 7,
+      "hatches": 7,
+      "grain_capacity_cbm": 110330,
+      "loa_m": 229.2,
+      "beam_m": 38.0,
+      "ghg_rating": "D+",
+      "route_suitability": "RS 3/5",
+      "rob_vlsfo_mt": 2000,
+      "rob_lsmgo_mt": 90
+    }
+  ]
+}

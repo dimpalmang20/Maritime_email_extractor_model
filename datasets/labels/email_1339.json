@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "agro",
+    "cargo_type": "Dry Bulk",
+    "quantity": "20-25000",
+    "quantity_unit": "MT",
+    "load_port": "WOG POC - Tunisia LOA max 200 m draft 10.05 m 8k",
+    "discharge_port": "sshex",
+    "laycan_start": "2025-12-05",
+    "laycan_end": "2025-12-10",
+    "load_rate": "6000 MT/DAY",
+    "discharge_rate": "4000 MT/DAY",
+    "commission": "2.50%",
+    "matching_region": "Ukraine",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

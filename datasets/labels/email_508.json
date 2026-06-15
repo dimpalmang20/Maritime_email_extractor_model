@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "RHEA 63.5",
+    "vessel_type": "Supramax Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-11-26",
+    "close_date": "2026-12-01",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

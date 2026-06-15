@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "18465",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SAMALAJU,",
+    "open_date": "2026-02-12",
+    "close_date": "2026-02-13",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

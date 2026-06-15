@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Container Ship",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Mombasa,",
+    "open_date": "2026-12-08",
+    "close_date": "2026-12-12",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.6
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MORNING",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "46859",
+    "built_year": "",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "",
+    "nrt": "28795",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.69
+  }
+]

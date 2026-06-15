@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "25000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2025-11-06",
+    "laycan_end": "2025-11-11",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.50%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.83
+  }
+]

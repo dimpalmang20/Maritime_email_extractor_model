@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PVT AROMA",
+    "vessel_type": "MR Tanker",
+    "dwt": "27000",
+    "built_year": "2008",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.82
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PVT AROMA",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2008",
+    "flag": "VIETNAM",
+    "imo": "9334480",
+    "grt": "",
+    "nrt": "1641800",
+    "loa": "165.5m",
+    "beam": "27m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "no affect of sea and current and no influence of swell and\n\nadverse current",
+      "No\n\nextrapolation can be made for other weather"
+    ],
+    "confidence_score": 0.77
+  }
+]

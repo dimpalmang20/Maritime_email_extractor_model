@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "IFO",
+    "vessel_type": "MR Tanker",
+    "dwt": "63414",
+    "built_year": "2015",
+    "flag": "GT",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "78771",
+    "open_port": "DJIBOUTI",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "East Coast South America",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.84
+  }
+]

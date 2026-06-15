@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SWL - Combined 120 mt",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "11169",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-99999",
+    "del_port": "KOREA",
+    "redel_port": "VERACRUZ - KEYWEST (FOR PERIOD : W.W)",
+    "laycan_start": "2026-01-15",
+    "laycan_end": "2026-01-17",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

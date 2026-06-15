@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "XIN HAI TONG 808 2013 BLT 76038DWT",
+    "vessel_type": "Kamsarmax Bulk Carrier",
+    "dwt": "76038",
+    "built_year": "2013",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "41298",
+    "nrt": "",
+    "loa": "225m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "HONGKONG",
+    "open_date": "2025-12-28",
+    "close_date": "2025-12-31",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

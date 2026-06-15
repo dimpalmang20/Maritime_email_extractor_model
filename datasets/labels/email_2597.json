@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TAN BINH 299",
+    "vessel_type": "Container Ship",
+    "dwt": "33132",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "177m",
+    "grain_capacity": "",
+    "open_port": "Haiti",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.79
+  }
+]

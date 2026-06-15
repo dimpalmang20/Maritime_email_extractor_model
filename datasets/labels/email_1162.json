@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LS MGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "76602",
+    "built_year": "2005",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "224.94m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2025-12-05",
+    "close_date": "2025-12-10",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.83
+  }
+]

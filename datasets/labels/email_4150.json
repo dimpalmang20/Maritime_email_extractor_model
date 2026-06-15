@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WOOHYUN SHIPPING, KOREA",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "APS INLAND SEA, JAPAN (TRY DOP)",
+    "redel_port": "MED - CONTI RANGE (INT' CONTI / PREFER GOA PASSING)",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

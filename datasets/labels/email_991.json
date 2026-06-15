@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Pleased to hear.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "20867",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "AUCKLAND",
+    "open_date": "2025-12-10",
+    "close_date": "2025-12-15",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.8
+  }
+]

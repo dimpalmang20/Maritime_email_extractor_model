@@ -1,0 +1,27 @@
+{
+  "email_id": 230,
+  "email_type": "tonnage",
+  "source": "Rieck + Petersen",
+  "vessels": [
+    {
+      "vessel_name": "NAVA ULYSSES",
+      "open_position": "Liverpool",
+      "open_date": "2025-11-22/2025-11-26",
+      "built_year": 2012,
+      "flag": "Marshall Islands",
+      "vessel_type": "Semi Box Bulk Carrier",
+      "dwt_mt": 34898,
+      "draft_m": 10.1,
+      "loa_m": 179.95,
+      "beam_m": 30.0,
+      "tpc": 50.8,
+      "holds": 5,
+      "hatches": 5,
+      "grain_cbm": 46761.7,
+      "bale_cbm": 45683,
+      "cranes": "4x30 MT",
+      "grabs": "3x12 CBM",
+      "features": ["CO2", "A60"]
+    }
+  ]
+}

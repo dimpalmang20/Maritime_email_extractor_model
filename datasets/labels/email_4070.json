@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "TCT WITH COAL",
+    "cargo_type": "Dry Bulk",
+    "dwt": "",
+    "del_port": "TM VIETNAM (INT. CAMPHA)",
+    "redel_port": "",
+    "laycan_start": "2026-02-03",
+    "laycan_end": "2026-02-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.91
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "80000-99999",
+    "del_port": "",
+    "redel_port": "SEASIA (INT. THAILAND)",
+    "laycan_start": "2026-02-10",
+    "laycan_end": "2026-02-14",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

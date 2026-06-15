@@ -1,0 +1,31 @@
+{
+  "email_id": 134,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV YU LONG LING",
+      "dwt": 32005,
+      "built": 2011,
+      "flag": "China",
+      "open_position": "Conakry",
+      "open_dates": "2025-11-10 to 2025-11-11"
+    },
+    {
+      "name": "MV QI XIAN LING",
+      "dwt": 34551,
+      "built": 2011,
+      "flag": "China",
+      "open_position": "Dakar",
+      "open_dates": "2025-11-12 to 2025-11-13"
+    },
+    {
+      "name": "MV LV SONG HAI",
+      "dwt": 38862.8,
+      "built": 2016,
+      "flag": "Hong Kong",
+      "open_position": "Naples",
+      "open_dates": "2025-11-15 to 2025-11-16"
+    }
+  ],
+  "source_email": 134
+}

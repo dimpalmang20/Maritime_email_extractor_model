@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MEGHNA CENTURY -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "66000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BHAVNAGAR",
+    "open_date": "2025-12-03",
+    "close_date": "2025-12-04",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SEA,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENTS AND NO CURRENT FACTOR",
+      "NO SPEED AND CONSUMPTION WARRANTY APPLIES TO WEATHER CONDITIONS EXCEEDING GOOD WEATHER CONDITIONS",
+      "NO CIRCUMSTANCES SHOULD ANY CLAIM BE DEDUCTED FROM HIRE UNTIL IT HAS BEEN AGREED BY BOTH PARTIES"
+    ],
+    "confidence_score": 0.67
+  }
+]

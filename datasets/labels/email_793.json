@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PWWD SSHINC OF 24 CONSECUTIVE HRS. PORT",
+    "vessel_type": "Crude Oil Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "of convenience is",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BOOK",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.67
+  }
+]

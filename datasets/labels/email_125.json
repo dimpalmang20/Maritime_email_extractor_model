@@ -1,0 +1,25 @@
+{
+  "email_id": 125,
+  "email_type": "open_vessels",
+  "source_company": "Marcons Group",
+  "vessels": [
+    {
+      "vessel_name": "AQUAVITA SEA",
+      "built_year": 2020,
+      "open_port": "Zhoushan",
+      "open_country": "China",
+      "open_date": "2025-11-12/15",
+      "dwt": 81480,
+      "draft_m": 14.51,
+      "tpc": 71.2,
+      "loa_m": 229.0,
+      "beam_m": 32.26,
+      "grt": 44000,
+      "nrt": 27550,
+      "holds": 7,
+      "hatches": 7,
+      "ghg_rating": "C",
+      "route_suitability": "RS 3/5"
+    }
+  ]
+}

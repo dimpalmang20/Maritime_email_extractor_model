@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Misumi 27/30 Nov trip via NoPac redel",
+    "redel_port": "Indonesia intention grains $20,250 - cnr",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "no rush to commit, keeping rates broadly",
+      "no more details came to light"
+    ],
+    "confidence_score": 0.92
+  }
+]

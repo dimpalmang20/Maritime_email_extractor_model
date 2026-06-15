@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NORDRHONE 30.036 dwt open Crockett 16-18 December",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "30036",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "23975",
+    "nrt": "12919",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Crockett",
+    "open_date": "2026-12-16",
+    "close_date": "2026-12-18",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.94
+  }
+]

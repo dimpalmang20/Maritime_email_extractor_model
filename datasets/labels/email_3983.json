@@ -1,0 +1,53 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-79999",
+    "del_port": "BUSAN , S.KOREA",
+    "redel_port": "GIB - RIGA INC UK",
+    "laycan_start": "2026-01-25",
+    "laycan_end": "2026-01-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.93
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "PG (INT. SHARJAH)",
+    "redel_port": "W.AUST",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Persian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "80000-99999",
+    "del_port": "TO MAKE 1 SP JAPAN ATDNSHINC",
+    "redel_port": "",
+    "laycan_start": "2026-02-03",
+    "laycan_end": "2026-02-05",
+    "duration": "40-45 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

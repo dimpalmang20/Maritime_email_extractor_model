@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CRANE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "10025",
+    "built_year": "1999",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "15982",
+    "nrt": "",
+    "loa": "172m",
+    "beam": "",
+    "grain_capacity": "35670",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.79
+  }
+]

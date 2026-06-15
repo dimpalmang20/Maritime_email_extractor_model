@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Container Ship",
+    "dwt": "22863",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "West Coast India",
+    "restrictions": [
+      "no obstructions in holds",
+      "no centerline"
+    ],
+    "confidence_score": 0.59
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+  "email_id": 94,
+  "email_type": "open_vessel",
+  "vessel_name": "Jessie",
+  "dwt": 24100,
+  "draft_m": 9.67,
+  "built_year": 1999,
+  "cranes": "4 x 30T",
+  "open_port": "Nanjing",
+  "trading_area": "CJK",
+  "open_date_from": "2025-11-18",
+  "open_date_to": "2025-11-22"
+},
+{
+  "email_id": 94,
+  "email_type": "open_vessel",
+  "vessel_name": "Sea Honor",
+  "dwt": 28400,
+  "draft_m": 9.67,
+  "built_year": 1998,
+  "cranes": "4 x 30T",
+  "open_port": "Jingjiang",
+  "trading_area": "CJK",
+  "open_date_from": "2025-11-20",
+  "open_date_to": "2025-11-25"
+},
+{
+  "email_id": 94,
+  "email_type": "open_vessel",
+  "vessel_name": "Run Fu 8",
+  "dwt": 28400,
+  "draft_m": 9.76,
+  "built_year": 2000,
+  "cranes": "4 x 30T",
+  "open_port": "Zhoushan",
+  "open_date_from": "2025-11-28",
+  "open_date_to": "2025-12-05"
+}
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "ALI M",
+    "dwt": 45000,
+    "built_year": 1995,
+    "vessel_type": "GEARED BULK CARRIER",
+    "open_port": "EAST BRAZIL",
+    "open_date": "2025-12-10",
+    "close_date": "2025-12-12",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "FAROUK M",
+    "dwt": 46000,
+    "built_year": 2000,
+    "vessel_type": "GEARED BULK CARRIER",
+    "open_port": "WC INDIA",
+    "open_date": "2025-11-22",
+    "close_date": "2025-11-24",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "MANSOUR M",
+    "dwt": 33000,
+    "built_year": 2005,
+    "vessel_type": "BOX SHAPED BULKER",
+    "open_port": "WEST AFRICA",
+    "open_date": "2026-01-05",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "ABDULLAH M",
+    "dwt": 32000,
+    "built_year": 2004,
+    "vessel_type": "BOX SHAPED BULKER",
+    "open_port": "WEST MED",
+    "open_date": "2025-11-20",
+    "close_date": "2025-11-23",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "VAFAA M",
+    "dwt": 24500,
+    "built_year": 1997,
+    "vessel_type": "BOX SHAPED BULKER",
+    "open_port": "EGYPT MED",
+    "open_date": "2025-11-16",
+    "close_date": "2025-11-18",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "MOHAMAD M",
+    "dwt": 23500,
+    "built_year": 1997,
+    "vessel_type": "BOX SHAPED BULKER",
+    "open_port": "WC INDIA",
+    "open_date": "PROMPT",
+    "confidence_score": 0.99
+  }
+]

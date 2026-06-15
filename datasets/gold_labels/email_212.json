@@ -1,0 +1,59 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 207\nemail_type: open_vessels\nsource_company: Energy Bulk Carriers\nvessels:\n- vessel_name: BT TREVIA\n  dwt: 63581.5\n  open_port: Lanqiao\n  open_date: '2025-11-24/30'\n  vessel_type: Bulk Carrier\n  flag: Majuro\n  built_year: 2016\n  class: DNV GL\n  loa_m: 199.88\n  lbp_m: 194.5\n  beam_m: 32.26\n  depth_m: 18.50\n  gross_tonnage: 36332\n  net_tonnage: 21626\n  tpc_ssw: 62.3\n  grain_capacity_cbm: 78750.75\n  bale_capacity_cbm: 73680\n  holds: 5\n  hatches: 5\n  tanktop_strength: 25T/M2 for holds 1,3,5 / 20T/M2 for holds 2,4\n  cranes: 4 x 30T\n  grabs: 4 x 15T (12 cbm)\n  vessel_features: CO2/Grain/Aust HL-WWF Fitted\n  trading_restrictions: No GOA, No West Africa HRA",
+  "entities": {
+    "VESSEL": [
+      "BT TREVIA"
+    ],
+    "VESSEL_TYPE": [
+      "BULK CARRIER"
+    ],
+    "DWT": [
+      "63K",
+      "65309.6",
+      "63581.5",
+      "61854.7"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "IRON ORE",
+      "CLINKER",
+      "GYPSUM"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "LANQIAO",
+      "MAJURO"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Energy Bulk Carriers",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "24 NOV TO 30 NOV 2025"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "SHORT PERIOD"
+    ],
+    "TONNAGE": [
+      "63K"
+    ],
+    "CONTACT": [
+      "handy@energybulk.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com",
+      "ebc12345@live.com.my"
+    ],
+    "RESTRICTIONS": [
+      "NO GOA",
+      "NO WEST AFRICA HRA",
+      "NO MIXING OF BUNKER ALLOWED"
+    ]
+  }
+}

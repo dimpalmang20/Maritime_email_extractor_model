@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "17000-23000",
+    "del_port": "BL SEA , FULL MED",
+    "redel_port": "",
+    "laycan_start": "2026-05-02",
+    "laycan_end": "2026-05-07",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Ukraine",
+    "restrictions": [
+      "NO RUSSIA / NO UKRAINE"
+    ],
+    "confidence_score": 0.88
+  }
+]

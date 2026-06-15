@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HE SHENG DONG FANG",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37500",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-15",
+    "close_date": "2026-12-17",
+    "matching_region": "West Africa",
+    "restrictions": [
+      "NO BULK CEMENT",
+      "NO SP",
+      "NO PERIOD"
+    ],
+    "confidence_score": 0.82
+  }
+]

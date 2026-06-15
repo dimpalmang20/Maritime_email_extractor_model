@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-79999",
+    "del_port": "SULPHUR",
+    "redel_port": "CONCENTRATE",
+    "laycan_start": "2026-01-04",
+    "laycan_end": "2026-01-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.8
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VLSFO",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "22668",
+    "loa": "186.96m",
+    "beam": "28.6m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.63
+  }
+]

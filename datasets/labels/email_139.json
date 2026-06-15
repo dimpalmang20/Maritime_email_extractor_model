@@ -1,0 +1,19 @@
+{
+  "email_id": 139,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV BLUE VOYAGE",
+      "vessel_type": "Self Trimming Grab Fitted Bulk Carrier",
+      "dwt": 52491,
+      "built": 2004,
+      "flag": "Bangladesh",
+      "open_position": "Trincomalee, Sri Lanka",
+      "open_dates": "2025-11-10 to 2025-11-15",
+      "grain_capacity_cbm": 67756.3,
+      "cranes": "4 x 30T",
+      "grabs": "4 units"
+    }
+  ],
+  "source_email": 139
+}

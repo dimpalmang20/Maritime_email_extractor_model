@@ -1,0 +1,38 @@
+{
+  "email_id": 265,
+  "email_type": "vessel_position",
+  "company": "Aryacorp Pvt. Ltd.",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "BAM PROTEUS",
+      "vessel_type": "Open Hatch Box Shaped Bulk Carrier",
+      "dwt": 33471,
+      "built_year": 2007,
+      "flag": "Marshall Islands",
+      "class": "RINA",
+      "open_position": "Immingham, UK",
+      "open_date": "2025-11-21 to 2025-11-25",
+      "holds_hatches": "5/5",
+      "grain_capacity_cbm": 42576,
+      "bale_capacity_cbm": 41103,
+      "cranes": "4 x 30 MT",
+      "speed_ballast_knots": 13.0,
+      "speed_laden_knots": 13.0,
+      "cons_ballast_mt_day": 15.64,
+      "cons_laden_mt_day": 16.56,
+      "port_idle_consumption_mt_day": 2.2,
+      "port_working_consumption_mt_day": 4.5,
+      "remarks": [
+        "Open Hatch",
+        "Box Type",
+        "AHL Fitted",
+        "CO2 Fitted",
+        "ITF Fitted",
+        "Super Eco",
+        "Grain Clean"
+      ]
+    }
+  ]
+}

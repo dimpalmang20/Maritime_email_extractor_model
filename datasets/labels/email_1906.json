@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "TMA Bulk Pool Inc.",
+    "cargo": "TMA",
+    "cargo_type": "Dry Bulk",
+    "dwt": "",
+    "del_port": "Pto Bolivar",
+    "redel_port": "North Spain",
+    "laycan_start": "2025-12-08",
+    "laycan_end": "2025-12-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

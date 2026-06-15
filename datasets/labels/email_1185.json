@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MAGMA FIDELITY 63700",
+    "vessel_type": "Ultramax Bulk Carrier",
+    "dwt": "",
+    "built_year": "2023",
+    "flag": "Liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-08",
+    "close_date": "2026-12-13",
+    "matching_region": "East Mediterranean",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.4
+  }
+]

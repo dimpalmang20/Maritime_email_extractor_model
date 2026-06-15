@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ZARAAR HANIF",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55693",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "NO COASTAL\n\nMV",
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL",
+      "NO BOTTOM FOULING DUE TO IDLE PERIODS OF"
+    ],
+    "confidence_score": 0.69
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "email_id": 124,
+  "email_type": "cargo_requirement",
+  "broker": "Interbulk Shipbrokers",
+  "charterer": "DAVA Singapore",
+  "requirement_type": "Trip Charter",
+  "cargo": "Steels / General Cargo",
+  "vessel_size": "40K DWT up to Ultramax",
+  "geared": true,
+  "delivery_range": "North China / Korea Range",
+  "redelivery": "North Brazil",
+  "duration_days": 70,
+  "laycan": "2025-11-13/19",
+  "commission_pct": 3.75,
+  "remarks": "Try period business"
+}

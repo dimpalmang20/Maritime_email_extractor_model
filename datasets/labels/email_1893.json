@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-39999",
+    "del_port": "BLSEA ( calling Russian )",
+    "redel_port": "PG ( NO I/I)",
+    "laycan_start": "2025-12-07",
+    "laycan_end": "2025-12-14",
+    "duration": "35-40 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Black Sea",
+    "restrictions": [
+      "NO I/I)"
+    ],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,22 @@
+{
+   "text" : " \n \n \n \n \nBest Regards:\n \n\n \nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com>\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n \nFrom: HDFC Bank Prepaid Cards <PrepaidCards@hdfcbank.net> \nSent: 19 November 2025 03:39\nTo: CHARTERING@VARITASNAVIGATION.COM\nSubject: Transaction Failed on Your HDFC Bank Prepaid Card\n \nDear Customer,\nYour transaction of AED 2025 on your HDFC Bank Prepaid Card 3584 was\nunsuccessful.\nWhat You Need to Know:\n*\tIf any amount was debited, it will be refunded within 3-4 working\ndays.\n*\tNeed to complete your purchase? Reload your card quickly\n<https://hdfcbk.io/HDFCBK/K/DUvfZksyOdx> here.\nDidn't make this transaction? Call us immediately at 1800 258 6161.\nWarm Regards,\nHDFC Bank\nPlease do not reply back to this e-mail. For any queries or clarifications\nE-mail us by visiting www.hdfcbank.com/services. \nRegards,\nHDFC Bank Limited. \nHDFC Bank officials or representatives will NEVER ask you for your personal\ninformation i.e. your card details, passwords, PIN, CVV, OTP etc. DO NOT\nshare these details with anyone over phone, SMS or email.\nTo read more about secure banking\nhttp://www.hdfcbank.com/aboutus/security/security_tips.htm \nKindly refer our Customer Protection Policy for electronic banking\ntransactions at: www.hdfcbank.com/assets/pdf/Customer-Protection-Policy.pdf \nIf you have not done above transaction, please immediately call on\n18002586161 to report such transaction.\n",
+   "entities" : {
+      "LOAD_PORT" : null,
+      "DWT" : null,
+      "VESSEL" : null,
+      "VESSEL_TYPE" : null,
+      "CARGO" : null,
+      "OPEN_DATE" : null,
+      "IMO" : null,
+      "CONTACT" : [
+         "HDFC Bank"
+      ],
+      "LAYCAN" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : null,
+      "DISCHARGE_PORT" : null,
+      "FREIGHT_RATE" : null,
+      "CHARTERER" : null,
+      "PORT" : null
+   }
+}

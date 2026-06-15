@@ -1,0 +1,141 @@
+ 
+ 
+ 
+ 
+ 
+Best Regards:
+ 
+
+ 
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+ 
+From: postmaster@DaelimCloud.com <postmaster@DaelimCloud.com> 
+Sent: 02 December 2025 10:55
+To: chartering@varitasnavigation.com
+Subject: Undeliverable: // ACC VARITAS NAVIGATION //
+ 
+Delivery has failed to these recipients or groups:
+ <mailto:kmchoi@daelimcorp.co.kr> kmchoi@daelimcorp.co.kr
+The email address you entered couldn't be found. Please check the
+recipient's email address and try to resend the message. If the problem
+continues, please contact your email admin.
+
+
+
+
+
+
+Diagnostic information for administrators:
+Generating server: dagwmx02pc.DaelimCloud.com
+kmchoi@daelimcorp.co.kr
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient
+not found by SMTP address lookup'
+Original message headers:
+Received: from dagwmx02pc.DaelimCloud.com (10.197.2.5) by
+ dagwmx02pc.DaelimCloud.com (10.197.2.5) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.1748.36; Tue, 2 Dec 2025 14:24:33 +0900
+Received: from MDS2 (10.12.1.162) by dagwmx02pc.DaelimCloud.com (10.197.2.5)
+ with Microsoft SMTP Server id 15.2.1748.36 via Frontend Transport; Tue, 2
+Dec
+ 2025 14:24:33 +0900
+Received: from smtp1.daelimcloud.com ( [203.226.18.32])
+        by MDS2 ((AhnLab MDS-MTA) [3.0.54])
+        with ESMTP id
+<10be01dc634b$e1377f80$a3a67e80$@varitasnavigation.com>
+        ; Tue, 2 Dec 2025 14:23:40 +0900
+Received: from unknown (HELO vmi2441136.contaboserver.net) (94.136.184.46)
+        by 203.226.18.32 with ESMTP; 2 Dec 2025 14:24:16 +0900
+X-Original-SENDERIP: 94.136.184.46
+X-Original-SENDERCOUNTRY: IN, India 
+X-Original-MAILFROM: chartering@varitasnavigation.com
+Received: from LAPTOPP6RKI9ML (unknown [49.36.82.33])
+        by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id
+B82526A08CE;
+        Tue,  2 Dec 2025 06:23:57 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=varitasnavigation.com; s=default; t=1764653052;
+        bh=bmeveRN36mYE8z2gphBlykVtKkNoMhWFE89teZjEe9g=; h=From:Subject;
+  b=Qqf3zCkzN5ycPPhjb4fOrF5KSoLssDGiO7qgKzLyUFiHLr2zYtBoT1gwOoo62ZPL/
+         UrbaStXDbs2K9ravcLE9jRbLmOV8CVK/nbCg96gfOWoATf4CTbQ3z83EP0l6zEE1CW
+         0GURAgMFFYPNwZUf9Uj3YwY00VOHuABkjK30lBez5SV0u2OQiYxSUg+kJTFycfy2YW
+         8fk6tWmk2KRp8XgrGaF9m7lbO1gwIYjqSyoOD45P4/m1JvC0t5aIuoSRi4Np9PaHxj
+         QYBJFPy9r1X877KoiFTM43j380SsVe0TYLWTDSl2aFIrtnl12rYmuVsG657xsXjD+3
+         HpOXJFwKg8Mhw==
+Authentication-Results: vmi2441136.contaboserver.net;
+        spf=pass (sender IP is 49.36.82.33)
+smtp.mailfrom=chartering@varitasnavigation.com smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is
+authenticated)
+From: <chartering@varitasnavigation.com>
+CC: 'Varitas Navigation' <chartering@varitasnavigation.com>
+Subject: // ACC VARITAS NAVIGATION //
+Date: Tue, 2 Dec 2025 10:53:55 +0530
+Message-ID: <10be01dc634b$e1377f80$a3a67e80$@varitasnavigation.com>
+MIME-Version: 1.0
+X-WB-RES: NotUse 
+X-WB-TRACE-IP: 203.226.18.32
+Content-Type: multipart/related;
+        boundary="----=_NextPart_000_10BF_01DC6379.FAF0F400"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdxjS6S1ZPmsx2WOSVe0ztC98Rx+9w==
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+Dear All,
+
+Good day.
+
+ 
+
+// FULLY FIRM // 
+
+ 
+
+ACC VARITAS NAVIGATION
+
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. 
+
+Load port: Tianjin, China
+
+Discharge port: Shuaiba, Kuwait.
+
+Load rate: CQD 
+
+Discharge: Liner out.
+
+Laycan 15-20th December 2025.
+
+As part cargo.
+
+2.5% Addcom
+
+ 
+
+Best Regards:
+
+ 
+
+
+
+ 
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+
+Website:- www.varitasnavigation.com
+
+ 
+

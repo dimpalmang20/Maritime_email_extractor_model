@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "UNITED HALO",
+    "vessel_type": "MR Tanker",
+    "dwt": "55848",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "190m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2025-11-28",
+    "close_date": "2025-11-30",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE\n\nOF SWELL"
+    ],
+    "confidence_score": 0.77
+  }
+]

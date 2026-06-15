@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "BERGE BULK",
+    "cargo": "AFT PLS PPSE RATED TONNAGE FOR A/C BERGE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-69999",
+    "del_port": "APS ARZEW - 10-14 DEC",
+    "redel_port": "ULTRA",
+    "laycan_start": "2025-12-01",
+    "laycan_end": "2025-12-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "World Wide",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "DRYLOG",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "PATACHE - 5/25 DEC",
+    "redel_port": "USEC-USG",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "US East Coast",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

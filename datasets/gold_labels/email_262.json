@@ -1,0 +1,68 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: Mary Fatima Duhina <mary@seaspeedmarine.com> \nSent: 14 November 2025 16:02 \nSubject: M/V Minoan Glory - 74,748 Open Kakinada 15 Nov agw wp | M/V Minoan Courage - 76.801mt eta RBCT on ard 21-22 Nov agw wp \n  \nDEAR SIR!  \n \nGOOD DAY! \n  \nKINDLY PLS PPS FOR ANY SUITABLE BIZ FOR THE BELOW VSL  \n========================================= \n  \nM/V Minoan Courage - sailed Fujairah 07 Nov \n                                   - eta RBCT on ard 21-22 Nov agw wp \n                                   - eta ECSA on ard 05-08 Dec agw wp \n-- \nDwt 76.801mt on 14.221m ssw blt 8/2004 Liberian flg \n7/7 ho/ha abt 3.210.976 cbft grain loa/beam 225/32,20m \nIn Ballast: abt 12,00 knts on abt 26.5 mt vslfo+abt 0,20mt lsmgo \nIn Laden : abt 12,00 knts on abt 27.5 mt vslfo+abt 0,20mt lsmgo \nEco Spd/cons \nIn Ballast: abt 11,00 knts on abt 25.0 mt vslfo+abt 0,20mt lsmgo \nIn Laden : abt 11,00 knts on abt 26.0 mt vslfo+abt 0,20mt lsmgo \nPort consumption: \nabt 3.5 mt vslfo idle \nabt 4.5 mt vslfo working \nBWTS fitted \n  \nAnd \n  \nM/V Minoan Glory -  open Kakinada 15 Nov agw wp \n  \n--                \nDwat 74.748mt on 14.268 mtrs ssw draft blt 2006 Liberian flag \n7/7 ho/ha abt 3.239.077 cbft, loa/beam 225.00/32.26 m \nSpd/cons \nIn Ballast: abt 11.00 knts on abt 25.50 mt vslfo + abt 0.10 lsmgo \nIn Laden : abt 11.00 knts on abt 27.00 mt vslfo + abt 0.10 lsmgo \nPort consumption: \nabt 3.0 mt vslfo idle \nabt 4.0 mt vslfo working \nBWTS fitted \n  \nPLSD TO HEAR!  \n  \nBest Regards,  \nMary Fatima Duhina \nChartering Executive  \n  \nSeaspeed Marine Management LLC \n1104, Mohammed Al Mulla Tower, Al Ittihad Road, P.O.Box 32658, Sharjah, \nU.A.E. \nTel :  +971 6 5638938 | Fax : +971 6 5638939 \nEmail:  dry@seaspeedmarine.com | mary@seaspeedmarine.com \nTeams ID:  https://teams.live.com/l/invite/FEAcsGvdoh-MRVgnQQ  \nWechat ID & Whatsapp : +971 50 860 7046 \nWebsite:  www.seaspeedmarine.com \n  \nAs Brokers Only",
+  "entities": {
+    "VESSEL": [
+      "Minoan Courage",
+      "Minoan Glory"
+    ],
+    "VESSEL_TYPE": null,
+    "DWT": [
+      "76.801mt",
+      "74.748mt"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "Fujairah",
+      "RBCT",
+      "ECSA",
+      "Kakinada"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": [
+      "21-22 Nov",
+      "05-08 Dec"
+    ],
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Seaspeed Marine Management LLC"
+    ],
+    "LAYCAN": [
+      "21-22 Nov",
+      "05-08 Dec",
+      "15 Nov"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "76.801mt",
+      "74.748mt"
+    ],
+    "CONTACT": [
+      "mary@seaspeedmarine.com",
+      "dry@seaspeedmarine.com",
+      "+971 6 5638938",
+      "+971 50 860 7046"
+    ],
+    "RESTRICTIONS": [
+      "BWTS fitted"
+    ],
+    "tonnage_type": null,
+    "port": "RBCT",
+    "region": "ECSA",
+    "matching_region": "Kakinada",
+    "open_date": "2025-11-15",
+    "close_date": "2025-12-08",
+    "dwt": "76.801mt",
+    "tonnage_name": "Minoan Courage",
+    "pic": "Mary Fatima Duhina",
+    "email_id": "mary@seaspeedmarine.com",
+    "phone_number": "+97165638938",
+    "latitude": null,
+    "longitude": null
+  }
+}

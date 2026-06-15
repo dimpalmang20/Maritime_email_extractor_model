@@ -1,0 +1,53 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "NAVISION REQUIREMENTS",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "42000",
+    "del_port": "MOROCCO",
+    "redel_port": "NIGERIA",
+    "laycan_start": "2026-01-13",
+    "laycan_end": "2026-01-18",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "TC",
+    "account_name": "NAVISION",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "Tianjin, China",
+    "redel_port": "INTN DAKAR",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.8
+  },
+  {
+    "email_type": "TC",
+    "account_name": "NAVISION",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-69999",
+    "del_port": "NINGDE, CHINA",
+    "redel_port": "WC MEX",
+    "laycan_start": "2027-01-27",
+    "laycan_end": "2027-02-01",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

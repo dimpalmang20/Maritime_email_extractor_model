@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MANDRIN S",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.65
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MANDARIN S",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "1079307",
+    "grt": "35916",
+    "nrt": "21205",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "7808373",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENTS OR SWELL SAILING",
+      "NO EXTRAPOLATION OF\n\nGOOD WEATHER ANALYSIS CAN BE MADE TO OVERALL VOYAGE"
+    ],
+    "confidence_score": 0.84
+  }
+]

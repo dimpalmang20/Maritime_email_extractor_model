@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Container Ship",
+    "dwt": "40400",
+    "built_year": "2025",
+    "flag": "Bureau Veritas",
+    "imo": "",
+    "grt": "25175",
+    "nrt": "13740",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "West",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.76
+  }
+]

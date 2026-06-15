@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SOL SHIPPING",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "34000",
+    "del_port": "TARAKAN",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "25 days",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

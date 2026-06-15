@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SCL SHIPPING SERVICES LLC CP DATED 23-09-202)",
+    "cargo": "WOG -GENERAL / HARMLESS",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "KUNSAN, KOREA",
+    "redel_port": "N/VIETNAM RANGE (INT' HAIPHONG)",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "25 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO CHARTERING AGENCY SERVICES - NEW DELHI- INDIA - SINCE 2000"
+    ],
+    "confidence_score": 0.98
+  }
+]

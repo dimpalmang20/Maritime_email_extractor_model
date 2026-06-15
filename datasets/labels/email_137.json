@@ -1,0 +1,18 @@
+{
+  "email_id": 137,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV ALTO",
+      "vessel_type": "General Cargo",
+      "dwt": 24804,
+      "built": 1997,
+      "flag": "Belize",
+      "open_position": "Hodeidah, Yemen",
+      "open_dates": "2025-11-21 to 2025-11-30",
+      "cargo_capacity_cbm": 44888.42,
+      "cranes": "4 x 30T"
+    }
+  ],
+  "source_email": 137
+}

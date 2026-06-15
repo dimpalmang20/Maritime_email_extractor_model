@@ -1,0 +1,49 @@
+{
+  "email_id": 101,
+  "email_type": "open_vessel",
+  "source_company": "Aryacorp",
+  "vessel_name": "SEAMEC GALLANT",
+  "imo_number": "9599004",
+  "owner": "Seamec International FZE",
+  "flag": "Liberia",
+  "class": "LRS",
+  "built_year": 2011,
+  "vessel_type": "Single Deck Bulk Carrier",
+  "hull_type": "Single Hull",
+  "open_port": "Fujairah",
+  "open_country": "UAE",
+  "open_date": "2025-11-10",
+  "dwt": 32289,
+  "draft_m": 10.15,
+  "tpc": 46.0,
+  "grt": 20969,
+  "nrt": 11803,
+  "loa_m": 179.9,
+  "beam_m": 28.4,
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbft": 1535389.9,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30.5
+  },
+  "grabs": {
+    "count": 4,
+    "capacity_cbm": "5-10"
+  },
+  "tanktop_strength_mt_sqm": 20.0,
+  "hatchcover_strength_mt_sqm": 3.3,
+  "deck_strength_mt_sqm": 4.0,
+  "constant_mt": 450,
+  "unpumpable_ballast_mt": 200,
+  "speed_consumption": {
+    "sea_speed_knots": 12.5,
+    "fuel_lfo_mt_day": 18.9,
+    "fuel_mgo_mt_day": 0.3,
+    "idle_lfo_mt_day": 2.5,
+    "idle_mgo_mt_day": 0.3,
+    "working_lfo_mt_day": 4.2,
+    "working_mgo_mt_day": 0.3
+  },
+  "status": "Open"
+}

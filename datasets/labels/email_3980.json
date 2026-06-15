@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Clinker",
+    "cargo_type": "Dry Bulk",
+    "quantity": "26000",
+    "quantity_unit": "MT",
+    "load_port": "JIZAN , SAUDI ARABIA",
+    "discharge_port": "RAS ISA, YEMEN",
+    "laycan_start": "2026-01-19",
+    "laycan_end": "2026-01-24",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

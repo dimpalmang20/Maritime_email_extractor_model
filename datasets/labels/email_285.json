@@ -1,0 +1,42 @@
+{
+  "email_id": 285,
+  "email_type": "vessel_position",
+  "company": "Indo Sino Chartering",
+  "vessels": [
+    {
+      "vessel_name": "EAST LUCKY",
+      "built_year": 2008,
+      "dwt": 12500,
+      "open_position": "Colombo",
+      "open_date": "2025-11-30"
+    },
+    {
+      "vessel_name": "WB PROSPECT",
+      "built_year": 2004,
+      "dwt": 11800,
+      "open_position": "CJK China",
+      "open_date": "2025-12-05"
+    },
+    {
+      "vessel_name": "CHANG XIN",
+      "built_year": 2009,
+      "dwt": 11000,
+      "open_position": "Beira",
+      "open_date": "2025-12-24"
+    },
+    {
+      "vessel_name": "JING CHANG",
+      "built_year": 2007,
+      "dwt": 13000,
+      "open_position": "Penang, Malaysia",
+      "open_date": "2025-12-26"
+    },
+    {
+      "vessel_name": "WB JOURNEY",
+      "built_year": 2012,
+      "dwt": 12308,
+      "open_position": "CJK China",
+      "open_date": "2026-01-12"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HTP LUCKY",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "BELIZE",
+    "imo": "",
+    "grt": "1860",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.61
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HTP AMBER",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.67
+  }
+]

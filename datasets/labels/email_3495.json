@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EMMA BULK",
+    "vessel_type": "MR Tanker",
+    "dwt": "53000",
+    "built_year": "2005",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "FANGCHENG,",
+    "open_date": "2026-01-14",
+    "close_date": "2026-01-16",
+    "matching_region": "China",
+    "restrictions": [
+      "NO AUSSIE"
+    ],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EMMA BULK",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "53565",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "32.26m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.7
+  }
+]

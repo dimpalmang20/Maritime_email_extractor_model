@@ -1,0 +1,50 @@
+{
+  "email_type": "Cargo",
+  "text": "From: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSent: 13 November 2025 11:04\nSubject: Re: // A/C SSIPL / SUPRA - ULTRA / BULK ROCK PHOSPHATE / EX KPEME, TOGO TO INDIA //\n\n-ACC SSIPL/NOM\nSUPRA-ULTRA\nDELY APS KPEME, TOGO ATDNSHINC\nLAYCAN :24/28 NOV \nFOR ONE TCT WITH BULK ROCK PHOSPHATE\nREDEL INDIA \n3,75%ADC PLUS",
+  "entities": {
+    "VESSEL": null,
+    "VESSEL_TYPE": [
+      "SUPRA",
+      "ULTRA"
+    ],
+    "DWT": null,
+    "IMO": null,
+    "CARGO": [
+      "BULK ROCK PHOSPHATE"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "KPEME",
+      "INDIA"
+    ],
+    "LOAD_PORT": [
+      "KPEME"
+    ],
+    "DISCHARGE_PORT": [
+      "INDIA"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "SSIPL"
+    ],
+    "BROKER": [
+      "Interbulk Shipbrokers",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "24/28 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "TCT"
+    ],
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@interbulkshipping.in",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

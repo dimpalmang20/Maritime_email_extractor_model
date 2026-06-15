@@ -1,0 +1,26 @@
+{
+  "text": "MOKSHA OPEN CHITTAGONG - 15-20 NOV - CAN CONSIDER ANY ...",
+  "entities": {
+    "VESSEL": ["MOKSHA"],
+    "CARGO": ["COILS"],
+    "PORT": ["CHITTAGONG", "GOA"],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": ["2 X 25 TS"],
+    "CHARTERER": null,
+    "BROKER": ["Seawind Chartering"],
+    "IMO": null,
+    "DWT": ["56880"],
+    "LAYCAN": ["15-20 NOV"],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": ["Bulk Carrier"],
+    "CHARTER_TYPE": ["TCT"],
+    "TONNAGE": ["56,880 DWT"],
+    "CONTACT": [
+      "chartering@seawind.com.hk",
+      "chartering@varitasnavigation.com"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "email_id": 142,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV BAO DA LING",
+      "dwt": 47426,
+      "built": 2015,
+      "flag": "China",
+      "open_position": "CJK, China",
+      "open_dates": "2025-11-20"
+    },
+    {
+      "name": "MV KANG CHENG",
+      "dwt": 55541,
+      "built": 2004,
+      "flag": "Hong Kong",
+      "open_position": "Zhuhai, China",
+      "open_dates": "2025-11-16"
+    },
+    {
+      "name": "MV BAO HE LING",
+      "dwt": 47442,
+      "built": 2015,
+      "flag": "China",
+      "open_position": "Manila, Philippines",
+      "open_dates": "2025-11-18"
+    },
+    {
+      "name": "MV KANG SHUN",
+      "dwt": 55566,
+      "built": 2004,
+      "flag": "China",
+      "open_position": "Ras Al Khair, Saudi Arabia",
+      "open_dates": "2025-11-17"
+    },
+    {
+      "name": "MV SHENG KANG HAI",
+      "dwt": 56704,
+      "built": 2012,
+      "flag": "China",
+      "open_position": "Bahodopi, Indonesia",
+      "open_dates": "2025-11-18"
+    }
+  ],
+  "source_email": 142
+}

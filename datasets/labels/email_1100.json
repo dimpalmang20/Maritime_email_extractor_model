@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EVMAR 82",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "9738026",
+    "grt": "",
+    "nrt": "44143",
+    "loa": "229m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-02",
+    "close_date": "2026-12-07",
+    "matching_region": "Baltic Sea",
+    "restrictions": [
+      "no adverse currents",
+      "no deck cargo on board and provided no underwater parts fouling due to vessel remaining at or shifting",
+      "No shifting and"
+    ],
+    "confidence_score": 0.88
+  }
+]

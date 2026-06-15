@@ -1,0 +1,23 @@
+{
+  "email_id": 148,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV FPMC B 202",
+      "dwt": 37153,
+      "built": 2011,
+      "flag": "Liberia",
+      "open_position": "Reunion or Durban",
+      "open_dates": "2025-11-17 to 2025-11-25"
+    },
+    {
+      "name": "MV FPMC B 201",
+      "dwt": 37153,
+      "built": 2011,
+      "flag": "Liberia",
+      "open_position": "Portland, Australia",
+      "open_dates": "2025-12-12 to 2025-12-15"
+    }
+  ],
+  "source_email": 148
+}

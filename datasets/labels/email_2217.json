@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "and to sign CP with Owners.",
+    "cargo": "Break",
+    "cargo_type": "Dry Bulk",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "1.25%",
+    "matching_region": "",
+    "restrictions": [
+      "No bunker charges to be for Charterers' account at DLOSP, Durban"
+    ],
+    "confidence_score": 0.64
+  }
+]

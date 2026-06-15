@@ -1,0 +1,29 @@
+{
+  "email_id": 113,
+  "email_type": "open_vessels",
+  "source_company": "Interbulk Shipbrokers",
+  "vessels": [
+    {
+      "vessel_name": "CH CLARE",
+      "vessel_type": "Bulk Carrier",
+      "flag": "South Korea",
+      "built_year": 2010,
+      "open_port": "Mundra",
+      "open_date": "2025-11-20",
+      "dwt": 33144,
+      "draft_m": 10.2,
+      "loa_m": 177.4,
+      "beam_m": 28.2,
+      "grt": 19992,
+      "nrt": 11905,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbm": 42211.8,
+      "cranes": "4x30MT",
+      "grabs": "4x10CBM",
+      "co2_fitted": true,
+      "natural_ventilation": true,
+      "rob_lsfo_mt": "700-750"
+    }
+  ]
+}

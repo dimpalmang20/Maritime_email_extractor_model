@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "WOOYANG QUEEN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63453",
+    "built_year": "2019",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.98m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "GANGAVARAM,",
+    "open_date": "2026-06-18",
+    "close_date": "2026-06-22",
+    "matching_region": "India",
+    "restrictions": [
+      "no adverse current",
+      "no negative influence of swell",
+      "No mixing of bunkers is allowed and bunker supply is allowed up to"
+    ],
+    "confidence_score": 0.95
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "NAVISION",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "42000",
+    "del_port": "MOROCCO",
+    "redel_port": "NIGERIA",
+    "laycan_start": "2026-01-09",
+    "laycan_end": "2026-01-14",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

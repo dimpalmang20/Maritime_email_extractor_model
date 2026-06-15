@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CETUS BOWHEAD - 43432 DWT",
+    "vessel_type": "MR Tanker",
+    "dwt": "43432",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MACHONG,",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CETUS BOWHEAD",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2015",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "9670755",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "30.06m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL",
+      "NO MIXING OF LSFO IS ALLOWED AND BUNKER SUPPLY IS ALLOWED UP TO"
+    ],
+    "confidence_score": 0.74
+  }
+]

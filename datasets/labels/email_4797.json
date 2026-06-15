@@ -1,0 +1,53 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "MOBIL-HOUSTON RGE",
+    "redel_port": "",
+    "laycan_start": "2026-05-14",
+    "laycan_end": "2026-05-19",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "US Gulf Coast",
+    "restrictions": [],
+    "confidence_score": 0.89
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "WAFR INTN ABIDJAN - BUCHANAN RGE",
+    "redel_port": "SGP-JPN RGE",
+    "laycan_start": "2026-05-19",
+    "laycan_end": "2026-05-24",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.97
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-05-08",
+    "laycan_end": "2026-05-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "East Mediterranean",
+    "restrictions": [],
+    "confidence_score": 0.79
+  }
+]

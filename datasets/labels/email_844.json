@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "40522",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "PORT",
+    "open_date": "2025-12-07",
+    "close_date": "2025-12-12",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.72
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ST MICHAEL",
+    "vessel_type": "Container Ship",
+    "dwt": "",
+    "built_year": "",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "",
+    "nrt": "25171",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.7
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLT 2012 OPEN INT PORT SAID -6TH JAN -10TH JAN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58097",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "TONNAGES",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Mediterranean",
+    "restrictions": [],
+    "confidence_score": 0.84
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "on 12.826 M SSW",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37880",
+    "built_year": "",
+    "flag": "Swiss",
+    "imo": "9762481",
+    "grt": "",
+    "nrt": "32315",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-01-12",
+    "close_date": "2026-01-18",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.89
+  }
+]

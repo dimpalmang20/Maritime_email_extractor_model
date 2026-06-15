@@ -1,0 +1,15 @@
+{
+  "email_id": 271,
+  "email_type": "fixture_negotiation",
+  "company": "QuestBulk Maritime",
+  "contact_person": "Krunal Parmar",
+  "cargo": "Semicoke",
+  "quantity_mt": {
+    "min": 3200,
+    "max": 3300
+  },
+  "load_port": "Tianjin, China",
+  "discharge_port": "Shuaiba, Kuwait",
+  "status": "Fixture Note Confirmed",
+  "remarks": "Owners countersigned fixture note and agreed quantity amendment through addendum or charter party."
+}

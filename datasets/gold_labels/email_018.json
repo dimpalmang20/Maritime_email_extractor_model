@@ -1,0 +1,57 @@
+
+{
+  "text": "From: Kriti Gupta <kriti.kriti.gupta@gmail.com>\nSent: 31 January 2026 16:42\nTo: kriti.kriti.gupta@outlook.com <kriti.kriti.gupta@outlook.com>\nSubject: -NEMRUT\n\nGood day,\n\nPlease offer firm for;\n\n-NEMRUT / ANTWERP\n\n-6.450MTS 2PCT MOLCHOPT HRC UW MAX 27TS\n\n-L/C S P O T\n\n-1500MTS SSHEX EIU / 1500MTS SSHEX EIU\n-MAX 25 YRS (TRY MORE)\n-3.75 ADCOM PUS\n\n+ + + + +\n\n-NEMRUT / ELEUSIS\n\n-2,920MTS 2PCT MOLCHOPT HRC+HRCTD UW MAX 27TS + HRS\n\n-L/C 15 / 18 OCTOBER 2025\n\n-1500MTS SSHEX EIU / 1000MTS SSHEX EIU\n-MAX 25 YRS (TRY MORE)\n-3.75 ADCOM PUS\n\n+ + + + +\n\n-NEMRUT / MARGHERA\n\n-5,150MTS 2PCT MOLCHOPT HRC+HRCPO UW MAX 27TS\n\n-L/C 15 / 18 OCTOBER 2025\n\n-1500MTS SSHEX EIU / 1500MTS SSHEX EIU\n-MAX 25 YRS (TRY MORE)\n-3.75 ADCOM PUS\n\n+ + + + +\n\n-NEMRUT / CARTAGENA (1675MTS) + SAGUNTO (1400MTS)\n\n-3,075MTS 3PCT MOLCHOPT HRCPO UW MAX 27TS\n\n-L/C 20 / 22 OCTOBER 2025\n\n-1500MTS SSHEX EIU / 1000MTS SSHEX EIU\n-MAX 25 YRS (TRY MORE), BOX VSL\n-3.75 ADCOM PUS",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": [
+      "HRC",
+      "HRCTD",
+      "HRCPO"
+    ],
+    "PORT": [
+      "NEMRUT",
+      "ANTWERP",
+      "ELEUSIS",
+      "MARGHERA",
+      "CARTAGENA",
+      "SAGUNTO"
+    ],
+    "LOAD_PORT": "NEMRUT",
+    "DISCHARGE_PORT": [
+      "ANTWERP",
+      "ELEUSIS",
+      "MARGHERA",
+      "CARTAGENA",
+      "SAGUNTO"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "6.450MTS",
+      "2,920MTS",
+      "5,150MTS",
+      "3,075MTS",
+      "1675MTS",
+      "1400MTS"
+    ],
+    "CHARTERER": null,
+    "BROKER": null,
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": [
+      "SPOT",
+      "15 / 18 OCTOBER 2025",
+      "20 / 22 OCTOBER 2025"
+    ],
+    "FREIGHT_RATE": "3.75 ADCOM PUS",
+    "VESSEL_TYPE": "BOX VSL",
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "6.450MTS",
+      "2,920MTS",
+      "5,150MTS",
+      "3,075MTS"
+    ],
+    "CONTACT": "kriti.kriti.gupta@gmail.com"
+  }
+}

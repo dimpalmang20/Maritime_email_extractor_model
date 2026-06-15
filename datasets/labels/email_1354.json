@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HAI JIN",
+    "vessel_type": "MR Tanker",
+    "dwt": "58000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "2025-12-08",
+    "close_date": "2025-12-13",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HAI JIN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58000",
+    "built_year": "2013",
+    "flag": "SINGAPORE",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "2025-12-08",
+    "close_date": "2025-12-13",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

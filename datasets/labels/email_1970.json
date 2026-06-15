@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Standard",
+    "cargo_type": "Dry Bulk",
+    "quantity": "10000",
+    "quantity_unit": "MT",
+    "load_port": "Mts NPK - 50kg in jumbo bag HCM- Beira 1800 SHINC",
+    "discharge_port": "Shinc Dec",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "1800 SHINC MT/DAY",
+    "discharge_rate": "1000 SHINC MT/DAY",
+    "commission": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

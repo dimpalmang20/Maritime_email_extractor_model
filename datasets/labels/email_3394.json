@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SHANGHAI SPIRIT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "18000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BATANGAS,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Philippines",
+    "restrictions": [],
+    "confidence_score": 0.79
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SHANGHAI SPIRIT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "HONG KONG",
+    "imo": "",
+    "grt": "11751",
+    "nrt": "6377",
+    "loa": "",
+    "beam": "25m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.61
+  }
+]

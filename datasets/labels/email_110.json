@@ -1,0 +1,20 @@
+{
+  "email_id": 110,
+  "email_type": "cargo_inquiry",
+  "broker": "Saigal SeaTrade",
+  "charterer": "Agarwal Coal",
+  "cargo": "Coal",
+  "quantity_mt": 55000,
+  "quantity_tolerance_pct": 10,
+  "load_port": "Meulaboh, Sumatra, Indonesia",
+  "load_rate_mt_day": 7000,
+  "discharge_port": "Navlakhi, West Coast India",
+  "discharge_rate_mt_day": 11000,
+  "laycan_from": "2025-11-22",
+  "laycan_to": "2025-11-28",
+  "freight_basis": "Including PDA both ends",
+  "nor_clause": "NOR after free pratique granted, 12 hours TT EIU",
+  "commission_pct": 1.25,
+  "address_commission_pct": 0,
+  "cargo_type": "Cargo Order"
+}

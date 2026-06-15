@@ -1,0 +1,53 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "SW PASS-HOUSTON RGE",
+    "redel_port": "",
+    "laycan_start": "2026-02-18",
+    "laycan_end": "2026-02-23",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "US Gulf Coast",
+    "restrictions": [],
+    "confidence_score": 0.89
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-999999",
+    "del_port": "CAPE HENRY",
+    "redel_port": "",
+    "laycan_start": "2026-02-19",
+    "laycan_end": "2026-02-24",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Brazil",
+    "restrictions": [],
+    "confidence_score": 0.89
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LIMITED",
+    "cargo": "INT CLINKER",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-79999",
+    "del_port": "ALGERIA",
+    "redel_port": "CARIB RGE",
+    "laycan_start": "2026-02-10",
+    "laycan_end": "2026-02-15",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

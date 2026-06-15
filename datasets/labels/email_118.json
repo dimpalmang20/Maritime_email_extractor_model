@@ -1,0 +1,30 @@
+{
+  "email_id": 118,
+  "email_type": "open_vessels",
+  "source_company": "Marcons Group",
+  "vessels": [
+    {
+      "vessel_name": "TBC KAILASH",
+      "flag": "India",
+      "class": "IRS + DNV",
+      "built_year": 2011,
+      "open_port": "Durban",
+      "open_date": "2025-11-11/15",
+      "dwt": 35152,
+      "draft_m": 10.8,
+      "loa_m": 179.9,
+      "lbp_m": 171.5,
+      "beam_m": 28.4,
+      "depth_m": 15.0,
+      "tpc": 46.5,
+      "grt": 22358,
+      "nrt": 12081,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbm": 44294.46,
+      "bale_capacity_cbm": 42522.69,
+      "cranes": "4x30MT Hook / 24MT Grab Mode",
+      "grabs_onboard": false
+    }
+  ]
+}

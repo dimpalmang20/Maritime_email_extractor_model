@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FERILE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "9557329",
+    "grt": "",
+    "nrt": "2875",
+    "loa": "91.85m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "AGEAN",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

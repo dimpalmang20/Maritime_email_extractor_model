@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 12.9 M",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55374",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "34859",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO IRAN",
+      "NO AFFECT OF\n\nSEA AND CURRENT AND NO INFLUENCE OF SWELL AND ADVERSE CURRENT",
+      "NO EXTRAPOLATIONS CAN BE MADE FOR OTHER\n\nWEATHER"
+    ],
+    "confidence_score": 0.69
+  }
+]

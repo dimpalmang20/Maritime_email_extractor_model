@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CIRCLE HARMONY -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "81177",
+    "built_year": "",
+    "flag": "HONG KONG",
+    "imo": "",
+    "grt": "44098",
+    "nrt": "27714",
+    "loa": "229m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2025-12-04",
+    "close_date": "2025-12-05",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE OF ADVERSE CURRENTS AND\n\nSWELL"
+    ],
+    "confidence_score": 0.84
+  }
+]

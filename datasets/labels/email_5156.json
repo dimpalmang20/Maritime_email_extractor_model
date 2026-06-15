@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Cape George",
+    "vessel_type": "Capesize Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "180m",
+    "grain_capacity": "46284",
+    "open_port": "Tallinn",
+    "open_date": "2026-06-06",
+    "close_date": "2026-06-07",
+    "matching_region": "",
+    "restrictions": [
+      "excl vsl\n\nopen Tallinn"
+    ],
+    "confidence_score": 0.73
+  }
+]

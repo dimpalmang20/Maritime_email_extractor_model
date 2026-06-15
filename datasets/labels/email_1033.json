@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "LSS Ocean Transport (LSSOT)",
+    "cargo": "Trip T/C with Coal",
+    "cargo_type": "Dry Bulk",
+    "dwt": "82500",
+    "del_port": "To make S.E Kalimantan, Indonesia",
+    "redel_port": "PANAMAX",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "5%",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

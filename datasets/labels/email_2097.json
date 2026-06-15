@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HS GLORY",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "NAGOYA,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.67
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO DMA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "MARSHALL ISLAND",
+    "imo": "",
+    "grt": "",
+    "nrt": "11743",
+    "loa": "",
+    "beam": "139.92m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.57
+  }
+]

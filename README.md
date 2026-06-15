@@ -1,199 +1,466 @@
-# Maritime Mail Extractor
+# Maritime Email Extractor
 
-Lightweight standalone Node.js API for extracting structured maritime chartering data from raw broker emails.
+A Hybrid Maritime Email Information Extraction System that combines:
 
-The project uses a rule-based maritime extraction engine designed for:
+* Rule-Based Regex Extraction
+* DistilBERT Maritime NER Model
+* Hybrid Merge Engine
+* Confidence-Based Future LLM Fallback
 
-* TC / VC / Tonnage classification
-* Laycan extraction
-* Cargo extraction
-* Commission extraction
-* Route parsing
-* Region mapping
-* Vessel requirement parsing
-* Multiline broker email segmentation
+The system extracts structured maritime chartering information from unstructured broker emails.
 
-The extractor processes complex maritime broker emails and returns structured enterprise JSON output.
+---
+
+# Project Overview
+
+Maritime brokers exchange thousands of emails daily containing:
+
+* Vessel positions
+* Cargo requirements
+* Chartering requests
+* Freight rates
+* Laycans
+* Ports
+* Vessel specifications
+
+These emails are highly unstructured and difficult to process automatically.
+
+This project converts raw maritime emails into structured JSON records using a Hybrid AI Pipeline.
 
 ---
 
 # Features
 
-* Standalone lightweight API
-* No frontend
-* No PostgreSQL
-* No environment variables
-* No authentication required
-* Handles long and multiline broker emails
-* Supports TC / VC / Tonnage style messages
-* JSON-based extraction API
-* Fast rule-based extraction engine
+### Regex Engine
+
+Extracts:
+
+* Vessel details
+* Cargo details
+* Ports
+* Laycan dates
+* Freight rates
+* Charterer information
+
+using handcrafted maritime business rules.
 
 ---
 
-# Project Structure
+### DistilBERT Maritime NER
 
-```text id="l2m1kq"
-src/
-  maritime-extractor.ts
-  server.ts
-  sample-email.txt
+Custom-trained Named Entity Recognition model for:
 
-package.json
-package-lock.json
-tsconfig.json
-README.md
-sample-output.json
-.gitignore
+* VESSEL
+* VESSEL_TYPE
+* DWT
+* PORT
+* LOAD_PORT
+* DISCHARGE_PORT
+* CONTACT
+* BROKER
+* CHARTERER
+* CARGO
+* QUANTITY
+* IMO
+* ETA
+* LAYCAN
+* FREIGHT_RATE
+* TONNAGE
+* RESTRICTIONS
+
+---
+
+### Hybrid Merge Layer
+
+Combines:
+
+Regex Results
+
+*
+
+ML Results
+
+into a final enterprise output.
+
+---
+
+### Confidence Engine
+
+Generates:
+
+```json
+{
+  "CONFIDENCE": 0.75,
+  "LLM_REQUIRED": false
+}
+```
+
+Future versions will automatically trigger an LLM when confidence becomes low.
+
+---
+
+# Architecture
+
+Raw Maritime Email
+
+↓
+
+Regex Engine
+
+↓
+
+DistilBERT NER
+
+↓
+
+Merge Engine
+
+↓
+
+Confidence Engine
+
+↓
+
+Enterprise JSON Output
+
+---
+
+# Folder Structure
+
+```text
+MaritimeEmailExtractorModel/
+
+├── datasets/
+│   ├── gold_labels/
+│   ├── ner_train.jsonl
+│   ├── ner_train_clean.jsonl
+│
+├── models/
+│   └── distilbert-maritime-ner/
+│
+├── scripts/
+│   ├── create_ner_dataset.py
+│   ├── count_labels.py
+│   ├── count_labels_final.py
+│   ├── normalize_labels.py
+│   ├── find_bad_labels.py
+│   ├── test_ml_only.py
+│   └── evaluate_model.py
+│
+├── src/
+│   ├── ml/
+│   │   ├── predict.py
+│   │   ├── train_distilbert_ner.py
+│   │   ├── distilbert_extract.py
+│   │   └── merge_results.py
+│   │
+│   ├── server.ts
+│   └── maritime-extractor.ts
+│
+├── tests/
+│   ├── email1.txt
+│   ├── email2.txt
+│   ├── email3.txt
+│   └── email4.txt
+│
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
 ---
 
-# Installation
+# Dataset Information
 
-Install dependencies:
+Dataset Size:
 
-```bash id="r6d0ac"
-npm install
+```text
+1386 Maritime Emails
+```
+
+Entities:
+
+```text
+BROKER               271
+CARGO               1545
+CHARTERER            282
+CHARTER_TYPE         281
+CONTACT             1938
+DISCHARGE_PORT       384
+DWT                 1352
+ETA                 1069
+ETD                    3
+FREIGHT_RATE          50
+IMO                  189
+LAYCAN               705
+LOAD_PORT            503
+PORT                2068
+QUANTITY             206
+RESTRICTIONS         151
+TONNAGE              226
+VESSEL              1889
+VESSEL_TYPE          742
+```
+
+Training data is stored in:
+
+```text
+datasets/ner_train_clean.jsonl
 ```
 
 ---
 
-# Run the Project
+# Create Dataset
 
-Start the API server:
+Generate NER training dataset:
 
-```bash id="l3f8gk"
+```bash
+python create_ner_dataset.py
+```
+
+Output:
+
+```text
+datasets/ner_train.jsonl
+```
+
+---
+
+# Normalize Labels
+
+Convert inconsistent labels into unified labels:
+
+```bash
+python scripts/normalize_labels.py
+```
+
+Output:
+
+```text
+datasets/ner_train_clean.jsonl
+```
+
+---
+
+# Check Entity Distribution
+
+```bash
+python scripts/count_labels_final.py
+```
+
+---
+
+# Train DistilBERT Maritime NER
+
+Run:
+
+```bash
+python src/ml/train_distilbert_ner.py
+```
+
+Output model:
+
+```text
+models/distilbert-maritime-ner/
+```
+
+Contains:
+
+```text
+config.json
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+model.safetensors
+```
+
+---
+
+# Test ML Model Only
+
+Email 1
+
+```bash
+python scripts/test_ml_only.py tests/email1.txt
+```
+
+Email 2
+
+```bash
+python scripts/test_ml_only.py tests/email2.txt
+```
+
+Email 3
+
+```bash
+python scripts/test_ml_only.py tests/email3.txt
+```
+
+Email 4
+
+```bash
+python scripts/test_ml_only.py tests/email4.txt
+```
+
+---
+
+# Run Full API
+
+Start server:
+
+```bash
 npm start
 ```
 
-The API runs on:
+Expected:
 
-```text id="e2k9tz"
-http://localhost:3000
+```text
+Maritime extractor API running on http://localhost:3000
 ```
 
 ---
 
-# Health Check
+# Test Full Hybrid Pipeline
 
-Open in browser:
+PowerShell:
 
-```text id="v7o4qa"
-http://localhost:3000/health
-```
+```powershell
+$email = Get-Content .\tests\email2.txt -Raw
 
-Expected response:
-
-```json id="i4p2dy"
-{
-  "status": "ok"
-}
-```
-
----
-
-# API Endpoint
-
-## POST `/extract`
-
-Extract structured maritime data from raw broker emails.
-
-### Request Body
-
-```json id="z5j8cw"
-{
-  "emailBody": "raw maritime broker email"
-}
-```
-
----
-
-# PowerShell Testing (Recommended)
-
-## Step 1 — Create Request Body
-
-```powershell id="k9n1fw"
 $body = @{
-  emailBody = [string](Get-Content .\src\sample-email.txt -Raw)
+ emailBody = $email
 } | ConvertTo-Json -Depth 10
-```
 
-## Step 2 — Send Request
-
-```powershell id="f1s4mr"
-$response = Invoke-RestMethod `
+Invoke-RestMethod `
 -Uri http://localhost:3000/extract `
 -Method Post `
 -ContentType "application/json" `
--Body $body
+-Body $body | ConvertTo-Json -Depth 50
 ```
 
-## Step 3 — Print JSON Output
-
-```powershell id="u8d6yx"
-$response | ConvertTo-Json -Depth 20
-```
+Repeat for email2, email3, email4.
 
 ---
 
-# Example JSON Response
+# Sample Output
 
-```json id="o3v7nb"
-[
-  {
-    "email_type": "TC",
-    "dwt": "58000",
-    "cargo": "Bulk Harmless Cargo",
-    "commission": "3.75%",
-    "matching_region": "West Africa",
-    "confidence_score": 0.98
-  }
-]
+```json
+{
+  "email_type": "Cargo Tc",
+  "cargo_name": "Bulk Harmless Cargo",
+  "account_name": "YB Global Shipping LLC FZ",
+  "min_size": "58000",
+  "max_size": "65000",
+  "laycan_start_date": "2025-07-26",
+  "laycan_end_date": "2025-07-31"
+}
 ```
 
 ---
 
-# Development
+# Hybrid Pipeline Logic
 
-Build TypeScript:
+Regex extracts:
 
-```bash id="q2a5ph"
-npm run build
+```json
+{
+  "cargo_name": "Bulk Harmless Cargo"
+}
 ```
 
-Run development mode:
+ML extracts:
 
-```bash id="n6x8lu"
-npm run dev
+```json
+{
+  "CARGO": "bulk harmless cargo"
+}
+```
+
+Merge Layer combines both and fills missing fields.
+
+Priority:
+
+```text
+Regex
+↓
+ML
+↓
+Future LLM
 ```
 
 ---
 
-# Extraction Capabilities
+# Confidence Logic
 
-The extraction engine supports:
+Current:
 
-* Maritime broker emails
-* TC / VC charter formats
-* DWT extraction
-* Laycan parsing
-* Cargo parsing
-* Commission extraction
-* Regional abbreviations
-* Route extraction
-* Restrictions parsing
-* Multiline chartering emails
-* Segmented broker circulars
+```json
+{
+  "CONFIDENCE": 0.75,
+  "LLM_REQUIRED": false
+}
+```
+
+Rules:
+
+```text
+>=10 entities → 0.90
+
+>=7 entities → 0.75
+
+>=5 entities → 0.60
+
+<5 entities → 0.30
+```
+
+---
+
+# Future Improvements
+
+* LLM Fallback for low confidence predictions
+* Active Learning Pipeline
+* Human-in-the-loop annotation
+* Automatic Dataset Expansion
+* Maritime Knowledge Graph
+* Vessel Database Integration
+* Cargo Market Analytics
 
 ---
 
-# Notes
+# Technology Stack
 
-* The project is intentionally lightweight and standalone.
-* No database or frontend setup is required.
-* The extraction engine is rule-based and optimized for maritime chartering workflows.
-* Accuracy depends on broker email formatting and supported maritime patterns.
-* Designed for simple local setup and API-based integration.
+Backend
+
+* Node.js
+* TypeScript
+
+Machine Learning
+
+* Python
+* PyTorch
+* Hugging Face Transformers
+* DistilBERT
+
+Data Processing
+
+* JSON
+* Regex
+* Custom Maritime Rules
 
 ---
+
+# Author
+
+Dimpal
+
+Electronics & Telecommunication Engineering
+
+SSVPS College of Engineering
+
+Maritime AI & Information Extraction Research
+
+---
+
+# License
+
+MIT License

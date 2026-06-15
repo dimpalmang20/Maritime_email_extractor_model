@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ASP BRAVE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "57000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HONG",
+    "open_date": "2026-12-11",
+    "close_date": "2026-12-15",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

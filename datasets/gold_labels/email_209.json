@@ -1,0 +1,56 @@
+{
+  "email_type": "Cargo",
+  "text": "email_id: 204\nemail_type: cargo_order\nsource_company: Energy Bulk Carriers\naccount: SINOEAST\nrequirements:\n- dwt_required: 39K UPWARDS\n  open_port: Broome\n  open_country: Australia\n  open_date: '2025-11-23 ONW'\n  cargo_type: MINERAL CONCENTRATES\n  charter_type: TCT\n  discharge_port: Redel China\n  commission: 3.75% ADDCOM PUS\n  vessel_restrictions: RS MIN 3 STARS, GHG E OR ABOVE",
+  "entities": {
+    "VESSEL": null,
+    "VESSEL_TYPE": null,
+    "DWT": [
+      "39K UPWARDS"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "MINERAL CONCENTRATES"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "BROOME",
+      "NW.Aust",
+      "China"
+    ],
+    "LOAD_PORT": [
+      "BROOME"
+    ],
+    "DISCHARGE_PORT": [
+      "China"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "SINOEAST"
+    ],
+    "BROKER": [
+      "Energy Bulk Carriers",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "23 NOV ONW"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "TCT"
+    ],
+    "TONNAGE": [
+      "39K"
+    ],
+    "CONTACT": [
+      "handy@energybulk.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com",
+      "ebc1234@hotmail.co.uk"
+    ],
+    "RESTRICTIONS": [
+      "RS MIN 3 STARS",
+      "GHG E OR ABOVE"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "TKB",
+    "cargo": "DAYS WOG - INT",
+    "cargo_type": "Dry Bulk",
+    "dwt": "38000",
+    "del_port": "MACEIO - 20-25 JAN",
+    "redel_port": "BLACK SEA EXCL RUSSIA",
+    "laycan_start": "2026-01-14",
+    "laycan_end": "2026-01-19",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Russia",
+    "restrictions": [
+      "EXCL RUSSIA"
+    ],
+    "confidence_score": 0.98
+  }
+]

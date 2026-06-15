@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HARMONY GOLD",
+    "vessel_type": "MR Tanker",
+    "dwt": "57000",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-10",
+    "close_date": "2027-01-15",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO IRAN",
+      "NO IRAN",
+      "NO IRAN"
+    ],
+    "confidence_score": 0.82
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "opening Kuwait 20th January - 25TH January 2026.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "70000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Visakhapatnam, India",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.79
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLT 2001 OPEN SGP 29",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "2001",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2025-12-01",
+    "close_date": "2025-12-31",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "RUI NING 1",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52394",
+    "built_year": "",
+    "flag": "CHINA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.69
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SIROCO - open P.HARCOURT",
+    "vessel_type": "MR Tanker",
+    "dwt": "37534",
+    "built_year": "",
+    "flag": "Panama",
+    "imo": "9317705",
+    "grt": "22698",
+    "nrt": "",
+    "loa": "177.85m",
+    "beam": "28.6m",
+    "grain_capacity": "",
+    "open_port": "P Harcourt",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "No Grabs are fitted",
+      "NO NEGATIVE INFLUENCE BY SWELL",
+      "NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.98
+  }
+]

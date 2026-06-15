@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "READY TO FIX TODAY / TRY CLEAN SUBS TEAM",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "Salalah / Redely ECI (SA26110848)",
+    "redel_port": "ECI (SA26110848)",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

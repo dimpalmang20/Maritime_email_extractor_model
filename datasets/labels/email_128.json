@@ -1,0 +1,31 @@
+{
+  "email_id": 128,
+  "email_type": "open_vessels",
+  "source_company": "Marcons Group",
+  "vessels": [
+    {
+      "vessel_name": "BLOOM HALO",
+      "flag": "Panama",
+      "class": "NK",
+      "built_year": 2024,
+      "open_port": "Chittagong",
+      "open_country": "Bangladesh",
+      "open_date": "2025-11-19/23",
+      "dwt": 66039,
+      "draft_m": 12.945,
+      "tpc": 66.3,
+      "loa_m": 199.99,
+      "beam_m": 36.0,
+      "grt": 38287,
+      "nrt": 21668,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbm": 82900,
+      "cranes": "4x35MT",
+      "grabs": "4x15CBM",
+      "scrubber_fitted": true,
+      "preferred_period": "Up to 1 year",
+      "no_red_sea": true
+    }
+  ]
+}

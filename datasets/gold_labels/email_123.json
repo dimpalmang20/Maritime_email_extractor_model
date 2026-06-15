@@ -1,0 +1,53 @@
+{
+  "text": "From: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in> \nSent: 10 November 2025 11:00\nTo: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSubject: //MV JETSTREAM/MV DD VIGILANT/MV DD VOGUE - VSLS TO FIX//\n\nDATE  : 10 NOVEMBER 2025\nREF   : IBC/DK/001\n\nWE HAVE FOLLOWING VESSEL FROM OUR CLOSE OWNER:\n\nAA. MV JETSTREAM 34,562MT 2012 4X30MT CR OPEN 16 NOV WEIHAI, CHINA. \nBB. MV DD VIGILANT 26,550MT 2007 4X30MT CR OPEN 20 NOV CAMPHA, VIETNAM.\nCC. MV DD VOGUE 26,495MT 2008 4X30MT CR OPEN 29-30 NOV SALALAH, OMAN.\n\nBEST REGARDS\nDEEKSHA MOB. +91-9958349994\nANKIT VASHIST MOB: +91-9650405353\nINTERBULK SHIPBROKERS\nNEW DELHI, INDIA",
+  "entities": {
+    "VESSEL": [
+      "JETSTREAM",
+      "DD VIGILANT",
+      "DD VOGUE"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "WEIHAI",
+      "CAMPHA",
+      "SALALAH"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "34,562MT",
+      "26,550MT",
+      "26,495MT"
+    ],
+    "CHARTERER": null,
+    "BROKER": [
+      "Interbulk Shipbrokers"
+    ],
+    "IMO": null,
+    "DWT": [
+      "34562",
+      "26550",
+      "26495"
+    ],
+    "LAYCAN": [
+      "16 NOV",
+      "20 NOV",
+      "29-30 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "BULK CARRIER"
+    ],
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "34,562MT",
+      "26,550MT",
+      "26,495MT"
+    ],
+    "CONTACT": [
+      "chartering@interbulkshipping.in"
+    ]
+  }
+}

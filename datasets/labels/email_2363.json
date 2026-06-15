@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SF CHALISA 35263 MT DWT SINGAPORE 24-26 DEC",
+    "vessel_type": "MR Tanker",
+    "dwt": "35200",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.67
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SF CHALISA",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "22402",
+    "nrt": "12019",
+    "loa": "",
+    "beam": "28.44m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO WARRANTY APPLIES WHILST\n\nSAILING IN RESTRICTED AREAS A",
+      "NO ADVERSE\n\nCURRENT AND",
+      "NO NEGATIVE INFLUENCE OF SWELL WITH A MINIMUM STEAMING OF\n\nATLEAST"
+    ],
+    "confidence_score": 0.61
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "email_id": 173,
+  "type": "tonnage",
+  "source_email": 173,
+  "vessels": [
+    {
+      "name": "MV ZY KUNSHAN",
+      "dwt": 63750,
+      "built": 2025,
+      "flag": "Liberia",
+      "class": "CCS",
+      "open_position": "Huanghua, China",
+      "open_date": "2025-11-22/23",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30 MT Cranes",
+      "grain_capacity_cbm": 78324.2,
+      "bale_capacity_cbm": 72767.6,
+      "gross_tonnage": 35651,
+      "net_tonnage": 21205
+    }
+  ]
+}

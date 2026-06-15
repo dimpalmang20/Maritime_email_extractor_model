@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "55496",
+    "quantity_unit": "MT",
+    "load_port": "DECK",
+    "discharge_port": "HATCH",
+    "laycan_start": "1711-11-25",
+    "laycan_end": "1711-11-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Ukraine",
+    "restrictions": [
+      "NO RUSSIA/UKRAINE"
+    ],
+    "confidence_score": 0.85
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "THOMAS SELMER -",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "34000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "23432",
+    "nrt": "",
+    "loa": "180m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "DAHEJ",
+    "open_date": "2025-12-16",
+    "close_date": "2025-12-20",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.94
+  }
+]

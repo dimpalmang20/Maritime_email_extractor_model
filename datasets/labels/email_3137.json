@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "MR Tanker",
+    "dwt": "58000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Qinzhou,",
+    "open_date": "2027-01-15",
+    "close_date": "2027-01-17",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.72
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "on Summer draft 12.8 meters",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58086",
+    "built_year": "2011",
+    "flag": "Panama",
+    "imo": "",
+    "grt": "",
+    "nrt": "32309",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "Qinzhou,",
+    "open_date": "2027-01-15",
+    "close_date": "2027-01-17",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE SEA CURRENTS OR\n\nSWELL",
+      "NO ADVERSE CURRENTS OR SWELLS"
+    ],
+    "confidence_score": 0.95
+  }
+]

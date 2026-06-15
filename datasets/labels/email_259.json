@@ -1,0 +1,27 @@
+{
+  "email_id": 259,
+  "email_type": "vessel_position",
+  "company": "Rieck + Petersen GmbH",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "ALANYA-M",
+      "vessel_type": "Bulk Carrier",
+      "dwt": 41333,
+      "built_year": 2004,
+      "flag": "Panama",
+      "open_position": "South Korea",
+      "open_date": "2025-11-25 to 2025-11-30",
+      "grain_capacity_cbm": 52288,
+      "bale_capacity_cbm": 51313,
+      "holds_hatches": "5/5",
+      "cranes": "4 x 30 MT",
+      "grabs": null,
+      "speed_ballast_knots": 11.5,
+      "speed_laden_knots": 11.0,
+      "cons_ballast_mt_day": 20.0,
+      "cons_laden_mt_day": 20.0
+    }
+  ]
+}

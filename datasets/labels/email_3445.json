@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BC SERENITY",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "FUKUYAMA",
+    "open_date": "2027-02-10",
+    "close_date": "2027-02-15",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BC SERENITY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2022",
+    "flag": "",
+    "imo": "9941544",
+    "grt": "",
+    "nrt": "24439",
+    "loa": "",
+    "beam": "182.94m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

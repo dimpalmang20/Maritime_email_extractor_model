@@ -1,0 +1,71 @@
+{
+  "email_id": 266,
+  "email_type": "vessel_position",
+  "company": "Indus Bulk Shipping",
+  "contact_person": "Farhan Ali",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "ROTTERDAM PEARL V",
+      "vessel_type": "Bulk Carrier",
+      "imo_number": "9557135",
+      "flag": "Liberia",
+      "built_year": 2010,
+      "shipyard": "Yangzhou Dayang Shipbuilding",
+      "dwt": 58020,
+      "summer_draft_m": 12.95,
+      "tpc": 59.24,
+      "loa_m": 189.99,
+      "beam_m": 32.26,
+      "lbp_m": 185.0,
+      "depth_m": 18.0,
+      "gross_tonnage": 32839,
+      "net_tonnage": 19559,
+      "holds_hatches": "5/5",
+      "grain_capacity_cbm": 71549,
+      "bale_capacity_cbm": 69761,
+      "cranes": "4 x 36 MT",
+      "grabs": "4 x 18 CBM",
+      "open_position": "CJK",
+      "open_date": "2025-11-22 to 2025-11-24",
+      "trade_features": [
+        "BH OK",
+        "GOA OK",
+        "2x25 OK",
+        "Deck Cargo OK",
+        "Period OK",
+        "ITF Fitted",
+        "CO2 Fitted",
+        "AHL Fitted"
+      ],
+      "last_cargoes": [
+        "Coal",
+        "Urea",
+        "Grain",
+        "Grain",
+        "Grain"
+      ],
+      "speed_consumption": {
+        "ballast": {
+          "speed_knots": 11.0,
+          "vlsfo_mt_day": 21.0,
+          "lsmgo_mt_day": 0.2
+        },
+        "laden": {
+          "speed_knots": 11.0,
+          "vlsfo_mt_day": 22.0,
+          "lsmgo_mt_day": 0.2
+        },
+        "port_idle": {
+          "vlsfo_mt_day": 2.4,
+          "lsmgo_mt_day": 0.8
+        },
+        "port_working": {
+          "vlsfo_mt_day": 4.3,
+          "lsmgo_mt_day": 0.8
+        }
+      }
+    }
+  ]
+}

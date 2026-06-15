@@ -1,0 +1,46 @@
+{
+  "email_id": 272,
+  "email_type": "vessel_position",
+  "company": "Rieck + Petersen GmbH",
+  "contact_person": "Lars Petersen",
+  "vessels": [
+    {
+      "vessel_name": "EVAGGELIA",
+      "vessel_type": "Bulk Carrier",
+      "built_year": 2010,
+      "imo": "9459383",
+      "flag": "Marshall Islands",
+      "class": "BV",
+      "dwt": 35291,
+      "draft_m": 10.82,
+      "tpc": 46.5,
+      "loa_m": 179.90,
+      "beam_m": 28.40,
+      "gross_tonnage": 22402,
+      "net_tonnage": 12019,
+      "holds_hatches": "5/5",
+      "grain_capacity_cbm": 44294.4,
+      "bale_capacity_cbm": 42072.2,
+      "cranes": "4 x 30 MT",
+      "open_position": "Lavrio",
+      "open_date": "2025-12-01 to 2025-12-05",
+      "period_business": true,
+      "speed_consumption": {
+        "ballast": {
+          "speed_knots": 12.5,
+          "ifo380_mt_day": 21.0
+        },
+        "laden": {
+          "speed_knots": 12.0,
+          "ifo380_mt_day": 21.0
+        },
+        "port_idle": {
+          "ifo380_mt_day": 3.2
+        },
+        "port_working": {
+          "ifo380_mt_day": 4.5
+        }
+      }
+    }
+  ]
+}

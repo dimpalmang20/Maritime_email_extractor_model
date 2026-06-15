@@ -1,0 +1,62 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: rieck-petersen@shipnet.de <rieck-petersen@shipnet.de> \nSent: 14 November 2025 15:25\nTo: chartering@varitasnavigation.com\nSubject: MV ALANYA-M\n \nDoc-No. 9542216   14/NOV/2025 (FRI)  10:54  (+0100)  LP\nRieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers  \nPhone: +49 (0)40 35 00 426 E-Mail: rieck-petersen@shipnet.de\n \nGD MRNG\n \nPLS PPSE FOR OUR DIRECT POSITION\n \nOPEN S KOREA 25/30 NOV\n             -------------------------------\n \nMV ALANYA-M \n41.333 MTS DWT ON 11.50 M SSW - SD BC 2004, PANAMA FLAG \nTURKISH LLOYD 100A1 BC STRENGTHENED FOR HEAVY CARGOES, \nICE CLASS 1D, UMS , TPC 48.21 - LOA 186.45 M/LBP 30.00M / DM 16.20 M\n5 HO/HA; GR 52.288 CBM / BALE 51.313 CBM\nGRD 4 X 30T - NO GRABS ON BOARD - CO2 FITTED\nSPEED & CONSUMPTION (MT/DAY):\n(B) ABT 11.5K ON ABT 20.0MT VLSFO + ABT 0.1MT LSMGO\n(L) ABT 11.0K ON ABT 20.0MT VLSFO + ABT 0.1MT LSMGO\n(I) ABT 2.5MT VLSFO + ABT 0.1MT LSMGO\n(W) ABT 4.5MT VLSFO + ABT 0.1MT LSMGO\nPLUS ABT 1.0 MT VLSFO AT ALL TIMES FOR BOILER\nVESSEL MAY BURN MDO WHEN MANOEUVRING, AND TRANSITING CANALS/RIVERS/ \nNARROW WATERS AS REQUIRED. SPEED AND CONSUMPTION FIGURES APPLICABLE \nUP TO AND INCLUDING BF.4 IN GOOD WEATHER CONDITIONS, NO NEGATIVE \nINFLUENCE OF SWELL, NO ADVERSE CURRENTS AND DSS.3. \nALL DETAILS ABOUT\n \nPLSD TO HEAR\nBRGDS\nLP\n\nLars Petersen Mobile: +49 (0)172 410 48 72\n \nFirma/Company: Rieck + Petersen GmbH, Hamburg\nHandelsregistersitz + Nr./Commercial Registry Domicile + No.: \nHamburg / HBR 25945 Gerichtsstand/Jurisdiction: Hamburg\nUSt.Id.Nr./Value added tax identification number: DE 117585945\nGeschftsfhrer/Managing Director: Lars Petersen",
+  "entities": {
+    "VESSEL": [
+      "ALANYA-M"
+    ],
+    "VESSEL_TYPE": [
+      "SD BC"
+    ],
+    "DWT": [
+      "41.333 MTS"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "S KOREA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Rieck + Petersen GmbH",
+      "HSB Hamburg Shipbrokers"
+    ],
+    "LAYCAN": [
+      "25/30 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "41.333 MTS"
+    ],
+    "CONTACT": [
+      "+49 (0)40 35 00 426",
+      "rieck-petersen@shipnet.de",
+      "+49 (0)172 410 48 72"
+    ],
+    "RESTRICTIONS": [
+      "STRENGTHENED FOR HEAVY CARGOES",
+      "ICE CLASS 1D",
+      "NO GRABS ON BOARD",
+      "CO2 FITTED"
+    ],
+    "tonnage_type": "SD BC",
+    "port": "S KOREA",
+    "region": "FAR EAST",
+    "matching_region": null,
+    "open_date": "2025-11-25",
+    "close_date": "2025-11-30",
+    "dwt": "41.333 MTS",
+    "tonnage_name": "ALANYA-M",
+    "pic": "Lars Petersen",
+    "email_id": "rieck-petersen@shipnet.de",
+    "phone_number": "+49403500426",
+    "latitude": null,
+    "longitude": null
+  }
+}

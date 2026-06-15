@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSFO AND ABOUT 110-120 MT LSMGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MUMBAI,",
+    "open_date": "2026-12-06",
+    "close_date": "2026-12-11",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.75
+  }
+]

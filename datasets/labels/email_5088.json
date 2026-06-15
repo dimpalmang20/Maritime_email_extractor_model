@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MV. ES DIGNITY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "42902",
+    "built_year": "",
+    "flag": "",
+    "imo": "9966099",
+    "grt": "26128",
+    "nrt": "13465",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "CAOFEIDIAN",
+    "open_date": "2026-06-07",
+    "close_date": "2026-06-10",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO\n\nNEGATIVE\n\nINFLUENCE OF SWELL AND IN DEEP WATERS"
+    ],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "email_type": "Tonnage",
+  "text": "Best Regards:\n\nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail: chartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n\nFrom: Bulk - Marcons - Marcons Group <bulk@marconsgroup.com>\nSent: 10 November 2025 10:40\nSubject: MV BRICKFIELDER / 93018 DWT/ ABBOT POINT, AUSTRALIA / 24 NOV\n\nDEAR CHARTERING DESK / MARCONS GROUP\nGOOD DAY.\n\nPLEASED TO HEAR SUITABLE CARGO/ORDER FOR BELOW CANDIDATE:-\n\nMV BRICKFIELDER\n-- SAILED FROM JINGTANG, CHINA ON 09TH NOVEMBER 2025 PM LT\n-- ETA BSS ABBOT POINT IS ON 24.11.25 AGW WP UCE\n-- RS 3/5, GHG D+\n-- BROB ABT 2000 MTS VLSFO AND ABT 90 MTS LSMGO\n\nFLAG: PANAMA FLAG\nBUILT: AUGUST 2011\nTYPE: SINGLE DECK GEARLESS BULK CARRIER\nIMO: 9487885\nCLASS: LR +100A1\nLOA: 229.20 METER\nBEAM: 38.00 METER\nSUMMER DEADWEIGHT: 93,018 METRIC TON ON 14.90 METER SSW DRAFT",
+  "entities": {
+    "VESSEL": ["MV BRICKFIELDER"],
+    "VESSEL_TYPE": ["Gearless Bulk Carrier"],
+    "DWT": ["93,018 METRIC TON"],
+    "IMO": ["9487885"],
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": ["ABBOT POINT"],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": ["24.11.25"],
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": ["Marcons Group"],
+    "LAYCAN": ["24 NOV"],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": ["bulk@marconsgroup.com", "+919769282905", "+971553685524", "momin2905@rediffmail.com", "+918591913284", "+919653330919", "harshhjjaiwal45@outlook.com", "+919820703018", "+919542506281", "shipbroker1999@gmail.com", "+919769931136", "+919820709980", "kd412830@gmail.com"],
+    "RESTRICTIONS": []
+  }
+}

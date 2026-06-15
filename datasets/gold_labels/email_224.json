@@ -1,0 +1,51 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 219\nemail_type: open_vessels\nsource_company: Marcons Shipmanagement Pvt. Ltd.\nvessels:\n- vessel_name: CS CRYSTAL\n  built_year: 2010\n  flag: Marshall Islands\n  class: KR\n  vessel_type: SDBC\n  open_port: Cotonou\n  open_country: West Africa\n  open_date: '2025-12-12/19/28'\n  dwt: 30477\n  draft_m: 9.81\n  gross_tonnage: 19972\n  net_tonnage: 10404\n  loa_m: 178.7\n  beam_m: 28.0\n  depth_m: 14.0\n  holds: 5\n  hatches: 5\n  cranes: 4 X 30MT SWL\n  grain_capacity_cbm: 40770\n  bale_capacity_cbm: 38731",
+  "entities": {
+    "VESSEL": [
+      "CS CRYSTAL"
+    ],
+    "VESSEL_TYPE": [
+      "SDBC"
+    ],
+    "DWT": [
+      "30477 DWT",
+      "30,477 MT DWT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "COTONOU",
+      "WEST AFRICA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "MARCONS"
+    ],
+    "BROKER": [
+      "Marcons Shipmanagement Pvt. Ltd.",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "12-19 DEC",
+      "12- 19 TH /28TH DEC. 2025"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "bulk@marconsgroup.com",
+      "deepeshmajigamkar@hotmail.com",
+      "chartering@varitasnavigation.com",
+      "momin2905@rediffmail.com",
+      "harshhjjaiwal45@outlook.com",
+      "shipbroker1999@gmail.com",
+      "kd412830@gmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

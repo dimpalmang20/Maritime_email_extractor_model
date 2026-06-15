@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "ONWARDS CGO INT ORE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-79999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-04-09",
+    "laycan_end": "2026-04-14",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.91
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "ONWARDS CGO INT GREEN PETCOKE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-79999",
+    "del_port": "S.AMERICA",
+    "redel_port": "",
+    "laycan_start": "2026-04-21",
+    "laycan_end": "2026-04-26",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

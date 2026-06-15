@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HARILAOS JUNIOR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "49999",
+    "built_year": "2025",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "1041506",
+    "grt": "",
+    "nrt": "36172",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "PANAMA",
+    "open_date": "2027-04-26",
+    "close_date": "2027-05-01",
+    "matching_region": "",
+    "restrictions": [
+      "NO PERIOD"
+    ],
+    "confidence_score": 0.98
+  }
+]

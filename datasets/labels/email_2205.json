@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "TCT WITH GYPSUM",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-69999",
+    "del_port": "",
+    "redel_port": "Conti",
+    "laycan_start": "2026-12-26",
+    "laycan_end": "2026-12-31",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "5%",
+    "matching_region": "West Africa",
+    "restrictions": [
+      "NO HRA)",
+      "NO SANCTIONED CARGOES AND COUNTRIES"
+    ],
+    "confidence_score": 0.86
+  }
+]

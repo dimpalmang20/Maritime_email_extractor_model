@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DL OLIVE",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "35193",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "23524",
+    "loa": "",
+    "beam": "180m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO\n\nEFFECT FROM ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL IN COMBINED\n\nWAVE",
+      "NO INTERPOLATION FOR THE ENTIRE VOYAGE TO BE TAKEN INTO ACCOUNT AS\n\nGOOD WEATHER TIME",
+      "NO MIXING OF BUNKERS ALLOWED UNLESS CONFIRMED ACCEPTABLE BY THE MASTER"
+    ],
+    "confidence_score": 0.74
+  }
+]

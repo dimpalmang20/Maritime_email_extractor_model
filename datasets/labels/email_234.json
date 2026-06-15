@@ -1,0 +1,24 @@
+{
+  "email_id": 234,
+  "email_type": "tonnage",
+  "source": "Aryacorp",
+  "vessels": [
+    {
+      "vessel_name": "HUA YANG MEI GUI",
+      "open_position": "New Mangalore, India",
+      "open_date": "2025-11-22/2025-11-27",
+      "built_year": 2011,
+      "flag": "China",
+      "class": "CCS",
+      "dwt_mt": 29974,
+      "draft_m": 9.9,
+      "loa_m": 176.2,
+      "beam_m": 26.0,
+      "grain_cbm": 38446,
+      "bale_cbm": 36814,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30 MT"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "TO MAKE 1 SP S.KOREA ATDNSHINC",
+    "redel_port": "",
+    "laycan_start": "2026-04-18",
+    "laycan_end": "2026-04-20",
+    "duration": "20-25 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.83
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PANOCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "TO W.AUST WITH ALUMINA (INT. KWINANA or BUNBURY)",
+    "redel_port": "SGP-JPN RANGE (INT. CHINA)",
+    "laycan_start": "2026-04-26",
+    "laycan_end": "2026-04-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PANOCEAN CO., LTD.",
+    "cargo": "MALAYSIA WITH UREA",
+    "cargo_type": "Dry Bulk",
+    "dwt": "80000-99999",
+    "del_port": "TO MAKE SIPITANG, MALAYSIA WITH UREA IN BULK",
+    "redel_port": "E.AUST (1TCT, TRY 2/3 LL)",
+    "laycan_start": "2026-05-02",
+    "laycan_end": "2026-05-07",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "email_id": 196,
+  "type": "requirement",
+  "source_email": 196,
+  "account": "WCT",
+  "requirement": {
+    "cargo": "Scrap",
+    "employment": "WCT",
+    "duration": "About 25 days WOG",
+    "redelivery": "Turkey"
+  }
+}

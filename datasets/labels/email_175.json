@@ -1,0 +1,26 @@
+{
+  "email_id": 175,
+  "type": "tonnage",
+  "source_email": 175,
+  "vessels": [
+    {
+      "name": "MV AMIS STAR",
+      "dwt": 61123,
+      "built": 2019,
+      "flag": "Liberia",
+      "class": "ABS",
+      "open_position": "Mumbai",
+      "open_date": "2025-11-13/14",
+      "eta_richards_bay": "2025-11-26/27",
+      "eta_port_elizabeth": "2025-11-28/29",
+      "eta_recalada": "2025-12-11/13",
+      "vessel_type": "Bulk Carrier",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30.5 MT Cranes",
+      "grabs": "4 x 12 CBM",
+      "grain_capacity_cbm": 77539,
+      "scrubber": true,
+      "draft_m": 13.03
+    }
+  ]
+}

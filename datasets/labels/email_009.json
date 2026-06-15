@@ -1,0 +1,51 @@
+
+{
+  "text": "From: chartering@stma1.com <chartering@stma1.com>\nSent: Friday, July 18, 2025 2:23 PM\nTo: _ chartering@stma1.com <chartering@stma1.com>\nSubject: PACIFIC OCEAN HMX-UMX TNNG POSITION DD 18TH JULY 2025\n\nMV SHENG XING HAI (57K) OPEN CEBU, PHI 25TH JUL, 2025\n\nMV SHENG PING HAI (57K) OPEN GUANGZHOU,CHINA 30TH JUL, 2025\n\nMV Vinay XING HAI\n2009 BLT CHINA FLAG SDBC\n57291 DWT ON 12.50 M SSW TPC 60.6\nLOA/BEAM 199.99/32.26M\nGT/NT 33580/18486\n5 HO/5 HA\nCARGO HOLDS CO2 FITTED.\n71579 CBM GRAIN/BALE CAPACITY\n4 X 30 TON CRANES AND 4 X15 CMB GRAB\n\nMV SHENG PING HAI\nBUILT: 2012.11\nFLAG: CHINA\nCLASS: CCS\nLOA 189.99M/ BEAM 32.26M / M.DEPTH 18M/ LBP 185M\nDWT 56564.4MT ON 12.8M SSW DRAFT-TPC 58.8-\nINTL TONNAGE: 32976GT/ 19142NT\nHO/HA: 5/5\nGRAIN 71634.09CBM\nBALE 68162.27CBM\nELECTRIC HYDRAULIC HATCH COVERS.\nGEARS: 4*30T (HOOK USE) OR 24T(GRAB USE)\nNUMBER OF GRABS: 4*6~12CBM",
+  "entities": {
+    "VESSEL": [
+      "MV SHENG XING HAI",
+      "MV SHENG PING HAI",
+      "MV Vinay XING HAI"
+    ],
+    "CARGO": [
+      "GRAIN",
+      "BALE"
+    ],
+    "PORT": [
+      "CEBU",
+      "GUANGZHOU"
+    ],
+    "LOAD_PORT": [
+      "CEBU, PHI",
+      "GUANGZHOU, CHINA"
+    ],
+    "DISCHARGE_PORT": null,
+    "ETA": [
+      "25TH JUL, 2025",
+      "30TH JUL, 2025"
+    ],
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": null,
+    "IMO": null,
+    "DWT": [
+      "57291 DWT",
+      "56564.4MT"
+    ],
+    "LAYCAN": null,
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "HMX",
+      "UMX",
+      "SDBC"
+    ],
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "57K",
+      "57291 DWT",
+      "56564.4MT"
+    ],
+    "CONTACT": "chartering@stma1.com"
+  }
+}

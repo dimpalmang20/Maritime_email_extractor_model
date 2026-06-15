@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "AXLE MARINE PTE LTD 3.75% ADC PUS",
+    "cargo": "HARMLESS GRAINS",
+    "cargo_type": "Dry Bulk",
+    "dwt": "38000",
+    "del_port": "APS RECALADA",
+    "redel_port": "S.E ASIA DUR ABT 50-60",
+    "laycan_start": "2025-12-05",
+    "laycan_end": "2025-12-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

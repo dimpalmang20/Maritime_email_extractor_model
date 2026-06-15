@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ORIENTE GLORIA 61425",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61425",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.98m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "SUBIC",
+    "open_date": "2026-12-04",
+    "close_date": "2026-12-08",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no longer wish to receive these emails"
+    ],
+    "confidence_score": 0.95
+  }
+]

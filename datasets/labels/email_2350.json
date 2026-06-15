@@ -1,0 +1,48 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ASIA SPIRIT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Kandla, India",
+    "open_date": "2026-12-23",
+    "close_date": "2026-12-25",
+    "matching_region": "Mediterranean",
+    "restrictions": [
+      "NO GOA"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ASIA SPIRIT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "HONG KONG",
+    "imo": "9637430",
+    "grt": "22434",
+    "nrt": "12068",
+    "loa": "",
+    "beam": "28.4m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE\n\nINFLUENCE OF SWELL",
+      "NO MIXING OF LSFO IS ALLOWED AND BUNKER SUPPLY IS ALLOWED UP TO"
+    ],
+    "confidence_score": 0.73
+  }
+]

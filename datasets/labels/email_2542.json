@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DAI AN OCEAN SHIPPING REQUIREMENTS",
+    "cargo": "TCT WITH",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-69999",
+    "del_port": "WYNDHAM",
+    "redel_port": "POLAND VIA COGH OR GOA",
+    "laycan_start": "2026-01-10",
+    "laycan_end": "2026-01-12",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

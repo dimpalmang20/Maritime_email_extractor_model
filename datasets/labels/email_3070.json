@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DAI AN OCEAN SHIPPING PERIOD REQUIREMENT",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "",
+    "redel_port": "ULTRA",
+    "laycan_start": "2026-01-08",
+    "laycan_end": "2026-01-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

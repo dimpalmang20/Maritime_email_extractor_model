@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FN OCEAN",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ONNE,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FN OCEAN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "19231",
+    "built_year": "2011",
+    "flag": "PANAMA CLASS CCS",
+    "imo": "",
+    "grt": "",
+    "nrt": "33032",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE\n\nOF SWELL"
+    ],
+    "confidence_score": 0.74
+  }
+]

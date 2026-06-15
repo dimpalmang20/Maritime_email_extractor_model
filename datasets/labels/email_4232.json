@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "15000-20000",
+    "quantity_unit": "MT",
+    "load_port": "RED SEA",
+    "discharge_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Black Sea",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

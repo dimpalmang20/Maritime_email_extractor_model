@@ -1,0 +1,82 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ARIS LUCKY 01BLT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "50000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KEMAMAN",
+    "open_date": "2025-12-06",
+    "close_date": "2025-12-09",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.93
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "LSIFO",
+    "redel_port": "LSMGO",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.66
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "IRON ORE/STEEL/SILICA SAND/STEEL/COAL/N.ORE/STEEL/IRON ORE(CURRENT)",
+    "cargo_type": "Dry Bulk",
+    "dwt": "",
+    "del_port": "ABT 2.5MT VLSFO+0.1MT MGO /DAY WORKING: ABT 4.8MT VLSFO +0.1MT MGO /DAY PLUS 1MT/DAY VLSFO IN HOT/COLD WEATHER CONDITION",
+    "redel_port": "",
+    "laycan_start": "2025-12-02",
+    "laycan_end": "2025-12-07",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [
+      "NO\n\nEH GRABS FITTED"
+    ],
+    "confidence_score": 0.82
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ARIS LUCKY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "9237216",
+    "grt": "",
+    "nrt": "27993",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no significant movement of the ship due to wave action and conditions to be less than beaufort force",
+      "no adverse current",
+      "no negative\n\ninfluence of swell"
+    ],
+    "confidence_score": 0.77
+  }
+]

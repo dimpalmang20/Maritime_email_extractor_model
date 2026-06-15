@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PWWD FHINC in CHOPT",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Hatch",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Baltic Sea",
+    "restrictions": [
+      "no\n\nforklift operations at load port"
+    ],
+    "confidence_score": 0.72
+  }
+]

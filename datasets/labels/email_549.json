@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "WEDA,INDONESIA,",
+    "open_date": "2026-11-30",
+    "close_date": "2026-12-05",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.6
+  }
+]

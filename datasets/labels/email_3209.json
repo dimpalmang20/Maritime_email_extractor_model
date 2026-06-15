@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HPC UNITY -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "29033",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "18481",
+    "nrt": "",
+    "loa": "169.99m",
+    "beam": "27m",
+    "grain_capacity": "",
+    "open_port": "BEIRA",
+    "open_date": "2026-01-17",
+    "close_date": "2026-01-22",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

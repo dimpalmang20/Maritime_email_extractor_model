@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "Hanson",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2027-03-17",
+    "laycan_end": "2027-03-20",
+    "duration": "20-25 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

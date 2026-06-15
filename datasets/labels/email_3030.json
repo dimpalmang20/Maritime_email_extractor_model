@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56566",
+    "built_year": "2017",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "31696",
+    "nrt": "",
+    "loa": "190m",
+    "beam": "32.26m",
+    "grain_capacity": "80347",
+    "open_port": "VIZAG,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.76
+  }
+]

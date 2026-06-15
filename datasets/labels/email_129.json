@@ -1,0 +1,36 @@
+{
+  "email_id": 129,
+  "email_type": "open_vessels",
+  "source_company": "Seaspeed Marine",
+  "vessels": [
+    {
+      "vessel_name": "LOFTY MOUNTAIN",
+      "imo": "9233428",
+      "vessel_type": "Bulk Carrier",
+      "flag": "Marshall Islands",
+      "class": "RINA",
+      "built_year": 2002,
+      "open_port": "Dar Es Salaam",
+      "open_date": "2025-11-30/2025-12-05",
+      "dwt": 51008,
+      "draft_m": 11.919,
+      "tpc": 54.38,
+      "loa_m": 189.99,
+      "beam_m": 32.26,
+      "depth_m": 16.76,
+      "grt": 28615,
+      "nrt": 17654,
+      "grain_capacity_cbm": 65414,
+      "bale_capacity_cbm": 64162,
+      "cranes": "4x30MT",
+      "grabs": "2x10CBM + 2x14CBM",
+      "preferred_regions": [
+        "PG",
+        "WCI",
+        "Far East"
+      ],
+      "goa_transit_ok": true,
+      "rus_ukr_ok": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ROCKPHOS IN BULK",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.69
+  }
+]

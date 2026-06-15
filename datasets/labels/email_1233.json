@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "VARITAS NAVIGATION",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "System <>",
+    "redel_port": "",
+    "laycan_start": "2025-11-27",
+    "laycan_end": "2025-12-02",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [
+      "No action is required on your part"
+    ],
+    "confidence_score": 0.68
+  }
+]

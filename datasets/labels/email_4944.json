@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DAIFU",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "NCHINA INT BOHAI BAY",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "30 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

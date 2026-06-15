@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLUE STAR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38000",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "9579327",
+    "grt": "",
+    "nrt": "23204",
+    "loa": "179.98m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENTS",
+      "NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.97
+  }
+]

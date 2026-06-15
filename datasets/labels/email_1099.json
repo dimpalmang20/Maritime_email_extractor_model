@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DWT",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2006",
+    "flag": "",
+    "imo": "",
+    "grt": "11085",
+    "nrt": "",
+    "loa": "",
+    "beam": "170.7m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.66
+  }
+]

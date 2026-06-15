@@ -1,0 +1,23 @@
+{
+  "email_id": 195,
+  "type": "tonnage",
+  "source_email": 195,
+  "vessels": [
+    {
+      "name": "NEMRUT BAY",
+      "imo": "9860788",
+      "dwt": 34431,
+      "built": 2019,
+      "flag": "Malta",
+      "open_position": "CJK",
+      "open_date": "2025-11-22/25",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30.5 MT Cranes",
+      "grain_capacity_cbm": 41742.19,
+      "bale_capacity_cbm": 40510.14,
+      "speed_ballast_knots": 13.5,
+      "speed_laden_knots": 13.0,
+      "logger_fitted": true
+    }
+  ]
+}

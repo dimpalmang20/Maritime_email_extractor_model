@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Ahmad Nabil As Brokers Only Standard",
+    "cargo_type": "Dry Bulk",
+    "quantity": "15000",
+    "quantity_unit": "MT",
+    "load_port": "KHALIFA",
+    "discharge_port": "Rotterdam, Netherlands",
+    "laycan_start": "2025-12-15",
+    "laycan_end": "2025-12-19",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Cape of Good Hope",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

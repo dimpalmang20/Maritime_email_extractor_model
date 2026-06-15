@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WINDS",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "40000-45000",
+    "del_port": "ECI /SPORE /WCI",
+    "redel_port": "",
+    "laycan_start": "2026-04-03",
+    "laycan_end": "2026-04-08",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

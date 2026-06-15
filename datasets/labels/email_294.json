@@ -1,0 +1,20 @@
+{
+  "email_id": 294,
+  "email_type": "vessel_position",
+  "vessel_name": "MV PERISTIL",
+  "vessel_type": "Supramax Bulk Carrier",
+  "dwt": "52113 MT",
+  "built_year": 2010,
+  "flag": "Malta",
+  "open_port": "Koh Sichang, Thailand",
+  "open_dates": "26-30 Nov 2025",
+  "cranes": "4 x 35 MT",
+  "grabs": "4 x 14 CBM",
+  "grain_capacity": "64968 CBM",
+  "preferred_business": [
+    "Trip Charter",
+    "Voyage Charter",
+    "Backhaul Cargo"
+  ],
+  "status": "open_tonnage"
+}

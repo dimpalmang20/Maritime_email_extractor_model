@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "STAR BAND",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "12828",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "9394909",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "RSEA",
+    "open_date": "2026-01-22",
+    "close_date": "2026-01-27",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO\n\nAHL FITTED"
+    ],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "WHEN CALCULATING VESSEL'S PERFORMANCE.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [
+      "NO RIGHT TO OVERCONSUMPTION CLAIMS RELATED TO",
+      "NO MIXING OF DIFFERENT GRADES OF FUELS IS ALLOWED"
+    ],
+    "confidence_score": 0.5
+  }
+]

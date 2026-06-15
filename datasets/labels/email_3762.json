@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GRAND PROSPERITY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "45690",
+    "built_year": "1999",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "185.74m",
+    "beam": "30.4m",
+    "grain_capacity": "",
+    "open_port": "GIBRALTAR,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

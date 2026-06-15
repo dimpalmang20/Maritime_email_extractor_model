@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLT 2013 OPEN TOKUYAMA JPN 06-07 DEC",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "TOKUYAMA",
+    "open_date": "2026-12-06",
+    "close_date": "2026-12-07",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO PREFER CLEAN CARGO"
+    ],
+    "confidence_score": 0.8
+  }
+]

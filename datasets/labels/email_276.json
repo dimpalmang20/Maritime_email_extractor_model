@@ -1,0 +1,115 @@
+{
+  "email_id": 276,
+  "email_type": "vessel_position",
+  "company": "Chau Linh Co., Ltd",
+  "vessels": [
+    {
+      "vessel_name": "ORIENT GLORY",
+      "dwt": 32536,
+      "open_position": "Douala, West Africa",
+      "open_date": "2025-11-22"
+    },
+    {
+      "vessel_name": "HTP AMBER",
+      "dwt": 10309.36,
+      "open_position": "Haldia",
+      "open_date": "Early Dec 2025"
+    },
+    {
+      "vessel_name": "SEIYO HARMONY",
+      "dwt": 32379,
+      "open_position": "Dar Es Salaam",
+      "open_date": "2025-11-25"
+    },
+    {
+      "vessel_name": "AN HAI STAR",
+      "dwt": 11595.7,
+      "open_position": "Tuticorin",
+      "open_date": "2025-11-15 to 2025-11-17"
+    },
+    {
+      "vessel_name": "HT PIONEER",
+      "dwt": 12000,
+      "open_position": "Chittagong",
+      "open_date": "2025-12-01 to 2025-12-05"
+    },
+    {
+      "vessel_name": "ASHICO VICTORIA",
+      "dwt": 10071,
+      "open_position": "Male",
+      "open_date": "2025-11-19"
+    },
+    {
+      "vessel_name": "CS CRYSTAL",
+      "dwt": 30477,
+      "open_position": "Cotonou",
+      "open_date": "2025-12-12 to 2025-12-19"
+    },
+    {
+      "vessel_name": "VINASHIP HARMONY",
+      "dwt": 27000,
+      "open_position": "Chittagong",
+      "open_date": "Mid Dec 2025"
+    },
+    {
+      "vessel_name": "KOOKYANG SINGAPORE",
+      "dwt": 11432,
+      "open_position": "Chittagong",
+      "open_date": "2025-11-28"
+    },
+    {
+      "vessel_name": "DE HAN NO.1",
+      "dwt": 11500,
+      "open_position": "ECI",
+      "open_date": "2025-12-08"
+    },
+    {
+      "vessel_name": "HAIZHOU GLORY",
+      "dwt": 29299,
+      "open_position": "Chittagong",
+      "open_date": "End Dec 2025"
+    },
+    {
+      "vessel_name": "ASIAN HONOR",
+      "dwt": 10200,
+      "open_position": "Tuticorin",
+      "open_date": "Early Jan 2026"
+    },
+    {
+      "vessel_name": "SEIYO FORTUNE",
+      "dwt": 10514,
+      "open_position": "Paradip",
+      "open_date": "2025-12-01"
+    },
+    {
+      "vessel_name": "TD SUNSHINE",
+      "dwt": 6900,
+      "open_position": "Maldives",
+      "open_date": "End Nov/Early Dec 2025"
+    },
+    {
+      "vessel_name": "DK APOLLO",
+      "dwt": 10781,
+      "open_position": "ECI India",
+      "open_date": "2025-11-27 to 2025-11-30"
+    },
+    {
+      "vessel_name": "NEWSUN LUCKY",
+      "dwt": 29229,
+      "open_position": "Chittagong",
+      "open_date": "2025-11-28"
+    },
+    {
+      "vessel_name": "LILY OCEAN",
+      "dwt": 53462,
+      "open_position": "Haldia",
+      "open_date": "2025-11-22 to 2025-11-26"
+    },
+    {
+      "vessel_name": "FORTUNE GLORY",
+      "dwt": 68028.69,
+      "open_position": "Chittagong",
+      "open_date": "2025-12-22 to 2025-12-24"
+    }
+  ]
+}

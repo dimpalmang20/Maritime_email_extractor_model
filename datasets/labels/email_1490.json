@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HORIZON VEGA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58000",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "2025-12-06",
+    "close_date": "2025-12-08",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.9
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HORIZON VEGA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.63
+  }
+]

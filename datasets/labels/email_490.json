@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "TAICHI SHIPPING",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-30000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-11-19",
+    "laycan_end": "2025-11-24",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "TC",
+    "account_name": "TAICHI SHIPPING",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-30000",
+    "del_port": "DLOSP 1SP VIETNAM RANGE",
+    "redel_port": "DLOSP CHINA RANGE",
+    "laycan_start": "2026-11-24",
+    "laycan_end": "2026-11-27",
+    "duration": "20 days",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

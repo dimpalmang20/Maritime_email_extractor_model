@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Port Kyushu",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-05",
+    "close_date": "2026-12-10",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "no Shipbrokers Co",
+      "NO SHIPBROKERS CO"
+    ],
+    "confidence_score": 0.65
+  }
+]

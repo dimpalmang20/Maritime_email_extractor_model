@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55700",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Constanta, Romania",
+    "open_date": "2027-03-15",
+    "close_date": "2027-03-18",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MICHALIS SAN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55782",
+    "built_year": "",
+    "flag": "Malta",
+    "imo": "9648879",
+    "grt": "",
+    "nrt": "26161",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "smooth",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no adverse current",
+      "No extrapolation is allowed for bad weather periods while assessing vessel"
+    ],
+    "confidence_score": 0.91
+  }
+]

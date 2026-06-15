@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "50000",
+    "quantity_unit": "MT",
+    "load_port": "SALEF",
+    "discharge_port": "Hodeidah, Yemen",
+    "laycan_start": "2026-12-21",
+    "laycan_end": "2026-12-26",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Upriver, Argentina",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GUO DIAN 7",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32951",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "19983",
+    "nrt": "",
+    "loa": "178m",
+    "beam": "27.6m",
+    "grain_capacity": "",
+    "open_port": "ADABIYA",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Taiwan",
+    "restrictions": [
+      "NO MIXING OF BUNKERS ALLOWED UNDER ANY CIRCUMSTANCES"
+    ],
+    "confidence_score": 0.91
+  }
+]

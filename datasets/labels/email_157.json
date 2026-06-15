@@ -1,0 +1,20 @@
+{
+  "email_id": 157,
+  "type": "tonnage",
+  "source_email": 157,
+  "vessels": [
+    {
+      "name": "MV DA YANG BAI HE",
+      "dwt": 56444,
+      "built": 2012,
+      "flag": "China",
+      "class": "CCS",
+      "open_position": "Nanjing, China",
+      "open_date": "2025-12-06/10",
+      "gear": "4 x 30 MT Cranes",
+      "grabs": "4 x 8-12 CBM",
+      "grain_capacity_cbm": 71634.1,
+      "bale_capacity_cbm": 68200
+    }
+  ]
+}

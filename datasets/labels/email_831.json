@@ -1,0 +1,95 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VLSFO AT ALL TIMES FOR BOILER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "41333",
+    "built_year": "",
+    "flag": "TURKISH LOYLD",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "186.45m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Bukpyung, South Korea",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South Korea",
+    "restrictions": [
+      "NO GRABS ON BOARD",
+      "NO NEGATIVE\n\nINFLUENCE OF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.82
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "12500",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "30807",
+    "nrt": "18109",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ONNE,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.68
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NIHAT-M OPEN CARIBS -NCSA DEC 03-05",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "12000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "19908",
+    "nrt": "110115",
+    "loa": "177m",
+    "beam": "28.4m",
+    "grain_capacity": "",
+    "open_port": "CARIBS",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.86
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "31727",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "19734",
+    "loa": "176.82m",
+    "beam": "29.4m",
+    "grain_capacity": "",
+    "open_port": "CONSTANTA,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.67
+  }
+]

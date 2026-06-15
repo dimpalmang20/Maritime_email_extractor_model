@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DA YANG BAI HE",
+    "vessel_type": "MR Tanker",
+    "dwt": "56444",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "NANJING,",
+    "open_date": "2026-12-06",
+    "close_date": "2026-12-10",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO EXTRAPOLATION OF GOOD WEATHER ANALYSIS CAN BE MADE TO OVERALL VOYAGE"
+    ],
+    "confidence_score": 0.92
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 230\nemail_type: open_vessels\nsource_company: Rieck + Petersen GmbH\nvessels:\n- vessel_name: NAVA ULYSSES\n  vessel_type: SD/BC\n  built_year: 2012\n  built_country: China\n  flag: MARSHALL ISLANDS\n  open_port: LIVERPOOL\n  open_date: '2025-11-22/26'\n  dwt: 34898\n  draft_m: 10.10\n  tpc: 50.8\n  loa_m: 179.95\n  beam_m: 30.00\n  holds: 5\n  hatches: 5\n  cranes: 4 X 30 MT\n  grabs: 3 X 12CBM\n  grain_capacity_cbm: 46761.7\n  bale_capacity_cbm: 45683\n  gross_tonnage: 24187\n  net_tonnage: 11565",
+  "entities": {
+    "VESSEL": [
+      "NAVA ULYSSES",
+      "MV NAVA ULYSSES"
+    ],
+    "VESSEL_TYPE": [
+      "SD/BC",
+      "BOX"
+    ],
+    "DWT": [
+      "34,898 MTS DWAT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "LIVERPOOL"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Rieck + Petersen GmbH",
+      "HSB Hamburg Shipbrokers",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "22/26 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "deepeshmajigamkar@hotmail.com",
+      "chartering@varitasnavigation.com",
+      "rieck-petersen@shipnet.de"
+    ],
+    "RESTRICTIONS": [
+      "CO2 / A60 FITTED",
+      "SUB OWNERS APPROVAL TO USE GRABS"
+    ]
+  }
+}

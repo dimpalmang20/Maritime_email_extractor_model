@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "HARMLESS UREA",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-39999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.81
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PANOCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-99999",
+    "del_port": "TO W.AUST (INT. KWINANA) TO CHINA",
+    "redel_port": "",
+    "laycan_start": "2025-12-01",
+    "laycan_end": "2025-12-31",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Far East",
+    "restrictions": [],
+    "confidence_score": 0.89
+  }
+]

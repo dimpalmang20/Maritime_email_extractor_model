@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "lsmgo",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "16761",
+    "built_year": "2006",
+    "flag": "ICS CLASS SINGLE DECK",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "134.93m",
+    "beam": "23m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.77
+  }
+]

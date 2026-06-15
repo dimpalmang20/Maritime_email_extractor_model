@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "AUXIN SHIPPING",
+    "cargo": "TCT WITH IRON ORE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-69999",
+    "del_port": "ECI - 25/30 DEC",
+    "redel_port": "CHINA PICO",
+    "laycan_start": "2025-12-12",
+    "laycan_end": "2025-12-17",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "YASA VENUS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61076",
+    "built_year": "2019",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "34508",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [
+      "EXCL BWTS",
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL",
+      "NO EXTRAPOLATION TO BE MADE"
+    ],
+    "confidence_score": 0.84
+  }
+]

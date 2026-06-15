@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FULSUN OCEAN DWT 29000 OPEN SINGAPORE 19TH JAN",
+    "vessel_type": "MR Tanker",
+    "dwt": "29000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HUARONGHAIZHOU DWCC49000MT OPEN KEMAMAN 19 JAN.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "50680",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "28858",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KEMAMAN",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

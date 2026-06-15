@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "75462",
+    "built_year": "1999",
+    "flag": "LOA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "224.95m",
+    "grain_capacity": "894225",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE\n\nINFLUENCE OF CURRENT AND SWELL\n\nALWAYS IFO",
+      "NO MDO"
+    ],
+    "confidence_score": 0.59
+  }
+]

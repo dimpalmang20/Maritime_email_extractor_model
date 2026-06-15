@@ -1,0 +1,10 @@
+{
+  "email_id": 240,
+  "email_type": "bank_notification",
+  "source": "HDFC Bank",
+  "notification_type": "OTP Alert",
+  "otp": "506463",
+  "purpose": "Modify prepaid card usage limits",
+  "date": "2025-11-14",
+  "status": "informational"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Greener - supra",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56620",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "32983",
+    "nrt": "19191",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-03",
+    "close_date": "2026-12-10",
+    "matching_region": "World Wide",
+    "restrictions": [],
+    "confidence_score": 0.89
+  }
+]

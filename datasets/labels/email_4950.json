@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "15000-20000",
+    "quantity_unit": "MT",
+    "load_port": "KOH SI CHANG , THAILAND",
+    "discharge_port": "KANDLA + CHENNAI",
+    "laycan_start": "2026-07-10",
+    "laycan_end": "2026-07-20",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

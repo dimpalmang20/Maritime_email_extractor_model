@@ -1,0 +1,47 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OPEN MULDWARKA",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MULDWARKA",
+    "open_date": "2025-12-10",
+    "close_date": "2025-12-14",
+    "matching_region": "West Coast India",
+    "restrictions": [
+      "NO RED SEA"
+    ],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PORT EVERGLADES",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2023",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "36600",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "LOOP",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "no swell nor adverse current and clean\n\nbottom"
+    ],
+    "confidence_score": 0.72
+  }
+]

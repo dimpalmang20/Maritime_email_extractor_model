@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LIAN YUN 9 - Open Inchon 4 Dec",
+    "vessel_type": "Container Ship",
+    "dwt": "",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "103.7m",
+    "beam": "98m",
+    "grain_capacity": "",
+    "open_port": "positions",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.75
+  }
+]

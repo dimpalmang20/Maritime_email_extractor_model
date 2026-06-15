@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MV. PAN BONITA",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "38000",
+    "built_year": "",
+    "flag": "KOREA",
+    "imo": "",
+    "grt": "24504",
+    "nrt": "",
+    "loa": "189m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "chiba",
+    "open_date": "2027-01-07",
+    "close_date": "2027-01-10",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO GRAB ON BOARD\n\nSPEED",
+      "NO NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.94
+  }
+]

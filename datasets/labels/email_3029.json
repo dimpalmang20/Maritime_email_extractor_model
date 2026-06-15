@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ELEOUSSA",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BARRANQUILLA,",
+    "open_date": "2027-01-10",
+    "close_date": "2027-01-15",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ELEOUSSA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2008",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "31532",
+    "loa": "",
+    "beam": "190m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.6
+  }
+]

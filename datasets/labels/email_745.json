@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "C LION",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58177",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "32287",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "PORT",
+    "open_date": "2026-12-04",
+    "close_date": "2026-12-07",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

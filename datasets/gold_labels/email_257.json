@@ -1,0 +1,61 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: rieck-petersen@shipnet.de <rieck-petersen@shipnet.de> \nSent: 14 November 2025 15:07\nTo: chartering@varitasnavigation.com\nSubject: FM EXCL SOURCE\n\nDoc-No. 9542134   14/NOV/2025 (FRI)  10:37  (+0100)  LP\nRieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers  \n\nOPEN INCHON 25/30 NOV - PREF DIR MED/CONT - TRY ANY\n\n2X25 TS COILS OK - DECK OK - GOA OK \nM/V MANA\n63,408.4 MTS DWT ON 13.3 M SSW - SD/BC - LIB FLAG - BUILT 2017\nLOA 199.90 - LBP 194.50 - GRT 36,484 - NRT 21,601 - GRAIN  78,750.80\nCO2-FORCED VENT - 5 HO HA - TTS FOLDING TYPE - CO2 FITTED \nCRANES TYPE AND CAPACITY:\n4 X 35 MT EL.HYDRAULIC, CRANES WUHAN MARINE MACHINERY \nGRABS: 4 X 15 CBM",
+  "entities": {
+    "VESSEL": [
+      "MANA"
+    ],
+    "VESSEL_TYPE": [
+      "SD/BC"
+    ],
+    "DWT": [
+      "63,408.4 MTS"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "INCHON"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Rieck + Petersen GmbH",
+      "HSB Hamburg Shipbrokers"
+    ],
+    "LAYCAN": [
+      "25/30 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "63,408.4 MTS"
+    ],
+    "CONTACT": [
+      "+49 (0)40 35 00 426",
+      "+49 (0)172 410 48 72",
+      "rieck-petersen@shipnet.de"
+    ],
+    "RESTRICTIONS": [
+      "4 X 35 MT CRANES",
+      "GRABS 4 X 15 CBM",
+      "PREF DIR MED/CONT"
+    ],
+    "tonnage_type": "SD/BC",
+    "port": "INCHON",
+    "region": "MED/CONT",
+    "matching_region": null,
+    "open_date": "2025-11-25",
+    "close_date": "2025-11-30",
+    "dwt": "63,408.4 MTS",
+    "tonnage_name": "MANA",
+    "pic": "Lars Petersen",
+    "email_id": "rieck-petersen@shipnet.de",
+    "phone_number": "+49403500426",
+    "latitude": null,
+    "longitude": null
+  }
+}

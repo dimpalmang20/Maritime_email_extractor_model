@@ -1,0 +1,103 @@
+{
+  "email_id": 108,
+  "email_type": "open_vessels",
+  "source_company": "Marcons Group",
+  "vessels": [
+    {
+      "vessel_name": "JAHAN MONI",
+      "dwt": 55496,
+      "draft_m": 12.502,
+      "built_year": 2008,
+      "holds": "5H/5H",
+      "cranes": "4x30MT",
+      "loa_m": 190,
+      "open_port": "Zhoushan",
+      "open_country": "China",
+      "open_date": "2025-11-15"
+    },
+    {
+      "vessel_name": "JAWAD",
+      "dwt": 53505,
+      "draft_m": 12.303,
+      "built_year": 2007,
+      "holds": "5H/5H",
+      "cranes": "4x30MT",
+      "loa_m": 189.94,
+      "open_port": "Beihai",
+      "open_country": "China",
+      "open_date": "2025-11-18"
+    },
+    {
+      "vessel_name": "SHAHRIAR JAHAN",
+      "dwt": 46232,
+      "draft_m": 11.807,
+      "built_year": 2002,
+      "holds": "5H/5H",
+      "cranes": "4x25MT",
+      "loa_m": 183,
+      "open_port": "Chittagong",
+      "open_country": "Bangladesh",
+      "open_date": "2025-11-19"
+    },
+    {
+      "vessel_name": "KHADEEJAH JAHAN II",
+      "dwt": 55486,
+      "draft_m": 12.53,
+      "built_year": 2009,
+      "holds": "5H/5H",
+      "cranes": "4x30MT",
+      "loa_m": 189.9,
+      "open_port": "Ravenna",
+      "open_country": "Italy",
+      "open_date": "2025-11-20"
+    },
+    {
+      "vessel_name": "SHAHRIAR JAHAN I",
+      "dwt": 60195,
+      "draft_m": 13.025,
+      "built_year": 2017,
+      "holds": "5H/5H",
+      "cranes": "4x31MT",
+      "loa_m": 199.9,
+      "open_port": "Campha",
+      "open_country": "Vietnam",
+      "open_date": "2025-11-21"
+    },
+    {
+      "vessel_name": "JAHAN SISTERS",
+      "dwt": 47639,
+      "draft_m": 11.82,
+      "built_year": 1995,
+      "holds": "5H/5H",
+      "cranes": "4x25MT",
+      "loa_m": 189.99,
+      "open_port": "Mongla",
+      "open_country": "Bangladesh",
+      "open_date": "2025-11-21"
+    },
+    {
+      "vessel_name": "FATEMA JAHAN II",
+      "dwt": 58096,
+      "draft_m": 12.826,
+      "built_year": 2010,
+      "holds": "5H/5H",
+      "cranes": "4x30MT",
+      "loa_m": 189.99,
+      "open_port": "Paradip",
+      "open_country": "India",
+      "open_date": "2025-11-21"
+    },
+    {
+      "vessel_name": "AMEENA JAHAN",
+      "dwt": 53477,
+      "draft_m": 12.303,
+      "built_year": 2010,
+      "holds": "5H/5H",
+      "cranes": "4x30MT",
+      "loa_m": 189.94,
+      "open_port": "Navlakhi",
+      "open_region": "WCI",
+      "open_date": "2025-11-25"
+    }
+  ]
+}

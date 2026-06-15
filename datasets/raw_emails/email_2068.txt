@@ -1,0 +1,261 @@
+ 
+ 
+ 
+ 
+ 
+Best Regards:
+ 
+
+ 
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+ 
+From: postmaster@marbrokers.com <postmaster@marbrokers.com> 
+Sent: 11 December 2025 10:24
+To: chartering@varitasnavigation.com
+Subject: Undeliverable: ACC VARITAS NAVIGATION
+ 
+Delivery has failed to these recipients or groups:
+ <mailto:aeilon@mbc-hellas.com> aeilon@mbc-hellas.com
+Your message couldn't be delivered. The Domain Name System (DNS) reported
+that the recipient's domain does not exist.
+Contact the recipient by some other means (by phone, for example) and ask
+them to tell their email admin that it appears that their domain isn't
+properly registered at their domain registrar. Give them the error details
+shown below. It's likely that the recipient's email admin is the only one
+who can fix this problem.
+For more information and tips to fix this issue see this article:
+https://go.microsoft.com/fwlink/?LinkId=389361.
+ 
+
+
+
+
+
+
+Diagnostic information for administrators:
+Generating server: BY3PR19MB5153.namprd19.prod.outlook.com
+aeilon@mbc-hellas.com
+Remote server returned '550 5.4.310 DNS domain mail.marbrokers.com does not
+exist [Message=InfoDomainNonexistent]
+[LastAttemptedServerName=mail.marbrokers.com]
+[SN1PEPF000715A5.namprd07.prod.outlook.com 2025-12-11T04:53:57.999Z
+08DE341799CC167F]'
+Original message headers:
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ 
+b=y6Fd5ZDGkofkG5p9jgFA5h0NIpeJnxU5kxEzVunxR7Kbl122fI2Mbpl+OXWO5aijFkugozXkvU
+GmiODOgax21zLU/eoqFu8b8bMsB1+x33ww/lYaoFY3M0CIzaCDWBlhroBiLLn7yoM4AEYU6jTjOe
+0ULqpG3ZXeaGRKsBs3/rr/xcMQipDjzYe15WHwZTzRwtFdOHdfRLaWHZMVRwgFz1I7/IXmEaGrqj
+FWq5XbSGzOgxs3wBZ3oNjf3lDCwYPp9tTdY4jzxzFSBKd88unwU/zQA0WDapyPE8OCirdyJuetm0
+EGSmSeRaCzrObItM82/QoIeFv7ivmR5S4Rl4xzRA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+d=microsoft.com;
+ s=arcselector10001;
+ 
+h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiS
+pam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchang
+e-AntiSpam-MessageData-1;
+ bh=wI42idU6GftB5bSd0qkr0A5nkIdzykBz9VZfVbpQZp0=;
+ 
+b=bQlaZTtCkT8eKthhAnF/NHLr2k/Kuy55QJEIe4JA3Tcm8WmWMH8JTOsp2PWGybWaZftFyBktWN
+0p1B/LzKjXU99MKuPHS//J70opCHqANSIJAwg12uoVrlWclFXLvRtDtSvIsk15c+7jMDJCMAepGX
+WoOjJCS/DsfAirMRLdRzU822sU8fQQoEEMtL2cJq/Wnh5RVHscjLywXAeq0AM7aYtN4IzzPHdqY+
+IjxvU7EDsjuFBkfYfIR1LP6tnydr8OWsJwf9NcBmJKMDUgmQgn11BDxLe+WeQsPDk7u1ZOPoUHgh
+gXZmhDCK+XABmy9EYl5GtenfTSPbNM8bU430UJNg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass (sender ip is
+ 94.136.184.46) smtp.rcpttodomain=mbc-hellas.com
+ smtp.mailfrom=varitasnavigation.com; dmarc=bestguesspass action=none
+ header.from=varitasnavigation.com; dkim=fail (no key for signature)
+ header.d=varitasnavigation.com; arc=none (0)
+Received: from BN9PR03CA0328.namprd03.prod.outlook.com
+(2603:10b6:408:112::33)
+ by BY3PR19MB5153.namprd19.prod.outlook.com (2603:10b6:a03:36d::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9412.9; Thu, 11 Dec
+ 2025 04:52:51 +0000
+Received: from BN2PEPF0000449E.namprd02.prod.outlook.com
+ (2603:10b6:408:112:cafe::aa) by BN9PR03CA0328.outlook.office365.com
+ (2603:10b6:408:112::33) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9388.15 via Frontend Transport;
+Thu,
+ 11 Dec 2025 04:52:33 +0000
+Authentication-Results: spf=pass (sender IP is 94.136.184.46)
+ smtp.mailfrom=varitasnavigation.com; dkim=fail (no key for signature)
+ header.d=varitasnavigation.com;dmarc=bestguesspass action=none
+ header.from=varitasnavigation.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of varitasnavigation.com
+ designates 94.136.184.46 as permitted sender)
+ receiver=protection.outlook.com; client-ip=94.136.184.46;
+ helo=vmi2441136.contaboserver.net; pr=C
+Received: from vmi2441136.contaboserver.net (94.136.184.46) by
+ BN2PEPF0000449E.mail.protection.outlook.com (10.167.243.149) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9412.4
+ via Frontend Transport; Thu, 11 Dec 2025 04:52:48 +0000
+Received: from LAPTOPP6RKI9ML (unknown [103.39.29.144])
+        by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id
+071786A08E9;
+        Thu, 11 Dec 2025 05:52:36 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=varitasnavigation.com; s=default; t=1765428763;
+        bh=hzJj+8XkiFRMFL6Ym3/hN1jesGcTkGRm/0XYYK7pHI8=; h=From:Subject;
+  b=YrF4KFyWFpLJRBeuAaZwCWRqOgvS8gPHma8hylsSrrkOBATf6g2GZEqVY7ii78N2O
+         HM97sYmQdSAvYD+qgjwXPEe1xvkTKyJ1CMbFsN9pqMxZiERt+vAr9aA1JqXNmWp44x
+         A1ORqqGKoIyo+V83SJstG6AtnDDrKUDfNeCZVCPm7EdfFNNiKOQFHabMwsL1k41ceX
+         Tvr+80pKrVTXmt93WqxoLGX/VpfUl58J4l3b6v73g4/Bh1RtH+BKnQu1Dg+M720SoG
+         FC5CmngZnAHOLGEE2SXEUfnQDF34RlE+KsCp/6RD0GTNI3qp4DSkFGVfq+ovbb5Re6
+         8OubHrUoBJxTw==
+Authentication-Results-Original: vmi2441136.contaboserver.net;
+spf=pass
+ (sender IP is 103.39.29.144) smtp.mailfrom=chartering@varitasnavigation.com
+ smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is
+authenticated)
+From: <chartering@varitasnavigation.com>
+CC: 'Varitas Navigation' <chartering@varitasnavigation.com>,
+        "chartering@mbc-hellas.com" <chartering@mbc-hellas.com>
+Subject: ACC VARITAS NAVIGATION
+Date: Thu, 11 Dec 2025 10:22:34 +0530
+Message-ID: <0f2801dc6a59$f940cf40$ebc26dc0$@varitasnavigation.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+        boundary="----=_NextPart_000_0F29_01DC6A88.12FA6AD0"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdxqWZPm0Ne9UzlfT+CHKEJi6xrhTQ==
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 981afe8b-0e04-4a09-a960-f0b7f5d8d26b:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BN2PEPF0000449E:EE_|BY3PR19MB5153:EE_
+X-MS-Office365-Filtering-Correlation-Id:
+09ba66f4-d69a-41ba-f9e0-08de38712234
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-LD-Processed: 981afe8b-0e04-4a09-a960-f0b7f5d8d26b,ExtAddr,ExtFwd
+X-Microsoft-Antispam:
+BCL:0;ARA:13230040|12012899012|2092899012|4053099003|13003099007|8096899003|
+4076899003;
+X-Microsoft-Antispam-Message-Info:
+=?us-ascii?Q?ByocLX7psi9X7eJK/kBS4hvBIX2kSaH5oQ/KWLPgHHPiI8tcno3NV0SGBSGd?=
+ =?us-ascii?Q?lM0zvLjdJb86ck+xPxbq2DoA9YwiPxNc8EaR+BKnqThDctn1ZYJ4p1l8X0sq?=
+ =?us-ascii?Q?E7s7T5DQ57z2/WcnCqfbzCoI6UbADRJBLy/zuruLdqyVBYrplqufJ4GzNvhG?=
+ =?us-ascii?Q?7BEUzRC6bq6MnjrWcn0OVsVWHTYWj30/7PkfnJVBq73TwwCeRHwSRgzfUTyU?=
+ =?us-ascii?Q?sqVRevA53LfViQUQEbWx+y9NW9ihbDkwDbQmnYljeyKJRzKea9X/vgVA0W44?=
+ =?us-ascii?Q?4IR+X6q/4V+qOMEI7bhXdv0XRSyg8+Xh6XRDBwNvPpt9/IcJnKgJc5LbbUpq?=
+ =?us-ascii?Q?HseTSXSAOXZI0/qHo7AkdmDcxw8T4Jhht/PoKOgULNgbn/fPmcQtEFvH8Ig/?=
+ =?us-ascii?Q?2Q1Z9QC+ifNjq7TbmBSAUw3MmkOlEuvpITNs0A5YPTZr31GAZa7mikFLKELk?=
+ =?us-ascii?Q?IhHkhtPGKEDu1I7aABwcEo5ZUSBdiNzpQsiHjLL0DYvhK/zIvUmPQagoftRS?=
+ =?us-ascii?Q?yMHAYLvACkx4XOs9aO0f3XkAHDpyq7rreVBqiDXpi5W9sFuLSjQ/GD5ZbpFT?=
+ =?us-ascii?Q?V8UQj4oDE59Ku97A/d9IWISOXjHgh4w5xPPhSW3vKZwpwNV8tIbX/p4xMPne?=
+ =?us-ascii?Q?htx4d9TtghOcexxXJMjZMBIGgcWlECSb1qKFgShYdf0X9Trn/0AmRPaDYja1?=
+ =?us-ascii?Q?3Sz1dYY8zsysqQeccEz6ZuSibS8HZRVzdaFw4RA1wVHtGDj1Ub2JWaYiSxJI?=
+ =?us-ascii?Q?dor1liDI6DUCZ+OpY4h2QIl7gRjvRkt0aZp4h5i1v2uFifjvGCMkPzapPRkR?=
+ =?us-ascii?Q?/h0QDMpCnk5vTsAsx5BKK3Q4m0cjYt1Rg8gCi2G1B8Ut+OeV7pRMp2DcZV3R?=
+ =?us-ascii?Q?66xUwupHtsOwwaW0Lxi9XtQiTJ27Y923wmBMxUxtKTCswG9AwU1YgP9Eir4G?=
+ =?us-ascii?Q?J9lDZT64X0J9GxI/Eg+Ffx87xwTLZI7v3QDKCCy214ATfrwsoP8cGUYZDnKJ?=
+ =?us-ascii?Q?TfFiGBMppuLVnGM/NMFetDacdy/QZykdXXP5y/vStNrBm0Qq/cl69EEtZrLl?=
+ =?us-ascii?Q?a3nL8Bc2IYnbAeF5/uWk+Z7StUt8LWeDatZKHbcnVNUrtN2Gk/oTUfwcwVks?=
+ =?us-ascii?Q?i03BS+XKviA9MqN0nMCL/RRRcUI33Z5lEtG8LpIKnw+17i/K1u+mucv43uIA?=
+ =?us-ascii?Q?19BzV4evUrVfLeDHQslqvl1kCa5gz9tx0yfNokBkjYY5gEghECQAk0a7HQGY?=
+ =?us-ascii?Q?Vo80vjrY96Cgg/xcwzvoYsYDgwvtq8dIcR2CMqqNYJRj9LiUM5mmMJiaTtWC?=
+ =?us-ascii?Q?b+XR+UBwcAk0klhakrSDQa8nR4mkPMUc2h3Uhb26w82N4N/LDYpMvAjKNkAd?=
+ =?us-ascii?Q?gJFcFp8tB+7uTh74Hv9mS6kua/W0/JIxaFY3wg6UsmdcJT43TgBiUFgAUmi2?=
+ =?us-ascii?Q?OlfyP49xlLSI45RlC8prJVYJIrr9IEYcTpnKfFcQOcqC1AF1/tKvBXTpIRca?=
+ =?us-ascii?Q?4o7NFxf/PDB7tMXu4TUqOJUcQAeP/eSMcsNPO1vnUVFyp2xwKYRt3PwmK2/m?=
+ =?us-ascii?Q?FT1LfpZdt84R3WTJmGICdKpFXdaGmduiuUJdYgJgEhkOeQSmzGJ6cFRW60dq?=
+ =?us-ascii?Q?GsVd1rzIdO4yRvE5Rs+ZZq/lfH6mmSKgcj7neF4W1uMJ22X1RDVH/niP/w4N?=
+ =?us-ascii?Q?ite+TsYkCB8c1wHVSY+cOmCp5PEvc0iSGKTVjUTetS/rI/SYbQP2J93aiUVA?=
+ =?us-ascii?Q?9R58TfECgJMVnU3kfIKjERtzeA+oQ7f8uTFuvqWvBgov+R07K/zgrvD06mSk?=
+ =?us-ascii?Q?APZ4U7mcGLWUQnvvsreCU254LdFeQqsGDhIZ1sYxGNYVwWLyxr1WNLC+PdL9?=
+ =?us-ascii?Q?MxgNCHR/hMB+pH4XFI3djEBjo2G98tLqV1Scox/1UiYiQpOfFaSW1N99kKv/?=
+ =?us-ascii?Q?V5GEC8n7k2OxLTs/vvGhlsH6FCNSThxEBVnXO5qqd6qA7VK+aCtuZBc3BBfX?=
+ =?us-ascii?Q?4axCj2c4OnqNUkTrUa5+nWwfvIZROxp9manUqjpEFFHP3z385y7KBAsqYWkz?=
+ =?us-ascii?Q?vJOknN1GMWWjpJoLlT0ldFQYsFEC5RPVvjhRhsU+yf3weP60nPpeJDmifZVo?=
+ =?us-ascii?Q?7Vli1n6LofrxyLkC2EW4XiAoITzdZjaIVju0AXXPewu3hJ/hR9d/8+w7p0Ic?=
+ =?us-ascii?Q?fJ6ILgVEuLSnNUCZZYYxRWs/AdHfhHe6WO+4mK0aujOY5EA3biVR15++oWZR?=
+ =?us-ascii?Q?sQp25eQlVV+mcbOq64wCk5CgY9LDb3MRWtcIGybybVXnfI/Nt6J1lsOzkjeV?=
+ =?us-ascii?Q?8N9RzmosQbGLApKsuI6kU77NGKV8/pjEFyUBF9uELrHfPBaTLMfVRIy1EWZo?=
+ =?us-ascii?Q?mKA/J32pCHUewSMLINrzW1XmOuyyeIE5Nz/IMVbChzrCvkBFos01VG0BIeSh?=
+ =?us-ascii?Q?5mYYh3pV2t//ihR4ESVnWC7vSC3vq8UXM5D9ieqHAjw3IZh6hbRbgd0rYFZl?=
+ =?us-ascii?Q?uFDSBcWYhuyNagHH3a7DFaOnCyxVLnj4rkh6SCmXOuxTpbC7UzScq+E9KMEq?=
+ =?us-ascii?Q?0k40cO9mkbQrO7YjK3ik0Kmbllh3FQbDlwxlvguPtdKd8fgwxsVSTbDLAFUD?=
+ =?us-ascii?Q?aKGUMJEqNLZsIaP/NQTpyNbHbbIyCQ3szTL7CliMYwXr?=
+X-Forefront-Antispam-Report:
+CIP:94.136.184.46;CTRY:IN;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:vmi2441136.c
+ontaboserver.net;PTR:vmi2441136.contaboserver.net;CAT:NONE;SFS:(13230040)(12
+012899012)(2092899012)(4053099003)(13003099007)(8096899003)(4076899003);DIR:
+INB;
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-OriginatorOrg: marbrokers.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 11 Dec 2025 04:52:48.5274
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+09ba66f4-d69a-41ba-f9e0-08de38712234
+X-MS-Exchange-CrossTenant-Id: 981afe8b-0e04-4a09-a960-f0b7f5d8d26b
+X-MS-Exchange-CrossTenant-AuthSource:
+BN2PEPF0000449E.namprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY3PR19MB5153
+X-OrganizationHeadersPreserved: BY3PR19MB5153.namprd19.prod.outlook.com
+X-CrossPremisesHeadersFilteredByDsnGenerator:
+        BY3PR19MB5153.namprd19.prod.outlook.com
+Dear All,
+
+Good day.
+
+ 
+
+// FULLY FIRM // 
+
+ 
+
+ACC VARITAS NAVIGATION
+
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. 
+
+Load port: Tianjin, China
+
+Discharge port: Shuaiba, Kuwait.
+
+Load rate: CQD 
+
+Discharge: Liner out.
+
+Laycan 15-20th December 2025.
+
+As part cargo.
+
+2.5% Addcom
+
+ 
+
+ 
+
+Best Regards:
+
+ 
+
+
+
+ 
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+
+Website:- www.varitasnavigation.com
+
+ 
+

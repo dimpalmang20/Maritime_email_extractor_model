@@ -1,0 +1,54 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 206\nemail_type: open_vessels\nsource_company: Vega Shipping\nvessels:\n- vessel_name: EAST BANGKOK\n  ex_name: HONGXIN BLUE SEA\n  dwt: 32474.60\n  open_port: Machong\n  open_country: South China\n  open_date: '2025-11-26/12-02'\n  vessel_type: Double Skin Bulk Carrier\n  built_year: 2012\n  class: NK\n  flag: Thai\n  draft_m: 10.2\n  loa_m: 177.4\n  breadth_m: 28.2\n  depth_m: 14.2\n  net_tonnage: 11367\n  gross_tonnage: 20218\n  grain_capacity_cbm: 42149\n  bale_capacity_cbm: 40885\n  holds: 5\n  hatches: 5\n  hatch_covers: Mac Gregor Folding Type\n  cranes: 4 Sets x 30MT\n  tank_top_strength: 20 MT/SQM\n  vessel_features: EEXI Compliant, CO2 Fitted, A60 Steel Bulkhead, Non-ITF (MLC Compliance)",
+  "entities": {
+    "VESSEL": [
+      "EAST BANGKOK",
+      "HONGXIN BLUE SEA"
+    ],
+    "VESSEL_TYPE": [
+      "DOUBLE SKIN BULK CARRIER"
+    ],
+    "DWT": [
+      "32.4K",
+      "32474.60MT"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "STEEL COILS"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "MACHONG",
+      "SOUTH CHINA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Vega Shipping",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "26 NOV-02 DEC'2025"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "VOYAGE"
+    ],
+    "TONNAGE": [
+      "32.4K"
+    ],
+    "CONTACT": [
+      "chartering@vslfix.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com",
+      "VEGACONSULTANT2@OUTLOOK.COM"
+    ],
+    "RESTRICTIONS": [
+      "NON-ITF"
+    ]
+  }
+}

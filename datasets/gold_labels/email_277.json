@@ -1,0 +1,68 @@
+{
+  "email_type": "Cargo VC",
+  "text": "From: chartering@transistanbul.com <chartering@transistanbul.com> \nSent: 14 November 2025 17:52\nTo: chartering@varitasnavigation.com\nSubject: REF 4000/7700 MTS CEMENT IN BIG BAGS FM EREGLI TO CONSTANTZA\n \nGD DYS ,\n \nPLEASE OFFER FIRM FOR ; \n\nTRY 2 OR 3 CONSEC VOYAGES IN OWNERS OPTION\n4,000 / 5,500 MTS GENS IN BB - STW/DWT\nEREGLI / CONSTANTZA\nS   P   O   T\nTTL WWDYS - SSHEX BE \nOAGE - GLSS OK\nPREF BOX/BOX LIKE\nBOFFERS INVITED\n2.50 PCT TTL HERE\n \nOR\n \nTRY 2 CONSEC VOYAGES IN OWNERS OPTION\n5,500 / 6,500 MTS GENS IN BB - STW/DWT\nEREGLI / CONSTANTZA\n18/19.11.2025\nTTL WWDYS - SSHEX BE \n \nOR \n \n7,000 / 7,700 MTS GENS IN BB - STW/DWT\nEREGLI / CONSTANTZA\n20/22.11.2025\nTTL WWDYS - SSHEX BE \n\nB.regards ,\nUfuk Bilgic\nTrans Istanbul Shipping Ltd., Istanbul",
+  "entities": {
+    "VESSEL": null,
+    "VESSEL_TYPE": null,
+    "DWT": null,
+    "IMO": null,
+    "CARGO": [
+      "CEMENT IN BIG BAGS",
+      "GENS IN BB"
+    ],
+    "QUANTITY": [
+      "4,000 / 5,500 MTS",
+      "5,500 / 6,500 MTS",
+      "7,000 / 7,700 MTS"
+    ],
+    "PORT": [
+      "EREGLI",
+      "CONSTANTZA"
+    ],
+    "LOAD_PORT": [
+      "EREGLI"
+    ],
+    "DISCHARGE_PORT": [
+      "CONSTANTZA"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Trans Istanbul Shipping Ltd."
+    ],
+    "LAYCAN": [
+      "S P O T",
+      "18/19.11.2025",
+      "20/22.11.2025"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "CONSEC VOYAGES"
+    ],
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@transistanbul.com",
+      "+90 533 704 41 76"
+    ],
+    "RESTRICTIONS": [
+      "PREF BOX/BOX LIKE",
+      "OAGE - GLSS OK"
+    ]
+  },
+  "cargo_name": "Cement",
+  "cargo_type": "CEMENT IN BIG BAGS",
+  "account_name": null,
+  "min_size": 4000,
+  "max_size": 7700,
+  "region": "Black Sea",
+  "matching_region": "MED",
+  "load_port": "Eregli",
+  "discharge_port": "Constantza",
+  "laycan_start_date": "2025-11-14",
+  "laycan_end_date": "2025-11-22",
+  "email_id": "chartering@transistanbul.com",
+  "phone_number": "+905337044176",
+  "latitude": null,
+  "longitude": null
+}

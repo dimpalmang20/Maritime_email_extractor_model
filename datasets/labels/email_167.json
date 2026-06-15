@@ -1,0 +1,22 @@
+{
+  "email_id": 167,
+  "type": "tonnage",
+  "source_email": 167,
+  "vessels": [
+    {
+      "name": "MV UNIVERSE HARMONY",
+      "dwt": 28294,
+      "built": 2000,
+      "flag": "Panama",
+      "class": "NK",
+      "open_position": "Passing Cualo",
+      "open_date": "2025-11-28/12-02",
+      "vessel_type": "Bulk / Log Carrier",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30 MT Cranes",
+      "grain_capacity_cbm": 38232,
+      "bale_capacity_cbm": 36736,
+      "draft_m": 9.573
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Dema M",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32259",
+    "built_year": "2003",
+    "flag": "",
+    "imo": "9255074",
+    "grt": "",
+    "nrt": "19883",
+    "loa": "",
+    "beam": "171.59m",
+    "grain_capacity": "",
+    "open_port": "Ennore, India",
+    "open_date": "2025-12-12",
+    "close_date": "2025-12-17",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

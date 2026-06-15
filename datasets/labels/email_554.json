@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SEAWIND",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "APS DALIAN",
+    "redel_port": "WAFR PICO (EXCL NIGERIA)",
+    "laycan_start": "2026-11-25",
+    "laycan_end": "2026-11-30",
+    "duration": "70 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [
+      "EXCL NIGERIA)"
+    ],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,26 @@
+{
+   "text" : "\n\nThanks and Regards,\n\nShabu O.V. FICS, CMILT,MNI, FSCM\nManaging Director\n\n\nSobha Sapphire Bldg. Office No. 906 Business Bay 123175, Dubai, United Arab\nEmirates\nTel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mob: +97150 559 3926 \nEmail:ovshabu@transbulk.ae l Skype: Transbulk1\nWebsite:https://transbulk.ae\n\n-----Original Message-----\nFrom: Navatrade S.A. <chartering@navatrade.gr> \nSent: Wednesday, 26 November 2025 11:59 AM\nTo: Navatrade S.A. <chartering@navatrade.gr>\nSubject: HMT - 35kmt bulk cement - canakkale/port everglades - 18-22 Dec\nImportance: High\n\nTELiX MSG: 0J94T 26/11/25 09:59 +02:00\nNavatrade S.A. Athens, Greece, Phone: +30 210 9213222\n\nA/c HMT  2.5% addcom pus\n\n35,000mts 10pct moloo bulk cement\nLaycan 18-22 December\ncanakkale / port everglades\n8,000 shinc / 5,000 shinc\n\nloading through cement holes or open hatch in chrts option max 183m loa max\n30m beam max 16m tank top to top of hatch coaming no fixed stanchions except\nthose alongside the crane houses. stanchions not to block access to any part\nof the hatches from sides.\n\nBest Regards/Yiannis + Gregory\n\nYiannis Anastasatos: mob/whatsapp +30 6948\n364679|T:anastasatos_y@hotmail.com\nGregory Nikolaides : mob/whatsapp +30 6946 853441|T:g.nikolaides@hotmail.com\n\n\n",
+   "entities" : {
+      "CARGO" : [
+         "CEMENT"
+      ],
+      "VESSEL_TYPE" : null,
+      "VESSEL" : null,
+      "DWT" : null,
+      "LOAD_PORT" : null,
+      "CHARTERER" : [
+         "HMT"
+      ],
+      "PORT" : null,
+      "FREIGHT_RATE" : null,
+      "DISCHARGE_PORT" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : null,
+      "LAYCAN" : [
+         "18-22 December"
+      ],
+      "CONTACT" : null,
+      "IMO" : null,
+      "OPEN_DATE" : null
+   }
+}

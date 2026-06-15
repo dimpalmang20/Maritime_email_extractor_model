@@ -1,0 +1,21 @@
+{
+  "email_id": 165,
+  "type": "tonnage",
+  "source_email": 165,
+  "vessels": [
+    {
+      "name": "MV HUA ZHENG HAI YANG",
+      "dwt": 28660,
+      "built": 2009,
+      "flag": "Panama",
+      "open_position": "Ho Chi Minh City, Vietnam",
+      "open_date": "2025-11-25/26",
+      "holds_hatches": "4/4",
+      "gear": "2 x 25 MT Cranes",
+      "grabs": "2 Grabs Fitted",
+      "grain_capacity_cbm": 36111.5,
+      "gross_tonnage": 17081,
+      "net_tonnage": 9565
+    }
+  ]
+}

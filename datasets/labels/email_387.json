@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SWL",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "176.83m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ABIDJAN,",
+    "open_date": "2025-12-05",
+    "close_date": "2025-12-20",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [
+      "EXCL GOA\n\nSDBC"
+    ],
+    "confidence_score": 0.83
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "email_id": 135,
+  "type": "cargo",
+  "account": "VIETSEA",
+  "cargo": "Bulk Concentrates / Mineral Sands",
+  "vessel_size_required": "25000-38000 DWT",
+  "max_vessel_age": 18,
+  "delivery_area": "Geraldton, West Australia",
+  "trade": "TCT to Southeast Asia / Japan",
+  "laycan": {
+    "from": "2025-11-28",
+    "to": "2025-12-04"
+  },
+  "commission": "3.75%",
+  "source_email": 135
+}

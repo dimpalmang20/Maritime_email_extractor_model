@@ -1,0 +1,31 @@
+{
+  "email_id": 186,
+  "type": "other",
+  "source_email": 186,
+  "category": "shipping_newsletter",
+  "company": "Walter Cuminns Group",
+  "subject": "WCS Newsletter - November 2025",
+  "services": [
+    "Port Agency",
+    "Protective Agency",
+    "Vessel Husbandry",
+    "Cargo Operations",
+    "Vessel Broking",
+    "Dry Docking",
+    "Bunker Coordination",
+    "Chartering",
+    "Crew Manning",
+    "Crew Change Operations"
+  ],
+  "locations": [
+    "India",
+    "Sri Lanka",
+    "Egypt",
+    "Singapore",
+    "UAE",
+    "Bangladesh",
+    "Spain",
+    "Gibraltar",
+    "Malta"
+  ]
+}

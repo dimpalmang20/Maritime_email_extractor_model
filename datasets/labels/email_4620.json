@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SEAWIND",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "APS 1SP HO CHI MINH CITY",
+    "redel_port": "WAFR PICO (EXCL HRA)",
+    "laycan_start": "2027-04-10",
+    "laycan_end": "2027-04-15",
+    "duration": "70 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "restrictions": [
+      "EXCL HRA)"
+    ],
+    "confidence_score": 0.96
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MANDARIN S open TAIZHOU on 3-6 December",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63588",
+    "built_year": "2025",
+    "flag": "Liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "200m",
+    "beam": "32.26m",
+    "grain_capacity": "78083",
+    "open_port": "TAIZHOU",
+    "open_date": "2026-12-03",
+    "close_date": "2026-12-06",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.95
+  }
+]

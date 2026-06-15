@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EVAGGELIA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35291",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "9459383",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "179.9m",
+    "grain_capacity": "",
+    "open_port": "GIBRALTAR",
+    "open_date": "2025-12-15",
+    "close_date": "2025-12-20",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no adverse\n\ncurrent"
+    ],
+    "confidence_score": 0.98
+  }
+]

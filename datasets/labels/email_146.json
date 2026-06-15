@@ -1,0 +1,16 @@
+{
+  "email_id": 146,
+  "type": "cargo",
+  "account": "DAI AN OCEAN SHIPPING",
+  "cargo": "Slag",
+  "vessel_size_required": "50000-66000 DWT",
+  "charter_type": "1 TCT",
+  "delivery_port": "Jingtang, China",
+  "redelivery_port": "Singapore",
+  "laycan": {
+    "from": "2025-11-25",
+    "to": "2025-11-29"
+  },
+  "commission": "3.75% addcom + 1.25% to Interbulk",
+  "source_email": 146
+}

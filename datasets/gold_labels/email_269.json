@@ -1,0 +1,61 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: Indus Bulk <farhan@indus-bulk.com> \nSent: 14 November 2025 15:40\nTo: Indus Bulk <chartering@indus-bulk.com>\nSubject: MV \"BAO SUCCESS OPEN EGYPT MED INT EL DEKHEILA ON 26 NOV - 02 DEC 2025\n\n-/Farhan\n\nPLEASE PROPOSE FOR FOLLOWING TONNAGE\n\nMV \"BAO SUCCESS\": 56918.89 MT / 12.80 M SW OPEN EGYPT MED INT EL DEKHEILA ON 26 NOV - 02 DEC 2025\n\nTIME CHARTER DESCRIPTION\n\nFLAG / PORT OF REGISTRY : HONGKONG\nCLASS : BV\nYEAR OF BUILT / PLACE : APR 2009/ JIANGSU HANTONG SHIP HEAVY INDUSTRY CO.,LTD.CHINA\nGRT(INTERNATIONAL) : ABT 32945\nNRT(INTERNATIONAL) : ABT 19231\nDWT AT SUMMER / DRAFT : 56918.89 MT / 12.80 M SW\n\nCRANES / CAPACITY: 4 ELECTRO-HYDRAULIC SINGLE DECK CRANES WITH 36T CAPACITY\nMAX OUTREACH: 11.8M\nGRABS / TYPE / CUBIC : 4 X HYDRAULIC-ELECTRIC /14/12/10/8/6.5CBM\nHOLDS / HATCHES : 5 /5\nGRAIN CAPACITY: 71,634.09",
+  "entities": {
+    "VESSEL": [
+      "BAO SUCCESS"
+    ],
+    "VESSEL_TYPE": [
+      "Supramax Bulk Carrier"
+    ],
+    "DWT": [
+      "56918.89 MT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "EL DEKHEILA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Indus Bulk Shipping"
+    ],
+    "LAYCAN": [
+      "26 NOV - 02 DEC 2025"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "TIME CHARTER"
+    ],
+    "TONNAGE": [
+      "56918.89 MT"
+    ],
+    "CONTACT": [
+      "chartering@indus-bulk.com",
+      "drybulkchartering@hotmail.com",
+      "+923312861296"
+    ],
+    "RESTRICTIONS": [
+      "NO SCRUBBER",
+      "4 ELECTRO-HYDRAULIC SINGLE DECK CRANES WITH 36T CAPACITY"
+    ]
+  },
+  "tonnage_type": "Supramax Bulk Carrier",
+  "port": "El Dekheila",
+  "region": "Egypt Med",
+  "matching_region": "MED",
+  "open_date": "2025-11-26",
+  "close_date": "2025-12-02",
+  "dwt": "56918.89 MT",
+  "tonnage_name": "BAO SUCCESS",
+  "pic": "Farhan Ali",
+  "email_id": "chartering@indus-bulk.com",
+  "phone_number": "+923312861296",
+  "latitude": null,
+  "longitude": null
+}

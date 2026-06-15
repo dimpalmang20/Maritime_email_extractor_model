@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ROSTRUM SINGAPORE",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-22",
+    "close_date": "2026-12-27",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.65
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ROSTRUM SINGAPORE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2024",
+    "flag": "",
+    "imo": "9983217",
+    "grt": "",
+    "nrt": "25859",
+    "loa": "179.95m",
+    "beam": "32m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO GRABS"
+    ],
+    "confidence_score": 0.75
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "COAL(LAST), SLAG, COAL, COAL, GYPSUM",
+    "cargo_type": "Dry Bulk",
+    "quantity": "600-650",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2026-05-03",
+    "laycan_end": "2026-05-08",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.8
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58018",
+    "built_year": "",
+    "flag": "",
+    "imo": "9623831",
+    "grt": "32839",
+    "nrt": "19559",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO BOTTOM FOULING DUE TO\n\nIMMOBILIZATION FOR"
+    ],
+    "confidence_score": 0.88
+  }
+]

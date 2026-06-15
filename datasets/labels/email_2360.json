@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAVO BRAVE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "64000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-23",
+    "close_date": "2026-12-28",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO PERIOD"
+    ],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAVO BRAVE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2020",
+    "flag": "",
+    "imo": "9894480",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW HORIZON",
+    "vessel_type": "MR Tanker",
+    "dwt": "77834",
+    "built_year": "2004",
+    "flag": "RINA CLASS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "92151",
+    "open_port": "FUJAIRAH,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Taiwan",
+    "restrictions": [
+      "NO SULPHUR",
+      "NO SULPHUR"
+    ],
+    "confidence_score": 0.84
+  }
+]

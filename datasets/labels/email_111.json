@@ -1,0 +1,59 @@
+{
+  "email_id": 111,
+  "email_type": "open_vessels",
+  "source_company": "Interbulk Shipbrokers",
+  "vessels": [
+    {
+      "vessel_name": "AMIS STAR",
+      "vessel_type": "Bulk Carrier",
+      "flag": "Liberia",
+      "class": "ABS",
+      "imo_call_sign": "D5UY4",
+      "built_year": 2019,
+      "open_port": "Mumbai",
+      "open_date": "2025-11-13/14",
+      "dwt": 61123,
+      "draft_m": 13.03,
+      "grt": 34657,
+      "nrt": 20175,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbm": 77539,
+      "cranes": "4x30.5MT",
+      "grabs": "4x12CBM",
+      "scrubber_fitted": true
+    },
+    {
+      "vessel_name": "FIRST SKY",
+      "flag": "Panama",
+      "built_year": 2017,
+      "open_port": "Lanqiao",
+      "open_date": "2025-11-10",
+      "dwt": 63452,
+      "draft_m": 13.4,
+      "tpc": 61.4,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30.5MT",
+      "grabs": "4x12CBM",
+      "rob_vlsfo_mt": "950-1000",
+      "rob_lsmgo_mt": "100-150"
+    },
+    {
+      "vessel_name": "ULTRA COURAGE",
+      "flag": "Liberia",
+      "built_year": 2019,
+      "open_port": "Kohsichang",
+      "open_date": "2025-11-16/17",
+      "dwt": 63645,
+      "draft_m": 13.5,
+      "tpc": 61.7,
+      "grain_capacity_cbft": 2766021,
+      "cranes": "4x30MT",
+      "grabs": "4x12CBM",
+      "rob_vlsfo_mt": "890-910",
+      "rob_lsmgo_mt": "150-200",
+      "neo_panama_fitted": true
+    }
+  ]
+}

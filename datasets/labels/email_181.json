@@ -1,0 +1,28 @@
+{
+  "email_id": 181,
+  "type": "tonnage",
+  "source_email": 181,
+  "vessels": [
+    {
+      "name": "MV AKIJ HERITAGE",
+      "dwt": 56055,
+      "built": 2008,
+      "flag": "Bangladesh",
+      "class": "NK",
+      "imo": "9339454",
+      "open_position": "Hong Kong",
+      "open_date": "2025-11-14/15",
+      "status": "Dry Docking completed at Guangzhou",
+      "cargo_preference": "Any cargo including clinker, cement, salt, petcoke, fertilizer",
+      "holds_hatches": "5/5",
+      "grain_capacity_cbm": 70810.7,
+      "bale_capacity_cbm": 68083.5,
+      "gross_tonnage": 31236,
+      "net_tonnage": 18504,
+      "bunkers_on_board": {
+        "vlsfo_mt": 765,
+        "lsmgo_mt": 70
+      }
+    }
+  ]
+}

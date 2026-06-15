@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CH BELLA",
+    "vessel_type": "MR Tanker",
+    "dwt": "33000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Zhoushan, China",
+    "open_date": "2026-11-27",
+    "close_date": "2026-11-28",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "33144",
+    "quantity_unit": "MT",
+    "load_port": "FITTED",
+    "discharge_port": "NATURAL",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.73
+  }
+]

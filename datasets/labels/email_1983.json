@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "YANGZE 35",
+    "vessel_type": "MR Tanker",
+    "dwt": "47091",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Brazil",
+    "restrictions": [],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "YANGZE 35",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "47091",
+    "built_year": "",
+    "flag": "LIBERIA",
+    "imo": "9617600",
+    "grt": "28563",
+    "nrt": "28563",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "602761",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

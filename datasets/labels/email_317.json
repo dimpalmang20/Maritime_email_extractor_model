@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-10-26",
+    "laycan_end": "2026-10-31",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Argentina",
+    "restrictions": [
+      "No text on fossil fuels phaseout was agreed at COP29",
+      "No one has a ready-made answer, and no one seeks to impose anything on anyone, but I am certain we still have a long way to go before we reach consensus,\" she said at a press conference"
+    ],
+    "confidence_score": 0.52
+  }
+]

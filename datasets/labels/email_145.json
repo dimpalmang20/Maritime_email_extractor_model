@@ -1,0 +1,47 @@
+{
+  "email_id": 145,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV DENIZ-M",
+      "dwt": 37983,
+      "built": 2009,
+      "flag": "Panama",
+      "open_position": "Vitoria",
+      "open_dates": "2025-11-17 to 2025-11-20"
+    },
+    {
+      "name": "MV NIHAT-M",
+      "dwt": 32942,
+      "built": 1998,
+      "flag": "Panama",
+      "open_position": "Caribs / NCSA",
+      "open_dates": "2025-11-25 to 2025-11-30"
+    },
+    {
+      "name": "MV PHOENICIAN-M",
+      "dwt": 37974,
+      "built": 2010,
+      "flag": "Panama",
+      "open_position": "Hodeidah",
+      "open_dates": "2025-11-14 to 2025-11-16"
+    },
+    {
+      "name": "MV ATA-M",
+      "dwt": 52549,
+      "built": 2001,
+      "flag": "Panama",
+      "open_position": "Mombasa",
+      "open_dates": "2025-11-22 to 2025-11-26"
+    },
+    {
+      "name": "MV ALANYA-M",
+      "dwt": 41333,
+      "built": 2004,
+      "flag": "Panama",
+      "open_position": "South Korea",
+      "open_dates": "2025-11-25 to 2025-11-30"
+    }
+  ],
+  "source_email": 145
+}

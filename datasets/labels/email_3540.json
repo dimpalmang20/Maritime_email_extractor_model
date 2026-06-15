@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GLOBAL HARMONY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "34529",
+    "built_year": "",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "22988",
+    "nrt": "",
+    "loa": "180m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MONTOIR",
+    "open_date": "2027-01-14",
+    "close_date": "2027-01-19",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.94
+  }
+]

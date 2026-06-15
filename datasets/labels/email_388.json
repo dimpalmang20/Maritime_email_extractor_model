@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VOSCO Defender 55k",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55000",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "190m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "HCMC,",
+    "open_date": "2026-12-03",
+    "close_date": "2026-12-08",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO ADVERSE CURRENT OR NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.95
+  }
+]

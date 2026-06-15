@@ -1,0 +1,62 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "APJ PRITI 2",
+    "vessel_type": "MR Tanker",
+    "dwt": "82574",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "STAR DANAI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "82574",
+    "built_year": "2006",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "43168",
+    "loa": "",
+    "beam": "228.99m",
+    "grain_capacity": "",
+    "open_port": "LOOP",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.84
+  },
+  {
+    "email_type": "TC",
+    "account_name": "WHEN CALCULATING THE VESSEL'S PERFORMANCE.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "OPERATION",
+    "redel_port": "MOORING",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO USED LUBRICANTS TO BE PRESENT IN FUEL NO COMINGLING OF DIFFERENT",
+      "NO ADVERSE CURRENT, NO EXTRAPOLATIONS TO BE MADE, FOR THE PURPOSES"
+    ],
+    "confidence_score": 0.68
+  }
+]

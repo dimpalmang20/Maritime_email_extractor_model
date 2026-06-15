@@ -1,0 +1,60 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: chartering@afeashipbrokers.gr <chartering@afeashipbrokers.gr>\nSent: 13 November 2025 12:13\nSubject: OPEN KMX MV APOLLON 82/18 NCHINA HUANGHUA 16/17 NOV\n\nOUR USUAL DIR/LOCAL HEAD OWNS HAVE OPEN \n  \nKMX/KMAX/-PMX \n  \nMV.Apollon 82082 on 14.45/ 2018 / Co2 - ...................NCHINA/ Huanghua 16-17 Nov \n        12.5 on 20  ballast // 12.0 on 22.5 laden    \n       Bod abt 1600-1750 VLSFO / 170-210 LSMGO \n       LAST CGO GRAINS",
+  "entities": {
+    "VESSEL": [
+      "Apollon",
+      "APOLLON"
+    ],
+    "VESSEL_TYPE": [
+      "KMX",
+      "KMAX",
+      "PMX",
+      "SINGLE DECK BULKCARRIER GEARLESS",
+      "KAMSARMAX"
+    ],
+    "DWT": [
+      "82/18",
+      "82082",
+      "82,082.8 MT"
+    ],
+    "IMO": [
+      "9828924"
+    ],
+    "CARGO": [
+      "GRAINS"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "NCHINA",
+      "HUANGHUA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "AFEA",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "16/17 NOV",
+      "16-17 Nov"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@afeashipbrokers.gr",
+      "position@afeashipbrokers.gr",
+      "apollon@gtmailplus.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "prohibited from instructing Master to proceed at a speed and/or with a consumption other than as provided herein",
+      "strictly prohibited to bunker with Iranian or Russian suppliers or fuels/bunkers of Iranian or Russian origin"
+    ]
+  }
+}

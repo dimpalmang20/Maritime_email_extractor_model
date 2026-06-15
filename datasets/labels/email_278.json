@@ -1,0 +1,23 @@
+{
+  "email_id": 278,
+  "email_type": "cargo_enquiry",
+  "company": "Rieck + Petersen GmbH",
+  "cargoes": [
+    {
+      "cargo": "Paddy Rice",
+      "quantity_mt": 15000,
+      "load_port": "Vitoria",
+      "discharge_port": "Puerto Cabello",
+      "laycan": "2025-11-24 onwards",
+      "commission": "3.75% total"
+    },
+    {
+      "cargo": "Black Beans in Big Bags",
+      "quantity_mt": 3000,
+      "load_port": "Vitoria",
+      "discharge_port": "Puerto Cabello",
+      "commission": "3.75% total"
+    }
+  ],
+  "required_vessel_dwt": "22000-40000"
+}

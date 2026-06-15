@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LA BAMBA -",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "22863",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Mundra, India",
+    "open_date": "2025-12-01",
+    "close_date": "2025-12-02",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.96
+  }
+]

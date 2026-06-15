@@ -1,0 +1,72 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Franz Schulte",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "10769",
+    "built_year": "2020",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "179.95m",
+    "beam": "32m",
+    "grain_capacity": "",
+    "open_port": "KANDA,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Russia",
+    "restrictions": [
+      "No GOA",
+      "No RSea",
+      "No cargo on deck"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Kharis Trinity - Open at Singapore O",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "17018",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "2025-12-15",
+    "close_date": "2025-12-17",
+    "matching_region": "",
+    "restrictions": [
+      "NO STANCHION"
+    ],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Friederike Schulte - 40.058 dwt",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "40058",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "13042",
+    "loa": "179.95m",
+    "beam": "32m",
+    "grain_capacity": "",
+    "open_port": "Hatch",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO RED SEA",
+      "NO GOA",
+      "NO I"
+    ],
+    "confidence_score": 0.87
+  }
+]

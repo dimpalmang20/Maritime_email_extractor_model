@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "25000",
+    "quantity_unit": "MT",
+    "load_port": "KARACHI , PAKISTAN",
+    "discharge_port": "NACALA , MOZAMBIQUE",
+    "laycan_start": "2026-02-15",
+    "laycan_end": "2026-02-25",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Pakistan",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Guangzhou 15/20 Jan trip via",
+    "redel_port": "Japan intention coal $13,100 - Ultrabulk",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "no more details emerged",
+      "no more details emerged",
+      "no notable shifts in"
+    ],
+    "confidence_score": 0.82
+  }
+]

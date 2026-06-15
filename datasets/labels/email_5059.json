@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW JOYFUL",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "64000",
+    "built_year": "2022",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "36121",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "YANTAI,",
+    "open_date": "2026-06-06",
+    "close_date": "2026-06-10",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

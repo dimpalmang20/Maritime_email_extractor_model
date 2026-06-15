@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Sandy Grade Alumina",
+    "cargo_type": "Dry Bulk",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "VIZAG UTKAL , INDIA - SHIPPER CAN ONLY ACCEPT HANDY SIZE",
+    "discharge_port": "DUBAL BERTH, JEBEL ALI OPTION EMAL BERTH, KHALIFA,",
+    "laycan_start": "2026-02-03",
+    "laycan_end": "2026-02-07",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.9
+  }
+]

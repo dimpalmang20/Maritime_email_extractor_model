@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DAIFU SGP REQUIREMENTS",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-12-10",
+    "laycan_end": "2025-12-15",
+    "duration": "30 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.83
+  },
+  {
+    "email_type": "TC",
+    "account_name": "DAIFU SGP",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "70000-79999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "35 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.73
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SHANG YUAN MEN",
+    "vessel_type": "MR Tanker",
+    "dwt": "43125",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "185m",
+    "grain_capacity": "",
+    "open_port": "YANGON",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO IRAN"
+    ],
+    "confidence_score": 0.79
+  }
+]

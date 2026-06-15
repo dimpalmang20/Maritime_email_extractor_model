@@ -1,0 +1,16 @@
+{
+  "email_id": 155,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV DAYANG JINLAN",
+      "dwt": 56469,
+      "built": 2012,
+      "flag": "Hong Kong",
+      "open_position": "Hong Kong",
+      "open_dates": "2025-11-21 to 2025-11-26",
+      "trading_area": "Worldwide"
+    }
+  ],
+  "source_email": 155
+}

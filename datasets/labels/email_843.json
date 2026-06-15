@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HUA YANG MEI GUI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "30000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HUA YANG MEI GUI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "PRC",
+    "imo": "9497490",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.69
+  }
+]

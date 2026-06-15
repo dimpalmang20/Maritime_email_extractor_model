@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LINDEN -",
+    "vessel_type": "MR Tanker",
+    "dwt": "38000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Dammam, Saudi Arabia",
+    "open_date": "2025-12-20",
+    "close_date": "2025-12-25",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LINDEN",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "24140",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "9285354",
+    "grt": "24140",
+    "nrt": "13402",
+    "loa": "182.59m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE INFLUENCE OF CURRENTS"
+    ],
+    "confidence_score": 0.98
+  }
+]

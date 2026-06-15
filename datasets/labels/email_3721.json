@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "YANGTZE DAWN",
+    "vessel_type": "MR Tanker",
+    "dwt": "57000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "CAMPHA",
+    "open_date": "2027-01-20",
+    "close_date": "2027-01-21",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "UNIWELL",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-22",
+    "close_date": "2027-01-24",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

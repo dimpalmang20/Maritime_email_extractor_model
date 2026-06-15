@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEAHARMONY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "49990",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "35884",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

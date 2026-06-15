@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SHENG FENG HAI 56879",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "2026-12-05",
+    "close_date": "2026-12-08",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO COASTAL TRADING\n\nT"
+    ],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SHENG FENG HAI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56879",
+    "built_year": "",
+    "flag": "",
+    "imo": "9533074",
+    "grt": "",
+    "nrt": "32953",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "716341",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "no longer wish to receive these emails"
+    ],
+    "confidence_score": 0.84
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CD FORTUNE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "17367",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "VUNG",
+    "open_date": "2026-02-23",
+    "close_date": "2026-02-28",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ANNA-ELISABETH 56K",
+    "vessel_type": "MR Tanker",
+    "dwt": "56000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "GOA,WCI",
+    "open_date": "2026-01-13",
+    "close_date": "2026-01-14",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

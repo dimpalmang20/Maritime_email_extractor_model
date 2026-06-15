@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "ard 10 000 of Steel products (below PL)",
+    "cargo_type": "General Cargo",
+    "quantity": "10000",
+    "quantity_unit": "MT",
+    "load_port": "Puerto Real, Dragados offshore North Quay, SP",
+    "discharge_port": "Daebul / Mokpo inchopt, KR",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "5%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

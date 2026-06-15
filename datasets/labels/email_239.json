@@ -1,0 +1,45 @@
+{
+  "email_id": 239,
+  "email_type": "tonnage_list",
+  "source": "Indo Sino",
+  "vessels": [
+    {
+      "vessel_name": "GALAXY GLORY",
+      "open_position": "Panjang, Indonesia",
+      "open_date": "2025-12-01/2025-12-02",
+      "built_year": 2009,
+      "flag": "Panama",
+      "class": "RINA",
+      "dwt_mt": 12926,
+      "dwcc_mt": 12500,
+      "loa_m": 119.0,
+      "beam_m": 21.2,
+      "draft_m": 8.8,
+      "holds": 2,
+      "hatches": 2,
+      "grain_cbm": 20842,
+      "bale_cbm": 19844,
+      "cranes": "2x30 MT (Combined 50 MT)",
+      "cargo_type": "Tween Deck / Box Hold"
+    },
+    {
+      "vessel_name": "GALAXY SKY",
+      "open_position": "Cebu, Philippines",
+      "open_date": "2025-12-02/2025-12-03",
+      "built_year": 2010,
+      "flag": "Panama",
+      "class": "RINA",
+      "dwt_mt": 9000,
+      "dwcc_mt": 8500,
+      "loa_m": 112.0,
+      "beam_m": 18.8,
+      "draft_m": 7.9,
+      "holds": 2,
+      "hatches": 2,
+      "grain_cbm": 13448,
+      "bale_cbm": 12661,
+      "cranes": "2x30 MT",
+      "cargo_type": "Tween Deck / Box Hold"
+    }
+  ]
+}

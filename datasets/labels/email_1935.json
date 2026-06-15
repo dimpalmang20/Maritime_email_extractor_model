@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON DRAFT OF 6.705 MTRS.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2007",
+    "flag": "INDIAN",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "119.95m",
+    "beam": "16.8m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

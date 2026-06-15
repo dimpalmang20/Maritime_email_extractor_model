@@ -1,0 +1,23 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "NGM PANTHER",
+  "vessel_type": "GEARLESS BULK CARRIER",
+  "dwt": 83610,
+  "built_year": 2008,
+  "flag": "LIBERIA",
+  "imo": "",
+  "grt": "",
+  "nrt": "",
+  "loa": 229.0,
+  "beam": 32.24,
+  "grain_capacity": 96110.24,
+  "open_port": "DANGJIN",
+  "open_date": "2025-11-09",
+  "close_date": "2025-11-10",
+  "cargo": "",
+  "charter_type": "",
+  "broker": "AFEA",
+  "bod_vlsfo": 1900,
+  "bod_lsmgo": 200,
+  "confidence_score": 0.99
+}

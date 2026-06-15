@@ -1,0 +1,29 @@
+{
+   "text" : " \n \n \n \n \nBest Regards:\n \n\n \nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com>\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n \nFrom: rieck-petersen@shipnet.de <rieck-petersen@shipnet.de> \nSent: 20 November 2025 13:24\nTo: chartering@varitasnavigation.com\nSubject: MV WHISTLER\n \nDoc-No. 9552656   20/NOV/2025 (THU)  08:53  (+0100)  LP\nRieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers  \nPhone: +49 (0)40 35 00 426 E-Mail:  <mailto:rieck-petersen@shipnet.de>\nrieck-petersen@shipnet.de\n \nGD MRNG\n \nPLS PPSE FOR OUR DIRECT POSITION\n \nOPEN NANTONG 29/30 NOV \n             --------------------------------\n \nBOD - LSFO ABT 650 MTS / LSGO ABT 150 MTS  \nLAST 3 - PETCOKE / POTASH / CATHODES \n \nMV WHISTLER \n37.272 MT DWT ON 11.27M - TPC 44.72 - MI FLG 2007\n42778.7 CBM GR + 42350.8 BALE -LOA 199.9 M BM 23.7 M\n6/6 HOHA CRANES 4 X 40 MT - GRT 22790.0 NRT 12130.0\nBALLAST: ABT 12.5KN ON ABT 18.5MTS LSFO\nLADEN: ABT 12.5KN ON ABT 23.5MTS LSFO\nECO: BALLAST: ABT 11.5KN ON ABT 16.5MTS LSFO  \nLADEN: ABT 11.5KN ON ABT 21.0MTS LSFO\nIDLE: 2.1MTS LSFO /  WORKING: 4.5MTS LSFO\n \nPLSD TO HEAR\nBRGDS\nLP\n\nLars Petersen Mobile: +49 (0)172 410 48 72\n \nFirma/Company: Rieck + Petersen GmbH, Hamburg\nHandelsregistersitz + Nr./Commercial Registry Domicile + No.: \nHamburg / HBR 25945 Gerichtsstand/Jurisdiction: Hamburg\nUSt.Id.Nr./Value added tax identification number: DE 117585945\nGeschftsfhrer/Managing Director: Lars Petersen\n \n \n \n \n",
+   "entities" : {
+      "VESSEL_TYPE" : null,
+      "DWT" : null,
+      "VESSEL" : [
+         "MV WHISTLER"
+      ],
+      "LOAD_PORT" : null,
+      "CARGO" : [
+         "PETCOKE",
+         "POTASH"
+      ],
+      "LAYCAN" : null,
+      "CONTACT" : null,
+      "IMO" : null,
+      "OPEN_DATE" : [
+         "29/30 NOV"
+      ],
+      "CHARTERER" : null,
+      "PORT" : [
+         "NANTONG"
+      ],
+      "FREIGHT_RATE" : null,
+      "DISCHARGE_PORT" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : null
+   }
+}

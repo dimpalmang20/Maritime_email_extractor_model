@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "55000-65000",
+    "quantity_unit": "MT",
+    "load_port": "MOMA + ANGOCHE , EAST AFRICA",
+    "discharge_port": "",
+    "laycan_start": "2025-12-09",
+    "laycan_end": "2025-12-14",
+    "load_rate": "4000 MT/DAY",
+    "discharge_rate": "12000 MT/DAY",
+    "commission": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

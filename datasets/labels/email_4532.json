@@ -1,0 +1,67 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ES WARRIOR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "60513",
+    "built_year": "",
+    "flag": "",
+    "imo": "9775854",
+    "grt": "",
+    "nrt": "34157",
+    "loa": "197m",
+    "beam": "18.38m",
+    "grain_capacity": "",
+    "open_port": "HAZIRA,",
+    "open_date": "2026-03-29",
+    "close_date": "2026-04-03",
+    "matching_region": "Far East",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN RUBY",
+    "vessel_type": "Container Ship",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "25171",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN SAPPHIRE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "KOREA",
+    "imo": "9860386",
+    "grt": "",
+    "nrt": "34876",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT\n\nAND SWELL"
+    ],
+    "confidence_score": 0.69
+  }
+]

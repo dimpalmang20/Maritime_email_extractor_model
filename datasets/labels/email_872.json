@@ -1,0 +1,49 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63538",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "2026-12-05",
+    "close_date": "2026-12-07",
+    "matching_region": "",
+    "restrictions": [
+      "NO CEMENT",
+      "NO CLINKER\n\nTRY ANY INCLUDING SP"
+    ],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GW ELENI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2020",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "36356",
+    "loa": "",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO THIS CONDITION",
+      "NO ADVERSE CURRENTS\n\nA",
+      "NO MIXING POLICY BETWEEN DIFFERENT GRADES OF BUNKERS A"
+    ],
+    "confidence_score": 0.6
+  }
+]

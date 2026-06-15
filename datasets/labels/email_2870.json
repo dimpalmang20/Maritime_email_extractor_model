@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ENTERPRISE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "36000",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "186.4m",
+    "beam": "27.8m",
+    "grain_capacity": "47991",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.75
+  }
+]

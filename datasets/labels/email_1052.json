@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JAADOR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Dharamtar,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.67
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MDO OR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56098",
+    "built_year": "",
+    "flag": "GRAIN",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Baltic Sea",
+    "restrictions": [
+      "NO ADVERSE CURRENT WITHOUT GUARANTEE\n\nECO SPEED"
+    ],
+    "confidence_score": 0.69
+  }
+]

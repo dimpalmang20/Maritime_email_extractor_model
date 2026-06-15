@@ -1,0 +1,12 @@
+{
+  "email_id": 50,
+  "email_type": "open_vessel",
+  "vessel_name": "HPC FUTURE",
+  "dwt": 32000,
+  "open_port": "Fangcheng",
+  "open_country": "China",
+  "open_date": "2025-12-05",
+  "business_type": "Spot",
+  "status": "Open",
+  "source_company": "Aryacorp"
+}

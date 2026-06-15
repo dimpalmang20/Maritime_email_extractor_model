@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HTP AMBER",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ZAMBOANGA",
+    "open_date": "2026-01-01",
+    "close_date": "2026-01-31",
+    "matching_region": "India",
+    "restrictions": [
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.75
+  }
+]

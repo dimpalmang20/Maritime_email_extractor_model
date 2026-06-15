@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Tony Smith",
+    "vessel_type": "Supramax Bulk Carrier",
+    "dwt": "56498",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-11-22",
+    "close_date": "2026-11-27",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.8
+  }
+]

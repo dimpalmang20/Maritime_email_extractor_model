@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "ANCHOR",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "64000",
+    "del_port": "CJK - SOUTH KOREA RANGE",
+    "redel_port": "",
+    "laycan_start": "2027-02-10",
+    "laycan_end": "2027-02-15",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "World Wide",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "email_type": "Tonnage",
+  "text": "Doc-No. 9540614 13/NOV/2025 (THU) 14:29 (+0100) LP\nMV NEMRUT BAY\nOPEN CJK 22/25 NOV\n34,431 MTS DWT ON 9.822 M SSW - IMO 9860788 - SD/LOG - FLAG MALTA BLT 2019",
+  "entities": {
+    "email_type": "Tonnage",
+    "tonnage_type": "SD/LOG",
+    "port": ["CJK"],
+    "region": "China",
+    "matching_region": null,
+    "open_date": "2025-11-22",
+    "close_date": "2025-11-25",
+    "dwt": "34431",
+    "tonnage_name": ["NEMRUT BAY"],
+    "pic": ["Lars Petersen"],
+    "email_id": "9540614",
+    "phone_number": ["+49 (0)40 35 00 426", "+49 (0)172 410 48 72"],
+    "latitude": null,
+    "longitude": null,
+    "restrictions": ["5 HO/HA", "4 X 30.5 MT Cranes"]
+  }
+}

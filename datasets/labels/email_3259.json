@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ROME TRADER",
+    "vessel_type": "MR Tanker",
+    "dwt": "56000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-10",
+    "close_date": "2027-01-15",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ROME TRADER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "32983",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "7163409",
+    "open_port": "",
+    "open_date": "2027-01-10",
+    "close_date": "2027-01-15",
+    "matching_region": "East Coast India",
+    "restrictions": [
+      "NO CRANE DRIVERS FROM SHIPS\n\nCREW"
+    ],
+    "confidence_score": 0.73
+  }
+]

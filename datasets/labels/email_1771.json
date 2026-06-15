@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "60000-69999",
+    "del_port": "",
+    "redel_port": "VERA - KEYWEST (FOR PERIOD : WW )",
+    "laycan_start": "2025-11-19",
+    "laycan_end": "2025-11-21",
+    "duration": "35-40 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.91
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "80000-99999",
+    "del_port": "TO MAKE 1 SP JAPAN (INT.OITA) ATDNSHINC",
+    "redel_port": "",
+    "laycan_start": "2025-12-02",
+    "laycan_end": "2025-12-04",
+    "duration": "40 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

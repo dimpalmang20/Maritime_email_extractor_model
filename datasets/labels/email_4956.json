@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Iron Ore",
+    "cargo_type": "Dry Bulk",
+    "quantity": "12000",
+    "quantity_unit": "MT",
+    "load_port": "jingtang to campha 25-30TH MAY 5000",
+    "discharge_port": "pwwd",
+    "laycan_start": "5000-05-25",
+    "laycan_end": "5000-05-30",
+    "load_rate": "5000 MT/DAY",
+    "discharge_rate": "5000 PWWD MT/DAY",
+    "commission": "2.5%",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

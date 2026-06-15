@@ -1,0 +1,33 @@
+{
+  "email_id": 54,
+  "email_type": "open_vessel",
+  "vessel_name": "ABUNDANCE",
+  "dwt": 56882,
+  "flag": "Panama",
+  "class": "CCS",
+  "built_year": 2011,
+  "open_port": "Jeddah",
+  "open_country": "Saudi Arabia",
+  "open_date_from": "2025-11-30",
+  "open_date_to": "2025-12-02",
+  "draft_m": 12.8,
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 71634.09,
+  "bale_capacity_cbm": 68162.25,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 35
+  },
+  "grabs": {
+    "count": 4,
+    "capacity_cbm": "6-12"
+  },
+  "trading_restrictions": [
+    "No Iran",
+    "No Israel",
+    "No Yemen"
+  ],
+  "preferred_trade": "Far East/Southeast Asia",
+  "status": "Open"
+}

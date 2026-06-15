@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "10024",
+    "built_year": "2009",
+    "flag": "GRT",
+    "imo": "",
+    "grt": "",
+    "nrt": "6736",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Haiphong,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.69
+  }
+]

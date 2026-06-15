@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MV. T PRIME",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "20867",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Visakhapatnam, India",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.8
+  }
+]

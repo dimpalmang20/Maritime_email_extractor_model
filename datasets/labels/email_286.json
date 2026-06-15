@@ -1,0 +1,18 @@
+{
+  "email_id": 286,
+  "email_type": "cargo_enquiry",
+  "charterer": "NMDC",
+  "cargo": "PCI Coal",
+  "quantity": "75000 MT +/-10% MOLOO",
+  "load_port": ["Vostochny, Russia", "Vanino, Russia"],
+  "discharge_port": ["Gangavaram, India", "Vizag, India"],
+  "laycan": "15-24 Nov 2025",
+  "load_rate": "20000 MT PWWD SHINC",
+  "discharge_rate": "20000 MT SASHEXUU",
+  "vessel_type": ["Panamax", "Kamsarmax"],
+  "vessel_age_limit": "20 years",
+  "freight_basis": "1 Load Port / 1 Discharge Port",
+  "demurrage": "USD 25000 per day HD",
+  "broker": "Reshamwala Shipbrokers",
+  "status": "open_enquiry"
+}

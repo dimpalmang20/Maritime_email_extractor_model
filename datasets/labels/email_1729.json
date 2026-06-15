@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW JOURNEY",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "36000",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "21728",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MONGLA,",
+    "open_date": "2025-11-23",
+    "close_date": "2025-11-26",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

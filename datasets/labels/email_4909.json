@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "XIN YANG CAI FU",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "58000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Rizhao,China",
+    "open_date": "2026-05-22",
+    "close_date": "2026-05-27",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

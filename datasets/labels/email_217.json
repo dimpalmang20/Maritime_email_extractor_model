@@ -1,0 +1,25 @@
+{
+  "email_id": 217,
+  "email_type": "tonnage",
+  "source": "Marcons",
+  "vessels": [
+    {
+      "vessel_name": "DA YANG BAI HE",
+      "open_position": "Nanjing, China",
+      "open_date": "2025-12-06/2025-12-10",
+      "built_year": 2012,
+      "flag": "China",
+      "class": "CCS",
+      "dwt_mt": 56444,
+      "draft_m": 12.8,
+      "loa_m": 189.99,
+      "beam_m": 32.26,
+      "holds": 5,
+      "hatches": 5,
+      "grain_cbm": 71634.1,
+      "bale_cbm": 68200,
+      "cranes": "4x30 MT",
+      "grabs": "4x8-12 CBM"
+    }
+  ]
+}

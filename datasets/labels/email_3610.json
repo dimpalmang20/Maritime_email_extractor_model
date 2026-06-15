@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VALENTINA I OPEN CHITTAGONG 24-26 JAN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "50198",
+    "built_year": "2007",
+    "flag": "Liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.931m",
+    "beam": "30.5m",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "2027-01-24",
+    "close_date": "2027-01-26",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [],
+    "confidence_score": 0.95
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "for bagged cgo to Africa",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-02-16",
+    "laycan_end": "2026-02-21",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Russia",
+    "restrictions": [
+      "no legs or period",
+      "excl\n\nNot prefer Conti or w"
+    ],
+    "confidence_score": 0.72
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NAVISION VINCENTZ",
+    "vessel_type": "Container Ship",
+    "dwt": "55705",
+    "built_year": "2014",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "24785",
+    "nrt": "",
+    "loa": "179.99m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Russia",
+    "restrictions": [
+      "NO RUSSIA",
+      "NO GRABS\n\nLOA"
+    ],
+    "confidence_score": 0.81
+  }
+]

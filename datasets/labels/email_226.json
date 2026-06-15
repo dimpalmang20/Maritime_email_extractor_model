@@ -1,0 +1,140 @@
+{
+  "email_id": 226,
+  "email_type": "tonnage_list",
+  "source": "SNS Shipping",
+  "vessels": [
+    {
+      "vessel_name": "DONG FANG WEI YE",
+      "dwt_k": 35.0,
+      "open_position": "Bayuquan, China",
+      "open_date": "2025-11-20",
+      "remarks": "Deck/Hatch/CIS OK"
+    },
+    {
+      "vessel_name": "VIGOR OL",
+      "dwt_k": 40.0,
+      "open_position": "Imabari Yard, Japan",
+      "open_date": "2025-11-20",
+      "remarks": "Full Logger, 2x25T Deck OK"
+    },
+    {
+      "vessel_name": "YASA TULIP",
+      "dwt_k": 40.2,
+      "open_position": "Jinzhou, China",
+      "open_date": "2025-11-13"
+    },
+    {
+      "vessel_name": "DA YANG BAI HE",
+      "dwt_k": 56.4,
+      "open_position": "Nanjing, China",
+      "open_date": "2025-12-07"
+    },
+    {
+      "vessel_name": "DAYANG JINLAND",
+      "dwt_k": 56.4,
+      "open_position": "Hong Kong",
+      "open_date": "2025-11-24"
+    },
+    {
+      "vessel_name": "ERSOZ KAYE",
+      "dwt_k": 57.3,
+      "open_position": "Dongjiakou, China",
+      "open_date": "2025-11-20",
+      "remarks": "2x25T Deck/GOA OK"
+    },
+    {
+      "vessel_name": "ROTTERDAM PEARL",
+      "dwt_k": 58.0,
+      "open_position": "CJK",
+      "open_date": "2025-11-22",
+      "remarks": "2x25T Deck/GOA OK"
+    },
+    {
+      "vessel_name": "ICELAND LAKER",
+      "dwt_k": 37.7,
+      "open_position": "Acajutla",
+      "open_date": "2025-12-02"
+    },
+    {
+      "vessel_name": "TAC DAYTONA",
+      "dwt_k": 40.3,
+      "open_position": "Guayaquil",
+      "open_date": "2025-11-18"
+    },
+    {
+      "vessel_name": "PROFOUND STAR",
+      "dwt_k": 24.2,
+      "open_position": "Port Kelang",
+      "open_date": "2025-11-25"
+    },
+    {
+      "vessel_name": "TRAWIND DOLPHIN",
+      "dwt_k": 33.6,
+      "open_position": "Phumy",
+      "open_date": "2025-11-29"
+    },
+    {
+      "vessel_name": "MARINA R",
+      "dwt_k": 37.7,
+      "open_position": "Batangas",
+      "open_date": "2025-11-23"
+    },
+    {
+      "vessel_name": "PAIWAN ACE",
+      "dwt_k": 40.2,
+      "open_position": "Bataan",
+      "open_date": "2025-11-21",
+      "remarks": "Grain Clean"
+    },
+    {
+      "vessel_name": "HONG BO 9",
+      "dwt_k": 46.9,
+      "open_position": "Quang Ninh",
+      "open_date": "2025-11-30",
+      "remarks": "2x25T Deck/Hatch/GOA OK"
+    },
+    {
+      "vessel_name": "PIONEER LADY",
+      "dwt_k": 50.0,
+      "open_position": "Prachuap",
+      "open_date": "2025-11-23",
+      "remarks": "China Direction Only"
+    },
+    {
+      "vessel_name": "WESTERN TOKYO",
+      "dwt_k": 62.6,
+      "open_position": "Umm Qasr",
+      "open_date": "2025-11-21"
+    },
+    {
+      "vessel_name": "HUA YANG MEI GUI",
+      "dwt_k": 29.9,
+      "open_position": "New Mangalore",
+      "open_date": "2025-11-22"
+    },
+    {
+      "vessel_name": "PVT CORAL",
+      "dwt_k": 57.2,
+      "open_position": "Kandla",
+      "open_date": "2025-11-19"
+    },
+    {
+      "vessel_name": "SPAR URSA",
+      "dwt_k": 58.0,
+      "open_position": "Kandla",
+      "open_date": "2025-11-19"
+    },
+    {
+      "vessel_name": "RIMAU PERKASA",
+      "dwt_k": 57.0,
+      "open_position": "Puttalam",
+      "open_date": "2025-11-18"
+    },
+    {
+      "vessel_name": "GRAND DIONYSUS",
+      "dwt_k": 56.8,
+      "open_position": "Cape Town",
+      "open_date": "2025-12-04"
+    }
+  ]
+}

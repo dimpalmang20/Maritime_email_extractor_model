@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "74000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Qinzhou",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "WEI YE FU YUN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "74000",
+    "built_year": "",
+    "flag": "",
+    "imo": "9305142",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "225m",
+    "grain_capacity": "",
+    "open_port": "Qinzhou",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "Ukraine",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

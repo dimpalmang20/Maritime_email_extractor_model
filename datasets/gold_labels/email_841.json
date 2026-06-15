@@ -1,0 +1,22 @@
+{
+   "entities" : {
+      "FREIGHT_RATE" : null,
+      "PORT" : null,
+      "CHARTERER" : null,
+      "ETA" : null,
+      "CHARTER_TYPE" : null,
+      "DISCHARGE_PORT" : null,
+      "CONTACT" : null,
+      "LAYCAN" : null,
+      "OPEN_DATE" : null,
+      "IMO" : null,
+      "CARGO" : null,
+      "VESSEL_TYPE" : null,
+      "LOAD_PORT" : [
+         "Status Notification"
+      ],
+      "VESSEL" : null,
+      "DWT" : null
+   },
+   "text" : "\n\n\n\n\nBest Regards:\n\n\n\nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail: chartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n\n-----Original Message-----\nFrom: Mail Delivery System <noreply@ces.cisco.com> \nSent: 26 November 2025 11:15\nTo: chartering@varitasnavigation.com\nSubject: Delivery Status Notification (Failure)\n\nThe following message to <general@taylormaritime.com> was undeliverable.\nThe reason for the problem:\n5.1.0 - Unknown address error 550-'5.4.1 Recipient address rejected: Access\ndenied. For more information see https://aka.ms/EXOSmtpErrors\n[JN3PEPF00000311.ZAFP275.PROD.OUTLOOK.COM 2025-11-26T05:45:12.735Z\n08DE29A2623F458B]'\n"
+}

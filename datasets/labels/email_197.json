@@ -1,0 +1,10 @@
+{
+  "email_id": 197,
+  "type": "cargo_order",
+  "source_email": 197,
+  "cargo": {
+    "commodity": "Steel Products",
+    "load_port": "JSW Terminal",
+    "remarks": "Auction based cargo enquiry"
+  }
+}

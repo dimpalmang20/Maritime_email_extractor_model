@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Ocean Freedom",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55000",
+    "built_year": "",
+    "flag": "INT GRT",
+    "imo": "",
+    "grt": "",
+    "nrt": "31532",
+    "loa": "32.26m",
+    "beam": "185m",
+    "grain_capacity": "",
+    "open_port": "Nantong",
+    "open_date": "2026-12-15",
+    "close_date": "2026-12-20",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO ADVERSE CURRENT A",
+      "NO EXTRAPOLATIONS TO BE MADE"
+    ],
+    "confidence_score": 0.9
+  }
+]

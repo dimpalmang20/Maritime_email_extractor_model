@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DANCEWOOD SW",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "29000",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "170.7m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-28",
+    "close_date": "2027-02-02",
+    "matching_region": "Ukraine",
+    "restrictions": [
+      "NO RUSSIA"
+    ],
+    "confidence_score": 0.77
+  }
+]

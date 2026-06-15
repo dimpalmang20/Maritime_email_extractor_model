@@ -1,0 +1,26 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "TOMINI SIROCCO",
+  "vessel_type": "OHBC",
+  "dwt": 38781,
+  "built_year": 2016,
+  "loa": 180.0,
+  "beam": 32.0,
+  "grain_capacity": 50897,
+  "open_port": "AARHUS",
+  "open_date": "2025-11-19",
+  "close_date": "2025-11-20",
+  "cranes": "4 X 30MT",
+  "bod_vlsfo": "550-600",
+  "bod_lsmgo": "150-200",
+  "last_cargoes": [
+    "SBM",
+    "DAP",
+    "WOOD PULP",
+    "TIMBER",
+    "COAL",
+    "CORN",
+    "WHEAT"
+  ],
+  "confidence_score": 0.98
+}

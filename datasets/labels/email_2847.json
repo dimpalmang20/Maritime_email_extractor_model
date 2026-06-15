@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "55725",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-01-05",
+    "laycan_end": "2026-01-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO NICKEL ORE"
+    ],
+    "confidence_score": 0.74
+  }
+]

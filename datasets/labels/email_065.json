@@ -1,0 +1,22 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "PVT CORAL",
+  "vessel_type": "GEARED GRABBER BULK CARRIER",
+  "dwt": 57254.5,
+  "built_year": 2011,
+  "flag": "PANAMA",
+  "class": "NK",
+  "loa": 189.99,
+  "beam": 32.26,
+  "draft": 13.0,
+  "grain_capacity": 71917,
+  "open_port": "KANDLA, INDIA",
+  "open_date": "2025-11-16",
+  "close_date": "2025-11-20",
+  "crew_nationality": "VIETNAMESE",
+  "usa_ok": true,
+  "goa_ok": true,
+  "wafr_hra_ok": true,
+  "bop_ok": true,
+  "confidence_score": 0.99
+}

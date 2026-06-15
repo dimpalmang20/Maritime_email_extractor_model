@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2026-01-14",
+    "laycan_end": "2026-01-19",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO AT SEA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "11000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "22988",
+    "loa": "180m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

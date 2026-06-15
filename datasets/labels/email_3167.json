@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON DRAFT 9.2M",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "11529",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO CHARTERING AGENCY SERVICES"
+    ],
+    "confidence_score": 0.69
+  }
+]

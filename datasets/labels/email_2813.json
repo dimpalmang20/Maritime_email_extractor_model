@@ -1,0 +1,47 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "EXCL\n\nMV JOHN K OPENING FANGCHENG"
+    ],
+    "confidence_score": 0.4
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MGO PER DAY Idle",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56578",
+    "built_year": "",
+    "flag": "",
+    "imo": "9626950",
+    "grt": "33057",
+    "nrt": "19229",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO AFFECT OF ADVERSE CURRENT\n\nAND NO INFLUENCE OF SWELL",
+      "NO EXTRAPOLATION ALLOWED"
+    ],
+    "confidence_score": 0.88
+  }
+]

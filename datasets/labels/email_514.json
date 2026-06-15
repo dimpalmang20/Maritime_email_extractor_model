@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55395",
+    "built_year": "2013",
+    "flag": "liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "187.88m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.62
+  }
+]

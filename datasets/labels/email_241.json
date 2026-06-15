@@ -1,0 +1,29 @@
+{
+  "email_id": 241,
+  "email_type": "tonnage",
+  "source": "Prime Maritime",
+  "vessels": [
+    {
+      "vessel_name": "APOLLON",
+      "open_position": "Karaikal, India",
+      "open_date": "2025-11-21/2025-11-25",
+      "built_year": 2017,
+      "flag": "Liberia",
+      "class": "CCS",
+      "dwt_mt": 75614,
+      "draft_m": 14.24,
+      "loa_m": 225.0,
+      "beam_m": 32.25,
+      "grain_cbm": 91939,
+      "holds": 7,
+      "hatches": 7,
+      "co2_fitted": true,
+      "speed_consumption": {
+        "ballast": "12.0 kn on 22.5 mt VLSIFO + 0.1 mt LSMGO",
+        "laden": "11.0 kn on 22.5 mt VLSIFO + 0.1 mt LSMGO",
+        "idle": "3.6 mt/day",
+        "working": "4.2 mt/day"
+      }
+    }
+  ]
+}

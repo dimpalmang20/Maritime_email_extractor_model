@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN FORTUNE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "39000",
+    "built_year": "2016",
+    "flag": "REPUBLIC OF KOREA",
+    "imo": "",
+    "grt": "12202",
+    "nrt": "",
+    "loa": "",
+    "beam": "179.97m",
+    "grain_capacity": "",
+    "open_port": "MUMBAI,",
+    "open_date": "2026-04-04",
+    "close_date": "2026-04-09",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.96
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW MOMENTUM",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "39000",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "24203",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

@@ -1,0 +1,209 @@
+
+
+
+
+
+Best Regards:
+
+
+
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email: chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+
+-----Original Message-----
+From: Mail Delivery System <MAILER-DAEMON@vmi2441136.contaboserver.net> 
+Sent: 01 December 2025 11:22
+To: chartering@varitasnavigation.com
+Subject: Undelivered Mail Returned to Sender
+
+This is the mail system at host vmi2441136.contaboserver.net.
+
+I'm sorry to have to inform you that your message could not be delivered to
+one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can delete your own
+text from the attached returned message.
+
+                   The mail system
+
+<chartering@seaways.sg>: host seaways.sg[103.7.9.22] refused to talk to me:
+421
+    Unexpected log failure, please try later
+
+<georgethen@seaways.sg>: host seaways.sg[103.7.9.22] refused to talk to me:
+421
+    Unexpected log failure, please try later
+
+<broking@namlongship.com>: Host or domain name not found. Name service error
+    for name=namlongship.com type=MX: Host not found, try again
+
+<andy@luckyoceanshipping.com>: connect to
+    luckyoceanshipping.com[156.239.105.29]:25: Connection refused
+
+<dry@ssyjkt.com>: Host or domain name not found. Name service error for
+    name=ssyjkt.com type=MX: Host not found, try again
+
+<circular@lucky-sailors.com>: connect to
+lucky-sailors.com[156.245.88.13]:25:
+    No route to host
+
+<commercial@adnatcongsco.ae>: Host or domain name not found. Name service
+error
+    for name=adnatcongsco.ae type=MX: Host not found, try again
+
+<chartering@maxmarine.net>: connect to maxmarine.net[38.173.88.17]:25: No
+route
+    to host
+
+<BAOSOURCE@baosource.com>: connect to baosource.com[103.116.244.197]:25: No
+    route to host
+
+<info@vasscoship.com>: connect to vasscoship.com[154.195.92.202]:25:
+Connection
+    refused
+
+<shpg@marukichi.com>: host marukichi.com[162.43.105.44] said: 454 4.7.1
+    <shpg@marukichi.com>: Relay access denied (in reply to RCPT TO command)
+
+<evergreenshipbroking@airtelmail.in>: host
+    airtelmail-in.mail.eo.outlook.com[52.101.137.2] said: 451 4.4.4 Mail
+    received as unauthenticated, incoming to a recipient domain configured
+in a
+    hosted tenant which has no mail-enabled subscriptions. ATTR5
+    [SG1PEPF000082E3.apcprd02.prod.outlook.com 2025-12-01T05:49:40.829Z
+    08DE2E65EF26BCBC] (in reply to RCPT TO command)
+
+<chartering@vn.wind.nl>: host vn.wind.nl[217.160.44.145] said: 454 4.7.1
+    <chartering@vn.wind.nl>: Relay access denied (in reply to RCPT TO
+command)
+
+<chartering@buck-shipping.de>: host
+    buckshipping-de01b.mail.protection.outlook.de[52.101.170.1] said: 451
+4.4.4
+    Mail received as unauthenticated, incoming to a recipient domain
+configured
+    in a hosted tenant which has no mail-enabled subscriptions. ATTR5
+    [FR1PEPF00000F10.DEUP281.PROD.OUTLOOK.COM 2025-12-01T05:49:41.243Z
+    08DE2E7541E0BDA2] (in reply to RCPT TO command)
+
+<merit@meritmaritime.com>: Host or domain name not found. Name service error
+    for name=meritmaritime.com type=MX: Host not found, try again
+
+<picharter@pk.ru>: connect to mail.pk.ru[212.91.192.21]:25: Connection timed
+    out
+
+<gary@camerica.com>: connect to camerica.com[52.20.84.62]:25: Connection
+timed
+    out
+
+<dgship@dgshipping.com>: connect to dgshipping.com[208.115.249.234]:25:
+    Connection timed out
+
+<TONGLI@tonglishipping.cn>: connect to
+tonglishipping.cn[108.186.160.208]:25:
+    Connection timed out
+
+<hayden@greatwin.com.cn>: connect to greatwin.com.cn[104.21.9.124]:25:
+    Connection timed out
+
+<newocean@newoceanintl.com.cn>: connect to
+    newoceanintl.com.cn[104.21.54.121]:25: Connection timed out
+
+<sealionship@viettel.vn>: connect to mtasvr01.viettel.vn[203.113.188.19]:25:
+    Connection timed out
+
+<imperial@vsnl.com>: connect to vsnl.com[104.21.33.183]:25: Connection timed
+    out
+
+<oslhyd@oceansparkle.com>: connect to oceansparkle.com[172.67.196.66]:25:
+    Connection timed out
+
+<jayakumar@twlogix.com>: connect to twlogix.com[13.223.25.84]:25: Connection
+    timed out
+
+<vinod@twlogix.com>: connect to twlogix.com[13.223.25.84]:25: Connection
+timed
+    out
+
+<chart@tavriaseachart.com>: connect to
+    mail.tavriaseachart.com[91.222.137.74]:25: Connection timed out
+
+<bulk@smship.com>: connect to smship.com[13.223.25.84]:25: Connection timed
+out
+
+<ships@vships.com.sg>: connect to vships.com.sg[3.71.139.153]:25: Connection
+    timed out
+
+<handy@bancosta.it>: host mail.bancosta.it[62.101.86.213] said: 450 4.1.8
+    <chartering@varitasnavigation.com>: Sender address rejected: Domain not
+    found (in reply to RCPT TO command)
+
+<mena@bancosta.com>: host mail.bancosta.com[62.101.86.213] said: 450 4.1.8
+    <chartering@varitasnavigation.com>: Sender address rejected: Domain not
+    found (in reply to RCPT TO command)
+Dear All,
+
+ 
+
+Good day.
+
+ 
+
+// FULLY FIRM // CAN FIX WITH SHORT SUBS.
+
+ 
+
+ACC VARITAS NAVIGATION
+
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. 
+
+Load port: Tianjin, China
+
+Discharge port: Shuaiba, Kuwait.
+
+Load rate: CQD 
+
+Discharge: Liner out.
+
+Laycan 15-20th December 2025.
+
+As part cargo.
+
+2.5% Addcom
+
+ 
+
+ 
+
+ 
+
+ 
+
+Best Regards:
+
+ 
+
+
+
+ 
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+
+Website:- www.varitasnavigation.com
+
+ 
+

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "ORE",
+    "cargo_type": "Dry Bulk",
+    "quantity": "20-50000",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2026-11-25",
+    "laycan_end": "2026-11-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "5%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

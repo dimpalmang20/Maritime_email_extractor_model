@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DARYA MIRA",
+    "vessel_type": "MR Tanker",
+    "dwt": "61083",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KOLKATTA",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Pakistan",
+    "restrictions": [
+      "NO IRAN"
+    ],
+    "confidence_score": 0.79
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DARYA MIRA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61083",
+    "built_year": "2021",
+    "flag": "HONG KONG",
+    "imo": "",
+    "grt": "",
+    "nrt": "34534",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

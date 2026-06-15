@@ -1,0 +1,31 @@
+{
+  "email_id": 279,
+  "email_type": "vessel_position",
+  "company": "Rieck + Petersen GmbH",
+  "vessels": [
+    {
+      "vessel_name": "SERENITY",
+      "imo": "9606120",
+      "built_year": 2016,
+      "flag": "Marshall Islands",
+      "class": "BV",
+      "dwt": 51962,
+      "draft_m": 12.35,
+      "loa_m": 189.90,
+      "beam_m": 32.24,
+      "grain_capacity_cbm": 64983.3,
+      "bale_capacity_cbm": 62270,
+      "cranes": "4 x 30 MT",
+      "grabs": "4 x 12 CBM",
+      "open_position": "Nemrut Bay",
+      "open_date": "2025-11-27 to 2025-11-30",
+      "last_cargoes": [
+        "Steel Scrap",
+        "Iron Ore",
+        "Clinker",
+        "Gypsum",
+        "Urea"
+      ]
+    }
+  ]
+}

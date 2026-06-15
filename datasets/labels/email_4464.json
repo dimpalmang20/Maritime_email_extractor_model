@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "65000",
+    "quantity_unit": "MT",
+    "load_port": "NOVO , RUSSIA",
+    "discharge_port": "YANBU / JEDDAH , SAUDI ARABIA INCHOPT",
+    "laycan_start": "2026-04-05",
+    "laycan_end": "2026-04-15",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

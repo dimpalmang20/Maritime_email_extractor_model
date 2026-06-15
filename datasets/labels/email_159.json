@@ -1,0 +1,21 @@
+{
+  "email_id": 159,
+  "type": "tonnage",
+  "source_email": 159,
+  "vessels": [
+    {
+      "name": "MV FALCON KIZUNA",
+      "dwt": 39513,
+      "built": 2025,
+      "flag": "Singapore",
+      "class": "NK",
+      "open_position": "Houston",
+      "open_date": "2025-11-27/28",
+      "vessel_type": "Box Shaped Bulk Carrier",
+      "gear": "4 x 31 MT Cranes",
+      "holds_hatches": "5/5",
+      "grain_capacity_cbm": 49880,
+      "bale_capacity_cbm": 48835
+    }
+  ]
+}

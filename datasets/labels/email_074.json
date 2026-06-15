@@ -1,0 +1,16 @@
+{
+  "email_id": 74,
+  "email_type": "cargo_inquiry",
+  "load_port": "Tianjin",
+  "discharge_port_options": [
+    "Chornomorsk",
+    "Constanta",
+    "Pivdennyi"
+  ],
+  "cargo": "WRIC",
+  "quantity_mt": 4000,
+  "laycan_from": "2025-12-15",
+  "laycan_to": "2025-12-30",
+  "terms": "CQD/CQD",
+  "address_commission_pct": 3.75
+}

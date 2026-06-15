@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "20000",
+    "quantity_unit": "MT",
+    "load_port": "BANDAR ABBAS , IRAN",
+    "discharge_port": "JCPDI PORTEHRANI IN JAZAN , SAUDI ARABIA",
+    "laycan_start": "2026-01-26",
+    "laycan_end": "2026-01-31",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "1.25%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]
