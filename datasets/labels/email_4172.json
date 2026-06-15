@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "43000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-03-01",
+    "laycan_end": "2026-03-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.64
+  }
+]

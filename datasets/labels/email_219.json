@@ -1,0 +1,25 @@
+{
+  "email_id": 219,
+  "email_type": "tonnage",
+  "source": "Indo Sino",
+  "vessels": [
+    {
+      "vessel_name": "HAINAM 85",
+      "vessel_type": "Bulk Carrier",
+      "open_position": "Surabaya, Indonesia",
+      "open_date": "2025-12-01",
+      "preferred_trade": "WCI-PG Range",
+      "built_year": 2009,
+      "flag": "Vietnam",
+      "dwt_mt": 32226,
+      "draft_m": 10.02,
+      "loa_m": 171.13,
+      "beam_m": 28.4,
+      "holds": 5,
+      "hatches": 5,
+      "grain_cbm": 42595,
+      "bale_cbm": 41124,
+      "cranes": "4x25 MT"
+    }
+  ]
+}

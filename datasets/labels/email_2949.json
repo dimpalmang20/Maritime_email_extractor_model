@@ -1,0 +1,41 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2027-01-14",
+    "laycan_end": "2027-01-15",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BERGE HALLASAN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "9755749",
+    "grt": "23749",
+    "nrt": "11814",
+    "loa": "183m",
+    "beam": "30.6m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "EXCL BETWEEN HATCH PART"
+    ],
+    "confidence_score": 0.76
+  }
+]

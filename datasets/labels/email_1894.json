@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TAXIDIARA",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "VISAG,",
+    "open_date": "2026-12-18",
+    "close_date": "2026-12-22",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DWAT ON 12.573M SWSD - SDBC",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "31236",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND",
+      "NO\n\nNEGATIVE INFLUENCE OF SWELL",
+      "NO PERFORMANCE EXTRAPOLATION TO BE MADE BEYOND THE\n\nACTUAL GOOD WEATHER DAYS"
+    ],
+    "confidence_score": 0.6
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "MMX",
+    "cargo": "Indus",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-79999",
+    "del_port": "TO MAKE ECI RANGE",
+    "redel_port": "",
+    "laycan_start": "2025-11-26",
+    "laycan_end": "2025-12-01",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

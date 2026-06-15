@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "600-700",
+    "quantity_unit": "MT",
+    "load_port": "CARGO",
+    "discharge_port": "PETCOKE",
+    "laycan_start": "0601-01-20",
+    "laycan_end": "0601-01-25",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

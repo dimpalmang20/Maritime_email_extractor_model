@@ -1,0 +1,16 @@
+{
+  "email_id": 296,
+  "email_type": "cargo_enquiry",
+  "cargo": "Steel Pipes",
+  "quantity": "4700-5200 MT",
+  "load_port": "Chernomorsk, Ukraine",
+  "discharge_port": "Houston, USA",
+  "laycan": "02-05 Dec 2025",
+  "load_rate": "1500 MT/day",
+  "discharge_rate": "1750 MT/day",
+  "vessel_requirement": "Box-shaped vessel preferred",
+  "part_cargo": "Accepted",
+  "commission": "1.25% TTL",
+  "broker": "Feyz Group",
+  "status": "open_enquiry"
+}

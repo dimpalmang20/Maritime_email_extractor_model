@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FEDRA.GR",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "TANIYAMA",
+    "open_date": "2024-04-14",
+    "close_date": "2024-04-18",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  }
+]

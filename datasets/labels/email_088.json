@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Smelter Grade Alumina",
+    "cargo_type": "Dry Bulk",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "Ras-Al-Khair ,Saurdi Arabia all Conditions as per",
+    "discharge_port": "RATE : Ras-al-Khair , 2800 MTPD",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

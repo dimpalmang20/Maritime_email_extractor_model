@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CETUS SPADE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "43000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "GEELONG",
+    "open_date": "2026-01-17",
+    "close_date": "2026-01-19",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CETUS SPADE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2018",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "26436",
+    "nrt": "14803",
+    "loa": "",
+    "beam": "30.02m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL",
+      "NO MIXING OF LSFO IS ALLOWED AND BUNKER SUPPLY IS ALLOWED UP TO"
+    ],
+    "confidence_score": 0.66
+  }
+]

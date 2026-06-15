@@ -1,0 +1,48 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ZARAAR HANIF",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HAZIRA,",
+    "open_date": "2026-11-12",
+    "close_date": "2026-11-18",
+    "matching_region": "West Coast India",
+    "restrictions": [
+      "NO COASTAL"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ZARAAR HANIF",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55693",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "31232",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL",
+      "NO BOTTOM FOULING DUE TO IDLE PERIODS OF",
+      "NO NEGATIVE INFLUENCE OF SWELL UP TO BEAUFORT SCALE FORCE"
+    ],
+    "confidence_score": 0.69
+  }
+]

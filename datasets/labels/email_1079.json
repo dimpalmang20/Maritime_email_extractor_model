@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Phosphate Rock",
+    "cargo_type": "Dry Bulk",
+    "quantity": "20-25000",
+    "quantity_unit": "MT",
+    "load_port": "Aqaba , Jordan",
+    "discharge_port": "",
+    "laycan_start": "2025-12-15",
+    "laycan_end": "2025-12-20",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.9
+  }
+]

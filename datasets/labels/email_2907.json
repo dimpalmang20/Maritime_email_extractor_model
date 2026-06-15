@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-39999",
+    "del_port": "PARADIP, INDIA",
+    "redel_port": "GIB-RIGA INC UK",
+    "laycan_start": "2027-01-19",
+    "laycan_end": "2027-01-21",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.93
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "80000-99999",
+    "del_port": "TO W.AUST WITH CLEAN CGO TO CHINA",
+    "redel_port": "",
+    "laycan_start": "2026-01-23",
+    "laycan_end": "2026-01-26",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.89
+  }
+]

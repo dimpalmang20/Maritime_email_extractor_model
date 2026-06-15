@@ -1,0 +1,50 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 197\nemail_type: open_vessels\nsource_company: Marcons Shipmanagement Pvt. Ltd.\nvessels:\n- vessel_name: XIN HAI TONG 31\n  flag: Marshall Islands\n  built_year: 2013\n  open_port: Chittagong\n  open_date: '2025-11-21/26'\n  dwt: 56450\n  draft_m: 12.8\n  tpc: 58.8\n  loa_m: 189.99\n  beam_m: 32.26\n  gross_tonnage: 32987\n  net_tonnage: 19231\n  grain_capacity_cbm: 71634\n  holds: 5\n  hatches: 5\n  cranes: 4x30MT\n  grabs: 4x12CBM\n  bunkers_on_board:\n    lsfo_mt: 430-530\n    mgo_mt: 40-100\n  last_three_cargoes: Wheat, Steel Cargo, Urea",
+  "entities": {
+    "VESSEL": [
+      "XIN HAI TONG 31"
+    ],
+    "VESSEL_TYPE": null,
+    "DWT": [
+      "56450 DWT",
+      "56,450DWT"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "WHEAT",
+      "STEEL CARGO",
+      "UREA"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "CHITTAGONG"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Marcons Group",
+      "Marcons Shipmanagement Pvt. Ltd.",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "21-26 NOV 2025",
+      "21ST-26TH NOV 2025"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "bulk@marconsgroup.com",
+      "harshhjjaiwal45@outlook.com",
+      "shipbroker1999@gmail.com",
+      "kd412830@gmail.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "email_type": "Tonnage",
+  "text": "Doc-No. 9540630 13/NOV/2025 (THU) 14:35 (+0100) LP\nRieck + Petersen GmbH\nA/C CLIPPER: 58/66.000 MTS DWT SD/BC, DEL ANTWERP 17 NOV ONW, TCT REDEL TAMPA/VERACRUZ\nA/C LAURITZEN: 30-40.000 MTS DWT SD/BC, DEL S. SPAIN 17-20 NOV, REDEL ARAG\nA/C WECO BULK: 28/38.000 MTS DWT SD/BC, DEL EGYPT 23/29 NOV, REDEL BRAZIL",
+  "entities": {
+    "email_type": "Tonnage",
+    "tonnage_type": "SD/BC",
+    "port": ["Antwerp", "Tampa", "Veracruz", "S. Spain", "Egypt", "Brazil"],
+    "region": "Various",
+    "matching_region": null,
+    "open_date": "2025-11-17",
+    "close_date": "2025-11-29",
+    "dwt": "28000-66000",
+    "tonnage_name": null,
+    "pic": ["Lars Petersen"],
+    "email_id": "9540630",
+    "phone_number": ["+49 (0)40 35 00 426", "+49 (0)172 410 48 72"],
+    "latitude": null,
+    "longitude": null,
+    "restrictions": null
+  }
+}

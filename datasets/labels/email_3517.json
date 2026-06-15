@@ -1,0 +1,118 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BOZBURUN-M OPEN S. THAILAND JAN 19",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "12500",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "27993",
+    "loa": "",
+    "beam": "189.8m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Thailand",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ISTANBUL-M OPEN GDANSK JAN 19-21",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "12500",
+    "built_year": "2010",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "23456",
+    "nrt": "11522",
+    "loa": "180m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "Gdansk, Poland",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO GRABS ON BOARD\n\nSPEED",
+      "NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.91
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ASI-M OPEN RED SEA JAN 24-27",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52404",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.72
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NIHAT-M OPEN S.BRAZIL JAN 22-24",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "12000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "19908",
+    "nrt": "110115",
+    "loa": "177m",
+    "beam": "28.4m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Brazil",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.76
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GOKOVA-M OPEN DAKAR JAN 25-27",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52512",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "29862",
+    "nrt": "18001",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "Dakar, Senegal",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO ADVERSE CURRENTS AND DSS"
+    ],
+    "confidence_score": 0.86
+  }
+]

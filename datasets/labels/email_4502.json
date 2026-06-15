@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN SAPPHIRE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "",
+    "flag": "KOREA",
+    "imo": "9860386",
+    "grt": "",
+    "nrt": "34876",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "PASSING",
+    "open_date": "2026-04-07",
+    "close_date": "2026-04-12",
+    "matching_region": "Far East",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT AND SWELL"
+    ],
+    "confidence_score": 0.98
+  }
+]

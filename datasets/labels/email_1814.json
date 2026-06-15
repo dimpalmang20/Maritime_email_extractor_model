@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "38000",
+    "built_year": "",
+    "flag": "KOREA",
+    "imo": "",
+    "grt": "24504",
+    "nrt": "12325",
+    "loa": "189m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "CJK,",
+    "open_date": "2026-11-14",
+    "close_date": "2026-11-19",
+    "matching_region": "China",
+    "restrictions": [
+      "NO GRAB ON BOARD\n\nSPEED",
+      "NO NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.79
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MARINA R",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37700",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL",
+      "NO\n\nEXTRAPOLATIONS TO\n\nBE MADE FOR WEATHER"
+    ],
+    "confidence_score": 0.74
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Goa 26 Nov trip via Richards Bay redel",
+    "redel_port": "China intention coal $20,000 - Jeyst",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "no further details have been disclosed",
+      "no more details came to",
+      "no more details surfaced",
+      "no\n\nadditional details disclosed"
+    ],
+    "confidence_score": 0.92
+  }
+]

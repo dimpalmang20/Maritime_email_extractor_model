@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "20000",
+    "quantity_unit": "MT",
+    "load_port": "NOVO, RUSSIA",
+    "discharge_port": "MUKALLA , YEMEN",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

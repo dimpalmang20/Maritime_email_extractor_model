@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-999999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-12-10",
+    "laycan_end": "2025-12-15",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.62
+  }
+]

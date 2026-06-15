@@ -1,0 +1,80 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CHRISTINA SELMER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Gdansk, Poland",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Baltic Sea",
+    "restrictions": [
+      "NO STANCHIONS"
+    ],
+    "confidence_score": 0.79
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CHRISTINA SELMER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "23432",
+    "nrt": "11359",
+    "loa": "180m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "Gdansk, Poland",
+    "open_date": "2027-01-23",
+    "close_date": "2027-01-28",
+    "matching_region": "East Coast South America",
+    "restrictions": [
+      "NO STANCHIONS"
+    ],
+    "confidence_score": 0.94
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-79999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Continent (ARA)",
+    "restrictions": [],
+    "confidence_score": 0.52
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "WCSA/ECSA/WAF/SAF",
+    "redel_port": "ATL OR WW",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "West Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.6
+  }
+]

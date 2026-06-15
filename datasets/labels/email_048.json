@@ -1,0 +1,77 @@
+[
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "DENIZ-M",
+    "dwt": 37983.1,
+    "built_year": 2009,
+    "flag": "PANAMA",
+    "open_port": "VITORIA",
+    "open_date": "2025-11-17",
+    "close_date": "2025-11-20",
+    "cranes": "4 X 35T",
+    "loa": 180.0,
+    "beam": 30.0,
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "NIHAT-M",
+    "dwt": 32941.6,
+    "built_year": 1998,
+    "flag": "PANAMA",
+    "open_port": "CARIBS NCSA",
+    "open_date": "2025-11-25",
+    "close_date": "2025-11-30",
+    "cranes": "4 X 30.5T",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "PHOENICIAN-M",
+    "dwt": 37973.9,
+    "built_year": 2010,
+    "flag": "PANAMA",
+    "open_port": "HODEIDAH",
+    "open_date": "2025-11-14",
+    "close_date": "2025-11-16",
+    "cranes": "4 X 35T",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "MARMARIS-M",
+    "dwt": 37914.6,
+    "built_year": 2009,
+    "flag": "PANAMA",
+    "open_port": "KANDLA",
+    "open_date": "2025-11-21",
+    "close_date": "2025-11-25",
+    "cranes": "4 X 35T",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "ATA-M",
+    "dwt": 52549,
+    "built_year": 2001,
+    "flag": "PANAMA",
+    "open_port": "MOMBASA",
+    "open_date": "2025-11-22",
+    "close_date": "2025-11-26",
+    "cranes": "2 X 25T",
+    "grabs": "4 X 10CBM",
+    "confidence_score": 0.99
+  },
+  {
+    "email_type": "TONNAGE",
+    "vessel_name": "ALANYA-M",
+    "dwt": 41333,
+    "built_year": 2004,
+    "flag": "PANAMA",
+    "open_port": "SOUTH KOREA",
+    "open_date": "2025-11-25",
+    "close_date": "2025-11-30",
+    "cranes": "4 X 30T",
+    "confidence_score": 0.99
+  }
+]

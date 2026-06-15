@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JIN HAI WO",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "64000",
+    "built_year": "2025",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SPLIT,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO COMINGLING OF DIFFERENT FUEL BATCHES IN TANKS ALLOWED"
+    ],
+    "confidence_score": 0.84
+  }
+]

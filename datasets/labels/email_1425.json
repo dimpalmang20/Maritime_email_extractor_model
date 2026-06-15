@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DAI AN OCEAN SHIPPING REQUIREMENTS",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "TONGHAE",
+    "redel_port": "",
+    "laycan_start": "2026-12-10",
+    "laycan_end": "2026-12-14",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

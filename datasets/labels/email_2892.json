@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "deadweight on 10.150 m ssw",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32289",
+    "built_year": "2011",
+    "flag": "Liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "179.9m",
+    "grain_capacity": "",
+    "open_port": "Mumbai, India",
+    "open_date": "2026-01-05",
+    "close_date": "2026-01-10",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

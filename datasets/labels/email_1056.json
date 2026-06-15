@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MANDARIN S",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63588",
+    "built_year": "",
+    "flag": "",
+    "imo": "1079307",
+    "grt": "35916",
+    "nrt": "21205",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "7808373",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "North China",
+    "restrictions": [
+      "NO ADVERSE CURRENTS OR SWELL SAILING",
+      "NO EXTRAPOLATION OF GOOD WEATHER ANALYSIS CAN BE MADE TO OVERALL VOYAGE"
+    ],
+    "confidence_score": 0.96
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "32000-45000",
+    "del_port": "NORTH CHINA",
+    "redel_port": "ULTRA",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

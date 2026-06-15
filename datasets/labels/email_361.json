@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "T-HARMONY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2025-11-01",
+    "close_date": "2025-11-30",
+    "matching_region": "Persian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DEPTH 13.60 MT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28449",
+    "built_year": "2008",
+    "flag": "BARBADOS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

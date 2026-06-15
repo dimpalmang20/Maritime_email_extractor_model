@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON DRAFT 9.2M",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "11529",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "134.93m",
+    "beam": "23m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2025-12-04",
+    "close_date": "2025-12-05",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "lsmgo",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35780",
+    "built_year": "2024",
+    "flag": "ICS CLASS SINGLE DECK",
+    "imo": "",
+    "grt": "",
+    "nrt": "21793",
+    "loa": "179.9m",
+    "beam": "27m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.77
+  }
+]

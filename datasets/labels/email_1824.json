@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2004",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Ravenna,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.57
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BROAD RICH",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2004",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "41209",
+    "nrt": "26025",
+    "loa": "",
+    "beam": "224.79m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE OF ADVERSE CURRENTS",
+      "NO NEGATIVE INFLUENCE OF SWELL",
+      "NO EXTRAPOLATIONS TO BE MADE FOR WEATHER CONDITIONS OTHER THAN THOSE DESCRIBED ABOVE"
+    ],
+    "confidence_score": 0.66
+  }
+]

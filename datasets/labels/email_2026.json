@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FULMAR S",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "79403",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.74
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FULMAR S",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "79403",
+    "built_year": "2010",
+    "flag": "MARSALL ISLAND",
+    "imo": "",
+    "grt": "",
+    "nrt": "26510",
+    "loa": "229m",
+    "beam": "32.26m",
+    "grain_capacity": "3319984",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "NO CARGO LOADING ON HATCH COVERS OR ON DECK\n\nALL ABT IN GOOD FAITH BUT WOG\n\nPLSD TO HEAR"
+    ],
+    "confidence_score": 0.77
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "44000",
+    "quantity_unit": "MT",
+    "load_port": "- Kpeme , TOGO",
+    "discharge_port": "AGENTS",
+    "laycan_start": "2026-01-16",
+    "laycan_end": "2026-01-18",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

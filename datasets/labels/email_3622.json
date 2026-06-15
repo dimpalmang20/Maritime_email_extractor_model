@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "34487",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Kandla, India",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.64
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "34487",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "21574",
+    "loa": "179.97m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO GOA"
+    ],
+    "confidence_score": 0.72
+  }
+]

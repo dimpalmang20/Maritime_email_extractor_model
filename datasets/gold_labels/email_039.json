@@ -1,0 +1,113 @@
+{
+  "text": "FROM TU OH / CARIS OCEAN CO., LTD\n\nMV ADRE\nIMO NO: 9575199\nFLAG: LIBERIA\nCLASS: LR\nTYPE OF VESSEL: BULK CARRIER\nDEADWEIGHT – 63,301 MT @ 13.30 M SSW\nOPEN BEDI, WCI O/A 13-17 JULY\n\nMV SHENG PING HAI (57K)\nOPEN GUANGZHOU, CHINA 30TH JULY 2025\n\nMV WAN MING HE XIE\nIMO: 9955337\nFLAG: BISSAU\nCLASS: UMB\nBUILT: 2022\nTYPE OF VESSEL: SINGLE DECK SELF TRIMMING BULK CARRIER\nSUMMER DWT: 50918.9 MT\nOPEN TAIPEI / 22ND JULY 2025\n\nM/V EURO BAND\nTYPE OF VESSEL: BULK CARRIER\nBUILT: APRIL 2009\nFLAG: PANAMA\nDWT: 58,761 MT\nOPEN AG INT KUWAIT ON 16-21 OCT 2025\n\nMV XIN HAI TONG 38\n2011 BLT\n56635 DWT\nTYPE: GEARED SINGLE DECK BULK CARRIER\nOPEN UMM QASAR, IRAQ O/A 16-21 OCT 2025\nLAST CARGO: WHEAT, GENERAL CARGO, IRON ORE FINES\n\nMV SF DARIKA\nEX TASMAN SPIRIT\nIMO NUMBER: 9502752\nFLAG: THAI\nTYPE: BULK CARRIER LOGGER\nOPEN VIZAG 14/22 OCT 2026\nCAN DO STEEL COILS\nCAN TRY 1 TCT / 2LL / VOYAGE\n\nMV NEW MOMENTUM\n39K/'18\nOPEN MUMBAI, INDIA O/A 15-20 MAR 2026\nLAST CARGO: STEEL, GRAIN\n\nMV PAN MAJESTY\n63K/'16\nOPEN PORBANDAR, INDIA O/A 26-28 MAR 2026\nLAST CARGO: COAL, POTASH, N.ORE, GRAIN\n\nMV PAN NOVA\n37K/'20\nOPEN LANSHAN, CHINA 27-31 MAR 2026\nLAST CARGO: LOG, FERTS, PETCOKE",
+  "entities": {
+    "VESSEL": [
+      "MV ADRE",
+      "MV SHENG PING HAI",
+      "MV WAN MING HE XIE",
+      "M/V EURO BAND",
+      "MV XIN HAI TONG 38",
+      "MV SF DARIKA",
+      "MV NEW MOMENTUM",
+      "MV PAN MAJESTY",
+      "MV PAN NOVA"
+    ],
+    "CARGO": [
+      "WHEAT",
+      "GENERAL CARGO",
+      "IRON ORE FINES",
+      "STEEL COILS",
+      "STEEL",
+      "GRAIN",
+      "COAL",
+      "POTASH",
+      "N.ORE",
+      "LOG",
+      "FERTS",
+      "PETCOKE"
+    ],
+    "PORT": [
+      "BEDI",
+      "WCI",
+      "GUANGZHOU",
+      "CHINA",
+      "TAIPEI",
+      "KUWAIT",
+      "UMM QASAR",
+      "IRAQ",
+      "VIZAG",
+      "MUMBAI",
+      "PORBANDAR",
+      "LANSHAN"
+    ],
+    "LOAD_PORT": [
+      "BEDI",
+      "GUANGZHOU",
+      "TAIPEI",
+      "KUWAIT",
+      "UMM QASAR",
+      "VIZAG",
+      "MUMBAI",
+      "PORBANDAR",
+      "LANSHAN"
+    ],
+    "DISCHARGE_PORT": null,
+    "ETA": [
+      "13-17 JULY",
+      "30TH JULY 2025",
+      "22ND JULY 2025",
+      "16-21 OCT 2025",
+      "14/22 OCT 2026",
+      "15-20 MAR 2026",
+      "26-28 MAR 2026",
+      "27-31 MAR 2026"
+    ],
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": "CARIS OCEAN CO., LTD",
+    "IMO": [
+      "9575199",
+      "9955337",
+      "9502752"
+    ],
+    "DWT": [
+      "63,301 MT",
+      "50918.9 MT",
+      "58,761 MT",
+      "56635 DWT",
+      "39K",
+      "63K",
+      "37K"
+    ],
+    "LAYCAN": [
+      "13-17 JULY",
+      "30TH JULY 2025",
+      "22ND JULY 2025",
+      "16-21 OCT 2025",
+      "14/22 OCT 2026",
+      "15-20 MAR 2026",
+      "26-28 MAR 2026",
+      "27-31 MAR 2026"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "BULK CARRIER",
+      "SINGLE DECK SELF TRIMMING BULK CARRIER",
+      "GEARED SINGLE DECK BULK CARRIER",
+      "LOGGER"
+    ],
+    "CHARTER_TYPE": [
+      "1 TCT",
+      "2LL",
+      "VOYAGE"
+    ],
+    "TONNAGE": [
+      "57K",
+      "39K",
+      "63K",
+      "37K"
+    ],
+    "CONTACT": null
+  }
+}

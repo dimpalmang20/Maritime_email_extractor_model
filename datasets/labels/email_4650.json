@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ASIAN MAJESTY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2016",
+    "flag": "",
+    "imo": "9724996",
+    "grt": "",
+    "nrt": "35336",
+    "loa": "",
+    "beam": "199.98m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-04-18",
+    "close_date": "2026-04-23",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.82
+  }
+]

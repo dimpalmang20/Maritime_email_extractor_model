@@ -1,0 +1,627 @@
+ 
+ 
+ 
+ 
+ 
+Best Regards:
+ 
+
+ 
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+ 
+From: postmaster@lbhglobal.onmicrosoft.com
+<postmaster@lbhglobal.onmicrosoft.com> 
+Sent: 25 November 2025 11:03
+To: chartering@varitasnavigation.com
+Subject: Undeliverable: RE: PDA and port information for loading at TIANJIN,
+CHINA.
+ 
+
+
+
+Your message to Dubai@lbhmarketing.com couldn't be delivered.
+
+The group Dubai only accepts messages from people in its organization or on
+its allowed senders list, and your email address isn't on the list.
+
+
+chartering 
+Office 365 
+Dubai 
+
+Sender 
+	Action Required 
+
+
+ 
+ 
+ 
+ 
+ 
+		
+Sender not allowed 
+
+ 
+
+How to Fix It
+
+It appears you aren't in the same organization as the group (or a sub-group)
+you're sending to or your email address isn't on the group's allowed senders
+list. Ask the owner of the group to grant you permission to send to it, and
+then try again. If the group belongs to a different organization than yours,
+contact the organization's customer service department for assistance. If
+the group is in your organization and you don't know who the group owner is,
+you can find it by doing the following in either Outlook on the web or
+Outlook:
+
+*        Open your Sent folder and select the original message.
+*        If you're using Outlook on the web, select the group name located
+on the To or CC line. If you're using Outlook, double-click the group name
+located on the To or CC line.
+*        In Outlook on the web, from the pop-up dialog box, choose Owner. In
+Outlook, choose Contact. The owner's name is listed under Owner.
+
+The owner of the group may have intentionally chosen to restrict who can
+send messages to it, and they may not want to adjust the existing
+restriction. In this case, you'll have to contact the group members by some
+other means, such as sending an email message to their individual email
+addresses or contacting them by phone.
+
+
+Was this helpful?  <https://go.microsoft.com/fwlink/?LinkId=615007> Send
+feedback to Microsoft. 
+
+  _____  
+
+
+
+More Info for Email Admins
+
+Status code: 550 5.7.133 
+
+This error occurs when the distribution group, security group, or Microsoft
+365 group is configured to accept messages only from authenticated senders
+(senders in the same organization or those added to the group's allowed
+senders list).
+
+To fix the issue, the recipient's email admin or the group owner must add
+the sender's email address to the group's allowed senders list or change the
+group's delivery management setting to accept messages from senders inside
+and outside of the organization.
+
+Usually this issue can only be fixed by the recipient's email admin or the
+group owner.
+
+For more information and steps to fix this error, see
+<https://go.microsoft.com/fwlink/p/?LinkId=615127> Fix email delivery issues
+for error code 5.7.133 in Office 365.
+
+Original Message Details
+
+
+Created Date:
+25/11/2025 5:32:54 am
+
+Sender Address:
+chartering@varitasnavigation.com
+
+Recipient Address:
+Dubai@lbhmarketing.com
+
+Subject:
+RE: PDA and port information for loading at TIANJIN, CHINA.
+
+
+Error Details
+
+
+Error:
+550 5.7.133 RESOLVER.RST.SenderNotAuthenticatedForGroup; authentication
+required; Delivery restriction check failed because the sender was not
+authenticated when sending to this group 
+
+Message rejected by:
+PAWPR10MB7270.EURPRD10.PROD.OUTLOOK.COM
+
+
+Notification Details
+
+
+Sent by:
+PAWPR10MB7270.EURPRD10.PROD.OUTLOOK.COM 
+ 
+
+Message Hops
+
+HOP
+TIME (UTC)
+FROM
+TO
+WITH
+RELAY TIME
+
+1
+25/11/2025
+5:32:56 am
+LAPTOPP6RKI9ML
+vmi2441136.contaboserver.net
+ESMTPSA
+2 sec
+
+2
+25/11/2025
+5:32:58 am
+vmi2441136.contaboserver.net
+AMS0EPF000001A7.mail.protection.outlook.com
+Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)
+2 sec
+
+3
+25/11/2025
+5:32:38 am
+AMS0EPF000001A7.eurprd05.prod.outlook.com
+AM9P192CA0015.outlook.office365.com
+Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)
+*
+
+4
+25/11/2025
+5:32:58 am
+AM9P192CA0015.EURP192.PROD.OUTLOOK.COM
+PAWPR10MB7270.EURPRD10.PROD.OUTLOOK.COM
+Microsoft SMTP Server (version=TLS1_2,
+cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)
+20 sec
+Original Message Headers
+Received: from AM9P192CA0015.EURP192.PROD.OUTLOOK.COM
+(2603:10a6:20b:21d::20)
+ by PAWPR10MB7270.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:102:2ec::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9343.16; Tue, 25 Nov
+ 2025 05:32:58 +0000
+Received: from AMS0EPF000001A7.eurprd05.prod.outlook.com
+ (2603:10a6:20b:21d:cafe::5d) by AM9P192CA0015.outlook.office365.com
+ (2603:10a6:20b:21d::20) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9343.18 via Frontend Transport;
+Tue,
+ 25 Nov 2025 05:32:38 +0000
+Authentication-Results: spf=pass (sender IP is 94.136.184.46)
+ smtp.mailfrom=varitasnavigation.com; dkim=fail (no key for signature)
+ header.d=varitasnavigation.com;dmarc=bestguesspass action=none
+ header.from=varitasnavigation.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of varitasnavigation.com
+ designates 94.136.184.46 as permitted sender)
+ receiver=protection.outlook.com; client-ip=94.136.184.46;
+ helo=vmi2441136.contaboserver.net; pr=C
+Received: from vmi2441136.contaboserver.net (94.136.184.46) by
+ AMS0EPF000001A7.mail.protection.outlook.com (10.167.16.234) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9366.7
+ via Frontend Transport; Tue, 25 Nov 2025 05:32:58 +0000
+Received: from LAPTOPP6RKI9ML (unknown [103.39.29.144])
+        by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id
+E1C026A0826;
+        Tue, 25 Nov 2025 06:32:56 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=varitasnavigation.com; s=default; t=1764048777;
+        bh=kmCgTMey1OlZZpuKZ885xjOV/owRfjyuTK6P6f+F8fs=; h=From:To:Subject;
+  b=TKrQttDJQI9SE8ThoDHJq91EG4kUYFS4GvnzP8nWPrsjFI4GJa//uqQ+kRFU/ftgO
+         FNOzszRDbPOzG9tHRrhWAA2v9fQuTzdmzKtJthv7JWY/smHz9OG4Nh50DSbN3iYj9h
+         Uc3H+FAgkFEHoNzOuHJlwDuHE5/06Vq90q6fNWrLxWHim4ENTuRefl7AKyPZUERj6T
+         7RLfniumphru3//0Yp19dbQTW2LurepawI036IjIZjnqEFuTCV28KiKYXF7EsNqV7i
+         bzEo9xaHyY0YQ6tOvtXWENPjOcWqyMspg59cHwC/DT6zVsdNbDor4hGOclRhTFiRjH
+         CP+onV99B/Btg==
+Authentication-Results-Original: vmi2441136.contaboserver.net;
+spf=pass
+ (sender IP is 103.39.29.144) smtp.mailfrom=chartering@varitasnavigation.com
+ smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is
+authenticated)
+From: <chartering@varitasnavigation.com>
+To: <ops@lbhchina.com.cn>,
+        <Jacqueline.Tan@lbhmarketing.com>,
+        <Dubai@lbhmarketing.com>
+CC: "'Varitas Navigation'" <chartering@varitasnavigation.com>
+References: <01e201dc5d2c$0da62a10$28f27e30$@varitasnavigation.com>
+<414001dc5dac$b9469140$2bd3b3c0$@lbhchina.com.cn>
+In-Reply-To: <414001dc5dac$b9469140$2bd3b3c0$@lbhchina.com.cn>
+Subject: RE: PDA and port information for loading at TIANJIN, CHINA.
+Date: Tue, 25 Nov 2025 11:02:54 +0530
+Message-ID: <03b701dc5dcc$f2f53520$d8df9f60$@varitasnavigation.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+        boundary="----=_NextPart_000_03B8_01DC5DFB.0CB25320"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQGjTczYR6x4wM9VqA1ykndoUfIbSwHUK81etWZcjeA=
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 072dff53-1ae8-47f4-ba4b-854793886696:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AMS0EPF000001A7:EE_|PAWPR10MB7270:EE_
+X-MS-Office365-Filtering-Correlation-Id:
+936985dc-f942-4e2b-0c93-08de2be417e3
+X-Microsoft-Antispam:
+BCL:0;ARA:13230040|5063199012|22003199012|4073199012|5073199012|4076899003|7
+053199007|13003099007|8096899003|4053099003|4013099003;
+X-Microsoft-Antispam-Message-Info:
+=?iso-2022-jp?B?MncrYzZYQjZxNFp2NUdXNXBsdGljMEtEMldJbG1vbnJseStaN1dWamQ5?=
+ =?iso-2022-jp?B?b1RIMFMzYmZYaTFHL1lsQWFLemZqc0w1R3dXRUcvNlo3QktmS0RhSmlp?=
+ =?iso-2022-jp?B?dUNRZnVZQVN2cFovRWRiaEo1Y3MzS0szV2J4WEZidXdHMFZGTXdMSXFl?=
+ =?iso-2022-jp?B?SlZ3UjFyZ0RtaG4yYjZYeHVINTRRSWN1aEdYTDI3TW5TM1REMkMvQlIz?=
+ =?iso-2022-jp?B?NW5xV0U4UFduS2FmY2djVm5GckNJUVJOOFowRGdWSExCOTJ3bno0V3Q1?=
+ =?iso-2022-jp?B?Q3JmUEZXT0laa0JHRWIzT0hPcjVHRFJxREFLSEtOQ0Q2WjJRS0laOXpm?=
+ =?iso-2022-jp?B?UFErT0MzVGtpQ2JSekZ6WkFvc09uSTZLL29BeGMwb0FqQ0pNMWw0YmVL?=
+ =?iso-2022-jp?B?Ri84eWNhTm15RTk0NGMzcEVQa3dnQTNJd1hvWk9lTDJQajUzT09hYlpB?=
+ =?iso-2022-jp?B?VGV3ZkhBL1RKN1Nxdk9tTVQ4Q09sV29qYk9uenVrWDlVanh1VmV1LzB6?=
+ =?iso-2022-jp?B?YWlWN3FHYk9ZZy9PRVFQY0VUTTVIUXFwOWxVcExXSmpEY1RYSWJlWjdD?=
+ =?iso-2022-jp?B?QVo5bm9yZ214UVB5cWxFMGp6TW10eHRzZG5aNHE0UENQK1ZFVVpLNWs1?=
+ =?iso-2022-jp?B?WCtFU3l6bmE5dUtod3ZFQlorTUZqSFRVZnMyT0JJOVMxb0todWRvZ1BE?=
+ =?iso-2022-jp?B?SDgzOHh4SmJ6UmR0emNwd3FvY2g4TG9uMEk2LzhQRW9IL1NvczBDUjUz?=
+ =?iso-2022-jp?B?NUxwT1NGZ2xFYlhQN2VuRGV4NGVtODVhd0dHeGkwb255bEZtaEJMSHB1?=
+ =?iso-2022-jp?B?S2p5bHFpWWVheWhKQlc3ZW1zb2VLbmdESkhGVWRYcHprMHh1NUJZSkk0?=
+ =?iso-2022-jp?B?MlpyVHo3T2lVTkE3eS9TMFhHY25JNjNGNFErM0R1QTJ1ZDFxUmhnZk5o?=
+ =?iso-2022-jp?B?WGg0azNhd1pMTENaQjBVWXMzbFk1bVpCdkRIbUtaN2lKN1lCQmF4MzJ5?=
+ =?iso-2022-jp?B?eWoxMHNSNkxVaFpvN1BXRzhvZzQzRlQyQjUwNGZBeTM4c08xUnZBWWRj?=
+ =?iso-2022-jp?B?ZTV5eEJyS3VRQXFSOEZCUGN5RWs3elVLWTl3dVpqUG5kUmJvdkRmekpI?=
+ =?iso-2022-jp?B?YUN3djNtZWFDVk5hZXkzeTFnUWlpa0ExV0RETzkwZ0l6R3VVRjhvYURw?=
+ =?iso-2022-jp?B?dHpCQW5WanlyaHBsWlNDUmJLVHBPamZMMHpQdnVUa0hYYkVsYzJOZDBw?=
+ =?iso-2022-jp?B?KzdNZ0ZTLzdNZGdJM3Q1MDRtQkRXdWE0QjBJU21RamZqcjZoa1doQlVk?=
+ =?iso-2022-jp?B?WHhaVEJVSWVSYmhmSGFhVEsvNUswMUVXUG5WMDFaOG11RkZJWi8zdVhk?=
+ =?iso-2022-jp?B?NWZsU1MySFMxWC9wdlpzQ2QycjRKQm5ZTTNIb0ZDNlpaNTZZT3g4SXVu?=
+ =?iso-2022-jp?B?VFB4dXpROGxiLzFHdTVtTnRhdDVySFBHYzV3ZzFnUks3UlBNTExxTEdp?=
+ =?iso-2022-jp?B?WWtrRmlvelE2SHVDcVVVNUc2NXlaSEJTZ0l3eHZMUGtmYllCTFMrUUNE?=
+ =?iso-2022-jp?B?ZDVFQ3BZV3pvSHFMc0VFSXRLRTJLSjFqUVNEVXUyNVRhaE1xY2x1T0c2?=
+ =?iso-2022-jp?B?bmlIcVFxejlUODhZK1ZERUkrb3BneGN4Tmo4b1hXTERuQkkrOGh0eXJP?=
+ =?iso-2022-jp?B?bk9qVVNLdnZEajN1UHVma1hXdkJFRGpyL20rbzVhbmJ3Vkg0UzU5Mksr?=
+ =?iso-2022-jp?B?Q2lOY25Ib24zNnBxOHF5MkxiMU9OVUl4Z0hMQklqQzlTTlRnRnF1Vm1j?=
+ =?iso-2022-jp?B?ZHBLazd3a1dQeDlJN1JlRHZyUDdJQS9pNWM3MVJ0c3BwNmMrSDU4cUJH?=
+ =?iso-2022-jp?B?MnRaaDU1QXdjckQ3dGVaQnRHSGFBM05XLy9oYm40TXh6SzJmQ2R4Vk9p?=
+ =?iso-2022-jp?B?ZE5TTC9xZ1hkc0VjR1M3VDIrY3FNMWdpb0tDZlZwK00wK1FUUzMxSTZL?=
+ =?iso-2022-jp?B?MUNmSXEvL0FaRnp6L3hBOTdGNURMUHpPT1hzK25XM1NxYmZiUTByVWpE?=
+ =?iso-2022-jp?B?WGkwMTBoV3hVTE1Rdis2MVIrSkcyYUkyZkxQb1RvaDBrdUZ2aHB5SWpQ?=
+ =?iso-2022-jp?B?T1drRTQyODhEZytyeWt5TysyRTNTOWZ6SlpURUFkYkhhemkxU1hHOXVn?=
+ =?iso-2022-jp?B?VjAvUUhIOE9SeGRNbkMzNk5uaUswUHpYVTFpZ0svK2hNcHN3Wlc4aGQ4?=
+ =?iso-2022-jp?B?RnUvMHhXSHFhbzNQS3FqWHZQUzJWQnhTMGp4Rlp0dXk4S2d6QW1QTkFy?=
+ =?iso-2022-jp?B?akhENmRUNUhmNlNacWVpMHRXTWdNUWFzUW44L0Rka2xPMHZOSjRFWTRB?=
+ =?iso-2022-jp?B?ZWRJU1NvMlVHMGU2M0k2dGhyTXN0OXRBbG0zTEpYL0txdnowN0dMc09V?=
+ =?iso-2022-jp?B?VG9BWHo2VGd0RHBTY3JGZ0ZQNnRjR1ZMR2toSHdnakVKZTY1cW5yZTlZ?=
+ =?iso-2022-jp?B?WlYzcTRYcU1yek1aK0EvR0MvdDh2SE55bzZuUEwyd2VSbFZINUhDUlZr?=
+ =?iso-2022-jp?B?NVltaXRsVGdXaCtDdE9TUHNyOENKOHJDQTlzb0RJbWUwRVJqL3NKNjc5?=
+ =?iso-2022-jp?B?ZWFVeDhpeGxlUmlzcFRYNGJyZ0FTMlFpc25aV3VhZmRIeHIxZW94V2NT?=
+ =?iso-2022-jp?B?bUppNlowYndwU0FxTDdPYzJqL3kyVW9RYkJCdjBHQks2QUg4UWxYNE1H?=
+ =?iso-2022-jp?B?YVhSVnRzVy85cnBpcmpjUWpiNUFUUnhkT3ZOMGEzQjIxSVg0alZDSlBz?=
+ =?iso-2022-jp?B?REtiQVFnL1cwK2dMUWgyTi9PNGo3SDVGenZXWTgwcTc1eHFGQWhRK1hW?=
+ =?iso-2022-jp?B?a1dpU3FLWVpRa2x1TWVFbjVXVGdBRE5OckQwNDRzQS8zVk5MdFVKZk12?=
+ =?iso-2022-jp?B?V3l5WmwxM2J1NmQzd28yUGUrZy9xenVIOWdpZmpFbDJ6NUlKelBrdjRh?=
+ =?iso-2022-jp?B?QnB3V3VNazJMcmVpWU0venFINWlabkhIdlBEa1I2K0I4cksxdWNrM1VB?=
+ =?iso-2022-jp?B?NGh1Q091b0tRaGljREJIaDQzWWlNbmFrdU92ckloMzh1Y3diVGpnV04w?=
+ =?iso-2022-jp?B?eGYyVzI3MzdLQks1Kys0VjhadFpucEtDeEhXMUhEN3NWeGM4aUdzMGtp?=
+ =?iso-2022-jp?B?ZUNhSFltTnh0ZkV4V3BYUGJsK095TEw3UFNNdEM2UjQ0UkVyYi95eWw0?=
+ =?iso-2022-jp?B?WlhQOVZyMW5iclI1cVIrSWNndGJqbXlPVlVsUmdjMERCVllGcVgrRm5Y?=
+ =?iso-2022-jp?B?VmpWS1k3dVA2UWJteWYzaDNISXBuZExUbEJDREovY0tPcDdkNmNmbmlh?=
+ =?iso-2022-jp?B?YXQ2NmVDWmNUVytqK0FRZUFxUWZ1WjRLZGlKamt3OWtDVlc3Qmh5UHg5?=
+ =?iso-2022-jp?B?VDIvMmRrazFxR0tPdDlGS3lLdGx5TjlWcU9hSGhRZ3M5L3NkekIvQ2pU?=
+ =?iso-2022-jp?B?c2wrY3BiNVE3S2NGZENKdWkzNitneUR5UnpESVppY0pyU1UyODVrc0Zx?=
+ =?iso-2022-jp?B?Wk91N3lsUE1ET3pFd2dQem85cVZ6QWFVdWgzU1EyVDFKbkNvbCtKZVZJ?=
+ =?iso-2022-jp?B?YTFSWEo4dUNIekRCOHRiSFJsMDF2bzdONHVTWHpQZUQwYXRzdXJZVE9I?=
+ =?iso-2022-jp?B?eERxak9yMXFqUGhPL3IzTWVrUT0=?=
+X-Forefront-Antispam-Report:
+CIP:94.136.184.46;CTRY:IN;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:vmi2441136.c
+ontaboserver.net;PTR:vmi2441136.contaboserver.net;CAT:NONE;SFS:(13230040)(50
+63199012)(22003199012)(4073199012)(5073199012)(4076899003)(7053199007)(13003
+099007)(8096899003)(4053099003)(4013099003);DIR:INB;
+Dear Sharon,
+
+
+
+Well received your PDA. But still we didn’t got any port information from
+your side.
+
+Request you to please revert with port information for our study.
+
+
+
+
+
+
+
+1) ESTIMATED ITEMIZED PORT CHARGE WITH TARIFF INCL.FREIGHT TAX IF ANY
+
+2) PORT/BERTHS/CHANNEL RESTRICTIONS (DRAFT/LOA/BM/AIR DRAFT/ETC)
+
+3) NUMBER OF AVAILABLE BERTH FOR THIS CGO INCL NAME OF BERTH-
+
+4) BERTHING PROSPECT AND NORMAL BERTH CONGESTION -
+
+5) CGO MIN/MAX loading RATE PER GANG AND PER DAY -
+
+6) HOW MANY OF GANG WILL NORMALLY AND MAXIMUM BE ARRANGED FOR DISCHARGING-
+
+7) LOADING FACILITIES AND HOW TO LOAD =>  SHORE CRANE OR SHIP'S GEAR ??
+
+8) WORKING SHIFT WITH TIME=
+
+9) WEATHER CONDITION AND LOCAL/NATIONAL HOLIDAY=
+
+10) POSSIBILITY OF ENTRANCE/SAILING DURING NIGHT TIME AND HOLIDAY-
+
+11) EXTRA COST FOR DISCHARGING DURING NIGHT TIME AND HOLIDAY IF ANY -
+
+12) POSSIBILITY OF BUNKER SUPPLY AND PRICE IF POSSIBLE.
+
+13) ANY OTHER USEFUL INFORMATION FOR THIS BIZ.
+
+ 14) KINDLY SHARE THE PORT LINE UP
+
+
+
+
+
+
+
+
+
+
+
+Best Regards:
+
+
+
+
+
+
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email: chartering@varitasnavigation.com
+<mailto:chartering@varitasnavigation.com>
+
+Website:- www.varitasnavigation.com
+
+
+
+From: LBH CHINA(Sharon Shi) <sharon.shi@lbhchina.com.cn>
+Sent: 25 November 2025 07:12
+To: chartering@varitasnavigation.com; Jacqueline.Tan@lbhmarketing.com;
+Dubai@lbhmarketing.com
+Cc: ops@lbhchina.com.cn
+Subject: RE: PDA and port information for loading at TIANJIN, CHINA.
+
+
+
+Good day ,
+
+
+
+
+
+Kindly pls find flwg,
+
+
+
+
+STEVEDORE COMPANY
+
+BERTH
+
+LENGTH(M)
+
+DWT
+
+DRAFT
+
+SHORE CRANE
+
+REMARK
+
+
+NANGANG TERMINAL
+
+5#
+
+300m
+
+70K
+
+13.4M + Tide
+
+40MT*4
+
+DWT 70K FOR BULK CARRIER
+
+
+6#
+
+
+7#
+
+310m
+
+50MT*5
+
+
+8#
+
+
+
+
+
+
+BERTH NAME
+
+BERTH NO.
+
+LENGTH（ M）
+
+DEPTH
+
+CAPACITY DWT
+
+PURPOSE
+
+DISCH RATE/SHORE CRANE
+
+FACILITY
+
+
+NANJIANG COKE TERMINAL
+
+S5
+
+380
+
+13.5M+TIDE
+
+65,000
+
+LD COKE/DIS ORE
+
+about 300mt/gang/hour
+
+　
+
+
+
+
+
+Sharon Shi
+LBH China
+
+T: + 86 21 6888 0285 / 5876 3912 | F: + 86 21 6888 0287
+Room 1207,No.161, LuJiaZui Road (E)
+200120 Shanghai
+China
+ <mailto:sharon.shi@lbhchina.com.cn> sharon.shi@lbhchina.com.cn |
+<mailto:ops@lbhchina.com.cn> ops@lbhchina.com.cn
+ <http://www.lbh-group.com/lbh-contacts/china.html> LBH China |
+<http://www.lbh-group.com/> www.lbh-group.com
+
+
+ <https://www.lbh-group.com/>
+
+
+
+
+
+
+
+
+
+
+
+From: chartering@varitasnavigation.com <mailto:chartering@varitasnavigation.
+com>  <chartering@varitasnavigation.com
+<mailto:chartering@varitasnavigation.com> >
+Sent: Monday, November 24, 2025 6:21 PM
+To: Jacqueline.Tan@lbhmarketing.com <mailto:Jacqueline.Tan@lbhmarketing.com>
+; Dubai@lbhmarketing.com <mailto:Dubai@lbhmarketing.com>
+Cc: 'Varitas Navigation' <chartering@varitasnavigation.com
+<mailto:chartering@varitasnavigation.com> >; ops@lbhchina.com.cn
+<mailto:ops@lbhchina.com.cn>
+Subject: PDA and port information for loading at TIANJIN, CHINA.
+
+
+
+Dear Jacqueline,
+
+Cc Mr Eddy Lin,
+
+Good day.
+
+Kindly provide us the PDA and port information for loading at TIANJIN,
+CHINA.
+
+Cargo Quantity:- 3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. Unit weight 1.5 mts Per unit
+
+Load port :- Tianjin, China.
+
+Load rate:- FREE IN CQD.
+
+For,
+
+MV TBN
+
+Imabari 38, Blt 2020
+
+Dwt 37,594 mt on 10.54m ssw, TPC 48.60 MT
+
+Panama Flag , Class NK
+
+LOA 179,97 m / Beam 29,80 m / 5 ho/ha
+
+Grt/Nrt 23277/12101
+
+grain 46,995 cbm
+
+Cranes 4 x 30
+
+
+
+1) ESTIMATED ITEMIZED PORT CHARGE WITH TARIFF INCL.FREIGHT TAX IF ANY
+
+2) PORT/BERTHS/CHANNEL RESTRICTIONS (DRAFT/LOA/BM/AIR DRAFT/ETC)
+
+3) NUMBER OF AVAILABLE BERTH FOR THIS CGO INCL NAME OF BERTH-
+
+4) BERTHING PROSPECT AND NORMAL BERTH CONGESTION -
+
+5) CGO MIN/MAX loading RATE PER GANG AND PER DAY -
+
+6) HOW MANY OF GANG WILL NORMALLY AND MAXIMUM BE ARRANGED FOR DISCHARGING-
+
+7) LOADING FACILITIES AND HOW TO LOAD =>  SHORE CRANE OR SHIP'S GEAR ??
+
+8) WORKING SHIFT WITH TIME=
+
+9) WEATHER CONDITION AND LOCAL/NATIONAL HOLIDAY=
+
+10) POSSIBILITY OF ENTRANCE/SAILING DURING NIGHT TIME AND HOLIDAY-
+
+11) EXTRA COST FOR DISCHARGING DURING NIGHT TIME AND HOLIDAY IF ANY -
+
+12) POSSIBILITY OF BUNKER SUPPLY AND PRICE IF POSSIBLE.
+
+13) ANY OTHER USEFUL INFORMATION FOR THIS BIZ.
+
+ 14) KINDLY SHARE THE PORT LINE UP
+
+
+
+
+
+
+
+
+
+Best Regards:
+
+
+
+
+
+
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email: chartering@varitasnavigation.com
+<mailto:chartering@varitasnavigation.com>
+
+Website:- www.varitasnavigation.com <http://www.varitasnavigation.com>
+
+
+

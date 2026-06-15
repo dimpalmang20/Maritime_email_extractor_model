@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "ROCKPHOS",
+    "cargo_type": "Dry Bulk",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "DAKAR, SENEGAL",
+    "discharge_port": "VIZAG, INDIA",
+    "laycan_start": "2026-03-01",
+    "laycan_end": "2026-03-05",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

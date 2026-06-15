@@ -1,0 +1,24 @@
+{
+  "email_id": 224,
+  "email_type": "tonnage",
+  "source": "Marcons",
+  "vessels": [
+    {
+      "vessel_name": "CS CRYSTAL",
+      "open_position": "Cotonou, West Africa",
+      "open_date": "2025-12-12/2025-12-28",
+      "built_year": 2010,
+      "flag": "Marshall Islands",
+      "class": "KR",
+      "dwt_mt": 30477,
+      "draft_m": 9.81,
+      "loa_m": 178.7,
+      "beam_m": 28.0,
+      "holds": 5,
+      "hatches": 5,
+      "grain_cbm": 40770,
+      "bale_cbm": 38731,
+      "cranes": "4x30 MT"
+    }
+  ]
+}

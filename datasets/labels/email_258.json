@@ -1,0 +1,29 @@
+{
+  "email_id": 258,
+  "email_type": "vessel_position",
+  "company": "Capital Shipbrokers",
+  "contact_person": "Sideris Fafalios",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "IC PROGRESS",
+      "vessel_type": "Bulk Carrier",
+      "dwt": 32500,
+      "built_year": 2011,
+      "flag": "Panama",
+      "class": "NKK",
+      "open_position": "San Nicolas, Argentina",
+      "open_date": "2025-11-17 to 2025-11-18",
+      "grain_capacity_cbm": 42149,
+      "bale_capacity_cbm": 40884.7,
+      "holds_hatches": "5/5",
+      "cranes": "4 x 30 MT",
+      "grabs": null,
+      "speed_ballast_knots": 11.5,
+      "speed_laden_knots": 11.5,
+      "cons_ballast_mt_day": 17.0,
+      "cons_laden_mt_day": 18.3
+    }
+  ]
+}

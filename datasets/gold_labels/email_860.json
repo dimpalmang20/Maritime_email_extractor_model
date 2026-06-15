@@ -1,0 +1,30 @@
+{
+   "text" : " \n \n \n \n \nBest Regards:\n \n\n \nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com>\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n \nFrom: postmaster@omsan.com.tr <postmaster@omsan.com.tr> \nSent: 26 November 2025 11:32\nTo: chartering@varitasnavigation.com\nSubject: Undeliverable: ACC VARITAS NAVIGATION\n \nAM2PEPF0001C709.mail.protection.outlook.com rejected your message to the\nfollowing email addresses:\n <mailto:chartering@omsanshipping.com> chartering@omsanshipping.com\nA communication failure occurred during the delivery of this message. Please\ntry resending the message later. If the problem continues, contact your\nemail admin.\nAM2PEPF0001C709.mail.protection.outlook.com gave this error:\nRecipient address rejected: Access denied. For more information see\nhttps://aka.ms/EXOSmtpErrors [AM2PEPF0001C709.eurprd05.prod.outlook.com\n2025-11-26T06:01:51.927Z 08DE29FBD56ACEA2] \n\n\n\n\n\n\nDiagnostic information for administrators:\nGenerating server: dc-srvexc1-lv.omsan.com.tr\nchartering@omsanshipping.com\nAM2PEPF0001C709.mail.protection.outlook.com\nRemote Server returned '550 5.4.1 Recipient address rejected: Access denied.\nFor more information see https://aka.ms/EXOSmtpErrors\n[AM2PEPF0001C709.eurprd05.prod.outlook.com 2025-11-26T06:01:51.927Z\n08DE29FBD56ACEA2]'\nOriginal message headers:\nReceived: from dc-srvexc1-lv.omsan.com.tr (172.16.1.7) by\n dc-srvexc1-lv.omsan.com.tr (172.16.1.7) with Microsoft SMTP Server\n (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id\n 15.2.1748.39; Wed, 26 Nov 2025 09:01:47 +0300\nReceived: from mail.indisol.com.tr (92.45.39.194) by\n dc-srvexc1-lv.omsan.com.tr (172.16.1.12) with Microsoft SMTP Server\n (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id\n 15.2.1748.39 via Frontend Transport; Wed, 26 Nov 2025 09:01:47 +0300\nAuthentication-Results: mail.indisol.com.tr;\n        spf=pass (indisol.com.tr: domain of chartering@varitasnavigation.com\ndesignates 94.136.184.46 as permitted sender)\nsmtp.mailfrom=chartering@varitasnavigation.com;\n        dkim=neutral (Could not retrieve key)\nheader.i=@varitasnavigation.com;\nReceived: from vmi2441136.contaboserver.net (vmi2441136.contaboserver.net\n[94.136.184.46])\n        by mail.indisol.com.tr  with ESMTPS id 5AQ61m3U012753-5AQ61m3W012753\n        (version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NO)\n        for <chartering@omsanshipping.com>; Wed, 26 Nov 2025 09:01:50 +0300\nReceived: from LAPTOPP6RKI9ML (unknown [115.69.252.202])\n        by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id\n6BE576A121A;\n        Wed, 26 Nov 2025 07:01:27 +0100 (CET)\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=varitasnavigation.com; s=default; t=1764136897;\n        bh=A4z9TmgNNC7zwCxmFIvK91MimjWthRF3t0xXuZR/xP4=; h=From:To:Subject;\n  b=KUe3mBjHKN8MOzu8q4/UyP6rufr+f0IkISWuIId2z+dAsbGWgG7rTHyU9ioKMxHZo\n         dCqVn3n1yAEDNkNdabcCwhdXz7mJE2YzatiqSnoNFDUASebXjw7cxDebtd4LwSMmDj\n         UK/V5yVEeHjga5qHCdMlgEwn/M6rWgREfPUDvqPZpPuHujtSwRMTtl9oXjYOYXyFyr\n         avtcwBK32sNmU/bdy6rZAsclck8UR1VTTFpz4Ni/D6G5mujwRx1MH0xwFlpSQsfVzy\n         RPP3B77LWIjHcXzQj4MkaJL18tUkJKHWW8/e8zkrxYsdJp5+n0tPvdZhPJtHywlSIl\n         aKsGhEJfQ4Zqg==\nAuthentication-Results: vmi2441136.contaboserver.net;\n        spf=pass (sender IP is 115.69.252.202)\nsmtp.mailfrom=chartering@varitasnavigation.com smtp.helo=LAPTOPP6RKI9ML\nReceived-SPF: pass (vmi2441136.contaboserver.net: connection is\nauthenticated)\nFrom: <chartering@varitasnavigation.com>\nTo: 'Varitas Navigation' <chartering@varitasnavigation.com>\nCC: 'Varitas Navigation' <chartering@varitasnavigation.com>\nSubject: ACC VARITAS NAVIGATION\nDate: Wed, 26 Nov 2025 11:31:24 +0530\nMessage-ID: <068f01dc5e9a$1b2a16f0$517e44d0$@varitasnavigation.com>\nMIME-Version: 1.0\nContent-Type: multipart/related;\n        boundary=\"----=_NextPart_000_0690_01DC5EC8.34E3D990\"\nX-Mailer: Microsoft Outlook 16.0\nThread-Index: AdxemNNPPfbWgNO7RBeEanDSRleLNQ==\nContent-Language: en-in\nX-FE-Attachment-Name: image001.jpg\nX-FEAS-BEC-Info:\nWlpIGw0aAQkEARIJHAEHBlJSCRoLAAEeDUhZUEhYSFhIWUhZXkguLT4lOyQ8JVpbWFhYXltZSFta\nSAsACRocDRoBBg8oHgkaARwJGwYJHgEPCRwBBwZGCwcFSFhIWlBICwAJGhwNGgEGDygHBRsJBhsA\nARgYAQYPRgsHBUhZSFlIWVtIUVxGWVteRllQXEZcXkheSFhIWEhZSFhIWEhYSFpQSAsACRocDRoB\nBg8oBwUbCQYbAAEYGAEGD0YLBwVIWQ==\nX-FEAS-DKIM: Invalid Public Key\nX-FEAS-Client-IP: 94.136.184.46\nX-FE-Last-Public-Client-IP: 94.136.184.46\nX-FE-Envelope-From: chartering@varitasnavigation.com\nX-FE-Policy-ID: 0:15:3:omsanshipping.com\nReturn-Path: chartering@varitasnavigation.com\nX-OrganizationHeadersPreserved: dc-srvexc1-lv.omsan.com.tr\nX-CrossPremisesHeadersFilteredByDsnGenerator: dc-srvexc1-lv.omsan.com.tr\nDear All,\n\n \n\nGood day.\n\n \n\n// FULLY FIRM // CAN FIX WITH SHORT SUBS.\n\n \n\nACC VARITAS NAVIGATION\n\n3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.\n\nBag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. \n\nLoad port: Tianjin, China\n\nDischarge port: Shuaiba, Kuwait.\n\nLoad rate: CQD \n\nDischarge: Liner out.\n\nLaycan 15-20th December 2025.\n\nAs part cargo.\n\n2.5% Addcom\n\n \n\n \n\n \n\n \n\nBest Regards:\n\n \n\n\n\n \n\nMR. DEEPESH MAJIGAMKAR\n\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\n\nTeams/Skype:deepeshmajigamkar@hotmail.com\n\nEmail:  <mailto:chartering@varitasnavigation.com>\nchartering@varitasnavigation.com\n\nWebsite:- www.varitasnavigation.com\n\n \n\n",
+   "entities" : {
+      "CARGO" : [
+         "SEMICOKE"
+      ],
+      "LOAD_PORT" : [
+         "Tianjin, China"
+      ],
+      "VESSEL" : null,
+      "DWT" : null,
+      "VESSEL_TYPE" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : null,
+      "DISCHARGE_PORT" : [
+         "Shuaiba, Kuwait"
+      ],
+      "FREIGHT_RATE" : null,
+      "CHARTERER" : [
+         "VARITAS NAVIGATION"
+      ],
+      "PORT" : null,
+      "OPEN_DATE" : null,
+      "IMO" : null,
+      "CONTACT" : null,
+      "LAYCAN" : [
+         "15-20th December 2025"
+      ]
+   }
+}

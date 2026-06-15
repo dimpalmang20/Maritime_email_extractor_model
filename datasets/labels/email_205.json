@@ -1,0 +1,23 @@
+{
+  "email_id": 205,
+  "type": "tonnage",
+  "source_email": 205,
+  "vessels": [
+    {
+      "name": "MV JIN YUAN MEN",
+      "dwt": 63758.4,
+      "built": 2025,
+      "flag": "Liberia",
+      "class": "LR",
+      "open_position": "Chittagong",
+      "open_date": "2025-11-21",
+      "holds_hatches": "5/5",
+      "gear": "4 x 36 MT Cranes",
+      "grabs": "4 x 6-12 CBM",
+      "gross_tonnage": 35748,
+      "net_tonnage": 21192,
+      "grain_capacity_cbm": 71634.12,
+      "bale_capacity_cbm": 68162.25
+    }
+  ]
+}

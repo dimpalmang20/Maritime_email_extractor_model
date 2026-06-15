@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ACAJUTLA,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.5
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "KOREA",
+    "imo": "",
+    "grt": "",
+    "nrt": "22866",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO GRABS ONBOARD\n\nTANKTOP STRENGTH",
+      "NO ADVERSE CURRENTS",
+      "NO CEMENT HOLES"
+    ],
+    "confidence_score": 0.67
+  }
+]

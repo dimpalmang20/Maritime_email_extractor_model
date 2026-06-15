@@ -1,0 +1,91 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LAN BAO HAI DWT 39780.9 MT - OPEN nouakchott O",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "39780",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "nouakchott",
+    "open_date": "2026-05-12",
+    "close_date": "2026-05-13",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "QI XIAN LING",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "22494",
+    "nrt": "117675",
+    "loa": "179.88m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO CIRCUMSTANCES ALLOWED"
+    ],
+    "confidence_score": 0.64
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LAN BAO HAI",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2015",
+    "flag": "SDBC",
+    "imo": "",
+    "grt": "",
+    "nrt": "24748",
+    "loa": "",
+    "beam": "179.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO CIRCUMSTANCES ALLOWED"
+    ],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JIAN GUO HAI",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "38766",
+    "built_year": "2016",
+    "flag": "SDBC",
+    "imo": "9751286",
+    "grt": "",
+    "nrt": "25622",
+    "loa": "",
+    "beam": "179.95m",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO CIRCUMSTANCES ALLOWED"
+    ],
+    "confidence_score": 0.96
+  }
+]

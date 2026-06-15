@@ -1,0 +1,29 @@
+{
+  "email_id": 119,
+  "email_type": "open_vessels",
+  "source_company": "Marcons Group",
+  "vessels": [
+    {
+      "vessel_name": "AQUAVITA GLORY",
+      "vessel_type": "Bulk Carrier",
+      "built_year": 2020,
+      "open_port": "Hong Kong",
+      "open_country": "China",
+      "open_date": "2025-11-12/15",
+      "dwt": 81668,
+      "draft_m": 14.429,
+      "tpc": 70.64,
+      "holds": 7,
+      "hatches": 7,
+      "cargo_capacity_cbm": 97246.7,
+      "loa_m": 228.99,
+      "lbp_m": 225.1,
+      "beam_m": 32.26,
+      "depth_m": 20.0,
+      "scrubber_fitted": true,
+      "ghg_rating": "B+",
+      "neo_panama_fitted": true,
+      "route_suitability": "RS 4/5"
+    }
+  ]
+}

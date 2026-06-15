@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58215",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "FUJIAN,",
+    "open_date": "2026-12-07",
+    "close_date": "2026-12-09",
+    "matching_region": "Russia",
+    "restrictions": [
+      "NO AUSTRALIA"
+    ],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ELEEN EVA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58215",
+    "built_year": "2012",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "",
+    "nrt": "32714",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

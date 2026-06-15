@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEABONI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "49986",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "35884",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.99m",
+    "grain_capacity": "",
+    "open_port": "SANTOS,",
+    "open_date": "2027-01-22",
+    "close_date": "2027-01-25",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

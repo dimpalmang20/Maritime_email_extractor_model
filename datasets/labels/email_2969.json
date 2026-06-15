@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Coal",
+    "cargo_type": "Dry Bulk",
+    "dwt": "55000-63000",
+    "del_port": "NCHINA RANGE",
+    "redel_port": "DLOSP 1SP SE ASIA",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "30 days",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South Korea",
+    "restrictions": [
+      "NO STANCHION), LOA"
+    ],
+    "confidence_score": 0.86
+  }
+]

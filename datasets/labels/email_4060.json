@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MV. T CLEVER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2014",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "22871",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "JACKSONVILLE",
+    "open_date": "2026-02-17",
+    "close_date": "2026-02-20",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO ADVERSE CURRENT",
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.8
+  }
+]

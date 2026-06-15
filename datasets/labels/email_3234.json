@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Dahej 10/11 Jan trip via South Africa",
+    "redel_port": "Far East $13,000 - cnr",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "no fixtures were reported,"
+    ],
+    "confidence_score": 0.82
+  }
+]

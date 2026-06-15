@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2026-01-13",
+    "laycan_end": "2026-01-18",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SWL FOR HOOK OPERATION MACGREGOR ELECTRO -HYDRAULIC DRIVEN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2014",
+    "flag": "THE",
+    "imo": "9624500",
+    "grt": "",
+    "nrt": "33042",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.83
+  }
+]

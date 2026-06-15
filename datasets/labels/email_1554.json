@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "UNITY MELODY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55705",
+    "built_year": "2012",
+    "flag": "BAHAMAS",
+    "imo": "",
+    "grt": "31532",
+    "nrt": "",
+    "loa": "190m",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "WILMINGTON,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO EXTRAPOLATIONS TO BE MADE"
+    ],
+    "confidence_score": 0.91
+  }
+]

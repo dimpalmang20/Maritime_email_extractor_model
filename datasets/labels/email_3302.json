@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52491",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "TRINCOMAEE,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Blue Voyage",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52491",
+    "built_year": "2004",
+    "flag": "Bangladesh",
+    "imo": "",
+    "grt": "18207",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "677563",
+    "open_port": "TRINCOMAEE,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "No loading on Hatch Cover",
+      "no negative\n\ninfluence of swells and not exceeding Beaufort\n\nscale force"
+    ],
+    "confidence_score": 0.91
+  }
+]

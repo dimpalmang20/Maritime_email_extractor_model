@@ -1,0 +1,50 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: chartering@afeashipbrokers.gr <chartering@afeashipbrokers.gr>\nSent: 13 November 2025 11:32\nSubject: OPEN KMX - NEW BUILDING 82/25 OPEN NCHINA 75 NOV/ 10 DEC\n\nKMX/KMAX-PMX- NEW BUILDING \n  \nM/V MYTIKAS abt 82000 dwt, SCRUBBER , blt 11/25, HENGLI SHIPBUILDING CO., LTD \n \nOPEN NCHINA DALIAN  27 NOV - 10  DEC \n  \ncollecting rated biz only / can consider period",
+  "entities": {
+    "VESSEL": [
+      "MYTIKAS"
+    ],
+    "VESSEL_TYPE": [
+      "KMX",
+      "KMAX",
+      "PMX",
+      "NEW BUILDING"
+    ],
+    "DWT": [
+      "82/25",
+      "82000 dwt"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "NCHINA",
+      "DALIAN"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "AFEA",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "27 NOV - 10  DEC",
+      "75 NOV/ 10 DEC"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "period"
+    ],
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@afeashipbrokers.gr",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

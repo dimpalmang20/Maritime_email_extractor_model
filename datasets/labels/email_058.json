@@ -1,0 +1,18 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "HONGLI 8",
+  "vessel_type": "SELF TRIMMING BULK CARRIER",
+  "dwt": 35050.3,
+  "built_year": 2012,
+  "flag": "PANAMA",
+  "grt": 22478,
+  "nrt": 11772,
+  "loa": 179.88,
+  "beam": 28.8,
+  "grain_capacity": 45646.7,
+  "bale_capacity": 43364.36,
+  "open_port": "GEORGETOWN, GUYANA",
+  "open_date": "MID DEC 2025",
+  "cranes": "4 X 30MT",
+  "confidence_score": 0.99
+}

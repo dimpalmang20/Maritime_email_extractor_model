@@ -1,0 +1,23 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "XIN HAI TONG 29",
+  "vessel_type": "GEARED SINGLE DECK BULK CARRIER",
+  "dwt": 57297.05,
+  "built_year": 2011,
+  "flag": "PANAMA",
+  "grt": 33226,
+  "nrt": 19294,
+  "loa": 190.0,
+  "beam": 32.26,
+  "grain_capacity": 71987.9,
+  "open_port": "MOMBASA",
+  "open_date": "2025-11-17",
+  "close_date": "2025-11-21",
+  "cranes": "4 X 30MT",
+  "grabs": "4 X 12CBM",
+  "holds": 5,
+  "hatches": 5,
+  "bod_vlsfo": "640-740",
+  "bod_lsmgo": "30-100",
+  "confidence_score": 0.99
+}

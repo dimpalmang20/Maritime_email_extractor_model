@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "JAN - GRAIN CLEAN",
+    "laycan_start": "2025-12-22",
+    "laycan_end": "2025-12-27",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.72
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BERGE SNOWDON",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38976",
+    "built_year": "",
+    "flag": "",
+    "imo": "9738882",
+    "grt": "23281",
+    "nrt": "12100",
+    "loa": "179.97m",
+    "beam": "29.8m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

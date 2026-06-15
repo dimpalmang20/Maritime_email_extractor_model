@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "KATHY OCEAN",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "9272785",
+    "grt": "30174",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "677563",
+    "open_port": "Mumbai, India",
+    "open_date": "2026-12-08",
+    "close_date": "2026-12-14",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "EXCL FRESH WATER\n\nLOA",
+      "NO CARGO TO BE LOADED ON CROSS DECKS",
+      "EXCL CORRUGATIONS"
+    ],
+    "confidence_score": 0.94
+  }
+]

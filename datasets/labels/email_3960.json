@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "54296",
+    "built_year": "2008",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ZHOUSHAN,",
+    "open_date": "2027-01-26",
+    "close_date": "2027-01-29",
+    "matching_region": "China",
+    "restrictions": [
+      "no adverse current",
+      "no negative influence of swell",
+      "No mixing of bunkers is allowed and bunker supply is allowed up to"
+    ],
+    "confidence_score": 0.77
+  }
+]

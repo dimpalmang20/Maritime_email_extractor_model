@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO ABT 150-200MT.",
+    "vessel_type": "MR Tanker",
+    "dwt": "56582",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "OTRANTO,",
+    "open_date": "2025-12-05",
+    "close_date": "2025-12-15",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "XIN HAI TONG 30",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2013",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "722415",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [
+      "NO MDO\n\nLADEN",
+      "NO MDO\n\nAT PORT",
+      "NO NEGATIVE SWELL NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.62
+  }
+]

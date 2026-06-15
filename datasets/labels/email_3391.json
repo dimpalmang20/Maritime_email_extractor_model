@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "LIGHTHOUSE NAVIGATION TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "34000",
+    "del_port": "TM ADELAIDE",
+    "redel_port": "",
+    "laycan_start": "2026-01-13",
+    "laycan_end": "2026-01-18",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

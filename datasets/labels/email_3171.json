@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO GEAR WORKING",
+    "vessel_type": "Container Ship",
+    "dwt": "40000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "25171",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "SEMARANG,",
+    "open_date": "2026-01-20",
+    "close_date": "2026-01-25",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.9
+  }
+]

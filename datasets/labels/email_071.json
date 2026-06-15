@@ -1,0 +1,26 @@
+{
+  "email_id": 71,
+  "email_type": "open_vessel",
+  "vessel_name": "DA YANG BAI HE",
+  "dwt": 56444,
+  "flag": "China",
+  "built_year": 2012,
+  "class": "CCS",
+  "open_port": "Nanjing",
+  "open_country": "China",
+  "open_date_from": "2025-12-06",
+  "open_date_to": "2025-12-10",
+  "draft_m": 12.8,
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 71634.1,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+  "grabs": {
+    "count": 4,
+    "capacity_cbm": "8-12"
+  },
+  "status": "Open"
+}

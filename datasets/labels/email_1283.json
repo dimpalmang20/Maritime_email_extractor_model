@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEA RUBY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2000",
+    "flag": "TWEEN DECKER",
+    "imo": "",
+    "grt": "",
+    "nrt": "7382",
+    "loa": "108m",
+    "beam": "20m",
+    "grain_capacity": "",
+    "open_port": "BLACK",
+    "open_date": "2025-12-01",
+    "close_date": "2025-12-05",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.83
+  }
+]

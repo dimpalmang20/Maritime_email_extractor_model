@@ -1,0 +1,29 @@
+{
+  "email_id": 112,
+  "email_type": "open_vessels",
+  "source_company": "Interbulk Shipbrokers",
+  "vessels": [
+    {
+      "vessel_name": "KASHKAR",
+      "vessel_type": "Bulk Carrier",
+      "flag": "Bahamas",
+      "class": "DNV",
+      "built_year": 2005,
+      "open_region": "Red Sea",
+      "open_date": "2025-11-12/15",
+      "dwt": 38889,
+      "draft_m": 10.58,
+      "loa_m": 189.99,
+      "beam_m": 28.5,
+      "depth_m": 15.1,
+      "grt": 24109,
+      "nrt": 13255,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbm": 48933.6,
+      "bale_capacity_cbm": 47484.4,
+      "cranes": "4x30MT",
+      "grab_fitted": true
+    }
+  ]
+}

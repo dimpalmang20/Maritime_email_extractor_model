@@ -1,0 +1,21 @@
+{
+  "email_id": 143,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV PROFOUND STAR",
+      "dwt": 24262,
+      "open_position": "Klang, Malaysia",
+      "open_dates": "2025-11-25 to 2025-11-30",
+      "remarks": "Trade within Red Sea / East Africa / Persian Gulf / Far East range"
+    },
+    {
+      "name": "MV HONGLI 8",
+      "dwt": 35050,
+      "open_position": "Georgetown, Guyana",
+      "open_dates": "Mid December 2025",
+      "remarks": "Worldwide trading"
+    }
+  ],
+  "source_email": 143
+}

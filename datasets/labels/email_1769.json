@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "CGO& QUANTITY: 30,000MT (//",
+    "cargo_type": "Dry Bulk",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2025-10-19",
+    "laycan_end": "2025-10-23",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.8
+  }
+]

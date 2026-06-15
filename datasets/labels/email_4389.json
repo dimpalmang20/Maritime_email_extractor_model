@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "OO OF FERTILIZER",
+    "cargo_type": "Dry Bulk",
+    "quantity": "7000-7700",
+    "quantity_unit": "MT",
+    "load_port": "DAMIETTA , EGYPT",
+    "discharge_port": "BAYONNE , FRANCE",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "1.25%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

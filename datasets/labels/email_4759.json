@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN SAPPHIRE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KUNSAN,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN SAPPHIRE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "KOREA",
+    "imo": "9860386",
+    "grt": "",
+    "nrt": "34876",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT AND SWELL"
+    ],
+    "confidence_score": 0.69
+  }
+]

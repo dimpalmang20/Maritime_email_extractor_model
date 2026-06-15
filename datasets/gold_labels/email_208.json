@@ -1,0 +1,53 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 136\nemail_type: open_vessels\nsource_company: Indo Sino Chartering Agency Services\nvessels:\n- vessel_name: HAINAM 87\n  dwt: 33751\n  open_port: Vinh Tan\n  open_country: Vietnam\n  open_date: '2025-12-01'\n  vessel_type: Box Hold\n  built_year: 2006\n  built_country: Japan\n  gross_tonnage: 21100\n  net_tonnage: 10772\n  flag: Vietnam\n  class: VR\n  draft_m: 9.826\n  loa_m: 176.83\n  beam_m: 28.8\n  holds: 5\n  hatches: 5\n  grain_capacity_cbm: 42166\n  cranes: 4x25T\n  trading_restrictions: Prefer to WCI-PG range",
+  "entities": {
+    "VESSEL": [
+      "HAINAM 87"
+    ],
+    "VESSEL_TYPE": [
+      "BOX HOLD"
+    ],
+    "DWT": [
+      "33K",
+      "33751MT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "VINH TAN",
+      "VIETNAM",
+      "JAPAN"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Indo Sino Chartering Agency Services",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "1ST DEC"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "33K"
+    ],
+    "CONTACT": [
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com",
+      "chartering@rawatindosinogroup.co.in",
+      "rawatindosinogroup@gmail.com",
+      "indosinogroup@gmail.com",
+      "chartering@indosinogroup.com"
+    ],
+    "RESTRICTIONS": [
+      "LIMITED CIRCULATION",
+      "PREFER TO WCI-PG RANGE"
+    ]
+  }
+}

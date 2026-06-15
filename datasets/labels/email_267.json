@@ -1,0 +1,56 @@
+{
+  "email_id": 267,
+  "email_type": "vessel_position",
+  "company": "Indus Bulk Shipping",
+  "contact_person": "Farhan Ali",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "TULPAR",
+      "vessel_type": "Supramax Bulk Carrier",
+      "built_year": 2003,
+      "flag": "Marshall Islands",
+      "class": "ABS",
+      "pandi": "Skuld",
+      "dwt": 34790,
+      "summer_draft_m": 10.65,
+      "tpc": 44.3,
+      "loa_m": 179.28,
+      "beam_m": 28.0,
+      "depth_m": 15.22,
+      "gross_tonnage": 22072,
+      "net_tonnage": 11132,
+      "holds_hatches": "5/5",
+      "grain_capacity_cbm": 44020,
+      "bale_capacity_cbm": 42721,
+      "cranes": "4 x 30 MT",
+      "grabs": null,
+      "open_position": "Caribs",
+      "open_date": "2025-11-24 to 2025-11-26",
+      "features": [
+        "Double Skin Bulk Carrier",
+        "Hydraulic End Folding Hatch Covers",
+        "CO2 Fitted",
+        "Australian Ladder Fitted",
+        "Electric Ventilation"
+      ],
+      "speed_consumption": {
+        "ballast": {
+          "speed_knots": 12.5,
+          "ifo_380cst_mt_day": 19.0
+        },
+        "laden": {
+          "speed_knots": 12.0,
+          "ifo_380cst_mt_day": 20.0
+        },
+        "port_idle": {
+          "mdo_mt_day": 2.5
+        },
+        "port_working": {
+          "mdo_mt_day": 5.0
+        }
+      }
+    }
+  ]
+}

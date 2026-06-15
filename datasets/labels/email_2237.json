@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DAI AN OCEAN SHIPPING REQUIREMENTS",
+    "cargo": "TCT WITH",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-69999",
+    "del_port": "TONGHAE",
+    "redel_port": "",
+    "laycan_start": "2027-01-02",
+    "laycan_end": "2027-01-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AFRICAN OWL",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "34382",
+    "built_year": "2016",
+    "flag": "BAHAMAS",
+    "imo": "",
+    "grt": "21521",
+    "nrt": "",
+    "loa": "179.96m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "Zhoushan, China",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.89
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AFRICAN PETREL",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "13500",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "25330",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.75
+  }
+]

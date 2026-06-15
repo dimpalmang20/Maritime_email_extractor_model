@@ -1,0 +1,14 @@
+{
+  "email_id": 114,
+  "email_type": "open_vessels",
+  "source_company": "Interbulk Shipbrokers",
+  "duplicate_of_email": 113,
+  "vessels": [
+    {
+      "vessel_name": "CH CLARE",
+      "open_port": "Mundra",
+      "open_date": "2025-11-20",
+      "dwt": 33144
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "60405",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO PERIOD"
+    ],
+    "confidence_score": 0.62
+  }
+]

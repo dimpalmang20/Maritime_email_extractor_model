@@ -1,0 +1,21 @@
+{
+  "email_id": 131,
+  "type": "cargo",
+  "account": "Vedanta Limited or Nominee",
+  "cargo": "Iron Ore",
+  "quantity_mt": "55000 +/-10% MOLOO",
+  "load_port": "Mormugao, India",
+  "discharge_port": "China CHOPT",
+  "laycan": {
+    "from": "2025-11-12",
+    "to": "2025-11-15"
+  },
+  "load_rate": "20000 tpwwdshinc",
+  "discharge_rate": "15000 tpwwdshinc",
+  "vessel_requirements": {
+    "type": "Geared",
+    "max_age_years": 15
+  },
+  "brokerage": "1.25% addcom + 1.25% brokerage",
+  "source_email": 131
+}

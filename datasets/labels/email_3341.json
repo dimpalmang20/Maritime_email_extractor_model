@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DRYLOG",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-79999",
+    "del_port": "SWP - 27/30 JAN",
+    "redel_port": "EGYPT",
+    "laycan_start": "2026-01-12",
+    "laycan_end": "2026-01-17",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "US East Coast",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

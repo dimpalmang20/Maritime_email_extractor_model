@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CENTURION MEVIA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "182.9m",
+    "beam": "31.6m",
+    "grain_capacity": "",
+    "open_port": "CEBU",
+    "open_date": "2027-01-02",
+    "close_date": "2027-01-07",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.88
+  },
+  {
+    "email_type": "VC",
+    "cargo": "Nicholous Ngai Energy",
+    "cargo_type": "Dry Bulk",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.55
+  }
+]

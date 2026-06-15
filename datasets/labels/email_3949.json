@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DWT ON 9.819M SSW",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "17018",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Surabaya,",
+    "open_date": "2026-02-01",
+    "close_date": "2026-02-06",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "no call Russia",
+      "No Co",
+      "NO STANCHION"
+    ],
+    "confidence_score": 0.75
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "INFINITY K OPEN VIZAG 2-4 DEC",
+    "vessel_type": "Ultramax Bulk Carrier",
+    "dwt": "",
+    "built_year": "2008",
+    "flag": "THE VESSEL SAILS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Visakhapatnam, India",
+    "open_date": "2026-12-02",
+    "close_date": "2026-12-04",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO CURRENT FACTOR ON QUALIFIED GOOD WEATHER\n\nDAYS CAN BE APPLIED FOR FAVOURABLE CURRENTS",
+      "NO SPEED AND CONSUMPTION WARRANTY APPLIES TO WEATHER CONDITIONS EXCEEDING\n\nGOOD WEATHER CONDITIONS AND NO EXTRAPOLATIONS SHALL BE MADE FOR WEATHER\n\nCONDITIONS OTHER THAN GOOD WEATHER CONDITIONS",
+      "NO SPEED AND CONSUMPTION\n\nWARRANTY APPLIES WHEN BURNING RMF"
+    ],
+    "confidence_score": 0.8
+  }
+]

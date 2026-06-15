@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-69999",
+    "del_port": "TO MAKE 1 SP S.KOREA ATDNSHINC",
+    "redel_port": "",
+    "laycan_start": "2026-04-19",
+    "laycan_end": "2026-04-21",
+    "duration": "20-25 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.93
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PANOCEAN CO., LTD.",
+    "cargo": "ORE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "80000-99999",
+    "del_port": "APS PORT ELIZABETH, S.AFR",
+    "redel_port": "",
+    "laycan_start": "2026-04-27",
+    "laycan_end": "2026-04-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

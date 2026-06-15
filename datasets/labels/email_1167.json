@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JIN YUAN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55496",
+    "built_year": "2007",
+    "flag": "HKG CLASS ABS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "WEDA",
+    "open_date": "2026-11-28",
+    "close_date": "2026-11-29",
+    "matching_region": "Ukraine",
+    "restrictions": [
+      "NO RUSSIA"
+    ],
+    "confidence_score": 0.92
+  }
+]

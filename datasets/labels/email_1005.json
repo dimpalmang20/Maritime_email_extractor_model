@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "15000",
+    "quantity_unit": "MT",
+    "load_port": "Khalifa",
+    "discharge_port": "Option 1: 1st Vancouver US - 2nd Ensenada - 3rd Brownsville -->",
+    "laycan_start": "2025-12-05",
+    "laycan_end": "2025-12-09",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "1.25%",
+    "matching_region": "Baltic Sea",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

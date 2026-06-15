@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "that you tried to reach does not exist. Please try 550-5.1.1",
+    "cargo": "Domain",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "System <>",
+    "redel_port": "",
+    "laycan_start": "2025-12-15",
+    "laycan_end": "2025-12-20",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Baltic Sea",
+    "restrictions": [
+      "no data record of requested type",
+      "No\n\nSuch",
+      "NO type=A: Host not found",
+      "no data record of requested",
+      "no data record of requested"
+    ],
+    "confidence_score": 0.96
+  }
+]

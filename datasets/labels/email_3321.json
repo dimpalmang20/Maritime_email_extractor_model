@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Urea",
+    "cargo_type": "Dry Bulk",
+    "quantity": "64000",
+    "quantity_unit": "MT",
+    "load_port": "ASSALUYEH , IRAN",
+    "discharge_port": "TURKEY MED A/O MARMARA",
+    "laycan_start": "2026-01-22",
+    "laycan_end": "2026-01-25",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

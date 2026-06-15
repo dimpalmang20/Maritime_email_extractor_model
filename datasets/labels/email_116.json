@@ -1,0 +1,26 @@
+{
+  "email_id": 116,
+  "email_type": "open_vessels",
+  "source_company": "DBC Oceanic",
+  "vessels": [
+    {
+      "vessel_name": "AMIS STAR",
+      "vessel_type": "Bulk Carrier",
+      "flag": "Liberia",
+      "class": "ABS",
+      "built_year": 2019,
+      "open_port": "Mumbai",
+      "open_date": "2025-11-13/14",
+      "dwt": 61123,
+      "draft_m": 13.03,
+      "grt": 34657,
+      "nrt": 20175,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbm": 77539,
+      "cranes": "4x30.5MT",
+      "grabs": "4x12CBM",
+      "scrubber_fitted": true
+    }
+  ]
+}

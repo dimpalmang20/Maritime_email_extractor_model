@@ -1,0 +1,150 @@
+ 
+ 
+ 
+ 
+ 
+Best Regards:
+ 
+
+ 
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+ 
+From: postmaster@columbia-d.net <postmaster@columbia-d.net> 
+Sent: 24 November 2025 12:20
+To: chartering@varitasnavigation.com
+Subject: Undeliverable: ACC VARITAS NAVIGATION
+ 
+Delivery has failed to these recipients or groups:
+ <mailto:chartering@hansehamburg.de> chartering@hansehamburg.de
+The email address you entered couldn't be found. Please check the
+recipient's email address and try to resend the message. If the problem
+continues, please contact your email admin.
+
+
+
+
+
+
+Diagnostic information for administrators:
+Generating server: CSMMBX02.columbia.net
+chartering@hansehamburg.de
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient
+not found by SMTP address lookup'
+Original message headers:
+Received: from CSMMBX01.columbia.net (192.168.100.68) by
+CSMMBX02.columbia.net
+ (192.168.100.69) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.58; Mon, 24 Nov
+ 2025 07:49:57 +0100
+Received: from colgfi01.columbia.net (192.168.100.43) by
+CSMMBX01.columbia.net
+ (192.168.100.68) with Microsoft SMTP Server id 15.1.2507.58 via Frontend
+ Transport; Mon, 24 Nov 2025 07:49:57 +0100
+Received: from mail.columbia-d.net ([192.168.100.44]) by
+colgfi01.columbia.net with Microsoft SMTPSVC(8.0.9200.16384);
+         Mon, 24 Nov 2025 07:49:57 +0100
+Received: from 94.136.184.46 by mail.columbia-d.net via connector SMTP
+Inbound
+ from external (Tls12, Aes256, Sha384, DiffieHellmanEllipticKey384); Mon, 24
+ Nov 2025 06:49:57 GMT
+X-NoSpamProxy-Tests: Word filter: 0; Content filtering: Pass
+X-NoSpamProxy-Rating:
+X-NoSpamProxy-TrustedMail: no
+X-NoSpamProxy-CYRENID:
+X-NoSpamProxy-Scl: 0.00
+X-NetatworkMailGateway-Sender: chartering@varitasnavigation.com
+X-NoSpamProxy-Rule: Block emails by keyword queries_YD
+X-NoSpamProxy-Gateway: 94.136.184.46:41373
+X-NoSpamProxy-ID: e8af17a9-ee27-4bbe-9778-5d1fbef71588
+Received: from LAPTOPP6RKI9ML (unknown [103.39.29.144])
+        by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id
+239BB6A08D2;
+        Mon, 24 Nov 2025 07:49:44 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=varitasnavigation.com; s=default; t=1763966993;
+        bh=/+A5b9HfjI/OQjTL52MXb5cJ2pOm/sTTedHRBJa9+NE=; h=From:Subject;
+  b=AZfrrD4a7OadsEmSHdEMdjEn/zBhY4mXPwrxbMUwmMTlv5yps7fOJbvXncmOMQCZb
+         WG/oZQ1Q+cHvFRNxiYJ4cSz3OFztin7QcM2l2ELx5Sl99lGFI/vd2WL2jJGqWr4iqi
+         rNVmtgIiFL1d9BesaiGgAvIBIIHEwpCTzMiJGfEyY9JagA5l1/M9Y+t9F0TTdZ+gb8
+         fPVYj8oVPMB3vDRWQZPhbiP1Ycz8Nq7PixNwpYa+iHu674wOfFQjv9qmbw+NdJYURX
+         fJgHVaI0yCq5Ai8C0uCOdfq9QDkC0hncx6cNQAvP/oaL7pQsPfF6hcMnuNvFFY/2nh
+         FOkI/Fe6ItwJA==
+Authentication-Results: vmi2441136.contaboserver.net;
+        spf=pass (sender IP is 103.39.29.144)
+smtp.mailfrom=chartering@varitasnavigation.com smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is
+authenticated)
+From: <chartering@varitasnavigation.com>
+CC: 'Varitas Navigation' <chartering@varitasnavigation.com>
+Subject: ACC VARITAS NAVIGATION
+Date: Mon, 24 Nov 2025 12:19:41 +0530
+Message-ID: <2c3a01dc5d0e$85775d70$90661850$@varitasnavigation.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+        boundary="----=_NextPart_000_2C3B_01DC5D3C.9F300EA0"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdxdDnI5G6ZaX680TpmREhqPOm27fw==
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+X-OriginalArrivalTime: 24 Nov 2025 06:49:57.0822 (UTC)
+FILETIME=[8C4045E0:01DC5D0E]
+Dear All,
+
+ 
+
+Good day.
+
+ 
+
+// FULLY FIRM // 
+
+ 
+
+ACC VARITAS NAVIGATION
+
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. 
+
+Load port: Tianjin, China
+
+Discharge port: Shuaiba, Kuwait.
+
+Load rate: CQD 
+
+Discharge: Liner out.
+
+Laycan 15-20th December 2025.
+
+As part cargo.
+
+2.5% Addcom
+
+ 
+
+Best Regards:
+
+ 
+
+
+
+ 
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+
+Website:- www.varitasnavigation.com
+
+ 
+

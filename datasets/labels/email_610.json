@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BAO SHINE",
+    "vessel_type": "MR Tanker",
+    "dwt": "32023",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MGO DMA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32203",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "9608702",
+    "grt": "",
+    "nrt": "17495",
+    "loa": "179.9m",
+    "beam": "28.4m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO GRABS\n\nFLAG PANAMA",
+      "NO NEGATIVE INFLUENCE BY SWELL AND NO\n\nADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.89
+  }
+]

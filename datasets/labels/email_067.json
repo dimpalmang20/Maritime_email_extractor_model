@@ -1,0 +1,27 @@
+{
+  "email_type": "CARGO_ORDER",
+  "account": "SAIL",
+  "cargo": "COKING COAL",
+  "quantity_mt": 75000,
+  "quantity_tolerance": "+10/-5%",
+  "laycan_start": "2025-12-21",
+  "laycan_end": "2025-12-30",
+  "load_port": [
+    "NEWPORT NEWS, VIRGINIA, USA",
+    "NORFOLK, USA"
+  ],
+  "discharge_ports": [
+    "VIZAG",
+    "GANGAVARAM",
+    "PARADIP",
+    "DHAMRA",
+    "GOPALPUR",
+    "SANDHEADS",
+    "SAGAR",
+    "HALDIA"
+  ],
+  "load_rate": "40000 MT PWWD SASHEX UU",
+  "commission": "2.50% + 1.25%",
+  "demurrage_usd_per_day": 23300,
+  "confidence_score": 0.99
+}

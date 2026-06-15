@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "32106",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "DAKAR,",
+    "open_date": "2025-12-20",
+    "close_date": "2025-12-30",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.72
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "F LINE",
+    "vessel_type": "Container Ship",
+    "dwt": "",
+    "built_year": "2007",
+    "flag": "BARBADOS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "28.06m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO\n\nHATCH COVERS FITTED WITH CEMENT HOLES"
+    ],
+    "confidence_score": 0.6
+  }
+]

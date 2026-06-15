@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Kakogawa 30 Nov trip via Port Latta",
+    "redel_port": "China intention iron ore $20,500 - Richland",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "no longer appears set for the same momentum as before, even on",
+      "no other details emerged",
+      "no other details",
+      "no fresh fixture details came to light"
+    ],
+    "confidence_score": 0.92
+  }
+]

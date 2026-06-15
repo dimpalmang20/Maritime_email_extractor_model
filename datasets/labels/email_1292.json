@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CH Clare 33k",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "33000",
+    "built_year": "2010",
+    "flag": "LOA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

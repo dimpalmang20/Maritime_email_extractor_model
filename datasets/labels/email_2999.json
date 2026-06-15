@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TSL ROSEMARY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "10034",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "COSTA",
+    "open_date": "2027-01-06",
+    "close_date": "2027-01-09",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO DECK CARGO AND UNDER\n\nGOOD WEATHER CONDITIONS UP TO"
+    ],
+    "confidence_score": 0.87
+  }
+]

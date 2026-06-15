@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PWWD",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "75000",
+    "built_year": "",
+    "flag": "STATE",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "230m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "BOOK",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [
+      "NO OUTSTANDING RECOMMENDATIONS",
+      "NO EXTRA MONEY WILL BE PAID",
+      "NO LIABILITY BY REASON OF ITS FAILURE TO\n\nPERFORM THE OBLIGATIONS SO SUSPENDED"
+    ],
+    "confidence_score": 0.82
+  }
+]

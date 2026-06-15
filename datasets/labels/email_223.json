@@ -1,0 +1,14 @@
+{
+  "email_id": 223,
+  "email_type": "cargo_requirement",
+  "source": "Marcons",
+  "account": "BML",
+  "cargo": "Sugar",
+  "quantity_mt": 25000,
+  "load_port": "Kakinada, India",
+  "discharge_port": "Tripoli, Libya",
+  "laycan": "2025-12-10/2025-12-15",
+  "load_rate": "3000 MT per day",
+  "discharge_rate": "1500 MT per day",
+  "commission_pct": 3.75
+}

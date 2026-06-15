@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "60405",
+    "built_year": "2016",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.99m",
+    "grain_capacity": "77067",
+    "open_port": "HONG",
+    "open_date": "2025-12-03",
+    "close_date": "2025-12-08",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO PERIOD\n\nMV"
+    ],
+    "confidence_score": 0.77
+  }
+]

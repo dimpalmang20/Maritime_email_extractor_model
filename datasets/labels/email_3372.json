@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CRANES -ICE CLASS 1 C-ALL DETS ABT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "10978",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

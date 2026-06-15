@@ -1,0 +1,53 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: DBC Oceanic <shippingdbc@gmail.com>\nSent: 13 November 2025 12:01\nSubject: MV MOKSHA ​56k/BLT2011 OPEN CHITTAGONG O/A 15-20 NOV\n\nPLEASE PROPOSE SUITABLE\nMV MOKSHA OPEN CHITTAGONG   O/A  15-20 NOV\nCAN CONSIDER ANY (EXCL IRAN)  -   GOA OK\n\nCAN DO 2 X 25 TS COILS - DECK CARGO OKAY\nFLEXIBLE TRADING AND CARGOES\n \nM/V MOKSHA\nLiberia Flag - CCS - Sd/Bc - 2011 Blt\n56,880.0 dwt on 12,80 m ssw (Tpc 58,80)\nGrt/Nrt 33,042/19,132",
+  "entities": {
+    "VESSEL": [
+      "MOKSHA"
+    ],
+    "VESSEL_TYPE": [
+      "Sd/Bc"
+    ],
+    "DWT": [
+      "56k",
+      "56,880.0 dwt"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "COILS"
+    ],
+    "QUANTITY": [
+      "2 X 25 TS"
+    ],
+    "PORT": [
+      "CHITTAGONG",
+      "GOA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "DBC Oceanic",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "15-20 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "shippingdbc@gmail.com",
+      "chartering@dbcoceanic.com",
+      "operations@dbcoceanic.com",
+      "freights@dbcoceanic.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "EXCL IRAN"
+    ]
+  }
+}

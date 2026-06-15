@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GANT NEREA 38000",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37964",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "23974",
+    "loa": "189.99m",
+    "beam": "28.3m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-04",
+    "close_date": "2026-12-09",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO TWO CRANES TO WORK\n\nSIMULTANEOUSLY OVER THE SAME HOLD",
+      "NO INFLUENCE FROM SWELL",
+      "NO\n\nCURRENT FACTOR ON QUALIFIED GOOD WEATHER DAYS CAN BE APPLIED FOR FAVOURABLE\n\nCURRENTS"
+    ],
+    "confidence_score": 0.8
+  }
+]

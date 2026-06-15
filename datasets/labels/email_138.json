@@ -1,0 +1,22 @@
+{
+  "email_id": 138,
+  "type": "cargo",
+  "account": "Vedanta Ltd or Nominee",
+  "cargo": "Iron Ore",
+  "quantity_mt": "2 x 55000 +/-10% MOLOO",
+  "load_port": "JSW Terminal, Paradip, India",
+  "discharge_port": "China CHOPT",
+  "laycan": {
+    "from": "2025-11-15",
+    "to": "2025-11-25"
+  },
+  "load_rate": "50000 tpwwdshinc",
+  "discharge_rate": "15500 tpwwdshinc",
+  "vessel_requirements": {
+    "type": "Geared",
+    "max_age_years": 15
+  },
+  "brokerage": "1.25% addcom + 1.25% brokerage",
+  "shipments": 2,
+  "source_email": 138
+}

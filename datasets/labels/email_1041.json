@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "40000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HAZIRA,INDIA",
+    "open_date": "2026-12-04",
+    "close_date": "2026-12-05",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

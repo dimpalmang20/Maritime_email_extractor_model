@@ -1,0 +1,43 @@
+{
+  "text": "From: chartering@stma1.com <chartering@stma1.com>\nSent: Friday, July 4, 2025 1:49 PM\nTo: _ chartering@stma1.com <chartering@stma1.com>\nSubject: SUPRAMAX/ULTRAMAX AMERICA + W.ARFICA OPEN LIST 2025-7-4 (REF:2505FZG00)\n\nTELiX MSG: 05FZG-00 04/07/25 11:23 +03:00\n\nGOOD DAY,\n\nPLEASE PPSE ACCORDINGLY FOR THE BELOW.\n\nACCT REFINED SUCCESS LTD\n\nSDBC UMX-PMX\n\nDEL SOUTH AMERICA INT RECALADA OR SANTOS\n\nLC 20 JULY ONWARDS\n\nREDEL SPORE-JAPAN RGE\n\n1 TCT GRAIN OR SUGAR IN BLK\n\n3.75 ADDCOM PLUS\n\nACCT REFINED SUCCESS LTD\n\nSDBC SMX-UMX\n\nDEL 1SP USG INT HOUSTON-TAMPA RANGE\n\nLC 20 JULY ONWARDS\n\nREDEL WCCA-WCSA\n\n1 TCT WITH PETCOKE IN BLK\n\n3.75 ADDCOM PLUS\n\nTRY 2-3 LLGS",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": [
+      "GRAIN",
+      "SUGAR",
+      "PETCOKE"
+    ],
+    "PORT": [
+      "RECALADA",
+      "SANTOS",
+      "HOUSTON",
+      "TAMPA"
+    ],
+    "LOAD_PORT": [
+      "SOUTH AMERICA",
+      "USG"
+    ],
+    "DISCHARGE_PORT": [
+      "SPORE-JAPAN RGE",
+      "WCCA-WCSA"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": "REFINED SUCCESS LTD",
+    "BROKER": null,
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": "20 JULY ONWARDS",
+    "FREIGHT_RATE": "3.75 ADDCOM PLUS",
+    "VESSEL_TYPE": [
+      "UMX-PMX",
+      "SMX-UMX",
+      "SDBC"
+    ],
+    "CHARTER_TYPE": "1 TCT",
+    "TONNAGE": null,
+    "CONTACT": "chartering@stma1.com"
+  }
+}
+

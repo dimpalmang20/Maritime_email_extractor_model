@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "CHINALAND TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "64000",
+    "del_port": "To make Japan",
+    "redel_port": "",
+    "laycan_start": "2026-12-13",
+    "laycan_end": "2026-12-16",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "CHINALAND",
+    "cargo": "TO MAKE EKALI ONE TCT WITH HARMLESS CARGO",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "TO MAKE EKALI",
+    "redel_port": "",
+    "laycan_start": "2026-12-12",
+    "laycan_end": "2026-12-17",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

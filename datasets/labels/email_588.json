@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Vehicles / Trailers / Breakbulk / Containers SOCDG: Class 1 included",
+    "cargo_type": "Dry Bulk",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Dar Es Salaam, Tanzania / Mombasa POD: Durban, South Africa",
+    "discharge_port": "Durban, South Africa",
+    "laycan_start": "2025-11-15",
+    "laycan_end": "2025-11-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

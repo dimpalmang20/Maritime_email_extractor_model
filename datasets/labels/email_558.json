@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "KATONG WW",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "31775",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "177.5m",
+    "grain_capacity": "",
+    "open_port": "Caribs",
+    "open_date": "2026-11-26",
+    "close_date": "2026-11-30",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [
+      "NO\n\nPORT CONSUMPTION"
+    ],
+    "confidence_score": 0.87
+  }
+]

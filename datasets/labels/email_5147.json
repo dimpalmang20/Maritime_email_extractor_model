@@ -1,0 +1,69 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OPEN CASABLANCA O",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32005",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Walvis Bay, Namibia",
+    "open_date": "2026-06-18",
+    "close_date": "2026-06-20",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AN DING HAI",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2017",
+    "flag": "SDBC",
+    "imo": "9751303",
+    "grt": "",
+    "nrt": "25622",
+    "loa": "",
+    "beam": "179.95m",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO CIRCUMSTANCES ALLOWED"
+    ],
+    "confidence_score": 0.84
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "YU LONG LING",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "32005",
+    "built_year": "2011",
+    "flag": "SDBC",
+    "imo": "",
+    "grt": "11046",
+    "nrt": "1992307",
+    "loa": "177.5m",
+    "beam": "28.2m",
+    "grain_capacity": "4200619",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO CIRCUMSTANCES ALLOWED",
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.81
+  }
+]

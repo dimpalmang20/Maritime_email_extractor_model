@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "PWWD",
+    "cargo_type": "Dry Bulk",
+    "quantity": "30000",
+    "quantity_unit": "MT",
+    "load_port": "ASSALUYEH IRAN",
+    "discharge_port": "ISKANDERUN , TURKEY",
+    "laycan_start": "2025-12-26",
+    "laycan_end": "2025-12-31",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

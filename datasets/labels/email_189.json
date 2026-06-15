@@ -1,0 +1,22 @@
+{
+  "email_id": 189,
+  "type": "tonnage",
+  "source_email": 189,
+  "vessels": [
+    {
+      "name": "OCEANBEAUTY",
+      "dwt": 56803.9,
+      "built": 2013,
+      "flag": "Liberia",
+      "class": "RINA",
+      "open_position": "Abidjan",
+      "open_date": "2025-11-21/25",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30 MT Cranes",
+      "grabs": "12.0 / 10.0 / 8.5 / 7.0 / 5.5 CBM",
+      "grain_capacity_cbft": 2529722.1,
+      "evaporator_fitted": true,
+      "grab_fitted": true
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "email_id": 107,
+  "email_type": "open_vessels",
+  "source_company": "DBC Oceanic",
+  "vessels": [
+    {
+      "vessel_name": "SHENG DE HAI",
+      "imo": "9663178",
+      "flag": "PRC",
+      "class": "CCS",
+      "built_year": 2013,
+      "open_port": "CJK China",
+      "open_date": "2025-11-21",
+      "dwt": 56704.2,
+      "draft_m": 12.8,
+      "grain_capacity_cbm": 71634.1,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30MT",
+      "grabs": "4x12CBM"
+    },
+    {
+      "vessel_name": "KANG CHENG",
+      "imo": "9285017",
+      "flag": "Hong Kong",
+      "built_year": 2004,
+      "open_port": "Zhuhai",
+      "open_country": "China",
+      "open_date": "2025-11-15",
+      "dwt": 55541,
+      "draft_m": 12.522,
+      "grain_capacity_cbm": 69450,
+      "bale_capacity_cbm": 65977,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30.5MT",
+      "grabs": "4x12CBM"
+    },
+    {
+      "vessel_name": "BAO HE LING",
+      "imo": "9604275",
+      "flag": "China",
+      "built_year": 2015,
+      "open_port": "Manila",
+      "open_country": "Philippines",
+      "open_date": "2025-11-15",
+      "dwt": 47442,
+      "draft_m": 11.2,
+      "cranes": "4x36MT",
+      "grabs": "4x12CBM"
+    }
+  ]
+}

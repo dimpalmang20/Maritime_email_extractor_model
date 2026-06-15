@@ -1,0 +1,17 @@
+{
+  "email_id": 76,
+  "email_type": "cargo_inquiry",
+  "charterer": "Vedanta/BALCO",
+  "cargo": "Smelter Grade Alumina",
+  "quantity_mt": 30000,
+  "quantity_tolerance_pct": 5,
+  "load_port": "Ras Al Khair",
+  "load_country": "Saudi Arabia",
+  "discharge_ports": [
+    "Kakinada",
+    "Gangavaram"
+  ],
+  "laycan_from": "2025-12-01",
+  "laycan_to": "2025-12-07",
+  "max_age_years": 15
+}

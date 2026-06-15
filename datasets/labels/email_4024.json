@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WOOHYUN SHIPPING, KOREA",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "APS CAMPHA, VIETNAM (TRY DOP)",
+    "redel_port": "JAPAN RANGE (INT' FUKUYAMA OR MIZUSHIMA)",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

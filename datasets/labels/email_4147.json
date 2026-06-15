@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DK IONE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58713",
+    "built_year": "2010",
+    "flag": "KOREA",
+    "imo": "",
+    "grt": "",
+    "nrt": "34349",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-02-23",
+    "close_date": "2026-02-28",
+    "matching_region": "",
+    "restrictions": [
+      "NO NEGATIVE SWELL",
+      "NO ADVERSE CURRENT\n\nBALLAST"
+    ],
+    "confidence_score": 0.8
+  }
+]

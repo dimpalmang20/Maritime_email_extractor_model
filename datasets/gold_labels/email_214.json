@@ -1,0 +1,61 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 214\nemail_type: open_vessels\nsource_company: Energy Bulk Carriers\nvessels:\n- vessel_name: ATN VICTORY\n  dwt: 30587\n  open_port: Manila\n  open_country: Philippines\n  open_date: '2025-11-24/25'\n  vessel_type: SDBC\n  built_year: 2006\n  flag: Panama\n  class: ABS\n  draft_m: 9.8\n  loa_m: 178.70\n  beam_m: 28.00\n  depth_m: 14.00\n  grain_capacity_cbm: 40975\n  bale_capacity_cbm: 39588\n  gross_tonnage: 19918\n  net_tonnage: 10477\n  holds: 5\n  hatches: 5\n  cranes: 4 X 30T\n  grabs: 4 x 6-10 CBM\n  vessel_features: CO2 Fitted, A60 Fitted, Folding Type Hatchcover\n- vessel_name: ATN LUCKY\n  dwt: 32618\n  open_port: Lugait\n  open_country: Philippines\n  open_date: '2025-11-20'\n  vessel_type: SDBC\n  built_year: 2012\n  flag: Panama\n  class: LLOYD\n  draft_m: 10.15\n  loa_m: 179.9\n  beam_m: 28.40\n  depth_m: 14.10\n  grain_capacity_cbm: 43483.60\n  bale_capacity_cbm: 41441.69\n  gross_tonnage: 20846\n  net_tonnage: 11800\n  holds: 5\n  hatches: 5\n  cranes: 4 X 30T\n  vessel_features: CO2 Fitted, A60 Fitted, Semi Box-Shaped, Folding Type Hatchcover, Tanktop Strength 20T/SQ.M\n- vessel_name: ATN GLORY\n  dwt: 31887\n  open_port: CJK\n  open_country: China\n  open_date: '2025-11-18/19'\n  vessel_type: General Cargo\n  built_year: 2010\n  flag: Panama\n  class: NK\n  draft_m: 9.64\n  loa_m: 175.53\n  beam_m: 29.40\n  grain_capacity_cbm: 40454\n  bale_capacity_cbm: 39269.17\n  gross_tonnage: 19812\n  net_tonnage: 10395\n  holds: 5\n  hatches: 5\n  cranes: 4 X 30 MT\n  vessel_features: CO2 Fitted, A60",
+  "entities": {
+    "VESSEL": [
+      "ATN VICTORY",
+      "ATN LUCKY",
+      "ATN GLORY"
+    ],
+    "VESSEL_TYPE": [
+      "SDBC",
+      "GENERAL CARGO"
+    ],
+    "DWT": [
+      "30K",
+      "32K",
+      "31K",
+      "30,587 DWT",
+      "32,618 DWT",
+      "31,887MT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "MANILA",
+      "PHILIPPINES",
+      "LUGAIT",
+      "CJK",
+      "CHINA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Energy Bulk Carriers",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "24-25 NOV",
+      "20 NOV",
+      "18-19 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "30K",
+      "32K",
+      "31K"
+    ],
+    "CONTACT": [
+      "deepeshmajigamkar@hotmail.com",
+      "chartering@varitasnavigation.com",
+      "handy@energybulk.com",
+      "ebc12345@live.com.my"
+    ],
+    "RESTRICTIONS": null
+  }
+}

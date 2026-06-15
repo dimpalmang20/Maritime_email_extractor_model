@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HELIOS 53553MT - open kuantan 11",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "kuantan",
+    "open_date": "2026-01-11",
+    "close_date": "2026-01-12",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  }
+]

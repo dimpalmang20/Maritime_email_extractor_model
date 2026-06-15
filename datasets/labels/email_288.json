@@ -1,0 +1,17 @@
+{
+  "email_id": 288,
+  "email_type": "cargo_enquiry",
+  "charterer": "KIOCL",
+  "cargo": "Iron Ore Pellets",
+  "quantity": "50000 MT +/-10% OO",
+  "load_port": "New Mangalore, India",
+  "discharge_port": "Adani Gangavaram Port, India",
+  "laycan": "25-27 Nov 2025",
+  "load_rate": "25000 MT PWWD SHINC",
+  "discharge_rate": "20000 MT PWWD SHINC",
+  "vessel_type": ["Supramax", "Ultramax"],
+  "gear_requirement": "4/5 cranes with grabs 10-12 CBM, 25-30 MT SWL",
+  "hatches_required": "Minimum 4/5 workable hatches",
+  "broker": "Reshamwala Shipbrokers",
+  "status": "open_enquiry"
+}

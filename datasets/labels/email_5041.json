@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "USG CC-MOBILE RGE",
+    "redel_port": "",
+    "laycan_start": "2026-06-10",
+    "laycan_end": "2026-06-15",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.89
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "WAFR INTN ABIDJAN RGE",
+    "redel_port": "SGP-JPN RGE",
+    "laycan_start": "2026-06-03",
+    "laycan_end": "2026-06-08",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

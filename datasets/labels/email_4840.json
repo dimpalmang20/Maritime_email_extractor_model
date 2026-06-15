@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN UNION",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "2026",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "36088",
+    "loa": "199.98m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "Kandla, India",
+    "open_date": "2026-05-27",
+    "close_date": "2026-05-30",
+    "matching_region": "Japan",
+    "restrictions": [
+      "No extrapolation whatsoever\n\nof",
+      "no\n\ncircumstances whatsoever are Charterers entitled to deduct any alleged\n\nperformance claim from hire"
+    ],
+    "confidence_score": 0.95
+  }
+]

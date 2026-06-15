@@ -1,0 +1,13 @@
+{
+  "email_id": 293,
+  "email_type": "cargo_enquiry",
+  "charterer": "Drydel",
+  "vessel_type": "Handy",
+  "dwt_range": "32000-40000 DWT",
+  "delivery_port": "Recalada",
+  "redelivery_port": "WCSA (including Guayaquil)",
+  "laycan": "01-07 Dec 2025",
+  "commission": "3.75% Addcomm + 1.25% Brokerage",
+  "broker": "Guanabara Shipping",
+  "status": "open_enquiry"
+}

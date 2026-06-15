@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "XIN HAI TONG 801",
+    "vessel_type": "Kamsarmax Bulk Carrier",
+    "dwt": "82000",
+    "built_year": "2012",
+    "flag": "HONGKONG",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "98584",
+    "open_port": "PORT",
+    "open_date": "2026-12-29",
+    "close_date": "2026-12-30",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

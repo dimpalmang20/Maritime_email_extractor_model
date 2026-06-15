@@ -1,0 +1,79 @@
+{
+  "email_id": 120,
+  "email_type": "open_vessels",
+  "source_company": "Flotilla Bulk",
+  "vessels": [
+    {
+      "vessel_name": "JAHAN MONI",
+      "dwt": 55496,
+      "draft_m": 12.502,
+      "built_year": 2008,
+      "open_port": "Zhoushan",
+      "open_country": "China",
+      "open_date": "2025-11-15/20"
+    },
+    {
+      "vessel_name": "JAWAD",
+      "dwt": 53505,
+      "draft_m": 12.303,
+      "built_year": 2007,
+      "open_port": "Beihai",
+      "open_country": "China",
+      "open_date": "2025-11-18/22"
+    },
+    {
+      "vessel_name": "SHAHRIAR JAHAN",
+      "dwt": 46232,
+      "draft_m": 11.807,
+      "built_year": 2002,
+      "open_port": "Chittagong",
+      "open_country": "Bangladesh",
+      "open_date": "2025-11-19/23"
+    },
+    {
+      "vessel_name": "KHADEEJAH JAHAN II",
+      "dwt": 55486,
+      "draft_m": 12.53,
+      "built_year": 2009,
+      "open_port": "Ravenna",
+      "open_country": "Italy",
+      "open_date": "2025-11-20/25"
+    },
+    {
+      "vessel_name": "SHAHRIAR JAHAN I",
+      "dwt": 60195,
+      "draft_m": 13.025,
+      "built_year": 2017,
+      "open_port": "Campha",
+      "open_country": "Vietnam",
+      "open_date": "2025-11-21/25"
+    },
+    {
+      "vessel_name": "JAHAN SISTERS",
+      "dwt": 47639,
+      "draft_m": 11.82,
+      "built_year": 1995,
+      "open_port": "Mongla",
+      "open_country": "Bangladesh",
+      "open_date": "2025-11-21/25"
+    },
+    {
+      "vessel_name": "FATEMA JAHAN II",
+      "dwt": 58096,
+      "draft_m": 12.826,
+      "built_year": 2010,
+      "open_port": "Paradip",
+      "open_region": "ECI",
+      "open_date": "2025-11-21/25"
+    },
+    {
+      "vessel_name": "AMEENA JAHAN",
+      "dwt": 53477,
+      "draft_m": 12.303,
+      "built_year": 2010,
+      "open_port": "Navlakhi",
+      "open_region": "WCI",
+      "open_date": "2025-11-25/30"
+    }
+  ]
+}

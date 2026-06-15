@@ -1,0 +1,21 @@
+{
+  "email_id": 140,
+  "type": "cargo",
+  "account": "Vedanta Ltd / BALCO / Nominee",
+  "cargo": "Smelter Grade Alumina",
+  "quantity_mt": "30000 +/-5% CHOPT",
+  "load_port": "Ras Al Khair, Saudi Arabia",
+  "discharge_port": "Kakinada or Gangavaram, India",
+  "laycan": {
+    "from": "2025-12-01",
+    "to": "2025-12-07"
+  },
+  "load_rate": "2800 MTPD",
+  "discharge_rate": {
+    "Kakinada": "6000-12000 MTPD",
+    "Gangavaram": "3500 MTPD"
+  },
+  "max_vessel_age": 15,
+  "brokerage": "1.25% brokerage to Ocean Reaper Maritime",
+  "source_email": 140
+}

@@ -1,0 +1,27 @@
+{
+  "email_id": 243,
+  "email_type": "tonnage",
+  "source": "Feyz Group",
+  "vessels": [
+    {
+      "vessel_name": "SEMSA",
+      "open_position": "Giurgiulesti",
+      "open_date": "2025-11-17/2025-11-19",
+      "vessel_type": "General Cargo",
+      "built_year": 1992,
+      "flag": "Palau",
+      "class": "PRS",
+      "imo": "9015424",
+      "dwt_mt": 2646,
+      "draft_m": 4.66,
+      "loa_m": 81.8,
+      "beam_m": 11.3,
+      "grain_cbm": 3000,
+      "holds": 1,
+      "hatches": 1,
+      "gear": "Gearless",
+      "bow_thruster": true,
+      "imo_fitted": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EURO BAND",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58761",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "32379",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "ADRIATIC",
+    "open_date": "2026-02-05",
+    "close_date": "2026-02-10",
+    "matching_region": "Baltic Sea",
+    "restrictions": [],
+    "confidence_score": 0.94
+  }
+]

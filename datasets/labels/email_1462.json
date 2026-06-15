@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLT 1997 OPEN NEAR DJIBOUTI PROMPT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "46609",
+    "built_year": "1997",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "NEAR",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

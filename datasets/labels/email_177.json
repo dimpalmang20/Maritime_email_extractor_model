@@ -1,0 +1,24 @@
+{
+  "email_id": 177,
+  "type": "tonnage",
+  "source_email": 177,
+  "vessels": [
+    {
+      "name": "MV ASHICO VICTORIA",
+      "dwt": 10071,
+      "built": 2009,
+      "flag": "Panama",
+      "class": "NK",
+      "open_position": "Male",
+      "open_date": "2025-11-19",
+      "employment": "Voyage or TCT",
+      "vessel_type": "Tween Decker",
+      "holds_hatches": "2/2",
+      "gear": "2 x 23 MT Cranes + 1 x 23 MT Derrick",
+      "grain_capacity_cbm": 13658.87,
+      "bale_capacity_cbm": 12696.95,
+      "gross_tonnage": 6732,
+      "net_tonnage": 3259
+    }
+  ]
+}

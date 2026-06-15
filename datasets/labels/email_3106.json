@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LILA TOCHIGI - HDY - OPEN SINGAPORE - 15",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "2026-01-15",
+    "close_date": "2026-01-20",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LILA TOCHIGI - 28K",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28354",
+    "built_year": "2014",
+    "flag": "LIBERIA",
+    "imo": "9683116",
+    "grt": "",
+    "nrt": "17027",
+    "loa": "",
+    "beam": "169.5m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO\n\nNO ICE CLASS\n\nSPEED"
+    ],
+    "confidence_score": 0.86
+  }
+]

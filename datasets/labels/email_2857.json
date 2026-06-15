@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CETUS CACHALOT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "NIIHAMA,",
+    "open_date": "2027-01-18",
+    "close_date": "2027-01-23",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CETUS CACHALOT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "25000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "32672",
+    "loa": "187.88m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO TANDEM LIFT OF VESSEL CRANES ALLOWED SPEED",
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.72
+  }
+]

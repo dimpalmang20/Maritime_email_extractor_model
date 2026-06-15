@@ -1,0 +1,41 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2026-01-05",
+    "laycan_end": "2026-01-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VLSFO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2017",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "23689",
+    "loa": "",
+    "beam": "181m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [
+      "NO GOA TRADING\n\nM"
+    ],
+    "confidence_score": 0.62
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "TCT WITH HARMLESS",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-79999",
+    "del_port": "APS THAILAND PICO",
+    "redel_port": "",
+    "laycan_start": "2026-03-22",
+    "laycan_end": "2026-03-25",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

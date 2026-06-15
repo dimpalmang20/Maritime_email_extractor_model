@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "was not disclosed.",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Stade 25/30 Dec trip via US East Coast",
+    "redel_port": "Poland $12,000 - Cargill",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "No fresh C3 fixtures had been concluded at the time of writing",
+      "no more details came to light"
+    ],
+    "confidence_score": 0.98
+  }
+]

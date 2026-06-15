@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PROSPERITY 102",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "47000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ZHANGZHOU",
+    "open_date": "2026-12-01",
+    "close_date": "2026-12-07",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PROSPERITY 102",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "Panama",
+    "imo": "9121742",
+    "grt": "26094",
+    "nrt": "16177",
+    "loa": "185.73m",
+    "beam": "30.95m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.76
+  }
+]

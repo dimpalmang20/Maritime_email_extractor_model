@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NH ELIF",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "22100",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "14909",
+    "loa": "",
+    "beam": "159.9m",
+    "grain_capacity": "",
+    "open_port": "West",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Mediterranean",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "28000-70000",
+    "quantity_unit": "MT",
+    "load_port": "UPRIVER INT SAN LORENZO",
+    "discharge_port": "SALEF YEMEN",
+    "laycan_start": "2026-04-01",
+    "laycan_end": "2026-04-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Upriver, Argentina",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

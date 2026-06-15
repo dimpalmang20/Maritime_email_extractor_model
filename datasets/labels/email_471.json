@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GUO DIAN 7",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32951",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "19983",
+    "nrt": "",
+    "loa": "178m",
+    "beam": "27.6m",
+    "grain_capacity": "",
+    "open_port": "Colombo, Sri Lanka",
+    "open_date": "2026-11-29",
+    "close_date": "2026-12-04",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO SP",
+      "NO PERIOD"
+    ],
+    "confidence_score": 0.98
+  }
+]

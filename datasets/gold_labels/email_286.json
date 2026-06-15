@@ -1,0 +1,71 @@
+{
+  "email_type": "Cargo VC",
+  "cargo_name": "PCI COAL IN BULK",
+  "cargo_type": "Dry Bulk",
+  "account_name": "NMDC",
+  "min_size": 67500,
+  "max_size": 82500,
+  "region": "Russia to East Coast India",
+  "matching_region": "ECI",
+  "load_port": "VOSTOCHNY OR VANINO, RUSSIA",
+  "discharge_port": "GANGAVARAM PORT (GPL) OR VIZAG (VPT)",
+  "laycan_start_date": "2025-11-15",
+  "laycan_end_date": "2025-11-24",
+  "email_id": "dry@reshamwalashipbrokers.com",
+  "phone_number": "+91 98210 68513",
+  "latitude": null,
+  "longitude": null,
+  "restrictions": "Age not more than 20 years. If vessel age between 15 and 20 years, minimum RightShip 3 inspection required or evaluation by RO under DGS.",
+  "entities": {
+    "VESSEL": null,
+    "VESSEL_TYPE": [
+      "PANAMAX",
+      "KAMSARMAX"
+    ],
+    "DWT": null,
+    "IMO": null,
+    "CARGO": [
+      "PCI COAL IN BULK"
+    ],
+    "QUANTITY": [
+      "75K MT 10% MOLOO"
+    ],
+    "PORT": [
+      "VOSTOCHNY",
+      "VANINO",
+      "GANGAVARAM PORT",
+      "VIZAG"
+    ],
+    "LOAD_PORT": [
+      "VOSTOCHNY",
+      "VANINO"
+    ],
+    "DISCHARGE_PORT": [
+      "GANGAVARAM PORT",
+      "VIZAG"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "NMDC"
+    ],
+    "BROKER": [
+      "Reshamwala Shipbrokers"
+    ],
+    "LAYCAN": [
+      "15 - 24 NOV 2025"
+    ],
+    "FREIGHT_RATE": "PRE-FIXED DIFFERENTIAL FREIGHT TO APPLY",
+    "CHARTER_TYPE": "Voyage",
+    "TONNAGE": null,
+    "CONTACT": [
+      "dry@reshamwalashipbrokers.com",
+      "+91 98210 68513",
+      "+91 22 6131 7000"
+    ],
+    "RESTRICTIONS": [
+      "AGE NOT MORE THEN 20 YEARS",
+      "MIN RIGHTSHIP 3 INSPECTION REQUIRED IF AGE 15-20 YEARS"
+    ]
+  }
+}

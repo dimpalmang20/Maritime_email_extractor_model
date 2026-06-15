@@ -1,0 +1,17 @@
+{
+  "email_type": "TC_REQUIREMENT",
+  "account": "VIETSEA",
+  "vessel_size_min_dwt": 25000,
+  "vessel_size_max_dwt": 38000,
+  "max_vessel_age": 18,
+  "delivery_port": "GERALDTON",
+  "delivery_region": "WEST AUSTRALIA",
+  "redelivery_region": "S.E. ASIA/JAPAN",
+  "cargo": "BULK CONCENTRATES/MINERAL SANDS",
+  "charter_type": "TCT",
+  "laycan_from": "2025-11-28",
+  "laycan_to": "2025-12-04",
+  "commission": 3.75,
+  "broker": "INTERBULK SHIPBROKERS",
+  "confidence_score": 0.99
+}

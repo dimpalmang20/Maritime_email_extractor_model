@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EAST BANGKOK - 32.4K",
+    "vessel_type": "MR Tanker",
+    "dwt": "32400",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-01-10",
+    "close_date": "2026-01-16",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EAST BANGKOK",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32474",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "20218",
+    "nrt": "11367",
+    "loa": "177.4m",
+    "beam": "28.2m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO WARRANTY APPLIES WHILST\n\nSAILING IN RESTRICTED AREAS A",
+      "NO ADVERSE\n\nCURRENT AND",
+      "NO NEGATIVE INFLUENCE OF SWELL WITH A MINIMUM STEAMING OF\n\nATLEAST"
+    ],
+    "confidence_score": 0.81
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "email_id": 264,
+  "email_type": "cargo_requirement",
+  "company": "LEMA Chartering",
+  "account": null,
+  "cargo": "Cashew in bags",
+  "quantity": null,
+  "load_port": "Mtwara, East Africa",
+  "discharge_port": "Hiep Phuoc, Ho Chi Minh City, Vietnam",
+  "laycan": [
+    "2025-12-01 to 2025-12-10",
+    "End December 2025"
+  ],
+  "vessel_requirements": {
+    "dwt_min": 22000,
+    "dwt_max": 25000,
+    "max_age_years": 20,
+    "cranes": "4 x 30 MT SWL",
+    "class_requirement": "IACS"
+  },
+  "cargo_details": {
+    "stowage_factor": 2.0,
+    "packaging": "80 kg bags"
+  },
+  "commission_pct": 2.5
+}

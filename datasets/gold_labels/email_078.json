@@ -1,0 +1,53 @@
+{
+  "text": "Best Regards:\n\nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail: chartering@varitasnavigation.com\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n\nFrom: Bulk - Marcons - Marcons Group <bulk@marconsgroup.com>\nSent: 12 November 2025 07:35\nTo: Marcons Bulk Chartering <bulk@marconsgroup.com>\nSubject: MV HEILAN EQUILIBRIUM/ 56815 DWT/ DAMMAM / 27-30 NOV\n\nDEAR CHARTERING DESK / MARCONS\nGOOD DAY\n\nDIRECT & CLOSE//\nMV.HEILAN EQUILIBRIUM 56815/25,DAMMAM 27-30 NOV IAGW,NO IRAN/ISRAEL/YEMEN,\nONLY TRADE W/I MIDDLE EAST/JPN RANGE AND PREFER BUSINESS TO FAR\nEAST/S.E.ASIA,BOD RVTG.\n\n++++++\nHEILAN EQUILIBRIUM\nPANAMA FLAG,CCS CLASS,2011 BLT\nSUMMER DWT 56815MT BSS 12.80M/TPC 58.8MT\nGT/NT 32953/19142\nLOA/BEAM:189.99/32.26M\n4*35MT CRANE ,4*(6-12)CBM GRAB FITTED(REMOTED CONTROL)\nG/B 71634.09/68,162.25CBM\n5H/5H,SD",
+  "entities": {
+    "VESSEL": [
+      "MV HEILAN EQUILIBRIUM",
+      "MV.HEILAN EQUILIBRIUM",
+      "HEILAN EQUILIBRIUM"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "DAMMAM",
+      "MIDDLE EAST/JPN RANGE"
+    ],
+    "LOAD_PORT": [
+      "DAMMAM"
+    ],
+    "DISCHARGE_PORT": [
+      "FAR EAST/S.E.ASIA"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": [
+      "MARCONS"
+    ],
+    "BROKER": [
+      "Marcons Group",
+      "Marcons Shipmanagement Pvt. Ltd."
+    ],
+    "IMO": null,
+    "DWT": [
+      "56815 DWT",
+      "SUMMER DWT 56815MT"
+    ],
+    "LAYCAN": [
+      "27-30 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "bulk carrier"
+    ],
+    "CHARTER_TYPE": [
+      "DIRECT & CLOSE"
+    ],
+    "TONNAGE": [
+      "56815"
+    ],
+    "CONTACT": [
+      "chartering@varitasnavigation.com",
+      "bulk@marconsgroup.com"
+    ]
+  }
+}

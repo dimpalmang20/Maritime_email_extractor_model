@@ -1,0 +1,24 @@
+
+{
+  "text": "From: Star Gulf Shipping <fix@stargulfshipping.com>\nSent: Friday, October 10, 2025 12:37:24 PM\nTo: fix@stargulfshipping.com <fix@stargulfshipping.com>\nCc: CHART@STARGULFSHIPPING.COM <CHART@STARGULFSHIPPING.COM>\nSubject: 10,000 MTS OF CHROME ORE // OMAN - SWEDEN !!!!\n\n10 OCT 2025\n\nAcct: Winds import and export\nM/M 10,000 MTS of Chrome ore ABT (14) WOG\n\n1SP 1SB Sohar - Oman\n1SP 1SB Uddevalla - Sweden\n\nLoading rate: 6,000 MTS PWWD SHINC\nDischarging rate: 3,500 MTS PWWD SHEX\n\nLaycan: 16th OCT 2025 - 20th OCT 2025\n\nCommission: 3,75% ADDCOM",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": "CHROME ORE",
+    "PORT": null,
+    "LOAD_PORT": "Sohar - Oman",
+    "DISCHARGE_PORT": "Uddevalla - Sweden",
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": "10,000 MTS",
+    "CHARTERER": "Winds import and export",
+    "BROKER": null,
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": "16th OCT 2025 - 20th OCT 2025",
+    "FREIGHT_RATE": "3,75% ADDCOM",
+    "VESSEL_TYPE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": "10,000 MTS",
+    "CONTACT": "fix@stargulfshipping.com"
+  }
+}

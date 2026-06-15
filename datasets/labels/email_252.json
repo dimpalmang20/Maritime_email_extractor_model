@@ -1,0 +1,36 @@
+{
+  "email_id": 252,
+  "email_type": "tonnage",
+  "source": "TNS Shipbrokers",
+  "vessels": [
+    {
+      "vessel_name": "VALENTINA I",
+      "open_position": "Middle Red Sea",
+      "open_date": "2025-11-14/2025-11-15",
+      "built_year": 2007,
+      "flag": "Liberia",
+      "class": "NK",
+      "vessel_type": "Geared Single Deck Bulk Carrier",
+      "dwt_mt": 50198,
+      "draft_m": 12.822,
+      "loa_m": 189.931,
+      "beam_m": 30.5,
+      "depth_m": 17.5,
+      "gt": 30570,
+      "nt": 16966,
+      "grain_cbm": 60162.3,
+      "bale_cbm": 55092.8,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x35 MT",
+      "features": [
+        "Open Hatch",
+        "Box Holds",
+        "Heavy Cargo Strengthened",
+        "GOA OK",
+        "Grain Clean",
+        "Fertilizer Clean"
+      ]
+    }
+  ]
+}

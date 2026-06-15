@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "BAINBRIDGE TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-59999",
+    "del_port": "INDONESIA (INT: TANJUNG BARA)",
+    "redel_port": "",
+    "laycan_start": "2026-12-08",
+    "laycan_end": "2026-12-11",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

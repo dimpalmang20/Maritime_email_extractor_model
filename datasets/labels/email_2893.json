@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OPEN EX",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "18978",
+    "built_year": "2008",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "32.2m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO GRABS ONBOARD\n\nTANKTOP STRENGTH",
+      "NO CHARTERING AGENCY SERVICES"
+    ],
+    "confidence_score": 0.74
+  }
+]

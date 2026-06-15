@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PWWD SHINC",
+    "vessel_type": "Crude Oil Tanker",
+    "dwt": "98000",
+    "built_year": "",
+    "flag": "vessels",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "245m",
+    "beam": "32.2m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "No time shall be counted during rain periods or other bad weather\n\nperiods",
+      "no cargo is to be loaded in\n\nbetween decks",
+      "no way\n\nconcerned with its assessment"
+    ],
+    "confidence_score": 0.72
+  }
+]

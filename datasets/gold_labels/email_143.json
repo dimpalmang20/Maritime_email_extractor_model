@@ -1,0 +1,53 @@
+
+{
+  "text": "Best Regards:\n\nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com>\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n\nFrom: Aryacorp Chartering <fix@aryacorp.com>\nSent: 13 November 2025 10:17\nTo: Aryacorp Chartering <fix@aryacorp.com>\nSubject: DIRECT OWNER HANDY MAX VESSELS OPEN\n\nFROM: ARYACORP PVT. LTD.\nDATE & TIME: 13-11-2025 10:16:55   (GMT +5:30)\nREFERΕNCE NO: 20546380\n\nATTN CHARTERING DESK\nDEAR SIR\nGOOD DAY\nDIRECT OWNERS VESSEL\nPLEASE ADVISE SUITABLE CARGO FOR BELOW VESSEL\n\n/// DO NOT RE-CIRCULATE ///\n\nVESSEL NAME | DWT (MT) | OPEN POSITION | OPEN DATE | Remark\nMV.PROFOUND STAR | 24262 | KLANG,MALAYSIA | 25th-30th NOV | TRADE W/I RED SEA/EAST AFRICAN/PG/FAR EAST RANGE\nMV. HONGLI 8 | 35050 | GEORGETOWN,GUYANA | MID DEC | WORLDWIDE\n\nPLEASED TO HEAR.\n\nBEST REGARDS\n\nKEWL LODAYA | MOB: +91 8460 177456 | TEAMS ID: ACPL.KEWAL@OUTLOOK.COM\nRAJ ARYA | DIRECT: +91 124 469 4875 | MOBILE: +91 98212 30309 | TEAMS ID: PRARYA@HOTMAIL.COM\nAS BROKERS ONLY AND AS AGENTS FOR CORE SHIPPING LTD\nEMAIL: FIX@ARYACORP.COM ( CHARTERING ) / OPS@ARYACORP.COM ( OPERATIONS)\nWEBSITE:  <https://www.aryacorp.com/> WWW.ARYACORP.COM",
+  "entities": {
+    "VESSEL": [
+      "MV.PROFOUND STAR",
+      "MV. HONGLI 8"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "KLANG",
+      "MALAYSIA",
+      "GEORGETOWN",
+      "GUYANA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "24262",
+      "35050"
+    ],
+    "CHARTERER": null,
+    "BROKER": [
+      "ARYACORP PVT. LTD.",
+      "CORE SHIPPING LTD"
+    ],
+    "IMO": null,
+    "DWT": [
+      "24262",
+      "35050"
+    ],
+    "LAYCAN": [
+      "25th-30th NOV",
+      "MID DEC"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "HANDY MAX"
+    ],
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "24262",
+      "35050"
+    ],
+    "CONTACT": [
+      "chartering@varitasnavigation.com",
+      "fix@aryacorp.com",
+      "ops@aryacorp.com"
+    ]
+  }
+}

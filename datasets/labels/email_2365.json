@@ -1,0 +1,67 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FAREAST HARMONY",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "AQABA,JORDAN",
+    "open_date": "2026-01-01",
+    "close_date": "2026-01-04",
+    "matching_region": "Far East",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FAREAST HARMONY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "AQABA,JORDAN",
+    "open_date": "2026-01-01",
+    "close_date": "2026-01-04",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "No\n\nRUSSIA"
+    ],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FAREAST HARMONY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56756",
+    "built_year": "2012",
+    "flag": "HK",
+    "imo": "",
+    "grt": "33042",
+    "nrt": "19132",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Far East",
+    "restrictions": [
+      "NO ADVERSE CURRENT\n\nAND NO NEGATIVE INFLUENCE SWELL",
+      "NO DECK CARGO\n\nON EVEN KEEL IN STILL AND DEEP WATER"
+    ],
+    "confidence_score": 0.81
+  }
+]

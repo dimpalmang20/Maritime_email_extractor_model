@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BI XUN",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "DJIBOUTI",
+    "open_date": "2025-12-11",
+    "close_date": "2025-12-16",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.78
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BI XUN CALL SIGN BHPK",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56799",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "9566930",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "32.26m",
+    "grain_capacity": "7163409",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.86
+  }
+]

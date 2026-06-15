@@ -1,0 +1,16 @@
+
+________________________________
+From: Microsoft account team <account-security-noreply@accountprotection.microsoft.com>
+Sent: Monday, 22 December 2025 15:34:28 (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+To: kriti.kriti.gupta@outlook.com <kriti.kriti.gupta@outlook.com>
+Subject: Microsoft account app passwords need updating
+
+Microsoft account
+App passwords need to be updated
+You changed your password recently. Since you turned on two-step verification for the Microsoft account kr**a@outlook.com<mailto:kr**a@outlook.com>, you need to create new app passwords for any apps or devices that don't support two-step verification. Any existing app passwords will no longer work.
+Get a new app password<https://account.live.com/proofs/AppPassword>
+To opt out or change where you receive security notifications, click here<https://account.live.com/SecurityNotifications/Update>.
+Thanks,
+The Microsoft account team
+Privacy Statement<https://go.microsoft.com/fwlink/?LinkId=521839>
+Microsoft Corporation, One Microsoft Way, Redmond, WA 98052

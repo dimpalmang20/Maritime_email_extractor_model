@@ -1,0 +1,110 @@
+{
+  "email_type": "Market Report / Fixtures",
+  "text": "From: Chartering - Reshamwala Shipbrokers <chartering@reshamwalashipbrokers.com>\nSent: 15 November 2025 02:16\nSubject: Dry Bulk Fixture Report and Baltic Dry Indices for Friday 14.11.2025\n\nDry Bulk Fixtures Report for Friday 14.11.2025\nTIMECHARTER\n'Alkimos' 2013 95308 dwt dely aps US Gulf 25 Nov trip redel Japan $20,000 + $1,000,000 bb - WBC\n'Vela Star' 2009 83651 dwt dely Shanghai 14/15 Nov trip via NoPac redel Singapore-Japan $17,000 - Pan Ocean",
+  "entities": {
+    "VESSEL": [
+      "Alkimos",
+      "Vela Star",
+      "BBG Xijiang",
+      "Alpha Hero",
+      "Marathassa",
+      "Ripley Pinnacle",
+      "Aster Ocean",
+      "Guo Hai Lian 568",
+      "St. Andrew",
+      "Lowlands Dawn",
+      "BBG Muara",
+      "Alba",
+      "Vangelis"
+    ],
+    "VESSEL_TYPE": [
+      "CAPESIZE",
+      "PANAMAX",
+      "SUPRAMAX",
+      "HANDYSIZE"
+    ],
+    "DWT": [
+      "95308",
+      "83651",
+      "82801",
+      "82052",
+      "80635",
+      "76838",
+      "75798",
+      "75538",
+      "50792",
+      "93500",
+      "81991"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "ORE",
+      "COAL"
+    ],
+    "QUANTITY": [
+      "170000/10",
+      "75000/10"
+    ],
+    "PORT": [
+      "US Gulf",
+      "Japan",
+      "Shanghai",
+      "Lianyungang",
+      "Chiba",
+      "Gangavaram",
+      "Quanzhou",
+      "Kakogawa",
+      "Recalada",
+      "Vancouver",
+      "Onahama",
+      "Tubarao",
+      "Qingdao"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "WBC",
+      "Pan Ocean",
+      "Tongli",
+      "Marubeni",
+      "Daiichi",
+      "cnr",
+      "Pacific Basin",
+      "Jera",
+      "Classic",
+      "Mercuria"
+    ],
+    "BROKER": [
+      "Reshamwala Shipbrokers"
+    ],
+    "LAYCAN": null,
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "TIMECHARTER",
+      "PERIOD",
+      "VOYAGES"
+    ],
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@reshamwalashipbrokers.com",
+      "+91 98210 68513"
+    ],
+    "RESTRICTIONS": null
+  },
+  "tonnage_type": null,
+  "port": null,
+  "region": null,
+  "matching_region": null,
+  "open_date": null,
+  "close_date": null,
+  "dwt": null,
+  "tonnage_name": null,
+  "pic": "Anand S Mehta",
+  "email_id": "chartering@reshamwalashipbrokers.com",
+  "phone_number": "+91 98210 68513",
+  "latitude": null,
+  "longitude": null,
+  "restrictions": null
+}

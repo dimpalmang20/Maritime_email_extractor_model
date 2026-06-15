@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PANOCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "60000-69999",
+    "del_port": "TO W.AUST WITH GRAIN (INT. KWINANA )",
+    "redel_port": "CHINA (INT. DAFENG)",
+    "laycan_start": "2026-06-08",
+    "laycan_end": "2026-06-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [
+      "NO NEED 2 X 25MT COIL LOADING",
+      "NO NEED 2 X 25MT COIL LOADING"
+    ],
+    "confidence_score": 0.97
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-99999",
+    "del_port": "TO MAKE NOPAC",
+    "redel_port": "SGP - JAPAN RANGE",
+    "laycan_start": "2026-06-23",
+    "laycan_end": "2026-06-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

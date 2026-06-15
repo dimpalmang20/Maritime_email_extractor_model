@@ -1,0 +1,85 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 233\nemail_type: open_vessels\nsource_company: ARYACORP PVT. LTD.\nvessels:\n- vessel_name: LAN HAI YUAN WANG\n  dwt: 11300\n  open_port: HAIPHONG\n  open_country: N.VIETNAM\n  open_date: '2025-11-28/30'\n- vessel_name: ZHONG CHUAN CHANG QING\n  dwt: 13100\n  open_port: LONGAN\n  open_country: S.VIETNAM\n  open_date: '2025-11-18'\n- vessel_name: SHUOLONG 19\n  dwt: 12800\n  open_port: BAHODOPI\n  open_country: INDONESIA\n  open_date: '2025-12-20/24'\n- vessel_name: FORTUNE VICTORY\n  dwt: 11800\n  open_port: TARAKAN\n  open_country: INDONESIA\n  open_date: '2025-11-28/29'\n- vessel_name: FORTUNE PROGRESS\n  dwt: 14600\n  open_port: S. CHINA\n  open_date: '2025-11-26/27'\n- vessel_name: LUCKY PANDA\n  dwt: 14100\n  open_port: BAHODOPI\n  open_country: INDONESIA\n  open_date: '2025-12-18/20'\n- vessel_name: HUA ZHENG HAI YANG\n  vessel_type: GEARED+GRABS\n  dwt: 28600\n  open_port: HOCHINMINH\n  open_country: S.VIETNAM\n  open_date: '2025-11-25/26'\n- vessel_name: CHANG SHUN JING HAI\n  dwt: 45500\n  open_port: CJK\n  open_country: CHINA\n  open_date: '2025-12-03/04'\n- vessel_name: SHUOLONG 618\n  vessel_type: GEARED+4 GRABS\n  dwt: 55600\n- vessel_name: FORTUNE GLORY\n  vessel_type: GEARED + 4 GRABS\n  dwt: 68000\n  open_port: CHITTAGANG\n  open_country: BANGLADESH\n  open_date: '2025-12-22/24'\n- vessel_name: FORTUNE GRACE I\n  future_name: METEORA\n  vessel_type: GEARED+4GRABS\n  dwt: 58000\n  open_port: W.AFRICA\n  open_date: '2026-01'",
+  "entities": {
+    "VESSEL": [
+      "LAN HAI YUAN WANG",
+      "ZHONG CHUAN CHANG QING",
+      "SHUOLONG 19",
+      "FORTUNE VICTORY",
+      "FORTUNE PROGRESS",
+      "LUCKY PANDA",
+      "HUA ZHENG HAI YANG",
+      "CHANG SHUN JING HAI",
+      "SHUOLONG 618",
+      "FORTUNE GLORY",
+      "FORTUNE GRACE I",
+      "METEORA"
+    ],
+    "VESSEL_TYPE": [
+      "GEARED",
+      "GRABS"
+    ],
+    "DWT": [
+      "11.3K",
+      "13.1K",
+      "12.8 K",
+      "11.8K",
+      "14.6K",
+      "14.1K",
+      "28.6K",
+      "45.5K",
+      "55.6K",
+      "68K",
+      "58K"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "HAIPHONG",
+      "LONGAN",
+      "BAHODOPI",
+      "TARAKAN",
+      "S. CHINA",
+      "HOCHINMINH",
+      "CJK",
+      "CHITTAGANG",
+      "W.AFRICA",
+      "LUANDA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "ARYACORP PVT. LTD.",
+      "CORE SHIPPING LTD",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "28-30TH/NOV",
+      "18TH/NOV",
+      "20-24TH/DEC",
+      "28-29TH/NOV",
+      "26-27TH/ NOV",
+      "18-20TH/DEC",
+      "25-26TH/NOV",
+      "3-4TH/DEC",
+      "22-24TH/DEC",
+      "EARLY OF JAN,2026"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "deepeshmajigamkar@hotmail.com",
+      "chartering@varitasnavigation.com",
+      "fix@aryacorp.com",
+      "ops@aryacorp.com",
+      "prarya@hotmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

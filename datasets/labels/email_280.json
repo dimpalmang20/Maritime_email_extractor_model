@@ -1,0 +1,25 @@
+{
+  "email_id": 280,
+  "email_type": "vessel_position",
+  "company": "Rieck + Petersen GmbH",
+  "vessels": [
+    {
+      "vessel_name": "HADEEL",
+      "built_year": 2010,
+      "flag": "Panama",
+      "class": "DNV GL",
+      "dwt": 30420,
+      "draft_m": 9.815,
+      "loa_m": 178.7,
+      "beam_m": 28.4,
+      "grain_capacity_cbm": 40731,
+      "bale_capacity_cbm": 38695,
+      "holds_hatches": "5/5",
+      "cranes": "4 x 30 MT",
+      "open_position": "Tarragona, Spain",
+      "open_date": "2025-11-24",
+      "period_business": true,
+      "period_option": "Up to 1 year"
+    }
+  ]
+}

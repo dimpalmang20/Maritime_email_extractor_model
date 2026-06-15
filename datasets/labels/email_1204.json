@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HONGLI 8",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35050",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "179.88m",
+    "grain_capacity": "",
+    "open_port": "GEORGETOWN,",
+    "open_date": "2026-12-18",
+    "close_date": "2026-12-23",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

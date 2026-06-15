@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN SAPPHIRE",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Hamburg, Germany",
+    "open_date": "2026-12-19",
+    "close_date": "2026-12-21",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN SAPPHIRE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2020",
+    "flag": "",
+    "imo": "9860386",
+    "grt": "",
+    "nrt": "34876",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

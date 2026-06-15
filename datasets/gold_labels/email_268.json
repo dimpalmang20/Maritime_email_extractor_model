@@ -1,0 +1,64 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: rieck-petersen@shipnet.de <rieck-petersen@shipnet.de> \nSent: 14 November 2025 15:56\nTo: chartering@varitasnavigation.com\nSubject: MV CATHERINE\n \nDoc-No. 9542337   14/NOV/2025 (FRI)  11:25  (+0100)  LP\nRieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers  \nPhone: +49 (0)40 35 00 426 E-Mail: rieck-petersen@shipnet.de\n \nGD MRNG\n \nPLS PPSE FOR OUR DIRECT POSITION\n \nOPEN SKIKDA  26 NOV\n            -------------------------\n \nLAST 3: CORN (LAST), SULPHUR, SALT\nBROB: 525 MT VLSFO / 225 MT MGO \n \nM/V CATHERINE\n40.355 MTS DWAT ON 10,392 M DRAFT SSW - MARSHALL ISLANDS FLAG \nBLT 2024 - SID/BC/DOUBLE HULL - LOA 182,94 M - BEAM 31,60 M\n50.517,50 / 49.153,38 CBM GRAIN/BALE - 4X30,5 TS CRANES\nABT 14/13,5 KN ON ABT 22,00 MTS IFO (B/L) + 0,1 MTS MGO\nABT 12,5/12 KN ON ABT 16,10 MTS IFO (B/L) + 0,1 MTS MGO WOG\nADA WOG",
+  "entities": {
+    "VESSEL": [
+      "CATHERINE"
+    ],
+    "VESSEL_TYPE": [
+      "SID/BC/DOUBLE HULL"
+    ],
+    "DWT": [
+      "40.355 MTS DWAT"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "CORN",
+      "SULPHUR",
+      "SALT"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "SKIKDA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Rieck + Petersen GmbH",
+      "HSB Hamburg Shipbrokers"
+    ],
+    "LAYCAN": [
+      "26 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "40.355 MTS DWAT"
+    ],
+    "CONTACT": [
+      "+49 (0)40 35 00 426",
+      "rieck-petersen@shipnet.de",
+      "+49 (0)172 410 48 72"
+    ],
+    "RESTRICTIONS": [
+      "4X30,5 TS CRANES",
+      "DOUBLE HULL"
+    ]
+  },
+  "tonnage_type": "SID/BC/DOUBLE HULL",
+  "port": "SKIKDA",
+  "region": "ALGERIA",
+  "matching_region": "MED",
+  "open_date": "2025-11-26",
+  "close_date": "2025-11-26",
+  "dwt": "40.355 MTS DWAT",
+  "tonnage_name": "CATHERINE",
+  "pic": "Lars Petersen",
+  "email_id": "rieck-petersen@shipnet.de",
+  "phone_number": "+49403500426",
+  "latitude": null,
+  "longitude": null
+}

@@ -1,0 +1,23 @@
+{
+  "email_id": 277,
+  "email_type": "cargo_enquiry",
+  "company": "Trans Istanbul Shipping",
+  "cargo": "Cement in Big Bags",
+  "load_port": "Eregli",
+  "discharge_port": "Constantza",
+  "cargo_options": [
+    {
+      "quantity_mt": "4000-5500",
+      "laycan": "Spot"
+    },
+    {
+      "quantity_mt": "5500-6500",
+      "laycan": "2025-11-18 to 2025-11-19"
+    },
+    {
+      "quantity_mt": "7000-7700",
+      "laycan": "2025-11-20 to 2025-11-22"
+    }
+  ],
+  "commission": "2.50% total"
+}

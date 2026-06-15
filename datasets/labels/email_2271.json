@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VLSFO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "186.96m",
+    "beam": "28.6m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

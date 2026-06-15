@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SUPERNOVA B",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "GRESIK",
+    "open_date": "2027-01-22",
+    "close_date": "2027-01-27",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SUPERNOVA B",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "9610212",
+    "grt": "",
+    "nrt": "21838",
+    "loa": "",
+    "beam": "176.5m",
+    "grain_capacity": "",
+    "open_port": "LOOP,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE FROM CURRENTS"
+    ],
+    "confidence_score": 0.84
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "that you tried to reach does not exist.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-54999",
+    "del_port": "System <>",
+    "redel_port": "",
+    "laycan_start": "2025-12-15",
+    "laycan_end": "2025-12-20",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "2.5%",
+    "matching_region": "China",
+    "restrictions": [
+      "no data record of",
+      "No such",
+      "No such",
+      "No such"
+    ],
+    "confidence_score": 0.84
+  }
+]

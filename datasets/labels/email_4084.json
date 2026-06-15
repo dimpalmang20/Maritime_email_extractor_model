@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "PWWD",
+    "cargo_type": "Dry Bulk",
+    "quantity": "10000",
+    "quantity_unit": "MT",
+    "load_port": "KING FAHD INDUSTRIAL / JUBAIL INDUSTRIAL CITY SAUDI ARABIA / DAMMAM",
+    "discharge_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

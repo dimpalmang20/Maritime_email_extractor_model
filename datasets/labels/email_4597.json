@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "Hanson or Nominee",
+    "cargo": "Steel Products",
+    "cargo_type": "General Cargo",
+    "dwt": "35000-49999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "60-65 days",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.76
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "17-18000",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2025-12-01",
+    "laycan_end": "2025-12-31",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "75%",
+    "matching_region": "Brazil",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

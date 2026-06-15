@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SIMTRA OR GTEED NOMINEE",
+    "cargo": "TCT VIA ECI TO ECI WITH THERMAL COAL",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-06-04",
+    "laycan_end": "2026-06-09",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

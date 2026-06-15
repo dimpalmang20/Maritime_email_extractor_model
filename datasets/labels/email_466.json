@@ -1,0 +1,38 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Paradip 26 Jul trip via EC South",
+    "redel_port": "Indonesia $15,000 - WBC",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "no more details came to light"
+    ],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "",
+    "del_port": "Arabian Gulf (intention Jebel Ali) for minimum 65 days at",
+    "redel_port": "Arabian Gulf (intention Jebel Ali) for minimum 65 days at",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

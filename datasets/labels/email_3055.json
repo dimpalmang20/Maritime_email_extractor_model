@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "TO W.AUST WITH CLEAN CGO TO CHINA",
+    "redel_port": "",
+    "laycan_start": "2026-01-23",
+    "laycan_end": "2026-01-26",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.79
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PANOCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-99999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-01-31",
+    "laycan_end": "2026-02-05",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.79
+  }
+]

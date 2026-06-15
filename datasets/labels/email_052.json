@@ -1,0 +1,29 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "BLOOM HALO",
+  "vessel_type": "BULK CARRIER",
+  "dwt": 66039,
+  "built_year": 2024,
+  "flag": "PANAMA",
+  "class": "NK",
+  "loa": 199.99,
+  "beam": 36.00,
+  "grt": 38287,
+  "nrt": 21668,
+  "grain_capacity": 82900,
+  "open_port": "CHITTAGONG",
+  "open_date": "2025-11-19",
+  "close_date": "2025-11-23",
+  "cranes": "4 X 35MT",
+  "grabs": "4 X 15CBM",
+  "scrubber_fitted": true,
+  "previous_cargoes": [
+    "COAL",
+    "LIMESTONE",
+    "GYPSUM",
+    "SLAG",
+    "MANGANESE ORE",
+    "CEMENT"
+  ],
+  "confidence_score": 0.99
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "MOLCHOPT OF",
+    "cargo_type": "Dry Bulk",
+    "quantity": "20000-25000",
+    "quantity_unit": "MT",
+    "load_port": "KANDLA , INDIA",
+    "discharge_port": "BANDAR ABBAS / BANDAR IMAM KHOMENI , IRAN",
+    "laycan_start": "2025-12-25",
+    "laycan_end": "2025-12-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

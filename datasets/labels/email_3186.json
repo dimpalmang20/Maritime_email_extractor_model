@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DEVBULK SALIHA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "31018",
+    "built_year": "",
+    "flag": "",
+    "imo": "9449871",
+    "grt": "19999",
+    "nrt": "",
+    "loa": "178.7m",
+    "beam": "28m",
+    "grain_capacity": "",
+    "open_port": "KANDLA,",
+    "open_date": "2026-01-15",
+    "close_date": "2026-01-17",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

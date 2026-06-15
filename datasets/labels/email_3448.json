@@ -1,0 +1,64 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "STAR BAND 58K",
+    "vessel_type": "MR Tanker",
+    "dwt": "58000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "RSEA",
+    "open_date": "2027-01-18",
+    "close_date": "2027-01-25",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DWT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "12828",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "9394909",
+    "grt": "",
+    "nrt": "32415",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "RSEA",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO\n\nAHL FITTED"
+    ],
+    "confidence_score": 0.89
+  },
+  {
+    "email_type": "TC",
+    "account_name": "WHEN CALCULATING VESSEL'S PERFORMANCE.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "SPEED",
+    "redel_port": "CONSUMPTION",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO RIGHT TO OVERCONSUMPTION CLAIMS RELATED TO",
+      "NO MIXING OF DIFFERENT GRADES OF FUELS IS ALLOWED"
+    ],
+    "confidence_score": 0.68
+  }
+]

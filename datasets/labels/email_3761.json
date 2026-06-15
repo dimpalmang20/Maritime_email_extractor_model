@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LOWLANDS ENGEL",
+    "vessel_type": "MR Tanker",
+    "dwt": "40000",
+    "built_year": "2023",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "FUJAIRAH",
+    "open_date": "2027-01-18",
+    "close_date": "2027-01-23",
+    "matching_region": "India",
+    "restrictions": [
+      "NO RUS",
+      "NO GOA TRANSIT"
+    ],
+    "confidence_score": 0.92
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "53414",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-12-01",
+    "laycan_end": "2025-12-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Ukraine",
+    "restrictions": [
+      "no rus,Iran"
+    ],
+    "confidence_score": 0.62
+  }
+]

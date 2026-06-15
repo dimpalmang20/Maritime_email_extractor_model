@@ -1,0 +1,24 @@
+{
+  "email_id": 203,
+  "type": "tonnage",
+  "source_email": 203,
+  "vessels": [
+    {
+      "name": "MV HEILAN EQUILIBRIUM",
+      "dwt": 56815,
+      "built": 2011,
+      "flag": "Panama",
+      "class": "CCS",
+      "open_position": "Dammam",
+      "open_date": "2025-11-25/27",
+      "trading_restrictions": "No Iran / Israel / Yemen",
+      "holds_hatches": "5/5",
+      "gear": "4 x 35 MT Cranes",
+      "grabs": "4 x 6-12 CBM",
+      "grain_capacity_cbm": 71634.09,
+      "bale_capacity_cbm": 68162.25,
+      "gross_tonnage": 32953,
+      "net_tonnage": 19142
+    }
+  ]
+}

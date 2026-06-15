@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "on 10.75 m ssw tpc 43.30",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "2000",
+    "flag": "",
+    "imo": "",
+    "grt": "20659",
+    "nrt": "",
+    "loa": "199.99m",
+    "beam": "23.76m",
+    "grain_capacity": "",
+    "open_port": "DOUALA,",
+    "open_date": "2026-12-03",
+    "close_date": "2026-12-08",
+    "matching_region": "High Risk Area",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

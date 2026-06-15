@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "RUBY - BELAWAN 10-15 DEC",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37039",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "182.82m",
+    "beam": "27.8m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no adverse currents"
+    ],
+    "confidence_score": 0.77
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "WAN TONG 18",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "16761",
+    "built_year": "2008",
+    "flag": "CHINA",
+    "imo": "9665944",
+    "grt": "",
+    "nrt": "",
+    "loa": "134.93m",
+    "beam": "23m",
+    "grain_capacity": "",
+    "open_port": "SOUTH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "no Chartering Agency Services",
+      "NO ADVERSE CURRENT AND NO\n\nNEGATIVE INFLUENCE OF SWELL",
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.98
+  }
+]

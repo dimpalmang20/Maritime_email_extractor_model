@@ -1,0 +1,22 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "BLUE STAR",
+  "vessel_type": "BULK CARRIER",
+  "dwt": 22704.83,
+  "built_year": 2010,
+  "flag": "VIETNAM",
+  "class": "NK",
+  "grt": 14851,
+  "nrt": 7158,
+  "loa": 153.2,
+  "beam": 26.0,
+  "grain_capacity": 29157,
+  "bale_capacity": 28964,
+  "open_port": "DAVAO, PHILIPPINES",
+  "open_date": "2025-11-20",
+  "close_date": "2025-11-25",
+  "cranes": "4 X 25MT",
+  "bod_lsifo": 350,
+  "bod_lsmgo": 80,
+  "confidence_score": 0.99
+}

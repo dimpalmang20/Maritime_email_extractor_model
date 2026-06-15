@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PANOCEAN",
+    "cargo": "TCT HARMLESS",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "TO MAKE E.KALI",
+    "redel_port": "",
+    "laycan_start": "2025-12-05",
+    "laycan_end": "2025-12-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

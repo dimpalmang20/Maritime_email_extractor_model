@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Iron ore fines",
+    "cargo_type": "Dry Bulk",
+    "quantity": "80000",
+    "quantity_unit": "MT",
+    "load_port": "SA WOB Mormugao, WCI",
+    "discharge_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "1.25%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.86
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Professional Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "FRIEND",
+    "discharge_port": "SUPPORTING",
+    "laycan_start": "2025-12-31",
+    "laycan_end": "2026-01-05",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [],
+    "confidence_score": 0.9
+  },
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "MODIFIED",
+    "discharge_port": "SINGLE",
+    "laycan_start": "2026-01-15",
+    "laycan_end": "2026-01-20",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "13268",
+    "quantity_unit": "MT",
+    "load_port": "CARGO",
+    "discharge_port": "SINGLE",
+    "laycan_start": "2026-01-15",
+    "laycan_end": "2026-01-20",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

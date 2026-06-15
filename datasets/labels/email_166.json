@@ -1,0 +1,20 @@
+{
+  "email_id": 166,
+  "type": "tonnage",
+  "source_email": 166,
+  "vessels": [
+    {
+      "name": "MV AP ASTAREA",
+      "dwt": 63301,
+      "built": 2018,
+      "flag": "Marshall Islands",
+      "class": "ABS",
+      "open_position": "Yantai, China",
+      "open_date": "2025-11-24/26",
+      "holds_hatches": "5/5",
+      "gear": "4 x 35 MT Cranes",
+      "grabs": "4 x 12 CBM",
+      "grain_capacity_cbm": 77850
+    }
+  ]
+}

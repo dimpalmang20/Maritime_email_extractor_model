@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DARYA HEERA",
+    "vessel_type": "MR Tanker",
+    "dwt": "61083",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "2025-11-21",
+    "close_date": "2025-11-26",
+    "matching_region": "Russia",
+    "restrictions": [
+      "NO IRAN"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DARYA HEERA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61083",
+    "built_year": "2021",
+    "flag": "HONG KONG",
+    "imo": "",
+    "grt": "",
+    "nrt": "34534",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HAWK S open UMM QASR on 28-30 January",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "40400",
+    "built_year": "2025",
+    "flag": "Liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-28",
+    "close_date": "2027-01-30",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

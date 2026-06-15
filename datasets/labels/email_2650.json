@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DAVA - SMX EX ECI TO PG WITH HLESS BULK",
+    "cargo": "A/C DAVA - SMX EX ECI TO PG WITH HLESS",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-59999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-12-29",
+    "laycan_end": "2026-01-03",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [
+      "NO I/I)"
+    ],
+    "confidence_score": 0.87
+  }
+]

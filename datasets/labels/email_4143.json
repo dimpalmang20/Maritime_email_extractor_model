@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TIGER PIONEER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38000",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "24504",
+    "loa": "",
+    "beam": "189m",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "2026-02-09",
+    "close_date": "2026-02-14",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TIGER PIONEER",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "63461",
+    "built_year": "2025",
+    "flag": "PANAMA",
+    "imo": "9712199",
+    "grt": "24034",
+    "nrt": "36322",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "7874893",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE BY SWELL",
+      "NO\n\nNEGATIVE SWELL NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.93
+  }
+]

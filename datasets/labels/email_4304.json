@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WINDS",
+    "cargo": "Mohammed Massasd Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "60000-70000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "3 months",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [
+      "NO I/I"
+    ],
+    "confidence_score": 0.85
+  }
+]

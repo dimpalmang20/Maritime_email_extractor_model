@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DWT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "53000",
+    "built_year": "2007",
+    "flag": "MARSHAL ISLANDS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "North China",
+    "restrictions": [
+      "NO USA"
+    ],
+    "confidence_score": 0.77
+  }
+]

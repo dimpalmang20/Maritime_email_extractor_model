@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "KYVELI GS - FM EXCL SOURCE",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "PUERTO",
+    "open_date": "2026-12-24",
+    "close_date": "2026-12-29",
+    "matching_region": "",
+    "restrictions": [
+      "EXCL SOURCE\n\nDoc"
+    ],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "KYVELI GS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2020",
+    "flag": "",
+    "imo": "",
+    "grt": "12445",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.76
+  }
+]

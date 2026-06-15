@@ -1,0 +1,50 @@
+{
+  "email_id": 244,
+  "email_type": "cargo_requirement",
+  "source": "Rieck + Petersen",
+  "requirements": [
+    {
+      "account": "SGT",
+      "cargo": "Bulk TSP",
+      "quantity_mt": "30000-33000",
+      "load_port": "Jorf Lasfar or Safi, Morocco",
+      "discharge_ports": [
+        "Chittagong",
+        "Mongla"
+      ],
+      "load_rate": "9000 mt/day",
+      "discharge_rate": "4000 mt/day",
+      "gear_requirement": "4x25T cranes",
+      "max_age_years": 15,
+      "commission": "2.5%"
+    },
+    {
+      "account": "SGT",
+      "cargo": "Bulk TSP",
+      "quantity_mt": "27000-27500",
+      "load_port": "Sfax",
+      "discharge_ports": [
+        "Chittagong",
+        "Mongla"
+      ],
+      "laycan": "2025-12-05/2025-12-10",
+      "load_rate": "5000 mt/day",
+      "discharge_rate": "4000 mt/day",
+      "gear_requirement": "4x25T cranes",
+      "max_age_years": 15,
+      "commission": "2.5%"
+    },
+    {
+      "account": "SIPS",
+      "cargo": "Gypsum",
+      "quantity_mt": "25000-35000",
+      "load_port": "Zarzis",
+      "discharge_port": "Port Harcourt",
+      "draft_limit_m": 9,
+      "laycan": "2025-12-25/2025-12-30",
+      "load_rate": "10000 mt/day",
+      "discharge_rate": "4000 mt/day",
+      "commission": "4.75%"
+    }
+  ]
+}

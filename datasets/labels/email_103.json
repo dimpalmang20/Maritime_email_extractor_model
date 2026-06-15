@@ -1,0 +1,22 @@
+{
+  "email_id": 103,
+  "email_type": "cargo_inquiry",
+  "charterer": "Vedanta Limited",
+  "cargo": "Iron Ore Fines",
+  "cargo_grade": "1-2 Grades",
+  "quantity_mt": 55000,
+  "quantity_tolerance_pct": 10,
+  "load_port": "Mormugao Berth 10/11",
+  "load_region": "West Coast India",
+  "load_draft_m": 12.8,
+  "discharge_port": "China",
+  "load_rate_mt_day": 20000,
+  "discharge_rate_mt_day": 15000,
+  "laycan_from": "2025-11-12",
+  "laycan_to": "2025-11-15",
+  "required_vessel_type": "Geared Bulk Carrier",
+  "max_vessel_age_years": 15,
+  "address_commission_pct": 1.25,
+  "brokerage_pct": 1.25,
+  "cargo_type": "Cargo Order"
+}

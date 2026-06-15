@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ARIANDA",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "38046",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "9537276",
+    "grt": "",
+    "nrt": "24050",
+    "loa": "179.97m",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "KWINANA,",
+    "open_date": "2026-03-06",
+    "close_date": "2026-03-08",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE\n\nCURRENT\n\nALL DETAILS",
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF\n\nSWELL"
+    ],
+    "confidence_score": 0.98
+  }
+]

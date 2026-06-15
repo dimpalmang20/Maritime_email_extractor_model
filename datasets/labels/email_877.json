@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OPEN MULDWARKA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2023",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "36600",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "MULDWARKA",
+    "open_date": "2025-12-10",
+    "close_date": "2025-12-14",
+    "matching_region": "India",
+    "restrictions": [
+      "NO RED SEA\n\nMV PORT EVERGLADES",
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO SWELL NOR ADVERSE CURRENT AND CLEAN BOTTOM"
+    ],
+    "confidence_score": 0.8
+  }
+]

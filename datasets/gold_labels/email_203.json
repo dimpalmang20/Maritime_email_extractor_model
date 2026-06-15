@@ -1,0 +1,50 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 198\nemail_type: open_vessels\nsource_company: Marcons Shipmanagement Pvt. Ltd.\nvessels:\n- vessel_name: HEILAN EQUILIBRIUM\n  flag: Panama\n  class: CCS\n  built_year: 2011\n  open_port: Dammam\n  open_date: '2025-11-25/27'\n  vessel_type: Single Deck\n  dwt: 56815\n  draft_m: 12.8\n  tpc: 58.8\n  loa_m: 189.99\n  beam_m: 32.26\n  gross_tonnage: 32953\n  net_tonnage: 19142\n  holds: 5\n  hatches: 5\n  grain_capacity_cbm: 71634.09\n  bale_capacity_cbm: 68162.25\n  cranes: 4x35MT\n  grabs: 4x6-12CBM\n  trading_restrictions: No Iran / Israel / Yemen, Middle East / Japan range only",
+  "entities": {
+    "VESSEL": [
+      "HEILAN EQUILIBRIUM"
+    ],
+    "VESSEL_TYPE": [
+      "SD"
+    ],
+    "DWT": [
+      "56815 DWT",
+      "56815MT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "DAMMAM"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Marcons Group",
+      "Marcons Shipmanagement Pvt. Ltd.",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "25-27 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "bulk@marconsgroup.com",
+      "harshhjjaiwal45@outlook.com",
+      "shipbroker1999@gmail.com",
+      "kd412830@gmail.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "NO IRAN/ISRAEL/YEMEN",
+      "ONLY TRADE W/I MIDDLE EAST/JPN RANGE"
+    ]
+  }
+}

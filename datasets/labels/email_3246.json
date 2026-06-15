@@ -1,0 +1,43 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2026-01-09",
+    "laycan_end": "2026-01-14",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "IFO AND ABT 60 MT LSGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "26436",
+    "loa": "",
+    "beam": "30.02m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL",
+      "NO MIXING OF LSFO IS ALLOWED AND BUNKER SUPPLY IS ALLOWED UP TO"
+    ],
+    "confidence_score": 0.62
+  }
+]

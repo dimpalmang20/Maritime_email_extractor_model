@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Wheat",
+    "cargo_type": "Dry Bulk",
+    "quantity": "30000-50000",
+    "quantity_unit": "MT",
+    "load_port": "KAVKAZ , RUSSIA",
+    "discharge_port": "EGYPT",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

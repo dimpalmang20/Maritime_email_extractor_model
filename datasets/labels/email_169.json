@@ -1,0 +1,15 @@
+{
+  "email_id": 169,
+  "type": "requirement",
+  "source_email": 169,
+  "account": "SSIPL",
+  "requirement": {
+    "vessel_size": "Supramax / Ultramax",
+    "delivery": "APS Kpeme, Togo",
+    "laycan": "2025-11-24/28",
+    "cargo": "Bulk Rock Phosphate",
+    "employment": "1 TCT",
+    "redelivery": "India",
+    "commission_pct": 3.75
+  }
+}

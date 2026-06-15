@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "VIETSEA",
+    "cargo": "DW / TCT WITH",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "KWINANA",
+    "redel_port": "BUNBURY",
+    "laycan_start": "2026-01-13",
+    "laycan_end": "2026-01-18",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "VIETSEA",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "KWINANA/BUNBURY, AUSTRALIA",
+    "redel_port": "BUNBURY",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

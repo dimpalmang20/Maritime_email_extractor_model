@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BRILLIANT JOURNEY",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ZHANJIAGANG,",
+    "open_date": "2026-12-18",
+    "close_date": "2026-12-20",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BRILLIANT JOURNEY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "34794",
+    "loa": "199.98m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO\n\nCIRCUMSTANCES\n\nWHATSOEVER ARE CHARTERERS ENTITLED TO DEDUCT ANY ALLEGED PERFORMANCE CLAIM\n\nFROM HIRE"
+    ],
+    "confidence_score": 0.65
+  }
+]

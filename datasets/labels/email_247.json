@@ -1,0 +1,39 @@
+{
+  "email_id": 247,
+  "email_type": "tonnage",
+  "source": "Interbulk",
+  "vessels": [
+    {
+      "vessel_name": "XIN HAI TONG 61",
+      "former_name": "SFL YUKON",
+      "imo": "9600839",
+      "open_position": "Otranto, Italy",
+      "open_date": "2025-11-28/2025-12-04",
+      "built_year": 2010,
+      "flag": "Hong Kong",
+      "class": "CCS",
+      "dwt_mt": 56869,
+      "draft_m": 12.8,
+      "tpc": 58.8,
+      "loa_m": 189.99,
+      "beam_m": 32.26,
+      "lbp_m": 185.0,
+      "depth_m": 18.0,
+      "gt": 33044,
+      "nt": 19231,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30 MT",
+      "last_cargoes": [
+        "General Cargo",
+        "Grain",
+        "General Cargo",
+        "Nickel Ore"
+      ],
+      "bunkers_on_board": {
+        "lsfo_mt": "200-300",
+        "mgo_mt": "130-190"
+      }
+    }
+  ]
+}

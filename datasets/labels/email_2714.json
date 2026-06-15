@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SULTAN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "23948",
+    "built_year": "1996",
+    "flag": "",
+    "imo": "",
+    "grt": "15438",
+    "nrt": "8180",
+    "loa": "159.5m",
+    "beam": "25.8m",
+    "grain_capacity": "",
+    "open_port": "PHILLIPPINES,",
+    "open_date": "2027-01-10",
+    "close_date": "2027-01-15",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

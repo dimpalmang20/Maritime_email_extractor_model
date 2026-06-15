@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "Nexamarine",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "55000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-11-20",
+    "laycan_end": "2025-11-25",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [
+      "No sanction trading but need Yemen option"
+    ],
+    "confidence_score": 0.79
+  }
+]

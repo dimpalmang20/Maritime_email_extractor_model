@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DAYANG JINLAN 56469 DWT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56469",
+    "built_year": "",
+    "flag": "HONG KONG",
+    "imo": "9626924",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "HONKONG",
+    "open_date": "2026-11-24",
+    "close_date": "2026-11-28",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE\n\nOF SWELL",
+      "NO EXTRAPOLATION OF GOOD WEATHER ANALYSIS CAN BE MADE TO OVERALL VOYAGE"
+    ],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "email_id": 260,
+  "email_type": "vessel_position",
+  "company": "Indus Bulk Shipping",
+  "contact_person": "Farhan Ali",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "F-LINE",
+      "vessel_type": "Box Shaped Bulk Carrier",
+      "dwt": 32106,
+      "built_year": 2007,
+      "flag": "Barbados",
+      "class": "DNV",
+      "open_position": "Dakar / Ivory Coast",
+      "open_date": "2025-12-20 to 2025-12-30",
+      "grain_capacity_cbm": 40974.9,
+      "bale_capacity_cbm": 39588.9,
+      "holds_hatches": "5/5",
+      "cranes": "4 x 30 MT",
+      "grabs": null,
+      "last_cargo": [
+        "Wheat",
+        "Wheat",
+        "Wheat"
+      ],
+      "trade_preference": "ECSA / Baltic Sea / Russia"
+    }
+  ]
+}

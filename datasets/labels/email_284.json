@@ -1,0 +1,22 @@
+{
+  "email_id": 284,
+  "email_type": "vessel_position",
+  "company": "TNS Shipbrokers",
+  "vessels": [
+    {
+      "vessel_name": "OCEAN AZALEA",
+      "imo": "9737357",
+      "built_year": 2015,
+      "dwt": 63083,
+      "draft_m": 13.3,
+      "loa_m": 199.90,
+      "beam_m": 32.26,
+      "grain_capacity_cbm": 77784,
+      "holds_hatches": "5/5",
+      "cranes": "4 x 36 MT",
+      "grabs": "4 x 12 CBM",
+      "open_position": "Jinzhou",
+      "open_date": "2025-11-14 to 2025-11-15"
+    }
+  ]
+}

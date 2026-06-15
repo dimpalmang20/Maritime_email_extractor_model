@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HUAN YA 1",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "22247",
+    "built_year": "",
+    "flag": "Panama",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "154.61m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ORIENT GLORY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32536",
+    "built_year": "2002",
+    "flag": "Panama",
+    "imo": "",
+    "grt": "",
+    "nrt": "19872",
+    "loa": "",
+    "beam": "177m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

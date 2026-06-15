@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AGIOS NEKTARIOS",
+    "vessel_type": "Container Ship",
+    "dwt": "57000",
+    "built_year": "",
+    "flag": "Marshall Islands",
+    "imo": "9515759",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MONGLA,",
+    "open_date": "2026-12-25",
+    "close_date": "2026-12-26",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "No Majuro"
+    ],
+    "confidence_score": 0.98
+  }
+]

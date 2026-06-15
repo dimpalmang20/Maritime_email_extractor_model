@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEARIDER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "49988",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "35884",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.99m",
+    "grain_capacity": "",
+    "open_port": "TILBURY,",
+    "open_date": "2027-01-22",
+    "close_date": "2027-01-23",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

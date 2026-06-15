@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN MAJESTY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63514",
+    "built_year": "2016",
+    "flag": "Marshall Islands",
+    "imo": "1050789",
+    "grt": "25617",
+    "nrt": "13214",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "SUAO,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HOT COILS WITH 4 DUNNAGES",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "42902",
+    "built_year": "",
+    "flag": "",
+    "imo": "9966099",
+    "grt": "35635",
+    "nrt": "21434",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Loop",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO\n\nNEGATIVE\n\nINFLUENCE OF SWELL AND IN DEEP WATERS"
+    ],
+    "confidence_score": 0.95
+  }
+]

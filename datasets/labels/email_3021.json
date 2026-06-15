@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "42000",
+    "built_year": "2024",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "mombasa",
+    "open_date": "2027-01-07",
+    "close_date": "2027-01-08",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO RUS",
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.77
+  }
+]

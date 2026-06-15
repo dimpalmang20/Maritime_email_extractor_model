@@ -1,0 +1,27 @@
+
+{
+  "text": "From: MCD Lidomar <lidomar@lidomar.ro>\nSent: Friday, July 4, 2025 1:50 PM\nTo: M.C.D. LIDOMAR <lidomar@lidomar.ro>\nSubject: Aqaba - Pivdenniy- 15-18'000 mt ferts (NPK, not imo, stw=dwt)\n\nMCD LIDOMAR\n\nAtt. Chartering Desk\n/Catalin\nGood day\n\n- 15-18'000 mt ferts (NPK, not imo, stw=dwt)\n- Aqaba - Pivdenniy\n- 4000x/2000x\n- 15-25 July\n- 2.5",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": "ferts (NPK)",
+    "PORT": [
+      "Aqaba",
+      "Pivdenniy"
+    ],
+    "LOAD_PORT": "Aqaba",
+    "DISCHARGE_PORT": "Pivdenniy",
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": "15-18'000 mt",
+    "CHARTERER": null,
+    "BROKER": "MCD Lidomar",
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": "15-25 July",
+    "FREIGHT_RATE": "2.5",
+    "VESSEL_TYPE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": "15-18'000 mt",
+    "CONTACT": "lidomar@lidomar.ro"
+  }
+}

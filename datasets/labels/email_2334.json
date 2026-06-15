@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "wheat flour in BB SF ABT 59",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "hatch,grd",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.67
+  }
+]

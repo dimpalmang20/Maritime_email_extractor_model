@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "14415",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "",
+    "grt": "16042",
+    "nrt": "",
+    "loa": "159.18m",
+    "beam": "25m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.66
+  }
+]

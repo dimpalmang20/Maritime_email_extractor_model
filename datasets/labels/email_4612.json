@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "INT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "31785",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "9487067",
+    "grt": "",
+    "nrt": "19994",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BINTULU",
+    "open_date": "2026-04-08",
+    "close_date": "2026-04-09",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENTS AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO ADVERSE CURRENTS AND NO NAVITIVE INFLUENCE OF SWELL",
+      "NO ADVERSE CURRENT AND VALID UPTO"
+    ],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "DAVA - 48-59K DWT EX S.KALI TO ECI WITH ALUMINA IN BULK",
+    "cargo": "KALI TO ECI WITH ALUMINA",
+    "cargo_type": "Dry Bulk",
+    "dwt": "59000",
+    "del_port": "TO MAKE SOUTH KALIMANTAN",
+    "redel_port": "",
+    "laycan_start": "2026-12-23",
+    "laycan_end": "2026-12-27",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

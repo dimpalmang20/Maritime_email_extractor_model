@@ -1,0 +1,38 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SCL Shipping Services LLC",
+    "cargo": "H.R. Steel Coils",
+    "cargo_type": "General Cargo",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "1.25%",
+    "matching_region": "Russia",
+    "restrictions": [
+      "no waiting clause due to congestion/bad weather, and force majeure to be applicable bends"
+    ],
+    "confidence_score": 0.71
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Break",
+    "cargo_type": "Dry Bulk",
+    "dwt": "",
+    "del_port": "ST. PETERSBURG / UST LUGA RANGE",
+    "redel_port": "UAE RANGE / AG RANGE",
+    "laycan_start": "2026-06-15",
+    "laycan_end": "2026-06-25",
+    "duration": "30-40 days",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

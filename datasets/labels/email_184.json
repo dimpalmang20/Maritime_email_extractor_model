@@ -1,0 +1,48 @@
+{
+  "email_id": 184,
+  "type": "tonnage",
+  "source_email": 184,
+  "vessels": [
+    {
+      "name": "MV HTP OCEAN",
+      "dwt": 3060.7,
+      "built": 2007,
+      "flag": "Vietnam",
+      "open_position": "Bangkok",
+      "open_date": "2025-12-01/03",
+      "holds_hatches": "2/2",
+      "gear": "Gearless",
+      "grain_capacity_cbm": 3748.1,
+      "bale_capacity_cbm": 3454.176
+    },
+    {
+      "name": "MV HOA BINH 27",
+      "dwt": 2715.47,
+      "built": 2004,
+      "open_position": "Muara",
+      "open_date": "2025-12-10/14",
+      "holds_hatches": "2/2",
+      "gear": "Gearless",
+      "grain_capacity_cbm": 3497.7,
+      "bale_capacity_cbm": 2914.3
+    },
+    {
+      "name": "MV HTP LUCKY",
+      "dwt": 7500,
+      "open_position": "Bataan",
+      "open_date": "2025-11-21/23"
+    },
+    {
+      "name": "MV HTP AMBER",
+      "dwt": 10309,
+      "open_position": "Haldia",
+      "open_date": "2025-12-Early"
+    },
+    {
+      "name": "MV HTP TBN",
+      "dwt": 13285,
+      "open_position": "Ho Chi Minh City",
+      "open_date": "2025-12-Early"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN TRITON",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "42902",
+    "built_year": "2013",
+    "flag": "LIBERA",
+    "imo": "9966099",
+    "grt": "26128",
+    "nrt": "13465",
+    "loa": "179.97m",
+    "beam": "29.8m",
+    "grain_capacity": "",
+    "open_port": "YEOSU,",
+    "open_date": "2027-04-17",
+    "close_date": "2027-04-22",
+    "matching_region": "Far East",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE\n\nINFLUENCE OF SWELL AND IN DEEP WATERS",
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.98
+  }
+]

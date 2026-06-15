@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FORTUNE HORIZON",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38000",
+    "built_year": "2012",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "24504",
+    "loa": "",
+    "beam": "189m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-01-04",
+    "close_date": "2026-01-08",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.82
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FORTUNE HORIZON",
+    "vessel_type": "Ultramax Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "",
+    "flag": "",
+    "imo": "1065899",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "LOOP",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

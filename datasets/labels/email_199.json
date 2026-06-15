@@ -1,0 +1,20 @@
+{
+  "email_id": 199,
+  "type": "tonnage",
+  "source_email": 199,
+  "vessels": [
+    {
+      "name": "MV SILVER STAR",
+      "dwt": 55725,
+      "built": 2006,
+      "flag": "Vietnam",
+      "open_position": "Chittagong",
+      "open_date": "2025-11-14",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30 MT Cranes",
+      "grabs": "10-12 CBM",
+      "grain_capacity_cbm": 68001.2,
+      "bale_capacity_cbm": 66121.7
+    }
+  ]
+}

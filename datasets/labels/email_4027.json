@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "APS NCHINA",
+    "redel_port": "",
+    "laycan_start": "2026-02-10",
+    "laycan_end": "2026-02-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.72
+  }
+]

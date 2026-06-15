@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CETUS TIGER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Chittagong, Bangladesh",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CETUS TIGER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "Marshall islands",
+    "imo": "9606003",
+    "grt": "22866",
+    "nrt": "12519",
+    "loa": "",
+    "beam": "28.6m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL",
+      "NO MIXING OF LSFO IS ALLOWED AND BUNKER SUPPLY IS ALLOWED UP TO"
+    ],
+    "confidence_score": 0.73
+  }
+]

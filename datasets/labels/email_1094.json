@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "18500",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "9326495",
+    "grt": "",
+    "nrt": "12899",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "no bale capacity available on board",
+      "No frame into holds\n\nEl",
+      "No Deck cargo allowed\n\nITF Fitted\n\nP"
+    ],
+    "confidence_score": 0.71
+  }
+]

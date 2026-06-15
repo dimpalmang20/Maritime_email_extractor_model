@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-99999",
+    "del_port": "",
+    "redel_port": "VERACRUZ - KEYWEST",
+    "laycan_start": "2026-03-02",
+    "laycan_end": "2026-03-07",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [
+      "NO NEED 25MT X 2 TIER)"
+    ],
+    "confidence_score": 0.87
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OBE UNITY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "64204",
+    "built_year": "",
+    "flag": "",
+    "imo": "9986958",
+    "grt": "36412",
+    "nrt": "",
+    "loa": "199.99m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "PRAI,",
+    "open_date": "2025-12-25",
+    "close_date": "2025-12-31",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

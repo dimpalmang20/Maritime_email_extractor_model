@@ -1,0 +1,47 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BEYOND",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28000",
+    "built_year": "2004",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "West Coast India",
+    "restrictions": [
+      "NO SANCTION CALLING"
+    ],
+    "confidence_score": 0.74
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BEYOND",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28710",
+    "built_year": "2004",
+    "flag": "",
+    "imo": "9282780",
+    "grt": "",
+    "nrt": "17679",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO NEGATIVE SWELL",
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.86
+  }
+]

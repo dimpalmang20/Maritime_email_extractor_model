@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "64777",
+    "built_year": "2025",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "36553",
+    "nrt": "",
+    "loa": "199.99m",
+    "beam": "32.26m",
+    "grain_capacity": "80347",
+    "open_port": "PARADIP,",
+    "open_date": "2025-12-08",
+    "close_date": "2025-12-13",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

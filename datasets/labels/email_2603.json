@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SAFE COURSE",
+    "vessel_type": "MR Tanker",
+    "dwt": "33000",
+    "built_year": "",
+    "flag": "",
+    "imo": "9459137",
+    "grt": "21483",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "PARADIP,",
+    "open_date": "2026-01-10",
+    "close_date": "2026-01-15",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

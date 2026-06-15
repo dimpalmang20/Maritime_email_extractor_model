@@ -1,0 +1,80 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: I N D O S I N O - SINCE 2000 - Professional Shipbroking Company <chartering@indosinogroup.com>\nSent: 13 November 2025 12:05\nSubject: 1 (SMALL TONNAGE) TONNAGE OPEN EC INDIA / BANGLADESH\n\nMV ASHICO VICTORIA     DWT 10,071 MT        - OPEN AT MALE O/A 19TH NOV 2025, LOOKING FOR VOYAGE OR TCT, TC \n\nMV.HT PIONEER - 12,000 DWT, SD, PMDS CLASS, QBE (EUROPE), 02 CRANE X 23MTS: OPEN CHITTAGONG O/A 01-05 DEC 2025.\n\nMV.HOANG TUAN 89 - 5,300 DWT, SD, VR CLASS, QBE (EUROPE), 02 CRANE X 12MTS : OPEN BANGLADESH O/A END NOV 2025.\n\nMV.ASIAN HONOR - 10,200 DWT, TD, NK CLASS, WOE, 02 CRANE X 30MTS (COMBINE 60MTS) + 01 DERRICK X 30MTS: OPEN TUTICORIN O/A END DEC - EARLY JAN 2026.",
+  "entities": {
+    "VESSEL": [
+      "ASHICO VICTORIA",
+      "HT PIONEER",
+      "HOANG TUAN 89",
+      "ASIAN HONOR"
+    ],
+    "VESSEL_TYPE": [
+      "SMALL TONNAGE",
+      "TWEENDECKER",
+      "SD",
+      "LOGGER",
+      "GENERAL CARGO SHIP",
+      "SINGLE DECK",
+      "TD",
+      "Tweendeck"
+    ],
+    "DWT": [
+      "10,071 MT",
+      "12,000 DWT",
+      "11921.8MT",
+      "5,300 DWT",
+      "5,272.48 MT",
+      "10,200 DWT"
+    ],
+    "IMO": [
+      "9444182",
+      "5986966",
+      "9364887"
+    ],
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "EC INDIA",
+      "BANGLADESH",
+      "MALE",
+      "CHITTAGONG",
+      "TUTICORIN"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "INDO SINO",
+      "Indo Sino Chartering Agency Services",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "19TH NOV 2025",
+      "01-05 DEC 2025",
+      "END NOV 2025",
+      "END DEC - EARLY JAN 2026"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "TCT",
+      "TC",
+      "VOYAGE"
+    ],
+    "TONNAGE": [
+      "SMALL TONNAGE"
+    ],
+    "CONTACT": [
+      "chartering@indosinogroup.com",
+      "chartering@rawatindosinogroup.co.in",
+      "rawatindosinogroup@gmail.com",
+      "indosinogroup@gmail.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "EXCLUDE: N.KOREA, AUSTRAYLIA, I/I, RED SEA/HR"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "email_id": 105,
+  "email_type": "open_vessels",
+  "source_company": "Aryacorp",
+  "vessels": [
+    {
+      "vessel_name": "LILA II",
+      "dwt": 55000,
+      "open_port": "Antwerp",
+      "open_country": "Belgium",
+      "open_date_from": "2025-11-25",
+      "open_date_to": "2025-12-05"
+    },
+    {
+      "vessel_name": "LILA HOUSTON",
+      "dwt": 33000,
+      "open_port": "Peru",
+      "open_date_from": "2025-12-01",
+      "open_date_to": "2025-12-10"
+    },
+    {
+      "vessel_name": "LILA NOLA",
+      "dwt": 33000,
+      "open_port": "Piombino",
+      "open_country": "Italy",
+      "open_date_from": "2025-12-20",
+      "open_date_to": "2025-12-25"
+    },
+    {
+      "vessel_name": "LILA TOCHIGI",
+      "dwt": 28000,
+      "open_region": "Far East",
+      "open_date_from": "2026-01-05",
+      "open_date_to": "2026-01-10"
+    }
+  ]
+}

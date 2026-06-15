@@ -1,0 +1,22 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "HS GLORY",
+  "vessel_type": "SDBC",
+  "dwt": 18978,
+  "built_year": 2008,
+  "flag": "MARSHALL ISLANDS",
+  "imo": "",
+  "grt": 11743,
+  "nrt": 6457,
+  "loa": 139.92,
+  "beam": 25.0,
+  "grain_capacity": 23160,
+  "bale_capacity": 22563,
+  "open_port": "NAGOYA",
+  "open_date": "2025-12-05",
+  "close_date": "2025-12-10",
+  "cranes": "3 X 30.5 MT",
+  "class": "KR",
+  "broker": "ARYACORP",
+  "confidence_score": 0.99
+}

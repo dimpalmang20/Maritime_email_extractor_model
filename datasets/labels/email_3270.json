@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AREQUIPA QUEEN",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HONG",
+    "open_date": "2027-01-20",
+    "close_date": "2027-01-25",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO 120-140MT",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "",
+    "built_year": "2016",
+    "flag": "CLASS NK",
+    "imo": "",
+    "grt": "31023",
+    "nrt": "15707",
+    "loa": "182.98m",
+    "beam": "32.26m",
+    "grain_capacity": "5967572",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO PERFORMANCE WARRANTY"
+    ],
+    "confidence_score": 0.67
+  }
+]

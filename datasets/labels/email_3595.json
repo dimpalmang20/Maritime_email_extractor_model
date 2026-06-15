@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO AT SEA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55725",
+    "built_year": "2014",
+    "flag": "",
+    "imo": "9668063",
+    "grt": "",
+    "nrt": "",
+    "loa": "32.25m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-01-30",
+    "close_date": "2027-02-04",
+    "matching_region": "East Coast South America",
+    "restrictions": [
+      "no fh",
+      "no dirties prefer ta skaw"
+    ],
+    "confidence_score": 0.97
+  }
+]

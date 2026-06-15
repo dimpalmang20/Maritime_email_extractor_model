@@ -1,0 +1,26 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "PROFOUND STAR",
+  "vessel_type": "BULK CARRIER",
+  "dwt": 24262,
+  "built_year": 2011,
+  "flag": "HONG KONG",
+  "class": "RINA",
+  "grt": 15599,
+  "nrt": 8183,
+  "loa": 159.9,
+  "beam": 24.4,
+  "grain_capacity": 29039,
+  "open_port": "KLANG, MALAYSIA",
+  "open_date": "END NOV 2025",
+  "cranes": "3 X 25MT",
+  "bod_lsfo": 400,
+  "bod_mgo": 80,
+  "trading_area": [
+    "RED SEA",
+    "EAST AFRICA",
+    "PG",
+    "FAR EAST"
+  ],
+  "confidence_score": 0.99
+}

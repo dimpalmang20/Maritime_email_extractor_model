@@ -1,0 +1,335 @@
+
+
+
+
+
+Best Regards:
+
+
+
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email: chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+
+-----Original Message-----
+From: Mail Delivery System <MAILER-DAEMON@vmi2441136.contaboserver.net> 
+Sent: 01 December 2025 11:10
+To: chartering@varitasnavigation.com
+Subject: Undelivered Mail Returned to Sender
+
+This is the mail system at host vmi2441136.contaboserver.net.
+
+I'm sorry to have to inform you that your message could not be delivered to
+one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can delete your own
+text from the attached returned message.
+
+                   The mail system
+
+<operation@hih.com.tr>: connect to
+    _dc-mx.e19b0b9c6d28.hih.com.tr[141.98.115.56]:25: No route to host
+
+<chartering3@trinity.com.pk>: connect to
+mx.trinity.com.pk[185.27.134.244]:25:
+    Connection refused
+
+<chartering@trinity.com.pk>: connect to
+mx.trinity.com.pk[185.27.134.244]:25:
+    Connection refused
+
+<chartering@astorya.net>: Host or domain name not found. Name service error
+for
+    name=astorya.net type=MX: Host not found, try again
+
+<fix@overseas.gr>: connect to overseas.gr[159.69.110.15]:25: No route to
+host
+
+<azuremaritime@smarl.net>: connect to smarl.net[157.7.44.169]:25: Connection
+    refused
+
+<broker@intermar.ru>: connect to intermar.ru[5.188.131.10]:25: Connection
+    refused
+
+<egemship@ttnet.net.tr>: Host or domain name not found. Name service error
+for
+    name=ttnet.net.tr type=MX: Host not found, try again
+
+<gondolmar@ttnet.net.tr>: Host or domain name not found. Name service error
+for
+    name=ttnet.net.tr type=MX: Host not found, try again
+
+<hppshp@ttnet.net.tr>: Host or domain name not found. Name service error for
+    name=ttnet.net.tr type=MX: Host not found, try again
+
+<isbir.den@ttnet.net.tr>: Host or domain name not found. Name service error
+for
+    name=ttnet.net.tr type=MX: Host not found, try again
+
+<nacar@ttnet.net.tr>: Host or domain name not found. Name service error for
+    name=ttnet.net.tr type=MX: Host not found, try again
+
+<tfgdnz@ttnet.net.tr>: Host or domain name not found. Name service error for
+    name=ttnet.net.tr type=MX: Host not found, try again
+
+<noray@norayshipping.es>: Host or domain name not found. Name service error
+for
+    name=norayshipping.es type=MX: Host not found, try again
+
+<efessos.handy_handymax@europe.com>: host mx01.mail.com[74.208.5.22] refused
+to
+    talk to me: 554-mail.com (mxgmxus006) Nemesis ESMTP Service not
+available
+    554-No SMTP service 554-Bad DNS PTR resource record. 554 For explanation
+    visit
+ 
+https://postmaster.mail.com/en/case?c=r0601&i=ip&v=94.136.184.46&r=1McZOt-1v
+vhT82gSj-00i2QZ
+
+<chartering@solechart.com>: Host or domain name not found. Name service
+error
+    for name=solechart.com type=MX: Host not found, try again
+
+<chartering@vstvarna.com>: Host or domain name not found. Name service error
+    for name=vstvarna.com type=MX: Host not found, try again
+
+<addul@aloola.sy>: host mail.aloola.sy[91.144.22.227] said: 454 4.7.1
+    <addul@aloola.sy>: Relay access denied (in reply to RCPT TO command)
+
+<chandra_e@airtelmail.in>: host
+    airtelmail-in.mail.eo.outlook.com[52.101.124.117] said: 451 4.4.4 Mail
+    received as unauthenticated, incoming to a recipient domain configured
+in a
+    hosted tenant which has no mail-enabled subscriptions. ATTR5
+    [TY2PEPF0000AB86.apcprd03.prod.outlook.com 2025-12-01T05:34:40.993Z
+    08DE2E5D16F5E197] (in reply to RCPT TO command)
+
+<chartering@buck-shipping.de>: host
+    buckshipping-de01b.mail.protection.outlook.de[52.101.170.0] said: 451
+4.4.4
+    Mail received as unauthenticated, incoming to a recipient domain
+configured
+    in a hosted tenant which has no mail-enabled subscriptions. ATTR5
+    [FR2PEPF000004EF.DEUP281.PROD.OUTLOOK.COM 2025-12-01T05:34:41.463Z
+    08DE2E699FED9F9B] (in reply to RCPT TO command)
+
+<chartering@odin.com.tr>: host
+    odin-com-tr.mail.protection.outlook.com[52.101.73.6] said: 451 4.4.4
+Mail
+    received as unauthenticated, incoming to a recipient domain configured
+in a
+    hosted tenant which has no mail-enabled subscriptions. ATTR5
+    [AMS1EPF00000042.eurprd04.prod.outlook.com 2025-12-01T05:34:41.729Z
+    08DE2ED33D9BD387] (in reply to RCPT TO command)
+
+<koza@koza.com>: host koza-com.mail.protection.outlook.com[52.101.68.8]
+said:
+    451 4.4.4 Mail received as unauthenticated, incoming to a recipient
+domain
+    configured in a hosted tenant which has no mail-enabled subscriptions.
+    ATTR5 [DB1PEPF000509EA.eurprd03.prod.outlook.com
+2025-12-01T05:34:41.770Z
+    08DE2E997B9326ED] (in reply to RCPT TO command)
+
+<sergey_icechart@te.net.ua>: host relay1.te.net.ua[195.138.80.34] said: 452
+    sergey_icechart@te.net.ua mail receiving disabled (in reply to RCPT TO
+    command)
+
+<hdy@clarksons.it>: connect to clarksons.it[185.53.178.99]:25: Connection
+timed
+    out
+
+<akva@vlad.ru>: connect to mail.vlad.ru[212.91.192.44]:25: Connection timed
+out
+
+<avl@cablebg.net>: connect to mail.interbgc.com[217.9.224.140]:25:
+Connection
+    timed out
+
+<chartering@fralliance.ru>: connect to fralliance.ru[92.255.111.71]:25:
+    Connection timed out
+
+<fix@kardeniz.com.tr>: connect to mail.kardeniz.com.tr[91.93.60.6]:25:
+    Connection timed out
+
+<alok.kumar@credencelogistics.com>: connect to
+    credencelogistics.com[207.148.248.143]:25: Connection timed out
+
+<sanat.mishra@credencelogistics.com>: connect to
+    credencelogistics.com[207.148.248.143]:25: Connection timed out
+
+<emir@emirshipping.net>: connect to emirshipping.net[156.253.33.222]:25:
+    Connection timed out
+
+<Chartering@tcacargo.com>: connect to tcacargo.com[192.155.108.158]:25:
+    Connection timed out
+
+<pricing_nscsa@osapl.com>: connect to osapl.com[52.223.13.41]:25: Connection
+    timed out
+
+<sonic@vladivostok.ru>: connect to vladivostok.ru[37.200.76.142]:25:
+Connection
+    timed out
+
+<newalpha@takas.lt>: connect to mail2.takas.lt[212.59.31.115]:25: Connection
+    timed out
+
+<oguzhan@trendbulk.com>: connect to trendbulk.com[52.20.84.62]:25:
+Connection
+    timed out
+
+<sergey@poseidon.ks.ua>: connect to relay.poseidon.ks.ua[91.215.71.32]:25:
+    Connection timed out
+
+<domarine@domarine.com>: connect to domarine.com[54.179.117.50]:25:
+Connection
+    timed out
+
+<yazykov@icn.odessa.ua>: connect to relay.icn.odessa.ua[79.135.200.96]:25:
+    Connection timed out
+
+<scbsc@chinabaseship.com>: connect to chinabaseship.com[104.21.87.147]:25:
+    Connection timed out
+
+<mail@saahas.net>: connect to saahas.net[13.235.167.102]:25: Connection
+timed
+    out
+
+<simco@simcomaritime.com>: connect to simcomaritime.com[15.197.142.173]:25:
+    Connection timed out
+
+<briskmarine@vsnl.com>: connect to vsnl.com[172.67.191.62]:25: Connection
+timed
+    out
+
+<eastchart@vsnl.com>: connect to vsnl.com[172.67.191.62]:25: Connection
+timed
+    out
+
+<westward@vsnl.com>: connect to vsnl.com[172.67.191.62]:25: Connection timed
+    out
+
+<dry@esship.com>: connect to esship.com[13.223.25.84]:25: Connection timed
+out
+
+<chartering@marcotrans.com>: connect to marcotrans.com[54.243.117.197]:25:
+    Connection timed out
+
+<natural@naturalship.com>: connect to naturalship.com[52.201.53.166]:25:
+    Connection timed out
+
+<omer@naturalship.com>: connect to naturalship.com[52.201.53.166]:25:
+    Connection timed out
+
+<cfrt@bom5.vsnl.net.in>: connect to in.mx1.mailhostbox.com[203.13.40.10]:25:
+    Connection timed out
+
+<elefship@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25:
+Connection
+    timed out
+
+<gerojo@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25: Connection
+    timed out
+
+<plessot@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25: Connection
+    timed out
+
+<samir@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25: Connection
+    timed out
+
+<semaster@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25:
+Connection
+    timed out
+
+<soumar@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25: Connection
+    timed out
+
+<starwind@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25:
+Connection
+    timed out
+
+<steamcht@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25:
+Connection
+    timed out
+
+<topicch@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25: Connection
+    timed out
+
+<tween@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25: Connection
+    timed out
+
+<vegastar@hol.gr>: connect to protect1.mail.hol.gr[62.38.2.71]:25:
+Connection
+    timed out
+
+<interchart@oceanbulk.com>: conversation with oceanbulk.com[199.59.243.228]
+    timed out while receiving the initial server greeting
+Dear All,
+
+ 
+
+Good day.
+
+ 
+
+// FULLY FIRM // CAN FIX WITH SHORT SUBS.
+
+ 
+
+ACC VARITAS NAVIGATION
+
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. 
+
+Load port: Tianjin, China
+
+Discharge port: Shuaiba, Kuwait.
+
+Load rate: CQD 
+
+Discharge: Liner out.
+
+Laycan 15-20th December 2025.
+
+As part cargo.
+
+2.5% Addcom
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Best Regards:
+
+ 
+
+
+
+ 
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+
+Website:- www.varitasnavigation.com
+
+ 
+

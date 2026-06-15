@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Busan 14 Dec trip via NoPac redel China",
+    "redel_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "no more details came to light",
+      "no change in the cargo book,"
+    ],
+    "confidence_score": 0.84
+  }
+]

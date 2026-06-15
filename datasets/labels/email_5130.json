@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "LOGS",
+    "cargo_type": "Dry Bulk",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "GREENVILLE, LIBERIA DRAFT RESTRICTION 7.5 MAXIMUM ALLOWED AT GREENVILLE",
+    "discharge_port": "CHITTAGONG, BANGLADESH",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

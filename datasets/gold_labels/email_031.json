@@ -1,0 +1,31 @@
+
+{
+  "text": "From: Chartering YB Global <chartering@ybglobalshipping.com>\nSent: Friday, September 12, 2025 3:34:53 PM\nTo: Chartering YB Global <chartering@ybglobalshipping.com>\nCc: Anish Ansalan <anish@ybglobalshipping.com>; Bala Subramanian <bala@ybglobalshipping.com>\nSubject: YB – TONNAGE REQUIRED FOR FIRM SUPRA/ULTRAMAX CARGO\n\nDear All,\n\nGood day,\nWe kindly request your best support to propose suitable tonnage for our firm Supra/Ultramax cargo requirement as follow:\n\nACC: YB GLOBAL SHIPPING LLC FZ\nNUMBER OF VESSELS: SUPRAMAX / ULTRAMAX PREFERRED\nCARGO: BULK HARMLESS CARGO\nLAYCAN: END SEP 2025\nTONNAGE: 56K – 65K DWT\nDELIVERY: WCI - S.E ASIA\nRANGE: WORLDWIDE\nPERIOD: 6 + 6 MONTHS\nADDCOM: 3.75%",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": "BULK HARMLESS CARGO",
+    "PORT": [
+      "WCI",
+      "S.E ASIA",
+      "WORLDWIDE"
+    ],
+    "LOAD_PORT": "WCI",
+    "DISCHARGE_PORT": "S.E ASIA",
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": "YB GLOBAL SHIPPING LLC FZ",
+    "BROKER": "YB Global Shipping",
+    "IMO": null,
+    "DWT": "56K – 65K DWT",
+    "LAYCAN": "END SEP 2025",
+    "FREIGHT_RATE": "3.75%",
+    "VESSEL_TYPE": [
+      "SUPRAMAX",
+      "ULTRAMAX"
+    ],
+    "CHARTER_TYPE": "PERIOD",
+    "TONNAGE": "56K – 65K DWT",
+    "CONTACT": "chartering@ybglobalshipping.com"
+  }
+}

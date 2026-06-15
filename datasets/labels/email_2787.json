@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ic progress - open spot salvador",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "spot",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Brazil",
+    "restrictions": [],
+    "confidence_score": 0.67
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ic progress - open spot salvador",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32500",
+    "built_year": "2011",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "20218",
+    "nrt": "",
+    "loa": "177.5m",
+    "beam": "28.2m",
+    "grain_capacity": "",
+    "open_port": "spot",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Brazil",
+    "restrictions": [
+      "NO GRABS FITTED\n\nTANK TOP STRENGTH",
+      "NO NEGATIVE INFLUENCE BY SWELL",
+      "NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.91
+  }
+]

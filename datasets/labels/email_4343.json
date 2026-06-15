@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JOHNY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "51239",
+    "nrt": "31173",
+    "loa": "229.2m",
+    "beam": "",
+    "grain_capacity": "1103301",
+    "open_port": "LOOP",
+    "open_date": "2010-11-01",
+    "close_date": "2010-11-30",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO EXTRAPOLATION IS ALLOWED FOR BAD WEATHER PERIODS WHILE ASSESSING VESSEL",
+      "NO COMINGLING OF BUNKERS ALLOWED"
+    ],
+    "confidence_score": 0.82
+  }
+]

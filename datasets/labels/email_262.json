@@ -1,0 +1,45 @@
+{
+  "email_id": 262,
+  "email_type": "vessel_position",
+  "company": "Seaspeed Marine Management LLC",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "MINOAN COURAGE",
+      "vessel_type": "Bulk Carrier",
+      "dwt": 76801,
+      "built_year": 2004,
+      "flag": "Liberia",
+      "open_position": "RBCT",
+      "open_date": "2025-11-21 to 2025-11-22",
+      "holds_hatches": "7/7",
+      "grain_capacity_cbft": 3210976,
+      "loa_m": 225.0,
+      "beam_m": 32.2,
+      "speed_ballast_knots": 12.0,
+      "speed_laden_knots": 12.0,
+      "cons_ballast_mt_day": 26.5,
+      "cons_laden_mt_day": 27.5,
+      "bwts_fitted": true
+    },
+    {
+      "vessel_name": "MINOAN GLORY",
+      "vessel_type": "Bulk Carrier",
+      "dwt": 74748,
+      "built_year": 2006,
+      "flag": "Liberia",
+      "open_position": "Kakinada",
+      "open_date": "2025-11-15",
+      "holds_hatches": "7/7",
+      "grain_capacity_cbft": 3239077,
+      "loa_m": 225.0,
+      "beam_m": 32.26,
+      "speed_ballast_knots": 11.0,
+      "speed_laden_knots": 11.0,
+      "cons_ballast_mt_day": 25.5,
+      "cons_laden_mt_day": 27.0,
+      "bwts_fitted": true
+    }
+  ]
+}

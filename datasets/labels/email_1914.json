@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "L.O.A",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63118",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "9652325",
+    "grt": "",
+    "nrt": "22863",
+    "loa": "169.9m",
+    "beam": "199.99m",
+    "grain_capacity": "",
+    "open_port": "Zhoushan, China",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no adverse currents",
+      "no warranty applies to condition exceeding\n\nb",
+      "NO ADVERSE\n\nCURRENT AND NO NEGATIVE INFLUENCE OF SWELL AND IN DEEP WATERS WITH CLEAN\n\nBOTTOM"
+    ],
+    "confidence_score": 0.98
+  }
+]

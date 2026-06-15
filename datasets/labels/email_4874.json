@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ES WARRIOR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "",
+    "flag": "Portuguese",
+    "imo": "9623051",
+    "grt": "",
+    "nrt": "22856",
+    "loa": "177.85m",
+    "beam": "28.6m",
+    "grain_capacity": "",
+    "open_port": "ONSAN,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.94
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SWL Cranes",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "60513",
+    "built_year": "",
+    "flag": "",
+    "imo": "9775854",
+    "grt": "",
+    "nrt": "34157",
+    "loa": "197m",
+    "beam": "18.38m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no adverse\n\ncurrents and the effect of the positive currents not to be debited against\n\nthe vessel",
+      "no other outstanding"
+    ],
+    "confidence_score": 0.84
+  }
+]

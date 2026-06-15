@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 9.927M SSW",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "33810",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "9480564",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "30m",
+    "grain_capacity": "47558",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL",
+      "NO ADVERSE CURRENTS\n\nAND WITH WATER DEPTH EXCEEDING"
+    ],
+    "confidence_score": 0.86
+  }
+]

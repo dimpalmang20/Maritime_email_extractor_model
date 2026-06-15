@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SAI FORTUNE -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "29562",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "170.7m",
+    "grain_capacity": "",
+    "open_port": "SOHAR",
+    "open_date": "2025-12-05",
+    "close_date": "2025-12-06",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.9
+  }
+]

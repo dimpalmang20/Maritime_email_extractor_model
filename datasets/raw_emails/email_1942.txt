@@ -1,0 +1,47 @@
+TELiX MSG: 0I3NE-00 09/12/25 10:46 +02:00
+
+ 
+
+/VP
+
+Good day,
+
+Please propose for the below:
+ 
+ 
+USG+CARIBS+NCSA
+=================
+ACCT REFINED SUCCESS LTD
+SDBC HMX -UMX
+DEL USG
+LC 16 DEC ONWARDS
+REDEL SGP-JPN RGE
+1 TCT HMSS INT PETCOKE IN BLK
+3.75 ADDCOM PLUS
+ 
+ 
+ECSA+W. AFRICA
+===============
+ACCT REFINED SUCCESS LTD
+SDBC HMX-SMX
+DEL W.AFR INT ABIDJAN-KAMSAR
+LC 17 DEC ONWARDS
+REDEL SGP-JPN RGE
+1 TCT ORE OR BAUXITE IN BLK
+3.75 ADDCOM PLUS
+ 
+
+
+Thank you,
+
+Best Regards,
+Vasilis Papangelis
+As Brokers only,
+Teams: Vasilis Papangelis  
+WhatsApp, Teams: 0030 6981530195
+(Intl) Call Line: 0030 6981530195
+111 Vouliagmenis Ave., 166 74 Glyfada, Attica, Greece
+ 
+
+ 
+

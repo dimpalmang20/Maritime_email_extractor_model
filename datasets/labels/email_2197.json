@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "T PRIME",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32451",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "AUCKLAND,",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

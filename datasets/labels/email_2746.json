@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "GUARDIAN BULK",
+    "cargo": "A/C GUARDIAN",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-69999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-12-31",
+    "laycan_end": "2026-01-05",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.82
+  },
+  {
+    "email_type": "TC",
+    "account_name": "GUARDIAN BULK",
+    "cargo": "A/C GUARDIAN",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "NORTH VIETNAM",
+    "redel_port": "",
+    "laycan_start": "2026-01-10",
+    "laycan_end": "2026-01-20",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

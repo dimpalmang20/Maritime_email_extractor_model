@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LOWLANDS ENGEL -",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "40000",
+    "built_year": "2023",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Karachi, Pakistan",
+    "open_date": "2026-01-06",
+    "close_date": "2026-01-11",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO RUS",
+      "NO GOA TRANSIT",
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.92
+  }
+]

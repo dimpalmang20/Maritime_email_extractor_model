@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "HARMLESS COAL",
+    "cargo_type": "Dry Bulk",
+    "quantity": "70000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "HAIMEN",
+    "laycan_start": "2025-12-03",
+    "laycan_end": "2025-12-09",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

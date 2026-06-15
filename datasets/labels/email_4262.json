@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MV. PAN GRACE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37657",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "23173",
+    "loa": "",
+    "beam": "179.97m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-03-14",
+    "close_date": "2027-03-19",
+    "matching_region": "South Korea",
+    "restrictions": [
+      "NO GRABS ON BOARD\n\nSPEED"
+    ],
+    "confidence_score": 0.77
+  }
+]

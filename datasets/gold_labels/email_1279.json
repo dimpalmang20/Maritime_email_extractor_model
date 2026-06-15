@@ -1,0 +1,26 @@
+{
+   "text" : " \n \nThanks and Regards,\n \nShabu O.V. FICS, CMILT,MNI, FSCM\nManaging Director\n \n\nSobha Sapphire Bldg. Office No. 906 Business Bay 123175, Dubai, United Arab\nEmirates\nTel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mob: +97150 559 3926  \nEmail:  <mailto:ovshabu@transbulk.ae> ovshabu@transbulk.ae l Skype:\nTransbulk1\nWebsite:  <https://transbulk.ae/> https://transbulk.ae\n \nFrom: Mangesh Mayekar <mangesh@saiship.com> \nSent: Friday, 28 November 2025 4:07 PM\nTo: Mangesh Mayekar <mangesh@saiship.com>\nSubject: Mumbai seaport - Tianjin, China\n \nKind Attn : Chartering Desk,\n \nGood day,\n \nPlease advise interest and offer firm for below : \n \nPOL - Mumbai Port\nPOD - Tianjin Port\nTTL - 15 pkgs /   284.69 MTS / 1691.769 CBM ( +/-10 % MOLCHOPT ), ut wt max\n45 mtns\nLaycan - Cargo will be ready end of December 2025\nTerms - FLTHH\n3.75% FDD comm here\n \nPlease find enclosed packing List\n              \n\n \n \n",
+   "entities" : {
+      "FREIGHT_RATE" : null,
+      "PORT" : null,
+      "CHARTERER" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : null,
+      "DISCHARGE_PORT" : [
+         "Tianjin Port"
+      ],
+      "CONTACT" : null,
+      "LAYCAN" : [
+         "Cargo will be ready end of December 2025"
+      ],
+      "OPEN_DATE" : null,
+      "IMO" : null,
+      "CARGO" : null,
+      "VESSEL_TYPE" : null,
+      "LOAD_PORT" : [
+         "Mumbai Port"
+      ],
+      "VESSEL" : null,
+      "DWT" : null
+   }
+}

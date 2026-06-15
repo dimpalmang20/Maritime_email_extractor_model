@@ -1,0 +1,55 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: CST (Capital Shiptrade Ltd) <chartering@capitalship.eu>\nSent: 14 November 2025 16:22\nTo: CST (Capital Shiptrade Ltd) <chartering@capitalship.eu>\nSubject: Fwd: MV SIROCO - OPEN 22/24 NOVEMBER LAGOS\n \nFROM : CST | Capital S H I P B R O K E R S | Athens | Phone 210 2205911\nG day\n-- / Sideris\n*DIRECT / LOCAL HEAD OWNERS *\nOpen    Lagos 22/24  November\n \nMV SIROCO\nPrevious names: ex Calm Bay ex Calm Way.\nIMO : 9317705\nBUILT : 2006",
+  "entities": {
+    "VESSEL": [
+      "SIROCO",
+      "Calm Bay",
+      "Calm Way"
+    ],
+    "VESSEL_TYPE": [
+      "Box Shaped",
+      "Double Hull"
+    ],
+    "DWT": [
+      "37,534"
+    ],
+    "IMO": [
+      "9317705"
+    ],
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "Lagos"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Capital S H I P B R O K E R S",
+      "CST"
+    ],
+    "LAYCAN": [
+      "22/24 November"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@capitalship.eu",
+      "210 2205911",
+      "00302102205911",
+      "siderisfafalios",
+      "chartering@varitasnavigation.com",
+      "+ 91 9730358718",
+      "+91 9156366155"
+    ],
+    "RESTRICTIONS": [
+      "4 Single Deck Cranes 36t",
+      "No Grabs are fitted",
+      "CO2 FITTED IN HOLDS"
+    ]
+  }
+}

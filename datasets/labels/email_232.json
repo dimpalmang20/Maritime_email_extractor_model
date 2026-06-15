@@ -1,0 +1,19 @@
+{
+  "email_id": 232,
+  "email_type": "cargo_requirement",
+  "source": "Standard Bulk Shipbrokers",
+  "account": "Vedanta Limited or Nominee",
+  "cargo": "Iron Ore Fines",
+  "quantity_mt": 80000,
+  "quantity_option": "+/-10% MOLOO",
+  "laycan": "2025-11-17/2025-11-20",
+  "load_port": "Mormugao, India",
+  "discharge_port": "China CHOPT",
+  "load_rate": "12000 MT PWWD SHINC",
+  "discharge_rate": "22000 MT PWWD",
+  "vessel_requirements": {
+    "type": "Gearless",
+    "max_age_years": 15
+  },
+  "commission": "1.25% Addcom + 1.25% Standard Bulk Shipbrokers"
+}

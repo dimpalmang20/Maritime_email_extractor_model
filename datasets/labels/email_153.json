@@ -1,0 +1,14 @@
+{
+  "email_id": 153,
+  "type": "cargo",
+  "account": "ALS International Ship Chartering Limited",
+  "cargo": "Sulphur in bulk",
+  "quantity_mt": 60500,
+  "load_port": "Ruwais, UAE",
+  "discharge_port": "Weda Bay, Indonesia",
+  "laycan": {
+    "from": "2025-11-18",
+    "to": "2025-11-20"
+  },
+  "source_email": 153
+}

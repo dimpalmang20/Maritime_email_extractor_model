@@ -1,0 +1,52 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: P R I M E   M A R I T I M E   I N C. - PIRAEUS\nSent: 13 November 2025 09:31\nSubject: MV OCEANBEAUTY / 56.803 / 13 - ABIDJAN 21/25 NOV\n\nOUR USUAL OWS OPEN AS FOLLOWS \n \nPLS PPSE SUIT \n \nMV OCEANBEAUTY / 56.803 / 13 - ABIDJAN 21/25 NOV \n \nEX OUR CP \n \nMV OCEANBEAUTY\n===============\nTYPE  : SINGLE DECK BULK CARRIER\nBUILT : JAN 2013\nYARD  : COSCO ZHOUSHAN, CHINA\nFLAG  : LIBERIA\nPORT  : MONROVIA\nCLASS : CLASS : RINA BULK CARRIER ESP-CSR-BC-A\n               ALLOWED COMBINATION OF SPECIFIED EMPTY HOLDS\nL O A : 189.99 M\nDEPTH : 18.00 M\nBEAM  : 32.26 M\nSUMMER DWT/DFT : ABT 56,803.9 MT AT ABT 12.80 M\nINT'L GT / NT  : 33,049 / 19,132\nHOLDS/HATCHES  : 5 / 5\nHATCH COVERS   : CYLINDER FOLDING TYPE\nGRAIN CAPACITY : 2,529,722.1 CFT\n-VSL IS GRAB / GRAIN / EVAPORATOR FITTED / AHL FITTED.\n-VSL IS SUITABLE FOR GRAB DISCHARGE / GRAB FITTED.\nG E A R : CRANES 4 SETS X 30 MT (HOOK CAPACITY)\nCARGO LIFTING CAPACITY WITH GRABS : 24 MT\nGRABS CAPACITY : 12.0 / 10.0 / 8.5 / 7.0 / 5.5 CBM\nMAX CRANE OUTREACH : ABT 11.50 M",
+  "entities": {
+    "VESSEL": [
+      "OCEANBEAUTY"
+    ],
+    "VESSEL_TYPE": [
+      "SINGLE DECK BULK CARRIER"
+    ],
+    "DWT": [
+      "56.803",
+      "56,803.9 MT"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "GRAIN"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "ABIDJAN",
+      "COSCO ZHOUSHAN",
+      "MONROVIA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "P R I M E   M A R I T I M E   I N C. - PIRAEUS",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "21/25 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@primemaritime.gr",
+      "position@primemaritime.gr",
+      "operation@primemaritime.gr",
+      "snp@primemaritime.gr",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "NO DECK CARGO TO BE LOADED"
+    ]
+  }
+}

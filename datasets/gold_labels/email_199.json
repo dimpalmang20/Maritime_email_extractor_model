@@ -1,0 +1,50 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 194\nemail_type: open_vessels\nsource_company: Energy Bulk Carriers\nvessels:\n- vessel_name: SILVER STAR\n  ex_name: GEORGIOS S\n  call_sign: XVFW7\n  flag: Vietnam\n  class: VIRES\n  pni: THE AMERICA CLUB\n  port_of_registry: Saigon, Vietnam\n  built_year: 2006\n  open_port: Chittagong\n  open_country: Bangladesh\n  open_date: '2025-11-14'\n  alternative_port: Singapore\n  alternative_date: '2025-11-20/21'\n  dwt: 55725\n  draft_m: 12.575\n  tpc: 55.8\n  gross_tonnage: 31279\n  net_tonnage: 17709\n  grain_capacity_cbm: 68001.2\n  bale_capacity_cbm: 66121.7\n  cranes: 4x30MT\n  grabs: 4x10-12CBM",
+  "entities": {
+    "VESSEL": [
+      "SILVER STAR",
+      "GEORGIOS S"
+    ],
+    "VESSEL_TYPE": [
+      "BULK CARRIER"
+    ],
+    "DWT": [
+      "55,725MT",
+      "57,128MT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "CHITTAGONG",
+      "SINGAPORE",
+      "SAIGON"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Energy Bulk Carriers",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "14/NOV 2025",
+      "20-21/NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "55K"
+    ],
+    "CONTACT": [
+      "handy@energybulk.com",
+      "ebc12345@live.com.my",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "email_id": 256,
+  "email_type": "vessel_position",
+  "company": "Prime Maritime Inc",
+  "contact_person": "George Rachiotis / Kostas Sotiropoulos",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "APOLLON",
+      "vessel_type": "Bulk Carrier",
+      "dwt": 75614,
+      "built_year": 2017,
+      "flag": "Liberia",
+      "class": "CCS",
+      "open_position": "Karaikal, India",
+      "open_date": "2025-11-21 to 2025-11-25",
+      "grain_capacity_cbm": 91939,
+      "holds_hatches": "7/7",
+      "speed_ballast_knots": 12.0,
+      "speed_laden_knots": 11.0,
+      "cons_ballast_mt_day": 22.5,
+      "cons_laden_mt_day": 22.5,
+      "cranes": null,
+      "grabs": null
+    }
+  ]
+}

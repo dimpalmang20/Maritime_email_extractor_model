@@ -1,0 +1,70 @@
+{
+  "email_type": "Cargo",
+  "text": "From: LEMA Chartering <chart@lemafcc.com> \nSent: 14 November 2025 14:03\nSubject: Cashew EC Africa => Vietnam\n \n22-25K Dwt - 20 yrs max - 4x30 mts SWL / IACS\nFNC cashew in 80 kg bags - SF 2.0 wog\nMtwara / Heip Phouc, Hochiminh \n2000 / 1500 Shex EIU be \n1 ) 1-10 Dec\n2 ) end Dec,try dates\n2.50 pct ttl here \n \nRegards,\nSergey Slepchenko  \n-Chartering manager-  \n \n𝕃𝔼𝕄𝔸 𝕮𝖍𝖆𝖗𝖙𝖊𝖗𝖎𝖓𝖌 \n=since 1997=\n \nPart of Deniam Group AG\n2C Grangegorman Lower Smithfield, Dublin, Ireland\n e-mail : chart@lemafcc.com mob: +38-067-6211603 teams : mariupolshipbroker",
+  "entities": {
+    "VESSEL": null,
+    "VESSEL_TYPE": null,
+    "DWT": [
+      "22-25K Dwt"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "Cashew",
+      "FNC cashew"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "Mtwara",
+      "Heip Phouc",
+      "Hochiminh"
+    ],
+    "LOAD_PORT": [
+      "Mtwara"
+    ],
+    "DISCHARGE_PORT": [
+      "Heip Phouc",
+      "Hochiminh"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "LEMA Chartering"
+    ],
+    "BROKER": [
+      "LEMA Chartering"
+    ],
+    "LAYCAN": [
+      "1-10 Dec",
+      "end Dec"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "chart@lemafcc.com",
+      "+38-067-6211603",
+      "mariupolshipbroker"
+    ],
+    "RESTRICTIONS": [
+      "20 yrs max",
+      "4x30 mts SWL",
+      "IACS",
+      "80 kg bags"
+    ]
+  },
+  "cargo_name": "Cashew",
+  "cargo_type": "FNC cashew in 80 kg bags",
+  "account_name": null,
+  "min_size": 22000,
+  "max_size": 25000,
+  "region": "EC Africa",
+  "matching_region": "EAST AFRICA",
+  "load_port": "Mtwara",
+  "discharge_port": "Heip Phouc, Hochiminh",
+  "laycan_start_date": "2025-12-01",
+  "laycan_end_date": "2025-12-31",
+  "email_id": "chart@lemafcc.com",
+  "phone_number": "+380676211603",
+  "latitude": null,
+  "longitude": null
+}

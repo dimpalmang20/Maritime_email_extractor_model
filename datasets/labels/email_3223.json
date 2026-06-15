@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "12500",
+    "built_year": "2010",
+    "flag": "SINGAPORE",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "189.5m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "Jeddah, Saudi Arabia",
+    "open_date": "2027-01-20",
+    "close_date": "2027-01-25",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO DECK CARGO\n\nAND GOOD WEATHER CONDITIONS",
+      "NO TO EXCEED",
+      "NO ADVERSE INFLUENCE OF CURRENTS"
+    ],
+    "confidence_score": 0.95
+  }
+]

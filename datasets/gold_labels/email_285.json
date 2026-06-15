@@ -1,0 +1,94 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: I N D O S I N O - SINCE 2000 - Professional Dry Bulk Shipbroking Company <chartering@rawatindosinogroup.co.in>\nSubject: 135 DIRECT POSITION\n\nEAST LUCKY 2008 12,500 COLOMBO 30-Nov\nWB PROSPECT 2004 11,800 CJK, CN 5-Dec\nCHANG XIN 2009 11,000 BEIRA 24-Dec\nJING CHANG 2007 13,000 PENANG, MALAY 26-Dec\nWB JOURNEY 2012 12,308 CJK, CN 12-Jan",
+  "entities": {
+    "VESSEL": [
+      "EAST LUCKY",
+      "WB PROSPECT",
+      "CHANG XIN",
+      "JING CHANG",
+      "WB JOURNEY"
+    ],
+    "VESSEL_TYPE": [
+      "S/D",
+      "T/D"
+    ],
+    "DWT": [
+      "12,500",
+      "11,800",
+      "11,000",
+      "13,000",
+      "12,308"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "COLOMBO",
+      "CJK, CN",
+      "BEIRA",
+      "PENANG, MALAY"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "INDO SINO",
+      "Indo Sino Chartering Agency Services"
+    ],
+    "LAYCAN": [
+      "30-Nov",
+      "5-Dec",
+      "24-Dec",
+      "26-Dec",
+      "12-Jan"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@rawatindosinogroup.co.in",
+      "00-91-11-49990590",
+      "00-91-9810827498"
+    ],
+    "RESTRICTIONS": null
+  },
+  "tonnage_type": "Direct Tonnage List",
+  "port": [
+    "COLOMBO",
+    "CJK, CN",
+    "BEIRA",
+    "PENANG, MALAY"
+  ],
+  "region": [
+    "Sri Lanka",
+    "China",
+    "Mozambique",
+    "Malaysia"
+  ],
+  "matching_region": "Multi-Region",
+  "open_date": "2025-11-30",
+  "close_date": "2026-01-12",
+  "dwt": [
+    "12500",
+    "11800",
+    "11000",
+    "13000",
+    "12308"
+  ],
+  "tonnage_name": [
+    "EAST LUCKY",
+    "WB PROSPECT",
+    "CHANG XIN",
+    "JING CHANG",
+    "WB JOURNEY"
+  ],
+  "pic": "SHRISTI FOR MR LAKSHMAN SINGH RAWAT",
+  "email_id": "chartering@rawatindosinogroup.co.in",
+  "phone_number": "00-91-9810827498",
+  "latitude": null,
+  "longitude": null,
+  "restrictions": null
+}

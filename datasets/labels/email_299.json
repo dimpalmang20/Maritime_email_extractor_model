@@ -1,0 +1,20 @@
+{
+  "email_id": 299,
+  "email_type": "cargo_enquiry",
+  "cargo": [
+    "Corn",
+    "Soybeans"
+  ],
+  "quantity": "29000 MT",
+  "load_port": "POC (Ukraine Region)",
+  "discharge_port": "Tunisia",
+  "laycan": "18-22 Nov 2025",
+  "load_rate": "6000 MT/day",
+  "discharge_rate": "5000 MT/day",
+  "vessel_age_limit": "25 years",
+  "max_draft": "10.05 m",
+  "max_loa": "200 m",
+  "commission": "3.75% Addcomm + 1.25% Marelis",
+  "broker": "Marelis Navigation",
+  "status": "firm_cargo"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "TCT TO WCI WITH COAL",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-99999",
+    "del_port": "",
+    "redel_port": "VERACRUZ - KEYWEST",
+    "laycan_start": "2026-06-08",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "NO NEED 2 X 25MT COIL LOADING",
+      "NO NEED 2 X 25MT COIL LOADING"
+    ],
+    "confidence_score": 0.98
+  }
+]

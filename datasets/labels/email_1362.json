@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CS CRYSTAL",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "30477",
+    "built_year": "2010",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "COTONOU",
+    "open_date": "2025-12-17",
+    "close_date": "2025-12-24",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

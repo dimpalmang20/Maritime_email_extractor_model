@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "MUR - 28",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "40000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-11-24",
+    "laycan_end": "2025-11-29",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

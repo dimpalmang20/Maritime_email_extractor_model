@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "55000",
+    "quantity_unit": "MT",
+    "load_port": "FUJAIRAH",
+    "discharge_port": "MALE",
+    "laycan_start": "2026-01-08",
+    "laycan_end": "2026-01-13",
+    "load_rate": "7000 MT/DAY",
+    "discharge_rate": "3000 MT/DAY",
+    "commission": "5%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

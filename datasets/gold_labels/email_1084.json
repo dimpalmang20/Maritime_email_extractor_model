@@ -1,0 +1,35 @@
+{
+   "text" : "\n\nThanks and Regards,\n\nShabu O.V. FICS, CMILT,MNI, FSCM\nManaging Director\n\n\nSobha Sapphire Bldg. Office No. 906 Business Bay 123175, Dubai, United Arab\nEmirates\nTel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mob: +97150 559 3926 \nEmail:ovshabu@transbulk.ae l Skype: Transbulk1\nWebsite:https://transbulk.ae\n\n-----Original Message-----\nFrom: Navatrade S.A. <chartering@navatrade.gr> \nSent: Wednesday, 26 November 2025 12:04 PM\nTo: Navatrade S.A. <chartering@navatrade.gr>\nSubject: AXLE MARINE HANDY EX ECSA\nImportance: High\n\nTELiX MSG: 0J96X 26/11/25 10:04 +02:00\nNavatrade S.A. Athens, Greece, Phone: +30 210 9213222\n\nA/C AXLE MARINE PTE LTD   3.75% ADC PUS\n\n28-38K DWT\n1TCT WITH HARMLESS GRAINS IN BULK\nDEL APS RECALADA\nLAYCAN: 05TH DEC 2025 ONWARDS - FULL JAN 2026 REDEL S.E ASIA DUR ABT 50-60\nDAYS WOG\n\nBest Regards/Yiannis + Gregory\n\nYiannis Anastasatos: mob/whatsapp +30 6948\n364679|T:anastasatos_y@hotmail.com\nGregory Nikolaides : mob/whatsapp +30 6946 853441|T:g.nikolaides@hotmail.com\n\n\n",
+   "entities" : {
+      "OPEN_DATE" : null,
+      "IMO" : null,
+      "CONTACT" : null,
+      "LAYCAN" : [
+         "05TH DEC 2025 ONWARDS - FULL JAN 2026 REDEL S.E ASIA DUR ABT 50-60"
+      ],
+      "ETA" : null,
+      "CHARTER_TYPE" : [
+         "1 TCT"
+      ],
+      "DISCHARGE_PORT" : [
+         "S.E ASIA DUR"
+      ],
+      "FREIGHT_RATE" : null,
+      "CHARTERER" : [
+         "AXLE MARINE PTE LTD"
+      ],
+      "PORT" : null,
+      "LOAD_PORT" : [
+         "RECALADA"
+      ],
+      "DWT" : [
+         "38K DWT"
+      ],
+      "VESSEL" : null,
+      "VESSEL_TYPE" : null,
+      "CARGO" : [
+         "HARMLESS GRAINS IN BULK",
+         "GRAINS"
+      ]
+   }
+}

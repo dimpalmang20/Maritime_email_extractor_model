@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DENSA SEA LION",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Ponta da Madeira, Brazil",
+    "open_date": "2026-12-15",
+    "close_date": "2026-12-16",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DENSA SEA LION",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "MALTA",
+    "imo": "",
+    "grt": "",
+    "nrt": "22709",
+    "loa": "186.4m",
+    "beam": "27.8m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.6
+  }
+]

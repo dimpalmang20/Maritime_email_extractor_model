@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "TKB",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "36000",
+    "del_port": "KANDLA - 10-15 JAN",
+    "redel_port": "DOUALA",
+    "laycan_start": "2025-12-22",
+    "laycan_end": "2025-12-27",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.9
+  }
+]

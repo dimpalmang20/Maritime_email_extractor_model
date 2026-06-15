@@ -1,0 +1,68 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN UNION",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KOHSICHANG,",
+    "open_date": "2026-05-24",
+    "close_date": "2026-05-25",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "58018",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "9623831",
+    "grt": "32839",
+    "nrt": "19559",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO BOTTOM FOULING DUE TO\n\nIMMOBILIZATION FOR"
+    ],
+    "confidence_score": 0.93
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN POSEIDON",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "63231",
+    "built_year": "2020",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "36025",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO COMMINGLING OF DIFFERENT GRADES ALLOWED INCLUDING BUT NOT LIMITED TO\n\nVLSFO TO BE SULLPIED IN HSFO TANK OR VICE VERSA",
+      "No extrapolation whatsoever\n\nof",
+      "no\n\ncircumstances whatsoever are Charterers entitled to deduct any alleged\n\nperformance claim from hire"
+    ],
+    "confidence_score": 0.77
+  }
+]

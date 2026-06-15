@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "25000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "8000-01-02",
+    "laycan_end": "8000-01-10",
+    "load_rate": "6000 MT/DAY",
+    "discharge_rate": "5000 MT/DAY",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

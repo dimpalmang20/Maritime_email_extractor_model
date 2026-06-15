@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "was said to have taken the Minoan Marathon (81,945",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-999999",
+    "del_port": "Teinshan 20/22 Dec trip via EC",
+    "redel_port": "Japan $10,000 - cnr",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "no more details came to"
+    ],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "KIBA",
+    "vessel_type": "MR Tanker",
+    "dwt": "36563",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "20659",
+    "nrt": "",
+    "loa": "199.99m",
+    "beam": "23.76m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.76
+  }
+]

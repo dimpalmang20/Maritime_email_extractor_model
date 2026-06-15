@@ -1,0 +1,31 @@
+{
+  "email_id": 149,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV FRIEDRICH SCHULTE",
+      "dwt": 39851,
+      "built": 2019,
+      "flag": "Singapore",
+      "open_position": "Casablanca",
+      "open_dates": "2025-11-16"
+    },
+    {
+      "name": "MV BALTIC ACE",
+      "dwt": 33428,
+      "built": 2018,
+      "flag": "Panama",
+      "open_position": "Tema",
+      "open_dates": "2025-11-19"
+    },
+    {
+      "name": "MV UNITY HARMONY",
+      "dwt": 37155,
+      "built": 2020,
+      "flag": "Bahamas",
+      "open_position": "Davao",
+      "open_dates": "2025-11-20 to 2025-11-22"
+    }
+  ],
+  "source_email": 149
+}

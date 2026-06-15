@@ -1,0 +1,12 @@
+{
+  "email_id": 77,
+  "email_type": "cargo_inquiry",
+  "cargo": "Manganese Ore",
+  "quantity_mt_from": 48000,
+  "quantity_mt_to": 50000,
+  "load_port": "Libreville",
+  "load_country": "Gabon",
+  "laycan": "Prompt Onwards",
+  "vessel_type": "Geared Grabber",
+  "max_age_years": 15
+}

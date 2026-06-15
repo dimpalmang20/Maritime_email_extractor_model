@@ -1,0 +1,28 @@
+{
+  "email_id": 231,
+  "email_type": "tonnage",
+  "source": "Rieck + Petersen",
+  "vessels": [
+    {
+      "vessel_name": "NORD DUBAI",
+      "imo": "9894612",
+      "open_position": "Richards Bay",
+      "open_date": "2025-11-26/2025-11-30",
+      "built_year": 2015,
+      "shipyard": "Imabari, Japan",
+      "flag": "Panama",
+      "class": "NKK",
+      "dwt_mt": 37662,
+      "draft_m": 10.54,
+      "loa_m": 179.97,
+      "beam_m": 29.8,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30.5 MT",
+      "logger_fitted": true,
+      "box_holds": "2,3,4",
+      "gt": 23232,
+      "nt": 12101
+    }
+  ]
+}

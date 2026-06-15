@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Wheat",
+    "cargo_type": "Dry Bulk",
+    "quantity": "50000",
+    "quantity_unit": "MT",
+    "load_port": "Kakinada, India",
+    "discharge_port": "Mombasa, Kenya",
+    "laycan_start": "2025-11-03",
+    "laycan_end": "2025-11-06",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

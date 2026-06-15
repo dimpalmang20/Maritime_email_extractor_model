@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "XINGYU 68 - HDY - OPEN CHINA - 13TH DEC 2025",
+    "vessel_type": "MR Tanker",
+    "dwt": "22247",
+    "built_year": "2019",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2025-12-13",
+    "close_date": "2025-12-18",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

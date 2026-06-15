@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BT TREVIA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63581",
+    "built_year": "2016",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "LANQIAO",
+    "open_date": "2025-11-30",
+    "close_date": "2025-12-05",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [
+      "NO GOA",
+      "NO WEST AFRICA HRA",
+      "No mixing of bunker allowed and max bunker are"
+    ],
+    "confidence_score": 0.92
+  }
+]

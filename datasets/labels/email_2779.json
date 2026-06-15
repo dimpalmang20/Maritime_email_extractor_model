@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLT 2006 OPEN SINGAPORE 3-5 JAN 2026.",
+    "vessel_type": "MR Tanker",
+    "dwt": "53393",
+    "built_year": "2006",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "2026-01-03",
+    "close_date": "2026-01-05",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO GOA",
+      "NO CIS"
+    ],
+    "confidence_score": 0.92
+  }
+]

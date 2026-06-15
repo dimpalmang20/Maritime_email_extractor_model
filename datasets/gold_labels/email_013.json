@@ -1,0 +1,55 @@
+
+{
+  "text": "From: Hanson TR, Mert <turkey@hansoncarriers.com>\nSent: Friday, September 12, 2025 12:38:28 PM\nTo: turkey <turkey@hansoncarriers.com>\nCc: chartering <chartering@hansoncarriers.com>\nSubject: HANSON ISTANBUL - ORDERS\n\n100% BOOKED/FIRM\nACCNT HANSON CARRIERS (ISTANBUL BRANCH)\n\n1. SUPRA/UMAX/PMAX\n\n1 TCT VIA CONTINENT WITH GRAINS ABT 35 DAYS WOG\n\nDELY PASS GIB/SKAW RANGE\n\nREDELY EMED RGE(INT EGYPT MED)\n\nL/C PPT ONW/ANY SEPT\n\n2. SUPRA/UMAX\n\n1 TCT VIA UKRAINE WITH GRAINS ABT 25 DYS WOG\n\nDELY PASS CANAKKALE OR BSEA\n\nREDELY CONTI/BALTIC RGE\n\nL/C 15/30 SEPT\n\n3. HANDY-MAX/SUPRA-MAX/UMX - PERIOD\n\nDEL MED/BSEA\n\nDUR LLEGS OR SP UPTO 6/8 MOS\n\nLAYCAN ANY SEPT\n\nREDELY WW\n\nEXTRA PREMIUM FOR TRADING/CGO FLEXIBLILITY (UKR/RUS/GOA)\n\nMAY TRY FIXED OR INDEX LINKED RATE\n\nALL ADD COM 3.75%",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": "GRAINS",
+    "PORT": [
+      "GIB",
+      "SKAW",
+      "EMED",
+      "EGYPT MED",
+      "CANAKKALE",
+      "BSEA",
+      "CONTI",
+      "BALTIC",
+      "MED"
+    ],
+    "LOAD_PORT": [
+      "GIB/SKAW RANGE",
+      "CANAKKALE OR BSEA",
+      "MED/BSEA"
+    ],
+    "DISCHARGE_PORT": [
+      "EMED RGE",
+      "CONTI/BALTIC RGE",
+      "WW"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": "HANSON CARRIERS",
+    "BROKER": null,
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": [
+      "ANY SEPT",
+      "15/30 SEPT",
+      "PPT ONW/ANY SEPT"
+    ],
+    "FREIGHT_RATE": "ADD COM 3.75%",
+    "VESSEL_TYPE": [
+      "SUPRA",
+      "UMAX",
+      "PMAX",
+      "HANDY-MAX",
+      "SUPRA-MAX"
+    ],
+    "CHARTER_TYPE": [
+      "1 TCT",
+      "PERIOD"
+    ],
+    "TONNAGE": null,
+    "CONTACT": "turkey@hansoncarriers.com"
+  }
+}

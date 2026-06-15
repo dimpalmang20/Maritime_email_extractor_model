@@ -1,0 +1,80 @@
+{
+  "email_id": 91,
+  "email_type": "open_vessel",
+  "source_company": "Seawind Far East Limited",
+  "broker_type": "Owner",
+  "vessel_name": "MOKSHA",
+  "imo": null,
+  "vessel_type": "Bulk Carrier",
+  "sub_type": "SDBC",
+  "flag": "Liberia",
+  "class": "CCS",
+  "built_year": 2011,
+
+  "open_port": "Chittagong",
+  "open_country": "Bangladesh",
+  "open_date_from": "2025-11-15",
+  "open_date_to": "2025-11-20",
+
+  "dwt": 56880.0,
+  "draft_m": 12.80,
+  "tpc": 58.80,
+
+  "grt": 33042,
+  "nrt": 19132,
+
+  "loa_m": 189.98,
+  "beam_m": 32.26,
+  "depth_m": 18.00,
+
+  "grain_capacity_cbm": 71634,
+  "bale_capacity_cbm": 68270,
+
+  "holds": 5,
+  "hatches": 5,
+
+  "cranes": {
+    "count": 4,
+    "swl_mt": 36
+  },
+
+  "grabs": {
+    "count": 4,
+    "capacity_cbm": 12
+  },
+
+  "speed_consumption": {
+    "ballast_speed_knots": 11.7,
+    "ballast_vlsifo_mt_day": 24.0,
+    "ballast_lmgo_mt_day": 0.2,
+
+    "laden_speed_knots": 11.2,
+    "laden_vlsifo_mt_day": 24.5,
+    "laden_lmgo_mt_day": 0.2,
+
+    "idle_vlsifo_mt_day": 3.0,
+
+    "working_vlsifo_mt_day": 6.7,
+    "working_lmgo_mt_day": 0.2
+  },
+
+  "cargo_preferences": [
+    "Any Cargo"
+  ],
+
+  "cargo_restrictions": [
+    "Iran Excluded"
+  ],
+
+  "deck_cargo_allowed": true,
+
+  "special_capabilities": [
+    "Can carry 2 x 25 MT steel coils on deck",
+    "Flexible trading",
+    "TCT acceptable",
+    "Goa cargo acceptable"
+  ],
+
+  "status": "Open",
+  "fixture_priority": "Can Consider Any Cargo"
+}

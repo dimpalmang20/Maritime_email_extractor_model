@@ -1,0 +1,80 @@
+{
+  "text": "MV DARYA KOSHI ... MV XIN HAI TONG 809 ...",
+  "entities": {
+    "VESSEL": [
+      "DARYA KOSHI",
+      "XIN HAI TONG 809"
+    ],
+    "CARGO": [
+      "SPODUMENE",
+      "SALT",
+      "COPPER CONCENTRATE",
+      "GRAIN",
+      "UREA",
+      "ALUMINA",
+      "SCRAP",
+      "SILICA SANDS",
+      "STEEL CARGO",
+      "ILMENITE",
+      "COAL",
+      "IRON ORE"
+    ],
+    "PORT": [
+      "ZHENJIANG",
+      "BUNBURY",
+      "SINGAPORE",
+      "DONGGUAN",
+      "KANDLA",
+      "DAHEJ",
+      "COLOMBO",
+      "WHYALLA",
+      "TANJUNG MANIS",
+      "PASIR GUDANG",
+      "HALDIA",
+      "CHINA"
+    ],
+    "LOAD_PORT": [
+      "ZHENJIANG",
+      "HALDIA"
+    ],
+    "DISCHARGE_PORT": null,
+    "ETA": [
+      "18TH NOV"
+    ],
+    "ETD": [
+      "12/13TH NOV"
+    ],
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "ARYACORP CHARTERING"
+    ],
+    "IMO": null,
+    "DWT": [
+      "39760",
+      "76089"
+    ],
+    "LAYCAN": [
+      "14-18 NOV 2025",
+      "12-14TH NOV 2025"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "BOX SHAPED",
+      "GEARLESS BULK CARRIER"
+    ],
+    "CHARTER_TYPE": [
+      "OPEN VESSEL"
+    ],
+    "TONNAGE": [
+      "40K",
+      "39760",
+      "76089"
+    ],
+    "CONTACT": [
+      "fix@aryacorp.com",
+      "ops@aryacorp.com",
+      "chartering@varitasnavigation.com"
+    ]
+  }
+}

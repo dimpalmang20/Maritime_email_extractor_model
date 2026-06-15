@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAULA TRADER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "36000",
+    "built_year": "2020",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "21699",
+    "loa": "179.9m",
+    "beam": "176.5m",
+    "grain_capacity": "",
+    "open_port": "MACHONG",
+    "open_date": "2026-05-08",
+    "close_date": "2026-05-13",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO\n\nSWELL AND NO ADVERSE CURRENT\n\nLADEN",
+      "NO COMINGLING OF BUNKERS PERMITTED UNLESS OTHERWISE EXPRESSLY\n\nALLOWED BY HEAD OWNERS"
+    ],
+    "confidence_score": 0.95
+  }
+]

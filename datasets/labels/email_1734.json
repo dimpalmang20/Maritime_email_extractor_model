@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "TM Singapore",
+    "redel_port": "P.G. - JAPAN RANGE",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.6
+  }
+]

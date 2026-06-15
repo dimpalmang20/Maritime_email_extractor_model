@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "Imperial Chartering or Nominee",
+    "cargo": "TCT Harmless",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "WCI (Load Port Sanghi Port)",
+    "redel_port": "WCI (Int. Dahej port)",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "10-15 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

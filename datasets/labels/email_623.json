@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DARYA SATYA",
+    "vessel_type": "MR Tanker",
+    "dwt": "63220",
+    "built_year": "2024",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.99m",
+    "grain_capacity": "",
+    "open_port": "Tuticorin, India",
+    "open_date": "2026-11-22",
+    "close_date": "2026-11-28",
+    "matching_region": "Russia",
+    "restrictions": [
+      "NO IRAN"
+    ],
+    "confidence_score": 0.92
+  }
+]

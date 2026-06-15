@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "WEST TREASURE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61292",
+    "built_year": "",
+    "flag": "",
+    "imo": "9691620",
+    "grt": "",
+    "nrt": "751966",
+    "loa": "",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "PIPAVAV,",
+    "open_date": "2026-12-01",
+    "close_date": "2026-12-05",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

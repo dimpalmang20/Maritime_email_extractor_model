@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "General Cargo",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "22844",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "298906",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-05-26",
+    "close_date": "2026-05-31",
+    "matching_region": "China",
+    "restrictions": [
+      "No of holds"
+    ],
+    "confidence_score": 0.77
+  }
+]

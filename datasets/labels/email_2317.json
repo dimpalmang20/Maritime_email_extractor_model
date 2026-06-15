@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "PWWD",
+    "cargo_type": "Dry Bulk",
+    "dwt": "80000-85000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-01-12",
+    "laycan_end": "2026-01-15",
+    "duration": "40 days",
+    "hire_rate": "",
+    "commission": "1.25%",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

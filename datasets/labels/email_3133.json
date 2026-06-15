@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "WESTERN MAPLE",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "32492",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "179.61m",
+    "beam": "28.4m",
+    "grain_capacity": "",
+    "open_port": "FUSHIKI,JAPAN",
+    "open_date": "2026-01-15",
+    "close_date": "2026-01-20",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.95
+  }
+]

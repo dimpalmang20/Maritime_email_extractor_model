@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Jana Al-Kalha Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "7000-15000",
+    "quantity_unit": "MT",
+    "load_port": "DAR ES SALAAM &TANGA , TANZANIA",
+    "discharge_port": "FUJAIRAH / SALALAH / KHORFAKAN / ADABIYA / Jeddah, Saudi Arabia",
+    "laycan_start": "2026-04-05",
+    "laycan_end": "2026-04-17",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

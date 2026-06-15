@@ -1,0 +1,22 @@
+{
+  "email_type": "Cargo_VC",
+  "text": "FIRM ENQUIRY // ACCT : VEDANTA LTD // COA // PARADIP / NEW MANGALORE / MORMUGAO - CHINA // LAYCAN : 01ST DEC'25 - 31ST JAN'26\nQuantity and Cargo: Iron ore fines",
+  "entities": {
+    "email_type": "Cargo_VC",
+    "cargo_name": "Iron ore fines",
+    "cargo_type": "Bulk",
+    "account_name": "Vedanta Limited",
+    "min_size": "55000",
+    "max_size": "80000",
+    "region": "India/China",
+    "matching_region": null,
+    "load_port": ["Paradip", "New Mangalore", "Mormugao"],
+    "discharge_port": ["China"],
+    "laycan_start_date": "2025-12-01",
+    "laycan_end_date": "2026-01-31",
+    "email_id": null,
+    "phone_number": ["+91 9971050029", "+91 9899665398"],
+    "latitude": null,
+    "longitude": null
+  }
+}

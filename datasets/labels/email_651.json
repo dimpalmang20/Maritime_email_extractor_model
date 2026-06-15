@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JIN HONG",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61414",
+    "built_year": "2011",
+    "flag": "HONG KONG",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.98m",
+    "grain_capacity": "",
+    "open_port": "Lianyungang, China",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no adverse current\n\nand no negative influence swell"
+    ],
+    "confidence_score": 0.84
+  }
+]

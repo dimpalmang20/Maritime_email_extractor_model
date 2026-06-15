@@ -1,0 +1,46 @@
+
+{
+  "text": "From: chartering@varitasnavigation.com <chartering@varitasnavigation.com>\nSent: Friday, October 10, 2025 6:49:33 PM\nTo: broking@theimehub.com <broking@theimehub.com>\nSubject: FW: DIRECT TONNAGE\n\nULTRA SILVA\nSDBC/PANAMA/OPEN HATCH BOXSHAPED/MECH VENT/ITF/21\n40,213 TDW/10.80M SSW\nOPEN ISKENDERUN SPOT\n\nENTERPRISE\nSDBC/LIBERIA/11\n36.863 TDW/10.918M SSW\nOPEN PTO MONTT 23 OCT\n\nLILA HOUSTON\nSDBC/LIBERIA/10\n32,581 TDW/10.170M SSW\nOPEN STOCKTON 1 NOV",
+  "entities": {
+    "VESSEL": [
+      "ULTRA SILVA",
+      "ENTERPRISE",
+      "LILA HOUSTON"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "ISKENDERUN",
+      "PTO MONTT",
+      "STOCKTON"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": [
+      "23 OCT",
+      "1 NOV"
+    ],
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": null,
+    "IMO": null,
+    "DWT": [
+      "40,213 TDW",
+      "36.863 TDW",
+      "32,581 TDW"
+    ],
+    "LAYCAN": null,
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "OPEN HATCH BOXSHAPED",
+      "SDBC"
+    ],
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "40,213 TDW",
+      "36.863 TDW",
+      "32,581 TDW"
+    ],
+    "CONTACT": "chartering@varitasnavigation.com"
+  }
+}

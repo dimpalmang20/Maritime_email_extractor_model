@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SIBI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28000",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "JEBEL",
+    "open_date": "2026-01-15",
+    "close_date": "2026-01-19",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SIBI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28442",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "17018",
+    "nrt": "101095",
+    "loa": "169.37m",
+    "beam": "27.2m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Pakistan",
+    "restrictions": [],
+    "confidence_score": 0.76
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "email_id": 68,
+  "email_type": "tct_requirement",
+  "charterer": "Triomphe Shipping",
+  "dwt_min": 37000,
+  "dwt_max": 42000,
+  "max_age_years": 15,
+  "delivery_port": "Vancouver",
+  "delivery_country": "Canada",
+  "delivery_date_from": "2025-12-01",
+  "delivery_date_to": "2025-12-08",
+  "redelivery_region": "Singapore/Japan Range",
+  "cargo": "Grains",
+  "business_type": "TCT",
+  "address_commission_pct": 3.75
+}

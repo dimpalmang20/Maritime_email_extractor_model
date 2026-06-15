@@ -1,0 +1,358 @@
+
+
+
+
+
+Best Regards:
+
+
+
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email: chartering@varitasnavigation.com
+Website:- www.varitasnavigation.com
+
+-----Original Message-----
+From: Mail Delivery System <MAILER-DAEMON@vmi2441136.contaboserver.net> 
+Sent: 26 November 2025 11:16
+To: chartering@varitasnavigation.com
+Subject: Undelivered Mail Returned to Sender
+
+This is the mail system at host vmi2441136.contaboserver.net.
+
+I'm sorry to have to inform you that your message could not be delivered to
+one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can delete your own
+text from the attached returned message.
+
+                   The mail system
+
+<chartering@aegeanmaritime.net>: Host or domain name not found. Name service
+    error for name=aegeanmaritime.net type=A: Host not found
+
+<chartering@ABMaritimeLtd.com>: Host or domain name not found. Name service
+    error for name=ABMaritimeLtd.com type=A: Host not found
+
+<chart@fenwickshipping.com.hk>: Host or domain name not found. Name service
+    error for name=fenwickshipping.com.hk type=A: Host not found
+
+<chartering@atlanticbulk.gr>: host
+    atlanticbulk-gr.mail.protection.outlook.com[52.101.137.0] said: 550
+5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [SG2PEPF000B66CB.apcprd03.prod.outlook.com
+    2025-11-26T05:45:01.390Z 08DE29C2A42A7A27] (in reply to RCPT TO command)
+
+<chartering@campbellshipping.com>: host
+    campbellshipping-com.mail.protection.outlook.com[52.101.157.80] said:
+550
+    5.4.1 Recipient address rejected: Access denied. For more information
+see
+    https://aka.ms/EXOSmtpErrors [OSA0EPF000000CB.apcprd02.prod.outlook.com
+    2025-11-26T05:45:01.766Z 08DE2B95399109F3] (in reply to RCPT TO command)
+
+<circulate@daiduongship.vn>: host ASPMX.L.GOOGLE.COM[172.217.194.27] said:
+    550-5.1.1 The email account that you tried to reach does not exist.
+Please
+    try 550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. For more information, go to 550 5.1.1
+    https://support.google.com/mail/?p=NoSuchUser
+    d2e1a72fcca58-7c3f0767301si9825307b3a.537 - gsmtp (in reply to RCPT TO
+    command)
+
+<N.VanBraekel@Contilines.be>: host
+    contilines-be.mail.protection.outlook.com[52.101.68.18] said: 550 5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [DB5PEPF00014B9C.eurprd02.prod.outlook.com
+    2025-11-26T05:45:02.222Z 08DE29B3D64B7BD2] (in reply to RCPT TO command)
+
+<jgs@chandris-group.gr>: host
+    chandrisgroup-gr02b.mail.protection.outlook.com[52.101.68.27] said: 550
+    5.4.1 Recipient address rejected: Access denied. For more information
+see
+    https://aka.ms/EXOSmtpErrors [DU2PEPF00028D0B.eurprd03.prod.outlook.com
+    2025-11-26T05:45:02.297Z 08DE2A4EB728E545] (in reply to RCPT TO command)
+
+<t-kirmura@fmarine.co.jp>: host
+    fmarine-co-jp.mail.protection.outlook.com[52.101.157.10] said: 550 5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [OS1PEPF0000D20F.JPNP286.PROD.OUTLOOK.COM
+    2025-11-26T05:45:02.452Z 08DE2AC3A2F5DF75] (in reply to RCPT TO command)
+
+<operations@eurotankers.gr>: host mta01.scanscope.net[51.140.50.9] said: 550
+    5.0.1 user unknown <operations@eurotankers.gr>, 4 retry(ies) remaining.
+(in
+    reply to RCPT TO command)
+
+<chartering@er-ship.com>: host
+    ership-com0e.mail.protection.outlook.com[52.101.73.28] said: 550 5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [AMS0EPF000001B0.eurprd05.prod.outlook.com
+    2025-11-26T05:45:02.808Z 08DE29A92D4EFAF5] (in reply to RCPT TO command)
+
+<brokers@dromon.co.uk>: host mx10.websupport.sk[45.13.137.110] said: 554
+5.7.1
+    <brokers@dromon.co.uk>: Relay access denied (in reply to RCPT TO
+command)
+
+<matthias.gielen@essberger.biz>: host
+    rantzaugroup.in.tmes.trendmicro.eu[18.185.115.147] said: 554 5.7.1
+    <matthias.gielen@essberger.biz>: Recipient address rejected:
+    Invalid-Recipient. (in reply to RCPT TO command)
+
+<fix@av-bulk.com>: host mail.vogemann.de[213.128.135.162] said: 550 unknown
+    recipient (in reply to RCPT TO command)
+
+<mail@hartel.nl>: host mxs10.esmero.nl[91.198.170.33] said: 550
+    <mail@hartel.nl> Relay denied (in reply to RCPT TO command)
+
+<mark@hartel.nl>: host mxs10.esmero.nl[91.198.170.33] said: 550
+    <mark@hartel.nl> Relay denied (in reply to RCPT TO command)
+
+<cargo@lauritzenbulker.com.sg>: Host or domain name not found. Name service
+    error for name=lauritzenbulker.com.sg type=A: Host not found
+
+<tonnage@lauritzenbulker.com.sg>: Host or domain name not found. Name
+service
+    error for name=lauritzenbulker.com.sg type=A: Host not found
+
+<bulk@hamburger-lloyd.de>: host
+    hamburgerlloyd-de02c.mail.protection.outlook.com[52.101.73.22] said: 550
+    5.4.1 Recipient address rejected: Access denied. For more information
+see
+    https://aka.ms/EXOSmtpErrors [AMS0EPF00000193.eurprd05.prod.outlook.com
+    2025-11-26T05:45:02.985Z 08DE2A2DC52823AD] (in reply to RCPT TO command)
+
+<meyer@hamburger-lloyd.de>: host
+    hamburgerlloyd-de02c.mail.protection.outlook.com[52.101.73.22] said: 550
+    5.4.1 Recipient address rejected: Access denied. For more information
+see
+    https://aka.ms/EXOSmtpErrors [AMS0EPF00000193.eurprd05.prod.outlook.com
+    2025-11-26T05:45:03.007Z 08DE2A2DC52823AD] (in reply to RCPT TO command)
+
+<rommel@hamburger-lloyd.de>: host
+    hamburgerlloyd-de02c.mail.protection.outlook.com[52.101.73.22] said: 550
+    5.4.1 Recipient address rejected: Access denied. For more information
+see
+    https://aka.ms/EXOSmtpErrors [AMS0EPF00000193.eurprd05.prod.outlook.com
+    2025-11-26T05:45:03.027Z 08DE2A2DC52823AD] (in reply to RCPT TO command)
+
+<joeylin@franbo.com.tw>: host
+    franbo-com-tw.mail.protection.outlook.com[52.101.124.117] said: 550
+5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [TY2PEPF0000AB88.apcprd03.prod.outlook.com
+    2025-11-26T05:45:03.045Z 08DE2A811B597452] (in reply to RCPT TO command)
+
+<office@kassian.gr>: host iapetos.akereon.net[88.99.238.19] said: 550 5.1.1
+    <office@kassian.gr>: Recipient address rejected: kassian.gr (in reply to
+    RCPT TO command)
+
+<opentonnage@htkvn.vn>: host mail.htkvn.vn[150.95.114.29] said: 550 No such
+    recipient here (in reply to RCPT TO command)
+
+<luan.vd@htkvn.com>: host mx.htkvn.com[154.26.156.241] said: 550 No such
+    recipient here (in reply to RCPT TO command)
+
+<gautam@macocean.com.sg>: host
+    macocean-com-sg.mail.protection.outlook.com[52.101.68.5] said: 550 5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [DB1PEPF00039231.eurprd03.prod.outlook.com
+    2025-11-26T05:45:05.163Z 08DE29BC69221849] (in reply to RCPT TO command)
+
+<dry@maybulk.com.my>: host
+    maybulk-com-my.mail.protection.outlook.com[52.101.157.80] said: 550
+5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [OSA0EPF000000CA.apcprd02.prod.outlook.com
+    2025-11-26T05:45:05.318Z 08DE2B77000BF380] (in reply to RCPT TO command)
+
+<pacific@pacificgulfshipping.com>: Host or domain name not found. Name
+service
+    error for name=pacificgulfshipping.com type=A: Host not found
+
+<info@gns-shipping.com>: host mx01.hornetsecurity.com[94.100.132.8] said:
+550
+    5.1.1 <info@gns-shipping.com>: Recipient address rejected: undeliverable
+    address: host nhsm365.mail.protection.outlook.com[52.101.170.1] said:
+550
+    5.4.1 Recipient address rejected: Access denied. For more information
+see
+    https://aka.ms/EXOSmtpErrors [FR1PEPF00000F0E.DEUP281.PROD.OUTLOOK.COM
+    2025-11-26T05:45:02.688Z 08DE2990CFFBA8F9] (in reply to RCPT TO command)
+    (in reply to RCPT TO command)
+
+<chartering@silverknotltd.com>: Host or domain name not found. Name service
+    error for name=silverknotltd.com type=A: Host not found
+
+<jhju@metro.feg.com.tw>: host spam.feg.com.tw[220.228.56.86] said: 550
+#5.1.0
+    Address rejected. (in reply to RCPT TO command)
+
+<jeff.qualman@swirecnco.com>: host
+    swirecnco-com.mail.protection.outlook.com[52.101.137.2] said: 550 5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [SG1PEPF000082E5.apcprd02.prod.outlook.com
+    2025-11-26T05:45:07.106Z 08DE29D2D815F5BE] (in reply to RCPT TO command)
+
+<gauri.singh@sci.co.in>: host smtp05.sci.co.in[152.52.113.202] said: 554
+5.7.1
+    <gauri.singh@sci.co.in>: Recipient address rejected: Access denied (in
+    reply to RCPT TO command)
+
+<sandeep.misra@sci.co.in>: host smtp05.sci.co.in[152.52.113.202] said: 554
+    5.7.1 <sandeep.misra@sci.co.in>: Recipient address rejected: Access
+denied
+    (in reply to RCPT TO command)
+
+<chartering@songabulk.no>: host
+    songabulk-no.mail.protection.outlook.com[52.101.73.6] said: 550 5.4.1
+    Recipient address rejected: Access denied. For more information see
+    https://aka.ms/EXOSmtpErrors [AMS1EPF00000040.eurprd04.prod.outlook.com
+    2025-11-26T05:45:07.423Z 08DE29A62243C238] (in reply to RCPT TO command)
+
+<iolcos@iloscoshellenic.com>: Host or domain name not found. Name service
+error
+    for name=iloscoshellenic.com type=A: Host not found
+
+<panamax@zodiac-mariitime.com>: Host or domain name not found. Name service
+    error for name=zodiac-mariitime.com type=A: Host not found
+
+<ch.dry@thenamaris.com>: host
+eu-smtp-inbound-1.mimecast.com[195.130.217.241]
+    said: 550 Invalid Recipient -
+    https://community.mimecast.com/docs/DOC-1369#550
+    [zom3SERSNcuMPz21nBKDRg.uk124] (in reply to RCPT TO command)
+
+<info@seatradeholdings.com>: host
+mx002.register.xion.oxcs.net[173.45.18.129]
+    said: 550 5.5.1 Recipient rejected - OXSUS001_403 -
+    https://postmaster-oxsus.vadesecure.com/inbound_error_codes/#_403 (in
+reply
+    to RCPT TO command)
+
+<uljanik-plovidba@pu.t-com.hr>: host mail-new.ht.hr[195.29.135.87] said: 552
+    Mail rejected by the processing module: 5.1.1
+    <uljanik-plovidba@pu.t-com.hr>: Recipient address rejected: User unknown
+in
+    virtual alias table (in reply to end of DATA command)
+
+<drychart@oceanbulk.gr>: host mx2.mailgr.gr[78.108.37.201] said: 550-5.4.1
+    Recipient address rejected: Access denied. For more information see
+    550-https://aka.ms/EXOSmtpErrors
+[AMS1EPF00000049.eurprd04.prod.outlook.com
+    550 2025-11-26T05:45:08.637Z 08DE29F722260C02] (in reply to RCPT TO
+    command)
+
+<cpliwei@chunan.com.cn>: host mxwcom.263xmail.com[128.14.224.70] said: 550
+    cpliwei@chunan.com.cn:user not exist (in reply to RCPT TO command)
+
+<cchunxiao@eagleships.com>: host mx1-us1.ppe-hosted.com[148.163.129.50]
+said:
+    550 5.1.1 <cchunxiao@eagleships.com>: Recipient address rejected: User
+    unknown (in reply to RCPT TO command)
+
+<smkim@eagleships.com>: host mx1-us1.ppe-hosted.com[148.163.129.50] said:
+550
+    5.1.1 <smkim@eagleships.com>: Recipient address rejected: User unknown
+(in
+    reply to RCPT TO command)
+
+<rates@tbsship.com>: host
+tbsship-com.mail.protection.outlook.com[52.101.42.4]
+    said: 550 5.4.1 Recipient address rejected: Access denied. For more
+    information see https://aka.ms/EXOSmtpErrors
+    [CO1PEPF000042AE.namprd03.prod.outlook.com 2025-11-26T05:45:09.628Z
+    08DE29E745B3EC7D] (in reply to RCPT TO command)
+
+<master@unicologx.com>: host kr1-aspmx1.worksmobile.com[125.209.209.251]
+said:
+    550 5.1.1 No such user. For more information, go to
+    https://docs.worksmobile.com/ml-smtp-error-nw WhGh+6KCQ3WxA5oM5yVLWg -
+    nsmtp (in reply to RCPT TO command)
+
+<cph@pgscglobal.com>: host mx1-hosting.jellyfish.systems[162.255.118.28]
+said:
+    554 5.1.1 <cph@pgscglobal.com>: Recipient address rejected:
+undeliverable
+    address: Mailbox might be disabled, full, or may not exist on the
+server.
+    Reason: JFE030050 (in reply to RCPT TO command)
+
+<linerservice@chunan.com.cn>: host mxwcom.263xmail.com[128.14.224.70] said:
+550
+    linerservice@chunan.com.cn:user not exist (in reply to RCPT TO command)
+
+<mailest@ensh.com>: host poseidon.ensh.com[83.174.154.20] said: 550
+Requested
+    action not taken: mailbox unavailable (in reply to RCPT TO command)
+
+<liuqingzhu@chunan.com.cn>: host mxwcom.263xmail.com[128.14.224.70] said:
+550
+    liuqingzhu@chunan.com.cn:user not exist (in reply to RCPT TO command)
+
+<mwins@cmhk.com>: host mx3.cmhk.com[58.251.164.95] said: 551 5.1.1
+    <mwins@cmhk.com>: Recipient address rejected: Failed recipient
+validation
+    check: host 9.cmhk.com[100.79.128.193] said: 550 User not found:
+    mwins@cmhk.com (in reply to RCPT TO command) (in reply to RCPT TO
+command)
+Dear All,
+
+ 
+
+Good day.
+
+ 
+
+// FULLY FIRM // CAN FIX WITH SHORT SUBS.
+
+ 
+
+ACC VARITAS NAVIGATION
+
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons. 
+
+Load port: Tianjin, China
+
+Discharge port: Shuaiba, Kuwait.
+
+Load rate: CQD 
+
+Discharge: Liner out.
+
+Laycan 15-20th December 2025.
+
+As part cargo.
+
+2.5% Addcom
+
+ 
+
+Best Regards:
+
+ 
+
+
+
+ 
+
+MR. DEEPESH MAJIGAMKAR
+
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+
+Teams/Skype:deepeshmajigamkar@hotmail.com
+
+Email:  <mailto:chartering@varitasnavigation.com>
+chartering@varitasnavigation.com
+
+Website:- www.varitasnavigation.com
+
+ 
+

@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SPRING COSMOS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63232",
+    "built_year": "2014",
+    "flag": "HONG KONG",
+    "imo": "9666027",
+    "grt": "",
+    "nrt": "7519667347",
+    "loa": "",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "MONGLA",
+    "open_date": "2026-12-02",
+    "close_date": "2026-12-05",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENTS",
+      "NO STATEMENT CONCERNING THE VESSEL",
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SPEED AND CONSUMPTION",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "29000",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "176.2m",
+    "grain_capacity": "",
+    "open_port": "SANDAKAN,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

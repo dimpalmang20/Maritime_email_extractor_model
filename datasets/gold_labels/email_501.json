@@ -1,0 +1,31 @@
+{
+   "text" : " \n \n \n \n \nBest Regards:\n \n\n \nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com>\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n \nFrom: rieck-petersen@shipnet.de <rieck-petersen@shipnet.de> \nSent: 19 November 2025 13:04\nTo: chartering@varitasnavigation.com\nSubject: DIRECT POSITIONS\n \nDoc-No. 9549836   19/NOV/2025 (WED)  08:33  (+0100)  LP\nRieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers  \nPhone: +49 (0)40 35 00 426 E-Mail:  <mailto:rieck-petersen@shipnet.de>\nrieck-petersen@shipnet.de\n \nGD MRNG\n \nPLS PPSE FOR OUR DIRECT POSITIONS\n \n++++\n \nMV PAIWAN ACE \n40,236 MTS DWT ON 10.483 M SSW - SD/LOG - BUILT/YEAR: 2024\nBUILDER: SHIMANAMI SHIPYARD CO., LTD - FLAG: LIBERIA\n(L.O.A.): 182.39 M - BREADTH: 31.0 M - GT/NT 24,961 MT / 12,889 MT\nCAPACITY (GRAIN): 50,207.48 M3 - CAPACITY (BALE): 48,474.64 M3\nHOLD/HATCH: 5/5 - HATCH COVER: FOLDING TYPE\nHATCHES SIZE: NO. 1: 16.15 M X 19.20 M - NO. 2-5: 20.4 M X 20.8 M\nTT STRENGTH: NO 1 19,77 MT/SQ. M - NO 2 15,32 MT/SQ. M     \nNO 3 19,93 MT/SQ. M - NO 4 15,33 MT/SQ. M - NO 5 20,03 MT/SQ. M\nCRANES: 4 X 30.7 MT - NO TANDEM LIFTG OPERATION\nBALLAST ABT 14.0 KNOTS ON ABT 18.1 MT IFO + ABT 0.1 MT MDO \nLADEN ABT 13.0 KNOTS ON ABT 18.5 MT IFO + ABT 0.1 MT MDO  \nIDLE : ABT 2.0 MT IFO + ABT 0.1 MT MDO\nWORKING: ABT 4.0 MT IFO + ABT 0.1 MT MDO  \nECO-SPEED & CONSUMPTION (WOG)  \nBALLAST ABOUT 12.00KTS FOR ABOUT 12.80MT FO + ABOUT 0.10MT DO  \nLADEN ABOUT 11.50KTS FOR ABOUT 12.80MT FO + ABOUT 0.10MT DO\nADA\n \nOPEN BATAAN, PHILIPPINES 23/24 NOV (GRAIN CLEAN)\n             --------------------------------------------------\n++++\n \nMV VIGOR OL\nABT 40.000 MTS DWT ON 10,4 M SSW - BUILT/YEAR: 2025 - SD/LOG\nFLAG: LIBERIA - LOA/BEAM 183/31 M - GT/NT 25,300MT / 12,883 MT\nGR/BL 50,207.78 / 48,474.64 M3 - 5 HO/HA - FOLDING TYPE\nHATCHES SIZE: NO. 1: 16.15 M X 19.20 M - NO. 2-5: 20.4 M X 20.8 M\nTT STRENGTH ABT: NO 1 19,77 MT/SQ. M - NO 2 15,32 MT/SQ. M     \nNO 3 19,93 MT/SQ. M - NO 4 15,33 MT/SQ. M - NO 5 20,03 MT/SQ. M\nCRANES: 4 X 30.5 MT - NO TANDEM LIFTG OPERATION\nBALLAST ABT 14.0 KNOTS ON ABT 18.1 MT IFO + ABT 0.1 MT MDO \nLADEN ABT 13.0 KNOTS ON ABT 18.5 MT IFO + ABT 0.1 MT MDO  \nIDLE : ABT 2.0 MT IFO + ABT 0.1 MT MDO\nWORKING: ABT 4.0 MT IFO + ABT 0.1 MT MDO  \nECO-SPEED & CONSUMPTION (WOG)  \nB ABOUT 12.00KTS FOR ABOUT 12.80MT FO + ABOUT 0.10MT DO  \nL ABOUT 11.50KTS FOR ABOUT 12.80MT FO + ABOUT 0.10MT DO\nADA\n \nOPEN IMABARI SHIPYARD, JAPAN 21 NOV (GRAIN CLEAN)\n             -----------------------------------------------------\n++++\n \nPLSD TO HEAR\nBRGDS\nLP\n\nLars Petersen Mobile: +49 (0)172 410 48 72\n \nFirma/Company: Rieck + Petersen GmbH, Hamburg\nHandelsregistersitz + Nr./Commercial Registry Domicile + No.: \nHamburg / HBR 25945 Gerichtsstand/Jurisdiction: Hamburg\nUSt.Id.Nr./Value added tax identification number: DE 117585945\nGeschftsfhrer/Managing Director: Lars Petersen\n \n \n \n \n",
+   "entities" : {
+      "LOAD_PORT" : null,
+      "VESSEL" : [
+         "MV PAIWAN ACE",
+         "MV VIGOR OL"
+      ],
+      "DWT" : [
+         "40,236 MTS DWT"
+      ],
+      "VESSEL_TYPE" : null,
+      "CARGO" : null,
+      "OPEN_DATE" : [
+         "23/24 NOV",
+         "21 NOV"
+      ],
+      "IMO" : null,
+      "CONTACT" : null,
+      "LAYCAN" : null,
+      "ETA" : null,
+      "CHARTER_TYPE" : null,
+      "DISCHARGE_PORT" : null,
+      "FREIGHT_RATE" : null,
+      "PORT" : [
+         "BATAAN, PHILIPPINES",
+         "IMABARI SHIPYARD, JAPAN"
+      ],
+      "CHARTERER" : null
+   }
+}

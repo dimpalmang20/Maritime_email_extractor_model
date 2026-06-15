@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MING XI EN DIAN",
+    "vessel_type": "MR Tanker",
+    "dwt": "57636",
+    "built_year": "2012",
+    "flag": "PRC",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MALDIVES",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

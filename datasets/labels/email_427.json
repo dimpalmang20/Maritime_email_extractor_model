@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AFROS 63",
+    "vessel_type": "Ultramax Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-11-28",
+    "close_date": "2026-12-03",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

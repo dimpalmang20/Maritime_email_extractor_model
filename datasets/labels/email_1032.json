@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "XIN HAI TONG 802 -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "81000",
+    "built_year": "2012",
+    "flag": "HONGKONG",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "98091",
+    "open_port": "",
+    "open_date": "2025-12-01",
+    "close_date": "2025-12-05",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

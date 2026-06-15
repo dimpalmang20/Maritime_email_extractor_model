@@ -1,0 +1,18 @@
+{
+  "email_id": 183,
+  "type": "tonnage",
+  "source_email": 183,
+  "vessels": [
+    {
+      "name": "MV MYTIKAS",
+      "dwt": 82000,
+      "built": 2025,
+      "shipyard": "Hengli Shipbuilding",
+      "vessel_type": "Kamsarmax",
+      "open_position": "Dalian, North China",
+      "open_date": "2025-11-27/12-10",
+      "scrubber_fitted": true,
+      "employment": "Voyage or Period"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+
+{
+  "text": "From: fix@stargulfshipping.com <fix@stargulfshipping.com>\nSent: Tuesday, July 8, 2025 5:49 PM\nTo: fix@stargulfshipping.com <fix@stargulfshipping.com>\nSubject: 45000 MT CLINKER IN BULK EX JIZAN RED SEA / LATAKIA SYRIA\n\n8 JULY 2025\n\nAttn Chartering Desk !\n\nGood day,\n\nPLS OFFER FIRM FOR FOLL OUR CLOSE DIRECT CHRTRS\n\n45000 MT 10PCT MOLCOP CLINKER IN BULK\n\n1SP JIZAN KSA / 1SP LATAKIA SYRIA\n\n8000/ 4000\n\n25-30 JULY\n\n3.75PCT TTL",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": "CLINKER IN BULK",
+    "PORT": [
+      "JIZAN",
+      "KSA",
+      "LATAKIA",
+      "SYRIA",
+      "RED SEA"
+    ],
+    "LOAD_PORT": "JIZAN KSA",
+    "DISCHARGE_PORT": "LATAKIA SYRIA",
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": "45000 MT 10PCT MOLCOP",
+    "CHARTERER": null,
+    "BROKER": "Star Gulf Shipping",
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": "25-30 JULY",
+    "FREIGHT_RATE": "3.75PCT TTL",
+    "VESSEL_TYPE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": "45000 MT",
+    "CONTACT": "fix@stargulfshipping.com"
+  }
+}

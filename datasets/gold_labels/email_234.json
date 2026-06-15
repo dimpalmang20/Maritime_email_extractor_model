@@ -1,0 +1,52 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 234\nemail_type: open_vessels\nsource_company: ARYACORP PVT. LTD.\nvessels:\n- vessel_name: HUA YANG MEI GUI\n  vessel_type: BULK CARRIER\n  built_year: 2011\n  flag: CHINA\n  class: CHINA CLASS SOCIETY\n  open_port: NEW MANGLORE\n  open_date: '2025-11-22/27'\n  dwt: 29974\n  draft_m: 9.90\n  tpc: 42.60\n  loa_m: 176.20\n  beam_m: 26.00\n  holds: 5\n  hatches: 5\n  cranes: 4X30T CRANES\n  grain_capacity_cbm: 38446\n  bale_capacity_cbm: 36814",
+  "entities": {
+    "VESSEL": [
+      "HUA YANG MEI GUI",
+      "MV HUA YANG MEI GUI"
+    ],
+    "VESSEL_TYPE": [
+      "BULK CARRIER"
+    ],
+    "DWT": [
+      "29,974 MT DWT",
+      "29,977.8 MT",
+      "30,838 MT",
+      "30,853.6 MT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "NEW MANGLORE",
+      "GOA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "ARYACORP PVT. LTD.",
+      "CORE SHIPPING LTD",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "22/27 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "deepeshmajigamkar@hotmail.com",
+      "chartering@varitasnavigation.com",
+      "fix@aryacorp.com",
+      "ops@aryacorp.com",
+      "prarya@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "GOA - OK"
+    ]
+  }
+}

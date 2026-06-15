@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HG STEWART -",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "40000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Mundra, India",
+    "open_date": "2026-01-15",
+    "close_date": "2026-01-16",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

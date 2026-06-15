@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NORSE OSHIMA 39500.0 MT DWT OPEN DONGJIAKOU DEC 15",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "253000",
+    "nrt": "",
+    "loa": "183m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "DONGJIAKOU",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

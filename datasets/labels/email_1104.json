@@ -1,0 +1,61 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Oriente Gloria",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61425",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.98m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DOMINATOR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63652",
+    "built_year": "2021",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "36176",
+    "loa": "199.98m",
+    "beam": "32.29m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "mittente e' vietata",
+    "redel_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [
+      "no confidenziali"
+    ],
+    "confidence_score": 0.6
+  }
+]

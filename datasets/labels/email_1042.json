@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "TO MAKE JINGTANG",
+    "redel_port": "DLOSP 1SP ECI",
+    "laycan_start": "2026-12-26",
+    "laycan_end": "2026-12-31",
+    "duration": "32 days",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "NO DECK NO COILS"
+    ],
+    "confidence_score": 0.84
+  }
+]

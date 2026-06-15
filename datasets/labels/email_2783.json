@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "TAICHI SHIPPING",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "32000-42000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-12-31",
+    "laycan_end": "2026-01-05",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "TC",
+    "account_name": "TAICHI SHIPPING",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "32000-42000",
+    "del_port": "TO MAKE 1SP SGP RANGE",
+    "redel_port": "DLOSP 1SP WCI-PG",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "30 days",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

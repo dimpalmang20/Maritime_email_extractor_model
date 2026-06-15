@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "40000",
+    "quantity_unit": "MT",
+    "load_port": "SANTAREM , BRAZIL",
+    "discharge_port": "SALEEF / HODEIDAH , YEMEN",
+    "laycan_start": "2026-01-01",
+    "laycan_end": "2026-01-31",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Brazil",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

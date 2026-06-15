@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "GTFE REQUIREMENTS",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "57000",
+    "del_port": "TO MAKE SG-S KALI RGE",
+    "redel_port": "TAIWAN OR SE ASIA PORTS",
+    "laycan_start": "2025-12-10",
+    "laycan_end": "2025-12-15",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "TC",
+    "account_name": "GTFE",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "60000",
+    "del_port": "TO MAKE XIAMEN - NINGDE RGE",
+    "redel_port": "SG ​",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

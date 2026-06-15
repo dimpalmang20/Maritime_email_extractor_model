@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "XIN HAI TONG 51",
+    "vessel_type": "MR Tanker",
+    "dwt": "56606",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "COTONOU",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.84
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "XIN HAI TONG 51",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2011",
+    "flag": "HONGKONG",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "7199406",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO MDO\n\nLADEN",
+      "NO MDO\n\nAT PORT"
+    ],
+    "confidence_score": 0.62
+  }
+]

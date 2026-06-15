@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAC ANKAA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "CAMPHA",
+    "open_date": "2026-01-06",
+    "close_date": "2026-01-11",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO DECK OPTION"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DESIGN DRAFT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "9913664",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE\n\nINFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.69
+  }
+]

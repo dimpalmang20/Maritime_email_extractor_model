@@ -1,0 +1,29 @@
+{
+  "email_id": 263,
+  "email_type": "vessel_position",
+  "company": "Aryacorp Pvt. Ltd.",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "IZUMO HERMES",
+      "vessel_type": "Box Shaped Bulk Carrier",
+      "dwt": 37300,
+      "built_year": 2020,
+      "flag": "Panama",
+      "class": "NKK",
+      "open_position": "Passing Otranto, Italy",
+      "open_date": "2025-11-25 to 2025-11-29",
+      "holds_hatches": "5/5",
+      "grain_capacity_cbm": 47200,
+      "cranes": "4 x 30 MT",
+      "speed_ballast_knots": 14.0,
+      "speed_laden_knots": 13.5,
+      "cons_ballast_mt_day": 16.0,
+      "cons_laden_mt_day": 17.0,
+      "eco_speed_ballast_knots": 12.5,
+      "eco_speed_laden_knots": 12.0,
+      "eco_consumption_mt_day": 13.5
+    }
+  ]
+}

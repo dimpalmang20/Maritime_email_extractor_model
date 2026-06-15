@@ -1,0 +1,71 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN SAPPHIRE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56932",
+    "built_year": "2011",
+    "flag": "KOREA",
+    "imo": "9860386",
+    "grt": "",
+    "nrt": "34876",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "KUNSAN,",
+    "open_date": "2026-05-13",
+    "close_date": "2026-05-18",
+    "matching_region": "India",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT\n\nAND SWELL"
+    ],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VLSFO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "Panama",
+    "imo": "9487419",
+    "grt": "",
+    "nrt": "27335",
+    "loa": "",
+    "beam": "179.97m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no\n\nadverse current",
+      "no negative influence of swell"
+    ],
+    "confidence_score": 0.69
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN NOVA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "23238",
+    "loa": "",
+    "beam": "179.97m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO\n\nADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.69
+  }
+]

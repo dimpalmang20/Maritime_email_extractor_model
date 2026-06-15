@@ -1,0 +1,88 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MP SKY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28420",
+    "built_year": "",
+    "flag": "",
+    "imo": "9615078",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Far East",
+    "restrictions": [],
+    "confidence_score": 0.81
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28219",
+    "built_year": "",
+    "flag": "",
+    "imo": "9493236",
+    "grt": "",
+    "nrt": "17025",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO FITTED LASHING MATERIAL ON BOARD"
+    ],
+    "confidence_score": 0.81
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MP FORTUNE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28310",
+    "built_year": "",
+    "flag": "",
+    "imo": "9470832",
+    "grt": "",
+    "nrt": "17023",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO FITTED LASHING MATERIAL ON BOARD AND CUTTED OUT STANCHIONS"
+    ],
+    "confidence_score": 0.81
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MP STAR",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "2009",
+    "flag": "Vietnam",
+    "imo": "",
+    "grt": "5444",
+    "nrt": "3470",
+    "loa": "115.2m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.69
+  }
+]

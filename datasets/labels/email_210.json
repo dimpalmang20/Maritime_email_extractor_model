@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "10071",
+    "built_year": "2009",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "NO\n\nADVERSE CURRENTS AND NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.59
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HOANG TUAN 89",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "10200",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "5986966",
+    "grt": "2999",
+    "nrt": "1848",
+    "loa": "92.5m",
+    "beam": "15.3m",
+    "grain_capacity": "",
+    "open_port": "Tuticorin, India",
+    "open_date": "2026-12-26",
+    "close_date": "2026-12-31",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "no Chartering Agency Services"
+    ],
+    "confidence_score": 0.98
+  }
+]

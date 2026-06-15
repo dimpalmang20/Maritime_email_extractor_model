@@ -1,0 +1,25 @@
+{
+  "email_id": 274,
+  "email_type": "cargo_enquiry",
+  "company": "Interbulk Shipbrokers",
+  "account": "SAIL",
+  "cargo": "Coking Coal",
+  "quantity_mt": 75000,
+  "quantity_tolerance": "+10%/-5%",
+  "laycan": "2025-12-22 to 2025-12-31",
+  "load_port": "Pier IX, Newport News, Virginia, USA",
+  "load_port_berths": "1/2 SB 1 SP",
+  "load_rate": "40000 MT PWWD SASHEX UU",
+  "discharge_ports": [
+    "Vizag",
+    "Gangavaram",
+    "Paradip",
+    "Dhamra",
+    "Gopalpur",
+    "Sandheads",
+    "Sagar-Haldia",
+    "Haldia SMP"
+  ],
+  "demurrage_usd_day": 23850,
+  "commission": "2.50% ADCOM + 1.25% Interbulk"
+}

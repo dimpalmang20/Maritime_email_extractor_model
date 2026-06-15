@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "INTELLIGENCE DIVA - 63.5K - GEARD",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63500",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Ennore, India",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BBG BAISE -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "NAVLAKHI",
+    "open_date": "2026-06-06",
+    "close_date": "2026-06-11",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

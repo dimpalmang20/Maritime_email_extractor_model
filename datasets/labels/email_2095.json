@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 10.022 M SW TPC 43.83",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32298",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "9400930",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "177.13m",
+    "grain_capacity": "",
+    "open_port": "Mobile, USA",
+    "open_date": "2025-12-21",
+    "close_date": "2025-12-24",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO ADVERSE\n\nCURRENT INFLUENCE",
+      "NO WARRANTY\n\nAPPLIES VESSEL"
+    ],
+    "confidence_score": 0.98
+  }
+]

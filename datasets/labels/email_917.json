@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MILA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63519",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.98m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "US Gulf Coast",
+    "restrictions": [],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "YASA VENUS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61076",
+    "built_year": "2019",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "34508",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "EXCL BWTS",
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL",
+      "NO EXTRAPOLATION TO BE MADE"
+    ],
+    "confidence_score": 0.74
+  }
+]

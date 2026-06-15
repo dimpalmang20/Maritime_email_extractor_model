@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEIYO HARMONY",
+    "vessel_type": "Container Ship",
+    "dwt": "32379",
+    "built_year": "2003",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "177m",
+    "grain_capacity": "",
+    "open_port": "East",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "No grabs onboard"
+    ],
+    "confidence_score": 0.82
+  }
+]

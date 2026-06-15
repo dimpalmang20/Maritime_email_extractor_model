@@ -1,0 +1,45 @@
+{
+  "text": "Best Regards:\n\nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail: chartering@varitasnavigation.com\nchartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n\nFrom: Indus Bulk <farhan@indus-bulk.com>\nSent: 11 November 2025 15:55\nTo: Indus Bulk <chartering@indus-bulk.com>\nSubject: PERIOD VESSEL // MV TULPAR DWT 34,790 MT / OPEN AT CARIBS / NOV 23/25\n\n-/Farhan\n\nPLEASE PROPOSE FOR FOLLOWING TONNAGE\n\nOPEN AT CARIBS NOV 23/25\n\nMV TULPAR\nDWT 34,790 MT 10.65 MTR SWAD, TPC:44.3\nSDBC-DOUBLE SKIN/BUILT 2003\nFLAG: MARSHALL ISLANDS /CLASS: ABS /PANDI: SKULD\nLOA/BEAM/DEPTH 179.28/28.0/15.22 MTR\nGRT/NRT INT: 22,072/11,132\n5 HO/5 HA - 4X30MT CRANES\nHYDRAULIC END FOLDING HATCH-CO",
+  "entities": {
+    "VESSEL": [
+      "MV TULPAR"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "CARIBS"
+    ],
+    "LOAD_PORT": [
+      "CARIBS"
+    ],
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Indus Bulk"
+    ],
+    "IMO": null,
+    "DWT": [
+      "DWT 34,790 MT"
+    ],
+    "LAYCAN": [
+      "NOV 23/25"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "SDBC"
+    ],
+    "CHARTER_TYPE": [
+      "PERIOD VESSEL"
+    ],
+    "TONNAGE": [
+      "34,790 MT"
+    ],
+    "CONTACT": [
+      "farhan@indus-bulk.com",
+      "chartering@indus-bulk.com",
+      "chartering@varitasnavigation.com"
+    ]
+  }
+}

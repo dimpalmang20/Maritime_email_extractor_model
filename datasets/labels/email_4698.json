@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-99999",
+    "del_port": "KAOHSIUNG, TAIWAN",
+    "redel_port": "VERACRUZ - KEYWEST",
+    "laycan_start": "2026-04-20",
+    "laycan_end": "2026-04-25",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

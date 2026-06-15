@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-54999",
+    "del_port": "INDO",
+    "redel_port": "AUSS",
+    "laycan_start": "2026-01-18",
+    "laycan_end": "2026-01-23",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.8
+  }
+]

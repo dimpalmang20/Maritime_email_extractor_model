@@ -1,0 +1,14 @@
+{
+  "email_id": 75,
+  "email_type": "cargo_inquiry",
+  "charterer": "Vedanta",
+  "cargo": "Iron Ore",
+  "quantity_mt": 55000,
+  "quantity_tolerance_pct": 10,
+  "load_port": "New Mangalore",
+  "discharge_port": "China",
+  "laycan_from": "2025-11-16",
+  "laycan_to": "2025-11-19",
+  "vessel_type": "Geared",
+  "max_age_years": 15
+}

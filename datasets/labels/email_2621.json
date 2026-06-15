@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "CHINALAND TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "TO MAKE CJK, CHINA",
+    "redel_port": "US GULF",
+    "laycan_start": "2027-01-08",
+    "laycan_end": "2027-01-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [
+      "NO NEED 225",
+      "NO NEED GOA"
+    ],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "TC",
+    "account_name": "CHINALAND",
+    "cargo": "UMX DELY TO MAKE SALALAH ONE TCT WITH",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "TO MAKE SALALAH",
+    "redel_port": "SEA INTN CAMBODIA",
+    "laycan_start": "2027-01-06",
+    "laycan_end": "2027-01-11",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

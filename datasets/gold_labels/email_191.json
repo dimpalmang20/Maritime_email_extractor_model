@@ -1,0 +1,52 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: Aryacorp Chartering <fix@aryacorp.com>\nSent: 13 November 2025 18:46\nSubject: MV OSPREY S /2007 BLT/ DWT 30 570 MTS - OPEN @ MARMARA SEA ON 26/28 NOV\n\n/// DO NOT RE-CIRCULATE ///\nMV OSPREY S /2007 BLT/ DWT 30 570 MTS - OPEN @ MARMARA SEA ON 26/28 NOV\nM/V OSPREY S ===   DWT : 30 570 MTS  ====\nLIBERIA FLAG Built :2007 Dwat(summer): 30570 MTS\nDraft(summer): 9,8155 m Vessel type: BULK CARRIER\nInternational / Suez / Panama GT/NT :\nInternational abt : 19971 / 10477\nLOA/LBP /BEAM / MOULDED DEPTH : 178,70 m / 170,00 m / 28,00 m / 14,00 m\nGEARED BY : 3 x 20 mts\nHold / Hatches : 5 HO / 5 HA\nType of Hold : Double skinned / Grainfitted / Folding Type",
+  "entities": {
+    "VESSEL": [
+      "OSPREY S"
+    ],
+    "VESSEL_TYPE": [
+      "BULK CARRIER",
+      "Double skinned",
+      "Grainfitted"
+    ],
+    "DWT": [
+      "30 570 MTS",
+      "30570 MTS"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "grain",
+      "bale"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "MARMARA SEA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "ARYACORP PVT. LTD.",
+      "CORE SHIPPING LTD",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "26/28 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "fix@aryacorp.com",
+      "ops@aryacorp.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "DO NOT RE-CIRCULATE"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "YB Global Shipping LLC FZ",
+    "cargo": "Bulk Harmless Cargo",
+    "cargo_type": "Dry Bulk",
+    "dwt": "58000-65000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-07-26",
+    "laycan_end": "2025-07-31",
+    "duration": "45-55 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.95
+  },
+  {
+    "email_type": "TC",
+    "account_name": "yb global shipping llc fz",
+    "cargo": "bulk harmless cargo",
+    "cargo_type": "",
+    "dwt": "60000-65000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-07-18",
+    "laycan_end": "2025-07-20",
+    "duration": "15-20 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Cargo VC",
+    "cargo_name": "Bulk Harmless Cargo",
+    "cargo_type": "Bulk",
+    "account_name": "YB Global Shipping LLC FZ",
+    "min_size": "40500",
+    "max_size": "49500",
+    "region": "Indian Ocean",
+    "matching_region": "Indian Ocean",
+    "load_port": null,
+    "discharge_port": null,
+    "laycan_start_date": null,
+    "laycan_end_date": null,
+    "phone_number": "+65 9182 3741"
+  }
+]

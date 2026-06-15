@@ -1,0 +1,48 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "IKAN LANDUK",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "TAIPEI,",
+    "open_date": "2025-12-12",
+    "close_date": "2025-12-13",
+    "matching_region": "",
+    "restrictions": [
+      "NO DECK OPTION"
+    ],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "IKAN LANDUK",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "2013-08-01",
+    "close_date": "2013-08-31",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO EXCESSIVE TRIM",
+      "NO\n\nNEGATIVE\n\nINFLUENCE OF SWELLS",
+      "NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.75
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "HALMLESS UREA",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-99999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-11-23",
+    "laycan_end": "2026-11-25",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.86
+  }
+]

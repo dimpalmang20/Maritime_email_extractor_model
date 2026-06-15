@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PRINCESS JIA JIA -",
+    "vessel_type": "MR Tanker",
+    "dwt": "50600",
+    "built_year": "",
+    "flag": "",
+    "imo": "9189926",
+    "grt": "29688",
+    "nrt": "",
+    "loa": "194.94m",
+    "beam": "32.2m",
+    "grain_capacity": "",
+    "open_port": "XIAMEN",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "Japan",
+    "restrictions": [
+      "EXCL NO",
+      "NO SWELL"
+    ],
+    "confidence_score": 0.98
+  }
+]

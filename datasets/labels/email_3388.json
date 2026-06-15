@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SIGMA PEARL",
+    "vessel_type": "MR Tanker",
+    "dwt": "32625",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "20809",
+    "nrt": "",
+    "loa": "179.9m",
+    "beam": "28.4m",
+    "grain_capacity": "",
+    "open_port": "CARRIBS",
+    "open_date": "2027-01-17",
+    "close_date": "2027-01-23",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.94
+  }
+]

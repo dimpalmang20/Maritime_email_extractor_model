@@ -1,0 +1,25 @@
+{
+  "email_id": 144,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV HEILAN EQUILIBRIUM",
+      "dwt": 56815,
+      "built": 2011,
+      "flag": "Panama",
+      "open_position": "Dammam",
+      "open_dates": "2025-11-25 to 2025-11-27",
+      "remarks": "No Iran/Israel/Yemen. Prefer Far East and Southeast Asia business."
+    },
+    {
+      "name": "MV JIN YUAN MEN",
+      "dwt": 63758,
+      "built": 2025,
+      "flag": "Liberia",
+      "open_position": "Chittagong",
+      "open_dates": "2025-11-21",
+      "remarks": "Seeking cargo back to North China/CJK range"
+    }
+  ],
+  "source_email": 144
+}

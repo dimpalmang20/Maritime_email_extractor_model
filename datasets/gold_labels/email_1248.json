@@ -1,0 +1,28 @@
+{
+   "entities" : {
+      "CARGO" : null,
+      "LOAD_PORT" : null,
+      "DWT" : null,
+      "VESSEL" : [
+         "MV AENEAS",
+         "MT DAILY"
+      ],
+      "VESSEL_TYPE" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : [
+         "13-14/12",
+         "29-30/12"
+      ],
+      "DISCHARGE_PORT" : null,
+      "FREIGHT_RATE" : null,
+      "PORT" : null,
+      "CHARTERER" : null,
+      "OPEN_DATE" : null,
+      "IMO" : null,
+      "CONTACT" : [
+         "GEORGE RACHIOTIS"
+      ],
+      "LAYCAN" : null
+   },
+   "text" : "Doc-No. 12492612   28/NOV/2025 (FRI)  10:59  (+0200)\n \nP R I M E   M A R I T I M E   I N C. - PIRAEUS\n71, Akti Miaouli Str – 7th floor\nTEL:+30 210 4527001/2/3/4\nE-mail:chartering@primemaritime.gr, www.primemaritime.gr\n \n \nDEAR SIRS \n \nGOOD DAY \n \nOUR DIRECT OWS OPEN AS FOLLOWS\n \nPLS PPSE SUIT \n \n \nINDIAN/BALLAST\n===============\nMV AENEAS (75K/ 13)     – SAILED PARADIP 26/11, ETA SAFR 13-14/12, ETA ECSA 29-30/12, TRY ANY \n \n \nMV AENEAS \nCYPRUS FLAG \nBUILT 2013 \nCLASS BV \nABT 75.038 DWT ON ABT 14.20 MTRS SSW (SCANTLING) \nLOA 225.0 MTRS / BEAM 32.26 MTRS \nGRAIN CAP ABT 89.941 CBM \n7/7 HO/HA - CO2 FITTED IN CARGO HOLDS \nSPEED / CONS (INCLUDING A/E) \nBALLAST : ABT 12.00 KNOTS ON ABT 22.50 MTS VLSIFO 380 CST + ABT 0,1 MTS LSMGO \nLADEN : ABT 11.00 KNOTS ON ABT 22.50 MTS VLSIFO 380 CST + ABT 0,1 MTS LSMGO \nPORT/ANCHORAGE CONSUMPTION: \nIDLE: ABT 3.6 MT VLSIFO 380 CST, DAILY. \nWORKING: ABT 4.2 MT VLSIFO CST, DAILY. \nIN CASE OF COLD/HOT CLIMATES AN ADDITIONAL ABT 1.5 MT DAILY. \n \nADA\n \n \n \nBEST REGARDS,\nGEORGE RACHIOTIS \n+30 699 223 8161\n&\nKOSTAS SOTIROPOULOS \n+30 698 039 7728 \n \n \nPls note our e-mail addresses:\n\nchartering@primemaritime.gr     for all your orders\nposition@primemaritime.gr        for all your vessels positions\noperation@primemaritime.gr      for post fixing/operation matters\nsnp@primemaritime.gr             for s&p department"
+}

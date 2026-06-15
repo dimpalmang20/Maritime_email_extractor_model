@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28500",
+    "built_year": "2002",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "170m",
+    "grain_capacity": "",
+    "open_port": "TANGA",
+    "open_date": "2025-12-09",
+    "close_date": "2025-12-18",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO COMINGLING OF BUNKERS PERMITTED UNLESS OTHERWISE EXPRESSLY\n\nALLOWED BY HEAD OWNERS",
+      "NO ADVERSE CURRENTS",
+      "NO\n\nNEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.77
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Propus - open adriatic midjan",
+    "vessel_type": "MR Tanker",
+    "dwt": "10300",
+    "built_year": "1997",
+    "flag": "iacs class bv",
+    "imo": "",
+    "grt": "7708",
+    "nrt": "",
+    "loa": "125.96m",
+    "beam": "20m",
+    "grain_capacity": "",
+    "open_port": "adriatic",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "no recirc"
+    ],
+    "confidence_score": 0.89
+  }
+]

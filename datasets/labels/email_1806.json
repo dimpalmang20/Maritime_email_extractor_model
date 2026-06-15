@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PRINCESS FAYZAH open KANDLA 15-17 November",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "28379",
+    "built_year": "2002",
+    "flag": "LOA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "169.26m",
+    "grain_capacity": "",
+    "open_port": "Kandla, India",
+    "open_date": "2026-11-15",
+    "close_date": "2026-11-17",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

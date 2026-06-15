@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "paiwan ace",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "NINGDE,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.67
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAIWAN ACE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "",
+    "nrt": "24961",
+    "loa": "",
+    "beam": "31m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Russia",
+    "restrictions": [
+      "NO RUSSIA",
+      "NO GOA\n\nMV PAIWAN ACE",
+      "NO TANDEM LIFTG OPERATION\n\nBALLAST ABT"
+    ],
+    "confidence_score": 0.57
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-99999",
+    "del_port": "BUSAN , S.KOREA",
+    "redel_port": "GIB - RIGA INC UK",
+    "laycan_start": "2026-01-25",
+    "laycan_end": "2026-01-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

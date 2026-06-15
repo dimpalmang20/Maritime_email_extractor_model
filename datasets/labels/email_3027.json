@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SWL",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "24000",
+    "built_year": "1998",
+    "flag": "Panama",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "26m",
+    "grain_capacity": "",
+    "open_port": "PHILIPINES",
+    "open_date": "2027-01-21",
+    "close_date": "2027-01-26",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

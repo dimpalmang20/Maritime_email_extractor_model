@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ELEFTHEROTRIA",
+    "vessel_type": "MR Tanker",
+    "dwt": "56000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MONGLA",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ELEFTHEROTRIA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56147",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "31753",
+    "loa": "189.99m",
+    "beam": "32.25m",
+    "grain_capacity": "",
+    "open_port": "MONGLA",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.9
+  }
+]

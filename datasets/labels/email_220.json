@@ -1,0 +1,67 @@
+{
+  "email_id": 220,
+  "email_type": "tonnage",
+  "source": "Marcons",
+  "vessels": [
+    {
+      "vessel_name": "KHADEEJAH JAHAN II",
+      "open_position": "Ravenna, Italy",
+      "open_date": "2025-11-20",
+      "built_year": 2009,
+      "dwt_mt": 55486,
+      "draft_m": 12.53,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30 MT",
+      "loa_m": 189.9
+    },
+    {
+      "vessel_name": "JAHAN SISTERS",
+      "open_position": "Mongla, Bangladesh",
+      "open_date": "2025-11-21",
+      "built_year": 1995,
+      "dwt_mt": 47639,
+      "draft_m": 11.82,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x25 MT",
+      "loa_m": 189.99
+    },
+    {
+      "vessel_name": "FATEMA JAHAN II",
+      "open_position": "Paradip, India",
+      "open_date": "2025-11-21",
+      "built_year": 2010,
+      "dwt_mt": 58096,
+      "draft_m": 12.826,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30 MT",
+      "loa_m": 189.99
+    },
+    {
+      "vessel_name": "AMEENA JAHAN",
+      "open_position": "Hazira, India",
+      "open_date": "2025-11-21",
+      "built_year": 2010,
+      "dwt_mt": 53477,
+      "draft_m": 12.303,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30 MT",
+      "loa_m": 189.94
+    },
+    {
+      "vessel_name": "JAHAN SISTERS I",
+      "open_position": "Chittagong, Bangladesh",
+      "open_date": "2025-11-22",
+      "built_year": 2015,
+      "dwt_mt": 61177,
+      "draft_m": 13.01,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30.5 MT",
+      "loa_m": 199.98
+    }
+  ]
+}

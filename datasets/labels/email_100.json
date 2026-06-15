@@ -1,0 +1,23 @@
+{
+  "email_id": 100,
+  "email_type": "open_vessel",
+  "vessel_name": "MAPLE FORTUNE",
+  "open_port": "Mundra",
+  "open_country": "India",
+  "open_date_from": "2025-11-19",
+  "open_date_to": "2025-11-21",
+  "dwt": 32544.3,
+  "built_year": 2010,
+  "flag": "Hong Kong",
+  "vessel_type": "SDBC",
+  "holds": 5,
+  "hatches": 5,
+  "cranes": "4 x 30T",
+  "grain_capacity_cbm": 42500,
+  "bale_capacity_cbm": 40375,
+  "tanktop_strength_tsqm": 20,
+  "deck_strength_tsqm": 4,
+  "hatch_cover_strength_tsqm": 3.3,
+  "cargo_preference": "Suitable cargo",
+  "ada": true
+}

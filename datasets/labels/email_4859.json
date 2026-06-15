@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN UNION",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56932",
+    "built_year": "2011",
+    "flag": "PANAMA",
+    "imo": "9487419",
+    "grt": "",
+    "nrt": "27335",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "Zhoushan, China",
+    "open_date": "2026-05-15",
+    "close_date": "2026-05-19",
+    "matching_region": "Japan",
+    "restrictions": [
+      "No extrapolation whatsoever\n\nof",
+      "no\n\ncircumstances whatsoever are Charterers entitled to deduct any alleged\n\nperformance claim from hire"
+    ],
+    "confidence_score": 0.98
+  }
+]

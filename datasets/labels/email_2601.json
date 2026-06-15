@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OCEAN VICTORIA..NON GRABBER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37520",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "179.97m",
+    "grain_capacity": "",
+    "open_port": "Mundra, India",
+    "open_date": "2026-01-07",
+    "close_date": "2026-01-13",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [
+      "NO GULF OF ADEN",
+      "NO ADVERSE CURRENT\n\nAND NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.87
+  }
+]

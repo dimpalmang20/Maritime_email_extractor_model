@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2026-11-21",
+    "laycan_end": "2026-11-25",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.65
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "25000",
+    "built_year": "",
+    "flag": "LIBERIA",
+    "imo": "",
+    "grt": "31117",
+    "nrt": "181595",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.61
+  }
+]

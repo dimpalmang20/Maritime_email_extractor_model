@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "15000-20000",
+    "del_port": "BL SEA , FULL MED , ( CAN TRY RSEA SUB GOOD CANDIDATE )",
+    "redel_port": "",
+    "laycan_start": "2027-04-25",
+    "laycan_end": "2027-04-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

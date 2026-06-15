@@ -1,0 +1,23 @@
+{
+  "email_id": 180,
+  "type": "tonnage",
+  "source_email": 180,
+  "vessels": [
+    {
+      "name": "MV VALIANT",
+      "dwt": 55561,
+      "built": 2009,
+      "flag": "Liberia",
+      "shipyard": "Hyundai Vinashin",
+      "open_position": "Gangavaram",
+      "open_date": "2025-11-18",
+      "eta_singapore": "2025-11-23",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30 MT Cranes",
+      "grabs": "Fitted",
+      "grain_capacity_cbm": 70733,
+      "co2_fitted": true,
+      "a60_bulkhead": true
+    }
+  ]
+}

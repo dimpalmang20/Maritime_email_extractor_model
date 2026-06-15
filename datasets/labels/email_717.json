@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "L.O.A",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63118",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.99m",
+    "grain_capacity": "",
+    "open_port": "Zhoushan, China",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no adverse currents",
+      "no warranty applies to condition exceeding\n\nb"
+    ],
+    "confidence_score": 0.84
+  }
+]

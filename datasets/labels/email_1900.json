@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Ocean Azalea - Open WCI ABT 23-28 Dec",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-23",
+    "close_date": "2026-12-28",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.65
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OCEAN AZALEA -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "9737357",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSES CURRENT"
+    ],
+    "confidence_score": 0.77
+  }
+]

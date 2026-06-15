@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ROYAL FALCON",
+    "vessel_type": "MR Tanker",
+    "dwt": "32700",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "20748",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Visakhapatnam, India",
+    "open_date": "2025-12-16",
+    "close_date": "2025-12-21",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.94
+  }
+]

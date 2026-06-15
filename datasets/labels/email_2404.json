@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "DAP FERTILIZER",
+    "cargo_type": "Dry Bulk",
+    "quantity": "40000",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "5%",
+    "matching_region": "Bangladesh",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

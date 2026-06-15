@@ -1,0 +1,51 @@
+{
+  "text": "55,000 mts/10pct Coal Requirement ex Meulaboh to WC India 22/28 Nov'25 Acct Agarwal Coal ...",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": [
+      "Coal",
+      "Coal in Bulk"
+    ],
+    "PORT": [
+      "Meulaboh",
+      "Sumatra",
+      "Indonesia",
+      "Navlakhi",
+      "WC India"
+    ],
+    "LOAD_PORT": [
+      "Meulaboh"
+    ],
+    "DISCHARGE_PORT": [
+      "Navlakhi"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "55000 MT"
+    ],
+    "CHARTERER": [
+      "Agarwal Coal"
+    ],
+    "BROKER": [
+      "Saigal SeaTrade"
+    ],
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": [
+      "22/28 Nov 2025"
+    ],
+    "FREIGHT_RATE": [
+      "including PDA both ends"
+    ],
+    "VESSEL_TYPE": null,
+    "CHARTER_TYPE": [
+      "Cargo Requirement"
+    ],
+    "TONNAGE": null,
+    "CONTACT": [
+      "all@saigalseatrade.com",
+      "chartering@varitasnavigation.com"
+    ]
+  }
+}

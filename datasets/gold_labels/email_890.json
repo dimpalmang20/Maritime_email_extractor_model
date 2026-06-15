@@ -1,0 +1,22 @@
+{
+   "text" : " \n \nThanks and Regards,\n \nMs. Eleanor Rodriguez\nOperations Executive\n \n\nSobha Sapphire Bldg. Office No. 906 Business Bay, P.O. Box 123175, Dubai United Arab Emirates\nTel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mobile/Whatsapp: (+97150) 456 9584\nTeams: ⁠ <https://teams.live.com/l/invite/FEA24fuDdrtycUAJAg?v=g1> Transbulk5 \nWeChat: TransbulkOps_Eleanor\nEmail:  <mailto:operations@transbulk.ae> operations@transbulk.ae |  <mailto:transblk@eim.ae> transblk@eim.ae \nWebsite:  <http://www.transbulk.ae/> http://www.transbulk.ae\n \nFrom: Performance Status Monitoring <wni-osr@wni.com> \nSent: Wednesday, 26 November 2025 10:23 AM\nTo: operations@transbulk.ae\nSubject: Fleet Performance Status Monitoring Report (Nov-26/2025)\n \n\nDaily Fleet Status Report\n\n\nTRANSBULK INTERNATIONAL SHIPPING LLC.\n\n\n <https://tfms.wni.com/DailyFleetStatusReport/> Information\n\n\nExceptional vessels (0 vessels)\nIssued Date: November-26/2025 06:00 UTC\n \n\nVessel Name\nLaden / Ballast\nETA\nCP Warranty Analysis (Minus: Saving)\nOff-track\nMax Wave\n(Next 5 days)\nShip Reports\nCII rating (Attained CII)\n\t\nETA [LT] / Δyesterday\nTime [hrs]\nIFO [mt]\nGO/DO [mt]\n> 40 [nm]\n[m]\n! : reconfirming\ndeparture → arrival\n\nNo vessels in the Exceptional Vessels list presently.\n\t\t\t\t\t\t\t\t\t\t\n\nVessels' details (1 vessels)\n\n\nCRATER / 5LNI9\nLaden [---]\nPMS\n\t\tCP Warranty\n(Allowance included)\nShip Performance\n(Good Weather)\nLoss / Saving (Estimated)\n\nOrigin\n\nDestination\nSpeed\n11.00 [kts]\n---\nNot available\n\nAQABA\nPARADIP\n\nNov-12 14:30 LT (ATD)\nNov-29 (Sat) 22:15 LT (ETA)\nIFO\n25.20 [mt]\n---\nNot available\n\nSailed\nRemaining\n\n3,369 nm @ 11.0 kts\n1,143 nm @ 10.8 kts\nGO/DO\n0.21 [mt]\n---\nNot available\n\n12.8 days @ 23.73 mt/day\n4.4 days @ 20.87 mt/day\n\nRemarks\n    Analysis covers only the period at the latest speed instruction\n\nLoss or saving is not calculated because the good weather period is 25 hours or less.\n\tDistance\n--- [nm]\n\t\nHours\n--- [hrs]\n\t\nGood Weather Hours Ratio\n--- [%]\n\n    Remaining expected good weather hours\n12 [hrs]\n\nCII rating\n    CII rating comment\n\n  <https://vp.weathernews.com/public/gp/index.html#/menu4?imo=9304289> [Click here for Sea Navigator / Voyage Monitoring]\nEstimated CII rating/value is not available for PMS service.\n \n\n <https://tfms.wni.com/T-Max/EnrouteRisk/view/enrouterisk.fcgi?mode=cp_warranty&wnishipnum=15187&client_code=TBD> Click here for T-Max / En Route Risk Monitoring\nBack to the top\n(c)WEATHERNEWS INC. All Rights Reserved.\n  _____  \n\n",
+   "entities" : {
+      "CARGO" : null,
+      "DWT" : null,
+      "VESSEL" : null,
+      "LOAD_PORT" : null,
+      "VESSEL_TYPE" : null,
+      "DISCHARGE_PORT" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : null,
+      "PORT" : null,
+      "CHARTERER" : null,
+      "FREIGHT_RATE" : null,
+      "IMO" : [
+         "9304289"
+      ],
+      "OPEN_DATE" : null,
+      "LAYCAN" : null,
+      "CONTACT" : null
+   }
+}

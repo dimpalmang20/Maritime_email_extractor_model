@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW MOMENTUM",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63514",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "24203",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "MUMBAI,",
+    "open_date": "2026-03-15",
+    "close_date": "2026-03-20",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.95
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN NOVA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "23238",
+    "loa": "",
+    "beam": "179.97m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO\n\nADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.69
+  }
+]

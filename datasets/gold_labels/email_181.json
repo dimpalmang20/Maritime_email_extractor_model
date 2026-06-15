@@ -1,0 +1,61 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: DBC Oceanic <shippingdbc@gmail.com>\nSent: 13 November 2025 12:18\nSubject: MV AKIJ HERITAGE 56K DRYDOCKING, OPEN HONGKONG, 14-15TH NOV GRAIN CLEAN, CAN TRY DIRTY\n\nMV AKIJ HERITAGE 56K   DRYDOCKING, OPEN HONGKONG, 14-15TH NOV  GRAIN CLEAN, CAN TRY DIRTY\nET OPEN HONGKONG (AFTER DD AT GUANGZHOU)  15TH NOV,IAGW,WP,WOG\n\nMV. AKIJ HERITAGE\nDEADWEIGHT: 56,055 MT ON 12.573 M DRAFT.\nYEAR OF BUILT & SHIPYARD: 2008, MITSUI TAMANO, JAPAN.\nIMO NO.: 9339454, CALL SIGN: S2AC5\nCLASS: NK, FLAG: BANGLADESH.",
+  "entities": {
+    "VESSEL": [
+      "AKIJ HERITAGE"
+    ],
+    "VESSEL_TYPE": null,
+    "DWT": [
+      "56K",
+      "56,055 MT"
+    ],
+    "IMO": [
+      "9339454"
+    ],
+    "CARGO": [
+      "CLINKER",
+      "CEMENT",
+      "SALT",
+      "PETCOKE",
+      "FERTILIZER",
+      "GRAIN"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "HONGKONG",
+      "GUANGZHOU",
+      "BLACK SEA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "DBC Oceanic",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "14-15TH NOV",
+      "15TH NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "shippingdbc@gmail.com",
+      "chartering@dbcoceanic.com",
+      "operations@dbcoceanic.com",
+      "freights@dbcoceanic.com",
+      "harshhjjaiwal45@outlook.com",
+      "shipbroker1999@gmail.com",
+      "kd412830@gmail.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "GRABS ARE NOT SUITABLE TO LOAD OVER 50 MM SIZE OF AGGREGATES, LIMESTONE"
+    ]
+  }
+}

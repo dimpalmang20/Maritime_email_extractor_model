@@ -1,0 +1,58 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SEAWIND",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-69999",
+    "del_port": "SE ASIA/SCHINA RGE - 17 JAN ONW",
+    "redel_port": "W.AFRICA PICO (NON HRA)",
+    "laycan_start": "2026-01-07",
+    "laycan_end": "2026-01-12",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "TC",
+    "account_name": "DUCAT",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "HCMS - 20/25 JAN",
+    "redel_port": "W.AFRICA (EXCL NIGERIA) INT ABIDJAN",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "5%",
+    "matching_region": "West Africa",
+    "restrictions": [
+      "EXCL NIGERIA) INT ABIDJAN",
+      "EXCL NIGERIA) INT COTONOU"
+    ],
+    "confidence_score": 0.82
+  },
+  {
+    "email_type": "TC",
+    "account_name": "ESPL",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "58000",
+    "del_port": "PG-SRI LANKA (LP KANDLA) - PPT/ONW",
+    "redel_port": "WAFR INT ABIDJAN",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "75%",
+    "matching_region": "West Africa",
+    "restrictions": [
+      "EXCL PUS"
+    ],
+    "confidence_score": 0.82
+  }
+]

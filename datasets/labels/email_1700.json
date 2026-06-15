@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "Transshipment not allowed",
+    "cargo": "stacks and between stacks and fore/aft",
+    "cargo_type": "Dry Bulk",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-01-07",
+    "laycan_end": "2026-01-17",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Ukraine",
+    "restrictions": [
+      "no congestion/swell clause to apply for detention"
+    ],
+    "confidence_score": 0.76
+  }
+]

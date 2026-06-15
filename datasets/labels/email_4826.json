@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "40000",
+    "quantity_unit": "MT",
+    "load_port": "VIZAG , INDIA",
+    "discharge_port": "VANINO , RUSSIA 10.2M",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.25%",
+    "matching_region": "Russia",
+    "restrictions": [],
+    "confidence_score": 0.76
+  }
+]

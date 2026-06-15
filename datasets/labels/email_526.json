@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "Rieck + Petersen GmbH - in cooperation with HSB Hamburg Shipbrokers",
+    "discharge_port": "",
+    "laycan_start": "2025-11-19",
+    "laycan_end": "2025-11-24",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "9278882",
+    "grt": "",
+    "nrt": "30051",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO WARRANTY APPLIES TO CONDITION\n\nEXCEEDING BEAUFORT FORCE",
+      "NO WARRANTY APPLIES IF\n\nOUT OF SPEC BUNKERS ARE SUPPLIED BY THE CHARTERERS"
+    ],
+    "confidence_score": 0.54
+  }
+]

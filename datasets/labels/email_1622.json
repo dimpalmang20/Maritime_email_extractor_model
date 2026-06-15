@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MINOAN MARATHON 82",
+    "vessel_type": "Kamsarmax Bulk Carrier",
+    "dwt": "",
+    "built_year": "2015",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "229m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-08",
+    "close_date": "2026-12-13",
+    "matching_region": "East Coast India",
+    "restrictions": [],
+    "confidence_score": 0.7
+  }
+]

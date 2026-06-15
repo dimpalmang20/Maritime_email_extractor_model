@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OPEN ANNABA O",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38862",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ANNABA",
+    "open_date": "2026-04-02",
+    "close_date": "2026-04-07",
+    "matching_region": "US East Coast",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSFO",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "33460",
+    "built_year": "2016",
+    "flag": "SDBC",
+    "imo": "9663702",
+    "grt": "11767",
+    "nrt": "24198",
+    "loa": "179.88m",
+    "beam": "182m",
+    "grain_capacity": "455380",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO CIRCUMSTANCES ALLOWED",
+      "NO ADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.93
+  }
+]

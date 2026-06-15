@@ -1,0 +1,51 @@
+{
+  "text": "ALSIC | 62000mt Sulphur in bulk - Ruwais UAE / Jorf Lasfar Morocco | Laycan 21-23 Nov 2025 ...",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": [
+      "Sulphur"
+    ],
+    "PORT": [
+      "Ruwais",
+      "Jorf Lasfar",
+      "UAE",
+      "Morocco"
+    ],
+    "LOAD_PORT": [
+      "Ruwais"
+    ],
+    "DISCHARGE_PORT": [
+      "Jorf Lasfar"
+    ],
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "62000 MT"
+    ],
+    "CHARTERER": [
+      "ALS International Ship Chartering Limited",
+      "ALSIC"
+    ],
+    "BROKER": [
+      "Standard Bulk Shipbrokers"
+    ],
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": [
+      "21-23 Nov 2025"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "Gearless SDBC",
+      "Kamsarmax",
+      "Panamax"
+    ],
+    "CHARTER_TYPE": [
+      "Cargo Inquiry"
+    ],
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering.dubai@stanbulk.com"
+    ]
+  }
+}

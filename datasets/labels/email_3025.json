@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "IZUMO HERMES - SAIKI 38",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37300",
+    "built_year": "2020",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "port",
+    "open_date": "2026-06-05",
+    "close_date": "2026-06-10",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.95
+  }
+]

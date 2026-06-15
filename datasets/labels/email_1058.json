@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "pig iron",
+    "cargo_type": "Dry Bulk",
+    "quantity": "10000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "4000-12-04",
+    "laycan_end": "4000-12-06",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.8
+  }
+]

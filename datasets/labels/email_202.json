@@ -1,0 +1,25 @@
+{
+  "email_id": 202,
+  "type": "tonnage",
+  "source_email": 202,
+  "vessels": [
+    {
+      "name": "MV XIN HAI TONG 31",
+      "dwt": 56450,
+      "built": 2013,
+      "flag": "Marshall Islands",
+      "open_position": "Chittagong",
+      "open_date": "2025-11-21/26",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30 MT Cranes",
+      "grabs": "4 x 12 CBM",
+      "grain_capacity_cbm": 71634,
+      "gross_tonnage": 32987,
+      "net_tonnage": 19231,
+      "bunkers_on_board": {
+        "lsfo_mt": "430-530",
+        "mgo_mt": "40-100"
+      }
+    }
+  ]
+}

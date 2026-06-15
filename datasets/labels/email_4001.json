@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "36000",
+    "quantity_unit": "MT",
+    "load_port": "KAKINADA , INDIA",
+    "discharge_port": "ABIDJAN , COTE D'IVOIRE NON HRA",
+    "laycan_start": "2026-02-03",
+    "laycan_end": "2026-02-08",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

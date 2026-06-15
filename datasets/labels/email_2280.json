@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DAY of",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "31800",
+    "built_year": "",
+    "flag": "",
+    "imo": "9659191",
+    "grt": "24067",
+    "nrt": "",
+    "loa": "183m",
+    "beam": "29.5m",
+    "grain_capacity": "",
+    "open_port": "around",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South Korea",
+    "restrictions": [
+      "NO ADVERSE AFFECT\n\nOF CURRENT SEA SWELL UP TO AND INCLUDING BEAU FORT SCALE FORCE",
+      "NO ADVERSE CURRENT\n\nAND NO NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.98
+  }
+]

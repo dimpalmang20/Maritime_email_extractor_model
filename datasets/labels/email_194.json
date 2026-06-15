@@ -1,0 +1,23 @@
+{
+  "email_id": 194,
+  "type": "tonnage",
+  "source_email": 194,
+  "vessels": [
+    {
+      "name": "POCHARD S",
+      "dwt": 32285,
+      "built": 2007,
+      "flag": "Liberia",
+      "class": "LR",
+      "open_position": "East Mediterranean",
+      "alternative_position": "Black Sea",
+      "open_date": "2025-11-25/27",
+      "alternative_open_date": "2025-11-29/12-01",
+      "vessel_type": "General Cargo / Double Skinned / Box Shaped",
+      "holds_hatches": "5/5",
+      "gear": "3 x 25 MT Cranes",
+      "grain_capacity_cbft": 1503920,
+      "bale_capacity_cbft": 1452086
+    }
+  ]
+}

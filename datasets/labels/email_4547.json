@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW MOMENTUM",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "39000",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "24203",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MUMBAI,",
+    "open_date": "2026-04-04",
+    "close_date": "2026-04-08",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN RUBY",
+    "vessel_type": "Container Ship",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "25171",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.7
+  }
+]

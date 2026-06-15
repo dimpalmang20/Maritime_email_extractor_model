@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WELL REACH TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-59999",
+    "del_port": "WEDA,SULAWESI, PHILIPPINE, JAVA RANGE.",
+    "redel_port": "",
+    "laycan_start": "2025-11-26",
+    "laycan_end": "2025-12-01",
+    "duration": "15-20 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

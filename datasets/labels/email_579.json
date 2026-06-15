@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Fertilizers",
+    "cargo_type": "Dry Bulk",
+    "quantity": "55000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "2025-11-25",
+    "laycan_end": "2025-11-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.83
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "COROMANDEL INTERNATIONAL LTD",
+    "cargo": "COROMANDEL INTERNATIONAL LTD //",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "INTERNATIONAL LTD // BULK",
+    "redel_port": "Kakinada, India",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no time to count unless used",
+      "no time to count even if used"
+    ],
+    "confidence_score": 0.95
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Petroleum Coke",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "China",
+    "restrictions": [
+      "EXCL PUS - FREE D/A LOAD INCLRIVER TOOLS - MECH VENT",
+      "EXCL PUS - FREE DA AT LOADPORT - GRD VSL"
+    ],
+    "confidence_score": 0.74
+  }
+]

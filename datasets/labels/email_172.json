@@ -1,0 +1,35 @@
+{
+  "email_id": 172,
+  "type": "tonnage",
+  "source_email": 172,
+  "vessels": [
+    {
+      "name": "MV GALAXY GLORY",
+      "dwt": 12926,
+      "dwcc": 12500,
+      "built": 2009,
+      "flag": "Panama",
+      "class": "RINA",
+      "open_position": "Panjang, Indonesia",
+      "open_date": "2025-12-02/03",
+      "holds_hatches": "2/2",
+      "gear": "2 x 30 MT Cranes",
+      "grain_capacity_cbm": 20842,
+      "bale_capacity_cbm": 19844
+    },
+    {
+      "name": "MV GALAXY SKY",
+      "dwt": 9000,
+      "dwcc": 8500,
+      "built": 2010,
+      "flag": "Panama",
+      "class": "RINA",
+      "open_position": "Cebu, Philippines",
+      "open_date": "2025-12-02/03",
+      "holds_hatches": "2/2",
+      "gear": "2 x 30 MT Cranes",
+      "grain_capacity_cbm": 13448,
+      "bale_capacity_cbm": 12661
+    }
+  ]
+}

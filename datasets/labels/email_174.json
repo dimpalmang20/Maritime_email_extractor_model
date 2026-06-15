@@ -1,0 +1,22 @@
+{
+  "email_id": 174,
+  "type": "tonnage",
+  "source_email": 174,
+  "vessels": [
+    {
+      "name": "MV PEARL IVY",
+      "dwt": 31848,
+      "built": 2013,
+      "flag": "Panama",
+      "class": "BV",
+      "open_position": "Sohar, Oman",
+      "open_date": "2025-11-24/26",
+      "vessel_type": "Box / Double Skin / Log Fitted",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30 MT Cranes",
+      "grain_capacity_cbm": 40454,
+      "bale_capacity_cbm": 39269,
+      "draft_m": 9.64
+    }
+  ]
+}

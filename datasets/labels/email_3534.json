@@ -1,0 +1,40 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "55820",
+    "del_port": "DLOSP INDONESIA, MALAYSIA, SINGAPORE, VIETNAM",
+    "redel_port": "DLOSP INDONESIA, MALAYSIA, SINGAPORE, VIETNAM",
+    "laycan_start": "2026-01-30",
+    "laycan_end": "2026-01-31",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "NO DECK CARGO / NO AUST"
+    ],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "55760",
+    "del_port": "DLOSP INDONESIA, MALAYSIA, SINGAPORE, VIETNAM",
+    "redel_port": "DLOSP INDONESIA, MALAYSIA, SINGAPORE, VIETNAM",
+    "laycan_start": "2026-01-20",
+    "laycan_end": "2026-01-25",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "NO DECK CARGO / NO AUST"
+    ],
+    "confidence_score": 0.85
+  }
+]

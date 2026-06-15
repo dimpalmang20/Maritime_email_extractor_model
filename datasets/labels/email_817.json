@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEA HOPE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "38000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BAHRAIN",
+    "open_date": "2026-12-06",
+    "close_date": "2026-12-09",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "VC",
+    "cargo": "Nicholous Ngai Energy",
+    "cargo_type": "Dry Bulk",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.58
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "email_id": 257,
+  "email_type": "vessel_position",
+  "company": "Rieck + Petersen GmbH",
+  "cargo": null,
+  "quantity": null,
+  "vessels": [
+    {
+      "vessel_name": "MANA",
+      "vessel_type": "Supramax Bulk Carrier",
+      "dwt": 63408,
+      "built_year": 2017,
+      "flag": "Liberia",
+      "open_position": "Inchon",
+      "open_date": "2025-11-25 to 2025-11-30",
+      "grain_capacity_cbm": 78750.8,
+      "holds_hatches": "5/5",
+      "cranes": "4 x 35 MT",
+      "grabs": "4 x 15 CBM",
+      "speed_ballast_knots": 13.0,
+      "speed_laden_knots": 12.5,
+      "cons_ballast_mt_day": 23.0,
+      "cons_laden_mt_day": 25.0,
+      "remarks": "2x25T coils OK, deck cargo OK, Goa OK"
+    }
+  ]
+}

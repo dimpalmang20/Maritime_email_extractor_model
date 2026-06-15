@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "VIETSEA",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "KWINANA(INT), AUSTRALIA",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.62
+  },
+  {
+    "email_type": "TC",
+    "account_name": "VIETSEA",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "38000",
+    "del_port": "KIJANG, INDONESIA(INT.BULK ALUMINA)",
+    "redel_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Limestone Lumps and Chips",
+    "cargo_type": "Dry Bulk",
+    "quantity": "12000",
+    "quantity_unit": "MT",
+    "load_port": "Lumut, Malaysia",
+    "discharge_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "4000 MT/DAY",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.86
+  }
+]

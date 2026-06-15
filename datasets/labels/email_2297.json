@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "UNIVERSE WEALTHY",
+    "vessel_type": "MR Tanker",
+    "dwt": "28000",
+    "built_year": "2001",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "YANGPU",
+    "open_date": "2026-01-05",
+    "close_date": "2026-01-10",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO ADVERSE CURRENT",
+      "NO\n\nADVERSE CURRENT AND NO NEGATIVE INFLUENCE OF SWELL",
+      "NO ALLOWANCE IN FUEL\n\nUNDER"
+    ],
+    "confidence_score": 0.92
+  }
+]

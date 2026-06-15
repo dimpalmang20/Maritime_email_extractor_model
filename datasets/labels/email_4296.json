@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Phosphate Rock",
+    "cargo_type": "Dry Bulk",
+    "quantity": "25000-35000",
+    "quantity_unit": "MT",
+    "load_port": "REDSEA",
+    "discharge_port": "MAYALASIA /INDONESIA INCHOPT",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "1.25%",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: I N D O S I N O - SINCE 2000 <chartering@rawatindosinogroup.co.in>\nSent: 13 November 2025 11:07\nSubject: 3 (SMALL TONNAGE) TONNAGE OPEN FAR EAST AND SEASIA\n\nM/V GALAXY GLORY (DWCC 12500/TWEEN/CRANES /RINA) OPEN IN PANJANG,IN ON 2ND-3RD DEC.\nM/V GALAXY SKY (DWCC 8500/TWEEN/CRANES/RINA ) OPEN IN CEBU, PHILPPINE, 2ND-3RD DEC.",
+  "entities": {
+    "VESSEL": [
+      "GALAXY GLORY",
+      "GALAXY SKY"
+    ],
+    "VESSEL_TYPE": [
+      "TWEEN",
+      "CRANES",
+      "SMALL TONNAGE"
+    ],
+    "DWT": [
+      "12926",
+      "9000"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": [
+      "12500",
+      "8500"
+    ],
+    "PORT": [
+      "PANJANG",
+      "CEBU",
+      "PHILPPINE"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "INDO SINO",
+      "Indo Sino Chartering Agency Services",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "2ND-3RD DEC"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "12926",
+      "9000MT"
+    ],
+    "CONTACT": [
+      "chartering@rawatindosinogroup.co.in",
+      "chartering@indosinogroup.com",
+      "indosinogroup@gmail.com",
+      "rawatindosinogroup@gmail.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

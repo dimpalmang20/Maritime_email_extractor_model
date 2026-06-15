@@ -1,0 +1,77 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 205\nemail_type: open_vessels\nsource_company: Indo Sino Chartering Agency Services\nvessels:\n- vessel_name: ASHICO VICTORIA\n  dwt: 10071\n  open_port: Male\n  open_date: '2025-11-19'\n  flag: Panama\n  class: NK\n  built_year: 2009\n  vessel_type: Tweendecker\n  holds: 2\n  hatches: 2\n  gross_tonnage: 6732\n  net_tonnage: 3259\n  loa_m: 103.64\n  beam_m: 18.80\n  depth_m: 13.2\n  grain_capacity_cbm: 13658.87\n  bale_capacity_cbm: 12696.95\n  cranes: 2 x 23MT\n  derricks: 1 x 23 MT\n- vessel_name: HT PIONEER\n  imo: '9444182'\n  dwt: 11921.8\n  open_port: Chittagong\n  open_date: '2025-12-01/05'\n  vessel_type: General Cargo Ship, SD, Logger\n  built_year: 2008\n  flag: Panama\n  class: PMDS\n  draft_m: 7.4\n  loa_m: 139.12\n  beam_m: 19.0\n  depth_m: 9.8\n  holds: 3\n  hatches: 3\n  grain_capacity_cbm: 15236.32\n  gross_tonnage: 7487\n  net_tonnage: 4322\n  cranes: 02 x 23 MT SINGLE DECK\n  trading_restrictions: 'Far East to PG (Exclude: N.Korea, Australia, I/I, Red Sea/HR)'\n- vessel_name: HOANG TUAN 89\n  imo: '5986966'\n  dwt: 5272.48\n  open_port: Bangladesh\n  open_date: '2025-11-30'\n  vessel_type: SD, General Cargo, Single Deck\n  built_year: 2010\n  flag: Vietnam\n  class: VR\n  draft_m: 6.50\n  loa_m: 92.5\n  breadth_m: 15.30\n  holds: 2\n  hatches: 2\n  grain_capacity_cbm: 7057\n  bale_capacity_cbm: 6851\n  gross_tonnage: 2999\n  net_tonnage: 1848\n  cranes: 2X10MTS\n  trading_restrictions: 'Far East to PG (Exclude: N.Korea, Australia, I/I, Red Sea/HR)'\n- vessel_name: ASIAN HONOR\n  imo: '9364887'\n  dwt: 10132\n  open_port: Tuticorin\n  open_date: '2025-12-25 to 2026-01-05'\n  vessel_type: General cargo ship, TD, Tweendeck\n  built_year: 2006\n  built_country: Japan\n  flag: Panama\n  class: NK\n  loa_m: 97.52\n  beam_m: 19.2\n  depth_m: 13.5\n  draft_m: 8.564\n  gross_tonnage: 7454\n  net_tonnage: 3415\n  grain_capacity_cbm: 15504.48\n  bale_capacity_cbm: 14332.81\n  cranes: 2 Cranes x 35mts\n  derricks: 01 x 30mts\n  trading_restrictions: 'Far East to PG (Exclude: N.Korea, Australia, I/I, Red Sea/HR)'",
+  "entities": {
+    "VESSEL": [
+      "ASHICO VICTORIA",
+      "HT PIONEER",
+      "HOANG TUAN 89",
+      "ASIAN HONOR"
+    ],
+    "VESSEL_TYPE": [
+      "TWEENDECKER",
+      "GENERAL CARGO SHIP",
+      "SD",
+      "LOGGER",
+      "SINGLE DECK",
+      "TD",
+      "TWEENDECK"
+    ],
+    "DWT": [
+      "10,071 MT",
+      "12,000 DWT",
+      "11921.8MT",
+      "5,300 DWT",
+      "5,272.48 MT",
+      "10,200 DWT",
+      "10132"
+    ],
+    "IMO": [
+      "9444182",
+      "5986966",
+      "9364887"
+    ],
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "MALE",
+      "CHITTAGONG",
+      "BANGLADESH",
+      "TUTICORIN"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Indo Sino Chartering Agency Services",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "19TH NOV 2025",
+      "01-05 DEC 2025",
+      "END NOV 2025",
+      "END DEC - EARLY JAN 2026"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "VOYAGE",
+      "TCT",
+      "TC"
+    ],
+    "TONNAGE": [
+      "SMALL TONNAGE"
+    ],
+    "CONTACT": [
+      "chartering@indosinogroup.com",
+      "rawatindosinogroup@gmail.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com",
+      "indosinogroup@gmail.com"
+    ],
+    "RESTRICTIONS": [
+      "EXCLUDE: N.KOREA, AUSTRAYLIA, I/I, RED SEA/HR"
+    ]
+  }
+}

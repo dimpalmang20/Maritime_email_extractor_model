@@ -1,0 +1,58 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: DBC Oceanic <shippingdbc@gmail.com>\nSent: 13 November 2025 11:36\nSubject: AMIS STAR   61,123 DWT ​ OPEN MUMBAI   13-14 NOV\n\nAMIS STAR   61,123 DWT  OPEN MUMBAI   13-14 NOV\n                                                 ETA RICHARDS BAY       26-27 NOV \n                              ETA PORT ELIZABETH      28-29 NOV\n                              ETA RECALADA           11-13 DEC\n \n+++\n \nM/V AMIS STAR - SCRUBBER FITTED\nTYPE  BULK CARRIER\nBUILT/ YEAR: NOV 2019 DACKS\nFLAG LIBERIA\nIMO / CALL SIGN  D5UY4\nCLASS  ABS\nDWT /SCANTLING DRAFT 61,123 MT / 13.03",
+  "entities": {
+    "VESSEL": [
+      "AMIS STAR"
+    ],
+    "VESSEL_TYPE": [
+      "BULK CARRIER"
+    ],
+    "DWT": [
+      "61,123 DWT",
+      "61,123 MT"
+    ],
+    "IMO": [
+      "D5UY4"
+    ],
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "MUMBAI",
+      "RICHARDS BAY",
+      "PORT ELIZABETH",
+      "RECALADA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": [
+      "26-27 NOV",
+      "28-29 NOV",
+      "11-13 DEC"
+    ],
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "DBC Oceanic",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "13-14 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "shippingdbc@gmail.com",
+      "chartering@dbcoceanic.com",
+      "operations@dbcoceanic.com",
+      "freights@dbcoceanic.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "CRANE NOT ALLOW TO HAVE TANDEM LIFTING OPERATIONS",
+      "NO COMMINGLING OF IFO IS ALLOWED FOR THE DURATION OF THIS C/P"
+    ]
+  }
+}

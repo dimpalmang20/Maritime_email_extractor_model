@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FU HAI 16 53589DWT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "53589",
+    "built_year": "2004",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Zhoushan, China",
+    "open_date": "2026-12-07",
+    "close_date": "2026-12-12",
+    "matching_region": "Ukraine",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FU HAI 16",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "53589",
+    "built_year": "",
+    "flag": "MALTA",
+    "imo": "",
+    "grt": "",
+    "nrt": "31144",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO SCRUBBER FITTED",
+      "NO DECK CARGO",
+      "NO ADVERSE INFLUENCE OF CURRENTS"
+    ],
+    "confidence_score": 0.72
+  }
+]

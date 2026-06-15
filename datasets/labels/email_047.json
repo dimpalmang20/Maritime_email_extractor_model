@@ -1,0 +1,21 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "MAPLE FORTUNE",
+  "vessel_type": "SDBC LOG FITTED",
+  "dwt": 32544.3,
+  "built_year": 2010,
+  "flag": "HONG KONG",
+  "grt": 20867,
+  "nrt": 11821,
+  "loa": 179.61,
+  "beam": 28.40,
+  "grain_capacity": 42500,
+  "bale_capacity": 40375,
+  "open_port": "MUNDRA",
+  "open_date": "2025-11-15",
+  "cranes": "4 X 30T",
+  "broker": "ARYACORP",
+  "bod_vlsfo": 700,
+  "bod_lsmgo": 75,
+  "confidence_score": 0.99
+}

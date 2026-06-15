@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LSMGO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "36464",
+    "built_year": "2013",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "21949",
+    "nrt": "",
+    "loa": "189.99m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Mumbai, India",
+    "open_date": "2027-01-07",
+    "close_date": "2027-01-13",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

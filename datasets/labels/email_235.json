@@ -1,0 +1,29 @@
+{
+  "email_id": 235,
+  "email_type": "cargo_requirement",
+  "source": "Interbulk",
+  "requirements": [
+    {
+      "account": "Daifu SGP",
+      "vessel_type": "SMX/UMX",
+      "cargo": "Slag",
+      "contract_type": "1 TCT",
+      "delivery_area": "North China",
+      "redelivery_area": "Bangladesh",
+      "laycan": "2025-11-20/2025-11-30",
+      "duration_days": 30,
+      "commission": "3.75% Addcom + 1.25% Interbulk"
+    },
+    {
+      "account": "Daifu SGP",
+      "vessel_type": "SMX/UMX or Geared Panamax",
+      "cargo": "Slag",
+      "contract_type": "1 TCT",
+      "delivery_area": "North China",
+      "redelivery_area": "Persian Gulf",
+      "laycan": "2025-11-20 onwards",
+      "duration_days": 35,
+      "commission": "3.75% Addcom + 1.25% Interbulk"
+    }
+  ]
+}

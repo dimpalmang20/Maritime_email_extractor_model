@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 12.8 M SSW GRT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56616",
+    "built_year": "",
+    "flag": "",
+    "imo": "9632349",
+    "grt": "34730",
+    "nrt": "",
+    "loa": "",
+    "beam": "189.99m",
+    "grain_capacity": "",
+    "open_port": "ISKENDERUN,",
+    "open_date": "2026-01-10",
+    "close_date": "2026-01-17",
+    "matching_region": "Turkey",
+    "restrictions": [
+      "NO NEGATIVE SWELL NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.98
+  }
+]

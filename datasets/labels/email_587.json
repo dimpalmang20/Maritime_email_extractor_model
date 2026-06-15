@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ZH CHANG XIN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61000",
+    "built_year": "2014",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.9m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "TUITICORIN",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "India",
+    "restrictions": [
+      "NO ADVERSE CURRENTS",
+      "EXCL VOYAGES OF LESS THAN",
+      "NO OTHER EXTRAPOLATION WILL BE ALLOWED"
+    ],
+    "confidence_score": 0.87
+  }
+]

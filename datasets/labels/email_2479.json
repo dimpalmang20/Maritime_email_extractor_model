@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Professional Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "GRAIN",
+    "discharge_port": "BALE",
+    "laycan_start": "2026-11-25",
+    "laycan_end": "2026-11-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Turkey",
+    "restrictions": [],
+    "confidence_score": 0.9
+  }
+]

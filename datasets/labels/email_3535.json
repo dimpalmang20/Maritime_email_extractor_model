@@ -1,0 +1,47 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BT TREVIA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2025-02-10",
+    "close_date": "2025-02-15",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [
+      "NO GOA",
+      "NO WEST AFRICA HRA"
+    ],
+    "confidence_score": 0.77
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BT TREVIA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63581",
+    "built_year": "2016",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "36332",
+    "loa": "",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [
+      "NO MIXING OF BUNKER ALLOWED"
+    ],
+    "confidence_score": 0.72
+  }
+]

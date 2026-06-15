@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MELODY SELMER -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "22668",
+    "nrt": "",
+    "loa": "186.96m",
+    "beam": "28.6m",
+    "grain_capacity": "",
+    "open_port": "JEBEL",
+    "open_date": "2026-01-16",
+    "close_date": "2026-01-17",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

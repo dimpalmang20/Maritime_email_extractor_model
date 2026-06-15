@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CAPE DOUKATO EX BELLE ETOILE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "MARSHALL ISLANDS",
+    "imo": "9717254",
+    "grt": "",
+    "nrt": "17027",
+    "loa": "169.5m",
+    "beam": "27.2m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-12-10",
+    "close_date": "2026-12-15",
+    "matching_region": "Continent (ARA)",
+    "restrictions": [],
+    "confidence_score": 0.8
+  }
+]

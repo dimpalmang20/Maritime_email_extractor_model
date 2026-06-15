@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "quantity": "40000",
+    "quantity_unit": "MT",
+    "load_port": "SALEF",
+    "discharge_port": "Hodeidah, Yemen",
+    "laycan_start": "2025-12-01",
+    "laycan_end": "2025-12-06",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

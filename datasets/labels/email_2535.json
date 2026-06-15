@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 12.573 M DRAFT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55693",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HONG",
+    "open_date": "2027-01-05",
+    "close_date": "2027-01-10",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "NO HATCH COVER LOADING\n\nRIGHTSHIP RATING\n\nMV",
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL",
+      "NO BOTTOM FOULING DUE TO IDLE PERIODS OF"
+    ],
+    "confidence_score": 0.87
+  }
+]

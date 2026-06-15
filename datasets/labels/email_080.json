@@ -1,0 +1,23 @@
+{
+  "email_id": 80,
+  "email_type": "open_vessel",
+  "vessel_name": "EVEREST K",
+  "vessel_type": "SDBC",
+  "flag": "Marshall Islands",
+  "class": "BV",
+  "built_year": 2009,
+  "dwt": 35065,
+  "open_port": "Puerto Quetzal",
+  "open_date_from": "2025-11-20",
+  "open_date_to": "2025-11-25",
+  "draft_m": 10.41,
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 46185.37,
+  "bale_capacity_cbm": 44051.92,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+  "status": "Open"
+}

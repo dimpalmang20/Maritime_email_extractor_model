@@ -1,0 +1,62 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON DRAFT 12.845M",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61683",
+    "built_year": "2011",
+    "flag": "SINGAPORE",
+    "imo": "",
+    "grt": "33900",
+    "nrt": "",
+    "loa": "199.98m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "West Africa",
+    "restrictions": [
+      "NO GOA",
+      "NO GOA"
+    ],
+    "confidence_score": 0.81
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "ORIGIN",
+    "redel_port": "PORT",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.6
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PACIFIC TALISMAN OPEN HONG KONG ABOUT 4TH DEC 2025 AGW WP WOG",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HONG",
+    "open_date": "2025-12-04",
+    "close_date": "2025-12-09",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  }
+]

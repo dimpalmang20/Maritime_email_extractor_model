@@ -1,0 +1,18 @@
+{
+  "email_id": 233,
+  "email_type": "tonnage_list",
+  "source": "Aryacorp",
+  "vessels": [
+    {"vessel_name":"LAN HAI YUAN WANG","dwt_k":11.3,"open_position":"Haiphong, Vietnam","open_date":"2025-11-28/2025-11-30"},
+    {"vessel_name":"ZHONG CHUAN CHANG QING","dwt_k":13.1,"open_position":"Long An, Vietnam","open_date":"2025-11-18"},
+    {"vessel_name":"SHUOLONG 19","dwt_k":12.8,"open_position":"Bahodopi, Indonesia","open_date":"2025-12-20/2025-12-24"},
+    {"vessel_name":"FORTUNE VICTORY","dwt_k":11.8,"open_position":"Tarakan, Indonesia","open_date":"2025-11-28/2025-11-29"},
+    {"vessel_name":"FORTUNE PROGRESS","dwt_k":14.6,"open_position":"South China","open_date":"2025-11-26/2025-11-27"},
+    {"vessel_name":"LUCKY PANDA","dwt_k":14.1,"open_position":"Bahodopi, Indonesia","open_date":"2025-12-18/2025-12-20"},
+    {"vessel_name":"HUA ZHENG HAI YANG","dwt_k":28.6,"open_position":"Ho Chi Minh, Vietnam","open_date":"2025-11-25/2025-11-26","remarks":"Geared + Grabs"},
+    {"vessel_name":"CHANG SHUN JING HAI","dwt_k":45.5,"open_position":"CJK","open_date":"2025-12-03/2025-12-04"},
+    {"vessel_name":"SHUOLONG 618","dwt_k":55.6,"remarks":"Geared + 4 Grabs"},
+    {"vessel_name":"FORTUNE GLORY","dwt_k":68.0,"open_position":"Chittagong","open_date":"2025-12-22/2025-12-24","remarks":"Geared + 4 Grabs"},
+    {"vessel_name":"FORTUNE GRACE I","dwt_k":58.0,"open_position":"Luanda, West Africa","open_date":"2026-01-01","remarks":"Geared + 4 Grabs"}
+  ]
+}

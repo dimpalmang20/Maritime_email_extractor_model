@@ -1,0 +1,83 @@
+{
+  "text": "Best Regards:\n\nMR. DEEPESH MAJIGAMKAR\nMob:- + 91 9730358718 (whatsapp) // +91 9156366155\nTeams/Skype:deepeshmajigamkar@hotmail.com\nEmail:  <mailto:chartering@varitasnavigation.com> chartering@varitasnavigation.com\nWebsite:- www.varitasnavigation.com\n\nFrom: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSent: 13 November 2025 10:36\nTo: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSubject: // MV BAO DA LING / MV KANG CHENG / MV BAO HE LING / MV KANG SHUN / MV SHENG KANG HAI / MV LV SONG HAI - VESSELS TO FIX // \n\nDATE : 13TH NOVEMBER, 2025​\nREF  : IBC/KG/025\n\nWE HAVE FOLLOWING VESSELS FROM OUR CLOSE OWNER​​:​\n​​\nMV BAO DA LING 47K CJK, CHINA 20TH NOV 2025\nMV KANG CHENG 55K OPEN ZHUHAI, CHINA 16TH NOV 2025\nMV BAO HE LING 47K OPEN MANILA, PHI 18TH NOV 2025\nMV KANG SHUN 55K OPEN RAS AL KHAIR, SAUDI ARABIA 17TH NOV 2025\nMV SHENG KANG HAI 57K OPEN BAHODOPI 18TH NOV 2025\nMV LV SONG HAI DWT 38,862.8 MT OPEN NAPLES O/A 15-16 NOV. \nTRY ANY\n\n[Full Technical Specification text for MV BAO DA LING, MV KANG CHENG, MV BAO HE LING, MV KANG SHUN, MV SHENG KANG HAI, and M/V LV SONG HAI as detailed in the original email text...]\n\nBEST REGARDS\nKRITIKA GOEL          MOB.: +91-9560504611​​\nANKIT VASHIST         MOB.: +91-9650405353​\n\nINTERBULK SHIPBROKERS\nNEW DELHI, INDIA\n\nTEL : 0124- 4649000\nEMAIL   : CHARTERING@INTERBULKSHIPPING.IN\nWEBSITE : WWW.INTERBULKSHIPPING.IN",
+  "entities": {
+    "VESSEL": [
+      "BAO DA LING",
+      "KANG CHENG",
+      "BAO HE LING",
+      "KANG SHUN",
+      "SHENG KANG HAI",
+      "LV SONG HAI"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "CJK",
+      "ZHUHAI",
+      "MANILA",
+      "RAS AL KHAIR",
+      "BAHODOPI",
+      "NAPLES"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "47K",
+      "55K",
+      "57K",
+      "47426MT",
+      "55,541MTS",
+      "47442MTS",
+      "55,566DWT",
+      "56704.2MT",
+      "38,862.8 MT"
+    ],
+    "CHARTERER": null,
+    "BROKER": [
+      "Interbulk Shipbrokers",
+      "Varitas Navigation"
+    ],
+    "IMO": [
+      "9285017",
+      "9604275",
+      "9646558"
+    ],
+    "DWT": [
+      "47426",
+      "55541",
+      "47442",
+      "55566",
+      "56704.2",
+      "38862.8"
+    ],
+    "LAYCAN": [
+      "20TH NOV 2025",
+      "16TH NOV 2025",
+      "18TH NOV 2025",
+      "17TH NOV 2025",
+      "18TH NOV 2025",
+      "15-16 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "BULK CARRIER",
+      "SDSTBC",
+      "SDBC"
+    ],
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "47426MT",
+      "55,541MTS",
+      "47442MTS",
+      "55,566DWT",
+      "56704.2MT",
+      "38,862.8 MT"
+    ],
+    "CONTACT": [
+      "chartering@interbulkshipping.in",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ]
+  }
+}

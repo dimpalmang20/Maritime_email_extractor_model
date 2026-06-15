@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "CENTURION BULK TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "58000",
+    "del_port": "NCHINA (INT. DALIAN)",
+    "redel_port": "",
+    "laycan_start": "2027-01-25",
+    "laycan_end": "2027-01-31",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

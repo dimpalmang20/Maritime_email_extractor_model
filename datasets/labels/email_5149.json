@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "8000-10000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "HO CHI MINH , VIETNAM",
+    "laycan_start": "2026-06-25",
+    "laycan_end": "2026-06-30",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

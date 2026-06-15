@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HONG",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.5
+  },
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "60405",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-02-01",
+    "laycan_end": "2025-02-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO PERIOD",
+      "NO CLINKER"
+    ],
+    "confidence_score": 0.62
+  }
+]

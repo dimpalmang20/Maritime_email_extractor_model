@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SPARK 3.75 ADC PAST US",
+    "cargo": "HARMLESS/LAWFUL CARGO",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-79999",
+    "del_port": "FEAST/MAKE CIS-PSNG",
+    "redel_port": "FAREAST/S.E ASIA",
+    "laycan_start": "2025-12-04",
+    "laycan_end": "2025-12-09",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Far East",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

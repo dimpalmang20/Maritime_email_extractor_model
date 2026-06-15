@@ -1,0 +1,56 @@
+[
+{
+  "email_id": 93,
+  "email_type": "open_vessel",
+  "vessel_name": "DARYA KOSHI",
+  "dwt": 39760,
+  "flag": "Marshall Islands",
+  "class": "NK",
+  "builder": "Onomichi",
+  "built_year": 2024,
+  "open_port": "Zhenjiang",
+  "open_country": "China",
+  "open_date_from": "2025-11-14",
+  "open_date_to": "2025-11-18",
+  "vessel_type": "Box Shaped",
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 49880.4,
+  "bale_capacity_cbm": 48835.1,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30.5
+  },
+  "trading_restrictions": [
+    "No Iran",
+    "No Iraq",
+    "No Russia",
+    "No Black Sea",
+    "No West Africa",
+    "No Myanmar",
+    "Not keen EU",
+    "Not keen USA"
+  ],
+  "status": "Open"
+},
+{
+  "email_id": 93,
+  "email_type": "open_vessel",
+  "vessel_name": "XIN HAI TONG 809",
+  "dwt": 76089,
+  "flag": "Marshall Islands",
+  "built_year": 2014,
+  "vessel_type": "Gearless Bulk Carrier",
+  "open_port": "Haldia",
+  "open_country": "India",
+  "open_date_from": "2025-11-12",
+  "open_date_to": "2025-11-14",
+  "holds": 7,
+  "hatches": 7,
+  "grain_capacity_cbm": 90540.09,
+  "bale_capacity_cbm": 85565.1,
+  "scrubber_fitted": true,
+  "last_cargo": "Coal",
+  "preferred_trade": "Back to China",
+  "status": "Open"
+}]

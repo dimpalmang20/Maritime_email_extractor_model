@@ -1,0 +1,20 @@
+{
+  "email_id": 97,
+  "email_type": "cargo_inquiry",
+  "charterer": "ALS International Ship Chartering Limited",
+  "cargo": "Sulphur",
+  "quantity_mt": 62000,
+  "quantity_tolerance_pct": 5,
+  "load_port": "Ruwais",
+  "load_country": "UAE",
+  "discharge_port": "Jorf Lasfar",
+  "discharge_country": "Morocco",
+  "laycan_from": "2025-11-21",
+  "laycan_to": "2025-11-23",
+  "load_rate_mt_per_day": 13000,
+  "discharge_rate_mt_per_day": 6000,
+  "vessel_type": "Gearless SDBC Kamsarmax/Panamax",
+  "routing_requirement": "Cape of Good Hope",
+  "address_commission_pct": 2.5,
+  "brokerage_pct": 1.25
+}

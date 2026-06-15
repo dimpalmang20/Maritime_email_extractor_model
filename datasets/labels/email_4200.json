@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "25000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "CONAKRY",
+    "laycan_start": "2026-03-26",
+    "laycan_end": "2026-03-31",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

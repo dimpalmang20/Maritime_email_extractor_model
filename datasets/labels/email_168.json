@@ -1,0 +1,21 @@
+{
+  "email_id": 168,
+  "type": "tonnage",
+  "source_email": 168,
+  "vessels": [
+    {
+      "name": "MV AM PROGRESS",
+      "dwt": 31966,
+      "built": 2012,
+      "open_position": "Mongla",
+      "open_date": "2025-11-18/22",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30 MT Cranes",
+      "grain_capacity_cbm": 40448,
+      "bale_capacity_cbm": 39882,
+      "gross_tonnage": 19999,
+      "net_tonnage": 10443,
+      "draft_m": 10.0
+    }
+  ]
+}

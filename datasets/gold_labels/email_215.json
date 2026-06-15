@@ -1,0 +1,50 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 215\nemail_type: open_vessels\nsource_company: TNS Shipbrokers and Agents Ltd\nvessels:\n- vessel_name: AURORA PRIMA\n  dwt: 34394\n  open_port: South East Asia\n  open_date: '2025-11-23/27'\n  vessel_type: Bulk Carrier\n  built_year: 2011\n  built_country: South Korea\n  flag: Marshall Islands\n  class: RINA\n  draft_m: 9.90\n  loa_m: 180M\n  beam_m: 30M\n  depth_m: 14.7M\n  grain_capacity_cbm: 48620\n  bale_capacity_cbm: 46815\n  gross_tonnage: 23443\n  net_tonnage: 11526\n  holds: 5\n  hatches: 5\n  cranes: 4 X 35T CRANES",
+  "entities": {
+    "VESSEL": [
+      "AURORA PRIMA"
+    ],
+    "VESSEL_TYPE": [
+      "BULK CARRIER"
+    ],
+    "DWT": [
+      "34.5 KDWT",
+      "34,394 MTS"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "SOUTH EAST ASIA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "TNS Shipbrokers and Agents Ltd",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "23-27 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "VOY",
+      "PERIOD"
+    ],
+    "TONNAGE": [
+      "34.5 KDWT"
+    ],
+    "CONTACT": [
+      "deepeshmajigamkar@hotmail.com",
+      "chartering@varitasnavigation.com",
+      "chart@tns-shipping.com"
+    ],
+    "RESTRICTIONS": [
+      "PREF BH"
+    ]
+  }
+}

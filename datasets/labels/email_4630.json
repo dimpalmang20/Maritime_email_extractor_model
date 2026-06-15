@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "SEAWIND",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-59999",
+    "del_port": "APS GULEI , STH CHINA",
+    "redel_port": "WEST COAST OF INDIA",
+    "laycan_start": "2027-04-20",
+    "laycan_end": "2027-04-25",
+    "duration": "40 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

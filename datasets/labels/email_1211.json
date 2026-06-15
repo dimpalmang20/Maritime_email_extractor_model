@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DARYA JIYA",
+    "vessel_type": "MR Tanker",
+    "dwt": "64650",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SOHAR",
+    "open_date": "2026-12-05",
+    "close_date": "2026-12-07",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DARYA JIYA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "64650",
+    "built_year": "",
+    "flag": "MASHALL ISLANDS",
+    "imo": "1015844",
+    "grt": "",
+    "nrt": "36172",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.79
+  }
+]

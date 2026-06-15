@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HTK LOTUS -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "16960",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "9412957",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MESAIEED,",
+    "open_date": "2025-12-24",
+    "close_date": "2025-12-28",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "no I"
+    ],
+    "confidence_score": 0.98
+  }
+]

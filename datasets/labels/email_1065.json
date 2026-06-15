@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "ALUMINUM INGOT 20,000MT,",
+    "cargo_type": "Dry Bulk",
+    "quantity": "15000",
+    "quantity_unit": "MT",
+    "load_port": "BAHODOPI, INDONESIA",
+    "discharge_port": "PLOCE",
+    "laycan_start": "2026-12-20",
+    "laycan_end": "2026-12-25",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "VC",
+    "cargo": "ALUMINUM INGOT 5,500MT,",
+    "cargo_type": "Dry Bulk",
+    "quantity": "5500",
+    "quantity_unit": "MT",
+    "load_port": "BAHODOPI, INDONESIA",
+    "discharge_port": "",
+    "laycan_start": "",
+    "laycan_end": "",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

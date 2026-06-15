@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SILVER STAR 55.7K DWT BLT 2006 OPEN N.VIETNAM 16-20 JAN 2026",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55725",
+    "built_year": "2006",
+    "flag": "VIETNAM",
+    "imo": "",
+    "grt": "31530",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO NICKEL ORE\n\nMV"
+    ],
+    "confidence_score": 0.78
+  }
+]

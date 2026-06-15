@@ -1,0 +1,29 @@
+{
+  "text": "From: Simran <digimkt@sclines.co.in>\nSent: Friday, September 12, 2025 4:10:06 PM\nTo: mayank@sclines.co.in <mayank@sclines.co.in>\nSubject: PARADEEP TO MONGLA GYPSUM CARGO BULK MOVEMENT\n\nGood Day!\n\nKind Attention: Chartering Desk\nAccount: SCL\n\nWe are seeking firm tonnage offers for the following requirement:\n\nCommodity: Gypsum\nQuantity: UPTO 16500 MTS (can split into 10k lot)\nLoad Port: Paradeep\nDischarge Port: Mongla\nLoad Rate: 6,000 MT per weather working day (SHINC)\nDischarge Rate: 2,500 MT per weather working day (FHINC)\nLaycan: 22nd to 24th September 2025\nAddress Commission: 1.25%\nKindly revert with full vessel particulars, firm freight rates, and the earliest possible confirmation.",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": "Gypsum",
+    "PORT": [
+      "Paradeep",
+      "Mongla"
+    ],
+    "LOAD_PORT": "Paradeep",
+    "DISCHARGE_PORT": "Mongla",
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "16500 MTS",
+      "10k lot"
+    ],
+    "CHARTERER": "SCL",
+    "BROKER": "SCL Shipping Services LLC",
+    "IMO": null,
+    "DWT": null,
+    "LAYCAN": "22nd to 24th September 2025",
+    "FREIGHT_RATE": "1.25%",
+    "VESSEL_TYPE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": "16500 MTS",
+    "CONTACT": "mayank@sclines.co.in"
+  }
+}

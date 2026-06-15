@@ -1,0 +1,36 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD.",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "TO MAKE 1 SP S.KOREA ATDNSHINC",
+    "redel_port": "",
+    "laycan_start": "2026-06-14",
+    "laycan_end": "2026-06-16",
+    "duration": "20-25 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South Korea",
+    "restrictions": [],
+    "confidence_score": 0.83
+  },
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-99999",
+    "del_port": "TO MAKE NOPAC",
+    "redel_port": "SGP - JAPAN RANGE",
+    "laycan_start": "2026-06-23",
+    "laycan_end": "2026-06-30",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

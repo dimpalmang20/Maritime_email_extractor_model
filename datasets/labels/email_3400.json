@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-54999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-01-13",
+    "laycan_end": "2026-01-18",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "West Africa",
+    "restrictions": [
+      "NO AUSSIE, PG/JAPAN RANGE, 3 M PERIOD OK",
+      "NO AUSSIE/DECK, 4/6 M PERIOD, PG/JAPAN RANGE"
+    ],
+    "confidence_score": 0.62
+  }
+]

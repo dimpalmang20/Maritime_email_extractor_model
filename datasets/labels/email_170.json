@@ -1,0 +1,16 @@
+{
+  "email_id": 170,
+  "type": "cargo_order",
+  "source_email": 170,
+  "account": "BML",
+  "cargo": {
+    "commodity": "Sugar",
+    "quantity_mt": 25000,
+    "load_port": "Kakinada",
+    "discharge_port": "Tripoli, Libya",
+    "laycan": "2025-12-10/15",
+    "load_rate_mt_per_day": 3000,
+    "discharge_rate_mt_per_day": 1500,
+    "commission_pct": 3.75
+  }
+}

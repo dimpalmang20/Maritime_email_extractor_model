@@ -1,0 +1,22 @@
+{
+  "email_id": 176,
+  "type": "tonnage",
+  "source_email": 176,
+  "vessels": [
+    {
+      "name": "MV TOMINI SIROCCO",
+      "dwt": 38781,
+      "built": 2016,
+      "vessel_type": "Open Hatch Bulk Carrier",
+      "open_position": "Aarhus",
+      "open_date": "2025-11-19/20",
+      "holds_hatches": "5/5",
+      "gear": "4 x 30 MT Cranes",
+      "grain_capacity_cbm": 50897,
+      "bunkers_on_board": {
+        "vlsfo_mt": "550-600",
+        "lsmgo_mt": "150-200"
+      }
+    }
+  ]
+}

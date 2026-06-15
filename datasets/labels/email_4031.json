@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW JOYFUL",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "64000",
+    "built_year": "2022",
+    "flag": "",
+    "imo": "9846146",
+    "grt": "22745",
+    "nrt": "36121",
+    "loa": "179.99m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "CAOFEIDIAN,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no adverse affect\n\nof current sea swell up to and including beau fort scale force"
+    ],
+    "confidence_score": 0.98
+  }
+]

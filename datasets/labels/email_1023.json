@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ETNA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "47000",
+    "built_year": "2007",
+    "flag": "",
+    "imo": "",
+    "grt": "27729",
+    "nrt": "16113",
+    "loa": "189.98m",
+    "beam": "32m",
+    "grain_capacity": "",
+    "open_port": "CONTI",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

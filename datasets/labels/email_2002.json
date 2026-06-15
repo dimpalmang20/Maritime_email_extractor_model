@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PANOCEAN",
+    "cargo": "PANOCEAN / HDY DWT / TCT WITH HARMLESS",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-12-19",
+    "laycan_end": "2026-12-23",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Pakistan",
+    "restrictions": [],
+    "confidence_score": 0.86
+  }
+]

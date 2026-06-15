@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "propus - open west blsea begdec",
+    "vessel_type": "MR Tanker",
+    "dwt": "10300",
+    "built_year": "1997",
+    "flag": "iacs class bv",
+    "imo": "",
+    "grt": "7708",
+    "nrt": "",
+    "loa": "125.96m",
+    "beam": "20m",
+    "grain_capacity": "",
+    "open_port": "west",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Black Sea",
+    "restrictions": [
+      "no re"
+    ],
+    "confidence_score": 0.91
+  }
+]

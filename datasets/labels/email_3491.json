@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Coal",
+    "cargo_type": "Dry Bulk",
+    "dwt": "66000",
+    "del_port": "TO GLADSTONE, AUSTRALIA",
+    "redel_port": "",
+    "laycan_start": "2026-02-01",
+    "laycan_end": "2026-02-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.86
+  }
+]

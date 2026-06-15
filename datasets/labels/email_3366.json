@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GOLD LUCKY OPEN AT SAMSUN ON 16-19 JANUARY.",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "SAMSUN",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.65
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "GOLD LUCKY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2010",
+    "flag": "COMOROS",
+    "imo": "8681410",
+    "grt": "2997",
+    "nrt": "1768",
+    "loa": "89.6m",
+    "beam": "15.8m",
+    "grain_capacity": "6853",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.79
+  }
+]

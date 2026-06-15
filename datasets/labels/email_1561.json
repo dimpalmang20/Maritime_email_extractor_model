@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "KM JAKARTA",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "DOUALA",
+    "open_date": "2026-12-25",
+    "close_date": "2026-12-30",
+    "matching_region": "East Coast South America",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "KM JAKARTA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2018",
+    "flag": "LIBERIA",
+    "imo": "9820958",
+    "grt": "35824",
+    "nrt": "21075",
+    "loa": "199.98m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Ukraine",
+    "restrictions": [
+      "NO UKRAINE",
+      "NO RUSSIA",
+      "NO SYRIA"
+    ],
+    "confidence_score": 0.81
+  }
+]

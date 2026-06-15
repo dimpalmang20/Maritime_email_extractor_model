@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "HELENA K OPENING KANDLA AROUND 16-18 NOV -",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.55
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TTS-IHI CRANES.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56829",
+    "built_year": "",
+    "flag": "",
+    "imo": "9497854",
+    "grt": "33044",
+    "nrt": "19231",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO AFFECT OF ADVERSE CURRENT\n\nAND NO INFLUENCE OF SWELL",
+      "NO EXTRAPOLATION ALLOWED"
+    ],
+    "confidence_score": 0.88
+  }
+]

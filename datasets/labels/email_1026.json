@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "RUBAIYAT HANIF",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "58000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "32379",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "JINGTANG,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Bangladesh",
+    "restrictions": [
+      "EXCL PERIOD VSL\n\nREF",
+      "NO GOA\n\nVESSEL",
+      "NO ADVERSE CURRENTS OR NEGATIVE INFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.79
+  }
+]

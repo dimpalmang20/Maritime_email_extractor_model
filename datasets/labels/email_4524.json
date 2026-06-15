@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "40000-45000",
+    "del_port": "WCIND / ECIND (INT VIZAG )",
+    "redel_port": "",
+    "laycan_start": "2026-04-03",
+    "laycan_end": "2026-04-08",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.88
+  }
+]

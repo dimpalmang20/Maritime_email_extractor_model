@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Aggelos B open Bahodopi 2 - 3 December.",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Bahodopi, Indonesia",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "AGGELOS B",
+    "vessel_type": "Ultramax Bulk Carrier",
+    "dwt": "58479",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "9577434",
+    "grt": "",
+    "nrt": "34374",
+    "loa": "",
+    "beam": "196m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "no adverse\n\ncurrent",
+      "No extrapolations to be made for weather",
+      "no bottom fouling due to cumulative\n\nimmobilization for extended period"
+    ],
+    "confidence_score": 0.94
+  }
+]

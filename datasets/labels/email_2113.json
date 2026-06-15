@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MANDARIN S",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63588",
+    "built_year": "2025",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.72
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MANDARIN S",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63500",
+    "built_year": "2025",
+    "flag": "",
+    "imo": "",
+    "grt": "35916",
+    "nrt": "21205",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "7808373",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [
+      "NO GOA TRADE\n\nMV MANDARIN S\n\nBUILT"
+    ],
+    "confidence_score": 0.81
+  }
+]

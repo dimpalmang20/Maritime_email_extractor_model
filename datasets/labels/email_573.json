@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ANASSA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61000",
+    "built_year": "2011",
+    "flag": "Liberia",
+    "imo": "9590929",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.98m",
+    "beam": "32.24m",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "2026-11-24",
+    "close_date": "2026-11-29",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no adverse current and no\n\nnegative\n\ninfluence of swell"
+    ],
+    "confidence_score": 0.98
+  }
+]

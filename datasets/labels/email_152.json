@@ -1,0 +1,28 @@
+{
+  "email_id": 152,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV FATEMA JAHAN II",
+      "dwt": 58096,
+      "built": 2010,
+      "open_position": "Paradip, India",
+      "open_dates": "2025-11-21 to 2025-11-25"
+    },
+    {
+      "name": "MV AMEENA JAHAN",
+      "dwt": 53477,
+      "built": 2010,
+      "open_position": "Hazira, India",
+      "open_dates": "2025-11-21 to 2025-11-25"
+    },
+    {
+      "name": "MV JAHAN SISTERS I",
+      "dwt": 61177,
+      "built": 2015,
+      "open_position": "Chittagong, Bangladesh",
+      "open_dates": "2025-11-22 to 2025-11-26"
+    }
+  ],
+  "source_email": 152
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DARYA KOSHI -",
+    "vessel_type": "MR Tanker",
+    "dwt": "40000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Kandla, India",
+    "open_date": "2026-01-17",
+    "close_date": "2026-01-20",
+    "matching_region": "Russia",
+    "restrictions": [
+      "No Iran",
+      "No BAGGED RICE"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Darya Koshi",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "39760",
+    "built_year": "",
+    "flag": "Marshal Islands",
+    "imo": "",
+    "grt": "",
+    "nrt": "24755",
+    "loa": "",
+    "beam": "179.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.69
+  }
+]

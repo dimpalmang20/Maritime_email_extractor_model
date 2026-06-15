@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "MACOCEAN",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "SOUTH AMERICA",
+    "redel_port": "",
+    "laycan_start": "2026-10-30",
+    "laycan_end": "2026-11-04",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.68
+  }
+]

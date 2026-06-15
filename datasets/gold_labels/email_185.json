@@ -1,0 +1,52 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: Seawind Chartering <chartering@seawind.com.hk>\nSent: 13 November 2025 11:59\nSubject: MOKSHA OPEN CHITTAGONG - 15-20 NOV - CAN CONSIDER ANY\n\nPLEASE PROPOSE SUITABLE CARGOES  (CAN DO TCT)  FOR OUR OWN \nMV MOKSHA OPEN CHITTAGONG   O/A  15-20 NOV\nCAN CONSIDER ANY (EXCL IRAN)  -   GOA OK\n\nCAN DO 2 X 25 TS COILS - DECK CARGO OKAY\nFLEXIBLE TRADING AND CARGOES\n \nM/V MOKSHA\nLiberia Flag - CCS - Sd/Bc - 2011 Blt\n56,880.0 dwt on 12,80 m ssw (Tpc 58,80)\nGrt/Nrt 33,042/19,132\nLoa 189,98 / Beam 32,26 / Dm 18,00\nG/B 71,634 / 68,270\n5 ho/ha - 4x36 ton cranes +  4 X 12 cbm grabs",
+  "entities": {
+    "VESSEL": [
+      "MOKSHA"
+    ],
+    "VESSEL_TYPE": [
+      "Sd/Bc"
+    ],
+    "DWT": [
+      "56,880.0 dwt"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "COILS"
+    ],
+    "QUANTITY": [
+      "2 X 25 TS"
+    ],
+    "PORT": [
+      "CHITTAGONG",
+      "GOA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Seawind Chartering",
+      "SEAWIND FAR EAST LIMITED",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "15-20 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": [
+      "TCT"
+    ],
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@seawind.com.hk",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": [
+      "EXCL IRAN"
+    ]
+  }
+}

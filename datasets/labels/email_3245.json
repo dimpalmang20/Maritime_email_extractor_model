@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MV. PAN OPTIMUM",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "37000",
+    "built_year": "",
+    "flag": "Panama",
+    "imo": "",
+    "grt": "",
+    "nrt": "23238",
+    "loa": "",
+    "beam": "179.97m",
+    "grain_capacity": "",
+    "open_port": "PORT",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "no\n\nadverse current",
+      "no negative influence of swell"
+    ],
+    "confidence_score": 0.79
+  }
+]

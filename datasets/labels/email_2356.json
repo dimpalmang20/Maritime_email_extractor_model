@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VOSCO PROSPER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "55000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "DUNG",
+    "open_date": "2026-12-29",
+    "close_date": "2027-01-03",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VOSCO PROSPER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2011",
+    "flag": "",
+    "imo": "9473834",
+    "grt": "",
+    "nrt": "31572",
+    "loa": "190m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO ADVERSE CURRENT OR NEGATIVE INFLUENCE BY SWELL"
+    ],
+    "confidence_score": 0.77
+  }
+]

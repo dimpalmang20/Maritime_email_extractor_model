@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "55718",
+    "del_port": "CARGO",
+    "redel_port": "TRADE",
+    "laycan_start": "",
+    "laycan_end": "",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Gulf of Aden",
+    "restrictions": [
+      "NO YEMEN,",
+      "NO PERIOD,"
+    ],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MANTA ASLI",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2004",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "31218",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.6
+  }
+]

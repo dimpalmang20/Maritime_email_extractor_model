@@ -1,0 +1,55 @@
+{
+  "email_type": "Tonnage",
+  "text": "From: Bulk - Marcons - Marcons Group <bulk@marconsgroup.com>\nSent: 13 November 2025 12:01\nSubject: MV TOMINI SIROCCO/38781 DWT /AARHUS/ 19-20 NOV\n\nTOMINI SIROCCO 38/16      \n  OPENING IN AARHUS AROUND 19-20 NOV\n- BOD: ABT 550-600MTS VLSFO, ABT 150-200MTS LSMGO\n- LAST 5 CARGOES: SBM, DAP, WOOD PULP & TIMBER, COAL, CORN/WHEAT/SBM\n      \nMV 'TOMINI SIROCCO' - OHBC, BLT 2016\nABT 38,781MTON ON ABT 10.5M SSW\n180.00M LOA / 32.00M BEAM",
+  "entities": {
+    "VESSEL": [
+      "TOMINI SIROCCO"
+    ],
+    "VESSEL_TYPE": [
+      "OHBC"
+    ],
+    "DWT": [
+      "38781",
+      "38,781MTON"
+    ],
+    "IMO": null,
+    "CARGO": [
+      "SBM",
+      "DAP",
+      "WOOD PULP",
+      "TIMBER",
+      "COAL",
+      "CORN",
+      "WHEAT"
+    ],
+    "QUANTITY": null,
+    "PORT": [
+      "AARHUS"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Marcons Group",
+      "Marcons Shipmanagement Pvt. Ltd.",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "19-20 NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "bulk@marconsgroup.com",
+      "harshhjjaiwal45@outlook.com",
+      "shipbroker1999@gmail.com",
+      "kd412830@gmail.com",
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

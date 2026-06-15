@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Calcined Petcoke / Green Raw Petcoke",
+    "cargo_type": "Dry Bulk",
+    "quantity": "15000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": ": in case of 2 disports - rotation in charterers'",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "2.5%",
+    "matching_region": "Baltic Sea",
+    "restrictions": [],
+    "confidence_score": 0.93
+  }
+]

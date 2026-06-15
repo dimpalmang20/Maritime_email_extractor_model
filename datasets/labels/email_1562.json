@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FERASET",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Paranaguá, Brazil",
+    "open_date": "2026-12-26",
+    "close_date": "2026-12-31",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.81
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "26355",
+    "built_year": "2015",
+    "flag": "BOX TYPE",
+    "imo": "9747651",
+    "grt": "",
+    "nrt": "15861",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.89
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OBE QUEEN",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52256",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ABIDJAN,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Baltic Sea",
+    "restrictions": [
+      "NO PERIOD OR LEGS\n\nNO GOA",
+      "NO I",
+      "NO BALTIC\n\nBAGGED SUGAR OK"
+    ],
+    "confidence_score": 0.84
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "LOA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52256",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "4621",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "No Grain"
+    ],
+    "confidence_score": 0.69
+  }
+]

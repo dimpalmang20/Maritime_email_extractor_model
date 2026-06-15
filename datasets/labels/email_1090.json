@@ -1,0 +1,39 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON S.DRAFT 10.20M",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "33013",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "19992",
+    "nrt": "11905",
+    "loa": "177.4m",
+    "beam": "28.2m",
+    "grain_capacity": "",
+    "open_port": "SANTA",
+    "open_date": "2026-12-07",
+    "close_date": "2026-12-10",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  },
+  {
+    "email_type": "VC",
+    "cargo": "",
+    "cargo_type": "",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "RULES.",
+    "discharge_port": "",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.65
+  }
+]

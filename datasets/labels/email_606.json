@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BAO SUCCESS",
+    "vessel_type": "MR Tanker",
+    "dwt": "56918",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "7163409",
+    "open_port": "EGYPT",
+    "open_date": "2025-12-02",
+    "close_date": "2025-12-07",
+    "matching_region": "China",
+    "restrictions": [
+      "NO SCRUBBER\n\nG",
+      "NO MIXING BUNKERS TO BE ALLOWED\n\nTANK CAPACITY"
+    ],
+    "confidence_score": 0.87
+  }
+]

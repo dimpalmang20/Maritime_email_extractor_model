@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WINDS",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "40000-50000",
+    "del_port": "WCIND (INT KARACHI / BIN QASEM )",
+    "redel_port": "EAFR ( INT MOGADISHU)",
+    "laycan_start": "2026-04-08",
+    "laycan_end": "2026-04-13",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

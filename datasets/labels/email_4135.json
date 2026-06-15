@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "FO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63514",
+    "built_year": "2016",
+    "flag": "REPUBLIC OF KOREA",
+    "imo": "",
+    "grt": "12202",
+    "nrt": "",
+    "loa": "199.9m",
+    "beam": "179.97m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2027-02-12",
+    "close_date": "2027-02-15",
+    "matching_region": "Taiwan",
+    "restrictions": [],
+    "confidence_score": 0.89
+  }
+]

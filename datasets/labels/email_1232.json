@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OSLO VENTURE",
+    "vessel_type": "MR Tanker",
+    "dwt": "63234",
+    "built_year": "",
+    "flag": "HONG KONG",
+    "imo": "9693185",
+    "grt": "21330",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.9m",
+    "grain_capacity": "",
+    "open_port": "BELAWAN,",
+    "open_date": "2026-12-05",
+    "close_date": "2026-12-10",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

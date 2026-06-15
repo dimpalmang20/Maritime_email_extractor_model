@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Container Ship",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "GUAYAQUIL,",
+    "open_date": "2025-11-19",
+    "close_date": "2025-11-20",
+    "matching_region": "Russia",
+    "restrictions": [
+      "No containers\n\nNo Russia\n\nNo Venezuela\n\nNo Cuba",
+      "No deck cargo",
+      "no hatch cargo\n\nNorway"
+    ],
+    "confidence_score": 0.6
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TAC DAYTONA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2022",
+    "flag": "PANAMA",
+    "imo": "9932115",
+    "grt": "25163",
+    "nrt": "134935",
+    "loa": "179.9m",
+    "beam": "30m",
+    "grain_capacity": "",
+    "open_port": "HATCH",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

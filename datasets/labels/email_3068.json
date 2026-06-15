@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "BLT 2010 OPEN MUMBAI 15TH JAN 2026.",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "2010",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Mumbai, India",
+    "open_date": "2026-01-15",
+    "close_date": "2026-01-20",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.8
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MANDARIN PHOENIX",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "32969",
+    "nrt": "19156",
+    "loa": "189.99m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [],
+    "confidence_score": 0.64
+  }
+]

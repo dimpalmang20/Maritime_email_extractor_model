@@ -1,0 +1,29 @@
+{
+   "text" : "Doc-No. 12492659   28/NOV/2025 (FRI)  11:05  (+0200)\n \nP R I M E   M A R I T I M E   I N C. - PIRAEUS\n71, Akti Miaouli Str – 7th floor\nTEL:+30 210 4527001/2/3/4\nE-mail:chartering@primemaritime.gr, www.primemaritime.gr\n\nDEAR SIRS\n \nOUR CLOSE OWS OPEN ASF\n \nPLS PPSE SUIT \n \nMV NEFELI / 63K / 16 - SAILED HALDIA 27/11, ETA SAFR 15/12,   - EX OUR CP\n \nMV NEFELI\n=========\nMALTA FLAG\nBUILT 2016\nCLASS BV\nABT 63.466 DWT ON ABT 13.30 MTRS SSW (SCANTLING)\nLOA 199.90 MTRS / BEAM 32.26 MTRS\nGRAIN CAP ABT 78.702 CBM\n5/5 HO/HA\nCO2 FITTED IN CARGO HOLDS / A60 BULKHEAD FITTED\n4 X ELECTRO HYDRAULIC 35TS SWL CRANES + GRAB FITTED\nSPEED / CONS (INCLUDING A/E)\nBALLAST : ABT 12.00 KNOTS ON ABT 19.50 MTS VLSIFO 380 CST + ABT 0,1 MTS LSMGO\nLADEN : ABT 11.00 KNOTS ON ABT 19.50 MTS VLSIFO 380 CST + ABT 0,1 MTS LSMGO\nPORT/ANCHORAGE CONSUMPTION:\nIDLE: ABT 3.5 MT VLSIFO 380 CST, DAILY.\nWORKING: ABT 7.0 MT VLSIFO 380 CST, DAILY.\nIN CASE OF COLD/HOT CLIMATES AN ADDITIONAL ABT 1.5 MT DAILY\n \nADA.\n \nBEST REGARDS,\nGEORGE RACHIOTIS \n+30 699 223 8161\n&\nKOSTAS SOTIROPOULOS \n+30 698 039 7728\n \n \nPls note our e-mail addresses:\n\nchartering@primemaritime.gr     for all your orders\nposition@primemaritime.gr        for all your vessels positions\noperation@primemaritime.gr      for post fixing/operation matters\nsnp@primemaritime.gr             for s&p department",
+   "entities" : {
+      "CARGO" : null,
+      "LOAD_PORT" : null,
+      "VESSEL" : [
+         "MV NEFELI",
+         "MT DAILY"
+      ],
+      "DWT" : null,
+      "VESSEL_TYPE" : null,
+      "CHARTER_TYPE" : null,
+      "ETA" : [
+         "15/12"
+      ],
+      "DISCHARGE_PORT" : null,
+      "FREIGHT_RATE" : null,
+      "PORT" : [
+         "ASF"
+      ],
+      "CHARTERER" : null,
+      "OPEN_DATE" : null,
+      "IMO" : null,
+      "CONTACT" : [
+         "GEORGE RACHIOTIS"
+      ],
+      "LAYCAN" : null
+   }
+}

@@ -1,0 +1,30 @@
+{
+  "email_id": 227,
+  "email_type": "tonnage",
+  "source": "Marcons",
+  "vessels": [
+    {
+      "vessel_name": "STAR DANAI",
+      "future_name": "APJ PRITI 2",
+      "open_position": "Yangjiang, China",
+      "open_date": "2025-11-26/2025-11-30",
+      "cargo_preference": "Grains",
+      "built_year": 2006,
+      "shipyard": "Tsuneishi Shipbuilding, Japan",
+      "class": "BV",
+      "flag": "Proposed Indian Flag",
+      "dwt_mt": 82574,
+      "draft_m": 14.429,
+      "tpc": 70.209,
+      "loa_m": 228.99,
+      "beam_m": 32.26,
+      "gt": 43168,
+      "nt": 27291,
+      "holds": 7,
+      "hatches": 7,
+      "grain_cbm": 97186.1,
+      "gear": "Gearless",
+      "scrubber": "Open Loop"
+    }
+  ]
+}

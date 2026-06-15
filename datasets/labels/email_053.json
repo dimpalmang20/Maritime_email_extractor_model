@@ -1,0 +1,26 @@
+{
+  "email_type": "TONNAGE",
+  "vessel_name": "MANDARIN CHINA",
+  "vessel_type": "BULK CARRIER",
+  "dwt": 56778,
+  "built_year": 2011,
+  "flag": "SINGAPORE",
+  "grt": 33044,
+  "nrt": 19231,
+  "loa": 189.99,
+  "beam": 32.26,
+  "grain_capacity": 71634,
+  "open_port": "DURBAN",
+  "open_date": "2025-11-17",
+  "close_date": "2025-11-18",
+  "cranes": "4 X 30MT",
+  "grabs": "4 X 12CBM",
+  "bod_vlsfo": 700,
+  "bod_lsmgo": 160,
+  "last_cargoes": [
+    "WHEAT",
+    "STEEL",
+    "DRY DOCK"
+  ],
+  "confidence_score": 0.99
+}

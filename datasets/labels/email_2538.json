@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PACCLINE",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "66000",
+    "del_port": "APS SW PASS",
+    "redel_port": "WW, EXCL HRA",
+    "laycan_start": "2026-01-05",
+    "laycan_end": "2026-01-11",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "High Risk Area",
+    "restrictions": [
+      "EXCL HRA"
+    ],
+    "confidence_score": 0.97
+  }
+]

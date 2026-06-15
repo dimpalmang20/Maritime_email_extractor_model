@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ANEMON",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "",
+    "flag": "Liberia",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "199.99m",
+    "beam": "32.264m",
+    "grain_capacity": "",
+    "open_port": "KOHSICHANG",
+    "open_date": "2026-01-02",
+    "close_date": "2026-01-03",
+    "matching_region": "East Coast India",
+    "restrictions": [
+      "No more than",
+      "no significant movement of the ship due to\n\nwave action",
+      "no adverse current and no\n\nnegative\n\ninfluence of swell and on even keel in deep waters with clean bottom"
+    ],
+    "confidence_score": 0.9
+  }
+]

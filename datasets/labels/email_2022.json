@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TAI HELIOS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "52220",
+    "built_year": "2005",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Zhoushan, China",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.84
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "TAI HELIOS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "53000",
+    "built_year": "2013",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KOHSICHANG,",
+    "open_date": "2026-12-17",
+    "close_date": "2026-12-19",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.92
+  }
+]

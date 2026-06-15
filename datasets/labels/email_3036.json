@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "EVA ISTANBUL",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BRUNSBUTTEL",
+    "open_date": "2027-01-17",
+    "close_date": "2027-01-22",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.81
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "CRANES - 4 X 12CBM GRABS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2023",
+    "flag": "",
+    "imo": "9972440",
+    "grt": "",
+    "nrt": "25171",
+    "loa": "",
+    "beam": "179.9m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENT AND NO NEGATIVE\n\nINFLUENCE OF SWELL"
+    ],
+    "confidence_score": 0.82
+  }
+]

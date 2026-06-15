@@ -1,0 +1,26 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEA SAPPHIRE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32000",
+    "built_year": "2010",
+    "flag": "PANAMA CLASS KR",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENTS",
+      "NO\n\nNEGATIVE INFLUENCE OF SWELL",
+      "NO FAVORABLE WEATHER AND CURRENT FACTOR TO BE APPLIED WHEN EVALUATING\n\nVESSEL"
+    ],
+    "confidence_score": 0.74
+  }
+]

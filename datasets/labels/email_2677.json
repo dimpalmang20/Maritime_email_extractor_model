@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "IFO",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "2014",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "2026-01-05",
+    "close_date": "2026-01-07",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO VENEZ",
+      "NO ADVERSE CURRENT"
+    ],
+    "confidence_score": 0.7
+  }
+]

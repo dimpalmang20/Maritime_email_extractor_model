@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VOSCO Sunrise 56k",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "56000",
+    "built_year": "2013",
+    "flag": "LOA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "KOHSICHANG,",
+    "open_date": "2026-12-17",
+    "close_date": "2026-12-22",
+    "matching_region": "Thailand",
+    "restrictions": [
+      "NO NEGATIVE SWELL"
+    ],
+    "confidence_score": 0.92
+  }
+]

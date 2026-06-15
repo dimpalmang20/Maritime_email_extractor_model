@@ -1,0 +1,53 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2027-04-16",
+    "laycan_end": "2027-04-21",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "South China",
+    "restrictions": [],
+    "confidence_score": 0.79
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2027-04-04",
+    "laycan_end": "2027-04-09",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Coast India",
+    "restrictions": [],
+    "confidence_score": 0.79
+  },
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-69999",
+    "del_port": "TO MAPUTO",
+    "redel_port": "",
+    "laycan_start": "2026-04-21",
+    "laycan_end": "2026-04-26",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.87
+  }
+]

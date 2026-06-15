@@ -1,0 +1,52 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 134\nemail_type: open_vessels\nsource_company: Marcons Shipmanagement Pvt. Ltd.\nvessels:\n- vessel_name: HS GLORY\n  dwt: 18978\n  open_port: Morowali\n  open_country: Indonesia\n  open_date: '2025-12-05/10'\n  draft_m: 8.496\n  vessel_type: SDBC\n  flag: Marshall Islands\n  built_year: 2008\n  class: KR\n  loa_m: 139.92\n  beam_m: 25.0\n  depth_m: 11.5\n  gross_tonnage: 11743\n  net_tonnage: 6457\n  grain_capacity_cbm: 23160\n  bale_capacity_cbm: 22563\n  holds: 4\n  hatches: 4\n  cranes: 3x30.5MT",
+  "entities": {
+    "VESSEL": [
+      "HS GLORY"
+    ],
+    "VESSEL_TYPE": [
+      "SDBC"
+    ],
+    "DWT": [
+      "18978 DWT",
+      "18,978 MT"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "NAGOYA",
+      "MOROWALI",
+      "INDONESIA"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": [
+      "MARCONS"
+    ],
+    "BROKER": [
+      "Marcons Shipmanagement Pvt. Ltd.",
+      "Varitas Navigation"
+    ],
+    "LAYCAN": [
+      "5-10 DEC",
+      "5-10 DEC . 2025"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": [
+      "chartering@varitasnavigation.com",
+      "deepeshmajigamkar@hotmail.com",
+      "bulk@marconsgroup.com",
+      "momin2905@rediffmail.com",
+      "harshhjjaiwal45@outlook.com",
+      "shipbroker1999@gmail.com",
+      "kd412830@gmail.com"
+    ],
+    "RESTRICTIONS": null
+  }
+}

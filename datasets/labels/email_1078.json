@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SKYROS",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "79366",
+    "built_year": "2011",
+    "flag": "CLASS CCS",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "229m",
+    "grain_capacity": "",
+    "open_port": "INCHON",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.82
+  }
+]

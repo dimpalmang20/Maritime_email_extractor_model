@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "JIU FENG LING DWT 32033.5 MTS - OPEN MANGLA O",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "32033",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MANGLA",
+    "open_date": "2026-06-20",
+    "close_date": "2026-06-21",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEAJORUNEY",
+    "vessel_type": "MR Tanker",
+    "dwt": "82580",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "EAST",
+    "open_date": "2027-01-03",
+    "close_date": "2027-01-08",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.85
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEAJOURNEY EX UNITED JOURNEY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "69999",
+    "built_year": "2009",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "245",
+    "loa": "",
+    "beam": "228.99m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

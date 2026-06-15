@@ -1,0 +1,18 @@
+{
+  "email_id": 222,
+  "email_type": "cargo_requirement",
+  "source": "Ocean Reaper Maritime",
+  "account": "Vedanta Limited or Nominee",
+  "cargo": "Iron Ore Fines",
+  "quantity_mt": 55000,
+  "quantity_option": "+/-10% MOLOO",
+  "laycan": "2025-11-17/2025-11-20",
+  "load_port": "New Mangalore, India",
+  "discharge_port": "China CHOPT",
+  "load_rate": "12000 tpwwdshinc",
+  "discharge_rate": "18000 tpwwdshinc",
+  "vessel_requirements": {
+    "type": "Geared",
+    "max_age_years": 15
+  }
+}

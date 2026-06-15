@@ -1,0 +1,16 @@
+{
+  "email_id": 154,
+  "type": "tonnage",
+  "vessels": [
+    {
+      "name": "MV HONGLI 8",
+      "dwt": 35050,
+      "built": 2012,
+      "flag": "Panama",
+      "open_position": "Georgetown, Guyana",
+      "open_dates": "Mid December 2025",
+      "trading_area": "Worldwide"
+    }
+  ],
+  "source_email": 154
+}

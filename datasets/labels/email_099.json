@@ -1,0 +1,35 @@
+[
+  {
+  "email_id": 99,
+  "email_type": "open_vessel_list",
+  "vessel_name": "JC TREASURE",
+  "dwt": 16700,
+  "open_port": "Zhapu",
+  "open_date": "2025-11-23"
+},
+{
+  "email_id": 99,
+  "email_type": "open_vessel_list",
+  "vessel_name": "WOOHYUN SKY",
+  "dwt": 32300,
+  "open_port": "CJK",
+  "open_date": "2025-11-12"
+},
+{
+  "email_id": 99,
+  "email_type": "open_vessel_list",
+  "vessel_name": "CHATHAM ISLAND",
+  "dwt": 61600,
+  "open_port": "Dalian",
+  "open_date": "2025-11-17"
+},
+{
+  "email_id": 99,
+  "email_type": "open_vessel_list",
+  "vessel_name": "XI HU",
+  "dwt": 63500,
+  "open_port": "Yeosu",
+  "open_date": "2025-11-19",
+  "deck_cargo": true
+}
+]

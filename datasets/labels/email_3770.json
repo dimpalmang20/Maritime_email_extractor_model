@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SEAHUNTER",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "49990",
+    "built_year": "2024",
+    "flag": "",
+    "imo": "",
+    "grt": "36490",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.97m",
+    "grain_capacity": "",
+    "open_port": "DAHEJ,",
+    "open_date": "2027-01-19",
+    "close_date": "2027-01-20",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

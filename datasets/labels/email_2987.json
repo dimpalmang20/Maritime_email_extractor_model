@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "CETUS",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "25000-54999",
+    "del_port": "VANCOUVER - 18/24 JAN",
+    "redel_port": "MANZANILLO, MEX",
+    "laycan_start": "2026-01-05",
+    "laycan_end": "2026-01-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.9
+  }
+]

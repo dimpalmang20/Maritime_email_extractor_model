@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "NEW MOMENTUM",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "39000",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "24203",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "MUMBAI,",
+    "open_date": "2026-04-05",
+    "close_date": "2026-04-09",
+    "matching_region": "Far East",
+    "restrictions": [],
+    "confidence_score": 0.92
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN SAPPHIRE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "KOREA",
+    "imo": "9860386",
+    "grt": "",
+    "nrt": "34876",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT",
+      "NO NEGATIVE INFLUENCE OF SWELL AND NO ADVERSE CURRENT AND SWELL",
+      "NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.69
+  }
+]

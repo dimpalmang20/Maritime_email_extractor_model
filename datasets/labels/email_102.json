@@ -1,0 +1,43 @@
+{
+  "email_id": 102,
+  "email_type": "open_vessel",
+  "source_company": "Aryacorp",
+  "vessel_name": "UNIVERSE WEALTHY",
+  "vessel_type": "Bulk/Log Ship",
+  "flag": "Panama",
+  "class": "NK",
+  "built_year": 2001,
+  "built_country": "Japan",
+  "open_port": "Bangkok",
+  "open_country": "Thailand",
+  "open_date_from": "2025-11-18",
+  "open_date_to": "2025-11-20",
+  "dwt": 28287,
+  "draft_m": 9.573,
+  "grt": 17859,
+  "nrt": 9828,
+  "loa_m": 171.93,
+  "beam_m": 27.0,
+  "depth_m": 13.6,
+  "holds": 5,
+  "hatches": 5,
+  "grain_capacity_cbm": 38232,
+  "bale_capacity_cbm": 36736,
+  "cranes": {
+    "count": 4,
+    "swl_mt": 30
+  },
+  "speed_consumption": {
+    "ballast_speed_knots": 12.5,
+    "ballast_ifo_mt_day": 17.0,
+    "ballast_mgo_mt_day": 0.2,
+    "laden_speed_knots": 12.0,
+    "laden_ifo_mt_day": 18.0,
+    "laden_mgo_mt_day": 0.2,
+    "idle_ifo_mt_day": 2.5,
+    "idle_mgo_mt_day": 0.4,
+    "working_ifo_mt_day": 3.5,
+    "working_mgo_mt_day": 1.2
+  },
+  "status": "Open"
+}

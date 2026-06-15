@@ -1,0 +1,14 @@
+{
+  "email_id": 117,
+  "email_type": "period_requirement",
+  "broker": "Golden Maritime",
+  "charterer": "Anchor Shipping",
+  "requirement_type": "Period Charter",
+  "vessel_size": "SMX/UMX",
+  "dwt_range": "52000-64000",
+  "delivery": "Worldwide",
+  "redelivery": "Worldwide",
+  "period": "1 Year",
+  "laycan": "Flexible",
+  "total_commission_pct": 3.75
+}

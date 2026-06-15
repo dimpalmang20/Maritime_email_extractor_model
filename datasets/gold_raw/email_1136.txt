@@ -1,0 +1,112 @@
+ 
+ 
+Thanks and Regards,
+ 
+Ms. Eleanor Rodriguez
+Operations Executive
+ 
+
+Sobha Sapphire Bldg. Office No. 906 Business Bay, P.O. Box 123175, Dubai United Arab Emirates
+Tel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mobile/Whatsapp: (+97150) 456 9584
+Teams: ⁠ <https://teams.live.com/l/invite/FEA24fuDdrtycUAJAg?v=g1> Transbulk5 
+WeChat: TransbulkOps_Eleanor
+Email:  <mailto:operations@transbulk.ae> operations@transbulk.ae |  <mailto:transblk@eim.ae> transblk@eim.ae 
+Website:  <http://www.transbulk.ae/> http://www.transbulk.ae
+ 
+From: Crater <crater@om-email.net> 
+Sent: Wednesday, 26 November 2025 12:27 PM
+To: transbulk@sea.wni.com
+Cc: info@bulkseas.com; 'Transbulk Operation - Tabrez ' <operations@transbulk.ae>
+Subject: MV CRATER - Noon Report - 26 Nov 2025
+ 
+*NOTICE*
+ 
+In order to import your report into WNI database,
+1. Make sure to send this report with "PLAIN TEXT" email format.
+2. Do not edit the following text as your report is encoded there.
+3. Please use this QRT web page if you need to correct your past report.
+ 
+"Do not delete the following text".
+ 
+[== Start of Message]
+[Format Version           : 9.0.2.28]
+[Vessel Name              : CRATER]
+[IMO Number               : 9304289]
+[Call Sign                : 5LNI9]
+[Voyage number            : 08L]
+[Load Condition           : Laden]
+[Displayed REPORT TYPE    : NOON REPORT]
+[UTC offset               : +05:30]
+[Time (LT)                : 2025/Nov/26 12:00 LT]
+[Position                 : 5-45.1N 81-45.1E]
+[Destination Port Name    : PARADIP / INDIA]
+[Destination Port Code    : PRA]
+[UTC offset at Destination: +05:30]
+[ETA (LT)                 : 2025/Nov/29 23:00 LT]
+[Speed instruction        : Eco]
+[Order speed              : 11.5kts]
+[Order consumption        : FO:24/GO:0.20/DO:/LNG:(MT/day)]
+[Time SLR                 : 24hrs 00min]
+[Distance SLR             : 201nm]
+[Set RPM                  : 87rpm]
+[Average speed            : 8.36knots]
+[Average RPM              : 87.17rpm]
+[Average %MCR             : %]
+[Average M/E power        : 5318kW]
+[Average slip             : 34.89%]
+[Draft fore               : 14.38m]
+[Draft aft                : 14.48m]
+[NOON Fuel (MT)           : Fuel_Type/ROB/ME_Cons/AE_Cons/Boiler_Cons/Total_Cons]
+[NOON Fuel                : HSFO/0/0/0/0/0(MT)]
+[NOON Fuel                : VLSFO(vis>80)/0/0/0/0/0(MT)]
+[NOON Fuel                : VLSFO(vis<80)/667.95/21.29/2.46/0/23.75(MT)]
+[NOON Fuel                : ULSFO/0/0/0/0/0(MT)]
+[NOON Fuel                : MDO/0/0/0/0/0(MT)]
+[NOON Fuel                : LSMDO/0/0/0/0/0(MT)]
+[NOON Fuel                : MGO/0/0/0/0/0(MT)]
+[NOON Fuel                : LSMGO/205.19/0/0.20/0/0.20(MT)]
+[Wind speed               : 27kts]
+[Wind BF                  : 6]
+[Wind direction           : NE]
+[Windsea height           : 1.0m]
+[Windsea direction        : NE]
+[Swell height             : 3.0m]
+[Swell direction          : S]
+[Visibility               : 12nm]
+[Remarks                  : Rolling and Pitching Heavily due to S'ly Swell 3.0m abt
+Adverse Current - 2.0 kts abt]
+[REPORT TYPE              : NOON REPORT]
+[== End of Message]
+ 
+[==StartReport]
+UEsDBAoAAAAIACpDeluBrbUczwQAAK8RAAAGAAAAcmVwb3J0jVjbbhs3EP0V
+wi9N0Hi9N92cl6qO4QRRbEMWEKAosKB2KYkQRaokJccp+u8dcnelvZBq4QvE
+c2aGwzlDmvTfV5LshdSZftuTq9urx6enx6sPTTAznysGze+fn+aLjsEOU9Yz
+OBKlCMs43p0i3M2ni/s5cHQnMn7Y1fgkCdN4PAEix4wpuuY1M5g9fjH4Ubzh
+NTE+AIbjGUBM4ILydZYLXlBNBQdmhgvCgeNC8ExTmJlpgOMwHlxH0XU8XETx
+bRjCNxjpn2K1UsQY/JokYdOt7RMObxPj84eZFRv7JB0Ekc3BzJpOwnKIpcxs
+VcyigXiezqefvjw3mVwUlplPm2g/FUspqKzSRGZE485KJos4Oa2kb/w/Araj
+RaPzGiUBQbmpbUGVxjwnmRbgbEpvxOOa8IIUmdoT+F31zX0u3Fxmwsmt8QYD
+IQsiax6gKAoGDRjEVNnKKB+nXXht4DCIwy5RiHZsCzK+LlG5Nz0zHhl9NeiL
+j0SaXqozGAfJ0Mlls6eHMkSLq+MFkQlpKpURvqYceg06suEA3bcXr0SaNk6i
+cQ0rRve2hQLb8bbnColXGtYtTSWjNEjGbQZ+SiI1RC4OUhG7EcwQBMU7o9bG
+4NYuDZt4raJVPHIx1VKNlxTLbKOuN1aEM9AaHlnXwCDMIsPhKJgMKviE1nYH
+phqjnSqaJGsPd2rdZu0wNnttUmFaaOyY1sKtWBbp+0Pafe/2yjrhrYS2wWzI
+dqn6pJdql9DFlhPHSTByzduqbJc8V7nLNCrej+ilGkr0vZrbssue9fGtoy2V
+k60ncNfpYnR/hX1Zwab1SGoZN+4Ts6KquaIgnnRpj4zAuDQE2CmgDeTGndJZ
+ezfeUMyVr0+umnIHPcnkCukpnC8J7BUIewTCfoFwS6AgHXZZjz7YrQ/26IM9
++mCPPph49xVuSeTI2KcQJhd2E25o5IjpKZ0niaWgDK4YHpVOrJ/zqdWgXaJU
+9GXWJVtFOaU7BfVzTglPfn7urKOf9s/q227nIl0o/oXqOSihN349S9In2Zn1
+B75IOkWp/byUU5Lay0v5BGmw3hl9cpwKcKGuXsrVrJWTv5on5pXy8z07HtXI
+cmXuM/WooOZ+mg6qsSI42xC63tj7ZhA24IaleiWMne0Sa1eCpVU0Dqt3RHnx
+nwvG4L6JMC/QM9X5xgw+E3yk7A0VB4K0QC+/wOcXEwRBwB3CS/0nnxZw61YE
+3R2kJFyjaxQHIdpqZWiY4kgVXVJG9ZuZ1RxqOaNgCKPF759gSKq3qZaYq+WB
+bX+DtQSvnAa52JmsN3RfP2EMbdNe/ccjEC7qO6wzk1r57pwEcKIGsbmNHxSR
+03WZwjfxkzKGbwaQ87vvUEfxqtDjAkVhEH5EAAzTj+jHMH2Ppvs9I9/J8ivV
+N4NkBE8S9O7r58W32QfE6JagB5JvxXt0t5FiR26iGKpgvtALXmFJKxfzBDLV
+rmeKQnSD6sELkZAvggfA0Imav7JLCZh9sDwIsWakmg8Yql5mc1vGA7k6Pf5z
+SbAmrmKNb+PBbWyLBQUpzodHFcCC50Oji7Ie6gSrw6Ft14Oqw6Bt1Yfse7GF
+7Nf7PrTsRidi04GIbkLQefmWmj1Y/Zsji0bDNEoHgzhM7OXmwOlfB7Ilbw2b
+uqM6xv/8C1BLAQIUAAoAAAAIACpDeluBrbUczwQAAK8RAAAGAAAAAAAAAAAA
+AAAAAAAAAAByZXBvcnRQSwUGAAAAAAEAAQA0AAAA8wQAAAAA
+[==EndReport]

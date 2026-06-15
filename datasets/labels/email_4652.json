@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "PAN OCEAN CO., LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "10000-99999",
+    "del_port": "TO MAKE NOPAC",
+    "redel_port": "SGP - JAPAN RANGE",
+    "laycan_start": "2026-05-03",
+    "laycan_end": "2026-05-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

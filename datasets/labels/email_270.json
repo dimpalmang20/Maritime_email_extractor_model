@@ -1,0 +1,28 @@
+{
+  "email_id": 270,
+  "email_type": "vessel_position",
+  "company": "LEMA Chartering",
+  "contact_person": "Sergey Slepchenko",
+  "vessels": [
+    {
+      "vessel_name": "KSL Mingyang",
+      "vessel_type": "Bulk Carrier",
+      "built_year": 2009,
+      "dwt": 54000,
+      "grain_capacity_cbm": 65945,
+      "cranes": "4 x 36 MT",
+      "grabs": "4 x 13 CBM",
+      "open_position": "Marmara",
+      "open_date": "2025-12-20 to 2025-12-25",
+      "preferred_trade": [
+        "China",
+        "Time Charter Trip",
+        "Ukraine"
+      ],
+      "cargo_preferences": [
+        "Goa cargo",
+        "AWRP cargo"
+      ]
+    }
+  ]
+}

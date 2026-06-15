@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Marcons",
+    "cargo_type": "Dry Bulk",
+    "quantity": "25000",
+    "quantity_unit": "MT",
+    "load_port": "Kakinada, India",
+    "discharge_port": "TRIPOLI OR ANY OTHER IN LIBYA",
+    "laycan_start": "2026-12-15",
+    "laycan_end": "2026-12-20",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "MR Tanker",
+    "dwt": "75000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "FUJIAN",
+    "open_date": "2027-01-14",
+    "close_date": "2027-01-16",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.7
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "75000",
+    "built_year": "1999",
+    "flag": "LOA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "224.95m",
+    "grain_capacity": "894225",
+    "open_port": "FUJIAN",
+    "open_date": "2027-01-14",
+    "close_date": "2027-01-16",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE\n\nINFLUENCE OF SWELL AND CURRENT\n\nALWAYS IFO",
+      "NO MDO AT SEA\n\nPORT CONSUMPTION I"
+    ],
+    "confidence_score": 0.77
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "email_id": 126,
+  "email_type": "open_vessels",
+  "source_company": "Indo Sino",
+  "vessels": [
+    {
+      "vessel_name": "YUAN ZHENG",
+      "built_year": 2007,
+      "dwt": 3250,
+      "open_port": "Inchon",
+      "open_date": "2025-12-08"
+    },
+    {
+      "vessel_name": "QI HANG",
+      "built_year": 2008,
+      "dwt": 3720,
+      "open_port": "Inland Sea",
+      "open_date": "2025-12-01"
+    },
+    {
+      "vessel_name": "TRAWIND COURAGE",
+      "built_year": 2013,
+      "dwt": 5670,
+      "open_region": "CJK",
+      "open_date": "Prompt"
+    },
+    {
+      "vessel_name": "TRAWIND TBN",
+      "built_year": 2025,
+      "dwt": 6300,
+      "open_port": "Dalian",
+      "open_date": "2026-01-31"
+    },
+    {
+      "vessel_name": "TRAWIND GLORY",
+      "built_year": 2007,
+      "dwt": 12005,
+      "open_port": "Singapore",
+      "open_date": "2025-11-30"
+    },
+    {
+      "vessel_name": "TRAWIND VISION",
+      "built_year": 2008,
+      "dwt": 16645,
+      "open_port": "Hualien",
+      "open_date": "2025-11-18"
+    },
+    {
+      "vessel_name": "TRAWIND SHINE",
+      "built_year": 2024,
+      "dwt": 16100,
+      "open_region": "South China",
+      "open_date": "2025-11-30"
+    },
+    {
+      "vessel_name": "TRAWIND STAR",
+      "built_year": 2025,
+      "dwt": 16100,
+      "open_country": "Vietnam",
+      "open_date": "2025-12-31"
+    },
+    {
+      "vessel_name": "BAO HE HAI",
+      "built_year": 2006,
+      "dwt": 17500,
+      "open_status": "Prompt"
+    },
+    {
+      "vessel_name": "TRAWIND DOLPHIN",
+      "built_year": 2012,
+      "dwt": 33686,
+      "open_port": "Vietnam",
+      "open_date": "2025-11-30"
+    }
+  ]
+}

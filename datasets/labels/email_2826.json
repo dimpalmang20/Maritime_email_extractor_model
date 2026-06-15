@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ASIAN MAJESTY",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "62400",
+    "built_year": "",
+    "flag": "",
+    "imo": "9724996",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "199.98m",
+    "grain_capacity": "",
+    "open_port": "ONAHAMA",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO ADVERSE CURRENTS"
+    ],
+    "confidence_score": 0.91
+  }
+]

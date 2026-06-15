@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "",
+    "vessel_type": "Supramax Bulk Carrier",
+    "dwt": "",
+    "built_year": "2009",
+    "flag": "ABLE MAKE ETA",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "187.88m",
+    "beam": "32.26m",
+    "grain_capacity": "70733",
+    "open_port": "",
+    "open_date": "2027-01-05",
+    "close_date": "2027-01-10",
+    "matching_region": "South Africa",
+    "restrictions": [],
+    "confidence_score": 0.58
+  }
+]

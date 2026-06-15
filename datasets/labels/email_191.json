@@ -1,0 +1,23 @@
+{
+  "email_id": 191,
+  "type": "tonnage",
+  "source_email": 191,
+  "vessels": [
+    {
+      "name": "OSPREY S",
+      "dwt": 30570,
+      "built": 2007,
+      "flag": "Liberia",
+      "class": "BV",
+      "open_position": "Marmara Sea",
+      "open_date": "2025-11-26/28",
+      "vessel_type": "Bulk Carrier",
+      "holds_hatches": "5/5",
+      "gear": "3 x 20 MT Cranes",
+      "grain_capacity_cbft": 1447028,
+      "bale_capacity_cbft": 1398082,
+      "double_skinned": true,
+      "grain_fitted": true
+    }
+  ]
+}

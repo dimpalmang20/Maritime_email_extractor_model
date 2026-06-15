@@ -1,0 +1,28 @@
+{
+  "email_id": 127,
+  "email_type": "open_vessels",
+  "source_company": "Marcons Group",
+  "vessels": [
+    {
+      "vessel_name": "APJ SHIRIN",
+      "flag": "Panama",
+      "built_year": 2012,
+      "open_port": "Karaikal",
+      "open_country": "India",
+      "open_date": "2025-11-14/17",
+      "dwt": 56556,
+      "draft_m": 12.8,
+      "tpc": 58.8,
+      "loa_m": 189.99,
+      "beam_m": 32.26,
+      "grt": 32987,
+      "nrt": 19221,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbm": 71634.09,
+      "bale_capacity_cbm": 68200,
+      "cranes": "4x30MT",
+      "grabs": "4x12CBM"
+    }
+  ]
+}

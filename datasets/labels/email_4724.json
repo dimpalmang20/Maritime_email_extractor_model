@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "Mohammed Massad Dry",
+    "cargo_type": "Dry Bulk",
+    "quantity": "50300",
+    "quantity_unit": "MT",
+    "load_port": "BAHODOPI , INDONESIA",
+    "discharge_port": "CIVITAVECCHIA , ITALY",
+    "laycan_start": "2026-04-24",
+    "laycan_end": "2026-04-27",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Indonesia",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

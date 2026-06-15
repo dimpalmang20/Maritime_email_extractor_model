@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ES WARRIOR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "60513",
+    "built_year": "",
+    "flag": "Panama",
+    "imo": "9775854",
+    "grt": "",
+    "nrt": "34157",
+    "loa": "197m",
+    "beam": "18.38m",
+    "grain_capacity": "",
+    "open_port": "GRESIK,",
+    "open_date": "2026-05-17",
+    "close_date": "2026-05-22",
+    "matching_region": "Indonesia",
+    "restrictions": [
+      "no\n\nadverse current",
+      "no negative influence of swell"
+    ],
+    "confidence_score": 0.98
+  }
+]

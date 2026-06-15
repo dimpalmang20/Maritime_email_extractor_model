@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "tct with ferronickel",
+    "cargo_type": "Dry Bulk",
+    "dwt": "50000-69999",
+    "del_port": "Tonghae",
+    "redel_port": "AUSSIE",
+    "laycan_start": "2026-12-10",
+    "laycan_end": "2026-12-14",
+    "duration": "20 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "North China",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

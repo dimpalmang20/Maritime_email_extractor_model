@@ -1,0 +1,19 @@
+{
+  "email_id": 225,
+  "email_type": "cargo_requirement",
+  "source": "Ocean Reaper Maritime",
+  "account": "Vedanta Limited Goa or Nominee",
+  "cargo": "Iron Ore Fines",
+  "quantity_mt": 80000,
+  "quantity_option": "+/-10% MOLOO",
+  "laycan": "2025-11-17/2025-11-20",
+  "load_port": "Mormugao, India",
+  "discharge_port": "China CHOPT",
+  "load_rate": "12000 tpwwdshinc",
+  "discharge_rate": "22000 tpwwdshinc",
+  "loading_basis": "WOB",
+  "vessel_requirements": {
+    "type": "Gearless",
+    "max_age_years": 15
+  }
+}

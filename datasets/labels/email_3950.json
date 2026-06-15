@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "IFO PLUS 0.1MT",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "63000",
+    "built_year": "2024",
+    "flag": "",
+    "imo": "",
+    "grt": "36142",
+    "nrt": "21173",
+    "loa": "",
+    "beam": "199.98m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.78
+  }
+]

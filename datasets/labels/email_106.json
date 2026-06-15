@@ -1,0 +1,87 @@
+{
+  "email_id": 106,
+  "email_type": "open_vessels",
+  "source_company": "Aryacorp",
+  "vessels": [
+    {
+      "vessel_name": "PROFOUND STAR",
+      "vessel_type": "Bulk Carrier",
+      "flag": "Hong Kong",
+      "class": "RINA",
+      "built_year": 2011,
+      "open_port": "Klang",
+      "open_country": "Malaysia",
+      "open_date": "End Nov 2025",
+      "dwt": 24262,
+      "draft_m": 10.4,
+      "loa_m": 159.9,
+      "beam_m": 24.4,
+      "depth_m": 14.2,
+      "grt": 15599,
+      "nrt": 8183,
+      "holds": 4,
+      "hatches": 4,
+      "cargo_capacity_cbm": 29039,
+      "cranes": {
+        "count": 3,
+        "swl_mt": 25
+      },
+      "speed_consumption": {
+        "speed_knots": 10.5,
+        "lsfo_mt_day": 13,
+        "mgo_mt_day": 1.2,
+        "idle_port_mgo_mt_day": 1.2,
+        "crane_operation_mgo_mt_day": 2.0
+      },
+      "trading_limits": "Red Sea, East Africa, Persian Gulf, Far East",
+      "bunkers_on_delivery": {
+        "lsfo_mt": 430,
+        "mgo_mt": 80
+      },
+      "status": "Open"
+    },
+    {
+      "vessel_name": "HONGLI 8",
+      "vessel_type": "Bulk Carrier Self Trimming",
+      "flag": "Panama",
+      "class": "PRS",
+      "built_year": 2012,
+      "open_port": "Georgetown",
+      "open_country": "Guyana",
+      "open_date": "Mid Dec 2025",
+      "dwt": 35050.3,
+      "summer_draft_m": 10.27,
+      "timber_dwt": 36053.6,
+      "timber_draft_m": 10.484,
+      "grt": 22478,
+      "nrt": 11772,
+      "loa_m": 179.88,
+      "beam_m": 28.8,
+      "depth_m": 14.6,
+      "tpc": 47.7,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbm": 45646.7,
+      "bale_capacity_cbm": 43364.36,
+      "cranes": {
+        "count": 4,
+        "swl_mt": 30
+      },
+      "tanktop_strength_mt_sqm": 22,
+      "speed_consumption": {
+        "ballast_speed_knots": 11.5,
+        "ballast_lsfo_mt_day": 15.5,
+        "ballast_mdo_mt_day": 1.5,
+        "laden_speed_knots": 11.0,
+        "laden_lsfo_mt_day": 16.0,
+        "laden_mdo_mt_day": 1.5,
+        "idle_lsfo_mt_day": 1.1,
+        "idle_mdo_mt_day": 1.5,
+        "working_lsfo_mt_day": 1.1,
+        "working_mdo_mt_day": 4.0
+      },
+      "trading_area": "Worldwide",
+      "status": "Open"
+    }
+  ]
+}

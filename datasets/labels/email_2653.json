@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "tkb",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "33000",
+    "del_port": "Paranaguá, Brazil",
+    "redel_port": "west afr int. matadi",
+    "laycan_start": "2025-12-29",
+    "laycan_end": "2026-01-03",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.91
+  }
+]

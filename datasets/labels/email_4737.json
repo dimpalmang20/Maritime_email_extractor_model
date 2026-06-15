@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "FORTUNE BULK",
+    "cargo": "ACC FORTUNE",
+    "cargo_type": "Dry Bulk",
+    "dwt": "70000-79999",
+    "del_port": "TO MAKE KOSICHANG THAILAND",
+    "redel_port": "",
+    "laycan_start": "2026-05-05",
+    "laycan_end": "2026-05-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.96
+  }
+]

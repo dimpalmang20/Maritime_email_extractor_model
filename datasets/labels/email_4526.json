@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ES WARRIOR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "61000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "HAZIRA,",
+    "open_date": "2026-03-29",
+    "close_date": "2026-04-03",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ES WARRIOR",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "60513",
+    "built_year": "",
+    "flag": "",
+    "imo": "9775854",
+    "grt": "",
+    "nrt": "34157",
+    "loa": "197m",
+    "beam": "18.38m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.84
+  }
+]

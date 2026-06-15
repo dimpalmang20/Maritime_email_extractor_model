@@ -1,0 +1,25 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "KS GRACE",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "36000",
+    "built_year": "",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "21699",
+    "loa": "",
+    "beam": "176.5m",
+    "grain_capacity": "",
+    "open_port": "Singapore",
+    "open_date": "2026-02-01",
+    "close_date": "2026-02-06",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO SWELL AND NO ADVERSE CURRENT\n\nLADEN",
+      "NO COMINGLING OF BUNKERS PERMITTED UNLESS OTHERWISE EXPRESSLY ALLOWED BY HEAD OWNERS"
+    ],
+    "confidence_score": 0.87
+  }
+]

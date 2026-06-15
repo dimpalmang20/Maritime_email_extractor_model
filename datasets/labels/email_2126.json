@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "BAINBRIDGE NAVIGATION TONNAGE REQ",
+    "cargo": "Energy",
+    "cargo_type": "Dry Bulk",
+    "dwt": "10000-54999",
+    "del_port": "TO MAKE BUNBURY ,AUS WITH ALUMINA IN BULK",
+    "redel_port": "USEC INT CHARLESTON ,ALTERNATIVELY CAN TRY SHORT PERIOD",
+    "laycan_start": "2026-01-11",
+    "laycan_end": "2026-01-14",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "US East Coast",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

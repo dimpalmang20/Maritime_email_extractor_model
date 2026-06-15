@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "REFINED SUCCESS LTD",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "50000-79999",
+    "del_port": "WAFR INTN ABIDJAN - BUCHANAN RGE",
+    "redel_port": "SGP-JPN RGE",
+    "laycan_start": "2026-06-01",
+    "laycan_end": "2026-06-06",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "West Africa",
+    "restrictions": [],
+    "confidence_score": 0.97
+  }
+]

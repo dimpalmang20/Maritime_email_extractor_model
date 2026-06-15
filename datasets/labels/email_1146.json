@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DEVBULK ALARA",
+    "vessel_type": "MR Tanker",
+    "dwt": "31018",
+    "built_year": "",
+    "flag": "",
+    "imo": "9449895",
+    "grt": "19999",
+    "nrt": "",
+    "loa": "178.7m",
+    "beam": "28m",
+    "grain_capacity": "",
+    "open_port": "JORF",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Brazil",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "email_type": "Tonnage",
+  "text": "email_id: 108\nemail_type: open_vessels\nsource_company: Marcons Group\nvessels:\n- vessel_name: JAHAN MONI\n  dwt: 55496\n  draft_m: 12.502\n  built_year: 2008\n  holds: 5H/5H\n  cranes: 4x30MT\n  loa_m: 190\n  open_port: Zhoushan\n  open_country: China\n  open_date: '2025-11-15'\n- vessel_name: JAWAD\n  dwt: 53505\n  draft_m: 12.303\n  built_year: 2007\n  holds: 5H/5H\n  cranes: 4x30MT\n  loa_m: 189.94\n  open_port: Beihai\n  open_country: China\n  open_date: '2025-11-18'\n- vessel_name: SHAHRIAR JAHAN\n  dwt: 46232\n  draft_m: 11.807\n  built_year: 2002\n  holds: 5H/5H\n  cranes: 4x25MT\n  loa_m: 183\n  open_port: Chittagong\n  open_country: Bangladesh\n  open_date: '2025-11-19'\n- vessel_name: KHADEEJAH JAHAN II\n  dwt: 55486\n  draft_m: 12.53\n  built_year: 2009\n  holds: 5H/5H\n  cranes: 4x30MT\n  loa_m: 189.9\n  open_port: Ravenna\n  open_country: Italy\n  open_date: '2025-11-20'\n- vessel_name: SHAHRIAR JAHAN I\n  dwt: 60195\n  draft_m: 13.025\n  built_year: 2017\n  holds: 5H/5H\n  cranes: 4x31MT\n  loa_m: 199.9\n  open_port: Campha\n  open_country: Vietnam\n  open_date: '2025-11-21'\n- vessel_name: JAHAN SISTERS\n  dwt: 47639\n  draft_m: 11.82\n  built_year: 1995\n  holds: 5H/5H\n  cranes: 4x25MT\n  loa_m: 189.99\n  open_port: Mongla\n  open_country: Bangladesh\n  open_date: '2025-11-21'\n- vessel_name: FATEMA JAHAN II\n  dwt: 58096\n  draft_m: 12.826\n  built_year: 2010\n  holds: 5H/5H\n  cranes: 4x30MT\n  loa_m: 189.99\n  open_port: Paradip\n  open_country: India\n  open_date: '2025-11-21'\n- vessel_name: AMEENA JAHAN\n  dwt: 53477\n  draft_m: 12.303\n  built_year: 2010\n  holds: 5H/5H\n  cranes: 4x30MT\n  loa_m: 189.94\n  open_port: Navlakhi\n  open_region: WCI\n  open_date: '2025-11-25'",
+  "entities": {
+    "VESSEL": [
+      "JAHAN MONI",
+      "JAWAD",
+      "SHAHRIAR JAHAN",
+      "KHADEEJAH JAHAN II",
+      "SHAHRIAR JAHAN I",
+      "JAHAN SISTERS",
+      "FATEMA JAHAN II",
+      "AMEENA JAHAN"
+    ],
+    "VESSEL_TYPE": null,
+    "DWT": [
+      "55496",
+      "53505",
+      "46232",
+      "55486",
+      "60195",
+      "47639",
+      "58096",
+      "53477"
+    ],
+    "IMO": null,
+    "CARGO": null,
+    "QUANTITY": null,
+    "PORT": [
+      "Zhoushan",
+      "Beihai",
+      "Chittagong",
+      "Ravenna",
+      "Campha",
+      "Mongla",
+      "Paradip",
+      "Navlakhi"
+    ],
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Marcons Group"
+    ],
+    "LAYCAN": [
+      "2025-11-15",
+      "2025-11-18",
+      "2025-11-19",
+      "2025-11-20",
+      "2025-11-21",
+      "2025-11-25"
+    ],
+    "FREIGHT_RATE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": null,
+    "CONTACT": null,
+    "RESTRICTIONS": null
+  }
+}

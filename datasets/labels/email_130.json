@@ -1,0 +1,52 @@
+{
+  "email_id": 130,
+  "email_type": "open_vessels",
+  "source_company": "Aryacorp",
+  "vessels": [
+    {
+      "vessel_name": "AMIDALA",
+      "flag": "Liberia",
+      "class": "RINA",
+      "built_year": 2015,
+      "open_region": "CJK",
+      "open_date": "2025-11-18/19",
+      "dwt": 34443,
+      "draft_m": 9.8,
+      "tpc": 48.1,
+      "grt": 21532,
+      "nrt": 11201,
+      "loa_m": 179.96,
+      "beam_m": 30.0,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbft": 1550035,
+      "bale_capacity_cbft": 1513208,
+      "cranes": "4x30MT",
+      "logger_fitted": true,
+      "co2_fitted": true
+    },
+    {
+      "vessel_name": "UNITY HARMONY",
+      "flag": "Bahamas",
+      "class": "NKK",
+      "imo": "9791054",
+      "built_year": 2020,
+      "open_port": "Davao",
+      "open_date": "2025-11-18/20",
+      "dwt": 37155,
+      "draft_m": 10.524,
+      "tpc": 48.08,
+      "grt": 23770,
+      "nrt": 11966,
+      "holds": 5,
+      "hatches": 5,
+      "grain_capacity_cbm": 47342,
+      "bale_capacity_cbm": 46358,
+      "cranes": "4x30MT",
+      "semi_box": true,
+      "logger_fitted": true,
+      "co2_fitted": true,
+      "a60_fitted": true
+    }
+  ]
+}

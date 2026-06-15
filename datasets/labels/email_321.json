@@ -1,0 +1,24 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "85000",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "BOOK",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO BUNKERING OPERATIONS ALLOWED FROM NOR UP TO END OF LOADING OPERATIONS"
+    ],
+    "confidence_score": 0.84
+  }
+]

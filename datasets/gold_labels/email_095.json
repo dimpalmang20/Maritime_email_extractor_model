@@ -1,0 +1,42 @@
+{
+  "text": "MV HPC FUTURE 32K DWT OPEN FANGCHENG ARD 05 DEC ...",
+  "entities": {
+    "VESSEL": [
+      "HPC FUTURE"
+    ],
+    "CARGO": null,
+    "PORT": [
+      "FANGCHENG"
+    ],
+    "LOAD_PORT": [
+      "FANGCHENG"
+    ],
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": null,
+    "CHARTERER": null,
+    "BROKER": [
+      "Aryacorp Chartering",
+      "Aryacorp Pvt Ltd"
+    ],
+    "IMO": null,
+    "DWT": [
+      "32000"
+    ],
+    "LAYCAN": [
+      "05 DEC"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": null,
+    "CHARTER_TYPE": null,
+    "TONNAGE": [
+      "32K DWT"
+    ],
+    "CONTACT": [
+      "fix@aryacorp.com",
+      "ops@aryacorp.com",
+      "chartering@varitasnavigation.com"
+    ]
+  }
+}

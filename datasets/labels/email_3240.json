@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "QTY",
+    "cargo_type": "Dry Bulk",
+    "quantity": "",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "PLSD TO HEAR!",
+    "laycan_start": "2026-01-22",
+    "laycan_end": "2026-01-25",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.77
+  }
+]

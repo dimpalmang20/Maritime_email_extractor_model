@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "Marubeni, Japan",
+    "cargo": "Natural Gypsum",
+    "cargo_type": "Dry Bulk",
+    "dwt": "25000-54999",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2027-01-26",
+    "laycan_end": "2027-01-31",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "Philippines",
+    "restrictions": [
+      "no restriction applied as discharged is through ship’s gear Additional Information:",
+      "No night docking/undocking (1800h to 0600h the following morning)"
+    ],
+    "confidence_score": 0.82
+  }
+]

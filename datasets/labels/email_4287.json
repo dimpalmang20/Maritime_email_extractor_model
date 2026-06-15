@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "VC",
+    "cargo": "ABT 4,000mt of aluminium products, Al sows.",
+    "cargo_type": "Dry Bulk",
+    "quantity": "4000",
+    "quantity_unit": "MT",
+    "load_port": "",
+    "discharge_port": "",
+    "laycan_start": "1200-03-23",
+    "laycan_end": "1200-03-27",
+    "load_rate": "",
+    "discharge_rate": "",
+    "commission": "75%",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.8
+  }
+]

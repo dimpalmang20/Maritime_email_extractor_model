@@ -1,0 +1,42 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "OPEN ZHENJIANG - CJK 9",
+    "vessel_type": "MR Tanker",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "ZHENJIANG",
+    "open_date": "2026-01-09",
+    "close_date": "2026-01-14",
+    "matching_region": "Japan",
+    "restrictions": [],
+    "confidence_score": 0.75
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "VTC DRAGON",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "22502",
+    "built_year": "2007",
+    "flag": "VIETNAM",
+    "imo": "",
+    "grt": "",
+    "nrt": "14851",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Vietnam",
+    "restrictions": [],
+    "confidence_score": 0.74
+  }
+]

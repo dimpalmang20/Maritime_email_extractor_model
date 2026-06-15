@@ -1,0 +1,46 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN UNION",
+    "vessel_type": "Standard Dry Bulk Carrier",
+    "dwt": "39000",
+    "built_year": "2018",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "24203",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "TOMAKOMAI,",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Thailand",
+    "restrictions": [],
+    "confidence_score": 0.84
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "PAN POSEIDON",
+    "vessel_type": "Post-Panamax Bulk Carrier",
+    "dwt": "63231",
+    "built_year": "2020",
+    "flag": "PANAMA",
+    "imo": "",
+    "grt": "",
+    "nrt": "36025",
+    "loa": "199.9m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Japan",
+    "restrictions": [
+      "NO COMMINGLING OF DIFFERENT GRADES ALLOWED INCLUDING BUT NOT LIMITED TO\n\nVLSFO TO BE SULLPIED IN HSFO TANK OR VICE VERSA",
+      "No extrapolation whatsoever\n\nof",
+      "no\n\ncircumstances whatsoever are Charterers entitled to deduct any alleged\n\nperformance claim from hire"
+    ],
+    "confidence_score": 0.77
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "Winds",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "33000",
+    "del_port": "HOCHIMIN /S.VIETNAM RANGE/SPORE-RNG /THILAND",
+    "redel_port": "RESEA / PG OPT ( NO IRAN )",
+    "laycan_start": "2026-06-05",
+    "laycan_end": "2026-06-10",
+    "duration": "",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Vietnam",
+    "restrictions": [
+      "NO IRAN )"
+    ],
+    "confidence_score": 0.98
+  }
+]

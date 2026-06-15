@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "UNITY N",
+    "vessel_type": "MR Tanker",
+    "dwt": "79641",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.67
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "ON 14.62 M SSW DRAFT",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "79641",
+    "built_year": "2011",
+    "flag": "MARSHALL ISLAND",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "229m",
+    "beam": "32.26m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [
+      "NO MDO"
+    ],
+    "confidence_score": 0.77
+  }
+]

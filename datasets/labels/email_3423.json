@@ -1,0 +1,44 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "SF DARIKA",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "35200",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Visakhapatnam, India",
+    "open_date": "2025-10-14",
+    "close_date": "2025-10-22",
+    "matching_region": "South East Asia",
+    "restrictions": [
+      "NO RED SEA"
+    ],
+    "confidence_score": 0.87
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "MAX OUTREACH FROM C",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "THAI",
+    "imo": "9502752",
+    "grt": "22402",
+    "nrt": "12019",
+    "loa": "",
+    "beam": "28.44m",
+    "grain_capacity": "",
+    "open_port": "",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "China",
+    "restrictions": [],
+    "confidence_score": 0.73
+  }
+]

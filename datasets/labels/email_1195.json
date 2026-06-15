@@ -1,0 +1,22 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "DEVBULK BEGUM",
+    "vessel_type": "MR Tanker",
+    "dwt": "31018",
+    "built_year": "",
+    "flag": "",
+    "imo": "9625607",
+    "grt": "19999",
+    "nrt": "",
+    "loa": "178.7m",
+    "beam": "28m",
+    "grain_capacity": "",
+    "open_port": "VERACRUZ",
+    "open_date": "2026-12-15",
+    "close_date": "2026-12-17",
+    "matching_region": "India",
+    "restrictions": [],
+    "confidence_score": 0.98
+  }
+]

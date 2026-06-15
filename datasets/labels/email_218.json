@@ -1,0 +1,24 @@
+{
+  "email_id": 218,
+  "email_type": "tonnage",
+  "source": "Marcons",
+  "vessels": [
+    {
+      "vessel_name": "DEVBULK SALIHA",
+      "imo": "9449871",
+      "open_position": "Qingdao, China",
+      "open_date": "2025-11-24/2025-11-26",
+      "built_year": 2011,
+      "flag": "Marshall Islands",
+      "class": "ABS",
+      "dwt_mt": 31018,
+      "draft_m": 10.02,
+      "loa_m": 178.7,
+      "beam_m": 28.0,
+      "holds": 5,
+      "hatches": 5,
+      "cranes": "4x30 MT",
+      "grabs": "2x12 CBM Remote Control"
+    }
+  ]
+}

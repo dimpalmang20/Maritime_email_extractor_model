@@ -1,0 +1,45 @@
+[
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Parabolica",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "",
+    "imo": "",
+    "grt": "",
+    "nrt": "",
+    "loa": "",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "Port",
+    "open_date": "2026-12-18",
+    "close_date": "2026-12-24",
+    "matching_region": "",
+    "restrictions": [],
+    "confidence_score": 0.73
+  },
+  {
+    "email_type": "Tonnage",
+    "vessel_name": "Parabolica",
+    "vessel_type": "Bulk Carrier",
+    "dwt": "",
+    "built_year": "",
+    "flag": "Liberia",
+    "imo": "9979503",
+    "grt": "25171",
+    "nrt": "137404",
+    "loa": "179.9m",
+    "beam": "",
+    "grain_capacity": "",
+    "open_port": "hatch",
+    "open_date": "",
+    "close_date": "",
+    "matching_region": "Ukraine",
+    "restrictions": [
+      "No Ukraine\n\nNo Russia\n\nNo Syria",
+      "no Red Sea transit\n\nSpecial features"
+    ],
+    "confidence_score": 0.86
+  }
+]

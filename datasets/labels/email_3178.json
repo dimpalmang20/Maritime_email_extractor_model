@@ -1,0 +1,19 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "WINDS",
+    "cargo": "Dry",
+    "cargo_type": "Dry Bulk",
+    "dwt": "55000",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2026-07-25",
+    "laycan_end": "2026-07-30",
+    "duration": "40-45 days",
+    "hire_rate": "",
+    "commission": "3.75%",
+    "matching_region": "Arabian Gulf",
+    "restrictions": [],
+    "confidence_score": 0.95
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "email_type": "TC",
+    "account_name": "",
+    "cargo": "",
+    "cargo_type": "",
+    "dwt": "",
+    "del_port": "",
+    "redel_port": "",
+    "laycan_start": "2025-11-26",
+    "laycan_end": "2025-12-01",
+    "duration": "4 months",
+    "hire_rate": "",
+    "commission": "",
+    "matching_region": "",
+    "restrictions": [
+      "no longer wish to receive this email, change your email preferences here"
+    ],
+    "confidence_score": 0.54
+  }
+]

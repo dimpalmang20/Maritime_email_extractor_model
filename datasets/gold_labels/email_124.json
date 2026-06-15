@@ -1,0 +1,44 @@
+{
+  "text": "From: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSent: 10 November 2025 10:34\nTo: Interbulk Shipbrokers New Delhi -India <chartering@interbulkshipping.in>\nSubject: //A/C DAVA - 40K-UMX DELY NCHINA/KOREA RANGE TO NORTH BRAZIL //\n\nDATE   : 10TH NOVEMBER 2025\nREF    : IBC/AV/005\n\n===\n\nGD DAY\n\nHAVE FOLL TO FIX:\n\nACCT DAVA SINGAPORE\n40K DWT UP TO ULTRA,GEARED\nDEL NCHINA/KOREA RANGE\n1TCT WITH STEELS/GENERALS\n13/19TH NOV\nDUR ABT 70DAYS WOG\nREDL NORTH BRAZIL\nADD COM 3.75 PCT PUS\n\nTRY PERIOD\n\nBEST REGARDS\n\nANKIT VASHIST                   MOB.: +91-9650405353\nPARAS                           MOB.: +91-9560472111\n\nINTERBULK SHIPBROKERS\nNEW DELHI, INDIA\n\nTEL : 0124- 4649000\n\nEMAIL   : CHARTERING@INTERBULKSHIPPING.IN\nWEBSITE : WWW.INTERBULKSHIPPING.IN",
+  "entities": {
+    "VESSEL": null,
+    "CARGO": [
+      "Steels",
+      "General Cargo"
+    ],
+    "PORT": null,
+    "LOAD_PORT": null,
+    "DISCHARGE_PORT": null,
+    "ETA": null,
+    "ETD": null,
+    "QUANTITY": [
+      "40K DWT up to Ultramax"
+    ],
+    "CHARTERER": [
+      "DAVA Singapore"
+    ],
+    "BROKER": [
+      "Interbulk Shipbrokers"
+    ],
+    "IMO": null,
+    "DWT": [
+      "40000"
+    ],
+    "LAYCAN": [
+      "13/19TH NOV"
+    ],
+    "FREIGHT_RATE": null,
+    "VESSEL_TYPE": [
+      "Geared Bulk Carrier"
+    ],
+    "CHARTER_TYPE": [
+      "1TCT"
+    ],
+    "TONNAGE": [
+      "40K DWT"
+    ],
+    "CONTACT": [
+      "chartering@interbulkshipping.in"
+    ]
+  }
+}
