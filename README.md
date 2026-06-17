@@ -1,221 +1,129 @@
-# Maritime Email Extractor
+# Quick Start Guide
 
-A Hybrid Maritime Email Information Extraction System that combines:
-
-* Rule-Based Regex Extraction
-* DistilBERT Maritime NER Model
-* Hybrid Merge Engine
-* Confidence-Based Future LLM Fallback
-
-The system extracts structured maritime chartering information from unstructured broker emails.
-
----
-
-# Project Overview
-
-Maritime brokers exchange thousands of emails daily containing:
-
-* Vessel positions
-* Cargo requirements
-* Chartering requests
-* Freight rates
-* Laycans
-* Ports
-* Vessel specifications
-
-These emails are highly unstructured and difficult to process automatically.
-
-This project converts raw maritime emails into structured JSON records using a Hybrid AI Pipeline.
-
----
-
-# Features
-
-### Regex Engine
-
-Extracts:
-
-* Vessel details
-* Cargo details
-* Ports
-* Laycan dates
-* Freight rates
-* Charterer information
-
-using handcrafted maritime business rules.
-
----
-
-### DistilBERT Maritime NER
-
-Custom-trained Named Entity Recognition model for:
-
-* VESSEL
-* VESSEL_TYPE
-* DWT
-* PORT
-* LOAD_PORT
-* DISCHARGE_PORT
-* CONTACT
-* BROKER
-* CHARTERER
-* CARGO
-* QUANTITY
-* IMO
-* ETA
-* LAYCAN
-* FREIGHT_RATE
-* TONNAGE
-* RESTRICTIONS
-
----
-
-### Hybrid Merge Layer
-
-Combines:
-
-Regex Results
-
-*
-
-ML Results
-
-into a final enterprise output.
-
----
-
-### Confidence Engine
-
-Generates:
-
-```json
-{
-  "CONFIDENCE": 0.75,
-  "LLM_REQUIRED": false
-}
-```
-
-Future versions will automatically trigger an LLM when confidence becomes low.
-
----
-
-# Architecture
-
-Raw Maritime Email
-
-↓
-
-Regex Engine
-
-↓
-
-DistilBERT NER
-
-↓
-
-Merge Engine
-
-↓
-
-Confidence Engine
-
-↓
-
-Enterprise JSON Output
-
----
-
-# Folder Structure
-
-```text
-MaritimeEmailExtractorModel/
-
-├── datasets/
-│   ├── gold_labels/
-│   ├── ner_train.jsonl
-│   ├── ner_train_clean.jsonl
-│
-├── models/
-│   └── distilbert-maritime-ner/
-│
-├── scripts/
-│   ├── create_ner_dataset.py
-│   ├── count_labels.py
-│   ├── count_labels_final.py
-│   ├── normalize_labels.py
-│   ├── find_bad_labels.py
-│   ├── test_ml_only.py
-│   └── evaluate_model.py
-│
-├── src/
-│   ├── ml/
-│   │   ├── predict.py
-│   │   ├── train_distilbert_ner.py
-│   │   ├── distilbert_extract.py
-│   │   └── merge_results.py
-│   │
-│   ├── server.ts
-│   └── maritime-extractor.ts
-│
-├── tests/
-│   ├── email1.txt
-│   ├── email2.txt
-│   ├── email3.txt
-│   └── email4.txt
-│
-├── package.json
-├── tsconfig.json
-└── README.md
-```
-
----
-
-# Dataset Information
-
-Dataset Size:
-
-```text
-1386 Maritime Emails
-```
-
-Entities:
-
-```text
-BROKER               271
-CARGO               1545
-CHARTERER            282
-CHARTER_TYPE         281
-CONTACT             1938
-DISCHARGE_PORT       384
-DWT                 1352
-ETA                 1069
-ETD                    3
-FREIGHT_RATE          50
-IMO                  189
-LAYCAN               705
-LOAD_PORT            503
-PORT                2068
-QUANTITY             206
-RESTRICTIONS         151
-TONNAGE              226
-VESSEL              1889
-VESSEL_TYPE          742
-```
-
-Training data is stored in:
-
-```text
-datasets/ner_train_clean.jsonl
-```
-
----
-
-# Create Dataset
-
-Generate NER training dataset:
+## 1. Clone Repository
 
 ```bash
-python create_ner_dataset.py
+git clone https://github.com/dimpalmang20/Maritime_email_extractor_model.git
+
+cd Maritime_email_extractor_model
+```
+
+---
+
+## 2. Install Node.js Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 3. Install Python Dependencies
+
+```bash
+pip install torch transformers datasets accelerate seqeval
+```
+
+Optional:
+
+```bash
+pip install pandas numpy scikit-learn
+```
+
+---
+
+## 4. Verify Folder Structure
+
+Ensure the trained model exists:
+
+```text
+models/
+└── distilbert-maritime-ner/
+    ├── config.json
+    ├── model.safetensors
+    ├── tokenizer.json
+    ├── tokenizer_config.json
+    └── special_tokens_map.json
+```
+
+---
+
+## 5. Run Maritime API
+
+```bash
+npm start
+```
+
+Expected Output:
+
+```text
+Maritime extractor API running on http://localhost:3000
+```
+
+---
+
+## 6. Verify DistilBERT Model
+
+```bash
+python verify.py
+```
+
+This loads the trained Maritime NER model and predicts entities from a sample maritime email.
+
+---
+
+## 7. Test ML Model Only
+
+```bash
+python scripts/test_ml_only.py tests/email1.txt
+
+python scripts/test_ml_only.py tests/email2.txt
+
+python scripts/test_ml_only.py tests/email3.txt
+
+python scripts/test_ml_only.py tests/email4.txt
+```
+
+This bypasses regex and tests only DistilBERT predictions.
+
+---
+
+## 8. Test Complete Hybrid Pipeline
+
+Open another PowerShell window:
+
+```powershell
+$email = Get-Content .\tests\email4.txt -Raw
+
+$body = @{
+ emailBody = $email
+} | ConvertTo-Json -Depth 10
+
+Invoke-RestMethod `
+-Uri http://localhost:3000/extract `
+-Method Post `
+-ContentType "application/json" `
+-Body $body | ConvertTo-Json -Depth 50
+```
+
+This executes:
+
+Raw Email
+↓
+Regex Engine
+↓
+DistilBERT Model
+↓
+Merge Engine
+↓
+Final JSON Output
+
+---
+
+## 9. Generate Training Dataset
+
+```bash
+python scripts/create_ner_dataset.py
 ```
 
 Output:
@@ -226,9 +134,7 @@ datasets/ner_train.jsonl
 
 ---
 
-# Normalize Labels
-
-Convert inconsistent labels into unified labels:
+## 10. Normalize Labels
 
 ```bash
 python scripts/normalize_labels.py
@@ -242,225 +148,122 @@ datasets/ner_train_clean.jsonl
 
 ---
 
-# Check Entity Distribution
+## 11. Check Dataset Statistics
 
 ```bash
 python scripts/count_labels_final.py
 ```
 
+Displays entity counts for all maritime labels.
+
 ---
 
-# Train DistilBERT Maritime NER
-
-Run:
+## 12. Train DistilBERT Maritime NER
 
 ```bash
 python src/ml/train_distilbert_ner.py
 ```
 
-Output model:
+Output:
 
 ```text
 models/distilbert-maritime-ner/
 ```
 
-Contains:
+Training Dataset:
 
 ```text
-config.json
-tokenizer.json
-tokenizer_config.json
-special_tokens_map.json
-model.safetensors
+datasets/ner_train_clean.jsonl
+```
+
+Current Dataset Size:
+
+```text
+1386 Maritime Emails
 ```
 
 ---
 
-# Test ML Model Only
+## 13. Training on Google Colab (Recommended)
 
-Email 1
+For faster training:
 
-```bash
-python scripts/test_ml_only.py tests/email1.txt
+1. Open Google Colab
+2. Enable GPU Runtime (T4)
+3. Upload:
+
+```text
+datasets/ner_train_clean.jsonl
+
+src/ml/train_distilbert_ner.py
 ```
 
-Email 2
+4. Install dependencies:
 
 ```bash
-python scripts/test_ml_only.py tests/email2.txt
+!pip install torch transformers datasets accelerate seqeval
 ```
 
-Email 3
+5. Run:
 
 ```bash
-python scripts/test_ml_only.py tests/email3.txt
+!python train_distilbert_ner.py
 ```
 
-Email 4
+6. Download:
 
-```bash
-python scripts/test_ml_only.py tests/email4.txt
+```text
+distilbert-maritime-ner/
 ```
+
+7. Replace:
+
+```text
+models/distilbert-maritime-ner/
+```
+
+inside the project.
 
 ---
 
-# Run Full API
+## 14. Git Workflow
 
-Start server:
+After modifications:
 
 ```bash
-npm start
+git add .
+
+git commit -m "Updated Maritime Extractor"
+
+git push origin main
+```
+
+Check status:
+
+```bash
+git status
 ```
 
 Expected:
 
 ```text
-Maritime extractor API running on http://localhost:3000
+working tree clean
 ```
 
 ---
 
-# Test Full Hybrid Pipeline
-
-PowerShell:
-
-```powershell
-$email = Get-Content .\tests\email2.txt -Raw
-
-$body = @{
- emailBody = $email
-} | ConvertTo-Json -Depth 10
-
-Invoke-RestMethod `
--Uri http://localhost:3000/extract `
--Method Post `
--ContentType "application/json" `
--Body $body | ConvertTo-Json -Depth 50
-```
-
-Repeat for email2, email3, email4.
-
----
-
-# Sample Output
-
-```json
-{
-  "email_type": "Cargo Tc",
-  "cargo_name": "Bulk Harmless Cargo",
-  "account_name": "YB Global Shipping LLC FZ",
-  "min_size": "58000",
-  "max_size": "65000",
-  "laycan_start_date": "2025-07-26",
-  "laycan_end_date": "2025-07-31"
-}
-```
-
----
-
-# Hybrid Pipeline Logic
-
-Regex extracts:
-
-```json
-{
-  "cargo_name": "Bulk Harmless Cargo"
-}
-```
-
-ML extracts:
-
-```json
-{
-  "CARGO": "bulk harmless cargo"
-}
-```
-
-Merge Layer combines both and fills missing fields.
-
-Priority:
+## 15. Expected Pipeline Flow
 
 ```text
-Regex
-↓
-ML
-↓
-Future LLM
+Raw Maritime Email
+        ↓
+Regex Extraction
+        ↓
+DistilBERT Maritime NER
+        ↓
+Hybrid Merge Engine
+        ↓
+Confidence Engine
+        ↓
+Structured JSON Output
 ```
-
----
-
-# Confidence Logic
-
-Current:
-
-```json
-{
-  "CONFIDENCE": 0.75,
-  "LLM_REQUIRED": false
-}
-```
-
-Rules:
-
-```text
->=10 entities → 0.90
-
->=7 entities → 0.75
-
->=5 entities → 0.60
-
-<5 entities → 0.30
-```
-
----
-
-# Future Improvements
-
-* LLM Fallback for low confidence predictions
-* Active Learning Pipeline
-* Human-in-the-loop annotation
-* Automatic Dataset Expansion
-* Maritime Knowledge Graph
-* Vessel Database Integration
-* Cargo Market Analytics
-
----
-
-# Technology Stack
-
-Backend
-
-* Node.js
-* TypeScript
-
-Machine Learning
-
-* Python
-* PyTorch
-* Hugging Face Transformers
-* DistilBERT
-
-Data Processing
-
-* JSON
-* Regex
-* Custom Maritime Rules
-
----
-
-# Author
-
-Dimpal
-
-Electronics & Telecommunication Engineering
-
-SSVPS College of Engineering
-
-Maritime AI & Information Extraction Research
-
----
-
-# License
-
-MIT License
