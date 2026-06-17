@@ -1,11 +1,23 @@
-from transformers import pipeline
+from transformers import (
+    DistilBertTokenizerFast,
+    AutoModelForTokenClassification,
+    pipeline
+)
 
 MODEL_PATH = "models/distilbert-maritime-ner"
 
+tokenizer = DistilBertTokenizerFast.from_pretrained(
+    "distilbert-base-uncased"
+)
+
+model = AutoModelForTokenClassification.from_pretrained(
+    MODEL_PATH
+)
+
 ner = pipeline(
     "token-classification",
-    model=MODEL_PATH,
-    tokenizer=MODEL_PATH,
+    model=model,
+    tokenizer=tokenizer,
     aggregation_strategy="simple"
 )
 
@@ -13,16 +25,15 @@ def extract_entities(text):
 
     results = ner(text)
 
-    
-    
-
     output = {}
 
     for r in results:
+
         score = r["score"]
 
         if score < 0.15:
             continue
+
         label = r["entity_group"]
 
         value = r["word"]
@@ -41,6 +52,4 @@ if __name__ == "__main__":
     20-25 JULY 2025
     """
 
-    print(
-        extract_entities(sample)
-    )
+    print(extract_entities(sample))
