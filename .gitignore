@@ -2,8 +2,7 @@
 
 node_modules/
 
-# Trained Models
-models/
+
 
 # Build Output
 
