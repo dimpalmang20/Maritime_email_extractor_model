@@ -1,0 +1,21 @@
+{
+  "text": "Thanks and Regards,\nMs. Eleanor Rodriguez\nOperations Executive\nSobha Sapphire Bldg. Office No. 906 Business Bay, P.O. Box 123175, Dubai United Arab Emirates\nTel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mobile/Whatsapp: (+97150) 456 9584\nTeams:\n⁠\nTransbulk5\nWeChat: TransbulkOps_Eleanor\nEmail:\noperations@transbulk.ae\n|\ntransblk@eim.ae\nWebsite:\nhttp://www.transbulk.ae\nFrom:\nBelnav Chartering <chartering@belnav.gr>\nSent:\nWednesday, 26 November 2025 10:53 AM\nSubject:\nMV NORDTIGRIS 37.965 dwt - Davao 29-30 Nov\nMsg Ref:381477   Date:26/11/2025 08:49\nBELNAV INC, Agia Paraskevi (Athens), Greece.\nE-mail: chartering@belnav.gr, Tel:+30 210 6084730,1,2,3\nATTN CHARTERING DPT\nGOOD DAY\nPLEASE PROPOSE FOR OUR CLOSE /DIR LADY\nMV NORDTIGRIS - Davao 29-30 Nov\n--\nsdbc, built 2015, Portugal flag\nabt. 37,965 mt on abt. 10.50 m ssw draft, tpc abt. 50.6\ngrain/bale abt. 47,564 / 45.971 cbm\nloa/beam abt. 189.99 / 28.30 m\n5 holds / 5 hatches, 4x30 mt cranes\nGRT: 23,974 / NRT: 12,917\n*CO2 fitted\n*ITF fitted\nPLEASED TO HEAR\nTHANK YOU / BEST REGARDS\nOur Chartering Team\n(Aris - Giannis - Artemis\nKonstantinos - Fanis)",
+  "entities": {
+    "VESSEL": "MV NORDTIGRIS",
+    "DWT": "37965",
+    "LAYCAN": "29-30 Nov",
+    "CONTACT": "operations@transbulk.ae",
+    "EMAIL_TYPE": "TONNAGE",
+    "OPEN_PORT": "Davao",
+    "OPEN_DATE": "2025-11-29",
+    "CLOSE_DATE": "2025-11-30",
+    "TONNAGE_TYPE": "Bulk Carrier",
+    "BROKER": "Aris - Giannis - Artemis Konstantinos - Fanis",
+    "EMAIL": "chartering@belnav.gr",
+    "PHONE": "+30 210 6084730",
+    "CARGO": "GRAIN",
+    "CARGO_TYPE": "Dry Bulk",
+    "MIN_SIZE": "1628",
+    "MAX_SIZE": "608473"
+  }
+}

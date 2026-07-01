@@ -1,0 +1,18 @@
+{
+  "text": "Dear All\nGood day, pls kindly pps suitable tonnage for our flwg biz:\nACCT HANSON\nSMX/UMX,MAX 20 YEARS\nDELY TM N.CHINA RANGE\n1 TCT WITH STEEL/GENERAL CGO\nREDEL W.AFR\nLAYCAN  15TH JAN ONWARDS\nDUR ABT 70-80 DAYS WOG\nCOMM 3.75%\n*HRA, DECK/HATCH COVER IMPERATIVE\n*ALT PERIOD UP TO 1 YEAR\nPLS CC TO chartering@hansoncarriers.com & bulk@hansoncarriers.com FOR SAFE RECEIPT.\nThanks & Best Regards\nYulia Tang\nHanson Carriers Pte Ltd.\nOffice Address: 27F, Vanke Center Riverside,No. 118 Minsheng Road,Shanghai,China\nEmail: chartering@hansoncarriers.com\nMobile Phone / Wechat: +86 18580483691",
+  "entities": {
+    "LAYCAN": "70-80 DAY",
+    "CONTACT": "chartering@hansoncarriers.com",
+    "EMAIL": "chartering@hansoncarriers.com",
+    "PHONE": "+86 18580483691",
+    "CARGO": "STEEL",
+    "CARGO_TYPE": "General Cargo",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "83691",
+    "MAX_SIZE": "185804",
+    "BROKER": "Yulia Tang",
+    "DURATION": "80",
+    "DEL_PORT": "TM N",
+    "REGION": "CHINA"
+  }
+}

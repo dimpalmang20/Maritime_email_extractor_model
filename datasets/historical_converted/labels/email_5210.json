@@ -1,0 +1,16 @@
+{
+  "text": "Dear Sirs,\nGood day, pls kindly pps suitable vsl for flwg booked biz:\nHANSON BULK\nSMX/UMX\n20TH-25TH/JAN TO MAKE ECI\n1TCT with iron ore fines to CHINA\nDUR ABT 25 DAYS WOG\n3.75 ADD COMM\nPLS CC TO chartering@hansoncarriers.com & bulk@hansoncarriers.com FOR SAFE RECEIPT.\nThanks & Best Regards\nJessica Wang\nas agent only\nEmail:\nchartering@hansoncarriers.com\nMobile Phone / Wechat : +86 13390017718\nSkype: wangyiming19930913@hotmail.com\nwww.hansonholding.cn",
+  "entities": {
+    "CONTACT": "chartering@hansoncarriers.com",
+    "EMAIL": "chartering@hansoncarriers.com",
+    "PHONE": "+86 13390017718\n",
+    "CARGO": "IRON ORE",
+    "CARGO_TYPE": "Dry Bulk",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "17718",
+    "MAX_SIZE": "199309",
+    "BROKER": "Jessica Wang",
+    "DURATION": "25",
+    "REGION": "CHINA"
+  }
+}

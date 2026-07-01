@@ -41,18 +41,12 @@
     "RESTRICTIONS": [
       "CO2 FITTED IN CARGO HOLDS"
     ],
-    "tonnage_type": null,
-    "port": "KARAIKAL",
-    "region": "INDIAN",
-    "matching_region": null,
-    "open_date": "2025-11-21",
-    "close_date": "2025-11-25",
-    "dwt": "75.614 DWT",
-    "tonnage_name": "APOLLON",
-    "pic": "GEORGE RACHIOTIS",
-    "email_id": "chartering@primemaritime.gr",
-    "phone_number": "+302104527001",
     "latitude": null,
-    "longitude": null
+    "longitude": null,
+    "REGION": "INDIAN",
+    "OPEN_DATE": "2025-11-21",
+    "CLOSE_DATE": "2025-11-25",
+    "EMAIL": "chartering@primemaritime.gr",
+    "PHONE": "+302104527001"
   }
 }

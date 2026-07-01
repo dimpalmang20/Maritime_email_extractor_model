@@ -1,10 +1,21 @@
 import os
 import json
 
-RAW_DIR = "datasets/gold_raw"
-LABEL_DIR = "datasets/gold_labels"
+DATASETS = [
 
-OUTPUT_FILE = "datasets/ner_train.jsonl"
+    (
+        "datasets/gold_raw",
+        "datasets/gold_labels"
+    ),
+
+    (
+        "datasets/historical_converted/raw",
+        "datasets/historical_converted/labels"
+    )
+
+]
+
+OUTPUT_FILE = "datasets/ner_train_final.jsonl"
 
 
 def find_entity(text, value):
@@ -33,70 +44,131 @@ def find_entity(text, value):
     return [start, end]
 
 
+
+seen_texts = set()
+
 with open(OUTPUT_FILE, "w", encoding="utf8") as out:
 
     total = 0
 
-    for filename in os.listdir(RAW_DIR):
+    for RAW_DIR, LABEL_DIR in DATASETS:
 
-        if not filename.endswith(".txt"):
+        if not os.path.exists(RAW_DIR):
             continue
 
-        raw_path = os.path.join(RAW_DIR, filename)
-
-        json_file = filename.replace(".txt", ".json")
-
-        json_path = os.path.join(LABEL_DIR, json_file)
-
-        if not os.path.exists(json_path):
+        if not os.path.exists(LABEL_DIR):
             continue
 
-        with open(raw_path, "r", encoding="utf8", errors="ignore") as f:
-            text = f.read()
+        print()
+        print("Processing Dataset:")
+        print(RAW_DIR)
+        print(LABEL_DIR)
+        print()
 
-        with open(json_path, "r", encoding="utf8") as f:
-            label = json.load(f)
+        for filename in os.listdir(RAW_DIR):
 
-        print("Processing:", json_file)
+            if not filename.endswith(".txt"):
+                continue
 
-        entities = []
+            raw_path = os.path.join(
+                RAW_DIR,
+                filename
+            )
 
-        # FORMAT A
-        if isinstance(label, dict) and "entities" in label:
+            json_file = filename.replace(
+                ".txt",
+                ".json"
+            )
 
-            src = label["entities"]
+            json_path = os.path.join(
+                LABEL_DIR,
+                json_file
+            )
 
-            if isinstance(src, dict):
+            if not os.path.exists(json_path):
+                continue
 
-                for ner_label, value in src.items():
+            with open(
+                raw_path,
+                "r",
+                encoding="utf8",
+                errors="ignore"
+            ) as f:
 
-                    if value is None:
-                         continue
+                text = f.read()
 
-        # HANDLE LISTS
-                    if isinstance(value, list):
+            with open(
+                json_path,
+                "r",
+                encoding="utf8"
+            ) as f:
 
-                        for item in value:
+                label = json.load(f)
+
+            print("Processing:", json_file)
+
+            entities = []
+
+            # FORMAT A
+            if isinstance(label, dict) and "entities" in label:
+
+                src = label["entities"]
+
+                if isinstance(src, dict):
+
+                    for ner_label, value in src.items():
+
+                        if value is None:
+                            continue
+
+                        if isinstance(value, list):
+
+                            for item in value:
+
+                                result = find_entity(
+                                    text,
+                                    item
+                                )
+
+                                if result:
+
+                                    entities.append([
+                                        result[0],
+                                        result[1],
+                                        ner_label
+                                    ])
+
+                        else:
 
                             result = find_entity(
                                 text,
-                                item
+                                value
                             )
 
                             if result:
 
-                                 entities.append([
-                                     result[0],
-                                     result[1],
+                                entities.append([
+                                    result[0],
+                                    result[1],
                                     ner_label
                                 ])
 
-        # HANDLE SINGLE STRING
-                    else:
+                elif isinstance(src, list):
+
+                    for item in src:
+
+                        if not isinstance(item, list):
+                            continue
+
+                        if len(item) != 2:
+                            continue
+
+                        value = item[0]
+                        ner_label = item[1]
 
                         result = find_entity(
-                              text,
-                              value
+                            text,
+                            value
                         )
 
                         if result:
@@ -105,123 +177,121 @@ with open(OUTPUT_FILE, "w", encoding="utf8") as out:
                                 result[0],
                                 result[1],
                                 ner_label
-                        ])
+                            ])
 
-            elif isinstance(src, list):
-
-                for item in src:
-
-                    if not isinstance(item, list):
-                        continue
-
-                    if len(item) != 2:
-                        continue
-
-                    value = item[0]
-                    ner_label = item[1]
-
-                    result = find_entity(text, value)
-
-                    if result:
-                        entities.append([
-                            result[0],
-                            result[1],
-                            ner_label
-                        ])
-
-        # FORMAT B
-        elif isinstance(label, dict) and "vessel_name" in label:
-
-            extracted = {
-                "VESSEL": label.get("vessel_name"),
-                "LOAD_PORT": label.get("open_port"),
-                "DWT": label.get("dwt"),
-                "VESSEL_TYPE": label.get("vessel_type"),
-                "BROKER": label.get("broker")
-            }
-
-            for ner_label, value in extracted.items():
-
-                result = find_entity(text, value)
-
-                if result:
-                    entities.append([
-                        result[0],
-                        result[1],
-                        ner_label
-                    ])
-
-        # FORMAT C
-        elif isinstance(label, dict) and "vessels" in label:
-
-            if len(label["vessels"]) > 0:
-
-                vessel = label["vessels"][0]
+            # FORMAT B
+            elif isinstance(label, dict) and "vessel_name" in label:
 
                 extracted = {
-                    "VESSEL": vessel.get("name"),
-                    "LOAD_PORT": vessel.get("open_position"),
-                    "DWT": vessel.get("dwt")
+                    "VESSEL": label.get("vessel_name"),
+                    "LOAD_PORT": label.get("open_port"),
+                    "DWT": label.get("dwt"),
+                    "VESSEL_TYPE": label.get("vessel_type"),
+                    "BROKER": label.get("broker")
                 }
 
                 for ner_label, value in extracted.items():
 
-                    result = find_entity(text, value)
+                    result = find_entity(
+                        text,
+                        value
+                    )
 
                     if result:
+
                         entities.append([
                             result[0],
                             result[1],
                             ner_label
                         ])
 
-        # LIST FORMAT
-        elif isinstance(label, list):
+            # FORMAT C
+            elif isinstance(label, dict) and "vessels" in label:
 
-            for item in label:
+                if len(label["vessels"]) > 0:
 
-                if not isinstance(item, dict):
-                    continue
+                    vessel = label["vessels"][0]
 
-                if "entities" not in item:
-                    continue
+                    extracted = {
+                        "VESSEL": vessel.get("name"),
+                        "LOAD_PORT": vessel.get("open_position"),
+                        "DWT": vessel.get("dwt")
+                    }
 
-                src = item["entities"]
+                    for ner_label, value in extracted.items():
 
-                if isinstance(src, dict):
-
-                    for ner_label, value in src.items():
-
-                        result = find_entity(text, value)
+                        result = find_entity(
+                            text,
+                            value
+                        )
 
                         if result:
+
                             entities.append([
                                 result[0],
                                 result[1],
                                 ner_label
                             ])
 
-        if len(entities) == 0:
-            print("NO ENTITIES FOUND:", json_file)
-            continue
+            # LIST FORMAT
+            elif isinstance(label, list):
 
-        print("ENTITIES:", len(entities), json_file)
+                for item in label:
 
-        row = {
-            "text": text,
-            "entities": entities
-        }
+                    if not isinstance(item, dict):
+                        continue
 
-        out.write(
-            json.dumps(
-                row,
-                ensure_ascii=False
+                    if "entities" not in item:
+                        continue
+
+                    src = item["entities"]
+
+                    if isinstance(src, dict):
+
+                        for ner_label, value in src.items():
+
+                            result = find_entity(
+                                text,
+                                value
+                            )
+
+                            if result:
+
+                                entities.append([
+                                    result[0],
+                                    result[1],
+                                    ner_label
+                                ])
+
+            if len(entities) == 0:
+
+                print(
+                    "NO ENTITIES FOUND:",
+                    json_file
+                )
+
+                continue
+
+            if text in seen_texts:
+                continue
+
+            seen_texts.add(text)
+
+            row = {
+                "text": text,
+                "entities": entities
+            }
+
+            out.write(
+                json.dumps(
+                    row,
+                    ensure_ascii=False
+                )
             )
-        )
 
-        out.write("\n")
+            out.write("\n")
 
-        total += 1
+            total += 1
 
 print()
 print("NER dataset created")

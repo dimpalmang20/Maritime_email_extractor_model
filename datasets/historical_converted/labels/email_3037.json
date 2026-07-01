@@ -1,0 +1,13 @@
+{
+  "text": "FROM TU OH / CARIS OCEAN CO., LTD\n(822)7304593 FAX (822)7304570 MOB (8210)94462296\nGOOD DAY!\nPLEASE KINDLY PROPOSE RATED TONNAGE FOR BELOW\nBOOKED\nORDER.\nACCT PAN OCEAN CO., LTD\n1TCT WITH SUGAR\nUMX DWT (SDBC & MAX 15 YRS)\nDELY THAILAND\n27 – 31ST JAN\nREDELY INDONESIA\n3.75 ADD PUS\nB.RGDS/TU OH\nmail@carisocean.com\n(for Chartering)\nops@carisocean.com\n(for Post Fixtures)\nTeams: OH TU – Caris Ocean (for chating only)",
+  "entities": {
+    "CONTACT": "mail@carisocean.com",
+    "EMAIL": "mail@carisocean.com",
+    "PHONE": "94462296\n",
+    "CARGO": "SUGAR",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "8210",
+    "MAX_SIZE": "944622",
+    "DEL_PORT": "THAILAND"
+  }
+}

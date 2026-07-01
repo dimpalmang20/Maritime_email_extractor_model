@@ -1,0 +1,14 @@
+{
+  "text": "WITHMARE CO., LTD,\nTEL : +82 2 6956 0788\nE-MAIL :\nfix@withmare.com\nHJ KIM : M) +82 10 4819 3649 / (Wechat & Teams) : kimhyunjik\n==============================================\n---- / HJ\nA/C KOREA SHIPPING CORP\nSMX-UMX MAX 20 YEARS\nDELY TO MAKE AT E.KALI\nREDEL 1SP SIN/JPN (INT. PHIL)\nLAYCAN 16/20 JAN.,\n’\n26 BSS L/P\n1 TRIP (OR CAN TRY PERIOD)\n3.75 ADD COMM\nBest regard / HJ",
+  "entities": {
+    "CONTACT": "fix@withmare.com",
+    "EMAIL": "fix@withmare.com",
+    "PHONE": "+82 2 6956 0788\n",
+    "EMAIL_TYPE": "UNKNOWN",
+    "MIN_SIZE": "3649",
+    "MAX_SIZE": "6956",
+    "LAYCAN_START": "16",
+    "LAYCAN_END": "20",
+    "DEL_PORT": "TO MAKE AT E"
+  }
+}

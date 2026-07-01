@@ -46,18 +46,12 @@
     "RESTRICTIONS": [
       "BWTS fitted"
     ],
-    "tonnage_type": null,
-    "port": "RBCT",
-    "region": "ECSA",
-    "matching_region": null,
-    "open_date": "2025-11-21",
-    "close_date": "2025-12-08",
-    "dwt": "76.801mt",
-    "tonnage_name": "Minoan Courage",
-    "pic": "Farhan Ali",
-    "email_id": "chartering@indus-bulk.com",
-    "phone_number": "+923312861296",
     "latitude": null,
-    "longitude": null
+    "longitude": null,
+    "REGION": "ECSA",
+    "OPEN_DATE": "2025-11-21",
+    "CLOSE_DATE": "2025-12-08",
+    "EMAIL": "chartering@indus-bulk.com",
+    "PHONE": "+923312861296"
   }
 }

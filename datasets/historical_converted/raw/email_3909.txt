@@ -1,0 +1,270 @@
+DSN
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com
+From:
+Microsoft Outlook <MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@akij.net>
+Sent:
+08 December 2025 09:29
+To:
+chartering.asll+SRS=G35LB=6O=varitasnavigation.com=chartering@akij.net
+Subject:
+Undeliverable: // ACC VARITAS NAVIGATION //
+Your message couldn\'t be delivered to multiple recipients.
+The recipients weren\'t found at
+akijshipping.com
+.
+chartering.asll+SRS=. . .
+Office 365
+Recipients
+Action Required
+Recipients
+Unknown To address
+Couldn\'t deliver to the following recipients:
+commercialbot@akijshipping.com, asif.asll@akijshipping.com
+How to Fix It
+The address may be misspelled or may not exist. Try one or more of the following:
+·
+Send the message again following these steps: In Outlook, open this non-delivery report (NDR) and choose
+Send Again
+from the Report ribbon. In Outlook on the web, select this NDR, then select the link "
+To send this message again, click here.
+" Then delete and retype the entire recipient address. If prompted with an Auto-Complete List suggestion don\'t select it. After typing the complete address, click
+Send
+.
+·
+Contact the recipient (by phone, for example) to check that the address exists and is correct.
+·
+The recipient may have set up email forwarding to an incorrect address. Ask them to check that any forwarding they\'ve set up is working correctly.
+·
+Clear the recipient Auto-Complete List in Outlook or Outlook on the web by following the steps in this article:
+Fix email delivery issues for error code 5.1.1 in Office 365
+, and then send the message again. Retype the entire recipient address before selecting
+Send
+.
+If the problem continues, forward this message to your email admin. If you\'re an email admin, refer to the
+More Info for Email Admins
+section below.
+Was this helpful?
+Send feedback to Microsoft
+.
+More Info for Email Admins
+Status code: 550 5.1.1
+This error occurs because the sender sent a message to an email address outside of Office 365, but the address is incorrect or doesn\'t exist at the destination domain. The error is reported by the recipient domain\'s email server, but most often it must be fixed by the person who sent the message. If the steps in the
+How to Fix It
+section above don\'t fix the problem, and you\'re the email admin for the recipient, try one or more of the following:
+The email address exists and is correct
+- Confirm that the recipient address exists, is correct, and is accepting messages.
+Synchronize your directories
+- If you have a hybrid environment and are using directory synchronization make sure the recipient\'s email address is synced correctly in both Office 365 and in your on-premises directory.
+Errant forwarding rule
+- Check for forwarding rules that aren\'t behaving as expected. Forwarding can be set up by an admin via mail flow rules or mailbox forwarding address settings, or by the recipient via the Inbox Rules feature.
+Mail flow settings and MX records are not correct
+- Misconfigured mail flow or MX record settings can cause this error. Check your Office 365 mail flow settings to make sure your domain and any mail flow connectors are set up correctly. Also, work with your domain registrar to make sure the MX records for your domain are configured correctly.
+For more information and additional tips to fix this issue, see
+Fix email delivery issues for error code 550 5.1.1 in Office 365
+.
+Original Message Details
+Created Date:
+08/12/2025 3:59:01 am
+Sender Address:
+chartering.asll+SRS=G35LB=6O=varitasnavigation.com=chartering@akij.net
+Recipient Address:
+commercialbot@akijshipping.com, asif.asll@akijshipping.com
+Subject:
+// ACC VARITAS NAVIGATION //
+Error Details
+Error:
+550-5.1.1 The email account that you tried to reach does not exist. Please try 550-5.1.1 double-checking the recipient\'s email address for typos or 550-5.1.1 unnecessary spaces. For more information, go to 550 5.1.1 https://support.google.com/mail/?p=NoSuchUser 00721157ae682-78c1b4bd48bsi146556977b3.20 - gsmtp
+Message rejected by:
+mx.google.com
+Notification Details
+Sent by:
+PUZPR06MB5901.apcprd06.prod.outlook.com
+Message Hops
+HOP
+TIME (UTC)
+FROM
+TO
+WITH
+RELAY TIME
+1
+08/12/2025
+3:59:02 am
+LAPTOPP6RKI9ML
+vmi2441136.contaboserver.net
+ESMTPSA
+1 sec
+2
+08/12/2025
+3:59:11 am
+vmi2441136.contaboserver.net
+SG1PEPF000082E7.mail.protection.outlook.com
+Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)
+9 sec
+3
+08/12/2025
+3:59:05 am
+SG1PEPF000082E7.apcprd02.prod.outlook.com
+SI2PR01CA0053.outlook.office365.com
+Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)
+*
+4
+08/12/2025
+3:59:11 am
+SI2PR01CA0053.apcprd01.prod.exchangelabs.com
+PUZPR06MB5901.apcprd06.prod.outlook.com
+Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)
+6 sec
+Original Message Headers
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+b=Lj9/u1dyVgOBhZnXPUdl7zdYjZSN+MThAE/j5I5ToyrM6DChnUNG2IV3ikBlwn5K6P0p2vD42l9W/SLZJbQOes+obr2UJ4X8602oTBcDGORBte+F71vHoHit8L/MSmoL92rnIugM+Q/nHBV3wHiPLuhWwfkhSZlfmJZ1P+jbCzfzPmK3Go4bIou6Wy9jhOxMKdo7FgNRBiTOT1EerezqUxqeAnHv3Bdb8VmIB+i1SchDCn/WMB8Ylt2r23f/3sDKiaW2UYz2dgNHHnuKCVNaYfQWAZpK7atteEehNgwojarg4S9EIsJznyzi9pc+MBhMf4ENhSolSRNLqQhNki9PPA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+s=arcselector10001;
+h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+bh=Iaz4kgjBMu1dquO6b243WK7LW1R/YKsZgBjNhMfr6Mo=;
+b=xickCxWB5cY8MqQK3zQFA31inhAudrtUEQWT5XIqhadiRj+KRAvSl+lAECHKIFi4lpkbo618ou9LSM2C/tpQwclOJv/nJPvGde2Bb7sDt0LY0Wq6V5GgQ8sW/ZLQ7AQSWyQxIZQ0Fv9XVNEFx9aENNUd6G9t3xj5o497dpKNfd3TsqwdbuZUl7gwTT86RtybZPjcOAhfti2h6noZX0/RNPZmH7LSW/uxkYRIU30XcL79++VC0CbE1hAG/T4Ax7EzaD1yYwOHhHEK6YC3DtS4/M2CD/U25L34/AmHXtGtNG7g+G38PMNAMzXKHoWl9qrIBTLkFiED9nirzSlfqco4vw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass (sender ip is
+94.136.184.46) smtp.rcpttodomain=akij.net
+smtp.mailfrom=varitasnavigation.com; dmarc=bestguesspass action=none
+header.from=varitasnavigation.com; dkim=fail (no key for signature)
+header.d=varitasnavigation.com; arc=none (0)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+d=akijgrp.onmicrosoft.com; s=selector1-akijgrp-onmicrosoft-com;
+h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+bh=Iaz4kgjBMu1dquO6b243WK7LW1R/YKsZgBjNhMfr6Mo=;
+b=SpeSIyVwvR7Fn/gmdqzQ+jXIsaRwH4dPNpvxKhE8Ab3qgtmruZTA6Yd+LnhSHvlHYGC0H4BT8Q6Z18pr9w8TptGBLHFPpOUnOw/EgQ1tGX+ioUm2mLmeOk4gmhDqP1LozKSeEru73yzQeda4Pwe/f9H55SUvU9ZsSlA35mCWLzg=
+Received: from SI2PR01CA0053.apcprd01.prod.exchangelabs.com
+(2603:1096:4:193::7) by PUZPR06MB5901.apcprd06.prod.outlook.com
+(2603:1096:301:110::15) with Microsoft SMTP Server (version=TLS1_2,
+cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9388.14; Mon, 8 Dec
+2025 03:59:11 +0000
+Received: from SG1PEPF000082E7.apcprd02.prod.outlook.com
+(2603:1096:4:193:cafe::82) by SI2PR01CA0053.outlook.office365.com
+(2603:1096:4:193::7) with Microsoft SMTP Server (version=TLS1_3,
+cipher=TLS_AES_256_GCM_SHA384) id 15.20.9388.14 via Frontend Transport; Mon,
+8 Dec 2025 03:59:05 +0000
+Authentication-Results: spf=pass (sender IP is 94.136.184.46)
+smtp.mailfrom=varitasnavigation.com; dkim=fail (no key for signature)
+header.d=varitasnavigation.com;dmarc=bestguesspass action=none
+header.from=varitasnavigation.com;
+Received-SPF: Pass (protection.outlook.com: domain of varitasnavigation.com
+designates 94.136.184.46 as permitted sender)
+receiver=protection.outlook.com; client-ip=94.136.184.46;
+helo=vmi2441136.contaboserver.net; pr=C
+Received: from vmi2441136.contaboserver.net (94.136.184.46) by
+SG1PEPF000082E7.mail.protection.outlook.com (10.167.240.10) with Microsoft
+SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9412.4
+via Frontend Transport; Mon, 8 Dec 2025 03:59:11 +0000
+Received: from LAPTOPP6RKI9ML (unknown [103.39.29.144])
+by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id 1C86D6A039A;
+Mon,
+8 Dec 2025 04:59:02 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+d=varitasnavigation.com; s=default; t=1765166350;
+bh=7OqgasQjEsqGJlCqEZKdP54Y6iNH/X8CBOxIy8TNz6w=; h=From:Subject;
+b=LfCTaG9SGSmiK4eLmh9WjMpCA9fncilc5iElbQxG7Qgayz7RSeq50jYUpCL4fT2ZY
+1c6Fm+WbBZHUc036atkCbZBVoUyNe1BZXUXsozHbMw7Xp23xXQnBvIn0QxVwiO382c
+hrpxfM/b2KbxR95h1gA+KUeVtLCskFPlkJBKkefn5kpGb2QvyXbymJys6nUjCgNog/
+1kuGQAtB9OnznNpZWP1V7R5bXUmfdheJPD24EfbDi/CPO76ejZw12YGfMk1nF7nb8J
+enZp7dxs+kjcBX2oxxblxX+MrmImzb8i1FqWQcRt3KRnPf8w3W/znZ5lNfxbDr9v39
+K0qHp8oPP2FZA==
+Authentication-Results-Original: vmi2441136.contaboserver.net;
+spf=pass
+(sender IP is 103.39.29.144) smtp.mailfrom=chartering@varitasnavigation.com
+smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is authenticated)
+From: <chartering@varitasnavigation.com>
+CC: "\'Varitas Navigation\'" <chartering@varitasnavigation.com>
+Subject: // ACC VARITAS NAVIGATION //
+Date: Mon, 8 Dec 2025 09:29:01 +0530
+Message-ID: <004801dc67f6$fffae240$fff0a6c0$@varitasnavigation.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+boundary="----=_NextPart_000_0049_01DC6825.19B31E40"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: Adxn9uknzLfIfslLRWyfyaKuWBkCFA==
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 9b985900-7672-4cd6-8f3f-1e7b70b44681:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SG1PEPF000082E7:EE_|PUZPR06MB5901:EE_
+X-MS-Office365-Filtering-Correlation-Id: 9431c051-4802-4c2d-d5e7-08de360e250a
+X-LD-Processed: 9b985900-7672-4cd6-8f3f-1e7b70b44681,ExtFwd,ExtAddr
+X-MS-Exchange-SenderADCheck: 0
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam:
+BCL:0;ARA:13230040|9140799003|61400799027|48200799018|376014|13003099007|8096899003|4076899003|4053099003;
+X-Microsoft-Antispam-Message-Info:
+=?us-ascii?Q?YdYVCHVCSPcRV790xu8fBofx8UpftAVlBg7Krtw9s2Ly54CHPtOBQIpmDkre?=
+=?us-ascii?Q?cwbiE0gu3BsyvHyueA1H8z+Qi5MsyQjQKRM73luLoFWOc9mdMzhd4Ifu7/f1?=
+=?us-ascii?Q?CIxrhAFVl1FnSOShQZzZY4rMDgDNpx/JPs9GTUWgXQKDtNdmRbsoK1Lnqu0T?=
+=?us-ascii?Q?15F+vthtiB//ZVl+YX3to4Jg03lMDEro9YQfgJ9wbFw8+KOkpVSqNKTvpPC2?=
+=?us-ascii?Q?7sxAYZ98kqwWQL2PUN7SrBlUEJlGIeyLrtug9lgdgqiPi87T/sEHyi6yizvW?=
+=?us-ascii?Q?+jUrrqaJA7dJMOMmRjoOdXswBMk3QJAnUAxO9Xvxe7jU4rN+zYFZa/Vp2Xpk?=
+=?us-ascii?Q?9nganbs+D422/5kJM3+ldLeYPT1yFp2XGv1KdJ1Dfca8G7iZPv07EJgxzfbR?=
+=?us-ascii?Q?0VzEEwPDJWUTNSblk4D+ylhhK3JXtjlgv1Jte88L79Gb4bjeduzyA6T4Vk5c?=
+=?us-ascii?Q?PFpU/8WWCBP3zaUyFbYhS+IVFEfQGJKRpT09UEcatl15stws8wbhzWVaeIZr?=
+=?us-ascii?Q?csd/f8qQmlu2yZVzpBFX8o8dUya3/lMKus0prgynmAhz5/QBgqJJQmwchV8y?=
+=?us-ascii?Q?dNnLBUsMHybGR+JACo2xfcXujnBFmtP5FkKmi7s6k1YfMWQbUo1KI87Swqo1?=
+=?us-ascii?Q?qMXHdip3J6cQdbIqes1zrKaTF5O43v/48g6RbMmktcgRdMUyciH+A8UnTzfD?=
+=?us-ascii?Q?JxiRGV/1bPBmPgDUHF2x5WJxLlLk2rNc2kfMk9CJG1iz4mqolaNWjmnWsFCn?=
+=?us-ascii?Q?Dfr4givc3ZRU0nAQhRW6IZD7FQyrDaPyB+9ecEX7ZH7XXOdTB4fkP3vND+DV?=
+=?us-ascii?Q?9e5b775sPrh3vJcsEfnlqApceYRNtf+LZchG0mPaeAsGPsQBIuQL4xiLSiq4?=
+=?us-ascii?Q?IofMLRjduQ87cfGsAiezl2uE0La7K0OfgYn7Gwe8qHGe19G4sSBDp9v/WGtB?=
+=?us-ascii?Q?Ck84NvgLFJd+cIc1YGHEEsWlss130aLKzBekbgUUx74q1nc75XFG/k0T1eBG?=
+=?us-ascii?Q?K1HcQRfqn2t83hO2YD0MUGDbJ5CUbwe1KLtg70USuWq7zNDUNpRKu9spj8aT?=
+=?us-ascii?Q?+Zp0U+mR6egzpdIIbuAQv16uIfz04e6Eh/vKlsrVxuEYDLUhzTlwM/Jlsn7N?=
+=?us-ascii?Q?mbcmdo9aU4vXhX0++q0wLIffBD6g3yvkFf+DRFvX9wD1IuLbQElfecjy4GbU?=
+=?us-ascii?Q?k5uoS0tWbEtBkWTtRx7ZjHUuZAm/tDt8c9tYlsPXccOhi+nDBUheQqYQ9jVC?=
+=?us-ascii?Q?DUPnEzRIHQypcSdT1S1dlaIMDirDnhpQEs8Ois/m0EkH6PpzybLFQyWWCuh8?=
+=?us-ascii?Q?AxDNNZeMrOpxA1cyZ8gGuifTAZl7E3O3ZLTGp/l0Rd9lOVWDysE6SWLabreY?=
+=?us-ascii?Q?ZJoR133o0wcznfHWBteFtTmCRJ2fv8TVl5miL6rg2AZOItuOmKHAkGqMgqfS?=
+=?us-ascii?Q?+wLHUXKnnfuWHVFuMVwl0k2DfwEweaLnIj6p8mb2UBtxsHwtOiU4Gd5p4ATS?=
+=?us-ascii?Q?mGzWTA7SVbzDbz2tvC5ctvFSx63Dn/hNSwzoHWNgRFCJN5RVd87gCmkIduOj?=
+=?us-ascii?Q?X4eSSe+BAw/4cDv3F91ceGNnyb1pP+Y9T9PiD/c9g8Ou+Dg1yh49f9Un4gib?=
+=?us-ascii?Q?xD7vVb2Lwo42cg14JxQfdjcK+eJcdlXymdytLOfvsA3QyAVFPA6xFrnxUyIZ?=
+=?us-ascii?Q?kDoF8KzEXN/TwpeS51JJNMYhtq5/hg1pKw/GQYShpABX6oqF3rm0ToIGDtph?=
+=?us-ascii?Q?XunpIlni6rQ8ynb2KasW51arKIWf2gVq0KCGOCZelKk1DXm9sbyWR87sgltx?=
+=?us-ascii?Q?uUC5wouI5Crt2CtvTFiRDeQiQWVkduE8JBlqGS/GqQDQfc99VMqAjTBE?=
+X-Forefront-Antispam-Report:
+CIP:94.136.184.46;CTRY:IN;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:vmi2441136.contaboserver.net;PTR:vmi2441136.contaboserver.net;CAT:NONE;SFS:(13230040)(9140799003)(61400799027)(48200799018)(376014)(13003099007)(8096899003)(4076899003)(4053099003);DIR:OUT;SFP:1102;
+X-ExternalRecipientOutboundConnectors: 9b985900-7672-4cd6-8f3f-1e7b70b44681
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-OriginatorOrg: akij.net
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Dec 2025 03:59:11.0635
+(UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9431c051-4802-4c2d-d5e7-08de360e250a
+X-MS-Exchange-CrossTenant-Id: 9b985900-7672-4cd6-8f3f-1e7b70b44681
+X-MS-Exchange-CrossTenant-AuthSource:
+SG1PEPF000082E7.apcprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PUZPR06MB5901
+Dear All,
+Good day.
+// FULLY FIRM //
+ACC VARITAS NAVIGATION
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons.
+Load port: Tianjin, China
+Discharge port: Shuaiba, Kuwait.
+Load rate: CQD
+Discharge: Liner out.
+Laycan 15-20th December 2025.
+As part cargo.
+2.5% Addcom
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com

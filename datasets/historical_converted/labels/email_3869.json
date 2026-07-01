@@ -1,0 +1,23 @@
+{
+  "text": "Dear All\nGood day!\nPls kindly pps suitable biz for our flwg tonnage:\nACCT HANSON\nDWT 20-40K DWT, OHBS\nONE TCT WITH HLESS STEEL/GENERAL CGO/EQUIPMENTS..\nDELY TM PG\nREDEL MED\nLAYCAN 26TH JAN ONWARDS\nDUR ABT 40 DAYS WOG\nCOMM 3.75%\nACCT HANSON\nDWT 17-28K MPP/OHBS, NEED HATCH OPEN MIN 30M\nONE TCT WITH HLESS STEEL/GENERAL CGO/EQUIPMENTS..\nDELY TM PG\nREDEL CONTI INT UK\nLAYCAN 25TH JAN ONWARDS\nDUR ABT 40-50 DAYS WOG\nCOMM 3.75%\n*NEED GOA TRANSIT\n*PREFER DECK/HATCH COVER LOADING OPTION\nPLS CC TO chartering@hansoncarriers.com & bulk@hansoncarriers.com FOR SAFE RECEIPT.\nThanks & Best Regards\nYulia Tang\nHanson Carriers Pte Ltd.\nOffice Address: 27F, Vanke Center Riverside,No. 118 Minsheng Road,Shanghai,China\nEmail: chartering@hansoncarriers.com;bulk@hansoncarriers.com\nMobile Phone / Wechat: +86 18580483691",
+  "entities": {
+    "PORT": "MIN",
+    "LAYCAN": "20-40K DWT",
+    "CONTACT": "chartering@hansoncarriers.com",
+    "EMAIL": "chartering@hansoncarriers.com",
+    "PHONE": "+86 18580483691",
+    "OPEN_PORT": "MIN",
+    "DWT": "20",
+    "CARGO": "STEEL",
+    "CARGO_TYPE": "General Cargo",
+    "TONNAGE_TYPE": "MPP",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "83691",
+    "MAX_SIZE": "185804",
+    "BROKER": "Yulia Tang",
+    "DURATION": "40",
+    "DEL_PORT": "TM PG",
+    "REDEL_PORT": "MED",
+    "REGION": "CHINA"
+  }
+}

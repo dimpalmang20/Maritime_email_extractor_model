@@ -1,0 +1,16 @@
+{
+  "text": "Dear All\nGood day!\nPls kindly pps for flwg firm biz:\nACCT HANSON BULK\nDWT SMX/UMX\nONE TCT WITH HARMLESS BULK CGO\nDELY TM WCI\nREDEL CHINA RANGE\nLAYCAN 25TH DEC ONWARDS\nDUR ABT 30 DAYS WOG\nCOMM 3.75%\nPls cc to\nchartering@hansoncarriers.com & bulk@hansoncarriers.com for safe receipt.\nThanks & Best Regards\nYulia Tang as agent only\nEmail: chartering@hansoncarriers.com\nMobile Phone/Wechat:+86 18580483691\nwww.hansonholding.cn",
+  "entities": {
+    "CONTACT": "chartering@hansoncarriers.com",
+    "EMAIL": "chartering@hansoncarriers.com",
+    "PHONE": "+86 18580483691\n",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "83691",
+    "MAX_SIZE": "185804",
+    "BROKER": "Yulia Tang as agent only",
+    "DURATION": "30",
+    "DEL_PORT": "TM WCI",
+    "REDEL_PORT": "CHINA RANGE",
+    "REGION": "CHINA"
+  }
+}

@@ -1,0 +1,215 @@
+DSN
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com
+From:
+postmaster@swireshipping.com <postmaster@swireshipping.com>
+Sent:
+26 November 2025 16:19
+To:
+chartering@varitasnavigation.com
+Subject:
+Undeliverable: ACC VARITAS NAVIGATION
+Your message to
+jie.yang@swirecnco.com
+couldn\'t be delivered.
+jie.yang
+wasn\'t found at
+swirecnco.com
+.
+chartering
+Office 365
+jie.yang
+Action Required
+Recipient
+Unknown To address
+How to Fix It
+The address may be misspelled or may not exist. Try one or more of the following:
+·
+Send the message again following these steps: In Outlook, open this non-delivery report (NDR) and choose
+Send Again
+from the Report ribbon. In Outlook on the web, select this NDR, then select the link "
+To send this message again, click here.
+" Then delete and retype the entire recipient address. If prompted with an Auto-Complete List suggestion don\'t select it. After typing the complete address, click
+Send
+.
+·
+Contact the recipient (by phone, for example) to check that the address exists and is correct.
+·
+The recipient may have set up email forwarding to an incorrect address. Ask them to check that any forwarding they\'ve set up is working correctly.
+·
+Clear the recipient Auto-Complete List in Outlook or Outlook on the web by following the steps in this article:
+Fix email delivery issues for error code 5.1.10 in Office 365
+, and then send the message again. Retype the entire recipient address before selecting
+Send
+.
+If the problem continues, forward this message to your email admin. If you\'re an email admin, refer to the
+More Info for Email Admins
+section below.
+Was this helpful?
+Send feedback to Microsoft
+.
+More Info for Email Admins
+Status code: 550 5.1.10
+This error occurs because the sender sent a message to an email address hosted by Office 365 but the address is incorrect or doesn\'t exist at the destination domain. The error is reported by the recipient domain\'s email server, but most often it must be fixed by the person who sent the message. If the steps in the
+How to Fix It
+section above don\'t fix the problem, and you\'re the email admin for the recipient, try one or more of the following:
+The email address exists and is correct
+- Confirm that the recipient address exists, is correct, and is accepting messages.
+Synchronize your directories
+- If you have a hybrid environment and are using directory synchronization make sure the recipient\'s email address is synced correctly in both Office 365 and in your on-premises directory.
+Errant forwarding rule
+- Check for forwarding rules that aren\'t behaving as expected. Forwarding can be set up by an admin via mail flow rules or mailbox forwarding address settings, or by the recipient via the Inbox Rules feature.
+Recipient has a valid license
+- Make sure the recipient has an Office 365 license assigned to them. The recipient\'s email admin can use the Office 365 admin center to assign a license (Users > Active Users > select the recipient > Assigned License > Edit).
+Mail flow settings and MX records are not correct
+- Misconfigured mail flow or MX record settings can cause this error. Check your Office 365 mail flow settings to make sure your domain and any mail flow connectors are set up correctly. Also, work with your domain registrar to make sure the MX records for your domain are configured correctly.
+For more information and additional tips to fix this issue, see
+Fix email delivery issues for error code 5.1.10 in Office 365
+.
+Original Message Details
+Created Date:
+26/11/2025 10:48:00 am
+Sender Address:
+chartering@varitasnavigation.com
+Recipient Address:
+jie.yang@swirecnco.com
+Subject:
+ACC VARITAS NAVIGATION
+Error Details
+Error:
+550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient jie.yang@swirecnco.com not found by SMTP address lookup
+Message rejected by:
+KL1PR04MB6949.apcprd04.prod.outlook.com
+Notification Details
+Sent by:
+KL1PR04MB6949.apcprd04.prod.outlook.com
+Message Hops
+HOP
+TIME (UTC)
+FROM
+TO
+WITH
+RELAY TIME
+1
+26/11/2025
+10:48:05 am
+LAPTOPP6RKI9ML
+vmi2441136.contaboserver.net
+ESMTPSA
+5 sec
+2
+26/11/2025
+10:49:09 am
+vmi2441136.contaboserver.net
+SG1PEPF000082E4.mail.protection.outlook.com
+Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)
+1 min, 4 sec
+3
+26/11/2025
+10:49:10 am
+SG1PEPF000082E4.apcprd02.prod.outlook.com
+SG2PR03CA0121.outlook.office365.com
+Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)
+1 sec
+4
+26/11/2025
+10:49:10 am
+SG2PR03CA0121.apcprd03.prod.outlook.com
+KL1PR04MB6949.apcprd04.prod.outlook.com
+Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)
+*
+Original Message Headers
+Received: from SG2PR03CA0121.apcprd03.prod.outlook.com (2603:1096:4:91::25) by
+KL1PR04MB6949.apcprd04.prod.outlook.com (2603:1096:820:df::13) with Microsoft
+SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+15.20.9343.18; Wed, 26 Nov 2025 10:49:10 +0000
+Received: from SG1PEPF000082E4.apcprd02.prod.outlook.com
+(2603:1096:4:91:cafe::e) by SG2PR03CA0121.outlook.office365.com
+(2603:1096:4:91::25) with Microsoft SMTP Server (version=TLS1_3,
+cipher=TLS_AES_256_GCM_SHA384) id 15.20.9366.11 via Frontend Transport; Wed,
+26 Nov 2025 10:49:10 +0000
+Authentication-Results: spf=pass (sender IP is 94.136.184.46)
+smtp.mailfrom=varitasnavigation.com; dkim=fail (no key for signature)
+header.d=varitasnavigation.com;dmarc=bestguesspass action=none
+header.from=varitasnavigation.com;
+Received-SPF: Pass (protection.outlook.com: domain of varitasnavigation.com
+designates 94.136.184.46 as permitted sender)
+receiver=protection.outlook.com; client-ip=94.136.184.46;
+helo=vmi2441136.contaboserver.net; pr=C
+Received: from vmi2441136.contaboserver.net (94.136.184.46) by
+SG1PEPF000082E4.mail.protection.outlook.com (10.167.240.7) with Microsoft
+SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9366.7
+via Frontend Transport; Wed, 26 Nov 2025 10:49:09 +0000
+Received: from LAPTOPP6RKI9ML (unknown [106.193.238.40])
+by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id ED4BB6A08CE;
+Wed, 26 Nov 2025 11:48:05 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+d=varitasnavigation.com; s=default; t=1764154146;
+bh=YoHeKbql4zko81Zu0uyO4m1KXYBaBqnZjVNc7RWUyck=; h=From:Subject;
+b=Q0Atw24MrHD5QSt4fr0Oaaj5PAx9hGyRUgchia83QlYtkZZ6ofReW5qLkJqHdOeLu
+1zuISHCWFv8b/IxdQfm84U4+/GFHm8hkGzH//v76DcivEUTkP1Rg6FXSJ2YWOpCr7O
+m6HIiBGB4bSqal45z4Y3/nJRSoZo36qXwxi0m+ThDSBfRScj0TyvJPntbXyBnpalw4
+/iZq4cyh1cTShQ1az9xBdhsCOWP+abKoavLSshtY1AcddXNo1pNCtqxlGE4J5HsUAG
+PR9RBEWOA2Lh2saNOjWCBWcQJ4G5ElU4vY07SDQFU9j3PS2bJp0FWfgcA8MbJxZPTp
+ahrVPigHXHGhA==
+Authentication-Results-Original: vmi2441136.contaboserver.net;
+spf=pass
+(sender IP is 106.193.238.40) smtp.mailfrom=chartering@varitasnavigation.com
+smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is authenticated)
+From: <chartering@varitasnavigation.com>
+CC: "\'Varitas Navigation\'" <chartering@varitasnavigation.com>
+Subject: ACC VARITAS NAVIGATION
+Date: Wed, 26 Nov 2025 16:18:00 +0530
+Message-ID: <03f601dc5ec2$458431b0$d08c9510$@varitasnavigation.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+boundary="----=_NextPart_000_03F7_01DC5EF0.5F3D5810"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdxewcaCWS3UsqkSTsKO5EOhlJbTrA==
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: d5dc4224-0d76-4482-aae2-b099857e0a93:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SG1PEPF000082E4:EE_|KL1PR04MB6949:EE_
+X-MS-Office365-Filtering-Correlation-Id: 5553ff57-4534-48c9-85ad-08de2cd96e31
+Dear All,
+Good day.
+// FULLY FIRM //
+1)
+ACC VARITAS NAVIGATION
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons.
+Load port: Tianjin, China
+Discharge port: Shuaiba, Kuwait.
+Load rate: CQD
+Discharge: Liner out.
+Laycan 15-20th December 2025.
+As part cargo.
+2.5% Addcom
+2)
+Acc Varitas Navigation
+Min/ Max 15000 mts urea in bulk
+Load port Tianjin
+Discharge port Colombo
+Load Rate 1500 per hook SHINC
+Discharge Rate 1000 per hook SHEX EIU.
+Laycan 10/15
+th
+December 2025.
+2.5% Addcom.
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com

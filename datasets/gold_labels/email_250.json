@@ -51,30 +51,22 @@
       "rieck-petersen@shipnet.de"
     ],
     "RESTRICTIONS": null,
-    "tonnage_type": [
-      "SD/BC"
-    ],
-    "region": [
+    "latitude": null,
+    "longitude": null,
+    "REGION": [
       "USG",
       "MARACAIBO BAY"
     ],
-    "matching_region": null,
-    "open_date": "2025-11-18",
-    "close_date": null,
-    "tonnage_name": [
-      "DEVBULK DEMET"
+    "OPEN_DATE": "2025-11-18",
+    "TONNAGE_TYPE": [
+      "SD/BC"
     ],
-    "pic": [
-      "Lars Petersen"
-    ],
-    "email_id": [
+    "EMAIL": [
       "rieck-petersen@shipnet.de"
     ],
-    "phone_number": [
+    "PHONE": [
       "+49403500426",
       "+491724104872"
-    ],
-    "latitude": null,
-    "longitude": null
+    ]
   }
 }

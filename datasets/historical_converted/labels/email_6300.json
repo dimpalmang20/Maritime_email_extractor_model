@@ -1,0 +1,24 @@
+{
+  "text": "Thanks and Regards,\nMs. Eleanor Rodriguez\nOperations Executive\nSobha Sapphire Bldg. Office No. 906 Business Bay, P.O. Box 123175, Dubai United Arab Emirates\nTel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mobile/Whatsapp: (+97150) 456 9584\nTeams:\n⁠\nTransbulk5\nWeChat: TransbulkOps_Eleanor\nEmail:\noperations@transbulk.ae\n|\ntransblk@eim.ae\nWebsite:\nhttp://www.transbulk.ae\nFrom:\nPager Co Ltd <chartering@pagerco.gr>\nSent:\nWednesday, 26 November 2025 12:44 PM\nTo:\nPAGER CO <chartering@pagerco.gr>; PAGER CO LTD <pagegrnm@otenet.gr>\nSubject:\nDWT 24.804 // GD // GRD / OPEN OMAN 28/30 NOV\nGD DAY,\nPLEASE PROPOSE SUITABLE BIZ FOR  BELOW LADY :\nOpen OMAN  28/30  NOV\nMV ALTO\nSUMMER: 24804 DWT ON 10.045 METERS\nTYPE: GENERAL CARGO\nBUILT: 1997, JAPAN\nCRANES : 4X30T SWL (only 3 cranes can work simultaneously)\nFLAG: BELIZE\nCLASS: TURKISH LLOYD\nIMO NUMBER: 9145786\nCALL SIGN: V3MW\nL.O.A.: 153.78 M\nL.B.P. : 143.80 M\nBEAM: 26.00 M\nDEPTH MOULDED: 16 M\nGROSS TONNAGE: 20395\nNET TONNAGE: 9257\nTPC AT SUMMER: 34.055\n4 HOLDS / 4 HATCHES\nHOLD NO 2&3 ARE BOX\nMC GREGOR FOLDING TYPE HATCHCOVERS\nGRAIN (CBM)    BALE (CBM)\nHOLD  1              8957.23                8812.27\nHOLD  2              11829.15            11538.32\nHOLD  3              11827.86            11538.32\nHOLD  4              12274.18            11877.37\nTOTAL                  44888.42            43766.28\nHATCHCOVER DIMENSIONS : (METERS)\nNo:1 – 16.00 x 17.38\nNo:2 – 20.00 x 22.00\nNo:3 – 20.00 x 22.00\nNo:4 – 20.00 x 20.00\nTANK TOP STRENGHT (CUM/M2) :  H1, H2, H3 = 15 T/M2 / H4 = 14 T/M2\nCO2 FITTED, AUSTRALIAN LADDERS FITTED\nLAST DRYDOCK : 05.02.2024 , ISTANBUL\nALL DETS ABT+\nPleased to hear.\nThanks & b.rgds\nManolis Gerakoudis\nAs Broker only\nPAGER CO LTD\n12, PALMYRAS STREET\n165-61 GLYFADA\nGREECE\nMobile : 0030 693 25 15 652\nEmail:\nChartering@pagerco.gr\nBackup :\npagegrnm@otenet.gr\nSkype : Manos.gerakoudis",
+  "entities": {
+    "VESSEL": "MV ALTO\nSUMMER",
+    "DWT": "24804",
+    "PORT": "OMAN",
+    "LAYCAN": "65-61 GLY",
+    "CONTACT": "operations@transbulk.ae",
+    "EMAIL": "operations@transbulk.ae",
+    "PHONE": "434 1628 ",
+    "OPEN_PORT": "OMAN",
+    "CARGO": "GRAIN",
+    "CARGO_TYPE": "Dry Bulk",
+    "TONNAGE_TYPE": "General Cargo",
+    "EMAIL_TYPE": "TONNAGE",
+    "MIN_SIZE": "1628",
+    "MAX_SIZE": "914578",
+    "IMO": "9145786",
+    "OPEN_DATE": "28 NOV",
+    "CLOSE_DATE": "30 NOV",
+    "BROKER": "Ms. Eleanor Rodriguez",
+    "REGION": "JAPAN"
+  }
+}

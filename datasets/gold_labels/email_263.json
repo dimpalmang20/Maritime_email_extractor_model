@@ -47,18 +47,14 @@
       "Cranes 4 x 30t",
       "CO2 / A60 fitted"
     ],
-    "tonnage_type": "BOX SHAPE",
-    "port": "OTRANTO",
-    "region": "ITALY",
-    "matching_region": "MED",
-    "open_date": "2025-11-25",
-    "close_date": "2025-11-29",
-    "dwt": "37,300 mt",
-    "tonnage_name": "IZUMO HERMES",
-    "pic": "Raj Arya",
-    "email_id": "fix@aryacorp.com",
-    "phone_number": "+911244694875",
     "latitude": null,
-    "longitude": null
+    "longitude": null,
+    "REGION": "ITALY",
+    "MATCHING_REGION": "MED",
+    "OPEN_DATE": "2025-11-25",
+    "CLOSE_DATE": "2025-11-29",
+    "TONNAGE_TYPE": "BOX SHAPE",
+    "EMAIL": "fix@aryacorp.com",
+    "PHONE": "+911244694875"
   }
 }

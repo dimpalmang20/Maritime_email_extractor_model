@@ -1,0 +1,255 @@
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com
+From:
+postmaster@oldendorff.com <postmaster@oldendorff.com>
+Sent:
+27 November 2025 10:33
+To:
+chartering@varitasnavigation.com
+Subject:
+Undeliverable: // ACC VARITAS NAVIGATION //
+Delivery has failed to these recipients or groups:
+animesh.das@oldendorff.com
+The email address you entered couldn\'t be found. Please check the recipient\'s email address and try to resend the message. If the problem continues, please contact your email admin.
+Diagnostic information for administrators:
+Generating server: LUESRV060n21.oldendorff.com
+animesh.das@oldendorff.com
+Remote Server returned \'550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup\'
+Original message headers:
+Received: from LUESRV060N22.oldendorff.com (192.168.48.226) by
+LUESRV060n21.oldendorff.com (192.168.48.225) with Microsoft SMTP Server
+(version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+15.2.1748.24; Thu, 27 Nov 2025 06:02:37 +0100
+Received: from DB3PR08CU002.outbound.protection.outlook.com (40.93.64.87) by
+LUESRV060N22.oldendorff.com (192.168.48.226) with Microsoft SMTP Server
+(version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+15.2.1748.24 via Frontend Transport; Thu, 27 Nov 2025 06:02:37 +0100
+ARC-Seal: i=3; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=pass;
+b=VSc/ED4u6eRKPeyqZMRE0oGwVPzoccQzBs4bQX/x0t9xm6EUDr030gYcHWycQ1nfni+aunYxvOd9gchOahslwGBZlf/jZke1KIhWhLVR8B0b6o4yax8i+RtHz2HkR+FbFjqwaTIdbNlC3UuPSiqVQWhgrrglmXh7OuCY4XyCSJPd9opnGrUwH5p5gYhvsX2P3Xr492qnLGRa9suheNh1R4/Rq3Agm+5YRjgO/EjaZSpbODf6sCL1NHaI+OhMqGGYonGf2Yv6tOvFAXPvZiDs/07rM5749mMRCShe0K3QH4dYN7IvEx0bHByYkaBX8JkD/saaSNkBCs6zg/hlGvCbVQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+s=arcselector10001;
+h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+bh=GvhWm97GOrmzfX4fOxM2hYjmYrSw0fY5oRm0bxda8Ls=;
+b=sCNjK6wcR5R7rIaZwd5h9+EUAvoGDpHJLsmAfYJFsJ6Qz6Caf3Ukj/EtnUVPWsIojWGXYSxtdy5BIMqi9TPaABrm2otFCeuhJYPSVjl0Y9oGDTgB0knQYK09OWz2Ul8hHIQcfH0IVf8+Dq0A8K9mTjBYU67WYEAGNX7ykwuOM/qYKKy4Lfc43VqjUeN2st/kCrmMHQDLMk5zSdZOCrprAIe7/MMkmeONY0RPpGaBrxZcuYTgUt6j8LLYdwsRAo/JzPPFoT7khZYfr6nrs5cYyMdsc3ImdN5zny7TF/re1aMtVEVIWdIfmdNDJMw2c/RpwjIHIWocn5B+1OaBIO4AJA==
+ARC-Authentication-Results: i=3; mx.microsoft.com 1; spf=pass (sender ip is
+94.136.184.46) smtp.rcpttodomain=oldendorff.com
+smtp.mailfrom=varitasnavigation.com; dmarc=bestguesspass action=none
+header.from=varitasnavigation.com; dkim=fail (no key for signature)
+header.d=varitasnavigation.com; arc=pass (0 oda=0 ltdi=0 93)
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=pass;
+b=D+9xTXojXbPenll7nD8Re9HlCE6JmZEP15DDesmyEYVcqYRZ/PqbuHgi98xN5Ba0t3IPn2osJeQ38AkVouXRmpl1SRugg5TTjeMM9umz+JywrDhfURfi9dbdBFhaKeqyQonVHFNaf2ZRNjqfhS/XLM1jOBxrU+Sr4iNwOs6danxqfmKEjQR35BWzmKAT9krw9otrmyYLwqlytldb9gxhIMm7Tekqt43CTErCywrMqboq7apBF0AaIN04xS37mvEbyBMShH4gud0AwkGGowztUIfCsozHPj76SYP2Ub41Flz29UYyid0YwnHVDUrp4DlN5PiX+GawZ5PUpKAyhmrQbg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+s=arcselector10001;
+h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+bh=ih12/qRXjjVVlsQXRdHhPLqdxqdovaVH+qOFdhrdahw=;
+b=xm0CcdTVEHd9mSPOX8pWcqxmXjzN7k9jD9gh2sy2bdel4T81JJpE2dLe+23E00zO45LDjw/tUFByx8fs2AJ93P7TjDRwcS4L2N2WARp9nDvIANqsKnOGxtQzhWMn/6dJpd6/85Kly/SEAVp7/cCitxiwpCb+6fmrE4FjTt4nHOeeafv91RKng7P31QgH8Ig3RWhy1LeWVndzyxjQhRREuGOqBdXKEwqiChPc3ooEsnotUycnd2AhLQnjyBeS93UolhFHAXOjTw0D2hFvkIBgp0nv7Rhv03afKO6gr/k+a8iS6f1ESODjD9yYREm3jjTi0OMf1POzyJhwy2bQwRDzEA==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=pass (sender ip is
+94.136.184.46) smtp.rcpttodomain=oldendorff.com
+smtp.mailfrom=varitasnavigation.com; dmarc=bestguesspass action=none
+header.from=varitasnavigation.com; dkim=fail (no key for signature)
+header.d=varitasnavigation.com; arc=pass (0 oda=0 ltdi=0 93)
+Received: from AS4P191CA0006.EURP191.PROD.OUTLOOK.COM (2603:10a6:20b:5d5::17)
+by AM7PR01MB6707.eurprd01.prod.exchangelabs.com (2603:10a6:20b:1ac::16) with
+Microsoft SMTP Server (version=TLS1_2,
+cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9366.13; Thu, 27 Nov
+2025 05:02:34 +0000
+Received: from AMS0EPF000001A0.eurprd05.prod.outlook.com
+(2603:10a6:20b:5d5:cafe::fb) by AS4P191CA0006.outlook.office365.com
+(2603:10a6:20b:5d5::17) with Microsoft SMTP Server (version=TLS1_3,
+cipher=TLS_AES_256_GCM_SHA384) id 15.20.9366.14 via Frontend Transport; Thu,
+27 Nov 2025 05:02:32 +0000
+Authentication-Results: spf=pass (sender IP is 94.136.184.46)
+smtp.mailfrom=varitasnavigation.com; dkim=fail (no key for signature)
+header.d=varitasnavigation.com;dmarc=bestguesspass action=none
+header.from=varitasnavigation.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of varitasnavigation.com
+designates 94.136.184.46 as permitted sender)
+receiver=protection.outlook.com; client-ip=94.136.184.46;
+helo=vmi2441136.contaboserver.net; pr=C
+Received: from de-smtp-inbound-delivery-1.mimecast.com (194.104.110.241) by
+AMS0EPF000001A0.mail.protection.outlook.com (10.167.16.230) with Microsoft
+SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9366.7
+via Frontend Transport; Thu, 27 Nov 2025 05:02:34 +0000
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+d=dkim.mimecast.com; s=201903; t=1764219754;
+h=from:from:reply-to:subject:subject:date:date:message-id:message-id:to:
+cc:cc:mime-version:mime-version:content-type:content-type:
+dkim-signature;
+bh=ih12/qRXjjVVlsQXRdHhPLqdxqdovaVH+qOFdhrdahw=;
+b=PO8JN6wvxuBpIFkSNyIx0SbTL5AVqXRCKkhlRsxiHAEieBUDpedrNhsmkLeO7bOkFgjYps
+hVxIUJdcMxeKvhoDprhtQtQDgBuebGwjngiD9QBmpTuN6Yd+EjZddwN+zUaYmbM6TtDt+j
+WxQdI+A1wDjM9Y7UBlzzdM4GRT+SDUjamTamPJtX+904SThC9nEHLqMMs/jWfuIv/VZcfx
+HdawmvtpyJzgTRQJkWxbd6LctcsrWpj/XFgyVQNYjKTwXl8t5g+suAtVodVoYyEqc4/ibM
+g3xQo70/DIiCzPzf2145JEvL+R1cBySNEo//P9B0VtUG251k5nsffgiWNI6EPA==
+ARC-Seal: i=1; s=201903; d=dkim.mimecast.com; t=1764219754; a=rsa-sha256;
+cv=none;
+b=qexDGAK/pClFl9MAyJ1gRIW/Z7+wGVLEt811Wnr9lfmYsV2kvkpt8xHRWVYVYsO91iBjg/
+INt2w1yN6+Ogg22Pf9yDSe8RH0BofAqPmbDrkj8snH1VlH7DriIOgK0LXhRTygNkQKqOtD
+rxp9tIXrOL/hFhb/Uv0AnCQ9nLGLUvBfpqTXOXN1MgEPDLt7riS908giN7rAZjaWRyIv5O
+Q77aj4CIX6g3Y8tWvyer0WKCBKji/n7jkqbyiLrF8/SIHBLSrKo0dshFaKXSywTWRYeB2r
+/eRXWI/mSFJYVl3SQ2sWVQ8OfRiV2b2HvcS0dK0jFa871stPWuXdChpMTuuuqA==
+ARC-Authentication-Results: i=1;
+relay.mimecast.com;
+dkim=none ("invalid DKIM record") header.d=varitasnavigation.com header.s=default header.b="ld9qc/rc";
+dmarc=none;
+spf=pass (relay.mimecast.com: domain of chartering@varitasnavigation.com designates 94.136.184.46 as permitted sender) smtp.mailfrom=chartering@varitasnavigation.com
+Authentication-Results-Original: relay.mimecast.com;
+dkim=none ("invalid DKIM
+record") header.d=varitasnavigation.com header.s=default header.b="ld9qc/rc";
+dmarc=none;
+spf=pass (relay.mimecast.com: domain of
+chartering@varitasnavigation.com designates 94.136.184.46 as permitted
+sender) smtp.mailfrom=chartering@varitasnavigation.com
+Received: from vmi2441136.contaboserver.net (vmi2441136.contaboserver.net
+[94.136.184.46]) by relay.mimecast.com with ESMTP with STARTTLS
+(version=TLSv1.3, cipher=TLS_AES_256_GCM_SHA384) id
+de-mta-76-D0GA_duJMCOUmixm_otM3g-1; Thu, 27 Nov 2025 06:02:12 +0100
+X-MC-Unique: D0GA_duJMCOUmixm_otM3g-1
+X-Mimecast-MFC-AGG-ID: D0GA_duJMCOUmixm_otM3g_1764219730
+Received: from LAPTOPP6RKI9ML (unknown [49.43.33.59])
+by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id A74306A0A74;
+Thu, 27 Nov 2025 06:01:53 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+d=varitasnavigation.com; s=default; t=1764219726;
+bh=hA/4daQfGHW16drNffu2/sATeQ8peKtVjYE8MpPc3DM=; h=From:Subject;
+b=ld9qc/rco0Y/1va4zUX/qYEjFQ2KqcvBeMKnGLtdWChEf01Po70MmuqfFuMHlI412
+cWN1G5YDT42bTeq4Ac7RYU7Sa62YjW1Fe2tXmdxgO/xa6fGAwUYCCSd30iGfthNNKI
+wAj4OJ/PNiSbysfV+CzoF/IV7Svc+JwqnI+sVvRqx2yej6+bmJVNx3DAPdy25ModG0
+cGRLETnrNzbW9Cxf/aqUvsXndqFSRHZKVjB6lnXU+uyVrUd1dnJaEULrdQjFu8V5Az
++9sFClIwbMY7CNfNYFPJhk0tlyv/ihow6E3kquyYraRoJIejcnSf5auUXVxm0SsmG7
+ll6E/iEa396rA==
+From: <chartering@varitasnavigation.com>
+CC: \'Varitas Navigation\' <chartering@varitasnavigation.com>
+Subject: // ACC VARITAS NAVIGATION //
+Date: Thu, 27 Nov 2025 10:31:53 +0530
+Message-ID: <07be01dc5f5a$f71d9a40$e558cec0$@varitasnavigation.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdxfWm62SQSfnG+ESyy/tANqHYFcnA==
+X-Mimecast-Spam-Score: 9
+X-Mimecast-MFC-PROC-ID: baguq_2FvzfwOfVUWOQ_0-9D3EeU0GAW9_SQmkVlxs0_1764219730
+X-Mimecast-Impersonation-Protect: Policy=VIP Impersonation Protection Definition;Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+X-Mimecast-Impersonation-Protect: Policy=Newly Observed Domain;Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+X-Mimecast-Impersonation-Protect: Policy=General Impersonation Protection [3 hits];Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+X-Mimecast-Impersonation-Protect: Policy=Internal Conflict Senders;Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+X-Mimecast-Impersonation-Protect: Policy=Similar Internal Domain;Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+X-Mimecast-Impersonation-Protect: Policy=Supply Chain;Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+X-Mimecast-Impersonation-Protect: Policy=General Impersonation Protection [2 hits];Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false
+Content-Type: multipart/related;
+boundary="----=_NextPart_000_07BF_01DC5F89.10D5D640"
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: c61c9d14-634b-4b44-88c8-9bc01feeebe8:0
+X-MS-Exchange-SkipListedInternetSender: ip=[94.136.184.46];domain=vmi2441136.contaboserver.net
+X-MS-Exchange-ExternalOriginalInternetSender: ip=[94.136.184.46];domain=vmi2441136.contaboserver.net
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AMS0EPF000001A0:EE_|AM7PR01MB6707:EE_
+X-MS-Office365-Filtering-Correlation-Id: 058c8e47-c092-494c-eb8d-08de2d722d6c
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-Microsoft-Antispam: BCL:0;ARA:13230040|82310400026|12012899012|4053099003|13003099007|8096899003|4076899003;
+X-Microsoft-Antispam-Message-Info: =?Windows-1252?Q?YI+G5DYBDFjSdp8riEPWOPccEMUcEr4WdoyI/Dyvz4ja3Y0nQgTW88aE?=
+=?Windows-1252?Q?vJjM6zOMg/3mJjnqiBYWV6CWF1Q/7/RSju08QlTR2jGMKItGI8mo0ik/?=
+=?Windows-1252?Q?eqE0JoHOO73pwUY9tfapLWKBYiVC+BfqoddhMKngCHpB4VKHtfgqetbc?=
+=?Windows-1252?Q?ckXcbx13/5tBHG05y+sBdUZlruEYTVV8bhHnfbroSzhLoMMTPp0ANZ8l?=
+=?Windows-1252?Q?8WHCJrsQlJKTAJGpnSO7iG19ID57pHE026Tne/ink7P1fzgnQTLO0ylE?=
+=?Windows-1252?Q?Vo3wLWURK0EfqmHihVuJQdkpcFkC+jc328rHtcFHvRSW7IFkfNUIXUml?=
+=?Windows-1252?Q?GvOWaFE2S7Hj2ND0EEFxWlo9uJtHl7sCuaSy/nas9Ezp4G769vNrQFNR?=
+=?Windows-1252?Q?/PkmHbqQvCgAa3uWNKrXcWFErOryUgn8Y9udowyiCBBYJvs2BBOqmiEt?=
+=?Windows-1252?Q?FCbDf3tmafwewgRpSohtUS/5sEK2Bg66pFK5XYT2Mzb2Hh106EpI1VTP?=
+=?Windows-1252?Q?BQ9VXoGhmwpY9GsXEGNMQxnlu9Q40SpMOg3PQ6h8voX4YJPBiux4aYYw?=
+=?Windows-1252?Q?CwwPS4a3JvT7kLumC3uvrRpz7I7d0ebq3bYio4aWkPy/CH6wxA/JLUPh?=
+=?Windows-1252?Q?029/byc5CKLssKvF/Sh/fOniKXd6Foa25EJlC/PhaF63zn9v5lSJXbHi?=
+=?Windows-1252?Q?7t+rpSInUfhI+fxIW+vw69vBLCDdCatsXzwr0QjS9J/3hSn5jjElGYMz?=
+=?Windows-1252?Q?5a5eRuroUYxKeTyMMRoGaPV55Vuf4Xi4DdaGYluq/5bf3pAUEPr/ddij?=
+=?Windows-1252?Q?rxYPNZl8FpggWVJLr3IBfm8yHVU5wxy+QXD8NZz3jbk5e+8NIDvPp/M3?=
+=?Windows-1252?Q?6D1qsMIqbfwAXjfpdkDPeTEhVtaK8yYqguMicMDMwhpa/0SQ58dmcwSo?=
+=?Windows-1252?Q?EDqHBXBncH3+RIqxpK3HIova6ZP/MX2wd6l0x5hwM8dDKLev2o+bAlb9?=
+=?Windows-1252?Q?EZLBQ+iZ8p5FxGlgLUSclDvS97EJPC7LBrSB1FWq2E0nBct6LOFUacnl?=
+=?Windows-1252?Q?zEisLwvOr0LLOdh4+SCIqAJJSC8EuWZx/Nos57kDy7M4q6URemHdt5im?=
+=?Windows-1252?Q?ypLThpUBZ1FqA2yxFdkSMwATP6Lh+kY8J0K5vUjEnqyh6IxJ7rFE6NPS?=
+=?Windows-1252?Q?yI71rUK6WDTx+9WlUhQqRmN2wsOpUUb9kkcER3IEB7qfem5+DiadYyqD?=
+=?Windows-1252?Q?cQALoC7G+LTTDIlQsy+nGRcu0Xj/C0SfGS1bJP4nwceNpKZX0vfJoSu5?=
+=?Windows-1252?Q?BGUI795n9XBQ5aPUXMUts8DetycUci5fKR57dNRfRnHu8qeopKcMD35/?=
+=?Windows-1252?Q?3HVZUBCwG+gFnGycb7WLWYNHaEZK2gqwLCm6o5tvBVHSDP/WqmOZCIVj?=
+=?Windows-1252?Q?orqy61zpZRBk+P+Jqzz2MtqQvQxQ0rbnv/CoZUxgg2hLdAk2lLElbjX7?=
+=?Windows-1252?Q?l7uqCppL10CEd0N3hZjf+wV97jzPJ1HQ5pf1sTtFrjWbsZbOD4/wQnr2?=
+=?Windows-1252?Q?f1kuL9e5ZTyicp8Uku+983F9/BPXypqgcAX/LjfH0FFBDNAOy51ADRMV?=
+=?Windows-1252?Q?pvk8l1NhtAAMeeqZ65oxAp3AHAsAtDZ7HCeFnjSFDUWlzmMsvyHm0pvd?=
+=?Windows-1252?Q?Ulz2XKowhAkN8/gdr/NcICnLnkyIyAzjE/CpPWevP3czGJXRm0eGS5Qm?=
+=?Windows-1252?Q?MHl+qlHKYfT2aPTQoqKr75/Ef4FXjBBnaslT55yew6/WPD1L1+EnJTVO?=
+=?Windows-1252?Q?3qHK6Ex2e9HW56YhNUdEzGvpTCaajBBUhf1W/6dosU4S5IW/riS0dB5R?=
+=?Windows-1252?Q?9Rgz/pa3vEflmUNwo3MIRMMcHdlDr6EZ4K1+P08sMIo6SuA5v595Er8W?=
+=?Windows-1252?Q?Qi2xKy9iEVE0vJg00o5yWsAZTdDqTbF+HrizPQxeeTQElp+YnY/aRBEk?=
+=?Windows-1252?Q?SZp4SStyEbuk3JSaIg9TBzmlsaxCW4wJmWlsBlfT+ne8e79+myOC1EPv?=
+=?Windows-1252?Q?LJP2NYHBbslNUgFZAp+FbeQZdMXbedVNBw5rofnYbB6A+T8P3zGt2UP0?=
+=?Windows-1252?Q?HjaTXWljDZ/0gUjZBrzhtBW4T+UvvjT0VRRB6+eRBVpzEkS7DTv050Cm?=
+=?Windows-1252?Q?XWp6oU8p0Xg1dH9N8/qJHfrTCHNT0rIR84U2TKP6jOL1kPeXfC45phtZ?=
+=?Windows-1252?Q?7jIxwPv4VFUm3llx5Lr8klElxN0lGoamihdGJa/r4thSz1SHM5l7EXN7?=
+=?Windows-1252?Q?0VWH04smmdIqsCutYqR2rN8JFTy5kK6s5YzpHbX9T14FDtCNhfaKXPBK?=
+=?Windows-1252?Q?rKcKVz7joL6uV99SfobrcpT9QXePRByF9hU36f4uFFiEEAtJwE9c6xm7?=
+=?Windows-1252?Q?R3eu5s9Ww7TjS2JKCVGX9vCcQQPPA3Ces1k3fwGINEYhGpi4PFck/vaQ?=
+=?Windows-1252?Q?9GTO8NME3zSr9and1r//pt1CkXYy1dBIkT8chBVbIjl0zE1iVhrqR4Sd?=
+=?Windows-1252?Q?la7N0KjJAqYa/pcUarVDobt6zYPxUECcBI5rrpg0enn0xQ322nlPKN5Y?=
+=?Windows-1252?Q?0MLCo8X0uAH5WdEvnU2ozMHTT/FevnFYlB2YcBlyV5OX2a2tv0xoS8MM?=
+=?Windows-1252?Q?yRj1Qdn/WB6bJVfUwkiCBXpTW78SFA853C/zWF+t4f9PXfPTEFbl0gJ7?=
+=?Windows-1252?Q?XqTADM1/yL3X6OWotnMOwsgPV9q/Oyl1G8JWDM+gW1Q3A3xKHGYXRAKj?=
+=?Windows-1252?Q?VUK6Nm6AO4FP4Lpvhwc3+qcqqSUl+CPB85XZMgvotwqtpKq+0fitOv/c?=
+=?Windows-1252?Q?cWb+L6R6kz678A3d2LxixLcmgEIqHYpScdpM7nqolWDmwrKoa/JOjRVx?=
+=?Windows-1252?Q?asbIuiSVoHGxuEtTLnTjWe2F3x3yoavw9BPjwOcaQQPmbhkuW8LGQSSq?=
+=?Windows-1252?Q?jMWYj3RkaQvs6tSXPwgccmEGFbNW/1F+OoRKl23Z+dMBebDnHAWbFMZE?=
+=?Windows-1252?Q?zaafzzM9t6XtK+K0t/2z8E4ghgQRRPJADHTULKKF961SjbG2OUb+syrV?=
+=?Windows-1252?Q?CD4=3D?=
+X-Forefront-Antispam-Report: CIP:194.104.110.241;CTRY:IN;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:NSPM;H:vmi2441136.contaboserver.net;PTR:vmi2441136.contaboserver.net;CAT:NONE;SFS:(13230040)(82310400026)(12012899012)(4053099003)(13003099007)(8096899003)(4076899003);DIR:INB;
+X-MS-Exchange-ATPSafeLinks-Stat: 0
+X-MS-Exchange-ATPSafeLinks-BitVector: 0:0x0|0x0|0x0|0x0|0x0|0x0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 27 Nov 2025 05:02:34.4512
+(UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 058c8e47-c092-494c-eb8d-08de2d722d6c
+X-MS-Exchange-CrossTenant-Id: c61c9d14-634b-4b44-88c8-9bc01feeebe8
+X-MS-Exchange-CrossTenant-AuthSource: AMS0EPF000001A0.eurprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM7PR01MB6707
+X-OrganizationHeadersPreserved: AM7PR01MB6707.eurprd01.prod.exchangelabs.com
+X-CrossPremisesHeadersPromoted: LUESRV060N22.oldendorff.com
+X-CrossPremisesHeadersFiltered: LUESRV060N22.oldendorff.com
+X-OriginatorOrg: oldendorff.com
+Dear All,
+Good day.
+// FULLY FIRM // HOT TO FIX //
+ACC VARITAS NAVIGATION
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons.
+Load port: Tianjin, China
+Discharge port: Shuaiba, Kuwait.
+Load rate: CQD
+Discharge: Liner out.
+Laycan 15-20th December 2025.
+As part cargo.
+2.5% Addcom
+22)
+Acc Varitas Navigation
+Min/ Max 15000 mts urea in bulk
+Load port Tianjin
+Discharge port Colombo
+Load Rate 1500 per hook SHINC
+Discharge Rate 1000 per hook SHEX EIU.
+Laycan 10/15
+th
+December 2025.
+2.5% Addcom.
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com

@@ -1,0 +1,16 @@
+{
+  "text": "WITHMARE CO., LTD,\nTEL : +82 2 6956 0788\nE-MAIL :\nfix@withmare.com\nHJ KIM : M) +82 10 4819 3649 / (Wechat & Teams) : kimhyunjik\n==============================================\n--- / HJ\n-LOOKING FOR KOREA/JAPAN RGE\nM/V\nOCEAN SUCCESS\n–\nJEBEL ALI 16\nTH\nJAN\n-----\n-\n-------------------------------\nKOREAN\nFLAG, 20\n09\nBLT. KR CLASS, 17,556MT DWT ON 10.01M,\nGRT/NRT 11,481/5,850 TON 3HO/3HA, TWN DECKER, LOA/BM/DM 131.9/22.0/14.5M\nGRAIN/BALE 23,110CBM/21,346CBM DECK CRANE 3 X 30MT(COMBINE 1 X\n55\nMT)\nBEST REGARDS / HJ",
+  "entities": {
+    "CONTACT": "fix@withmare.com",
+    "VESSEL": "MV OCEAN SUCCESS",
+    "DWT": "17556",
+    "EMAIL": "fix@withmare.com",
+    "PHONE": "+82 2 6956 0788\n",
+    "CARGO": "GRAIN",
+    "CARGO_TYPE": "Dry Bulk",
+    "EMAIL_TYPE": "UNKNOWN",
+    "MIN_SIZE": "3649",
+    "MAX_SIZE": "23110",
+    "REGION": "JAPAN"
+  }
+}

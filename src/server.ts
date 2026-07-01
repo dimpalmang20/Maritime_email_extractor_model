@@ -20,33 +20,131 @@ function readBody(req: IncomingMessage) {
   });
 }
 
-// Inline fallback parser to ensure Cargo VC structures are captured alongside Tonnage
+function findJsonSubstring(text: string) {
+  for (let i = 0; i < text.length; i++) {
+    const firstChar = text[i];
+    if (firstChar !== "{" && firstChar !== "[") continue;
+
+    const stack: string[] = [];
+    let inString = false;
+    let escape = false;
+
+    for (let j = i; j < text.length; j++) {
+      const char = text[j];
+      if (inString) {
+        if (escape) {
+          escape = false;
+        } else if (char === "\\") {
+          escape = true;
+        } else if (char === '"') {
+          inString = false;
+        }
+        continue;
+      }
+
+      if (char === '"') {
+        inString = true;
+        continue;
+      }
+
+      if (char === "{" || char === "[") {
+        stack.push(char);
+      } else if (char === "}" || char === "]") {
+        const last = stack[stack.length - 1];
+        if ((char === "}" && last === "{") || (char === "]" && last === "[")) {
+          stack.pop();
+          if (stack.length === 0) {
+            return text.slice(i, j + 1).trim();
+          }
+        } else {
+          break;
+        }
+      }
+    }
+  }
+
+  return null;
+}
+
+function parseJsonFromStdout(raw: string) {
+  if (!raw || !raw.trim()) return null;
+  const sanitized = raw.replace(/\x1b\[[0-9;]*m/g, "");
+  const trimmed = sanitized.trim();
+
+  if (trimmed.startsWith("{") || trimmed.startsWith("[")) {
+    try {
+      return JSON.parse(trimmed);
+    } catch {
+      // fall through to candidate extraction
+    }
+  }
+
+  const candidate = findJsonSubstring(sanitized);
+  if (candidate) {
+    try {
+      return JSON.parse(candidate);
+    } catch {
+      return null;
+    }
+  }
+
+  return null;
+}
+
+// Inline fallback parser: catches VC structures that the main extractor may have missed.
+// No hardcoded values — all fields are derived from the email text or set to null.
 function backupCargoExtractor(text: string): any[] {
   const cargoEntries: any[] = [];
   if (text.toLowerCase().includes("cargo") || text.toLowerCase().includes("laycan")) {
-    // Check if a Cargo section exists but was skipped by main extractor
     const cargoMatch = text.match(/CARGO:\s*([^\n\r]+)/i);
     if (cargoMatch) {
-      const loadPortMatch = text.match(/LOAD PORT:\s*([^\n\r]+)/i);
-      const disPortMatch = text.match(/DISCHARGE PORT:\s*([^\n\r]+)/i);
-      const startMatch = text.match(/LAYCAN START:\s*([^\n\r]+)/i);
-      const endMatch = text.match(/LAYCAN END:\s*([^\n\r]+)/i);
-      const accountMatch = text.match(/ACCOUNT:\s*([^\n\r]+)/i);
+      const loadPortMatch = text.match(/LOAD\s*PORT:\s*([^\n\r]+)/i);
+      const disPortMatch = text.match(/DISCHARGE\s*PORT:\s*([^\n\r]+)/i);
+      const startMatch = text.match(/LAYCAN\s*START:\s*([^\n\r]+)/i);
+      const endMatch = text.match(/LAYCAN\s*END:\s*([^\n\r]+)/i);
+      const accountMatch = text.match(/(?:ACCOUNT|ACCT|CHARTERER|A\/C)\s*:\s*([^\n\r]+)/i);
+      const qtyMatch = text.match(/(?:QTY|QUANTITY|SIZE)\s*[:\-]?\s*(\d+(?:[,.]?\d+)?)\s*(?:MT|MTS|T)?(?:\s*\/\s*(\d+(?:[,.]?\d+)?)\s*(?:MT|MTS|T)?)?/i);
+      const emailMatch = text.match(/\b[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}\b/);
+      const phoneMatch = text.match(/(?:TEL|MOBILE|PHONE|WHATSAPP|MOB)\s*[:\-]?\s*([\+\d][\d\s\-\(\)]{6,20})/i);
+      const regionMatch = text.match(/(?:REGION|AREA)\s*:\s*([^\n\r]+)/i);
+      const cargoTypeMatch = text.match(/CARGO\s*TYPE\s*:\s*([^\n\r]+)/i);
+
+      const minSize = qtyMatch ? parseFloat(qtyMatch[1].replace(/,/g, "")) : null;
+      const maxSize = qtyMatch && qtyMatch[2]
+        ? parseFloat(qtyMatch[2].replace(/,/g, ""))
+        : (minSize ? Math.round(minSize * 1.1) : null);
+
+      let laycanStart = startMatch ? startMatch[1].trim() : null;
+      let laycanEnd = endMatch ? endMatch[1].trim() : null;
+      if (laycanStart && !laycanEnd) {
+        try {
+          const d = new Date(laycanStart);
+          if (!isNaN(d.getTime())) {
+            d.setDate(d.getDate() + 5);
+            laycanEnd = d.toISOString().split("T")[0];
+          }
+        } catch {}
+      }
+
+      const loadPort = loadPortMatch ? loadPortMatch[1].trim() : null;
+      const dischPort = disPortMatch ? disPortMatch[1].trim() : null;
+      const region = regionMatch ? regionMatch[1].trim() : null;
 
       cargoEntries.push({
-        email_type: "Cargo VC",
+        email_type: "VC",
         cargo_name: cargoMatch[1].trim(),
-        cargo_type: "Bulk",
+        cargo_type: cargoTypeMatch ? cargoTypeMatch[1].trim() : null,
         account_name: accountMatch ? accountMatch[1].trim() : null,
-        min_size: "40500",
-        max_size: "49500",
-        region: "Indian Ocean",
-        matching_region: "Indian Ocean",
-        load_port: loadPortMatch ? loadPortMatch[1].trim() : null,
-        discharge_port: disPortMatch ? disPortMatch[1].trim() : null,
-        laycan_start_date: startMatch ? startMatch[1].trim() : null,
-        laycan_end_date: endMatch ? endMatch[1].trim() : null,
-        phone_number: "+65 9182 3741"
+        min_size: isNaN(minSize as number) ? null : minSize,
+        max_size: isNaN(maxSize as number) ? null : maxSize,
+        region: region,
+        matching_region: region,
+        load_port: loadPort,
+        discharge_port: dischPort,
+        laycan_start_date: laycanStart,
+        laycan_end_date: laycanEnd,
+        email_id: emailMatch ? emailMatch[0] : null,
+        phone_number: phoneMatch ? phoneMatch[1].trim() : null,
       });
     }
   }
@@ -54,6 +152,10 @@ function backupCargoExtractor(text: string): any[] {
 }
 
 const server = createServer(async (req, res) => {
+  console.log("REQUEST RECEIVED");
+  console.log(req.method);
+  console.log(req.url);
+  
   if (req.method !== "POST" || req.url !== "/extract") {
     sendJson(res, 404, { error: "Not found" });
     return;
@@ -61,34 +163,74 @@ const server = createServer(async (req, res) => {
 
   try {
     const body = await readBody(req);
-    const cleanBody = body
-    .replace(/\uFFFD/g, " ")
-    .replace(/[\u0000-\u001F]/g, " ");
     console.log("\n========== RAW REQUEST BODY ==========");
-    console.log(body);
+    console.log("BODY LENGTH:", body.length);
+    console.log(body.substring(0, 300));
+    console.log("...");
+    console.log(body.substring(Math.max(0, body.length - 200)));
     console.log("======================================\n");
-    let parsed;
-
-try {
-    parsed = JSON.parse(cleanBody);
-}
-catch (err) {
-
-    console.log("JSON BODY FAILED");
-
-    console.log(body);
-
-    throw err;
-}
     
-    const { emailBody } = parsed;
+    let emailBody: string | null = null;
 
-    if (typeof emailBody !== "string" || emailBody.trim().length < 10) {
-      sendJson(res, 400, { error: "Invalid text length passed" });
+    // Try 1: Parse as valid JSON
+    try {
+      const parsed = JSON.parse(body);
+      emailBody = parsed.emailBody;
+      console.log("SUCCESS: Valid JSON parsed");
+    } catch (err) {
+      console.warn("\nJSON PARSE FAILED - attempting fallback regex");
+      console.log("ERROR:", (err as any).message);
+      
+      // Try 2: Extract emailBody by finding the quoted string value
+      const match = body.match(/"emailBody"\s*:\s*"([\s\S]*?)"\s*\}/);
+      if (match && match[1]) {
+        console.log("FALLBACK: Regex extraction successful");
+        try {
+          emailBody = JSON.parse('"' + match[1] + '"');
+        } catch (e) {
+          emailBody = match[1];
+        }
+      }
+    }
+
+    if (!emailBody) {
+      console.error("Could not extract emailBody from request");
+      sendJson(res, 400, { error: "Could not extract emailBody from request" });
       return;
     }
 
-    const cleanText = emailBody.trim();
+    console.log("\n========== EMAIL BODY EXTRACTED ==========");
+    console.log("LENGTH:", emailBody.length);
+    console.log("FIRST 300 CHARS:");
+    console.log(emailBody.substring(0, 300));
+    console.log("\nLAST 300 CHARS:");
+    console.log(emailBody.substring(Math.max(0, emailBody.length - 300)));
+    console.log("=========================================\n");
+
+    if (emailBody.trim().length < 10) {
+      sendJson(res, 400, { error: "Email body too short" });
+      return;
+    }
+
+    // Clean the email text AFTER extraction
+    const cleanText = emailBody
+      .replace(/[\u0080-\u009F\uFFFD]/g, " ") // Corrupted UTF
+      .replace(/[\u2010-\u2015\u2212]/g, "-") // Unicode dashes
+      .replace(/[\u201C\u201D]/g, '"')        // Smart quotes
+      .replace(/[\u2018\u2019]/g, "'")        // Smart apostrophes
+      .replace(/[^\x09\x0A\x0D\x20-\x7E]/g, " ") // Non-ASCII
+      .replace(/[ \t]+/g, " ")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+
+    console.log("CLEANED TEXT LENGTH:", cleanText.length);
+    
+    // Count vessel mentions before extraction
+    const vesselMatches = cleanText.match(/\b(?:MV|M\/V)\s+([A-Z][A-Z0-9\s.'-]+?)(?:\s+|$)/gi) || [];
+    console.log("DETECTED VESSEL MENTIONS:", vesselMatches.length);
+    if (vesselMatches.length > 0) {
+      console.log("VESSEL LIST:", vesselMatches.slice(0, 10).join(" | "));
+    }
 
     console.log("\n--- HYBRID MULTI-PIPELINE EXECUTION START ---");
     console.log("[1/3] Triggering engine regular expressions...");
@@ -97,16 +239,19 @@ catch (err) {
     const rawRegexResults = extractToEnterpriseJSON(cleanText);
     let regexResultsArray = Array.isArray(rawRegexResults) ? rawRegexResults : [rawRegexResults];
     
-    // FIX: Explicitly cast to any[] inside the filter to stop TypeScript from complaining about strict interfaces
     regexResultsArray = (regexResultsArray as any[]).filter(item => {
       return item && Object.keys(item).length > 0;
     });
 
-    // If no Cargo elements were picked up by the main file, merge our baseline fallback array
-    const hasCargo = (regexResultsArray as any[]).some(item => 
-      item && item.email_type && String(item.email_type).toLowerCase().includes("cargo")
+    // If no VC/TC Cargo elements were picked up by the main extractor, try backup
+    const hasCargoEntry = (regexResultsArray as any[]).some(item => 
+      item && item.email_type && (
+        String(item.email_type).toUpperCase() === "VC" ||
+        String(item.email_type).toUpperCase() === "TC" ||
+        String(item.email_type).toLowerCase().includes("cargo")
+      )
     );
-    if (!hasCargo) {
+    if (!hasCargoEntry) {
       const extraCargos = backupCargoExtractor(cleanText);
       regexResultsArray = [...regexResultsArray, ...extraCargos];
     }
@@ -119,7 +264,6 @@ catch (err) {
     console.log("[2/3] Spawning background DistilBERT predictive pipeline framework...");
     const pythonCommand = process.platform === "win32" ? "python" : "python3";
     const pythonProcess = spawn(pythonCommand, ["src/ml/predict.py"], {
-      
       env: { ...process.env, PYTHONUNBUFFERED: "1" }
     });
     
@@ -131,269 +275,119 @@ catch (err) {
 
     pythonProcess.stdout.on("data", (data) => { pythonStdout += data.toString(); });
     pythonProcess.stderr.on("data", (data) => { pythonStderr += data.toString(); });
-    pythonProcess.stderr.on("data", (data) => {
-    console.log("PYTHON ERROR:");
-    console.log(data.toString());
 
-    pythonStderr += data.toString();
-});
-     pythonProcess.stdout.on("data", (data) => {
-    console.log("PYTHON STDOUT CHUNK:");
-    console.log(data.toString());
+    // Handle spawn errors (e.g. python3 not found) — fall back to regex results gracefully
+    pythonProcess.on("error", (err) => {
+      console.warn(`[ML] Python process spawn failed: ${err.message}. Using regex-only results.`);
+      const productionPayload = {
+        email_body: emailBody,
+        final_extracted_output: regexResultsArray
+      };
+      console.log("\n========== FINAL OUTPUT (regex-only fallback) ==========");
+      console.log("RESULTS COUNT:", regexResultsArray.length);
+      console.log(JSON.stringify(regexResultsArray, null, 2));
+      fs.writeFileSync("ml_output.json", JSON.stringify(regexResultsArray, null, 2), "utf8");
+      sendJson(res, 200, productionPayload);
+    });
 
-    pythonStdout += data.toString();
-});
     // CRITICAL: Everything MUST stay inside the close block handler for synchronous timing!
     pythonProcess.on("close", (code) => {
       console.log(`[3/3] Background channel shut down with exit code: ${code}`);
       
-      let finalMergedObject: Record<string, any> = {};
-      try {
-        if (code === 0 && pythonStdout.trim().length > 0) {
+      let finalMergedPayload: any = {};
 
-    console.log("\n====== PYTHON RAW OUTPUT ======\n");
-    console.log(pythonStdout);
-    console.log("\n===============================\n");
-
-    const jsonLines =
-pythonStdout
-    .trim()
-    .split("\n");
-
-const lastJson =
-jsonLines[jsonLines.length - 1];
-
-const structuralPayload =
-JSON.parse(lastJson);
-
-    finalMergedObject =
-        structuralPayload.FINAL_COMBINED_HYBRID_OUTPUT || {};
-}
-      } catch (e) {
-        console.warn("Could not read PURE_ML_OUTPUT safely, skipping entity augmentation.");
+      if (pythonStdout.trim().length > 0) {
+        console.log("\n====== PYTHON RAW OUTPUT ======\n");
+        console.log(pythonStdout);
+        console.log("\n===============================\n");
+      } else {
+        console.warn("No stdout from ML process.");
       }
 
-      // 3. Perform deep property merge AFTER the Python engine is done running
-      const finalEnterpriseResponseArray = regexResultsArray.map((baselineObject: any) => {
-        const castBaseline = (baselineObject || {}) as Record<string, any>;
+      const structuralPayload = parseJsonFromStdout(pythonStdout) ?? parseJsonFromStdout(pythonStderr);
+      if (structuralPayload) {
+        finalMergedPayload = structuralPayload?.FINAL_COMBINED_HYBRID_OUTPUT ?? structuralPayload ?? {};
+      } else {
+        console.warn("Could not read ML payload safely; falling back to regex-only baseline.");
+        if (pythonStderr.trim().length > 0) {
+          console.warn("PYTHON STDERR:", pythonStderr.trim());
+        }
+      }
 
-        const getField = (keys: string[], fallbackValue: any = null): any => {
-          for (const key of keys) {
-            if (finalMergedObject[key] !== undefined && finalMergedObject[key] !== "" && finalMergedObject[key] !== null) {
-              return finalMergedObject[key];
-            }
-            if (castBaseline[key] !== undefined && castBaseline[key] !== "" && castBaseline[key] !== null) {
-              return castBaseline[key];
+      // Merge: always use regex output as primary (more accurate), supplement with ML for missing fields
+      const mlArray = Array.isArray(finalMergedPayload) ? finalMergedPayload : [];
+      const finalEnterpriseResponseArray = regexResultsArray.length > 0 ? regexResultsArray : mlArray;
+
+      // Normalize field names and supplement regex with ML for genuinely missing fields
+      const SUPPLEMENT_FIELDS = [
+        "cargo_name", "cargo_type", "account_name", "duration", "load_port", "discharge_port",
+        "del_port", "redel_port", "region", "matching_region", "phone_number", "restriction",
+        "pic", "open_date", "close_date", "laycan_start_date", "laycan_end_date",
+      ];
+      const normalizeItem = (item: any, mlItem?: any): any => {
+        if (!item || typeof item !== "object") return item;
+        const out: any = { ...item };
+        // Normalize ML 'cargo' → 'cargo_name'
+        if ("cargo" in out && out.cargo && !out.cargo_name) {
+          out.cargo_name = out.cargo;
+        }
+        delete out.cargo;
+        // Supplement missing regex fields from ML when ML has a better value
+        if (mlItem && typeof mlItem === "object") {
+          const mlNorm: any = { ...mlItem };
+          if ("cargo" in mlNorm && mlNorm.cargo && !mlNorm.cargo_name) {
+            mlNorm.cargo_name = mlNorm.cargo;
+            delete mlNorm.cargo;
+          }
+          for (const f of SUPPLEMENT_FIELDS) {
+            if ((out[f] === null || out[f] === undefined || out[f] === "") && mlNorm[f]) {
+              out[f] = mlNorm[f];
             }
           }
-          return fallbackValue;
-        };
+        }
+        return out;
+      };
 
-        const rawEmailType = getField(["email_type", "EMAIL_TYPE"], "Tonnage");
-        let standardizedEmailType = "Tonnage";
+      const cleanedResponseArray = finalEnterpriseResponseArray
+        .filter((item: any) => item && typeof item === "object" && Object.keys(item).length > 0)
+        .map((item: any, idx: number) => normalizeItem(item, mlArray[idx]));
 
-        const lowerType =
-String(rawEmailType)
-.toLowerCase();
+      const seen = new Set<string>();
+      const deduped: any[] = [];
+      const stableStringify = (obj: any) => {
+        if (obj === null || typeof obj !== "object") return JSON.stringify(obj);
+        const ordered: any = {};
+        Object.keys(obj).sort().forEach(key => { ordered[key] = obj[key]; });
+        return JSON.stringify(ordered);
+      };
+      for (const item of cleanedResponseArray) {
+        const key = stableStringify(item);
+        if (!seen.has(key)) {
+          seen.add(key);
+          deduped.push(item);
+        }
+      }
 
-if (
-   lowerType === "tc"
-   ||
-   lowerType.includes("tc")
-)
-{
-   standardizedEmailType = "Cargo Tc";
-}
-else if (
-   lowerType === "vc"
-   ||
-   lowerType.includes("vc")
-   ||
-   lowerType.includes("voyage")
-)
-{
-   standardizedEmailType = "Cargo VC";
-}
-
-        if (standardizedEmailType === "Tonnage") {
-          return {
-            email_type: "Tonnage",
-            tonnage_type: getField(["tonnage_type", "vessel_type", "VESSEL_TYPE"], "Bulk Carrier"),
-            port: getField(["port", "load_port", "open_port", "LOAD_PORT"]),
-            region: getField(["region", "matching_region"]),
-            matching_region: getField(["matching_region"]),
-            open_date: getField(["open_date", "laycan", "LAYCAN", "open_date"]),
-            close_date: getField(["close_date"]),
-            dwt: String(getField(["dwt", "DWT"])),
-            tonnage_name: getField(["tonnage_name", "vessel_name", "VESSEL"]),
-            pic: getField(["pic", "contact", "CONTACT"]),
-            email_id: getField(["email_id"]),
-            phone_number: getField(["phone_number", "phone"]),
-            latitude: null,
-            longitude: null
-          };
-        } else if (standardizedEmailType === "Cargo Tc") {
- 
-  return {
-    email_type: "Cargo Tc",
-
-    cargo_name: getField([
-      "cargo_name",
-      "cargo",
-      "CARGO"
-    ]),
-
-    cargo_type: getField([
-      "cargo_type"
-    ], "Bulk"),
-
-    account_name: getField([
-      "account_name"
-    ]),
-
-    min_size:
-    getField(["min_size"]) ||
-    (
-        castBaseline.dwt
-        ? castBaseline.dwt.split("-")[0]
-        : null
-    ),
-
-max_size:
-    getField(["max_size"]) ||
-    (
-        castBaseline.dwt
-        ? castBaseline.dwt.split("-")[1]
-        : null
-    ),
-
-    region: getField([
-      "region",
-      "matching_region"
-    ]),
-
-    matching_region: getField([
-      "matching_region"
-    ]),
-
-    del_port: getField([
-      "del_port"
-    ]),
-
-    redel_port: getField([
-      "redel_port"
-    ]),
-
-    laycan_start_date: getField([
-      "laycan_start",
-      "laycan_start_date"
-    ]),
-
-    laycan_end_date: getField([
-      "laycan_end",
-      "laycan_end_date"
-    ]),
-
-    duration: getField([
-      "duration"
-    ]),
-
-    email_id: getField([
-      "email_id"
-    ]),
-
-    phone_number: getField([
-      "phone_number"
-    ])
-  };
-}
-else {
-
-  return {
-    email_type: "Cargo VC",
-
-    cargo_name: getField([
-      "cargo_name",
-      "cargo",
-      "CARGO"
-    ]),
-
-    cargo_type: getField([
-      "cargo_type"
-    ], "Bulk"),
-
-    account_name: getField([
-      "account_name"
-    ]),
-
-    min_size: getField([
-      "min_size"
-    ], "40500"),
-
-    max_size: getField([
-      "max_size"
-    ], "49500"),
-
-    region: getField([
-      "region",
-      "matching_region"
-    ]),
-
-    matching_region: getField([
-      "matching_region"
-    ]),
-
-    load_port: getField([
-      "load_port",
-      "LOAD_PORT"
-    ]),
-
-    discharge_port: getField([
-      "discharge_port",
-      "DISCHARGE_PORT"
-    ]),
-
-    laycan_start_date: getField([
-      "laycan_start_date"
-    ]),
-
-    laycan_end_date: getField([
-      "laycan_end_date"
-    ]),
-
-    email_id: getField([
-      "email_id"
-    ]),
-
-    phone_number: getField([
-      "phone_number"
-    ])
-  };
-}
-      });
+      const productionPayload = {
+        email_body: emailBody,
+        final_extracted_output: deduped
+      };
 
       console.log("\n========== FINAL HYBRID MULTI-MERGED ARRAY SENT TO CLIENT ==========");
-      console.log(JSON.stringify(finalEnterpriseResponseArray, null, 2));
+      console.log("RESULTS COUNT:", deduped.length);
+      console.log(JSON.stringify(deduped, null, 2));
 
-      fs.writeFileSync("ml_output.json", JSON.stringify(finalEnterpriseResponseArray, null, 2), "utf8");
-      sendJson(res, 200, finalEnterpriseResponseArray);
+      fs.writeFileSync("ml_output.json", JSON.stringify(deduped, null, 2), "utf8");
+      sendJson(res, 200, productionPayload);
     });
 
-  } 
-  catch (err) {
+  } catch (err) {
+    console.log("\n========== SERVER ERROR ==========");
+    console.error(err);
+    console.log("==================================\n");
 
-  console.log("\n========== SERVER ERROR ==========");
-  console.error(err);
-  console.log("==================================\n");
-
-  sendJson(
-    res,
-    500,
-    {
-      error: String(err)
-    }
-  );
-}
+    sendJson(res, 500, { error: String(err) });
+  }
 });
 
 server.listen(port, () => {

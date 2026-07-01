@@ -67,18 +67,14 @@
       "CONTAINER FITTED: NO",
       "PREFER DIRECTION ECSA / BALTIC SEA"
     ],
-    "tonnage_type": "SDBC",
-    "port": "DAKAR",
-    "region": "IVORY COAST",
-    "matching_region": "WAF",
-    "open_date": "2025-12-20",
-    "close_date": "2025-12-30",
-    "dwt": "32,106 MTS",
-    "tonnage_name": "F-LINE",
-    "pic": "Farhan Ali",
-    "email_id": "chartering@indus-bulk.com",
-    "phone_number": "+923312861296",
     "latitude": null,
-    "longitude": null
+    "longitude": null,
+    "REGION": "IVORY COAST",
+    "MATCHING_REGION": "WAF",
+    "OPEN_DATE": "2025-12-20",
+    "CLOSE_DATE": "2025-12-30",
+    "TONNAGE_TYPE": "SDBC",
+    "EMAIL": "chartering@indus-bulk.com",
+    "PHONE": "+923312861296"
   }
 }

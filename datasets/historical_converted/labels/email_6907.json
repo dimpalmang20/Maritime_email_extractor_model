@@ -1,0 +1,18 @@
+{
+  "text": "Dear Team,\nACCT : SCL Shipping Services LLC\nDELIVERY : RED SEA/EGYPT/SAFAGA\nREDELIVERY : WCI (INT : MUMBAI PORT)\nCOMMODITY : LIMESTONE IN BULK\nDWT REQUIREMENT : 27K DWT -35K DWT\nDURATION : ABT 35 DAYS WOG\nLAYCAN : LAST WEEK OF JAN (PLEASE ADVISE VESSEL DATES)\nADCOM : 1.25 PCT\nPlease advise hire ideas with firm vessel specs.\nVoyage order available on request.\nNo indications yet, please offer owner\\'s best rates.\nBest Regards,\nARSHAD\nChartering Executive\nEmail :-\nchartering@sclines.co.in\nPhone:- +918928323127\nWeb :\nhttp://www.sclines.co.in\nSpecialization: Bulk,Break Bulk, Containerized Cargo, RORO & Project Cargo\nSupreme Container Line\n703 – A Wing, Shree Nand Dham, Sector-11,\nNear ICICI Bank, CBD Belapur, Navi Mumbai - 400 614\nTelephone: +91 22 41275440/41/43",
+  "entities": {
+    "CONTACT": "chartering@sclines.co.in",
+    "EMAIL": "chartering@sclines.co.in",
+    "PHONE": "+918928323127\n",
+    "CARGO": "LIMESTONE IN BULK",
+    "TONNAGE_TYPE": "Container",
+    "EMAIL_TYPE": "UNKNOWN",
+    "MIN_SIZE": "323127",
+    "MAX_SIZE": "918928",
+    "BROKER": "ARSHAD",
+    "DURATION": "35",
+    "DEL_PORT": "RED SEA/EGYPT/SAFAGA",
+    "REDEL_PORT": "WCI (INT : MUMBAI PORT)",
+    "REGION": "ECI"
+  }
+}

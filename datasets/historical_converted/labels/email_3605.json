@@ -1,0 +1,14 @@
+{
+  "text": "Dear Sir/Helina\nGood day, pls kindly pps suitable vsl for flwg biz:\nacct: zolar\npmx/kmx/ppmx\ndely gib-conti range\nlycan ppt onwards\nfor one tct with bulk cargo frm baltic russia\nrdly pmo-japan range\n3.75add\nada\nPLS CC TO chartering@zolarshipping.com  FOR SAFE RECEIPT.\nThanks & Best Regards\nHelina Yang\nZolar shipping limited\nas agent only\nEmail: chartering@zolarshipping.com\nMobile Phone / Wechat/Whatsapp: +86 18321327992\nTeams:yangziqi20@163.com",
+  "entities": {
+    "CONTACT": "chartering@zolarshipping.com",
+    "EMAIL": "chartering@zolarshipping.com",
+    "PHONE": "+86 18321327992\n",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "27992",
+    "MAX_SIZE": "183213",
+    "BROKER": "Helina Yang",
+    "DEL_PORT": "gib",
+    "REGION": "JAPAN"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "text": "Dear Team,\nGood day!\nPls indicate on below\nA/C : SCL Shipping Services\n10,000 MT PMP plates & coils 5 pct molco\nHazira /Jebel Ali abt 7800 MT & Mina Al Saqr (Eversendai berth) abt 2400\n24/26 January\nFLT\nFree DA at Hazira, 2.50%\nYour prompt response will be highly appreciated.\nBest Regards,\nARSHAD\nChartering Executive\nEmail :-\nchartering@sclines.co.in\nPhone:- +918928323127\nWeb :\nhttp://www.sclines.co.in\nSpecialization: Bulk,Break Bulk, Containerized Cargo, RORO & Project Cargo\nSupreme Container Line\n703 – A Wing, Shree Nand Dham, Sector-11,\nNear ICICI Bank, CBD Belapur, Navi Mumbai - 400 614\nTelephone: +91 22 41275440/41/43",
+  "entities": {
+    "CONTACT": "chartering@sclines.co.in",
+    "EMAIL": "chartering@sclines.co.in",
+    "PHONE": "+918928323127\n",
+    "CARGO": "COILS",
+    "CARGO_TYPE": "General Cargo",
+    "TONNAGE_TYPE": "Container",
+    "EMAIL_TYPE": "UNKNOWN",
+    "MIN_SIZE": "2400",
+    "MAX_SIZE": "918928",
+    "BROKER": "ARSHAD",
+    "REGION": "ECI"
+  }
+}

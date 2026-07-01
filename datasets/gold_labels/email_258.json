@@ -44,18 +44,13 @@
       "4 X 30T CRANES",
       "NO GRABS FITTED"
     ],
-    "tonnage_type": "BC",
-    "port": "SAN NICOLAS",
-    "region": "Argentina",
-    "matching_region": null,
-    "open_date": "2025-11-17",
-    "close_date": "2025-11-18",
-    "dwt": "32500 MTS",
-    "tonnage_name": "IC PROGRESS",
-    "pic": "SIDERIS FAFALIOS",
-    "email_id": "chartering@capitalship.eu",
-    "phone_number": "2102205911",
     "latitude": null,
-    "longitude": null
+    "longitude": null,
+    "REGION": "Argentina",
+    "OPEN_DATE": "2025-11-17",
+    "CLOSE_DATE": "2025-11-18",
+    "TONNAGE_TYPE": "BC",
+    "EMAIL": "chartering@capitalship.eu",
+    "PHONE": "2102205911"
   }
 }

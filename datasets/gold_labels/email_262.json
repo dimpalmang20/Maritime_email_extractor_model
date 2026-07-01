@@ -51,18 +51,13 @@
     "RESTRICTIONS": [
       "BWTS fitted"
     ],
-    "tonnage_type": null,
-    "port": "RBCT",
-    "region": "ECSA",
-    "matching_region": "Kakinada",
-    "open_date": "2025-11-15",
-    "close_date": "2025-12-08",
-    "dwt": "76.801mt",
-    "tonnage_name": "Minoan Courage",
-    "pic": "Mary Fatima Duhina",
-    "email_id": "mary@seaspeedmarine.com",
-    "phone_number": "+97165638938",
     "latitude": null,
-    "longitude": null
+    "longitude": null,
+    "REGION": "ECSA",
+    "MATCHING_REGION": "Kakinada",
+    "OPEN_DATE": "2025-11-15",
+    "CLOSE_DATE": "2025-12-08",
+    "EMAIL": "mary@seaspeedmarine.com",
+    "PHONE": "+97165638938"
   }
 }

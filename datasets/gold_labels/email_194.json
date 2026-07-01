@@ -2,20 +2,36 @@
   "email_type": "Tonnage",
   "text": "FROM: ARYACORP PVT. LTD.\nDATE & TIME: 13-11-2025 18:51:14 (GMT +5:30)\nREFERNCE NO: 20553104\n\nMV POCHARD S - OPEN @ EAST MEDITERRANEAN SEA ON 25/27 NOV - ALTERNATIVELY OPEN @ BLACK SEA ON 29 NOV/01 DEC\nDWT 32,285 MTS, GENERAL CARGO / DOUBLE SKINNED, BLT 2007, LIBERIA FLAG, L.R CLASS, DRFT 10.020 MTRS, LOA 177.13 M, 5 HO/HA, GEARED: 3 X 25 MTS",
   "entities": {
-    "email_type": "Tonnage",
-    "tonnage_type": "General Cargo",
-    "port": ["East Mediterranean", "Black Sea"],
-    "region": "East Mediterranean",
-    "matching_region": null,
-    "open_date": "2025-11-25",
-    "close_date": "2025-12-01",
-    "dwt": "32285",
-    "tonnage_name": ["POCHARD S"],
-    "pic": ["Kewl Lodaya", "Raj Arya"],
-    "email_id": "20553104",
-    "phone_number": ["+91 8460 177456", "+91 124 469 4875", "+91 98212 30309"],
     "latitude": null,
     "longitude": null,
-    "restrictions": ["Double Skinned", "Box Shaped", "Steel Floored", "Self Trimmed"]
+    "PORT": [
+      "East Mediterranean",
+      "Black Sea"
+    ],
+    "REGION": "East Mediterranean",
+    "OPEN_DATE": "2025-11-25",
+    "CLOSE_DATE": "2025-12-01",
+    "TONNAGE_TYPE": "General Cargo",
+    "VESSEL": [
+      "POCHARD S"
+    ],
+    "EMAIL": "20553104",
+    "PHONE": [
+      "+91 8460 177456",
+      "+91 124 469 4875",
+      "+91 98212 30309"
+    ],
+    "EMAIL_TYPE": "Tonnage",
+    "RESTRICTIONS": [
+      "Double Skinned",
+      "Box Shaped",
+      "Steel Floored",
+      "Self Trimmed"
+    ],
+    "DWT": "32285",
+    "CONTACT": [
+      "Kewl Lodaya",
+      "Raj Arya"
+    ]
   }
 }

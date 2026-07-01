@@ -1,0 +1,160 @@
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com
+From:
+postmaster@seatrek.com.sg <postmaster@seatrek.com.sg>
+Sent:
+02 December 2025 10:54
+To:
+chartering@varitasnavigation.com
+Subject:
+Undeliverable: // ACC VARITAS NAVIGATION //
+Delivery has failed to these recipients or groups:
+stefan@seatrek.com.sg
+The recipient\'s mailbox is full and can\'t accept messages now. Please try resending your message later, or contact the recipient directly.
+Diagnostic information for administrators:
+Generating server: TYZPR02MB7206.apcprd02.prod.outlook.com
+Total retry attempts: 1
+stefan@seatrek.com.sg
+Remote server returned \'554 5.2.2 mailbox full; STOREDRV.Deliver.Exception:QuotaExceededException.MapiExceptionShutoffQuotaExceeded; Failed to process message due to a permanent exception with message [BeginDiagnosticData]The process failed to get the correct properties. 1.84300:02000000, 1.84300:9F000000, 1.84300:A1000000, 1.84300:01000000, 1.84300:08000000, 1.73948:00000000, 1.108572:00000000, 0.117068:A4000000, 1.79180:02000000, 1.79180:9F000000, 1.79180:FA000000, 255.73100:14000000, 5.95292:67000000446F526F7073006E, 8.111356:9552F9FE86593ECC1F1F572B2F8F6BAC0BAFA94C, 0.38698:A6536B31, 1.41134:86000000, 7.36354:010000000000010C140F96A4, 1.46439:0A000000, 1.115228:00000000, 0.104668:0A000000, 1.41134:86000000, 7.36354:010000000000010C00000000, 1.46439:0A000000, 1.115228:00000000, 0.104668:01000000, 0.34102:86000100, 5.29818:0000000033336461346135362D653161352D343534622D383165632D66616463303461343837643900000100, 5.55446:00000000333A300000000000, 7.29828:D69435001900000086000100, 7.29832:000000001900000086000100, 4.45884:DD040000, 4.29880:DD040000, 4.59420:DD040000, 7.40840:010000000000010C15000000, 8.45434:564ADA33A5E14B4581ECFADC04A487D900000000, 0.104348:00000000, 5.46798:040000004D61696C4974656D44656C697665722E485454502E456D61696C0010A5010000, 7.51330:425F630D6331DE0800000000, 5.10786:0000000031352E32302E393336362E3031323A54595A505230324D42373734383A36333037616234642D663635302D346334342D626331342D6263366332643066623033653A3130383637363A2E4E455420382E302E323100000000, 0.39570:00000000, 1.64146:02000000, 1.33010:02000000, 2.54258:00000000, 0.58802:A4000000, 1.33010:02000000, 2.54258:00000000, 0.58802:00000000, 1.64146:9F000000, 1.33010:9F000000, 2.54258:DD040000, 1.33010:9F000000, 2.54258:DD040000, 255.79500:13000000, 1.79180:A1000000, 1.79180:08000000, 0.100684:13000000, 4.70028:DD040000, 1.52466:01000000, 0.60402:01000000, 1.52466:01000000[EndDiagnosticData] [Stage: CreateMessage]\'
+Original message headers:
+Received: from PS2PR02CA0065.apcprd02.prod.outlook.com (2603:1096:300:5a::29)
+by TYZPR02MB7206.apcprd02.prod.outlook.com (2603:1096:405:42::11) with
+Microsoft SMTP Server (version=TLS1_2,
+cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9366.17; Tue, 2 Dec
+2025 05:24:20 +0000
+Received: from OSA0EPF000000C9.apcprd02.prod.outlook.com
+(2603:1096:300:5a:cafe::c2) by PS2PR02CA0065.outlook.office365.com
+(2603:1096:300:5a::29) with Microsoft SMTP Server (version=TLS1_3,
+cipher=TLS_AES_256_GCM_SHA384) id 15.20.9366.17 via Frontend Transport; Tue,
+2 Dec 2025 05:24:16 +0000
+Authentication-Results: spf=pass (sender IP is 94.136.184.46)
+smtp.mailfrom=varitasnavigation.com; dkim=fail (no key for signature)
+header.d=varitasnavigation.com;dmarc=bestguesspass action=none
+header.from=varitasnavigation.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of varitasnavigation.com
+designates 94.136.184.46 as permitted sender)
+receiver=protection.outlook.com; client-ip=94.136.184.46;
+helo=vmi2441136.contaboserver.net; pr=C
+Received: from vmi2441136.contaboserver.net (94.136.184.46) by
+OSA0EPF000000C9.mail.protection.outlook.com (10.167.240.55) with Microsoft
+SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9388.8
+via Frontend Transport; Tue, 2 Dec 2025 05:24:19 +0000
+Received: from LAPTOPP6RKI9ML (unknown [49.36.82.33])
+by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id B82526A08CE;
+Tue,
+2 Dec 2025 06:23:57 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+d=varitasnavigation.com; s=default; t=1764653052;
+bh=bmeveRN36mYE8z2gphBlykVtKkNoMhWFE89teZjEe9g=; h=From:Subject;
+b=Qqf3zCkzN5ycPPhjb4fOrF5KSoLssDGiO7qgKzLyUFiHLr2zYtBoT1gwOoo62ZPL/
+UrbaStXDbs2K9ravcLE9jRbLmOV8CVK/nbCg96gfOWoATf4CTbQ3z83EP0l6zEE1CW
+0GURAgMFFYPNwZUf9Uj3YwY00VOHuABkjK30lBez5SV0u2OQiYxSUg+kJTFycfy2YW
+8fk6tWmk2KRp8XgrGaF9m7lbO1gwIYjqSyoOD45P4/m1JvC0t5aIuoSRi4Np9PaHxj
+QYBJFPy9r1X877KoiFTM43j380SsVe0TYLWTDSl2aFIrtnl12rYmuVsG657xsXjD+3
+HpOXJFwKg8Mhw==
+Authentication-Results-Original: vmi2441136.contaboserver.net;
+spf=pass
+(sender IP is 49.36.82.33) smtp.mailfrom=chartering@varitasnavigation.com
+smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is authenticated)
+From: <chartering@varitasnavigation.com>
+CC: "\'Varitas Navigation\'" <chartering@varitasnavigation.com>
+Subject: // ACC VARITAS NAVIGATION //
+Date: Tue, 2 Dec 2025 10:53:55 +0530
+Message-ID: <10be01dc634b$e1377f80$a3a67e80$@varitasnavigation.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+boundary="----=_NextPart_000_10BF_01DC6379.FAF0F400"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdxjS6S1ZPmsx2WOSVe0ztC98Rx+9w==
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 624f2419-f78b-4a60-a10e-0babce5f91ef:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: OSA0EPF000000C9:EE_|TYZPR02MB7206:EE_
+X-MS-Office365-Filtering-Correlation-Id: 0e79b09d-e7f4-455c-d6ae-08de31630b5d
+X-Microsoft-Antispam:
+BCL:0;ARA:13230040|2092899012|12012899012|4076899003|8096899003|13003099007|4053099003;
+X-Microsoft-Antispam-Message-Info:
+=?us-ascii?Q?FjDFxOTf8XRWcII1I/FuUPxj5bHBjCddnnZq5AYu8p78CIgHXsGJB2dLEDjd?=
+=?us-ascii?Q?k3zvw2cuWIG0fIwKh4OBtm1SA73/P2YBLK4+uWpQvOpqj096PNFl3cjDqc3T?=
+=?us-ascii?Q?RsNv0CZXrHeNi1BGrmXa6oWnnnLoIOYZQrFrxY4AwBOM59T6ql6APxAJyjui?=
+=?us-ascii?Q?eG1FgHboY4ym48h81J0iDeE8KAo8RdcRohkCe1eqMUpTv+UO+qGD4W/8bxZY?=
+=?us-ascii?Q?sP5I7u9oqQkotWc1BhppPGnrjdzaNJhyKRAOVLTBDXaTIUW6s3F7QOgNkLyS?=
+=?us-ascii?Q?psKl6Mmi1stjjoJGnWrycJdSU/QDhM+IVhIgdptauz2sKX+zkH21n+x/yvtk?=
+=?us-ascii?Q?icdTt0bwRupKyxjKTJGsLzO/h9gPTeb6OWJ8gsbPKgAR3Mk0Fuk/cSL6ovhP?=
+=?us-ascii?Q?zxVtXzgtRegmhwg0NJcHA5xIHn/UrAdVuxhAxGZ7in+3rQb+LfG0T13Nl+h5?=
+=?us-ascii?Q?GWDvhNd2Rc0dp6ogvlz87e1hU7vvZPEZUPF9I9gpIA4//y7d8Y/Ib8oYPJvM?=
+=?us-ascii?Q?stuovdqscSB6kNRd6afnzynAtx473p1uF8fNRmHcytPK9bFrrb/dKJCzHLJ1?=
+=?us-ascii?Q?iiKH/dzPGut/Xqh6a0H6wTVbwZsAMvz6HGJj9Y6OUnipxGD6WgKKfl5lehSg?=
+=?us-ascii?Q?XvKicx/KuHLp9Grt2gXpkAAPeTPCq8PmbQJkNhF+VuVS/TZrEI855ibFVW/I?=
+=?us-ascii?Q?6Qam7NShQJp2E73UTbVcVhb2PdudQkwkFU9NoHntPsPnCm5x0mhFS77I6mxr?=
+=?us-ascii?Q?y6sYO/X5E1FOyO2ytXbPnV3drgLIk/TZsYBImjorBMaG/a0v57T3RF+HNlwH?=
+=?us-ascii?Q?V5isrph/aSQ9EC5vJs/tZAu3GJ5uSRke5BH0GBi/HCa947VmeL3aL3tj/Tw1?=
+=?us-ascii?Q?dRLrrs5ywSB6z6siIVfbHs67fbQYZ70y6KohMqcMyw4O4dNnq0bAceTH2oo7?=
+=?us-ascii?Q?YNdinOvcliUAiyp1ZvWMpnbgwYwM86uafExSR2yG4CvO5wRl40ljBHC7Gn9H?=
+=?us-ascii?Q?4CeDXRtMNP1q2cJTHxNb4Atxh7dlwFJiIW98I8P/QR4Cf3w51PTX2BTcoovs?=
+=?us-ascii?Q?rXCpSMRwQVkPB57o4iUUuTsYgyeOKBe0uwI2pRL4FVaG53sWANIqZ8bMEGmp?=
+=?us-ascii?Q?52iNZnZwZNLK+hpRHj/2TlAhvn3CiyogCFtfDOrKClmS1DXBv+YuTFUhOqm8?=
+=?us-ascii?Q?lYT0nirNxh8wEAJpJen92w9Awv7qzrdOy3lCHAc+lkrAdQo5B+TWKtuNtdB2?=
+=?us-ascii?Q?sJGDiJ4INR7BaTCYM0tU5/AjpMorpVAOdUcVPCcqyYD8KgJagGZUJYY9hox5?=
+=?us-ascii?Q?iwQ0ce1gD+IQtd3vUkYl2uCZeOb3D2eJduIsAOycwbldTssM2tQl0So/TiYO?=
+=?us-ascii?Q?AdGIDHHPTejeGGjBA3Y8HQ/RYVxZJG6QDFyOrtT16JSRaOkmj/IoSBR8EGPo?=
+=?us-ascii?Q?p1WHznsEGUzk76qt29grYdSEHeEhXud9ra18YVCwWzciaWnReuPytawjxId6?=
+=?us-ascii?Q?ogVSaRGb+gC9kuPsGsuxerE+RDLyeKFZ4J0z+dp/drtsFMjxv1OPqSqf0Emj?=
+=?us-ascii?Q?RCNic5L/c4xNi6d20BurBEqRXfz6Oxv1at6q60WyJO/IKc3xS+gCZaFzzmhw?=
+=?us-ascii?Q?r9n9uUMyMhgZfmqwgeMMrP7bxsxiG7Fn5u6+/nZLx3dUsf5Mm1b3quQo7n08?=
+=?us-ascii?Q?fvHQ+4OV8QZdRDMGc6M+tqD0lVOchSCV2uX8Bt3fQ+tXWGZZzOrg3wyJZRJA?=
+=?us-ascii?Q?Zs+FgteCOaSmSc8F2PXBa3OxSRo5a5sMCRrtUHh+hJUNka4bll6aNZPQSq19?=
+=?us-ascii?Q?mDsV1xS58ZfCEZYyJEMx+9bymKogbaZ0rd900FlvZcMrbBzarZQAU2oS2o4x?=
+=?us-ascii?Q?u1Ambrv/jzsdxXkmz+EBGv3IPpwnOU5tN04ZaQVl6hkLk4zXM5o3/lYpiihH?=
+=?us-ascii?Q?niHneGZUNAaBxneK9c+UG8OR5HMP3p5pd/nSzMLNgVPNsWR8HyHEZUPwSXGa?=
+=?us-ascii?Q?6pq46FeBl5XEza5PZDAmh6dtkp9igBbQi6r58KQffk0RLDTDK4MtzQOYgXjb?=
+=?us-ascii?Q?t6FP9YTQTmUI3aBqmF7mXkhfbCvrCaNNH9gdECgs052TdF4IuCI9Wr5qkoAP?=
+=?us-ascii?Q?1Xe9uMWiRBjaT1M/2FpuuKodSUZm9+AmOHXWHMgY3gRo31lT1eWBEkOAg8r1?=
+=?us-ascii?Q?D6ZeHw3y9C6rpk8mTY6IqDh9gLzwtfh1CvvhhCyDpXjbPsNHfj/auCIF7foM?=
+=?us-ascii?Q?kETxytubAV4PVngXeYic6jlTEYYzD50cFE7Q1a6Clrl0PIyVg3sSlFxPKa8M?=
+=?us-ascii?Q?5RIzzaQAYUsaEOCyCzkcxrCq03dNp7Z0LN7uVoJCaZiuvrK+Ghm1b6x5DATO?=
+=?us-ascii?Q?lQ8OlytoVjW3mFaZdw1Gc/GFYdYwwhUOX2tmZ/kN3fcMpc+8WzcqTmOHMRmw?=
+=?us-ascii?Q?nCWz4RLPbVVB39dVJumqkl33KKaAiq4NSP81fxLy7NFN2fz7WdbaLgYivPNG?=
+=?us-ascii?Q?Iij9P0q9prKBNMuGCD8ji4LhOBgGrk0d1yvK7PsK6woxv9eknBmxgJIDkNY2?=
+=?us-ascii?Q?XRELu9mMPFRXfXm1jB+NK54RxBngi72/T9e0YFzdWL2uRLq8EQncm9odKWdf?=
+=?us-ascii?Q?uA=3D=3D?=
+X-Forefront-Antispam-Report:
+CIP:94.136.184.46;CTRY:IN;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:vmi2441136.contaboserver.net;PTR:vmi2441136.contaboserver.net;CAT:NONE;SFS:(13230040)(2092899012)(12012899012)(4076899003)(8096899003)(13003099007)(4053099003);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 02 Dec 2025 05:24:19.2679
+(UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0e79b09d-e7f4-455c-d6ae-08de31630b5d
+X-MS-Exchange-CrossTenant-Id: 624f2419-f78b-4a60-a10e-0babce5f91ef
+X-MS-Exchange-CrossTenant-AuthSource: OSA0EPF000000C9.apcprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYZPR02MB7206
+Dear All,
+Good day.
+// FULLY FIRM //
+ACC VARITAS NAVIGATION
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons.
+Load port: Tianjin, China
+Discharge port: Shuaiba, Kuwait.
+Load rate: CQD
+Discharge: Liner out.
+Laycan 15-20th December 2025.
+As part cargo.
+2.5% Addcom
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com

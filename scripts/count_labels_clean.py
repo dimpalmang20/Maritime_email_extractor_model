@@ -1,26 +1,55 @@
+import os
 import json
 from collections import Counter
 
+LABEL_DIR = "datasets/historical_converted/labels"
+
 counter = Counter()
 
-with open(
-    "datasets/ner_train_clean.jsonl",
-    encoding="utf8"
-) as f:
+total_files = 0
 
-    for line in f:
+for file in os.listdir(LABEL_DIR):
 
-        row = json.loads(line)
+    if not file.endswith(".json"):
+        continue
 
-        for ent in row["entities"]:
+    path = os.path.join(
+        LABEL_DIR,
+        file
+    )
 
-            counter[ent[2]] += 1
+    try:
 
-print("\nLABEL COUNTS\n")
+        with open(
+            path,
+            encoding="utf8"
+        ) as f:
+
+            row = json.load(f)
+
+        entities = row.get(
+            "entities",
+            {}
+        )
+
+        total_files += 1
+
+        for label in entities:
+
+            counter[label] += 1
+
+    except Exception:
+        pass
+
+print()
+print("=" * 50)
+print("TOTAL FILES :", total_files)
+print("=" * 50)
+print()
 
 for label, count in sorted(counter.items()):
 
     print(
-        label.ljust(20),
+        label.ljust(25),
         count
     )

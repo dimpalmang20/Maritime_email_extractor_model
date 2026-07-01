@@ -1,0 +1,16 @@
+{
+  "text": "Dear Team,\nGood day!\nWe\\'re looking for a geared vessel to lift 20,300 MT of wheat in bulk from Salalah Port, Oman to Mukalla Port, Yemen. The draft restriction at Mukalla Port is 8.5M with a fine applicable up to 9.2M.\nThe load and discharge rates are 3,000 MT PWWD FSHEX EIU and we\\'re looking for a spot vessel. The commission is 2.5% on F/D/D basis.\nCan you please check with your principals and let us know if they have a suitable vessel?\nWe\\'re looking forward to hearing your best offer.\nBest Regards,\nARSHAD\nChartering Executive\nEmail :-\nchartering@sclines.co.in\nPhone:- +918928323127\nWeb :\nhttp://www.sclines.co.in\nSpecialization: Bulk,Break Bulk, Containerized Cargo, RORO & Project Cargo\nDubai Office:\nSCL Shipping Services LLC\nOffice No. 114, Al Reyami Furniture Building,\n30th Street, Umm Hurair Road, Karama, Dubai,\nPO Box No. 124399\n---------------------------------------------------\nMumbai Parent Office:\nSupreme Container Line\n703 – A Wing, Shree Nand Dham, Sector-11,\nNear ICICI Bank, CBD Belapur, Navi Mumbai - 400 614\nTelephone: +91 22 41275440/41/43",
+  "entities": {
+    "CONTACT": "chartering@sclines.co.in",
+    "EMAIL": "chartering@sclines.co.in",
+    "PHONE": "+918928323127\n",
+    "CARGO": "WHEAT",
+    "CARGO_TYPE": "Dry Bulk",
+    "TONNAGE_TYPE": "Container",
+    "EMAIL_TYPE": "UNKNOWN",
+    "MIN_SIZE": "3000",
+    "MAX_SIZE": "918928",
+    "BROKER": "ARSHAD",
+    "REGION": "ECI"
+  }
+}

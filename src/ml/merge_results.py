@@ -36,6 +36,22 @@ def merge(regex_json, ml_json):
                     "phone_number",
                     "email_id"
                 ],
+                "OWNER": ["owner"],
+                "PNI_CLUB": ["pni_club"],
+                "INMARSAT": ["inmarsat"],
+                "IRIDIUM_PHONE": ["iridium_phone"],
+                "STARLINK_PHONE": ["starlink_phone"],
+                "LAST_CARGO": ["last_cargo"],
+                "BALE_CAPACITY": ["bale_capacity"],
+                "CALL_SIGN": ["call_sign"],
+                "CALLSIGN": ["call_sign"],
+                "LAYCAN": [
+                    "laycan",
+                    "open_date",
+                    "laycan_start_date"
+                ],
+                "OPEN_DATE": ["open_date"],
+                "CLOSE_DATE": ["close_date"],
                 "CHARTERER":["account_name"]
             }
 
@@ -45,6 +61,10 @@ def merge(regex_json, ml_json):
                     continue
 
                 ml_value = ml_json[ml_key]
+                if isinstance(ml_value, list) and ml_value:
+                    ml_value = ml_value[0]
+                if ml_value is None:
+                    continue
 
                 for field in target_keys:
 

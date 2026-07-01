@@ -1,0 +1,20 @@
+{
+  "text": "WITHMARE CO., LTD,\nTEL : +82 2 6956 0788\nE-MAIL :\nfix@withmare.com\nHJ KIM : M) +82 10 4819 3649 / (Wechat & Teams) : kimhyunjik\n==============================================\n---- / HJ\nMV. SEA TOPAZ - Open at Port Klang on around 28-30 Dec.\n==============\n2010blt SDBC, PANAMA FLAG\n32,484mt DWT, 10.2m SSW, TPC : 45.1\nGRT/NRT : 20,198/11,367\nLOA / BM 177.40 / 28.20\nGrain 42,149 cbm\n5/5 h/h, 30t x 4 cranes\nSPEED/CONSUMPTION (FOR REFERENCE ONLY WOG)\nabt 11.00 (L)/11.50 (B) kts on abt 18.00 mt VLSFO(380CST, <0.5% Sulphur)  + abt 0.1mt LSMGO\nIdle abt 2.0 mt VLSFO(380CST, <0.5% Sulphur) + Boiler abt 1.8mt VLSFO(380CST, <0.5% Sulphur) + abt 0.1 mt LSMGO\nWorking abt 3.5 mt VLSFO(380CST, <0.5% Sulphur)  + Boiler abt 1.8mt VLSFO(380CST, <0.5% Sulphur) + abt 0.1 mt LSMGO\nAll details about given in good faith WOG\nBest regards / HJ",
+  "entities": {
+    "PORT": "at Port Klang on around",
+    "LAYCAN": "28-30 Dec",
+    "CONTACT": "fix@withmare.com",
+    "VESSEL": "MV SEA TOPAZ - Open at Port Klang on around 28-30 Dec",
+    "DWT": "32484",
+    "EMAIL": "fix@withmare.com",
+    "PHONE": "+82 2 6956 0788\n",
+    "OPEN_PORT": "at Port Klang on around",
+    "CARGO": "GRAIN",
+    "CARGO_TYPE": "Dry Bulk",
+    "EMAIL_TYPE": "UNKNOWN",
+    "MIN_SIZE": "2010",
+    "MAX_SIZE": "42149",
+    "OPEN_DATE": "28 Dec",
+    "CLOSE_DATE": "30 Dec"
+  }
+}

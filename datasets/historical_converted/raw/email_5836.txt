@@ -1,0 +1,137 @@
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com
+From:
+postmaster@panocean.com <postmaster@panocean.com>
+Sent:
+08 December 2025 09:29
+To:
+chartering@varitasnavigation.com
+Subject:
+Undeliverable: // ACC VARITAS NAVIGATION //
+Delivery has failed to these recipients or groups:
+syjung@panocean.com
+The email address you entered couldn\'t be found. Please check the recipient\'s email address and try to resend the message. If the problem continues, please contact your email admin.
+Diagnostic information for administrators:
+Generating server: Panmail3.panocean.com
+syjung@panocean.com
+Remote Server returned \'550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup\'
+Original message headers:
+Received: from panmail2.panocean.com (130.1.1.68) by Panmail3.panocean.com
+(130.1.1.69) with Microsoft SMTP Server (version=TLS1_2,
+cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.39; Mon, 8 Dec
+2025 12:59:19 +0900
+Received: from mail.panocean.com (112.175.112.3) by email.panocean.com
+(130.1.1.68) with Microsoft SMTP Server id 15.1.2507.39 via Frontend
+Transport; Mon, 8 Dec 2025 12:59:19 +0900
+Received: from unknown (HELO mx15-00a21a01.pphosted.com) (66.159.225.14)
+by 112.175.112.3 with ESMTP; 8 Dec 2025 12:59:18 +0900
+X-Original-SENDERIP: 66.159.225.14
+X-Original-SENDERCOUNTRY: US, United States
+X-Original-MAILFROM: chartering@varitasnavigation.com
+X-Original-RCPTTO: syjung@panocean.com
+Received: from pps.filterd (m0479679.ppops.net [127.0.0.1])
+by mx15-00a21a01.pphosted.com (8.18.1.11/8.18.1.11) with ESMTP id 5B7NaA0k1231699
+for <syjung@panocean.com>; Mon, 8 Dec 2025 12:59:17 +0900
+Authentication-Results: ppops.net;
+spf=pass smtp.mailfrom=chartering@varitasnavigation.com;
+dkim=permerror header.d=varitasnavigation.com header.s=default;
+dmarc=none
+Received: from vmi2441136.contaboserver.net (vmi2441136.contaboserver.net [94.136.184.46])
+by mx15-00a21a01.pphosted.com (PPS) with ESMTPS id 4avq4k11pc-1
+(version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=NOT);
+Mon, 08 Dec 2025 12:59:15 +0900 (JST)
+Received: from LAPTOPP6RKI9ML (unknown [103.39.29.144])
+by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id 1C86D6A039A;
+Mon,
+8 Dec 2025 04:59:02 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+d=varitasnavigation.com; s=default; t=1765166350;
+bh=7OqgasQjEsqGJlCqEZKdP54Y6iNH/X8CBOxIy8TNz6w=; h=From:Subject;
+b=LfCTaG9SGSmiK4eLmh9WjMpCA9fncilc5iElbQxG7Qgayz7RSeq50jYUpCL4fT2ZY
+1c6Fm+WbBZHUc036atkCbZBVoUyNe1BZXUXsozHbMw7Xp23xXQnBvIn0QxVwiO382c
+hrpxfM/b2KbxR95h1gA+KUeVtLCskFPlkJBKkefn5kpGb2QvyXbymJys6nUjCgNog/
+1kuGQAtB9OnznNpZWP1V7R5bXUmfdheJPD24EfbDi/CPO76ejZw12YGfMk1nF7nb8J
+enZp7dxs+kjcBX2oxxblxX+MrmImzb8i1FqWQcRt3KRnPf8w3W/znZ5lNfxbDr9v39
+K0qHp8oPP2FZA==
+Authentication-Results: vmi2441136.contaboserver.net;
+spf=pass (sender IP is 103.39.29.144) smtp.mailfrom=chartering@varitasnavigation.com smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is authenticated)
+From: <chartering@varitasnavigation.com>
+CC: \'Varitas Navigation\' <chartering@varitasnavigation.com>
+Subject: // ACC VARITAS NAVIGATION //
+Date: Mon, 8 Dec 2025 09:29:01 +0530
+Message-ID: <004801dc67f6$fffae240$fff0a6c0$@varitasnavigation.com>
+Content-Type: multipart/related;
+boundary="----=_NextPart_000_0049_01DC6825.19B31E40"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: Adxn9uknzLfIfslLRWyfyaKuWBkCFA==
+Content-Language: en-in
+X-Proofpoint-Reinject: loops=2 maxloops=12
+X-Proofpoint-Spam-Details-Enc: AW1haW4tMjUxMjA4MDAzMSBTYWx0ZWRfX8W6+UZ/up6lJ
+duoyf9vH92pET/3O3dPQu8w844V0CFSepFEyK90Boq3pk10qBQCZhGy0/H+TxOBBOTbOz3EpujO
+F1TzF9/uJvfKTsw+UFjbGZZ7CE5J/lZExuGo+iwhvThGCqtiNDg096rU/7yDNnVimSppVOtHYKX
+G9/9nGsmA65zR7mgV78Dwrxb3cq+LIF3IJeS+qaKgcMTPGy6wMh9FMM7Y/jaOqhLNhsMT9NOiLc
+45h0AzLBIVFbCPspFNHodnWWiyfjFwNZo+Sj/ZyCa71wVE8Cnm+LCJeIeMIdp9VHx4+xFimTflz
+9gLTeuPyH70xyIZ649YtvCvI3ty0QDG01/MyKZ8HmEt1ksoontMJ7pjZZ17ctljMMYcdA2jzGC9
+cB7Rp0KqBJYA0qb7D7vZzKVnwNMQiHMz/2A9rz1ciZlPV+1GdN/wApDIb9ZwXkecdWS+JY/m
+X-Authority-Analysis: v=2.4 cv=OJ4qHCaB c=1 sm=1 tr=0 ts=69364d13 cx=c_pps
+a=a2L27X08DrsW7Gl1fr8Nyg==:117 a=a2L27X08DrsW7Gl1fr8Nyg==:17
+a=9cW_t1CCXrUA:10 a=wP3pNCr1ah4A:10 a=lhxKWO7NBQwA:10
+a=Kan8h273Bse8B8Jy5C1n:22 a=DAwyPP_o2Byb1YXLmDAA:9 a=uokc_rqLAAAA:8
+a=69EAbJreAAAA:8 a=M6kMhhgO-7srsIObo_QA:9 a=lqcHg5cX4UMA:10 a=CjuIK1q_8ugA:10
+a=yMhMjlubAAAA:8 a=SSmOFEACAAAA:8 a=YN7i_lE5AqdCUcVqMecA:9
+a=Xad1AWXXkSHsTTSF:21 a=gKO2Hq4RSVkA:10 a=UiCQ7L4-1S4A:10 a=hTZeC7Yk6K0A:10
+a=frz4AuCg-hUA:10 a=KQqxNPgzF0kA:10 a=VEiTNn8F7TgA:10
+a=qphlc2XyTbtajDbVZ5CL:22
+X-Proofpoint-ORIG-GUID: -p3NQcQ4oP4m_zleRx_Wdf47SRZL5chS
+X-CLX-Response: 1TFkXGx0cEQpMehcaEQpZRBdmWV9+GxxZfHBjYREKWFgXY0RlHlt/Hm0dU30
+RCnhOF2N8fn1rTRt7GXIZEQp5TBdmXWN5HxtYYE9IfhEKQ0gXBxIdEQpDWRcHGx4bEQpDSRcaBB
+oaGhEKWU0XZ2ZyEQpZSRcacRoQGncGGx8ccRkfEBp3BhgaBhoRClleF2hjeREKSUYXWktERUlPS
+0R1QkVZXk9OEQpJRxd4T00RCkNOFwdaGWR7SXseRXoeR3VQRk94UnV9TkweHXl4cGYfSUJ5EQpY
+XBcfBBoEHhsaBRsaBBsbGgQbGR4EGRkQGx4aHxoRCl5ZF01LBW1cEQpNXBcZGhwRCkxaF2lrQ01
+NQhEKTEYXaREKQk8XelBFRx9MQGd7Rx8RCkNaFxMeBBsZHAQbEh4EHhwRCkJeFxsRCkRYFxsSEQ
+pEXhcaEQpESRcbEQpCRRdhHxsZX1laXEVgUhEKQk4XY3x+fWtNG3sZchkRCkJMF2NEZR5bfx5tH
+VN9EQpCbBdjRGUeW38ebR1TfREKQkAXYUVybWRQGl5zWHMRCnlDF2FgSUhtH1BTc2ZCEQpZSxcZ
+GhwRCnBnF25uU2cfXUNIBXt+EBkaEQpwaBdrY39wQhJNAQEYZBAZGhEKcGgXZlptWGJ5ZkV4HxM
+QGRoRCnBoF2BTfW1QGlJpcl9mEBkaEQpwaBdrUk5raWxCZ0NCSBAZGhEKcGgXZFJgZHAcf1lea2
+AQGRoRCnBoF2ETfhpkWHpOZx95EBkaEQpwaBdpYxsdcnlsW0JrUxAZGhEKcGgXbWN7GFtJGV9sB
+VkQGRoRCnBnF2IYYFxpfxpYZVhoEBMZEQpwYxdrZ1xjYkZZfUccUBAZGhEKcEMXYGtOYBhOfU5N
+YkgQGRoRCm1+FxoRClhNF0sRIA==
+X-Proofpoint-GUID: -p3NQcQ4oP4m_zleRx_Wdf47SRZL5chS
+X-CLX-Shades: MLX
+MIME-Version: 1.0
+X-Proofpoint-Virus-Version:
+X-Proofpoint-Spam-Details: rule=inbound_notspam policy=inbound score=0
+adultscore=0 bulkscore=0 spamscore=0 malwarescore=0 suspectscore=0
+impostorscore=0 clxscore=176 phishscore=0 lowpriorityscore=0 priorityscore=0
+classifier=typeunknown authscore=0 authtc= authcc= route=inbound adjust=0
+reason=mlx scancount=2 engine=8.22.0-2510240001 definitions=main-2512080031
+domainage_hfrom=306
+Return-Path: chartering@varitasnavigation.com
+Dear All,
+Good day.
+// FULLY FIRM //
+ACC VARITAS NAVIGATION
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons.
+Load port: Tianjin, China
+Discharge port: Shuaiba, Kuwait.
+Load rate: CQD
+Discharge: Liner out.
+Laycan 15-20th December 2025.
+As part cargo.
+2.5% Addcom
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com

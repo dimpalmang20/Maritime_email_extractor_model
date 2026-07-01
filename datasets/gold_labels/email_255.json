@@ -54,18 +54,14 @@
       "DECK CRANE 3 X 30MTS",
       "PREF BACK TO FAR EAST"
     ],
-    "tonnage_type": "TWEEN DECKER",
-    "port": "SINGAPORE",
-    "region": "FAR EAST",
-    "matching_region": "SEASIA",
-    "open_date": "2025-12-05",
-    "close_date": "2025-12-10",
-    "dwt": "17,528.86MT",
-    "tonnage_name": "WOOHYUN GREEN",
-    "pic": "LAKSHMAN SINGH RAWAT",
-    "email_id": "chartering@indosinogroup.com",
-    "phone_number": "00-91-9810827498",
     "latitude": null,
-    "longitude": null
+    "longitude": null,
+    "REGION": "FAR EAST",
+    "MATCHING_REGION": "SEASIA",
+    "OPEN_DATE": "2025-12-05",
+    "CLOSE_DATE": "2025-12-10",
+    "TONNAGE_TYPE": "TWEEN DECKER",
+    "EMAIL": "chartering@indosinogroup.com",
+    "PHONE": "00-91-9810827498"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "text": "From:\nCAFS - Tanker Desk <tanker@cafsgroup.com>\nSent:\nWednesday, 26 November 2025 10:38 AM\nTo:\nundisclosed-recipients:\nSubject:\nCARGO : LUBE : THAI-WCI-UAE\nATTN. CHARTERING DESK.\nPLEASE PROPOSE SUITABLE SPACE FOR BELOW CARGO.\nCARGO :2-3 GRADE OF BASE OIL (NO HEAT+1-1.5KT HEATED)\nQTTY  :6,000-7,000 MT\nLOAD  :2-SP SRIRACHA+RAYONG\nDISCH :1-2SP WCI A/O UAE\nL’CAN :END DEC /EARLY JAN\nWarm regards,\nShyam Tiwari\nCOAL AND FREIGHT SERVICES – TANKER DIVISION\n(M) +91 90813 48489\nwww.cafs-group.com\nas brokers only-\nThis e-mail may contain confidential and/or privileged information. If you are not the intended recipient (or have received this e-mail in error) please notify the sender immediately and destroy this e-mail. Any unauthorized copying, disclosure or distribution of the material in this e-mail is strictly forbidden.\n* All business conducted as per terms and conditions available on request or at\nhere\n.",
+  "entities": {
+    "LAYCAN": "2-3 GRA",
+    "CONTACT": "tanker@cafsgroup.com",
+    "EMAIL": "tanker@cafsgroup.com",
+    "PHONE": "+91 90813 48489\n",
+    "CARGO": "COAL",
+    "CARGO_TYPE": "Dry Bulk",
+    "TONNAGE_TYPE": "Tanker",
+    "EMAIL_TYPE": "VC",
+    "MIN_SIZE": "2025",
+    "MAX_SIZE": "90813",
+    "BROKER": "Shyam Tiwari",
+    "REGION": "ECI"
+  }
+}

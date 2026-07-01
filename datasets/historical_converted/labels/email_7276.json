@@ -1,0 +1,14 @@
+{
+  "text": "Dear Team,\nGood day!\nPlease find the attached cargo packing list.\nAlso find below voyage order:\nCharterers : SCL Shipping Services LLC\nPort of Loading (POL): Kuwait\nPort of Discharge (POD): Mtwara\nLaycan: 23rd – 31st December 2025\nCargo Quantity: Approx. 27217 CBM\nLoad/Discharge : CQD/CQD\nBrokerage/Commission: 1.25 PCT\nCargo Description: Machinery and industrial,\nOndeck/underdeck OO\n15% cargo is stackable.\nAwaiting the owners\\' response.\nBest Regards,\nARSHAD\nChartering Executive\nEmail :-\nchartering@sclines.co.in\nPhone:- +918928323127\nWeb :\nhttp://www.sclines.co.in\nSpecialization: Bulk,Break Bulk, Containerized Cargo, RORO & Project Cargo\nDubai Office:\nSCL Shipping Services LLC\nOffice No. 114, Al Reyami Furniture Building,\n30th Street, Umm Hurair Road, Karama, Dubai,\nPO Box No. 124399\n---------------------------------------------------\nMumbai Parent Office:\nSupreme Container Line\n703 – A Wing, Shree Nand Dham, Sector-11,\nNear ICICI Bank, CBD Belapur, Navi Mumbai - 400 614\nTelephone: +91 22 41275440/41/43",
+  "entities": {
+    "CONTACT": "chartering@sclines.co.in",
+    "EMAIL": "chartering@sclines.co.in",
+    "PHONE": "+918928323127\n",
+    "TONNAGE_TYPE": "Container",
+    "EMAIL_TYPE": "UNKNOWN",
+    "MIN_SIZE": "2025",
+    "MAX_SIZE": "918928",
+    "BROKER": "ARSHAD",
+    "REGION": "ECI"
+  }
+}

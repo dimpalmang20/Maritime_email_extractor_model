@@ -43,27 +43,18 @@
     "RESTRICTIONS": [
       "NON-GRABBER"
     ],
-    "tonnage_type": null,
-    "region": [
+    "latitude": null,
+    "longitude": null,
+    "REGION": [
       "Turkey"
     ],
-    "matching_region": null,
-    "open_date": "2025-12-04",
-    "close_date": null,
-    "tonnage_name": [
-      "SAFESEA SHAKTI"
-    ],
-    "pic": [
-      "Lars Petersen"
-    ],
-    "email_id": [
+    "OPEN_DATE": "2025-12-04",
+    "EMAIL": [
       "rieck-petersen@shipnet.de"
     ],
-    "phone_number": [
+    "PHONE": [
       "+49403500426",
       "+491724104872"
-    ],
-    "latitude": null,
-    "longitude": null
+    ]
   }
 }

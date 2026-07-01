@@ -1,0 +1,15 @@
+{
+  "text": "Dear Team,\nA/C: SCL Shipping Services LLC\nPOL: Karachi or Bin Qasim ( 1 SPA )\nPOD: Thilafushi ( 1 SPA )\nCargo: Bulk Sand\nQuantity: 12,000 MT\nLaycan: Spot\nTerms: FHEX/SHEX EIUNCL\nLoad/Disch Rates: 2,500 MT PWWD / 2,500 MT PWWD\nAdcomm: 2.5%\nFRT INDICATION: USD 16.5/w/m\nYour prompt response will be highly appreciated.\nBest Regards,\nARSHAD\nChartering Executive\nEmail :-\nchartering@sclines.co.in\nPhone:- +918928323127\nWeb :\nhttp://www.sclines.co.in\nSpecialization: Bulk,Break Bulk, Containerized Cargo, RORO & Project Cargo\nSupreme Container Line\n703 – A Wing, Shree Nand Dham, Sector-11,\nNear ICICI Bank, CBD Belapur, Navi Mumbai - 400 614\nTelephone: +91 22 41275440/41/43",
+  "entities": {
+    "CONTACT": "chartering@sclines.co.in",
+    "EMAIL": "chartering@sclines.co.in",
+    "PHONE": "+918928323127\n",
+    "CARGO": "Bulk Sand",
+    "TONNAGE_TYPE": "Container",
+    "EMAIL_TYPE": "UNKNOWN",
+    "MIN_SIZE": "2500",
+    "MAX_SIZE": "918928",
+    "BROKER": "ARSHAD",
+    "REGION": "ECI"
+  }
+}

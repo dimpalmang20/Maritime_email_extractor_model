@@ -46,18 +46,13 @@
       "A60 BULKHEAD",
       "AWWF HOLD LADDER FITTED"
     ],
-    "tonnage_type": "BULK CARRIER",
-    "port": "COTONOU",
-    "region": "WAF",
-    "matching_region": null,
-    "open_date": "2025-12-01",
-    "close_date": "2025-12-05",
-    "dwt": "37,693 MTS",
-    "tonnage_name": "CS SARAFINA",
-    "pic": "Lars Petersen",
-    "email_id": "rieck-petersen@shipnet.de",
-    "phone_number": "+49403500426",
     "latitude": null,
-    "longitude": null
+    "longitude": null,
+    "REGION": "WAF",
+    "OPEN_DATE": "2025-12-01",
+    "CLOSE_DATE": "2025-12-05",
+    "TONNAGE_TYPE": "BULK CARRIER",
+    "EMAIL": "rieck-petersen@shipnet.de",
+    "PHONE": "+49403500426"
   }
 }

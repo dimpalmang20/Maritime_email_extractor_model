@@ -44,18 +44,13 @@
       "GRABS 4 X 15 CBM",
       "PREF DIR MED/CONT"
     ],
-    "tonnage_type": "SD/BC",
-    "port": "INCHON",
-    "region": "MED/CONT",
-    "matching_region": null,
-    "open_date": "2025-11-25",
-    "close_date": "2025-11-30",
-    "dwt": "63,408.4 MTS",
-    "tonnage_name": "MANA",
-    "pic": "Lars Petersen",
-    "email_id": "rieck-petersen@shipnet.de",
-    "phone_number": "+49403500426",
     "latitude": null,
-    "longitude": null
+    "longitude": null,
+    "REGION": "MED/CONT",
+    "OPEN_DATE": "2025-11-25",
+    "CLOSE_DATE": "2025-11-30",
+    "TONNAGE_TYPE": "SD/BC",
+    "EMAIL": "rieck-petersen@shipnet.de",
+    "PHONE": "+49403500426"
   }
 }

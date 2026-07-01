@@ -1,0 +1,90 @@
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com
+From:
+postmaster@DaelimCloud.com <postmaster@DaelimCloud.com>
+Sent:
+26 November 2025 11:16
+To:
+chartering@varitasnavigation.com
+Subject:
+Undeliverable: ACC VARITAS NAVIGATION
+Delivery has failed to these recipients or groups:
+kmchoi@daelimcorp.co.kr
+The email address you entered couldn\'t be found. Please check the recipient\'s email address and try to resend the message. If the problem continues, please contact your email admin.
+Diagnostic information for administrators:
+Generating server: dagwmx01pc.DaelimCloud.com
+kmchoi@daelimcorp.co.kr
+Remote Server returned \'550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup\'
+Original message headers:
+Received: from dagwmx04pc.DaelimCloud.com (10.197.2.7) by
+dagwmx01pc.DaelimCloud.com (10.197.2.4) with Microsoft SMTP Server
+(version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+15.2.1748.36; Wed, 26 Nov 2025 14:46:01 +0900
+Received: from MDS1 (10.12.1.161) by dagwmx04pc.DaelimCloud.com (10.197.2.7)
+with Microsoft SMTP Server id 15.2.1748.36 via Frontend Transport; Wed, 26
+Nov 2025 14:46:01 +0900
+Received: from smtp2.daelimcloud.com ( [203.226.18.33])
+by MDS1 ((AhnLab MDS-MTA) [3.0.54])
+with ESMTP id <056101dc5e97$ca9a8870$5fcf9950$@varitasnavigation.com>
+; Wed, 26 Nov 2025 14:44:52 +0900
+Received: from unknown (HELO vmi2441136.contaboserver.net) (94.136.184.46)
+by 203.226.18.33 with ESMTP; 26 Nov 2025 14:45:02 +0900
+X-Original-SENDERIP: 94.136.184.46
+X-Original-SENDERCOUNTRY: IN, India
+X-Original-MAILFROM: chartering@varitasnavigation.com
+Received: from LAPTOPP6RKI9ML (unknown [115.69.252.202])
+by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id 034E66A0A8A;
+Wed, 26 Nov 2025 06:44:53 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+d=varitasnavigation.com; s=default; t=1764135900;
+bh=rLHsBHyQakQfW8jJ+pe3xA5JoV32s9dYNkGtdp/zsyo=; h=From:Subject;
+b=f62IWBr8YI+3oNhwblM6AYqJzHiVtzXqEJPENymIAvAaadnUoFV/XPqG4txwgaqss
+xe6/85YaOPuPtHV9cs+xRkrjaC5Qk4RpyHWgsFx5ZAUc+FDxTgAXW/bevdHmz/RjNe
+TS+WaTXrRRV1lkHNMHXO7GZ3KEoil0/1ltnoxRVe89maV1PYT83JmnFP5d9A+6LTCR
+84gZlst6NOX4EJRo4vGlNWfpHl/rco4wG211LdLfB4/onBOT9Rxsh9g9m4xFa5bNxu
+0rVStsK04NLEzqeyGIE12D36EPMS/mQPGDAk36MdLe0Y/i283mckCXOIAXefWu4CA6
+PHJzHimXV28Yw==
+Authentication-Results: vmi2441136.contaboserver.net;
+spf=pass (sender IP is 115.69.252.202) smtp.mailfrom=chartering@varitasnavigation.com smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is authenticated)
+From: <chartering@varitasnavigation.com>
+CC: \'Varitas Navigation\' <chartering@varitasnavigation.com>
+Subject: ACC VARITAS NAVIGATION
+Date: Wed, 26 Nov 2025 11:14:51 +0530
+Message-ID: <056101dc5e97$ca9a8870$5fcf9950$@varitasnavigation.com>
+MIME-Version: 1.0
+X-WB-RES: NotUse
+X-WB-TRACE-IP: 203.226.18.33
+Content-Type: multipart/related;
+boundary="----=_NextPart_000_0562_01DC5EC5.E4531290"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: Adxel8hyFrJ9HIIZQhiGlQc3bXC0XA==
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+Dear All,
+Good day.
+// FULLY FIRM // CAN FIX WITH SHORT SUBS.
+ACC VARITAS NAVIGATION
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons.
+Load port: Tianjin, China
+Discharge port: Shuaiba, Kuwait.
+Load rate: CQD
+Discharge: Liner out.
+Laycan 15-20th December 2025.
+As part cargo.
+2.5% Addcom
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com

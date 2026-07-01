@@ -1,0 +1,179 @@
+DSN
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com
+From:
+postmaster@cpcclimited.com <postmaster@cpcclimited.com>
+Sent:
+27 November 2025 10:32
+To:
+chartering@varitasnavigation.com
+Subject:
+Undeliverable: // ACC VARITAS NAVIGATION //
+Your message to
+trading@cpcclimited.com
+couldn\'t be delivered.
+A custom mail flow rule created by an admin at
+cpcclimited.com
+has blocked your message.
+Atten: The Company has been closed and the Domain is no more available
+chartering
+Office 365
+cpcclimited.com
+Sender
+Action Required
+Blocked by mail flow rule
+How to Fix It
+An email admin at cpcclimited.com has created a custom mail flow rule that blocks messages that meet certain conditions, and it appears that your message has met one or more of those conditions.
+·
+Check the text above for a custom message from the email admin that may help explain why your message was blocked and how you might be able to fix it. For example, removing prohibited words from the message or sending the message from a different email account may be sufficient to deliver your message.
+If you\'ve tried and you\'re still not able to fix the problem, consider contacting the email admin at cpcclimited.com to discuss what to do. While they\'re unlikely to remove or relax the rule, if you have a legitimate need to deliver your message they may offer guidance for how to do so.
+More Info for Email Admins
+Status code: 550 5.7.1_ETR
+This error occurs because an email admin at cpcclimited.com has created a custom mail flow rule that has blocked the sender\'s message.
+In some cases, the sender can change the message so it no longer violates the rule. However, depending on the rule\'s conditions, it\'s possible that the only way to deliver the message is to change the rule itself, and only an email admin at cpcclimited.com can do that. Although it\'s possible the rule is unintentionally flawed or it\'s stricter than the admin intended, it may be working exactly as they want it to.
+Original Message Details
+Created Date:
+27/11/2025 5:01:53 am
+Sender Address:
+chartering@varitasnavigation.com
+Recipient Address:
+trading@cpcclimited.com
+Subject:
+// ACC VARITAS NAVIGATION //
+Error Details
+Error:
+550 5.7.1 TRANSPORT.RULES.RejectMessage; the message was rejected by organization policy
+Message rejected by:
+DX5P273MB1930.AREP273.PROD.OUTLOOK.COM
+Notification Details
+Sent by:
+DX5P273MB1930.AREP273.PROD.OUTLOOK.COM
+Message Hops
+HOP
+TIME (UTC)
+FROM
+TO
+WITH
+RELAY TIME
+1
+27/11/2025
+5:01:53 am
+LAPTOPP6RKI9ML
+vmi2441136.contaboserver.net
+ESMTPSA
+*
+2
+27/11/2025
+5:02:08 am
+vmi2441136.contaboserver.net
+AU2PEPF00000014.mail.protection.outlook.com
+Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)
+15 sec
+3
+27/11/2025
+5:02:09 am
+AU2PEPF00000014.AREP273.PROD.OUTLOOK.COM
+AU2P273CA0009.outlook.office365.com
+Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)
+1 sec
+4
+27/11/2025
+5:02:09 am
+AU2P273CA0009.AREP273.PROD.OUTLOOK.COM
+DX5P273MB1930.AREP273.PROD.OUTLOOK.COM
+Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)
+*
+Original Message Headers
+Received: from AU2P273CA0009.AREP273.PROD.OUTLOOK.COM (2603:1086:200:8::21) by
+DX5P273MB1930.AREP273.PROD.OUTLOOK.COM (2603:1086:300:b6::11) with Microsoft
+SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+15.20.9366.14; Thu, 27 Nov 2025 05:02:09 +0000
+Received: from AU2PEPF00000014.AREP273.PROD.OUTLOOK.COM
+(2603:1086:200:8:cafe::e8) by AU2P273CA0009.outlook.office365.com
+(2603:1086:200:8::21) with Microsoft SMTP Server (version=TLS1_3,
+cipher=TLS_AES_256_GCM_SHA384) id 15.20.9366.14 via Frontend Transport; Thu,
+27 Nov 2025 05:02:09 +0000
+Authentication-Results: spf=pass (sender IP is 94.136.184.46)
+smtp.mailfrom=varitasnavigation.com; dkim=fail (no key for signature)
+header.d=varitasnavigation.com;dmarc=bestguesspass action=none
+header.from=varitasnavigation.com;
+Received-SPF: Pass (protection.outlook.com: domain of varitasnavigation.com
+designates 94.136.184.46 as permitted sender)
+receiver=protection.outlook.com; client-ip=94.136.184.46;
+helo=vmi2441136.contaboserver.net; pr=C
+Received: from vmi2441136.contaboserver.net (94.136.184.46) by
+AU2PEPF00000014.mail.protection.outlook.com (10.167.240.37) with Microsoft
+SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9366.7
+via Frontend Transport; Thu, 27 Nov 2025 05:02:08 +0000
+Received: from LAPTOPP6RKI9ML (unknown [49.43.33.59])
+by vmi2441136.contaboserver.net (Postfix) with ESMTPSA id A74306A0A74;
+Thu, 27 Nov 2025 06:01:53 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+d=varitasnavigation.com; s=default; t=1764219726;
+bh=hA/4daQfGHW16drNffu2/sATeQ8peKtVjYE8MpPc3DM=; h=From:Subject;
+b=ld9qc/rco0Y/1va4zUX/qYEjFQ2KqcvBeMKnGLtdWChEf01Po70MmuqfFuMHlI412
+cWN1G5YDT42bTeq4Ac7RYU7Sa62YjW1Fe2tXmdxgO/xa6fGAwUYCCSd30iGfthNNKI
+wAj4OJ/PNiSbysfV+CzoF/IV7Svc+JwqnI+sVvRqx2yej6+bmJVNx3DAPdy25ModG0
+cGRLETnrNzbW9Cxf/aqUvsXndqFSRHZKVjB6lnXU+uyVrUd1dnJaEULrdQjFu8V5Az
++9sFClIwbMY7CNfNYFPJhk0tlyv/ihow6E3kquyYraRoJIejcnSf5auUXVxm0SsmG7
+ll6E/iEa396rA==
+Authentication-Results-Original: vmi2441136.contaboserver.net;
+spf=pass
+(sender IP is 49.43.33.59) smtp.mailfrom=chartering@varitasnavigation.com
+smtp.helo=LAPTOPP6RKI9ML
+Received-SPF: pass (vmi2441136.contaboserver.net: connection is authenticated)
+From: <chartering@varitasnavigation.com>
+CC: "\'Varitas Navigation\'" <chartering@varitasnavigation.com>
+Subject: // ACC VARITAS NAVIGATION //
+Date: Thu, 27 Nov 2025 10:31:53 +0530
+Message-ID: <07be01dc5f5a$f71d9a40$e558cec0$@varitasnavigation.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+boundary="----=_NextPart_000_07BF_01DC5F89.10D5D640"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdxfWm62SQSfnG+ESyy/tANqHYFcnA==
+Content-Language: en-in
+Return-Path: chartering@varitasnavigation.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 39bd0367-3271-4901-a0dd-c10b9b89a5fd:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AU2PEPF00000014:EE_|DX5P273MB1930:EE_
+X-MS-Office365-Filtering-Correlation-Id: e451deaf-bc9b-4751-2788-08de2d721e11
+Dear All,
+Good day.
+// FULLY FIRM // HOT TO FIX //
+ACC VARITAS NAVIGATION
+3000 mt +/- 10% MOLOO semicoke in jumbo bags SF 1.8-2.0.
+Bag Size: 1.2X1.2X1.24 m, u/w 0.95 -1 tons.
+Load port: Tianjin, China
+Discharge port: Shuaiba, Kuwait.
+Load rate: CQD
+Discharge: Liner out.
+Laycan 15-20th December 2025.
+As part cargo.
+2.5% Addcom
+22)
+Acc Varitas Navigation
+Min/ Max 15000 mts urea in bulk
+Load port Tianjin
+Discharge port Colombo
+Load Rate 1500 per hook SHINC
+Discharge Rate 1000 per hook SHEX EIU.
+Laycan 10/15
+th
+December 2025.
+2.5% Addcom.
+Best Regards:
+MR. DEEPESH MAJIGAMKAR
+Mob:- + 91 9730358718 (whatsapp) // +91 9156366155
+Teams/Skype:deepeshmajigamkar@hotmail.com
+Email:
+chartering@varitasnavigation.com
+Website:-
+www.varitasnavigation.com

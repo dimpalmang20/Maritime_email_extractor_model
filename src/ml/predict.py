@@ -2,6 +2,8 @@
 import sys
 import json
 import os
+import traceback
+from pathlib import Path
 
 # Suppress Hugging Face text walls
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
@@ -13,6 +15,7 @@ def main():
     try:
         # 1. Read raw text sent from TypeScript
         email_text = sys.stdin.read()
+
         
         # 2. Get Machine Learning Predictions
         ml_predictions = extract_entities(email_text)
@@ -75,10 +78,13 @@ def main():
 
     except Exception as e:
         # If anything breaks, send the error back inside a JSON format
+        traceback_text = traceback.format_exc()
+        print(f"[predict] EXCEPTION: {traceback_text}", file=sys.stderr)
         error_response = {
             "DEBUG_INFO": {
                 "status": "ERROR",
-                "error_msg": str(e)
+                "error_msg": str(e),
+                "traceback": traceback_text
             },
             "PURE_REGEX_OUTPUT": {},
             "PURE_ML_OUTPUT": {},

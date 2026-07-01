@@ -1,0 +1,13 @@
+{
+  "text": "WITHMARE CO., LTD,\nTEL : +82 2 6956 0788\nE-MAIL :\nfix@withmare.com\nHJ KIM : M) +82 10 4819 3649 / (Wechat & Teams) : kimhyunjik\n==============================================\n---- / HJ\nPLS PROPOSE SUITABLE TONNAGE FOR BELOW FIRM ORDER ;\nSAMJOO\n18K/23K SDBC, MAX 20YRS, GEARD MIN 20T\nDELY APS HOCHIMINH\nL/CAN 01ST – 04TH FEB 2026\n1 TCT WITH DUR ABT 40/50 DAYS WOG\nREDELY 1SP S.KOREA\n3.75PCT ADC\nBEST REGARDS / HJ",
+  "entities": {
+    "CONTACT": "fix@withmare.com",
+    "EMAIL": "fix@withmare.com",
+    "PHONE": "+82 2 6956 0788\n",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "2026",
+    "MAX_SIZE": "6956",
+    "DURATION": "50",
+    "DEL_PORT": "APS HOCHIMINH"
+  }
+}

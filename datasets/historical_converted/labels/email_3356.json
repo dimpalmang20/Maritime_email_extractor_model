@@ -1,0 +1,17 @@
+{
+  "text": "WITHMARE CO., LTD,\nTEL : +82 2 6956 0788\nE-MAIL :\nfix@withmare.com\nHJ KIM : M) +82 10 4819 3649 / (Wechat & Teams) : kimhyunjik\n==============================================\n---- / HJ\nSEA NET\nSMX-UMX / MIN 30MT GEARS / MAX 20YRS\nDEL TO MAKE CIGADING\nLAYCAN 16-18 JAN\nREDEL 1SP CONTI, VIA COGH\nDUR ABT 70-80DAYS WOG\nSTEEL COIL 25MT X 2 TIERS\nBEST REGADRS / HJ",
+  "entities": {
+    "LAYCAN": "16-18 JAN",
+    "CONTACT": "fix@withmare.com",
+    "EMAIL": "fix@withmare.com",
+    "PHONE": "+82 2 6956 0788\n",
+    "CARGO": "STEEL",
+    "CARGO_TYPE": "General Cargo",
+    "EMAIL_TYPE": "UNKNOWN",
+    "MIN_SIZE": "3649",
+    "MAX_SIZE": "6956",
+    "LAYCAN_START": "16",
+    "LAYCAN_END": "18",
+    "DURATION": "80"
+  }
+}

@@ -35,21 +35,14 @@
     "RESTRICTIONS": [
       "Sanctions restricting Russia oil flows"
     ],
-    "tonnage_type": null,
-    "region": [
+    "latitude": null,
+    "longitude": null,
+    "REGION": [
       "Black Sea",
       "Baltic Sea"
     ],
-    "matching_region": null,
-    "open_date": null,
-    "close_date": null,
-    "tonnage_name": null,
-    "pic": null,
-    "email_id": [
+    "EMAIL": [
       "carolina@nauticalsupply.co.uk"
-    ],
-    "phone_number": null,
-    "latitude": null,
-    "longitude": null
+    ]
   }
 }

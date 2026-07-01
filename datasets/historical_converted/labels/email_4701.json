@@ -1,0 +1,16 @@
+{
+  "text": "Dear Sir/Helina\nGood day, pls kindly pps suitable vsl for flwg biz:\nacct: hanson\nhdy-umx,max 20 YO\ndely CJK-north china range\nlycan 5th-8th Jan,2025\nfor one tct with general cgo to usg/usec,can try period\ndeck loading needed\n3*10mt coils\n3.75add\nada\nPLS CC TO chartering@hansoncarriers.com  FOR SAFE RECEIPT.\nThanks & Best Regards\nHelina Yang\nHanson Carriers Pte Ltd.\nas agent only\nEmail:\nchartering@hansoncarriers.com\nMobile Phone / Wechat/Whatsapp: +86 18321327992\nTeams:yangziqi20@163.com",
+  "entities": {
+    "CONTACT": "chartering@hansoncarriers.com",
+    "EMAIL": "chartering@hansoncarriers.com",
+    "PHONE": "+86 18321327992\n",
+    "CARGO": "COILS",
+    "CARGO_TYPE": "General Cargo",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "2025",
+    "MAX_SIZE": "183213",
+    "BROKER": "Helina Yang",
+    "DEL_PORT": "CJK",
+    "REGION": "CHINA"
+  }
+}

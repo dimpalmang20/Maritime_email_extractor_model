@@ -1,0 +1,15 @@
+{
+  "text": "WITHMARE CO., LTD,\nTEL : +82 2 6956 0788\nE-MAIL :\nfix@withmare.com\nHJ KIM : M) +82 10 4819 3649 / (Wechat & Teams) : kimhyunjik\n==============================================\n--- / HJ\n//FULLY BOOKED//\nA/C DOOYANG LIMITED\n- SMX/UMX SDBC\n- HARMLESS CARGO\n- LAYCAN 27-30/JAN 2026\n- DELY TO F.EAST (INT. YEOSU)\n- RDLY TO PHIL\n- 1 TCT OR 2/3 LEGS INCL. SP\n- ADCOMM 3.75%\nBEST REGARDS / HJ",
+  "entities": {
+    "CONTACT": "fix@withmare.com",
+    "EMAIL": "fix@withmare.com",
+    "PHONE": "+82 2 6956 0788\n",
+    "CARGO": "LAYCAN 27-30/JAN 2026",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "2026",
+    "MAX_SIZE": "6956",
+    "LAYCAN_START": "27",
+    "LAYCAN_END": "30",
+    "DEL_PORT": "TO F"
+  }
+}

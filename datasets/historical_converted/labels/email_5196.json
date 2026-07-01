@@ -1,0 +1,18 @@
+{
+  "text": "WITHMARE CO., LTD,\nTEL : +82 2 6956 0788\nE-MAIL :\nfix@withmare.com\nHJ KIM : M) +82 10 4819 3649 / (Wechat & Teams) : kimhyunjik\n==============================================\n--- / HJ\nSAMMOK SHIPPING\nHANDY (DWT 25K – 35K)\nDELY F.E.ASIA\nLAYCAN 25-30\nTH\nDEC. 2025\nREDELY BLACK SEA\n1 TCT WITH H’LESS CGO (INT. FERT)\nDUR ABT 50-70 DAYS WOG\nADD COMM 3.75PCT\nNYPE CP DETAILS\nBEST REGARDS / HJ",
+  "entities": {
+    "LAYCAN": "50-70 DAY",
+    "CONTACT": "fix@withmare.com",
+    "EMAIL": "fix@withmare.com",
+    "PHONE": "+82 2 6956 0788\n",
+    "DWT": "25",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "2025",
+    "MAX_SIZE": "6956",
+    "LAYCAN_START": "25",
+    "LAYCAN_END": "30",
+    "DURATION": "70",
+    "DEL_PORT": "BLACK SEA",
+    "REGION": "BLACK SEA"
+  }
+}

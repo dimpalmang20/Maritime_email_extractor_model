@@ -1,0 +1,16 @@
+{
+  "text": "FROM TU OH / CARIS OCEAN CO., LTD\n(822)7304593 FAX (822)7304570 MOB (8210)94462296\nGOOD DAY!\nPLEASE KINDLY PROPOSE SUITABLE VESSEL FOR BELOW\nFULLY\nFIRM\nORDER\nAA)\nACCT PAN OCEAN CO., LTD\n1TC  (ABT 30 DAYS WOG)\nSMX -  UMX\n(MAX 15 YEARS, TRY 20 YRS)\nDELY 1SP\nPG\n( INT.\nRAS AL KHAIR\n)\nL/C –\n18 – 20 JAN, 2026\nCGO : HARMLESS\nDAP IN BULK\nREDELY 1SP\nWCI\nor\nECI\n(INT. MUNDRA RANGE OR VIZAG RANGE)\n3.75 ADDCOM PUS\nBB)\nPANOCEAN CO., LTD.\nDWT\nSMX\n– UMX (AMSA COMPLIANT/MAX 15 YRS)\n1TCT\nCOAL\nIN BULK TO\nF.EAST\nDELY TO\nNEWCASTLE, AUSTRALIA\nLAYCAN\n2\n0\n–\n25\nJAN\n, 2026\n3.75% ADD COMM PUS\nB.RGDS/TU OH\nmail@carisocean.com\n(for Chartering)\nops@carisocean.com\n(for Post Fixtures)\nTeams: OH TU – Caris Ocean (for chating only)",
+  "entities": {
+    "CONTACT": "mail@carisocean.com",
+    "EMAIL": "mail@carisocean.com",
+    "PHONE": "94462296\n",
+    "CARGO": "COAL",
+    "CARGO_TYPE": "Dry Bulk",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "2026",
+    "MAX_SIZE": "944622",
+    "DURATION": "30",
+    "DEL_PORT": "TO",
+    "REGION": "ECI"
+  }
+}

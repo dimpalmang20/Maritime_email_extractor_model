@@ -1,0 +1,20 @@
+{
+  "text": "Thanks and Regards,\nMs. Eleanor Rodriguez\nOperations Executive\nSobha Sapphire Bldg. Office No. 906 Business Bay, P.O. Box 123175, Dubai United Arab Emirates\nTel: (+9714) 434 1628 l Fax: (+9714) 434 1629 l Mobile/Whatsapp: (+97150) 456 9584\nTeams:\n⁠\nTransbulk5\nWeChat: TransbulkOps_Eleanor\nEmail:\noperations@transbulk.ae\n|\ntransblk@eim.ae\nWebsite:\nhttp://www.transbulk.ae\nFrom:\nBelnav Chartering <chartering@belnav.gr>\nSent:\nWednesday, 26 November 2025 10:51 AM\nSubject:\nMV SEABRILLIANCE 209.471 DWT -TAICANG 30 Nov\nMsg Ref:381476   Date:26/11/2025 08:48\nBELNAV INC, Agia Paraskevi (Athens), Greece.\nE-mail: chartering@belnav.gr, Tel:+30 210 6084730,1,2,3\nATTN CHARTERING DPT\nGOOD DAY\nPLEASE PROPOSE FOR OUR CLOSE /DIR LADY\nMV SEABRILLIANCE -TAICANG 30 Nov\n2020/ 209,471 DWT\nPLEASED TO HEAR\nTHANK YOU / BEST REGARDS\nOur Chartering Team\n(Aris - Giannis - Artemis\nKonstantinos - Fanis)",
+  "entities": {
+    "VESSEL": "MV SEABRILLIANCE",
+    "DWT": "209471",
+    "CONTACT": "operations@transbulk.ae",
+    "EMAIL_TYPE": "TONNAGE",
+    "OPEN_PORT": "Taicang",
+    "OPEN_DATE": "2025-11-30",
+    "CLOSE_DATE": "2025-12-05",
+    "TONNAGE_TYPE": "Bulk Carrier",
+    "BROKER": "Aris - Giannis - Artemis Konstantinos - Fanis",
+    "EMAIL": "chartering@belnav.gr",
+    "PHONE": "+30 210 6084730",
+    "CARGO": "DRI",
+    "CARGO_TYPE": "Dry Bulk",
+    "MIN_SIZE": "1628",
+    "MAX_SIZE": "608473"
+  }
+}

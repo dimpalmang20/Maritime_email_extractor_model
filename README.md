@@ -43,7 +43,8 @@ models/
     ├── model.safetensors
     ├── tokenizer.json
     ├── tokenizer_config.json
-    └── special_tokens_map.json
+    ├── special_tokens_map.json
+    └── vocab.txt
 ```
 
 ---
@@ -108,19 +109,51 @@ Invoke-RestMethod `
 
 This executes:
 
+```
 Raw Email
-↓
+    ↓
 Regex Engine
-↓
-DistilBERT Model
-↓
+    ↓
+DistilBERT Maritime NER
+    ↓
 Merge Engine
-↓
+    ↓
 Final JSON Output
+```
 
 ---
 
-## 9. Generate Training Dataset
+## 9. Process Entire Email Dataset
+
+To extract structured data from all emails inside:
+
+```text
+datasets/raw_emails/
+```
+
+Run:
+
+```bash
+node scripts/process_all_emails.js
+```
+
+The script will:
+
+- Read every email from `datasets/raw_emails/`
+- Run the complete Hybrid Extraction Pipeline
+- Automatically resume if interrupted
+- Save progress every 50 emails
+- Generate:
+
+```text
+output/
+├── all_extracted_results.json
+└── extraction_summary.json
+```
+
+---
+
+## 10. Generate Training Dataset
 
 ```bash
 python scripts/create_ner_dataset.py
@@ -134,7 +167,7 @@ datasets/ner_train.jsonl
 
 ---
 
-## 10. Normalize Labels
+## 11. Normalize Labels
 
 ```bash
 python scripts/normalize_labels.py
@@ -148,7 +181,7 @@ datasets/ner_train_clean.jsonl
 
 ---
 
-## 11. Check Dataset Statistics
+## 12. Check Dataset Statistics
 
 ```bash
 python scripts/count_labels_final.py
@@ -158,7 +191,7 @@ Displays entity counts for all maritime labels.
 
 ---
 
-## 12. Train DistilBERT Maritime NER
+## 13. Train DistilBERT Maritime NER
 
 ```bash
 python src/ml/train_distilbert_ner.py
@@ -184,7 +217,7 @@ Current Dataset Size:
 
 ---
 
-## 13. Training on Google Colab (Recommended)
+## 14. Training on Google Colab (Recommended)
 
 For faster training:
 
@@ -226,7 +259,7 @@ inside the project.
 
 ---
 
-## 14. Git Workflow
+## 15. Git Workflow
 
 After modifications:
 
@@ -252,7 +285,7 @@ working tree clean
 
 ---
 
-## 15. Expected Pipeline Flow
+## 16. Expected Pipeline Flow
 
 ```text
 Raw Maritime Email

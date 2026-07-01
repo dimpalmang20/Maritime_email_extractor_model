@@ -1,0 +1,16 @@
+{
+  "text": "TCT ORDERS - HOT TO FIX (WOOHYUN SHIPPING / KOREA)\nWITHMARE CO., LTD,\nTEL : +82 2 6956 0788\nE-MAIL :\nfix@withmare.com\nHJ KIM : M) +82 10 4819 3649 / (Wechat & Teams) : kimhyunjik\n==============================================\n--- / HJ\nACCT : WOOHYUN SHIPPING, KOREA\n33\n–\n45K (TRY BIGGER) SINGLE / MAX20YRS / GEARED MIN 30MT (PREFER BOXY)\nDELY APS INLAND SEA, JAPAN (TRY DOP)\nREDELY WCCA RANGE (INT\n’\nPUERTO QUETZAL)\nLAYCAN 21\nST\n–\n23\nRD\nJAN\n’\n(BSS LOADG PORT)\nONE TCT DUR ABT 40\n–\n60DAYS WOG WITH L\n’\nFUL/H\n’\nLESS UPTO FULL CAPA ( STEEL / G.CGOS )\nADD COMM 3.75%\nBEST REGARDS / HJ",
+  "entities": {
+    "CONTACT": "fix@withmare.com",
+    "EMAIL": "fix@withmare.com",
+    "PHONE": "+82 2 6956 0788\n",
+    "CARGO": "STEEL",
+    "CARGO_TYPE": "General Cargo",
+    "EMAIL_TYPE": "TC",
+    "MIN_SIZE": "3649",
+    "MAX_SIZE": "6956",
+    "DURATION": "60",
+    "DEL_PORT": "APS INLAND SEA",
+    "REGION": "JAPAN"
+  }
+}

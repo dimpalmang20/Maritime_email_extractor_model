@@ -47,29 +47,21 @@
     "RESTRICTIONS": [
       "GOA OK"
     ],
-    "tonnage_type": [
-      "Geared Single Deck Bulk Carrier"
-    ],
-    "region": [
+    "latitude": null,
+    "longitude": null,
+    "REGION": [
       "Red Sea"
     ],
-    "matching_region": null,
-    "open_date": "2025-11-14",
-    "close_date": null,
-    "tonnage_name": [
-      "Valentina I"
+    "OPEN_DATE": "2025-11-14",
+    "TONNAGE_TYPE": [
+      "Geared Single Deck Bulk Carrier"
     ],
-    "pic": [
-      "Antoniya"
-    ],
-    "email_id": [
+    "EMAIL": [
       "chart@tns-shipping.com"
     ],
-    "phone_number": [
+    "PHONE": [
       "+35956841005",
       "+359899206688"
-    ],
-    "latitude": null,
-    "longitude": null
+    ]
   }
 }
