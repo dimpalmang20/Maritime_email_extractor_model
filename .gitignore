@@ -77,3 +77,32 @@ typings/
 
 # Logs
 *.log
+# ==========================
+# Models
+# ==========================
+models/
+
+# ==========================
+# Output
+# ==========================
+output/
+
+# ==========================
+# Large datasets
+# ==========================
+datasets/raw_emails/
+datasets/gold_raw/
+datasets/gold_labels/
+datasets/extracted_email_dump/
+datasets/historical_sql/
+datasets/historical_converted/
+
+# Large generated dataset files
+datasets/final_merged.jsonl
+datasets/ner_train_final.jsonl
+
+# Keep these files
+!datasets/cargo_tc_old.csv
+!datasets/cargo_vc_old.csv
+!datasets/tonnage_old.csv
+!datasets/train.jsonl
